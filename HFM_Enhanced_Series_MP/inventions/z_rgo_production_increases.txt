@@ -19,7 +19,7 @@ tractors = {
 		rgo_goods_output = { opium = 0.03 }
 		rgo_goods_output = { fruit = 0.03 }
 		rgo_goods_output = { cattle = 0.03 }
-		RGO_throughput = 0.5
+		RGO_throughput = 0.25
 	}
 }
 

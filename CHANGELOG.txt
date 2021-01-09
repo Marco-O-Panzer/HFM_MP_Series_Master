@@ -2,7 +2,8 @@ The HFM Enhanced Series
 #######################
 
 This mod is built on HFM V1.27I and HFM More Stuff V3.5 submod. Below are my changes.
-Infamy reduction depending on rank & healthcare changes inspired by Heirs to Aquitania, population size effects and LGLC tax moddifiers inspired by PDM Divide by Zero.
+Infamy reduction depending on rank & healthcare changes inspired by Heirs to Aquitania.
+Population size effects, final tech row, and LGLC tax moddifiers inspired by PDM Divide by Zero.
 Population growth decision and conditions UI changes taken from The Grand Combo.
 Thanks to Nurse_Reno for the craftsmen fix.
 General UI change taken from Victoria Universalis. Everything else is my own (as far as I remember).
@@ -39,6 +40,7 @@ CBs & Infamy
 -- Requires jingoism to use, and take the decision for it to show
 -- Always active, costs 12 infamy to use
 -- No war goal, no win condition
+* Negotiated puppet release added back in (incase for some reason a puppet that doesnt have a decision to release)
 
 Political & Reform Changes
 * Conservatives in a republic now have a base of +25% willingness to reform
@@ -61,11 +63,14 @@ Literacy Impact
 * Halved the impact on pop growth from high literacy, moved two negative growths into inventions
 
 Tech
+* New row of tech from 1920s added in
+* Tech costs increased significantly
 * RGO size increases with power techs up to ~x3 base size
 
 Inventions
 * Germ Theory & X-rays pop growth reduced from 0.02 to 0.01
 * Darwinism & Decline of the West now give -0.01 pop growth as well
+* Tractors rgo throughput reduced to +25%
 
 New General Decisions
 * Population growth nerf for education efficiency removed

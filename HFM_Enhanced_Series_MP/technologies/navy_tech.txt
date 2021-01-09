@@ -2,7 +2,7 @@
 post_nelsonian_thought = {
 	area = naval_doctrine
 	year = 1836
-	cost = 3600
+	cost = 5000
 	unciv_military = yes
 	activate_building = naval_base
 	colonial_points = 100
@@ -73,7 +73,7 @@ post_nelsonian_thought = {
 battleship_column_doctrine = {
 	area = naval_doctrine
 	year = 1836
-	cost = 7200
+	cost = 10000
 	unciv_military = yes
 	max_naval_base = 1
 	#colonial_points = 200 #no free lunch!
@@ -166,7 +166,7 @@ battleship_column_doctrine = {
 raider_group_doctrine = {
 	area = naval_doctrine
 	year = 1855
-	cost = 10800
+	cost = 17500
 	unciv_military = yes
 	max_naval_base = 1
 	ai_chance = {
@@ -268,7 +268,7 @@ raider_group_doctrine = {
 blue_and_brown_water_schools = {
 	area = naval_doctrine
 	year = 1875
-	cost = 14400
+	cost = 25000
 	unciv_military = yes
 	max_naval_base = 1
 	ai_chance = {
@@ -373,7 +373,7 @@ blue_and_brown_water_schools = {
 high_sea_battle_fleet = {
 	area = naval_doctrine
 	year = 1895
-	cost = 18000
+	cost = 35000
 	unciv_military = yes
 	max_naval_base = 1
 
@@ -467,7 +467,7 @@ high_sea_battle_fleet = {
 modern_naval_doctrine = {
 	area = naval_doctrine
 	year = 1914
-	cost = 21600
+	cost = 47500
 	unciv_military = yes
 	max_naval_base = 1
 	ai_chance = {
@@ -539,12 +539,83 @@ modern_naval_doctrine = {
 	}
 }
 
+modern_naval_doctrine_1920 = {
+	area = naval_doctrine
+	year = 1928
+	cost = 60000
+	colonial_points = 100
+	ai_chance = {
+		factor = 0.5
+		modifier = {
+			factor = 0.5
+			not = { year = 1928 }
+		}
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 0.5
+			is_greater_power = no
+			is_secondary_power = no
+			colonial_nation = no
+		}
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 1 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { num_of_ports = 10 }
+		}
+		modifier = {
+			factor = 1.2
+			num_of_ports = 30
+		}
+		modifier = {
+			factor = 1.2
+			num_of_ports = 50
+		}
+		modifier = {
+			factor = 1.2
+			num_of_ports = 100
+		}
+		modifier = {
+			factor = 1.2
+			nationalvalue = nv_glory
+		}
+		modifier = {
+			factor = 1.2
+			tech_school = japanese_tech_school
+		}
+		modifier = {
+			factor = 1.3
+			tech_school = naval_tech_school
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.7
+			tech_school = prussian_tech_school
+		}
+	}
+}
 
 #ship_construction
 clipper_design = {
 	area = ship_construction
 	year = 1836
-	cost = 3600
+	cost = 5000
 	navy_base = { maximum_speed = 1 }
 	unciv_military = yes
 		
@@ -623,7 +694,7 @@ clipper_design = {
 steamers = {
 	area = ship_construction
 	year = 1836
-	cost = 7200
+	cost = 10000
 	unciv_military = yes
 	
 	navy_base = { maximum_speed = 1 }
@@ -730,7 +801,7 @@ steamers = {
 iron_steamers = {
 	area = ship_construction
 	year = 1855
-	cost = 10800
+	cost = 17500
 	unciv_military = yes
 	navy_base = { maximum_speed = 2 }
 	ai_chance = {
@@ -840,7 +911,7 @@ iron_steamers = {
 steel_steamers = {
 	area = ship_construction
 	year = 1880
-	cost = 14400
+	cost = 25000
 	unciv_military = yes
 	navy_base = { maximum_speed = 1 } 
 	ai_chance = {
@@ -938,7 +1009,7 @@ steel_steamers = {
 steam_turbine_ships = {
 	area = ship_construction
 	year = 1900
-	cost = 18000
+	cost = 35000
 	unciv_military = yes
 	navy_base = { maximum_speed = 2 } 
 	ai_chance = {
@@ -1029,7 +1100,7 @@ steam_turbine_ships = {
 oil_driven_ships = {
 	area = ship_construction
 	year = 1919
-	cost = 21600
+	cost = 47500
 	unciv_military = yes
 	navy_base = { maximum_speed = 2 } 
 	ai_chance = {
@@ -1107,11 +1178,83 @@ oil_driven_ships = {
 	}
 }
 
+modern_ship_construction = {
+	area = ship_construction
+	year = 1928
+	cost = 60000
+	
+	navy_base = { maximum_speed = 2 } 
+	ai_chance = {
+		factor = 0.5
+		modifier = {
+			factor = 0.5
+			not = { year = 1928 }
+		}
+		modifier = {
+			factor = 1.2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 1 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { num_of_ports = 10 }
+		}
+		modifier = {
+			factor = 0.75
+			num_of_ports = 10
+			NOT = { num_of_ports = 20 }
+		}
+		modifier = {
+			factor = 1.2
+			num_of_ports = 30
+		}
+		modifier = {
+			factor = 1.2
+			num_of_ports = 50
+		}
+		modifier = {
+			factor = 1.2
+			num_of_ports = 100
+		}
+		modifier = {
+			factor = 1.2
+			nationalvalue = nv_glory
+		}
+		modifier = {
+			factor = 1.2
+			tech_school = japanese_tech_school
+		}
+		modifier = {
+			factor = 1.3
+			tech_school = naval_tech_school
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.7
+			tech_school = prussian_tech_school
+		}
+	}
+}
+
 #naval_engineering
 naval_design_bureaus = {
 	area = naval_engineering
 	year = 1836
-	cost = 3600
+	cost = 5000
 	navy_base = { build_time = -10 }
 	unciv_military = yes
 	ai_chance = {
@@ -1196,7 +1339,7 @@ naval_design_bureaus = {
 fire_control_systems = {
 	area = naval_engineering
 	year = 1836
-	cost = 7200
+	cost = 10000
 	unciv_military = yes
 	navy_base = { build_time = -10 }
 	
@@ -1299,7 +1442,7 @@ fire_control_systems = {
 weapon_platforms = {
 	area = naval_engineering
 	year = 1850
-	cost = 10800
+	cost = 17500
 	unciv_military = yes
 	navy_base = { build_time = -10 }
 	colonial_prestige = 0.1
@@ -1400,7 +1543,7 @@ weapon_platforms = {
 main_armament = {
 	area = naval_engineering
 	year = 1870
-	cost = 14400
+	cost = 25000
 	unciv_military = yes
 	navy_base = { build_time = -10 }
 	colonial_prestige = 0.1
@@ -1506,7 +1649,7 @@ main_armament = {
 advanced_naval_design = {
 	area = naval_engineering
 	year = 1900
-	cost = 18000
+	cost = 35000
 	unciv_military = yes
 	navy_base = { build_time = -10 }
 	ai_chance = {
@@ -1600,7 +1743,7 @@ advanced_naval_design = {
 modern_naval_design = {
 	area = naval_engineering
 	year = 1919
-	cost = 21600
+	cost = 47500
 	unciv_military = yes
 	navy_base = { build_time = -10 }
 	ai_chance = {
@@ -1687,11 +1830,89 @@ modern_naval_design = {
 	}
 }
 
+modern_naval_design_1920 = {
+	area = naval_engineering
+	year = 1928
+	cost = 60000
+	navy_base = {
+		build_time = -30 
+	}
+	ai_chance = {
+		factor = 0.5
+		modifier = {
+			factor = 0.5
+			not = { year = 1928 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { total_amount_of_ships = 20 }
+		}
+		modifier = {
+			factor = 1.2
+			total_amount_of_ships = 50
+			NOT = { total_amount_of_ships = 100 }
+		}
+		modifier = {
+			factor = 1.2
+			total_amount_of_ships = 100
+		}
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 1 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { num_of_ports = 10 }
+		}
+		modifier = {
+			factor = 0.75
+			num_of_ports = 10
+			NOT = { num_of_ports = 20 }
+		}
+		modifier = {
+			factor = 1.2
+			num_of_ports = 30
+		}
+		modifier = {
+			factor = 1.2
+			num_of_ports = 50
+		}
+		modifier = {
+			factor = 1.2
+			num_of_ports = 100
+		}
+		modifier = {
+			factor = 1.2
+			nationalvalue = nv_glory
+		}
+		modifier = {
+			factor = 1.2
+			tech_school = japanese_tech_school
+		}
+		modifier = {
+			factor = 1.3
+			tech_school = naval_tech_school
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.7
+			tech_school = prussian_tech_school
+		}
+	}
+}
+
 #naval_science
 alphabetic_flag_signaling = {
 	area = naval_science
 	year = 1836
-	cost = 3600
+	cost = 5000
 	unciv_military = yes
 	supply_range = 0.5
 	
@@ -1738,7 +1959,7 @@ alphabetic_flag_signaling = {
 naval_plans = {
 	area = naval_science
 	year = 1836
-	cost = 7200
+	cost = 10000
 	unciv_military = yes
 	supply_range = 0.5
 	
@@ -1802,7 +2023,7 @@ naval_plans = {
 naval_statistics = {
 	area = naval_science
 	year = 1850
-	cost = 10800
+	cost = 17500
 	unciv_military = yes
 	supply_range = 0.5
 		ai_chance = {
@@ -1878,7 +2099,7 @@ naval_statistics = {
 naval_logistics = {
 	area = naval_science
 	year = 1870
-	cost = 14400
+	cost = 25000
 	unciv_military = yes
 	supply_range = 1.0
 		ai_chance = {
@@ -1942,7 +2163,7 @@ naval_logistics = {
 naval_directionism = {
 	area = naval_science
 	year = 1900
-	cost = 18000
+	cost = 35000
 	unciv_military = yes
 	supply_range = 1.0
 		ai_chance = {
@@ -1992,7 +2213,7 @@ naval_directionism = {
 naval_integration = {
 	area = naval_science
 	year = 1919
-	cost = 21600
+	cost = 47500
 	unciv_military = yes
 	supply_range = 1.0
 		ai_chance = {
@@ -2048,12 +2269,90 @@ naval_integration = {
 	}
 }
 
+modern_naval_science = {
+	area = naval_science
+	year = 1928
+	cost = 60000
+	supply_range = 1
+	navy_base = {
+		supply_consumption = -0.15 
+	}
+	ai_chance = {
+		factor = 0.5
+		modifier = {
+			factor = 0.5
+			not = { year = 1928 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { total_amount_of_ships = 20 }
+		}
+		modifier = {
+			factor = 1.2
+			total_amount_of_ships = 50
+			NOT = { total_amount_of_ships = 100 }
+		}
+		modifier = {
+			factor = 1.2
+			total_amount_of_ships = 100
+		}
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 1 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { num_of_ports = 10 }
+		}
+		modifier = {
+			factor = 0.75
+			num_of_ports = 10
+			NOT = { num_of_ports = 20 }
+		}
+		modifier = {
+			factor = 1.2
+			num_of_ports = 30
+		}
+		modifier = {
+			factor = 1.2
+			num_of_ports = 50
+		}
+		modifier = {
+			factor = 1.2
+			num_of_ports = 100
+		}
+		modifier = {
+			factor = 1.2
+			nationalvalue = nv_glory
+		}
+		modifier = {
+			factor = 1.2
+			tech_school = japanese_tech_school
+		}
+		modifier = {
+			factor = 1.3
+			tech_school = naval_tech_school
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.7
+			tech_school = prussian_tech_school
+		}
+	}
+}
 
 #naval_leadership
 the_command_principle = {
 	area = naval_leadership
 	year = 1836
-	cost = 3600
+	cost = 5000
 	unciv_military = yes
 	navy_base = {
 		default_organisation = 10
@@ -2140,7 +2439,7 @@ the_command_principle = {
 naval_professionalism = {
 	area = naval_leadership
 	year = 1836
-	cost = 7200
+	cost = 10000
 	unciv_military = yes
 	navy_base = { default_organisation = 5 }
 	colonial_prestige = 0.1
@@ -2239,7 +2538,7 @@ naval_professionalism = {
 naval_decision_making = {
 	area = naval_leadership
 	year = 1850
-	cost = 10800
+	cost = 17500
 	unciv_military = yes
 	navy_base = { default_organisation = 5 }
 	colonial_prestige = 0.1
@@ -2330,7 +2629,7 @@ naval_decision_making = {
 naval_risk_management = {
 	area = naval_leadership
 	year = 1870
-	cost = 14400
+	cost = 25000
 	unciv_military = yes
 	navy_base = { default_organisation = 5 }
 	colonial_prestige = 0.1
@@ -2421,7 +2720,7 @@ naval_risk_management = {
 naval_nco_training = {
 	area = naval_leadership
 	year = 1900
-	cost = 18000
+	cost = 35000
 	unciv_military = yes
 	navy_base = {
 		default_organisation = 5
@@ -2512,7 +2811,7 @@ naval_nco_training = {
 modern_naval_training = {
 	area = naval_leadership
 	year = 1919
-	cost = 21600
+	cost = 47500
 	unciv_military = yes
 	navy_base = {
 		default_organisation = 5
@@ -2601,4 +2900,82 @@ modern_naval_training = {
 	}
 }
 
-
+modern_naval_training_1920 = {
+	area = naval_leadership
+	year = 1928
+	cost = 60000
+	navy_base = {
+		default_organisation = 2
+		supply_consumption = 0.1
+	}
+	ai_chance = {
+		factor = 0.5
+		modifier = {
+			factor = 0.5
+			not = { year = 1925 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { total_amount_of_ships = 20 }
+		}
+		modifier = {
+			factor = 1.2
+			total_amount_of_ships = 50
+			NOT = { total_amount_of_ships = 100 }
+		}
+		modifier = {
+			factor = 1.2
+			total_amount_of_ships = 100
+		}
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 1 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { num_of_ports = 10 }
+		}
+		modifier = {
+			factor = 0.75
+			num_of_ports = 10
+			NOT = { num_of_ports = 20 }
+		}
+		modifier = {
+			factor = 1.2
+			num_of_ports = 30
+		}
+		modifier = {
+			factor = 1.2
+			num_of_ports = 50
+		}
+		modifier = {
+			factor = 1.2
+			num_of_ports = 100
+		}
+		modifier = {
+			factor = 1.2
+			nationalvalue = nv_glory
+		}
+		modifier = {
+			factor = 1.2
+			tech_school = japanese_tech_school
+		}
+		modifier = {
+			factor = 1.3
+			tech_school = naval_tech_school
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.7
+			tech_school = prussian_tech_school
+		}
+	}
+}
