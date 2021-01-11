@@ -82,7 +82,7 @@ conservative_group = {
 		add_political_reform = {
 			base = 0
 			modifier = {
-				factor = 0.25
+				factor = 0.1
 				has_country_flag = republic_reforms
 			}
 			group = {
@@ -157,7 +157,7 @@ conservative_group = {
 		add_social_reform = {
 			base = 0
 			modifier = {
-				factor = 0.25
+				factor = 0.1
 				has_country_flag = republic_reforms
 			}
 			group = {
@@ -301,7 +301,7 @@ liberal_group = {
 		add_social_reform = {
 			base = 0
 			modifier = {
-				factor = 0.25
+				factor = 0.1
 				has_country_flag = republic_reforms
 			}
 			group = {

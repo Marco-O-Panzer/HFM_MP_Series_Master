@@ -78,6 +78,10 @@ New General Decisions
 * Now decision for pop growth activates an event to decide the growth level
 -- With similar consequences as previously
 
+Balance Changes
+* Plurality now gives +200% research at max
+* Change republic reform buff to 10% rather than 25%
+
 GFX & Localisation Changes
 * China republic name changed to: The Chinese Federation
 

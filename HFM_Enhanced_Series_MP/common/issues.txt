@@ -317,6 +317,17 @@ political_reforms = {
 			global_immigrant_attract = 0.1
 		}
 	}
+	
+	executive_abilities = {
+		dictatorial = {
+		}
+		presidential_system = {
+		}
+		semi_presidential = {
+		}
+		parliamentary_system = {
+		}
+	}
 
 	voting_system = {
 		first_past_the_post = {
@@ -428,17 +439,17 @@ political_reforms = {
 			mobilisation_size = 0.02
 			mobilisation_economy_impact = 0.05
 		}
-		one_year_draft = {
-			mobilisation_size = 0.01
-			global_immigrant_attract = 0.01
-			land_unit_start_experience = -2
-			allow = { 
-				OR = {
-					NOT = { war_policy = jingoism }
-					NOT = { war_policy = pro_military}
-				}
-			}
-		}
+#		one_year_draft = {
+#			mobilisation_size = 0.01
+#			global_immigrant_attract = 0.01
+#			land_unit_start_experience = -2
+#			allow = { 
+#				OR = {
+#					NOT = { war_policy = jingoism }
+#					NOT = { war_policy = pro_military}
+#				}
+#			}
+#		}
 		no_draft = {
 			global_immigrant_attract = 0.05
 			land_unit_start_experience = -5
@@ -600,6 +611,17 @@ political_reforms = {
 			supply_consumption = -0.05
 			navy_tech_research_bonus = -0.05
 			army_tech_research_bonus = 0.05
+		}
+	}
+	
+	research_policy = {
+		no_funding = {
+		}
+		limited_funding = {
+		}
+		funded = {
+		}
+		prioritised_funding = {
 		}
 	}
 	

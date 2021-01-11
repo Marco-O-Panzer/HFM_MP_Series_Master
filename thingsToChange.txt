@@ -14,3 +14,12 @@ Changes that are waiting to be implemented:
 * European Union formable by france in 1848 revolution (thanks to Victor Hugo)
 -- Can get cores on all of Europe, and gets new culture European
 -- also when expanded can increase assimiltation for consiousness and slight militancy
+
+-- Presidential and semi allow the executive to carry out some reforms via executive order
+* Add in more railroads on later techs, it helps in the mountains
+* absolute monarchies can install the same in a republic. but loss is a high price
+
+Partially done:
+* R&D policy will be added to affairs of state: No Funding, Limited Funding (+0.5rp), Standard Funding(+1rp), high funding(+1.5rp)
+* Executive: Presidential, Semi-Presidential, Parliamentary, Dictatorship - only added the ui, need to add the actual content
+-- done the ui and localisation, need to add in the content
