@@ -81,6 +81,7 @@ New General Decisions
 Balance Changes
 * Plurality now gives +200% research at max
 * Change republic reform buff to 10% rather than 25%
+* Totalitarianism gives +0.01 infamy instead of +0.005
 
 GFX & Localisation Changes
 * China republic name changed to: The Chinese Federation

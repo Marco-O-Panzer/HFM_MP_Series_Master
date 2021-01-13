@@ -7818,7 +7818,7 @@ negotiated_substate_transfer = {
 	}
 }
 
-Negotiated Puppet Release		Dont need, can use the decision
+#Negotiated Puppet Release		Dont need, can use the decision
 negotiated_puppet_release = {
 	sprite_index = 30
 	is_triggered_only = yes

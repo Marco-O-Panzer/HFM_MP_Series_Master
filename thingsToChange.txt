@@ -11,15 +11,94 @@ Changes that are waiting to be implemented:
 * 3rd life rating event after 40 years life rating in china and korea for anything over 36 loses 5 
 * new picture on the loading screen, like HtA
 * make china getting korea a news event, like the civil war in the usa or texas joining
-* European Union formable by france in 1848 revolution (thanks to Victor Hugo)
+* European Union formable by france in 1848 revolution (thanks to Victor Hugo) (news event to give the option once france a republic in 1848)
 -- Can get cores on all of Europe, and gets new culture European
+--  neighbouring gps in europe get a special cb for the first 10 or so years of its existance to dismantle it and return it back to france
 -- also when expanded can increase assimiltation for consiousness and slight militancy
-
+* remove (comment out) stoke political sentiment decision
 -- Presidential and semi allow the executive to carry out some reforms via executive order
 * Add in more railroads on later techs, it helps in the mountains
 * absolute monarchies can install the same in a republic. but loss is a high price
+* increase school assimilation rates (5% at max)
+* infamy decreases cb aquisition time, 1 infmay = +1% speed
+* mandated birth growth effecfs reduced to 0.01 militancy and 0.03 consciousness
+* CB to unite india with
+* CB to take cores of anothers puppets
 
 Partially done:
 * R&D policy will be added to affairs of state: No Funding, Limited Funding (+0.5rp), Standard Funding(+1rp), high funding(+1.5rp)
+funding requirements:
+-- none: default
+-- Low: idealism, positivism, state_n_gov, 50% literacy
+-- Normal: analytic phil, social sci, nationalism, 70% literacy
+-- High: critical theory, mathematical soc, mass pol, 90% literacy
 * Executive: Presidential, Semi-Presidential, Parliamentary, Dictatorship - only added the ui, need to add the actual content
 -- done the ui and localisation, need to add in the content
+Use events to change between them, they get options for or start with:
+-- Republic: <not Dictatorial>
+-- Absolute monarchy, theocracy, colonial_company, dominion and any dictatorship government: Dictatorial
+-- Semi con: Dictatorial or Parliamentary
+-- Con, french_bourbon: Parliamentary
+
+BUGS:
+switzerland & sikh empire (maybe more) can justify negotiated something whilst neutral, need to see how
+
+References to use:
+courtesy of Savs
+(try also changing substate to puppet for use on puppets)
+# Gain control of core Substate region
+acquire_core_substate_region = {
+    sprite_index = 6
+    is_triggered_only = yes
+    months = 12
+    crisis = no
+    
+    construction_speed = 0.25
+    
+    badboy_factor = 0.75
+    prestige_factor = 1.5
+    peace_cost_factor = 1
+    penalty_factor = 1
+
+    break_truce_prestige_factor = 1
+    break_truce_infamy_factor = 2
+    break_truce_militancy_factor = 2
+    truce_months = 0
+    
+    good_relation_prestige_factor = 1
+    good_relation_infamy_factor = 1
+    good_relation_militancy_factor = 1
+
+    can_use = {
+        NOT = { is_our_vassal = THIS }
+        num_of_substates = 1 # if has any substate
+        any_substate = {
+            number_of_states = 1
+            any_owned_province = {
+                is_core = THIS
+                is_colonial = no
+            }
+        }
+    }
+    
+    allowed_substate_regions = {
+        is_colonial = no
+        owner = { NOT = { in_sphere = THIS } }
+        any_owned_province = {
+            is_core = THIS
+            is_colonial = no
+        }
+    }
+
+    po_demand_state = yes
+    
+    war_name = WAR_TAKE_NAME
+    
+    on_add = {
+        move_issue_percentage = { 
+            from = jingoism 
+            to = pro_military
+            value = 0.25
+        }
+    }
+}
