@@ -101,6 +101,7 @@ political_decisions = {
 				}
 				country_event = 11106
 			}
+			all_core = { add_province_modifier = { name = small_baby_boom duration = 1825 } }
 		}
 		ai_will_do = {
 			factor = 1
@@ -334,6 +335,7 @@ political_decisions = {
 			}
 			370 = { add_core = GER }
 			371 = { add_core = GER }
+			all_core = { add_province_modifier = { name = small_baby_boom duration = 1825 } }
 		}
 		ai_will_do = {
 			factor = 1
@@ -727,6 +729,7 @@ political_decisions = {
 				}
 				country_event = 11101
 			}
+			all_core = { add_province_modifier = { name = small_baby_boom duration = 1825 } }
 			
 		}
 		ai_will_do = { factor = 1 }

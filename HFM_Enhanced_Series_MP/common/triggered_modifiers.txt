@@ -213,14 +213,24 @@ high_literacy = {
 #	icon = 19
 #}
 
-extremely_high_literacy = {
+poor_planning = {
 	trigger = {
 		exists = yes
-		literacy = 0.90
+		NOT = { administration_spending = 0.5 }
+		economic_policy = interventionism
 	}
-	global_population_growth = -0.001
-	factory_owner_cost = -0.1
-	global_assimilation_rate = 0.1
+	factory_throughput = -0.5
+	RGO_throughput = -0.5
+	icon = 19
+}
+
+trinket_health_care_fully_funded = {
+	trigger = {
+		exists = yes
+		health_care = trinket_health_care
+		administration_spending = 0.2
+	}
+	global_population_growth = 0.001
 	icon = 19
 }
 

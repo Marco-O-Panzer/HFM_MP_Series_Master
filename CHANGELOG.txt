@@ -46,9 +46,12 @@ Political & Reform Changes
 * Conservatives in a republic now have a base of +25% willingness to reform
 * Liberals in a republic now have a base of +25% willingness for social reform
 -- These effects are added via an event (MTTH 1 month), and if no longer a republic will lose them
+* LF now gives 10% commerce and 5% industry tech bonus
 
-Liferating
+Liferating & Population growth
 * Asia gets a 2nd liferating increase after the first by adding 5 to all cores (can happen to India, China & Korea)
+* Germany starts with baby boom like Russia
+* SGF, NGF, and GER on formation get small baby boom in their cores for 5 years
 
 National Values
 * Equality

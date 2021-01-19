@@ -24,6 +24,16 @@ Changes that are waiting to be implemented:
 * mandated birth growth effecfs reduced to 0.01 militancy and 0.03 consciousness
 * CB to unite india with
 * CB to take cores of anothers puppets
+* change GB dictatorship (and proletariat) colours
+* decion to get more immigration attraction like birth rates (need open borders, will cost infamy)
+-- Need to be in the new world and rep or con, mon OR old world liberty or equality, republic, 
+* state press speed cb generation
+* Geneva conventions changes, increase we reduction, increase justification cb time
+* HPM take puppet CB
+* Look into emmigration from republics
+* Kiel canal decision doesnt work
+* Germany shouldnt get cores on croatia
+
 
 Partially done:
 * R&D policy will be added to affairs of state: No Funding, Limited Funding (+0.5rp), Standard Funding(+1rp), high funding(+1.5rp)
@@ -34,11 +44,12 @@ funding requirements:
 -- High: critical theory, mathematical soc, mass pol, 90% literacy
 * Executive: Presidential, Semi-Presidential, Parliamentary, Dictatorship - only added the ui, need to add the actual content
 -- done the ui and localisation, need to add in the content
-Use events to change between them, they get options for or start with:
+Use events to change between them, they get options for or start with:					(dictaotrial gets cb generation speed boost)
 -- Republic: <not Dictatorial>
 -- Absolute monarchy, theocracy, colonial_company, dominion and any dictatorship government: Dictatorial
 -- Semi con: Dictatorial or Parliamentary
 -- Con, french_bourbon: Parliamentary
+* new pop growth national focus, and rename Immigration title for national focuses to Population - need to add in localisation and new icon for it
 
 BUGS:
 switzerland & sikh empire (maybe more) can justify negotiated something whilst neutral, need to see how

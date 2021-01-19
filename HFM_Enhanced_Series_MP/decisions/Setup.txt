@@ -665,6 +665,7 @@ political_decisions = {
 			}
 		}
 	}
+			
 	
 	literacy_PRU = {
 		potential = {
@@ -677,6 +678,7 @@ political_decisions = {
 		}
 		
 		effect = {
+			GER = { all_core = { add_province_modifier = { name = small_baby_boom duration = 3650 } } }
 			any_pop = {
 				limit = { has_pop_culture = ashkenazi }
 				literacy = 0.45

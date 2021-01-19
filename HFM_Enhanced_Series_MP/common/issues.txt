@@ -18,7 +18,9 @@ party_issues = {
 			factory_owner_cost = 0.25
 			factory_output = 0.1
 			import_cost = -0.25
-			
+			commerce_tech_research_bonus = 0.10
+			industry_tech_research_bonus = 0.05
+
 			rules = {
 				build_factory = no
 				expand_factory = no
