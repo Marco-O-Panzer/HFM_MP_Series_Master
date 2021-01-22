@@ -43,10 +43,12 @@ CBs & Infamy
 * Negotiated puppet release added back in (incase for some reason a puppet that doesnt have a decision to release)
 
 Political & Reform Changes
-* Conservatives in a republic now have a base of +25% willingness to reform
-* Liberals in a republic now have a base of +25% willingness for social reform
+* Conservatives in a republic now have a base of +10% willingness to reform
+* Liberals in a republic now have a base of +10% willingness for social reform
 -- These effects are added via an event (MTTH 1 month), and if no longer a republic will lose them
 * LF now gives 10% commerce and 5% industry tech bonus
+* New executive reforms added
+-- Usually executive system is only changed through events dependent on government type
 
 Liferating & Population growth
 * Asia gets a 2nd liferating increase after the first by adding 5 to all cores (can happen to India, China & Korea)

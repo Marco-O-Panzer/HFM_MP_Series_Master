@@ -388,7 +388,7 @@ market_determined_exchange_rates = {
 	}
 }
 
-modern_monetary_system = {
+fiat_based_monetary_system = {
 	area = monetary_system
 	year = 1920
 	cost = 60000

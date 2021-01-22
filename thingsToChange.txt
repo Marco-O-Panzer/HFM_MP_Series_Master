@@ -42,14 +42,6 @@ funding requirements:
 -- Low: idealism, positivism, state_n_gov, 50% literacy
 -- Normal: analytic phil, social sci, nationalism, 70% literacy
 -- High: critical theory, mathematical soc, mass pol, 90% literacy
-* Executive: Presidential, Semi-Presidential, Parliamentary, Dictatorship - only added the ui, need to add the actual content
--- done the ui and localisation, need to add in the content
-Use events to change between them, they get options for or start with:					(dictaotrial gets cb generation speed boost)
--- Republic: <not Dictatorial>
--- Absolute monarchy, theocracy, colonial_company, dominion and any dictatorship government: Dictatorial
--- Semi con: Dictatorial or Parliamentary
--- Con, french_bourbon: Parliamentary
-* new pop growth national focus, and rename Immigration title for national focuses to Population - need to add in localisation and new icon for it
 
 BUGS:
 switzerland & sikh empire (maybe more) can justify negotiated something whilst neutral, need to see how

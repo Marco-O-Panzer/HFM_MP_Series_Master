@@ -1,0 +1,20 @@
+political_decisions = {
+	to_limited_funding = {
+		#picture = provincia_britannia
+		potential = {
+			research_policy = no_funding
+		}
+		allow = {
+			idealism = 1
+			positivism = 1
+			state_n_government = 1
+			literacy = 0.5
+		}
+		effect = { 
+			political_reform = limited_funding 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
