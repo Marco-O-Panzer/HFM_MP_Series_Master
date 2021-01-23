@@ -1,4 +1,4 @@
-color = { 100  0  100 }
+color = { 0  0  100 }
 graphical_culture = BritishGC
 fascist_dictatorship = { 80 80 80 }
 proletarian_dictatorship = { 150 0 0 }

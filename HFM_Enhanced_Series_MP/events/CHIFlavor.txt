@@ -10,7 +10,7 @@ country_event = {
 	title = "EVTNAME777794"
 	desc = "EVTDESC777794"
 	picture = "Unite"
-	
+	major = yes
 	fire_only_once = yes
 	
 	trigger = {

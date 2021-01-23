@@ -4,6 +4,40 @@
 #															#
 #############################################################
 
+
+country_event = {
+	id = 7777901
+	title = "EVTNAME7777901"
+	desc = "EVTDESC7777901"
+	#picture = "BAV_swan_king"
+
+	trigger = {
+		has_country_flag = ready_for_hugo
+	}
+		
+	mean_time_to_happen = { months = 12 }
+	fire_only_once = yes
+
+	option = {
+		name = "For Europe!"
+		FRA = { all_core = { add_core = EUR remove_core = FRA } }
+		change_tag = EUR
+		primary_culture = pan_european
+		remove_accepted_culture = occitan
+		remove_accepted_culture = picard
+		remove_accepted_culture = breton
+		remove_accepted_culture = arpitan
+		remove_accepted_culture = cajun
+		remove_accepted_culture = french_canadian
+		clr_country_flag = ready_for_hugo
+	}
+	
+	option = {
+		name = "The peoples of all of Europe are not our concern"
+		clr_country_flag = ready_for_hugo
+	}
+}
+
 country_event = {
 	id = 10400
 	title = "EVTNAME10400" #The French Revolution
@@ -227,6 +261,7 @@ country_event = {
 			relation = { who = THIS value = 200 }
 		}
 		2126 = { change_province_name = "Reunion" }
+		set_country_flag = ready_for_hugo
 	}
 }
 

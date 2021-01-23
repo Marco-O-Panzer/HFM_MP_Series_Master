@@ -384,6 +384,7 @@ political_reforms = {
 			ruling_party_support = 0.25
 			literacy_con_impact = -0.25
 			suppression_points_modifier = 0.25
+			cb_generation_speed_modifier = 0.15
 			global_immigrant_attract = -0.05
 		}
 		censored_press = {
@@ -636,26 +637,29 @@ political_reforms = {
 	
 	research_policy = {
 		no_funding = {
+			allow = {
+				ruling_party_ideology = reactionary
+				upper_house_composition = party_appointed
+			}
 		}
 		limited_funding = {
-			allow = {	}
+			allow = {
+				ruling_party_ideology = reactionary
+				upper_house_composition = party_appointed
+			}
 			research_points = 0.5
 		}
 		funded = {
 			allow = {
-				#analytic_philosophy = 1
-				#social_science = 1
-				#nationalism_n_imperialism = 1
-				#literacy = 0.7
+				ruling_party_ideology = reactionary
+				upper_house_composition = party_appointed
 			}
 			research_points = 1
 		}
 		prioritised_funding = {
 			allow = {
-				#critical_theory = 1
-				#mathematical_soc
-				#mass_politics = 1
-				#literacy = 0.9
+				ruling_party_ideology = reactionary
+				upper_house_composition = party_appointed
 			}
 			research_points = 1.5
 		}
@@ -962,13 +966,13 @@ social_reforms = {
 		}
 		acceptable_schools = {
 			education_efficiency_modifier = 0.075
-			global_assimilation_rate = 0.005
+			global_assimilation_rate = 0.01
 			global_immigrant_attract = 0.05
 			administrative_multiplier = 2
 		}
 		good_schools = {
 			education_efficiency_modifier = 0.1
-			global_assimilation_rate = 0.01
+			global_assimilation_rate = 0.05
 			global_immigrant_attract = 0.25
 			administrative_multiplier = 3
 			allow = { has_country_flag = biologism_invented }

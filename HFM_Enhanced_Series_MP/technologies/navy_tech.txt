@@ -464,7 +464,7 @@ high_sea_battle_fleet = {
 		}
 	}
 }
-early_modern_naval_doctrine = {
+modern_naval_doctrine = {
 	area = naval_doctrine
 	year = 1914
 	cost = 47500
@@ -539,7 +539,7 @@ early_modern_naval_doctrine = {
 	}
 }
 
-modern_naval_doctrine = {
+modern_naval_doctrine_1920 = {
 	area = naval_doctrine
 	year = 1928
 	cost = 60000
@@ -1740,7 +1740,7 @@ advanced_naval_design = {
 		}
 	}
 }
-early_modern_naval_design = {
+modern_naval_design = {
 	area = naval_engineering
 	year = 1919
 	cost = 47500
@@ -1830,7 +1830,7 @@ early_modern_naval_design = {
 	}
 }
 
-modern_naval_design = {
+modern_naval_design_1920 = {
 	area = naval_engineering
 	year = 1928
 	cost = 60000
@@ -2212,7 +2212,7 @@ naval_directionism = {
 }
 naval_integration = {
 	area = naval_science
-	year = 1910
+	year = 1919
 	cost = 47500
 	unciv_military = yes
 	supply_range = 1.0
@@ -2271,7 +2271,7 @@ naval_integration = {
 
 naval_aviation = {
 	area = naval_science
-	year = 1920
+	year = 1928
 	cost = 60000
 	supply_range = 1
 	navy_base = {
@@ -2808,9 +2808,9 @@ naval_nco_training = {
 		}
 	}
 }
-early_modern_naval_training = {
+modern_naval_training = {
 	area = naval_leadership
-	year = 1910
+	year = 1919
 	cost = 47500
 	unciv_military = yes
 	navy_base = {
@@ -2900,9 +2900,9 @@ early_modern_naval_training = {
 	}
 }
 
-modern_naval_training = {
+modern_naval_training_1920 = {
 	area = naval_leadership
-	year = 1920
+	year = 1928
 	cost = 60000
 	navy_base = {
 		default_organisation = 2

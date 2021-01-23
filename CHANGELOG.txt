@@ -41,6 +41,8 @@ CBs & Infamy
 -- Always active, costs 12 infamy to use
 -- No war goal, no win condition
 * Negotiated puppet release added back in (incase for some reason a puppet that doesnt have a decision to release)
+* CB to take cores of anothers substate
+* CB to unite India with if south_asian culture and researched nationalism_n_imperialism
 
 Political & Reform Changes
 * Conservatives in a republic now have a base of +10% willingness to reform
@@ -49,6 +51,8 @@ Political & Reform Changes
 * LF now gives 10% commerce and 5% industry tech bonus
 * New executive reforms added
 -- Usually executive system is only changed through events dependent on government type
+* 2 new NFs around population (growth and assimilation)
+* State press speeds cb generation
 
 Liferating & Population growth
 * Asia gets a 2nd liferating increase after the first by adding 5 to all cores (can happen to India, China & Korea)
@@ -82,14 +86,19 @@ New General Decisions
 * Late game life rating increase removed
 * Now decision for pop growth activates an event to decide the growth level
 -- With similar consequences as previously
+* Removed (commented out) stoke political sentiment decision
 
 Balance Changes
 * Plurality now gives +200% research at max
 * Change republic reform buff to 10% rather than 25%
 * Totalitarianism gives +0.01 infamy instead of +0.005
+* Geneva conventions changes, now only we reduction, and increase justification cb time
+* Mandated birth growth effecfs reduced to 0.01 militancy and 0.03 consciousness
+* Germany wont get cores on croatia for annexing Austria
 
 GFX & Localisation Changes
 * China republic name changed to: The Chinese Federation
+* GB dictatorship (and proletariat) colours added
 
 Bugs Fixes
 * Cratsmen exploit now has a workaround to make it recoverable from
@@ -136,6 +145,7 @@ Immigration
 
 CBs & Infamy
 * New decision to allow or prevent CBs being justified on you nation
+* Infamy decreases cb aquisition time, 1 infmay = +1% speed
 * Added in minor conquest cb for uncivs similar to establish protectorate	
 * Removed negotiated puppet release cb, can just use decision to release vassals	
 -- now uncivs can use this decision as well
@@ -158,6 +168,7 @@ Balance Changes
 * Guard base attack increased by +1, and base defence by +2
 * Heavy Armament tech gives +2 attack to tanks
 * Base tank attack increased by +2
+* increased school assimilation rates (5% at max)
 
 GFX & Localisation Changes
 * GB now called The United Federation of Britain (UFB)

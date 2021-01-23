@@ -1,0 +1,125 @@
+political_decisions = {
+	into_the_lowlands = {
+		picture = provincia_britannia
+		potential = {
+			tag = EUR
+			NOT = { 375 = { is_core = EUR } }
+		}
+		allow = {
+			tag = EUR
+		}
+		effect = {
+			BEL = { all_core = { add_core = EUR } }
+			NET = { all_core = { add_core = EUR } }
+			badboy = 20
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	unify_with_italy = {
+		picture = provincia_britannia
+		potential = {
+			tag = EUR
+			NOT = { 749 = { is_core = EUR } }
+		}
+		allow = {
+			tag = EUR
+		}
+		effect = {
+			ITA = { all_core = { add_core = EUR } }
+			VEN = { all_core = { add_core = EUR } }
+			badboy = 35
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	spanish_reunity = {
+		picture = provincia_britannia
+		potential = {
+			tag = EUR
+			NOT = { 487 = { is_core = EUR } }
+		}
+		allow = {
+			tag = EUR
+		}
+		effect = {
+			SPA = { all_core = { add_core = EUR } }
+			badboy = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	complete_iberia = {
+		picture = provincia_britannia
+		potential = {
+			tag = EUR
+			NOT = { 521 = { is_core = EUR } }
+		}
+		allow = {
+			tag = EUR
+		}
+		effect = {
+			POR = { all_core = { add_core = EUR } }
+			badboy = 10
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	the_rhine_republic = {
+		picture = provincia_britannia
+		potential = {
+			tag = EUR
+			NOT = { 549 = { is_core = EUR } }
+		}
+		allow = {
+			tag = EUR
+		}
+		effect = {
+			GER = { all_core = { add_core = EUR } }
+			badboy = 50
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	rest_of_germany = {
+		picture = provincia_britannia
+		potential = {
+			tag = EUR
+			NOT = { 619 = { is_core = EUR } }
+		}
+		allow = {
+			tag = EUR
+		}
+		effect = {
+			AUS = { all_core = { add_core = EUR } }
+			KUK = { all_core = { add_core = EUR } }
+			DNB = { all_core = { add_core = EUR } }
+			badboy = 35
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	across_the_alps = {
+		picture = provincia_britannia
+		potential = {
+			tag = EUR
+			NOT = { 605 = { is_core = EUR } }
+		}
+		allow = {
+			tag = EUR
+		}
+		effect = {
+			SWI = { all_core = { add_core = EUR } }
+			badboy = 12
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

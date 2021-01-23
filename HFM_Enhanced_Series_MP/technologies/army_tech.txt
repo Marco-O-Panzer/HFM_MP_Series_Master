@@ -581,7 +581,7 @@ deep_defense_system = {
 		}
 	}
 }
-trench_systems = {
+infiltration = {
 	area = army_doctrine
 	year = 1900
 	cost = 35000
@@ -661,9 +661,9 @@ trench_systems = {
 		}
 	}
 }
-infiltration = {
+modern_army_doctrine = {
 	area = army_doctrine
-	year = 1915	
+	year = 1919
 	cost = 47500
 	unciv_military = yes
 	
@@ -801,7 +801,7 @@ infiltration = {
 	}
 }
 
-modern_army_doctrine = {
+modern_army_doctrine_1920 = {
 	area = army_doctrine
 	year = 1928
 	cost = 60000 
@@ -1590,9 +1590,9 @@ bolt_action_rifles = {
 		}
 	}
 }
-chemical_weapons = {
+modern_divisional_structure = {
 	area = light_armament
-	year = 1910
+	year = 1919
 	cost = 47500
 	unciv_military = yes
 
@@ -1726,7 +1726,7 @@ chemical_weapons = {
 	}
 }
 
-modern_divisional_structure = {
+advanced_divisional_structure = {
 	area = light_armament
 	year = 1928
 	cost = 60000
@@ -2412,9 +2412,9 @@ indirect_artillery_fire = {
 		}
 	}
 }
-creeping_barrage = {
+heavy_armament_dunno = {
 	area = heavy_armament
-	year = 1910
+	year = 1919
 	cost = 47500
 	unciv_military = yes
 	artillery = {
@@ -3224,9 +3224,9 @@ military_logistics = {
 		}
 	}
 }
-aeronautics = {
+military_directionism = {
 	area = military_science
-	year = 1903
+	year = 1900
 	cost = 35000
 	unciv_military = yes
 	
@@ -3360,9 +3360,9 @@ aeronautics = {
 		}
 	}
 }
-barrel_experiments = {
+aeronautics = {
 	area = military_science
-	year = 1914
+	year = 1905
 	cost = 47500
 	army_base = {
 		default_organisation = 10
@@ -3500,7 +3500,7 @@ barrel_experiments = {
 
 combined_arms_experiments = {
 	area = military_science
-	year = 1925
+	year = 1920
 	cost = 60000
 	mobilisation_size = 0.05
 	army_base = {

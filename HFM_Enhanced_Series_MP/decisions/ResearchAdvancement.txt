@@ -1,8 +1,9 @@
 political_decisions = {
 	to_limited_funding = {
-		#picture = provincia_britannia
+		picture = vesuvius_observatory
 		potential = {
 			research_policy = no_funding
+			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		allow = {
 			idealism = 1
@@ -12,6 +13,46 @@ political_decisions = {
 		}
 		effect = { 
 			political_reform = limited_funding 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	to_funded = {
+		picture = vesuvius_observatory
+		potential = {
+			research_policy = limited_funding
+			NOT = { has_country_flag = hiding_the_decisions }
+		}
+		allow = {
+			analytic_philosophy = 1
+			social_science = 1
+			nationalism_n_imperialism = 1
+			literacy = 0.7
+		}
+		effect = { 
+			political_reform = funded 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	to_priority_funded = {
+		picture = vesuvius_observatory
+		potential = {
+			research_policy = funded
+			NOT = { has_country_flag = hiding_the_decisions }
+		}
+		allow = {
+			critical_theory = 1
+			quantum_mechanics = 1
+			mass_politics = 1
+			literacy = 0.9
+		}
+		effect = { 
+			political_reform = prioritised_funding  
 		}
 		ai_will_do = {
 			factor = 1

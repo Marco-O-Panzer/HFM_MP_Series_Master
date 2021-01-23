@@ -1,4 +1,5 @@
 GBR		= "countries/Great Britain.txt"
+EUR		= "countries/Europe.txt"
 
 #Please keep tags sorted alphabetically when you add/remove country tags
 

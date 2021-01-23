@@ -1113,6 +1113,7 @@ country_event = {
 		}
 		FROM = {
 			all_core = {
+				limit = { NOT = { CRO = is_core } }
 				add_core = GER
 			}
 		}
@@ -1706,7 +1707,12 @@ country_event = {
 		name = "EVT31518OPTA"
 		badboy = 10
 		FROM = {
-			all_core = { add_core = GER }
+			all_core = { 
+				limit = {
+					NOT = { CRO = is_core }
+				}
+				add_core = GER
+			}
 		}
 		inherit = FROM
 		any_country = {

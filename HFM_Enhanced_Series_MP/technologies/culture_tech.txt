@@ -452,7 +452,7 @@ anti__rationalism = {
 	}
 }
 
-quantum_mechanics = {
+critical_theory = {
 	area = philosophy
 	year = 1920
 	cost = 60000
@@ -767,7 +767,7 @@ social_alienation = {
 
 }
 
-critical_theory = {
+mathematical_sociology = {
 	area = social_thought
 	year = 1920
 	cost = 60000

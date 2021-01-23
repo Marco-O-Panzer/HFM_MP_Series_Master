@@ -239,30 +239,30 @@ political_decisions = {
 			factor = 0
 		}
 	} 
-	internal_reform = {
-		picture = enact_female_suffrage
-		potential = {
-			exists = yes
-			NOT = { has_country_modifier = internally_reforming }
-			NOT = { has_country_flag = hiding_the_decisions }
-		}
-		allow = {
-			OR = {
-				ruling_party_ideology = liberal
-				ruling_party_ideology = socialist
-			}
-			war = no
-		}
-		effect = {
-			add_country_modifier = {
-				name = internally_reforming
-				duration = 7300
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
+#	internal_reform = {
+#		picture = enact_female_suffrage
+#		potential = {
+#			exists = yes
+#			NOT = { has_country_modifier = internally_reforming }
+#			NOT = { has_country_flag = hiding_the_decisions }
+#		}
+#		allow = {
+#			OR = {
+#				ruling_party_ideology = liberal
+#				ruling_party_ideology = socialist
+#			}
+#			war = no
+#		}
+#		effect = {
+#			add_country_modifier = {
+#				name = internally_reforming
+#				duration = 7300
+#			}
+#		}
+#		ai_will_do = {
+#			factor = 0
+#		}
+#	}
 #	province_development = {
 #		picture = westernize_nation
 #		potential = {
