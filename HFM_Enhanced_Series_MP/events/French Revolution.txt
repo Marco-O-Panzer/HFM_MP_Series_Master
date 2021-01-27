@@ -9,13 +9,14 @@ country_event = {
 	id = 7777901
 	title = "EVTNAME7777901"
 	desc = "EVTDESC7777901"
-	#picture = "BAV_swan_king"
+	picture = "victor_hugo"
 
 	trigger = {
 		has_country_flag = ready_for_hugo
 	}
+	major = yes
 		
-	mean_time_to_happen = { months = 12 }
+	mean_time_to_happen = { months = 6 }
 	fire_only_once = yes
 
 	option = {
@@ -30,11 +31,17 @@ country_event = {
 		remove_accepted_culture = cajun
 		remove_accepted_culture = french_canadian
 		clr_country_flag = ready_for_hugo
+		ai_chance = {
+			factor = 0
+		}
 	}
 	
 	option = {
 		name = "The peoples of all of Europe are not our concern"
 		clr_country_flag = ready_for_hugo
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 

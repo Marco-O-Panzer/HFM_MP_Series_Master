@@ -33,6 +33,10 @@ Flavour Changes
 -- EIC if it wins the war of independence vs the UK can form india
 -- India can accept all indian cultures, anglo-indian, and english
 -- India can claim tibet and nepal, and accept tibetan like China
+* United States of Europe
+-- Can be formed by France via event after the 1848 revolution, or by Belgium if its a GP
+-- Multiple decisions to gain cores across Europe for infamy (~300 in total)
+-- Decision to increase assimilation for an uptick in consciousness 
 
 CBs & Infamy
 * Can take concessions off a player in china (i.e allowed state restriction removed for vs a player)
@@ -56,8 +60,12 @@ Political & Reform Changes
 
 Liferating & Population growth
 * Asia gets a 2nd liferating increase after the first by adding 5 to all cores (can happen to India, China & Korea)
+-- 3rd life rating event after 50 years, life rating in china and korea cores lose 5 
 * Germany starts with baby boom like Russia
 * SGF, NGF, and GER on formation get small baby boom in their cores for 5 years
+
+Economy
+* Low administrative spending with planned economy will result in increasingly bad modifiers reducing rgo and factory throughput 
 
 National Values
 * Equality
@@ -80,6 +88,7 @@ Inventions
 * Germ Theory & X-rays pop growth reduced from 0.02 to 0.01
 * Darwinism & Decline of the West now give -0.01 pop growth as well
 * Tractors rgo throughput reduced to +25%
+* Plurality changes due to tech reduced by 20%
 
 New General Decisions
 * Population growth nerf for education efficiency removed
@@ -87,18 +96,22 @@ New General Decisions
 * Now decision for pop growth activates an event to decide the growth level
 -- With similar consequences as previously
 * Removed (commented out) stoke political sentiment decision
+* Can get more immigration attraction, will cost infamy and tax efficiency
+-- Need to be in the new world and rep or con. monarcy OR old world with liberty or equality, and a republic
 
 Balance Changes
+* Emmigration rework so more likely to leave old world republics, and lower rate from monarchies 
+-- Should be a reduced rate from China (compared to its population)
 * Plurality now gives +200% research at max
-* Change republic reform buff to 10% rather than 25%
 * Totalitarianism gives +0.01 infamy instead of +0.005
-* Geneva conventions changes, now only we reduction, and increase justification cb time
+* Geneva conventions changes, now gives we reduction, and increase justification cb time
 * Mandated birth growth effecfs reduced to 0.01 militancy and 0.03 consciousness
 * Germany wont get cores on croatia for annexing Austria
 
 GFX & Localisation Changes
 * China republic name changed to: The Chinese Federation
 * GB dictatorship (and proletariat) colours added
+* New starting screen
 
 Bugs Fixes
 * Cratsmen exploit now has a workaround to make it recoverable from

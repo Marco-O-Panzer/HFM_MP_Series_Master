@@ -9,6 +9,7 @@ political_decisions = {
 				NOT = { accepted_culture = bosniak }
 				NOT = { accepted_culture = albanian }
 			}
+			NOT = { has_country_flag = hiding_the_decisions }
 		}
 
 		allow = {

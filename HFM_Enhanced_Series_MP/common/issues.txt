@@ -648,6 +648,8 @@ political_reforms = {
 				upper_house_composition = party_appointed
 			}
 			research_points = 0.5
+			factory_output = -0.02
+			tax_efficiency = -0.01
 		}
 		funded = {
 			allow = {
@@ -655,6 +657,8 @@ political_reforms = {
 				upper_house_composition = party_appointed
 			}
 			research_points = 1
+			factory_output = -0.05
+			tax_efficiency = -0.02
 		}
 		prioritised_funding = {
 			allow = {
@@ -662,6 +666,8 @@ political_reforms = {
 				upper_house_composition = party_appointed
 			}
 			research_points = 1.5
+			factory_output = -0.1
+			tax_efficiency = -0.05
 		}
 	}
 	

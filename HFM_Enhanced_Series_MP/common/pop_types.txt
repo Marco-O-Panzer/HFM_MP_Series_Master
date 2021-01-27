@@ -920,48 +920,53 @@ colonialmigration_chance = {
 
 #general emigration chance
 emigration_chance = {
-	factor = 0.5
+	factor = 0.1
 	
 	modifier = {
-		factor = 0.4
-		year = 1848
+		factor = 1
+		year = 1836
 		NOT = { country = { has_country_flag = micro_nation } }
 	}
-
+	
 	modifier = {
-		factor = 0.3
-		year = 1871
-		NOT = { country = { has_country_flag = micro_nation } }
-	}
-
-	modifier = {
-		factor = 0.2
-		year = 1905
+		factor = 0.4	#culture effects end and now a flat average rate
+		year = 1905	
 		NOT = { country = { has_country_flag = micro_nation } }
 	}
 
 	modifier = {
 		factor = -2.0
 		OR = {
-			AND = {
-				OR = {
-					location = { continent = north_america }
-					location = { continent = south_america }
-					location = { continent = australia_new_zealand }
-				}
-				country = {
-					NOT = { has_country_flag = preparations_to_kill }
-					has_country_flag = new_world_nation
-					government = democracy
-				}
-			}
-			AND = {
-				OR = {
-					tag = SWI
-					tag = GBR
-				}
-				government = democracy
-			}
+			location = { continent = north_america }
+			location = { continent = south_america }
+			location = { continent = australia_new_zealand }
+		}
+		country = {
+			NOT = { has_country_flag = preparations_to_kill }
+			has_country_flag = new_world_nation
+			government = democracy
+		}
+	}
+	
+	modifier = {
+		factor = -0.5
+		NOT = { location = { continent = north_america } }
+		NOT = { location = { continent = south_america } }
+		NOT = { location = { continent = australia_new_zealand } }
+		country = {
+			NOT = { has_country_flag = preparations_to_kill }
+			government = democracy
+		}
+	}
+	
+	modifier = {
+		factor = -0.2
+		NOT = { location = { continent = north_america } }
+		NOT = { location = { continent = south_america } }
+		NOT = { location = { continent = australia_new_zealand } }
+		country = {
+			NOT = { has_country_flag = preparations_to_kill }
+			government = hms_government
 		}
 	}
 	
@@ -1258,7 +1263,7 @@ emigration_chance = {
 	}
 	
 	modifier = {
-		factor = -0.5
+		factor = -2.0
 		THIS = { is_culture_group = east_asian  }
 		country = { is_culture_group = east_asian civilized = yes }
 		country = { NOT = { has_country_flag = preparations_to_kill } }

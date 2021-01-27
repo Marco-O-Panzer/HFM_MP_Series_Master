@@ -91,7 +91,7 @@ lost_the_tarrif_war = {
 	min_tariff = 0.25
 }
 
-##### Birth Rate Campaigns ######
+##### Birth Rate & Immigration Campaigns ######
 
 birthrate_push_low = {
 	global_population_growth = 0.001
@@ -119,6 +119,34 @@ birthrate_push_high = {
 
 recently_selected_birthrate = {
     icon = 2
+}
+
+immigration_pull_low = {
+	immigrant_attract = 0.5
+	badboy = 0.01
+	tax_efficiency = -0.05
+	global_pop_consciousness_modifier = 0.01
+	icon = 9
+}
+
+immigration_pull_high = {
+	immigrant_attract = 1
+	badboy = 0.02
+	tax_efficiency = -0.1
+	global_pop_consciousness_modifier = 0.03
+	icon = 9
+}
+
+recently_selected_immigration = {
+    icon = 2
+}
+
+##############################
+
+european_culture = {
+	global_pop_consciousness_modifier = 0.03
+	assimilation_rate = 4
+	icon = 17
 }
 
 ##################################################################################################
@@ -1866,8 +1894,9 @@ puppet_rhineland = {
 
 #### SWI - Switzerland ####
 signed_the_geneva_convention = {
-	war_exhaustion = -0.02
-	cb_generation_speed_modifier = -0.05
+	war_exhaustion = -0.05
+	cb_generation_speed_modifier = -0.1
+	badboy = 0.01
 	icon = 7
 }
 

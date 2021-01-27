@@ -213,11 +213,40 @@ high_literacy = {
 #	icon = 19
 #}
 
-poor_planning = {
+
+
+minor_bad_planning = {
 	trigger = {
 		exists = yes
-		NOT = { administration_spending = 0.5 }
-		economic_policy = interventionism
+		NOT = { administration_spending = 0.6 }
+		administration_spending = 0.4
+		economic_policy = planned_economy 
+		ai = no
+	}
+	factory_throughput = -0.15
+	RGO_throughput = -0.15
+	icon = 19
+}
+
+bad_planning = {
+	trigger = {
+		exists = yes
+		NOT = { administration_spending = 0.4 }
+		administration_spending = 0.2
+		economic_policy = planned_economy 
+		ai = no
+	}
+	factory_throughput = -0.3
+	RGO_throughput = -0.3
+	icon = 19
+}
+
+extreme_bad_planning = {
+	trigger = {
+		exists = yes
+		NOT = { administration_spending = 0.2 }
+		economic_policy = planned_economy 
+		ai = no
 	}
 	factory_throughput = -0.5
 	RGO_throughput = -0.5

@@ -8,24 +8,17 @@ Changes that are waiting to be implemented:
 
 * More states in China and India - change to UME map
 
-* 3rd life rating event after 40 years life rating in china and korea for anything over 36 loses 5 
-* new picture on the loading screen, like HtA
-* European Union formable by france in 1848 revolution (thanks to Victor Hugo) (news event to give the option once france a republic in 1848)
--- Can get cores on all of Europe, and gets new culture European
--- also when expanded can increase assimiltation for consiousness and slight militancy
-* decion to get more immigration attraction like birth rates (need open borders, will cost infamy)
--- Need to be in the new world and rep or con, mon OR old world liberty or equality, republic, 
 * HPM take puppet CB
 * CB to force enemy to cede all your cores from their puppets to you
-* Look into emmigration from republics
 * Decision for westernised indian state with nationalism to fight UK for control of india
-
+* CB for absolute monarchies to justify on neighbouring republics to force them to become a monarchy (constitutional, like done to france)
 
 Partially done:
 Unite India CB - needs localisation
-EU Expansion decisions, starting event localisation
+greater germany doesnt get cores on croatia - need to actaully test this 
 
 BUGS:
-crashes in 1920
 small ai armies?
 * Kiel canal decision doesnt work
+* crashes in or after 1920
+* when zapodslavia forms, poland shouldnt be annexed to the gp that forms it

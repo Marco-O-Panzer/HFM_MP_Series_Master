@@ -2,6 +2,7 @@ country_event = {
 	id = 777790
 	title = "EVTNAME777790"
 	desc = "EVTDESC777790"
+	picture = "prussian_child_labor_act"
 	
 	trigger = {
 		OR = {
@@ -50,6 +51,7 @@ country_event = {
 	id = 777795
 	title = "EVTNAME777795"
 	desc = "EVTDESC777795"
+	picture = "prussian_child_labor_act"
 	
 	trigger = {
 		OR = {
@@ -87,5 +89,35 @@ country_event = {
 			life_rating = 5
 		}
 		set_country_flag = asian_liferating_increase_2
+	}
+}
+
+country_event = {
+	id = 7777902
+	title = "EVTNAME7777902"
+	desc = "EVTDESC7777902"
+	picture = "prussian_child_labor_act"
+	
+	trigger = {
+		OR = {
+			tag = CHI
+			tag = HND
+			tag = KOR
+		}
+		civilized = yes
+		has_country_flag = asian_liferating_increase_2
+		NOT = { has_country_flag = asian_liferating_increase_3 }
+	}
+	
+	mean_time_to_happen = {
+		months = 600
+	}
+	
+	option = {
+		name = "EVTOPTA7777902"
+		all_core = {
+			life_rating = -5
+		}
+		set_country_flag = asian_liferating_increase_3
 	}
 }
