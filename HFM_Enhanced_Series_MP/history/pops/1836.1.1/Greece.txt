@@ -1220,6 +1220,11 @@
 #under the rule of Greece in 1836
 #Athens (308000/77000 POPS)
 834 = {
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 	aristocrats = {
 		culture = greek
 		religion = orthodox

@@ -2,6 +2,11 @@
 #under the rule of Ottoman Empire in 1836
 #Edirne (172000/43000 POPS)
 828 = {
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
+	}
 	aristocrats = {
 		culture = turkish
 		religion = sunni
@@ -322,6 +327,11 @@
 #under the rule of Ottoman Empire in 1836
 #Istanbul (764000/191000 POPS)
 860 = {
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
+	}
 	aristocrats = {
 		culture = turkish
 		religion = sunni

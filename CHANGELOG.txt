@@ -36,7 +36,12 @@ Flavour Changes
 * United States of Europe
 -- Can be formed by France via event after the 1848 revolution, or by Belgium if its a GP
 -- Multiple decisions to gain cores across Europe for infamy (~300 in total)
--- Decision to increase assimilation for an uptick in consciousness 
+-- Decision to increase assimilation for an uptick in consciousness - also reduces emmigration rate
+-- Regular event that fires to convert some % of pops to european, mtth reduced with democracy and pro integration
+* Germany
+-- Greater germany doesnt get cores on croatia when annexing Austria
+-- Greater germany can expand into venice and poland, and then austria for infamy (gains cores)
+-- Once expanded can take decision to encourage assimilation for non accepted culture militancy gain
 
 CBs & Infamy
 * Can take concessions off a player in china (i.e allowed state restriction removed for vs a player)
@@ -107,6 +112,7 @@ Balance Changes
 * Geneva conventions changes, now gives we reduction, and increase justification cb time
 * Mandated birth growth effecfs reduced to 0.01 militancy and 0.03 consciousness
 * Germany wont get cores on croatia for annexing Austria
+* To form zapadoslavia cant have poland, czech or galicia be another nations puppet
 
 GFX & Localisation Changes
 * China republic name changed to: The Chinese Federation

@@ -1,6 +1,11 @@
 #Flanders Region (2558000)
 #Brussels (772000/193000 POPS)
 387 = {
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 	clergymen = {
 		culture = ashkenazi
 		religion = jewish

@@ -290,6 +290,11 @@
 #under the rule of Austria in 1836  
 #Vienna (1084000/271000 POPS)
 619 = {
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 	aristocrats = {
 		culture = south_german
 		religion = catholic

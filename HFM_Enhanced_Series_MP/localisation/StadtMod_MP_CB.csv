@@ -43,4 +43,10 @@ NORMAL_WAR_NO_CB_NAME;Aggression War;;;;;;;;;;;;;x
 AGRESSION_WAR_NO_CB_NAME:Aggression War;;;;;;;;;;;;;x
 aggression_cb;Aggression War;;;;;;;;;;;;;x
 aggression_cb_desc;Start a war without justification. NOTE: Will cost 12 infamy when used.;;;;;;;;;;;;;x
-aggression_cb_short;No Set Goal
+aggression_cb_short;No Set Goal;;;;;;;;;;;;;x
+india_acquire_state;Unify India;;;;;;;;;;;;;x
+india_acquire_state_desc;Annex a state with Indian culture or a cultural core;;;;;;;;;;;;;x
+india_acquire_state_setup;Annex $STATE$;;;;;;;;;;;;;x
+india_acquire_state_short;Annex $STATE$;;;;;;;;;;;;;x
+NORMAL_WAR_INDIA_REUNIFICATION;$ORDER$$FIRST$ War of Indian Unification;;;;;;;;;;;;;x
+AGRESSION_WAR_INDIA_REUNIFICATION;$ORDER$$FIRST$ War of Indian Unification;;;;;;;;;;;;;x

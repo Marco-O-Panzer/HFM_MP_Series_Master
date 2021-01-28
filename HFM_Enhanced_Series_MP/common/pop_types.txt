@@ -927,6 +927,11 @@ emigration_chance = {
 		year = 1836
 		NOT = { country = { has_country_flag = micro_nation } }
 	}
+
+	modifier = {
+		factor = -1
+		country = { has_country_flag = promoted_european_culture }
+	}
 	
 	modifier = {
 		factor = 0.4	#culture effects end and now a flat average rate
@@ -1498,6 +1503,11 @@ assimilation_chance = {
 	factor = 1
 	
 	modifier = {
+		factor = 2
+		country = { has_country_flag = promoted_european_culture }
+	}
+	
+	modifier = {
 		factor = 1.5
 		OR = {
 			is_state_religion = yes
@@ -1538,6 +1548,7 @@ assimilation_chance = {
 	modifier = {
 		factor = -20
 		has_culture_core = yes
+		NOT = { country = { has_country_flag = promoted_european_culture } }
 	}
 	
 	modifier = {

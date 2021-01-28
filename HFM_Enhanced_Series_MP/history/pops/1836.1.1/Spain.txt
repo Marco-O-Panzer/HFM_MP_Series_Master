@@ -633,6 +633,11 @@
 		religion = catholic
 		size = 20100
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Siguenza (204000/51000 POPS)
 488 = {

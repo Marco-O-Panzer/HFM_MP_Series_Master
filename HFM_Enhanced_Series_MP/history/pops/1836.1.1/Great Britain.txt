@@ -36,6 +36,11 @@
 		religion = catholic
 		size = 2000
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Inverness (328000/82000 POPS)
 267 = {
@@ -1766,6 +1771,11 @@
 # Metro London Region - 2052000
 #London (2052000/513000 POPS)
 300 = {
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 	aristocrats = {
 		culture = british
 		religion = protestant

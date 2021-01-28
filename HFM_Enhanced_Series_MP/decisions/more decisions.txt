@@ -1581,6 +1581,24 @@ political_decisions = {
 					}
 				}
 			}
+			CZH = {
+				OR = {
+					is_vassal = no
+					vassal_of = THIS
+				}
+			}
+			POL = {
+				OR = {
+					is_vassal = no
+					vassal_of = THIS
+				}
+			}
+			GLM = {
+				OR = {
+					is_vassal = no
+					vassal_of = THIS
+				}
+			}
 		}
 		effect = {
 			set_global_flag = create_zapadoslavia
@@ -1590,9 +1608,9 @@ political_decisions = {
 			PZN = { all_core = { add_core = WSF } }
 			POL = { all_core = { add_core = WSF } }
 			CZH = { all_core = { add_core = WSF } }
-			GLM = { all_core = { add_core = WSF } }
 			CPL = { all_core = { add_core = WSF } }
 			PML = { all_core = { add_core = WSF } }
+			GLM = { all_core = { add_core = WSF } }
 			any_country = {
 				limit = {
 					OR = {
@@ -1602,10 +1620,10 @@ political_decisions = {
 						tag = CZH
 						tag = PML
 						tag = CPL
-						tag = GLM
 						tag = KRA
 						tag = BOH
 						tag = SLV
+						tag = GLM
 					}
 					ai = yes
 					in_sphere = THIS

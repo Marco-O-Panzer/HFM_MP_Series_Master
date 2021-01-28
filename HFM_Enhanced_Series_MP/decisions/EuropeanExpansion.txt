@@ -8,6 +8,7 @@ political_decisions = {
 		}
 		allow = {
 			is_greater_power = yes
+			year = 1850
 		}
 		effect = {
 			name = "For Europe!"
@@ -35,6 +36,7 @@ political_decisions = {
 				name = european_culture
 				duration = -1
 			}
+			set_country_flag = promoted_european_culture
 		}
 		ai_will_do = {
 			factor = 1

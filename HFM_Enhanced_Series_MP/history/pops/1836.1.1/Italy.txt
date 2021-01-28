@@ -318,6 +318,11 @@
 #under the rule of Austria in 1836
 #Milan (1332000/333000 POPS)
 726 = {
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 	aristocrats = {
 		culture = north_italian
 		religion = catholic
@@ -458,6 +463,11 @@
 #under the rule of Austria in 1836
 #Venice (448000/112000 POPS)
 729 = {
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 	aristocrats = {
 		culture = north_italian
 		religion = catholic
@@ -1401,6 +1411,11 @@
 #under the rule of Papal States in 1836
 #Rome (1092000/273000 POPS)
 749 = {
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 	aristocrats = {
 		culture = south_italian
 		religion = catholic

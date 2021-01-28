@@ -2,6 +2,11 @@
 #Under rule of Holstein 1836
 #Kiel (256000/64000 POPS)
 369 = {
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 	aristocrats = {
 		culture = north_german
 		religion = protestant
@@ -1141,6 +1146,11 @@
 #under the rule of Prussia 1836
 #Berlin (772000/193000 POPS)
 549 = {
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 	aristocrats = {
 		culture = north_german
 		religion = protestant
@@ -2124,6 +2134,11 @@
 #under the rule of Frankfurt 1836  
 #Frankfurt-am-Main (44000/16000 POPS)
 564 = {
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 	aristocrats = {
 		culture = north_german
 		religion = protestant

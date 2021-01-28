@@ -1,6 +1,11 @@
 #Duoro e Minho Region (1660000)
 #Oporto (768000/192000 POPS)
 518 = {
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 	aristocrats = {
 		culture = portuguese
 		religion = catholic

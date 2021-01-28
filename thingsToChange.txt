@@ -3,22 +3,15 @@ Changes that are waiting to be implemented:
 * PDM ports:
 -- Add in service economy, potentially more economy changes
 -- add in some inventions
-* Greater germany with all cores can expand east for infamy i.e to form the reichtangle
--- also when expanded can increase assimiltation for consiousness and slight militancy
-
-* More states in China and India - change to UME map
-
-* HPM take puppet CB
-* CB to force enemy to cede all your cores from their puppets to you
-* Decision for westernised indian state with nationalism to fight UK for control of india
-* CB for absolute monarchies to justify on neighbouring republics to force them to become a monarchy (constitutional, like done to france)
+* RB Great Game event suggestions
+* The Nigerian Federation - formed by holding sokoto and other key land in the area and being civilised
 
 Partially done:
-Unite India CB - needs localisation
-greater germany doesnt get cores on croatia - need to actaully test this 
+Need icons for new national focuses
 
 BUGS:
 small ai armies?
-* Kiel canal decision doesnt work
-* crashes in or after 1920
-* when zapodslavia forms, poland shouldnt be annexed to the gp that forms it
+crashes in or after 1920?
+
+Maybe:
+* More states in China and India - change to UME map

@@ -5,7 +5,7 @@ pan_european_group = {
 	leader = european
 	unit = EuropeanGC
 	pan_european = { 
-		color = { 0 0 0 }
+		color = { 60 0 130}
 		first_names = { Adelbert Adolf Albrecht Alexander Alfred August Bernhard Burkhard Dieter
 		Eduard Edwin Erwin Erich Ernst Florian Franz Friedrich Fritz Georg Günther
 		Gustav Hasso Heinrich Helmuth Hermann Hugo Joachim Johann Jürgen Karl
