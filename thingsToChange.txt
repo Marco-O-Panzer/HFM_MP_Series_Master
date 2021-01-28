@@ -1,17 +1,13 @@
 Changes that are waiting to be implemented:
-
 * PDM ports:
 -- Add in service economy, potentially more economy changes
 -- add in some inventions
 * RB Great Game event suggestions
-* The Nigerian Federation - formed by holding sokoto and other key land in the area and being civilised
-
-Partially done:
-Need icons for new national focuses
+* Force the SGF to form if south germans not unified late game
 
 BUGS:
 small ai armies?
 crashes in or after 1920?
 
 Maybe:
-* More states in China and India - change to UME map
+* Change to UME map

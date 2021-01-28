@@ -42,6 +42,10 @@ Flavour Changes
 -- Greater germany doesnt get cores on croatia when annexing Austria
 -- Greater germany can expand into venice and poland, and then austria for infamy (gains cores)
 -- Once expanded can take decision to encourage assimilation for non accepted culture militancy gain
+* Niger Federation
+-- Formed by any counrty with capital in west africa - cultural union tag
+-- Cores and accepts all of west africa
+-- Can accept cultures down to the kongo if it controls the land
 
 CBs & Infamy
 * Can take concessions off a player in china (i.e allowed state restriction removed for vs a player)
@@ -52,6 +56,7 @@ CBs & Infamy
 * Negotiated puppet release added back in (incase for some reason a puppet that doesnt have a decision to release)
 * CB to take cores of anothers substate
 * CB to unite India with if south_asian culture and researched nationalism_n_imperialism
+* Afircan uncivs get an additional -0.2 infamy a month decay
 
 Political & Reform Changes
 * Conservatives in a republic now have a base of +10% willingness to reform
@@ -113,6 +118,7 @@ Balance Changes
 * Mandated birth growth effecfs reduced to 0.01 militancy and 0.03 consciousness
 * Germany wont get cores on croatia for annexing Austria
 * To form zapadoslavia cant have poland, czech or galicia be another nations puppet
+* -150% immigrant attraction for old world wars
 
 GFX & Localisation Changes
 * China republic name changed to: The Chinese Federation

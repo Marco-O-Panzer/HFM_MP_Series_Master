@@ -2970,7 +2970,6 @@ modern_naval_training_1920 = {
 				tech_school = industrial_tech_school
 				tech_school = culture_tech_school
 				tech_school = commerce_tech_school
-				tech_school = russian_tech_school
 			}
 		}
 		modifier = {

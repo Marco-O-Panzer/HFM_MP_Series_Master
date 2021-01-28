@@ -383,10 +383,7 @@ modern_power_generation = {
 		}
 		modifier = {
 			factor = 0.9
-			OR = {
-				tech_school = culture_tech_school
-				tech_school = russian_tech_school
-			}
+			tech_school = culture_tech_school
 		}
 		modifier = {
 			factor = 1.1
@@ -733,10 +730,7 @@ mechanized_manufacturing = {
 		}
 		modifier = {
 			factor = 0.9
-			OR = {
-				tech_school = culture_tech_school
-				tech_school = russian_tech_school
-			}
+			tech_school = culture_tech_school
 		}
 		modifier = {
 			factor = 1.1

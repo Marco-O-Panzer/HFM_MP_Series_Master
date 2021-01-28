@@ -90,7 +90,7 @@ rail_focus = { #Now called Colonial Policy
 immigration_focus = {
 	encourage_pop_growth = {
 		population_growth = 0.001
-		icon = 38
+		icon = 39
 		limit = {
 			owner = { ai = no }
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
@@ -99,8 +99,8 @@ immigration_focus = {
 	}
 	
 	encourage_assimilation = {
-		assimilation_rate = 0.15
-		icon = 38
+		assimilation_rate = 1
+		icon = 40
 		limit = {
 			owner = { ai = no }
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }

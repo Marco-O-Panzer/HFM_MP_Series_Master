@@ -215,10 +215,6 @@ modernism = {
 			tech_school = industrial_tech_school
 		}
 		modifier = {
-			factor = 1.4
-			tech_school = russian_tech_school
-		}
-		modifier = {
 			factor = 1.6
 			tech_school = culture_tech_school
 		}
@@ -486,10 +482,6 @@ critical_theory = {
 		modifier = {
 			factor = 0.9
 			tech_school = industrial_tech_school
-		}
-		modifier = {
-			factor = 1.4
-			tech_school = russian_tech_school
 		}
 		modifier = {
 			factor = 1.6
@@ -841,10 +833,6 @@ mathematical_sociology = {
 		modifier = {
 			factor = 0.9
 			tech_school = industrial_tech_school
-		}
-		modifier = {
-			factor = 1.4
-			tech_school = russian_tech_school
 		}
 		modifier = {
 			factor = 1.6
@@ -1223,10 +1211,6 @@ government_mobilization = {
 			tech_school = industrial_tech_school
 		}
 		modifier = {
-			factor = 1.4
-			tech_school = russian_tech_school
-		}
-		modifier = {
 			factor = 1.6
 			tech_school = culture_tech_school
 		}
@@ -1521,10 +1505,6 @@ humanistic_psychology = {
 		modifier = {
 			factor = 0.9
 			tech_school = industrial_tech_school
-		}
-		modifier = {
-			factor = 1.4
-			tech_school = russian_tech_school
 		}
 		modifier = {
 			factor = 1.6

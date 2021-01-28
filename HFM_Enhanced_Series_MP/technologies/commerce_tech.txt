@@ -221,10 +221,7 @@ modern_financial_institutions = {
 		}
 		modifier = {
 			factor = 0.9
-			OR = {
-				tech_school = culture_tech_school
-				tech_school = russian_tech_school
-			}
+			tech_school = culture_tech_school
 		}
 		modifier = {
 			factor = 1.2
@@ -426,10 +423,7 @@ fiat_based_monetary_system = {
 		}
 		modifier = {
 			factor = 0.9
-			OR = {
-				tech_school = culture_tech_school
-				tech_school = russian_tech_school
-			}
+			tech_school = culture_tech_school
 		}
 		modifier = {
 			factor = 1.2
@@ -711,10 +705,7 @@ neoliberal_theory = {
 		}
 		modifier = {
 			factor = 0.9
-			OR = {
-				tech_school = culture_tech_school
-				tech_school = russian_tech_school
-			}
+			tech_school = culture_tech_school
 		}
 		modifier = {
 			factor = 1.2
@@ -1023,10 +1014,7 @@ globalized_markets = {
 		}
 		modifier = {
 			factor = 0.9
-			OR = {
-				tech_school = culture_tech_school
-				tech_school = russian_tech_school
-			}
+			tech_school = culture_tech_school
 		}
 		modifier = {
 			factor = 1.2
@@ -1347,10 +1335,7 @@ modern_business_management = {
 		}
 		modifier = {
 			factor = 0.9
-			OR = {
-				tech_school = culture_tech_school
-				tech_school = russian_tech_school
-			}
+			tech_school = culture_tech_school
 		}
 		modifier = {
 			factor = 1.2

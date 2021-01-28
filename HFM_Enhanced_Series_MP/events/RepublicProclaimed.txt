@@ -16,24 +16,28 @@ country_event = {
 		name = "EVTOPTA777789"
 		political_reform = confederalism
 		clr_country_flag = republic_proclaimed
+		country_event = 777798
 	}
 
 	option = {
 		name = "EVTOPTB777789"
 		political_reform = regionalism
 		clr_country_flag = republic_proclaimed
+		country_event = 777798
 	}
 
 	option = {
 		name = "EVTOPTC777789"
 		political_reform = federalism
 		clr_country_flag = republic_proclaimed
+		country_event = 777798
 	}
 
 	option = {
 		name = "EVTOPTD777789"
 		political_reform = unitary
 		clr_country_flag = republic_proclaimed
+		country_event = 777798
 	}
 }
 
@@ -141,7 +145,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = { 
-		months = 1
+		months = 2
 	}
 	
 	option = {

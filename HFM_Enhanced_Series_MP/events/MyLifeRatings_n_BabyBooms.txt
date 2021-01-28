@@ -121,3 +121,28 @@ country_event = {
 		set_country_flag = asian_liferating_increase_3
 	}
 }
+
+country_event = {
+	id = 7777906
+	title = "EVTNAME7777906"
+	desc = "EVTDESC7777906"
+	picture = "uk_seizes_lagos"
+	
+	trigger = {
+		tag = NGE
+		NOT = { has_country_flag = nigerian_increase }
+		medicine = 1
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	option = {
+		name = "Our youth numbers shall swell"
+		all_core = {
+			life_rating = 5
+		}
+		set_country_flag = nigerian_increase
+	}
+}

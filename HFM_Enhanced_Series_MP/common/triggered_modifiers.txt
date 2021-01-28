@@ -241,6 +241,20 @@ bad_planning = {
 	icon = 19
 }
 
+african_unciv = {
+	trigger = {
+		OR = {
+			continent = africa
+			continent = central_africa 
+			continent = west_africa 
+			continent = east_africa 
+			continent = south_west_africa 
+		}
+		civilized = no
+	}
+	badboy = -0.2
+}
+
 extreme_bad_planning = {
 	trigger = {
 		exists = yes
@@ -250,16 +264,6 @@ extreme_bad_planning = {
 	}
 	factory_throughput = -0.5
 	RGO_throughput = -0.5
-	icon = 19
-}
-
-trinket_health_care_fully_funded = {
-	trigger = {
-		exists = yes
-		health_care = trinket_health_care
-		administration_spending = 0.2
-	}
-	global_population_growth = 0.001
 	icon = 19
 }
 
@@ -333,6 +337,9 @@ good_health_care_fully_funded = {
 health_care_fully_funded = {
 	trigger = {
 		exists = yes
+		NOT = { health_care = trinket_health_care }
+		NOT = { health_care = low_health_care }
+		NOT = { health_care = acceptable_health_care }
 		health_care = good_health_care
 		OR = {
 			AND = {
@@ -871,6 +878,19 @@ new_world_war = {
 	}
 
 	global_immigrant_attract = -0.8
+	icon = 16
+}
+
+old_world_war = {
+	trigger = {
+		war = yes
+		exists = yes
+		NOT = { capital_scope = { continent = north_america } }
+		NOT = { capital_scope = { continent = south_america } }
+		NOT = { capital_scope = { continent = australia_new_zealand } }
+	}
+
+	global_immigrant_attract = -1.5
 	icon = 16
 }
 

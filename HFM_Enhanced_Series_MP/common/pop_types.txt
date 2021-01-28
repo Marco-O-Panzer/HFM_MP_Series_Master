@@ -934,6 +934,12 @@ emigration_chance = {
 	}
 	
 	modifier = {
+		factor = 0.2	#culture effects end and now a flat average rate
+		year = 1890
+		NOT = { country = { has_country_flag = micro_nation } }
+	}
+	
+	modifier = {
 		factor = 0.4	#culture effects end and now a flat average rate
 		year = 1905	
 		NOT = { country = { has_country_flag = micro_nation } }
@@ -1699,7 +1705,13 @@ assimilation_chance = {
 	modifier = {
 		factor = -80
 		country = { NOT = { has_country_flag = african_integration_policy } }
-		location = { continent = africa }
+		OR = { 
+			location = { continent = africa }
+			location = { continent = central_africa }
+			location = { continent = west_africa }
+			location = { continent = east_africa }
+			location = { continent = south_west_africa }
+		}
 		OR = {
 			is_culture_group = african_diaspora_cultures
 			is_culture_group = west_african
@@ -1813,7 +1825,13 @@ conversion_chance = {
 	modifier = {
 		factor = 0.8
 		has_pop_religion = animist
-		location = { continent = africa }
+		OR = { 
+			location = { continent = africa }
+			location = { continent = central_africa }
+			location = { continent = west_africa }
+			location = { continent = east_africa }
+			location = { continent = south_west_africa }
+		}
 		country = { civilized = yes }
 	}
 	

@@ -2612,6 +2612,7 @@ west_african = {
 		last_names = { Oladigbolu Adeniran Agogoja Alowolodu Atobatele Zumaw Oyo Tofa Tonyon Bezon Hungbo Dudu
 		}
 	}
+	union = NGE
 }
 
 central_african = {

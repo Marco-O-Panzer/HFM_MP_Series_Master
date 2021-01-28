@@ -118,7 +118,7 @@ birthrate_push_high = {
 }
 
 recently_selected_birthrate = {
-    icon = 2
+    icon = 1
 }
 
 immigration_pull_low = {
@@ -164,6 +164,14 @@ european_unity = {
 burst_of_european_unity = {
 	assimilation_rate = 8
 	icon = 1
+}
+
+niger_research = {
+	research_points = 1
+	research_points_modifier = 0.4
+	global_pop_militancy_modifier = 0.1
+	global_pop_consciousness_modifier = 0.1
+	icon = 3
 }
 
 ##################################################################################################

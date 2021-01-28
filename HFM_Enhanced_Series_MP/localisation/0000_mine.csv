@@ -149,7 +149,7 @@ take_france_title;Take France;;;;;;;;;;;;;x,,
 take_france_desc;Claim France for Europe!;;;;;;;;;;;;;x,,
 unify_with_italy_title;Unify with Italy;;;;;;;;;;;;;x,,
 unify_with_italy_desc;Claim Italy for Europe!;;;;;;;;;;;;;x,,
-spanish_reunity_title;Beyong the Pyrenees;;;;;;;;;;;;;x,,
+spanish_reunity_title;Beyond the Pyrenees;;;;;;;;;;;;;x,,
 spanish_reunity_desc;Claim Spain for Europe!;;;;;;;;;;;;;x,,
 complete_iberia_title;Complete Iberia;;;;;;;;;;;;;x,,
 complete_iberia_desc;Claim Portugal for Europe!;;;;;;;;;;;;;x,,
@@ -212,3 +212,31 @@ burst_of_european_unity_desc;We are experiencing a massive rise in European soli
 EVTNAME7777905;To be European;;;;;;;;;;;;;x,,
 EVTDESC7777905;We are experiencing a massive rise in European solidarity, people are feeling more European than ever before!;;;;;;;;;;;;;x,,
 promoted_european_culture;European Cultural Unity;;;;;;;;;;;;;x,,
+african_unciv;African Primitive;;;;;;;;;;;;;x,,
+NGE;The Union of Niger;;;;;;;;;;;;;x,,
+NGE_ADJ;Nigerian;;;;;;;;;;;;;x,,
+NGE_democracy;The Niger Federation;;;;;;;;;;;;;x,,
+NGE_absolute_monarchy;The Nigerian Empire;;;;;;;;;;;;x
+NGE_prussian_constitutionalism;The Nigerian Empire;;;;;;;;;;;;x
+NGE_hms_government;The Nigerian Empire;;;;;;;;;;;;x
+NGE_presidential_dictatorship;The Nigerian Regency;;;;;;;;;;;;x
+NGE_bourgeois_dictatorship;New Nigerian State;;;;;;;;;;;;x
+NGE_proletarian_dictatorship;The Socialist Federation of Niger;;;;;;;;;;;;x
+NGE_fascist_dictatorship;The Nigerian State;;;;;;;;;;;;x
+niger_research;Rapid Catchup;;;;;;;;;;;;x
+niger_research_desc;We are rapidly catching up and advancing our scientifc and technological understanding;;;;;;;;;;;;x
+form_niger_federation_title;The People of the Niger River United;;;;;;;;;;;;x
+form_niger_federation_desc;We must seek to unify ourselves so that we can stand strong in this new world.;;;;;;;;;;;;x
+accept_nigeria_title;People of the East;;;;;;;;;;;;x
+accept_nigeria_desc;We have estabilished control over the east of our nation, let us now integrate the people of our new federation.;;;;;;;;;;;;x
+accept_ghana_title;People of the Center;;;;;;;;;;;;x
+accept_ghana_desc;We have estabilished control over the center of our nation, let us now integrate the people of our new federation.;;;;;;;;;;;;x
+accept_gambia_title;People of the West;;;;;;;;;;;;x
+accept_gambia_desc;We have estabilished control over the west of our nation, let us now integrate the people of our new federation.;;;;;;;;;;;;x
+central_west_coast_accept_title;South Coast Expansion;;;;;;;;;;;;x
+central_west_coast_accept_desc;We control these lands and can accept their people into the federation as equals.;;;;;;;;;;;;x
+accept_kongo_title;Into Kongo;;;;;;;;;;;;x
+accept_kongo_desc;Kongo is under federal control, their people will be granted federation citizenship.;;;;;;;;;;;;x
+EVTNAME7777906;Nigerian Population Boom;;;;;;;;;;;;x
+EVTDESC7777906;Our new medicical knowledge and technology is reapidly decreasing the infant mortality rate, resulting in a population boom.;;;;;;;;;;;;x
+old_world_war;At War;;;;;;;;;;;;x
