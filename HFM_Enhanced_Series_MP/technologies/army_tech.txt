@@ -861,17 +861,6 @@ modern_army_doctrine_1920 = {
 			war_policy = pacifism
 		}
 		modifier = {
-			factor = 1.2
-			OR = {
-				nationalvalue = nv_might
-				nationalvalue = nv_glory
-			}
-		}
-		modifier = {
-			factor = 1.4
-			nationalvalue = nv_supremacy
-		}
-		modifier = {
 			factor = 0.8
 			nationalvalue = nv_equality
 		}
@@ -1780,17 +1769,6 @@ advanced_divisional_structure = {
 			war_policy = pacifism
 		}
 		modifier = {
-			factor = 1.2
-			OR = {
-				nationalvalue = nv_might
-				nationalvalue = nv_glory
-			}
-		}
-		modifier = {
-			factor = 1.4
-			nationalvalue = nv_supremacy
-		}
-		modifier = {
 			factor = 0.8
 			nationalvalue = nv_equality
 		}
@@ -2626,17 +2604,6 @@ railway_gun = {
 		modifier = {
 			factor = 0.5
 			war_policy = pacifism
-		}
-		modifier = {
-			factor = 1.2
-			OR = {
-				nationalvalue = nv_might
-				nationalvalue = nv_glory
-			}
-		}
-		modifier = {
-			factor = 1.4
-			nationalvalue = nv_supremacy
 		}
 		modifier = {
 			factor = 0.8
@@ -3566,17 +3533,6 @@ combined_arms_experiments = {
 			war_policy = pacifism
 		}
 		modifier = {
-			factor = 1.2
-			OR = {
-				nationalvalue = nv_might
-				nationalvalue = nv_glory
-			}
-		}
-		modifier = {
-			factor = 1.4
-			nationalvalue = nv_supremacy
-		}
-		modifier = {
 			factor = 0.8
 			nationalvalue = nv_equality
 		}
@@ -4263,17 +4219,6 @@ total_war_philosophy = {
 		modifier = {
 			factor = 0.5
 			war_policy = pacifism
-		}
-		modifier = {
-			factor = 1.2
-			OR = {
-				nationalvalue = nv_might
-				nationalvalue = nv_glory
-			}
-		}
-		modifier = {
-			factor = 1.4
-			nationalvalue = nv_supremacy
 		}
 		modifier = {
 			factor = 0.8

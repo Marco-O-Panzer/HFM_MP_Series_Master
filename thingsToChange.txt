@@ -6,8 +6,7 @@ Changes that are waiting to be implemented:
 * Force the SGF to form if south germans not unified late game
 
 BUGS:
-small ai armies?
-crashes in or after 1920?
+potentially small ai armies? (tho i havent seen this yet)
 
 Maybe:
 * Change to UME map

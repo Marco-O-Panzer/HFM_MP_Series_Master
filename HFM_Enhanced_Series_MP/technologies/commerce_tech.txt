@@ -187,13 +187,13 @@ modern_financial_institutions = {
 			factor = 0.5
 			not = { year = 1925 }
 		}
-		modifier = {
-			factor = 1.01
-			OR = {
-				big_producer = shares
-				big_producer = financial_services
-			}
-		}
+#		modifier = {
+#			factor = 1.01
+#			OR = {
+#				big_producer = shares
+#				big_producer = financial_services
+#			}
+#		}
 		modifier = {
 			factor = 0.5
 			NOT = { literacy = 0.5 }
@@ -210,10 +210,6 @@ modern_financial_institutions = {
 		modifier = {
 			factor = 1.2
 			nationalvalue = nv_equality
-		}
-		modifier = {
-			factor = 1.4
-			nationalvalue = nv_prosperity
 		}
 		modifier = {
 			factor = 0.8
@@ -401,10 +397,10 @@ fiat_based_monetary_system = {
 			factor = 1.5
 			year = 1930
 		}
-		modifier = {
-			factor = 1.2
-			big_producer = financial_services
-		}
+#		modifier = {
+#			factor = 1.2
+#			big_producer = financial_services
+#		}
 		modifier = {
 			factor = 5
 			NOT = { money = 10000 }
@@ -412,10 +408,6 @@ fiat_based_monetary_system = {
 		modifier = {
 			factor = 1.2
 			nationalvalue = nv_equality
-		}
-		modifier = {
-			factor = 1.4
-			nationalvalue = nv_prosperity
 		}
 		modifier = {
 			factor = 0.8
@@ -694,10 +686,6 @@ neoliberal_theory = {
 		modifier = {
 			factor = 1.2
 			nationalvalue = nv_equality
-		}
-		modifier = {
-			factor = 1.4
-			nationalvalue = nv_prosperity
 		}
 		modifier = {
 			factor = 0.8
@@ -984,13 +972,13 @@ globalized_markets = {
 			factor = 1.2
 			year = 1930
 		}
-		modifier = {
-			factor = 5
-			OR = {
-				big_producer = shares
-				big_producer = financial_services
-			}
-		}
+#		modifier = {
+#			factor = 5
+#			OR = {
+#				big_producer = shares
+#				big_producer = financial_services
+#			}
+#		}
 		modifier = {
 			factor = 5
 			NOT = { literacy = 0.2 }
@@ -1003,10 +991,6 @@ globalized_markets = {
 		modifier = {
 			factor = 1.2
 			nationalvalue = nv_equality
-		}
-		modifier = {
-			factor = 1.4
-			nationalvalue = nv_prosperity
 		}
 		modifier = {
 			factor = 0.8
@@ -1316,18 +1300,7 @@ modern_business_management = {
 		}
 		modifier = {
 			factor = 1.2
-			OR = {
-				big_producer = cigarettes
-				big_producer = cigars
-			}
-		}
-		modifier = {
-			factor = 1.2
 			nationalvalue = nv_equality
-		}
-		modifier = {
-			factor = 1.4
-			nationalvalue = nv_prosperity
 		}
 		modifier = {
 			factor = 0.8

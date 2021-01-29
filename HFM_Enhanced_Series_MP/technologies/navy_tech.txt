@@ -586,10 +586,6 @@ modern_naval_doctrine_1920 = {
 		}
 		modifier = {
 			factor = 1.2
-			nationalvalue = nv_glory
-		}
-		modifier = {
-			factor = 1.2
 			tech_school = japanese_tech_school
 		}
 		modifier = {
@@ -1222,10 +1218,6 @@ aircraft_carriers = {
 		modifier = {
 			factor = 1.2
 			num_of_ports = 100
-		}
-		modifier = {
-			factor = 1.2
-			nationalvalue = nv_glory
 		}
 		modifier = {
 			factor = 1.2
@@ -1883,10 +1875,6 @@ modern_naval_design_1920 = {
 		}
 		modifier = {
 			factor = 1.2
-			nationalvalue = nv_glory
-		}
-		modifier = {
-			factor = 1.2
 			tech_school = japanese_tech_school
 		}
 		modifier = {
@@ -2320,10 +2308,6 @@ naval_aviation = {
 		modifier = {
 			factor = 1.2
 			num_of_ports = 100
-		}
-		modifier = {
-			factor = 1.2
-			nationalvalue = nv_glory
 		}
 		modifier = {
 			factor = 1.2
@@ -2951,10 +2935,6 @@ modern_naval_training_1920 = {
 		modifier = {
 			factor = 1.2
 			num_of_ports = 100
-		}
-		modifier = {
-			factor = 1.2
-			nationalvalue = nv_glory
 		}
 		modifier = {
 			factor = 1.2
