@@ -113,7 +113,7 @@ HND_claim_nepal_desc;Long on out northern border, nepal has not always been seen
 HND_accept_tibetans_title;Integrating the Tibetans;;;;;;;;;;;;;x,,
 HND_accept_tibetans_desc;Now that Tibet is a state in the Union, their citizens shall be treated as such as well.;;;;;;;;;;;;;x,,
 EVTNAME777796;Presidential Decree;;;;;;;;;;;;;x,,
-EVTDESC777796;The President has the ability to issue executive orders, but the legislature will be outraged if the President consistently bypasses them. Hence this power can only be used a limited number of times per term. NOTE: This ability is active for an average 3 months.;;;;;;;;;;;;;x,,
+EVTDESC777796;The President has the ability to issue executive orders, but the legislature will be outraged if the President consistently bypasses them. Hence this power can only be used a limited number of times per term. NOTE: This ability is active for on average 2 months.;;;;;;;;;;;;;x,,
 EVTNAME777797;Presidential Decree;;;;;;;;;;;;;x,,
 EVTDESC777797;The time for executive decree has passed.;;;;;;;;;;;;;x,,
 EVTNAME777798;Republican Executive;;;;;;;;;;;;;x,,
@@ -240,3 +240,5 @@ accept_kongo_desc;Kongo is under federal control, their people will be granted f
 EVTNAME7777906;Nigerian Population Boom;;;;;;;;;;;;x
 EVTDESC7777906;Our new medicical knowledge and technology is reapidly decreasing the infant mortality rate, resulting in a population boom.;;;;;;;;;;;;x
 old_world_war;At War;;;;;;;;;;;;x
+barrage_fire;Barrage Fire;;;;;;;;;;;;x
+barrage_fire_desc;A barrage is massed sustained artillery fire aimed at a series of points along a line. As well as attacking any enemy in that line, a barrage intends to suppress enemy movement and actions through that line.;;;;;;;;;;;;x

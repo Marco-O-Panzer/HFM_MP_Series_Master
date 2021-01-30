@@ -121,8 +121,8 @@ country_event = {
 		has_country_flag = executive_activated
 	}
 	
-	mean_time_to_happen = { 
-		months = 3
+	mean_time_to_happen = {
+		months = 2
 	}
 	
 	option = {

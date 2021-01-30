@@ -673,12 +673,12 @@ mechanized_manufacturing = {
 	cost = 60000
 	factory_throughput = 0.1 
 	rgo_throughput = 0.05
-	factory_goods_throughput = {
-		#shares = -0.1
-	}
-	factory_goods_throughput = {
-		#financial_services = -0.1
-	}
+#	factory_goods_throughput = {
+#		shares = -0.1
+#	}
+#	factory_goods_throughput = {
+#		financial_services = -0.1
+#	}
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -715,9 +715,8 @@ mechanized_manufacturing = {
 				big_producer = oil
 				big_producer = grain
 				big_producer = tea
-				big_producer = tobacco
-				big_producer = shares
-				big_producer = financial_services
+#				big_producer = shares
+#				big_producer = financial_services
 			}
 		}
 		modifier = {

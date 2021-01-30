@@ -90,11 +90,11 @@ country = {
 	COLONIZATION_INFLUENCE_TEMPERATURE_PER_LEVEL = 0.005,
 	PARTY_LOYALTY_HIT_ON_WAR_LOSS = 0.95, -- Drops the ruling party loyalty if war is lost.
 	RESEARCH_POINTS_ON_CONQUER_MULT = 200, -- multiplier to RP got by conquering as unciv when got enacted military reforms
-	MAX_RESEARCH_POINTS = 35000, -- max RP you can store for uncivs
+	MAX_RESEARCH_POINTS = 40000, -- max RP you can store for uncivs
 },
 
 economy = {
-	MAX_DAILY_RESEARCH		    = 100,
+	MAX_DAILY_RESEARCH		    = 200,
 	LOAN_BASE_INTEREST			= 0.01,
 	BANKRUPTCY_EXTERNAL_LOAN_YEARS	= 10,
 	BANKRUPTCY_FACTOR = 0.2,

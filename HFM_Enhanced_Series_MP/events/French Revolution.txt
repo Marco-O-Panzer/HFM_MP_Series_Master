@@ -31,17 +31,13 @@ country_event = {
 		remove_accepted_culture = cajun
 		remove_accepted_culture = french_canadian
 		clr_country_flag = ready_for_hugo
-		ai_chance = {
-			factor = 0
-		}
+		ai_chance = { factor = 0 }
 	}
 	
 	option = {
 		name = "The peoples of all of Europe are not our concern"
 		clr_country_flag = ready_for_hugo
-		ai_chance = {
-			factor = 1
-		}
+		ai_chance = { factor = 100 }
 	}
 }
 

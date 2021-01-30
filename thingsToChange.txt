@@ -5,6 +5,7 @@ Changes that are waiting to be implemented:
 * RB Great Game event suggestions
 * Force the SGF to form if south germans not unified late game
 
+
 BUGS:
 potentially small ai armies? (tho i havent seen this yet)
 

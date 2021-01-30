@@ -77,10 +77,6 @@ conservative_group = {
 		}
 		remove_political_reform = {
 			base = 1
-			modifier = {
-				factor = 0.17
-				has_country_flag = executive_activated
-			}
 		}
 		add_social_reform = {
 			base = 0
@@ -91,10 +87,6 @@ conservative_group = {
 		}
 		remove_social_reform = {
 			base = 1
-			modifier = {
-				factor = 0.17
-				has_country_flag = executive_activated
-			}
 		}
 		
 		add_military_reform = {

@@ -337,9 +337,6 @@ good_health_care_fully_funded = {
 health_care_fully_funded = {
 	trigger = {
 		exists = yes
-		NOT = { health_care = trinket_health_care }
-		NOT = { health_care = low_health_care }
-		NOT = { health_care = acceptable_health_care }
 		health_care = good_health_care
 		OR = {
 			AND = {
