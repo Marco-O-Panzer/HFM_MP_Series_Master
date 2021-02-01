@@ -141,7 +141,7 @@ country_event = {
 		government = democracy
 		NOT = { executive_abilities = presidential_system }
 		NOT = {	executive_abilities = semi_presidential }
-		NOT = {	executive_abilities = parliamentary }
+		NOT = {	executive_abilities = parliamentary_system }
 	}
 	
 	mean_time_to_happen = { 

@@ -960,7 +960,7 @@ emigration_chance = {
 	}
 	
 	modifier = {
-		factor = -0.5
+		factor = -0.4
 		NOT = { location = { continent = north_america } }
 		NOT = { location = { continent = south_america } }
 		NOT = { location = { continent = australia_new_zealand } }

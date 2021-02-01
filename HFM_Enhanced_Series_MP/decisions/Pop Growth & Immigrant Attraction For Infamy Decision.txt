@@ -110,8 +110,8 @@ political_decisions = {
 				}
 				
 				effect = {
-					remove_country_modifier = immigration_push_low
-					remove_country_modifier = immigration_push_high 
+					remove_country_modifier = immigration_pull_low
+					remove_country_modifier = immigration_pull_high 
 				}
 		}
 }

@@ -27,6 +27,8 @@ GFX & Localisation Changes
 Bugs Fixes
 * Tech crash fixed
 * Ensured ai france doesnt take USE option (now factor 100 vs 0 not to)
+* Fixed trigger on executive event for republics
+* Can now remove immigration buff modifier
 
 
 Version 3
