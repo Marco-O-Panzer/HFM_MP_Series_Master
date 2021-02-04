@@ -145,7 +145,7 @@ recently_selected_immigration = {
 
 european_culture = {
 	global_pop_consciousness_modifier = 0.03
-	assimilation_rate = 4
+	assimilation_rate = 1
 	icon = 17
 }
 

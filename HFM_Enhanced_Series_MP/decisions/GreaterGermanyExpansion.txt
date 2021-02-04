@@ -41,8 +41,8 @@ political_decisions = {
 			}
 		}
 		effect = { 
-			SLV = { all_core = { add_core = GER } }
-			badboy = 10
+			HUN = { all_core = { add_core = GER } }
+			badboy = 20
 		}
 		ai_will_do = {
 			factor = 0
@@ -73,6 +73,7 @@ political_decisions = {
 		
 		effect = { 
 			VEN = { all_core = { add_core = GER } }
+			LOM = { all_core = { add_core = GER } }
 			badboy = 10
 		}
 		ai_will_do = {

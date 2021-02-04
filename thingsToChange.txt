@@ -1,9 +1,10 @@
 Changes that are waiting to be implemented:
 * PDM ports:
--- Add in service economy, potentially more economy changes
 -- add in some inventions
 * RB Great Game event suggestions
 * Force the SGF to form if south germans not unified late game
+* small event for primitive South East Asian countries just for some extra flavor. What about an elephant hunt event that could give a specific province an RGO and maybe even a life rating bonus?
+* Oceanic Union tag
 
 
 BUGS:
@@ -11,3 +12,4 @@ potentially small ai armies? (tho i havent seen this yet)
 
 Maybe:
 * Change to UME map
+* Add in PDM service economy, potentially more economy changes

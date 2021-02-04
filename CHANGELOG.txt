@@ -14,12 +14,21 @@ Version 4
 ---------
 CHECKSUM: (Steam version)
 
+Flavour Changes
+* Greater Germany
+-- Decision to annex slovakia now increased to all Hungarian cores - infamy cost increased to 20
+-- Cores on venice now also cores on lombardia
+
+Economy
+* Factorys now pay out 60% of profits in paychecks
+
 Tech
 * Daily research points cap raised to 200
 * Unciv rp max storage increased slightly to 40000
 
 Balance Changes
 * Executive ability mtth shortened to 2 months
+* EU culture assimilation toned down a bit
 
 GFX & Localisation Changes
 * barrage_fire localisation added
@@ -57,7 +66,7 @@ Flavour Changes
 -- Can be formed by France via event after the 1848 revolution, or by Belgium if its a GP
 -- Multiple decisions to gain cores across Europe for infamy (~300 in total)
 -- Decision to increase assimilation for an uptick in consciousness - also reduces emmigration rate
--- Regular event that fires to convert some % of pops to european, mtth reduced with democracy and pro integration
+-- Regular event that fires to increase conversion rate to european temporarily, mtth reduced with democracy and pro integration
 * Germany
 -- Greater germany doesnt get cores on croatia when annexing Austria
 -- Greater germany can expand into venice and poland, and then austria for infamy (gains cores)
@@ -76,7 +85,7 @@ CBs & Infamy
 * Negotiated puppet release added back in (incase for some reason a puppet that doesnt have a decision to release)
 * CB to take cores of anothers substate
 * CB to unite India with if south_asian culture and researched nationalism_n_imperialism
-* Afircan uncivs get an additional -0.2 infamy a month decay
+* African uncivs get an additional -0.2 infamy a month decay
 
 Political & Reform Changes
 * Conservatives in a republic now have a base of +10% willingness to reform
