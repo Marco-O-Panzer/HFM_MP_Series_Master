@@ -5,7 +5,8 @@ Changes that are waiting to be implemented:
 * Force the SGF to form if south germans not unified late game
 * small event for primitive South East Asian countries just for some extra flavor. What about an elephant hunt event that could give a specific province an RGO and maybe even a life rating bonus?
 * Oceanic Union tag
-
+* fascists can use encourage births NF
+* remove base pop growth
 
 BUGS:
 potentially small ai armies? (tho i havent seen this yet)
