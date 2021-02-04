@@ -3,6 +3,7 @@ Changes that are waiting to be implemented:
 -- add in some inventions
 * RB Great Game event suggestions
 * Force the SGF to form if south germans not unified late game
+* let germans see the conditions for forming germany / the sgf (couldnt see them as bavaria)
 * small event for primitive South East Asian countries just for some extra flavor. What about an elephant hunt event that could give a specific province an RGO and maybe even a life rating bonus?
 * Oceanic Union tag
 * fascists can use encourage births NF

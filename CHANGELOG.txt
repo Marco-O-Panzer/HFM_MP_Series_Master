@@ -29,9 +29,11 @@ Tech
 Balance Changes
 * Executive ability mtth shortened to 2 months
 * EU culture assimilation toned down a bit
+* Cant build infrastructure via decision whilst at war
 
 GFX & Localisation Changes
 * barrage_fire localisation added
+* Liferating UI now effectively scaled to 50 max liferating
 
 Bugs Fixes
 * Tech crash fixed
