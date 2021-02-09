@@ -1373,21 +1373,11 @@ political_decisions = {
 	picture = self_strengthening_movement
 		potential = {
 			OR = {
-				AND = {
-					tag = QNG
-					NOT = { exists = TPG }
-					NOT = { civilization_progress = 0.75 }
-					civilized = no
-				}
-				AND = {
-					OR = {
-						tag = TPG
-						tag = CHI
-					}
-					NOT = { year = 1905 }
-				}
+				tag = QNG
+				tag = TPG
+				tag = CHI
 			}
-			
+			NOT = { year = 1905 }
 			NOT = { has_country_modifier = self_strengthening_movement }
 			has_global_flag = taiping_has_happened
 		}

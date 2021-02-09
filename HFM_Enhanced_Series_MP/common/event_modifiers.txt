@@ -1,3 +1,7 @@
+grant_cooldown = {
+    icon = 12
+}
+
 employing_the_labourers = {
     icon = 12
 }
@@ -139,6 +143,10 @@ immigration_pull_high = {
 
 recently_selected_immigration = {
     icon = 2
+}
+
+recently_requested_trade = {
+	icon = 9
 }
 
 ##############################

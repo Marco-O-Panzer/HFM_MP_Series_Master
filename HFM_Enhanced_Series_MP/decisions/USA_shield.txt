@@ -175,7 +175,7 @@ political_decisions = {
 				is_greater_power = yes
 				ENG = {
 					truce_with = USA
-					is_disarmed = yes
+					#is_disarmed = yes
 				}
 		}
 		effect = {

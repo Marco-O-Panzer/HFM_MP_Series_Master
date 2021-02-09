@@ -6,7 +6,8 @@ Infamy reduction depending on rank & healthcare changes inspired by Heirs to Aqu
 Population size effects, final tech row, and LGLC tax moddifiers inspired by PDM Divide by Zero.
 Population growth decision and conditions UI changes taken from The Grand Combo.
 Thanks to Nurse_Reno for the craftsmen fix.
-General UI change taken from Victoria Universalis. Everything else is my own (as far as I remember).
+Generals UI change & Trade Agreements taken from Victoria Universalis.
+Everything else is my own (as far as I remember).
 Note that 'global' on a modifier means just across your country.
 
 
@@ -15,12 +16,22 @@ Version 4
 CHECKSUM: (Steam version)
 
 Flavour Changes
-* Greater Germany
+* Germany
+-- Spheres dont need to be at peace to form germany
 -- Decision to annex slovakia now increased to all Hungarian cores - infamy cost increased to 20
 -- Cores on venice now also cores on lombardia
+* USA
+-- All of mexico decision dissapears at the civil war
+* Netherlands
+* Walloon can be accepted if R&C, all allowed rights reform, and full citizenship party policy
+
+Population Growth
+* Removed base pop growth
+* Fascists can use encourage births NF
 
 Economy
 * Factorys now pay out 60% of profits in paychecks
+* Max stockpile increased to 5k
 
 Tech
 * Daily research points cap raised to 200
@@ -30,16 +41,20 @@ Balance Changes
 * Executive ability mtth shortened to 2 months
 * EU culture assimilation toned down a bit
 * Cant build infrastructure via decision whilst at war
+* Qinq and Taiping have the same conditions to self strengthen post taiping rebellion
+* Cant spam request grant, 1 month cooldown
 
 GFX & Localisation Changes
 * barrage_fire localisation added
 * Liferating UI now effectively scaled to 50 max liferating
+* Now can see the decisions to form german unions as a non-gp
 
 Bugs Fixes
 * Tech crash fixed
 * Ensured ai france doesnt take USE option (now factor 100 vs 0 not to)
 * Fixed trigger on executive event for republics
 * Can now remove immigration buff modifier
+* Removed the disarmed condition for UK on the Treaty of Philadelphia
 
 
 Version 3

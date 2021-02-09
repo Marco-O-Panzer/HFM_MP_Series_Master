@@ -9,7 +9,7 @@ TUR_presidential_dictatorship_adj;Ottoman;Turc;Türkisch;;turca;;;;;;;;;x,,,
 TUR_democracy;The Sublime Porte;Turquie;Türkei;;Turquía;;;;;;;;;x,,,
 TUR_democracy_ADJ;Ottoman;Turc;Türkisch;;turca;;;;;;;;;x,,,
 all_of_mexico_title;All of Mexico!;;;;;;;;;;;;;x,,,
-all_of_mexico_desc;It is not enough to have empty lands, all Mexicans are Americans!;;;;;;;;;;;;;x,,
+all_of_mexico_desc;It is not enough to have empty lands, all Mexicans are Americans!  NOTE: Not an option once the civil war starts.;;;;;;;;;;;;;x,,
 cultural_expansion_title;Expand the Federation!;;;;;;;;;;;;;x,,,
 cultural_expansion_desc;Whilst we have made excellent progress regardless of our cultures, some are still left out. It is time to bring them as full citizens into the Federation.;;;;;;;;;;;;;x,,
 EVT90056OPTB;They have their sphere, we have ours;;;;;;;;;;;;;x,,
@@ -242,3 +242,7 @@ EVTDESC7777906;Our new medicical knowledge and technology is reapidly decreasing
 old_world_war;At War;;;;;;;;;;;;x
 barrage_fire;Barrage Fire;;;;;;;;;;;;x
 barrage_fire_desc;A barrage is massed sustained artillery fire aimed at a series of points along a line. As well as attacking any enemy in that line, a barrage intends to suppress enemy movement and actions through that line.;;;;;;;;;;;;x
+grant_cooldown;Grant Cooldown;;;;;;;;;;;;x
+grant_cooldown_desc;We have recently requested aid;;;;;;;;;;;;x
+dutch_accept_walloon_title;Our Walloon Brothers;;;;;;;;;;;;x
+dutch_accept_walloon_desc;Our relationship with the Walloon people has always been close, although fraught with tension. It is time we set aside our quarrels and work together on the major challenges facing us, as one.;;;;;;;;;;;;x

@@ -37,6 +37,7 @@ political_decisions = {
 			is_greater_power = yes
 			NOT = { has_country_flag = formexico }
 			NOT = { has_country_flag = hiding_the_decisions }
+			has_country_flag = the_slavery_debate
 		}
 		allow = {
 			has_country_flag = hasmanifestdestiny 
@@ -387,6 +388,24 @@ political_decisions = {
 					remove_core = SPA
 				}
 			}
+		}
+	}
+	
+	dutch_accept_walloon = {
+		picture = NET_claim_artois
+		potential = {
+			tag = NET
+			NOT = { accepted_culture = walloon }
+		}
+	
+		allow = {
+			revolution_n_counterrevolution = 1
+			citizenship_policy = full_citizenship
+			citizens_rights = all_voting_pops
+		}
+	
+		effect = {
+			add_accepted_culture = walloon
 		}
 	}
 }
