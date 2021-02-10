@@ -57,9 +57,9 @@ become_democratic_china_title;Restore the Republic!;;;;;;;;;;;;;x,,
 become_democratic_china_desc;Long has the military controlled the government, but now they are reluctantly willing to surrender up the majority of their power to the civiliian administration. This is a new dawn for a free and prosperous China!;;;;;;;;;;;;;x,,
 begin_land_transfer;Begin Land Transfer;;;;;;;;;;;;;x,,
 hide_the_decisions_title;Hide Extra Decisions;;;;;;;;;;;;;x,,
-hide_the_decisions_desc;Remove decisions clutter by hiding the extra decisions modded in by Townes. NOTE: Hides key decisions like advancing research reforms, or powerful alt-history options.;;;;;;;;;;;;;x,,
+hide_the_decisions_desc;Remove decisions clutter by hiding the extra decisions modded in by Townes. NOTE: Hides key decisions like advancing research reforms, transfer decisions, or powerful alt-history options.;;;;;;;;;;;;;x,,
 show_the_decisions_title;Show Extra Decisions;;;;;;;;;;;;;x,,
-show_the_decisions_desc;Show the extra decisions modded in by Townes. NOTE: Currently hidden key decisions like advancing research reforms, or powerful alt-history options.;;;;;;;;;;;;;x,,
+show_the_decisions_desc;Show the extra decisions modded in by Townes. NOTE: Currently hidden key decisions like advancing research reforms, transfer decisions, or powerful alt-history options.;;;;;;;;;;;;;x,,
 land_transfer_title;Allow Land Transfer;;;;;;;;;;;;;x,,
 land_transfer_desc;Take this decision to enable transfer CBs to be justified on our nation.;;;;;;;;;;;;;x,,
 end_land_transfer_title;Disallow Land Transfer;;;;;;;;;;;;;x,,
@@ -246,3 +246,13 @@ grant_cooldown;Grant Cooldown;;;;;;;;;;;;x
 grant_cooldown_desc;We have recently requested aid;;;;;;;;;;;;x
 dutch_accept_walloon_title;Our Walloon Brothers;;;;;;;;;;;;x
 dutch_accept_walloon_desc;Our relationship with the Walloon people has always been close, although fraught with tension. It is time we set aside our quarrels and work together on the major challenges facing us, as one.;;;;;;;;;;;;x
+recently_requested_trade;Recently requested trade;;;;;;;;;;;;x
+recently_requested_trade_desc;We must wait for our negotating team to return;;;;;;;;;;;;x
+infamy_grant_cooldown;Infamy grant cooldown;;;;;;;;;;;;x
+infamy_grant_cooldown_desc;We must wait for our diplomatic mission to return;;;;;;;;;;;;x
+will_receive_infamy_transfer_title;Request Infamy Transfer;;;;;;;;;;;;x
+will_receive_infamy_transfer_desc;We are in need of diplomatic aid, let us ask our ally for their public support and stated justifcation on the matter. NOTE: Nations with more than 25 infamy will not recieve the request.;;;;;;;;;;;;x
+will_give_infamy_title;Permit Infamy Transfers;;;;;;;;;;;;x
+will_give_infamy_desc;We will consider the use of our diplomatic abilities to justify the expansions of our allies.;;;;;;;;;;;;x
+will_not_give_infamy_title;Deny Infamy Transfers;;;;;;;;;;;;x
+will_not_give_infamy_desc;We will not allow our diplomats to waste their time justifiying the conquests of others.;;;;;;;;;;;;x

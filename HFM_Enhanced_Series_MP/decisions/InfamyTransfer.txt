@@ -14,7 +14,7 @@ political_decisions = {
 			NOT = { has_country_modifier = infamy_grant_cooldown }
 		}
 		effect = {
-			country_event = {id = 100001 days = 0}
+			country_event = {id = 200000 days = 0}
 			add_country_modifier = {
 				name = infamy_grant_cooldown
 				duration = 30

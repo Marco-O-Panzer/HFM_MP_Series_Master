@@ -5,7 +5,7 @@ This mod is built on HFM V1.27I and HFM More Stuff V3.5 submod. Below are my cha
 Infamy reduction depending on rank & healthcare changes inspired by Heirs to Aquitania.
 Population size effects, final tech row, and LGLC tax moddifiers inspired by PDM Divide by Zero.
 Population growth decision and conditions UI changes taken from The Grand Combo.
-Thanks to Nurse_Reno for the craftsmen fix.
+Thanks to Nurse_Reno for the craftsmen & bureaucrats fix.
 Generals UI change & Trade Agreements taken from Victoria Universalis.
 Everything else is my own (as far as I remember).
 Note that 'global' on a modifier means just across your country.
@@ -23,7 +23,7 @@ Flavour Changes
 * USA
 -- All of mexico decision dissapears at the civil war
 * Netherlands
-* Walloon can be accepted if R&C, all allowed rights reform, and full citizenship party policy
+-- Walloon can be accepted if R&C, all allowed rights reform, and full citizenship party policy
 
 Population Growth
 * Removed base pop growth
@@ -36,6 +36,11 @@ Economy
 Tech
 * Daily research points cap raised to 200
 * Unciv rp max storage increased slightly to 40000
+
+New General Decisions
+* Can now transfer infamy
+* Bureaucrats fix to remove non-accepted culture bureaucrats and convert them to artisans
+* Player to Player automatic resource transfer
 
 Balance Changes
 * Executive ability mtth shortened to 2 months

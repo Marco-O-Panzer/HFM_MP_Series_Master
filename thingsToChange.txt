@@ -5,8 +5,7 @@ Changes that are waiting to be implemented:
 * Force the SGF to form if south germans not unified late game
 * Oceanic Union tag
 * EIC can trigger the war
-* reno bureaucrats fix
-* give infamy player to player
+
 
 
 WIP

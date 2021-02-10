@@ -10,6 +10,10 @@ craftsmen_fix_cooldown = {
     icon = 12
 }
 
+bureaucrats_fix_cooldown = {
+    icon = 12
+}
+
 our_home = {
 	global_population_growth = 0.002
 	rgo_throughput = 1
@@ -147,6 +151,10 @@ recently_selected_immigration = {
 
 recently_requested_trade = {
 	icon = 9
+}
+
+infamy_grant_cooldown = {
+	icon = 12
 }
 
 ##############################

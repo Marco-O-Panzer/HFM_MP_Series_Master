@@ -30,6 +30,8 @@ country_event = {
 				ai = no
 			
 				NOT = { badboy = 1 }
+				
+				#NOT = { tag = THIS }
 		
 			}
 		
@@ -60,8 +62,6 @@ id = 200002
 		name = "Great!"
 	
 		ai_chance = {factor = 100} 
-	
-		FROM = { country_event = {id = 200013 days = 0}}	
 	
 		FROM = { country_event = {id = 200003 days = 0}}
 	
