@@ -882,20 +882,36 @@ social_reforms = {
 		no_subsidies = {
 		}
 		trinket_subsidies = {
-			unemployment_benefit = 0.25
-			global_immigrant_attract = 0.01
+			unemployment_benefit = 0.50
+			global_immigrant_attract = 0.20
 		}
 		low_subsidies = {
-			unemployment_benefit = 0.50
-			global_immigrant_attract = 0.05
+			unemployment_benefit = 1
+			global_immigrant_attract = 0.45
 		}
 		acceptable_subsidies = {
-			unemployment_benefit = 0.75
-			global_immigrant_attract = 0.15
+			unemployment_benefit = 1.0
+			pension_level = 1.5
+			global_immigrant_attract = 0.9
+			allow = { 
+				OR = {
+					ruling_party_ideology = socialist
+					ruling_party_ideology = communist
+					ruling_party_ideology = fascist
+				}
+			}
 		}
 		good_subsidies = {
 			unemployment_benefit = 1.0
-			global_immigrant_attract = 0.45
+			pension_level = 4
+			global_immigrant_attract = 1.5
+			allow = { 
+				OR = {
+					ruling_party_ideology = socialist
+					ruling_party_ideology = communist
+					ruling_party_ideology = fascist
+				}
+			}
 		}
 	}
 	pensions = {

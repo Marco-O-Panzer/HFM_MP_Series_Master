@@ -24,6 +24,15 @@ Flavour Changes
 -- All of mexico decision dissapears at the civil war
 * Netherlands
 -- Walloon can be accepted if R&C, all allowed rights reform, and full citizenship party policy
+* GBR
+-- Capital province definition changed back to Europe
+* EIC
+-- Can trigger the future of the company event itself if the UK player refuses to do so
+
+Political & Reform Changes
+* Unemployment reform changed to Welfare
+-- UBI options added in
+-- unemployment reforms condensed from 4 to 2
 
 Population Growth
 * Removed base pop growth
@@ -43,6 +52,7 @@ New General Decisions
 * Player to Player automatic resource transfer
 
 Balance Changes
+* Emigration rate more balanced for old world republics and monarchies & less overall variance
 * Executive ability mtth shortened to 2 months
 * EU culture assimilation toned down a bit
 * Cant build infrastructure via decision whilst at war

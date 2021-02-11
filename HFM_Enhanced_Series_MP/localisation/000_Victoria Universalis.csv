@@ -45,3 +45,129 @@ modern_army_doctrine_1920;Advanced Army Doctrine;;;;;;;;;;;;;;
 advanced_divisional_structure;Advanced Divisional Structure;;;;;;;;;;;;;;
 modern_naval_doctrine;Early Modern Naval Doctrine;;;;;;;;;;;;;;
 modern_naval_doctrine_1920;Modern Naval Doctrine;;;;;;;;;;;;;;
+recently_requested_trade;Requesting Trade Deal;;;;;;;;;;;;;x
+recently_requested_trade_desc;We have sent out offers of trade to the world, now we must wait for a response.;;;;;;;;;;;;;x
+choose_trade_good_title;Choose Goods to Send;;;;;;;;;;;;;x
+choose_trade_good_desc;You must have the "Allow pops/factories to buy from stockpile" button turned §ROFF§b while sending goods. Your trading partner must have this button turned §GON§b, and should not manually buy or sell goods while it is turned on or they risk crashing the world market. Only one country in the trade agreement should send goods at a time.;;;;;;;;;;;;;x
+request_trade_deal_title;Request Trade Deal;;;;;;;;;;;;;x
+request_trade_deal_desc;We can request to set up a trading deal with another human controlled country. When two countries enter into a trading deal, a decision will appear for both countries that will allow them to send goods to each other directly from their stockpile. You can only have one trading partner at one time, and there can only be 15 trading agreements globally at any time.;;;;;;;;;;;;;x
+accept_trade_deal_1_title;Accept Trade Deal;;;;;;;;;;;;;x
+accept_trade_deal_1_desc;If we enter into a trade deal with the chosen country, we will get a decision that allows us to send goods from our stockpile to our trading partner.;;;;;;;;;;;;;x
+accept_trade_deal_2_title;Accept Trade Deal;;;;;;;;;;;;;x
+accept_trade_deal_2_desc;If we enter into a trade deal with the chosen country, we will get a decision that allows us to send goods from our stockpile to our trading partner.;;;;;;;;;;;;;x
+accept_trade_deal_3_title;Accept Trade Deal;;;;;;;;;;;;;x
+accept_trade_deal_3_desc;If we enter into a trade deal with the chosen country, we will get a decision that allows us to send goods from our stockpile to our trading partner.;;;;;;;;;;;;;x
+accept_trade_deal_4_title;Accept Trade Deal;;;;;;;;;;;;;x
+accept_trade_deal_4_desc;If we enter into a trade deal with the chosen country, we will get a decision that allows us to send goods from our stockpile to our trading partner.;;;;;;;;;;;;;x
+accept_trade_deal_5_title;Accept Trade Deal;;;;;;;;;;;;;x
+accept_trade_deal_5_desc;If we enter into a trade deal with the chosen country, we will get a decision that allows us to send goods from our stockpile to our trading partner.;;;;;;;;;;;;;x
+accept_trade_deal_6_title;Accept Trade Deal;;;;;;;;;;;;;x
+accept_trade_deal_6_desc;If we enter into a trade deal with the chosen country, we will get a decision that allows us to send goods from our stockpile to our trading partner.;;;;;;;;;;;;;x
+accept_trade_deal_7_title;Accept Trade Deal;;;;;;;;;;;;;x
+accept_trade_deal_7_desc;If we enter into a trade deal with the chosen country, we will get a decision that allows us to send goods from our stockpile to our trading partner.;;;;;;;;;;;;;x
+accept_trade_deal_8_title;Accept Trade Deal;;;;;;;;;;;;;x
+accept_trade_deal_8_desc;If we enter into a trade deal with the chosen country, we will get a decision that allows us to send goods from our stockpile to our trading partner.;;;;;;;;;;;;;x
+accept_trade_deal_9_title;Accept Trade Deal;;;;;;;;;;;;;x
+accept_trade_deal_9_desc;If we enter into a trade deal with the chosen country, we will get a decision that allows us to send goods from our stockpile to our trading partner.;;;;;;;;;;;;;x
+accept_trade_deal_10_title;Accept Trade Deal;;;;;;;;;;;;;x
+accept_trade_deal_10_desc;If we enter into a trade deal with the chosen country, we will get a decision that allows us to send goods from our stockpile to our trading partner.;;;;;;;;;;;;;x
+accept_trade_deal_11_title;Accept Trade Deal;;;;;;;;;;;;;x
+accept_trade_deal_11_desc;If we enter into a trade deal with the chosen country, we will get a decision that allows us to send goods from our stockpile to our trading partner.;;;;;;;;;;;;;x
+accept_trade_deal_12_title;Accept Trade Deal;;;;;;;;;;;;;x
+accept_trade_deal_12_desc;If we enter into a trade deal with the chosen country, we will get a decision that allows us to send goods from our stockpile to our trading partner.;;;;;;;;;;;;;x
+accept_trade_deal_13_title;Accept Trade Deal;;;;;;;;;;;;;x
+accept_trade_deal_13_desc;If we enter into a trade deal with the chosen country, we will get a decision that allows us to send goods from our stockpile to our trading partner.;;;;;;;;;;;;;x
+accept_trade_deal_14_title;Accept Trade Deal;;;;;;;;;;;;;x
+accept_trade_deal_14_desc;If we enter into a trade deal with the chosen country, we will get a decision that allows us to send goods from our stockpile to our trading partner.;;;;;;;;;;;;;x
+accept_trade_deal_15_title;Accept Trade Deal;;;;;;;;;;;;;x
+accept_trade_deal_15_desc;If we enter into a trade deal with the chosen country, we will get a decision that allows us to send goods from our stockpile to our trading partner.;;;;;;;;;;;;;x
+accept_trade_deal_16_title;Accept Trade Deal;;;;;;;;;;;;;x
+accept_trade_deal_16_desc;If we enter into a trade deal with the chosen country, we will get a decision that allows us to send goods from our stockpile to our trading partner.;;;;;;;;;;;;;x
+accept_trade_deal_17_title;Accept Trade Deal;;;;;;;;;;;;;x
+accept_trade_deal_17_desc;If we enter into a trade deal with the chosen country, we will get a decision that allows us to send goods from our stockpile to our trading partner.;;;;;;;;;;;;;x
+accept_trade_deal_18_title;Accept Trade Deal;;;;;;;;;;;;;x
+accept_trade_deal_18_desc;If we enter into a trade deal with the chosen country, we will get a decision that allows us to send goods from our stockpile to our trading partner.;;;;;;;;;;;;;x
+accept_trade_deal_19_title;Accept Trade Deal;;;;;;;;;;;;;x
+accept_trade_deal_19_desc;If we enter into a trade deal with the chosen country, we will get a decision that allows us to send goods from our stockpile to our trading partner.;;;;;;;;;;;;;x
+accept_trade_deal_20_title;Accept Trade Deal;;;;;;;;;;;;;x
+accept_trade_deal_20_desc;If we enter into a trade deal with the chosen country, we will get a decision that allows us to send goods from our stockpile to our trading partner.;;;;;;;;;;;;;x
+accept_trade_deal_21_title;Accept Trade Deal;;;;;;;;;;;;;x
+accept_trade_deal_21_desc;If we enter into a trade deal with the chosen country, we will get a decision that allows us to send goods from our stockpile to our trading partner.;;;;;;;;;;;;;x
+accept_trade_deal_22_title;Accept Trade Deal;;;;;;;;;;;;;x
+accept_trade_deal_22_desc;If we enter into a trade deal with the chosen country, we will get a decision that allows us to send goods from our stockpile to our trading partner.;;;;;;;;;;;;;x
+accept_trade_deal_23_title;Accept Trade Deal;;;;;;;;;;;;;x
+accept_trade_deal_23_desc;If we enter into a trade deal with the chosen country, we will get a decision that allows us to send goods from our stockpile to our trading partner.;;;;;;;;;;;;;x
+accept_trade_deal_24_title;Accept Trade Deal;;;;;;;;;;;;;x
+accept_trade_deal_24_desc;If we enter into a trade deal with the chosen country, we will get a decision that allows us to send goods from our stockpile to our trading partner.;;;;;;;;;;;;;x
+accept_trade_deal_25_title;Accept Trade Deal;;;;;;;;;;;;;x
+accept_trade_deal_25_desc;If we enter into a trade deal with the chosen country, we will get a decision that allows us to send goods from our stockpile to our trading partner.;;;;;;;;;;;;;x
+accept_trade_deal_26_title;Accept Trade Deal;;;;;;;;;;;;;x
+accept_trade_deal_26_desc;If we enter into a trade deal with the chosen country, we will get a decision that allows us to send goods from our stockpile to our trading partner.;;;;;;;;;;;;;x
+accept_trade_deal_27_title;Accept Trade Deal;;;;;;;;;;;;;x
+accept_trade_deal_27_desc;If we enter into a trade deal with the chosen country, we will get a decision that allows us to send goods from our stockpile to our trading partner.;;;;;;;;;;;;;x
+accept_trade_deal_28_title;Accept Trade Deal;;;;;;;;;;;;;x
+accept_trade_deal_28_desc;If we enter into a trade deal with the chosen country, we will get a decision that allows us to send goods from our stockpile to our trading partner.;;;;;;;;;;;;;x
+accept_trade_deal_29_title;Accept Trade Deal;;;;;;;;;;;;;x
+accept_trade_deal_29_desc;If we enter into a trade deal with the chosen country, we will get a decision that allows us to send goods from our stockpile to our trading partner.;;;;;;;;;;;;;x
+accept_trade_deal_30_title;Accept Trade Deal;;;;;;;;;;;;;x
+accept_trade_deal_30_desc;If we enter into a trade deal with the chosen country, we will get a decision that allows us to send goods from our stockpile to our trading partner.;;;;;;;;;;;;;x
+cancel_trade_agreements_1_title;Cancel Trade Agreement;;;;;;;;;;;;;x
+cancel_trade_agreements_1_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x
+cancel_trade_agreements_2_title;Cancel Trade Agreement;;;;;;;;;;;;;x
+cancel_trade_agreements_2_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x
+cancel_trade_agreements_3_title;Cancel Trade Agreement;;;;;;;;;;;;;x
+cancel_trade_agreements_3_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x
+cancel_trade_agreements_4_title;Cancel Trade Agreement;;;;;;;;;;;;;x
+cancel_trade_agreements_4_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x
+cancel_trade_agreements_5_title;Cancel Trade Agreement;;;;;;;;;;;;;x
+cancel_trade_agreements_5_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x
+cancel_trade_agreements_6_title;Cancel Trade Agreement;;;;;;;;;;;;;x
+cancel_trade_agreements_6_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x
+cancel_trade_agreements_7_title;Cancel Trade Agreement;;;;;;;;;;;;;x
+cancel_trade_agreements_7_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x
+cancel_trade_agreements_8_title;Cancel Trade Agreement;;;;;;;;;;;;;x
+cancel_trade_agreements_8_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x
+cancel_trade_agreements_9_title;Cancel Trade Agreement;;;;;;;;;;;;;x
+cancel_trade_agreements_9_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x
+cancel_trade_agreements_10_title;Cancel Trade Agreement;;;;;;;;;;;;;x
+cancel_trade_agreements_10_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x
+cancel_trade_agreements_11_title;Cancel Trade Agreement;;;;;;;;;;;;;x
+cancel_trade_agreements_11_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x
+cancel_trade_agreements_12_title;Cancel Trade Agreement;;;;;;;;;;;;;x
+cancel_trade_agreements_12_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x
+cancel_trade_agreements_13_title;Cancel Trade Agreement;;;;;;;;;;;;;x
+cancel_trade_agreements_13_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x
+cancel_trade_agreements_14_title;Cancel Trade Agreement;;;;;;;;;;;;;x
+cancel_trade_agreements_14_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x
+cancel_trade_agreements_15_title;Cancel Trade Agreement;;;;;;;;;;;;;x
+cancel_trade_agreements_15_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x
+cancel_trade_agreements_16_title;Cancel Trade Agreement;;;;;;;;;;;;;x
+cancel_trade_agreements_16_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x
+cancel_trade_agreements_17_title;Cancel Trade Agreement;;;;;;;;;;;;;x
+cancel_trade_agreements_17_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x
+cancel_trade_agreements_18_title;Cancel Trade Agreement;;;;;;;;;;;;;x
+cancel_trade_agreements_18_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x
+cancel_trade_agreements_19_title;Cancel Trade Agreement;;;;;;;;;;;;;x
+cancel_trade_agreements_19_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x
+cancel_trade_agreements_20_title;Cancel Trade Agreement;;;;;;;;;;;;;x
+cancel_trade_agreements_20_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x
+cancel_trade_agreements_21_title;Cancel Trade Agreement;;;;;;;;;;;;;x
+cancel_trade_agreements_21_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x
+cancel_trade_agreements_22_title;Cancel Trade Agreement;;;;;;;;;;;;;x
+cancel_trade_agreements_22_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x
+cancel_trade_agreements_23_title;Cancel Trade Agreement;;;;;;;;;;;;;x
+cancel_trade_agreements_23_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x
+cancel_trade_agreements_24_title;Cancel Trade Agreement;;;;;;;;;;;;;x
+cancel_trade_agreements_24_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x
+cancel_trade_agreements_25_title;Cancel Trade Agreement;;;;;;;;;;;;;x
+cancel_trade_agreements_25_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x
+cancel_trade_agreements_26_title;Cancel Trade Agreement;;;;;;;;;;;;;x
+cancel_trade_agreements_26_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x
+cancel_trade_agreements_27_title;Cancel Trade Agreement;;;;;;;;;;;;;x
+cancel_trade_agreements_27_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x
+cancel_trade_agreements_28_title;Cancel Trade Agreement;;;;;;;;;;;;;x
+cancel_trade_agreements_28_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x
+cancel_trade_agreements_29_title;Cancel Trade Agreement;;;;;;;;;;;;;x
+cancel_trade_agreements_29_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x
+cancel_trade_agreements_30_title;Cancel Trade Agreement;;;;;;;;;;;;;x
+cancel_trade_agreements_30_desc;By cancelling our current trade agreement, we are free to enter into a new a trade agreement with another country.;;;;;;;;;;;;;x

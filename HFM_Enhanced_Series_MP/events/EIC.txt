@@ -77,7 +77,14 @@ country_event = {
 				secede_province = THIS
 			}
 		}
-		FROM = {
+		any_country = {
+			limit = {
+				exists = yes
+				OR = {
+					tag = ENG
+					tag = ENL
+				}
+			}
 			country_event = 9990003
 		}
 		EIC = {

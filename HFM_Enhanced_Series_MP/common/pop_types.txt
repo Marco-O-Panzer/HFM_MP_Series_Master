@@ -960,7 +960,7 @@ emigration_chance = {
 	}
 	
 	modifier = {
-		factor = -0.4
+		factor = -0.2
 		NOT = { location = { continent = north_america } }
 		NOT = { location = { continent = south_america } }
 		NOT = { location = { continent = australia_new_zealand } }
@@ -971,7 +971,7 @@ emigration_chance = {
 	}
 	
 	modifier = {
-		factor = -0.2
+		factor = -0.1
 		NOT = { location = { continent = north_america } }
 		NOT = { location = { continent = south_america } }
 		NOT = { location = { continent = australia_new_zealand } }

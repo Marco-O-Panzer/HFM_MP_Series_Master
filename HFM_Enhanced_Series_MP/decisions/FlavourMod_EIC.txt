@@ -1,5 +1,21 @@
 political_decisions = {
 
+	eic_trigger_the_decision = {
+		picture = english_70
+		potential = {
+			tag = EIC
+			is_vassal = yes
+			ai = no
+		}
+		allow = {
+			year = 1860
+		}
+		
+		effect = {
+			country_event = 9990002
+		}
+	}
+
 	eic_become_india = {
 		picture = indian_70
 		potential = {
@@ -19,7 +35,8 @@ political_decisions = {
 		
 		effect = {
 			change_tag = HND
-			primary_culture = marathi 
+			primary_culture = anglo_indian
+			add_accepted_culture = marathi
 			add_accepted_culture = avadhi
 			add_accepted_culture = bihari
 			add_accepted_culture = tamil
@@ -39,7 +56,6 @@ political_decisions = {
 			add_accepted_culture = sindi
 			add_accepted_culture = nepali
 			add_accepted_culture = british
-			add_accepted_culture = anglo_indian
 			any_country = {
 				limit = {
 					vassal_of = THIS

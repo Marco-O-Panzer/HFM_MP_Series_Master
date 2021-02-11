@@ -4,6 +4,7 @@ political_decisions = {
 		potential = {
 			ai = no
 			NOT = { has_country_flag = no_trade_deals }
+			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		
 		allow = {
@@ -18,6 +19,7 @@ political_decisions = {
 		potential = {
 			ai = no
 			has_country_flag = no_trade_deals
+			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		
 		allow = {
@@ -263,6 +265,7 @@ political_decisions = {
 		picture = accept_trade
 		potential = {
 			ai = no
+			NOT = { has_country_flag = hiding_the_decisions }
 			BHU = {
 				NOT = {
 					check_variable = {

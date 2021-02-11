@@ -4,13 +4,11 @@ Changes that are waiting to be implemented:
 * RB Great Game event suggestions
 * Force the SGF to form if south germans not unified late game
 * Oceanic Union tag
-* EIC can trigger the war
-
+* hotkey for naval bases
 
 
 WIP
 * automated trading from victoria universalis
--- also hotkey for naval bases
 
 
 BUGS:

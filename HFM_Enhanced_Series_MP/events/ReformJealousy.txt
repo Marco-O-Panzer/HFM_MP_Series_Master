@@ -1,5 +1,38 @@
 country_event = {
 	
+	id = 7777907 
+
+	trigger = {
+		OR = {
+			unemployment_subsidies  = acceptable_subsidies 
+			unemployment_subsidies  = good_subsidies 
+		}
+		NOT = {
+			OR = {
+				ruling_party_ideology = socialist
+				ruling_party_ideology = communist
+				ruling_party_ideology = fascist
+			}
+		}
+	}
+ 
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+	title = "EVTNAME7777907"
+	desc = "EVTDESC7777907"
+	picture = "Demonstration"
+	
+
+	option = {
+		name = "I'm sure it is for the best" 
+		social_reform = low_subsidies 
+	}
+}
+
+country_event = {
+	
 	id = 90100 
 
 	trigger = {
