@@ -395,7 +395,7 @@ political_decisions = {
 		picture = NET_claim_artois
 		potential = {
 			tag = NET
-			NOT = { accepted_culture = walloon }
+			NOT = { accepted_culture = wallonian }
 		}
 	
 		allow = {
@@ -405,7 +405,7 @@ political_decisions = {
 		}
 	
 		effect = {
-			add_accepted_culture = walloon
+			add_accepted_culture = wallonian 
 		}
 	}
 }

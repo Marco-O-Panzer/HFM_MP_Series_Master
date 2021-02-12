@@ -29,7 +29,7 @@ political_decisions = {
 			clr_country_flag = no_trade_deals
 		}
 	}
-		
+
 	choose_trade_good = {
 		alert = no
 		picture = accept_trade
