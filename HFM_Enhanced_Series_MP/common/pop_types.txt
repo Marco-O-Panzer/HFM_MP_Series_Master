@@ -1509,8 +1509,9 @@ assimilation_chance = {
 	factor = 1
 	
 	modifier = {
-		factor = 2
+		factor = 21
 		country = { has_country_flag = promoted_european_culture }
+		location = { continent = europe }
 	}
 	
 	modifier = {
@@ -1554,7 +1555,6 @@ assimilation_chance = {
 	modifier = {
 		factor = -20
 		has_culture_core = yes
-		NOT = { country = { has_country_flag = promoted_european_culture } }
 	}
 	
 	modifier = {

@@ -21,7 +21,7 @@ country_event = {
 
 	option = {
 		name = "For Europe!"
-		FRA = { all_core = { add_core = EUR remove_core = FRA } }
+		FRA = { all_core = { add_core = EUR } }
 		change_tag = EUR
 		primary_culture = pan_european
 		remove_accepted_culture = occitan

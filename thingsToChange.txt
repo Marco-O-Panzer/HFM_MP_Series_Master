@@ -6,14 +6,12 @@ Changes that are waiting to be implemented:
 * Oceanic Union tag
 * hotkey for naval bases
 
-
 WIP
 * automated trading from victoria universalis
 
 
 BUGS:
 potentially small ai armies? (tho i havent seen this yet)
-
 
 Maybe:
 * Change to UME map

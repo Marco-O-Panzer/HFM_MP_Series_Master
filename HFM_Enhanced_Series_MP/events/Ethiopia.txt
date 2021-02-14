@@ -15,6 +15,7 @@ country_event = {
 		}
 		year = 1839
 		NOT = { exists = ETH }
+		exists = SHW
 	}
 	
 	fire_only_once = yes

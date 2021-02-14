@@ -416,6 +416,10 @@ political_decisions = {
 			capital_scope = { continent = europe }
 			NOT = { has_country_flag = post_colonial_country }
 			NOT = { exists = GER exists = GCF }
+			OR = {
+				primary_culture = north_german
+				primary_culture = south_german
+			}
 		}
 		
 		allow = {

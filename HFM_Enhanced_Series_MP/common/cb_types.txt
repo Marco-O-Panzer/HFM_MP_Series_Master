@@ -115,7 +115,7 @@ annex_africa_full
 establish_protectorate_BC_casus_belli
 establish_protectorate_NI_casus_belli
 establish_protectorate_casus_belli
-lower_tarrifs_cb
+lower_tariffs_cb
 military_access_cb
 status_quo
 negotiated_state_transfer
@@ -6040,7 +6040,7 @@ status_quo = {
 	war_name = WAR_NAME
 }
 
-lower_tarrifs_cb = {
+lower_tariffs_cb = {
 	sprite_index = 27
 	is_triggered_only = yes
 	months = 9
@@ -6077,7 +6077,7 @@ lower_tarrifs_cb = {
 	
 	tws_battle_factor = 2.0
 	
-	war_name = WAR_LOWER_TARRIFS_NAME
+	war_name = WAR_LOWER_TARIFFS_NAME
 	
 	on_add = {
 		move_issue_percentage = { 

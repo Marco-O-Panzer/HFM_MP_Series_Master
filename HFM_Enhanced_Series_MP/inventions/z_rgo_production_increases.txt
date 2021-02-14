@@ -19,7 +19,7 @@ tractors = {
 		rgo_goods_output = { opium = 0.03 }
 		rgo_goods_output = { fruit = 0.03 }
 		rgo_goods_output = { cattle = 0.03 }
-		RGO_throughput = 0.25
+		RGO_throughput = 0.10
 	}
 }
 
@@ -44,7 +44,7 @@ carbon_soil_enrichment = {
 		rgo_goods_output = { opium = 0.05 }
 		rgo_goods_output = { cattle = 0.05 }
 		rgo_goods_output = { fruit = 0.05 }
-		RGO_throughput = 0.25
+		RGO_throughput = 0.10
 	}
 }
 
@@ -62,6 +62,6 @@ mines_and_fields_shiftwork = {
 		}
 	}
 	effect = {
-		RGO_throughput = 0.25
+		RGO_throughput = 0.10
 	}
 }

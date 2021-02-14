@@ -362,7 +362,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 450
+		months = 900
 		modifier = {
 			factor = 0.9
 			NOT = { poor_strata_life_needs = 0.9 }
@@ -465,7 +465,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 150		
+		months = 900		
 		modifier = {
 			factor = 0.9
 			NOT = { poor_strata_life_needs = 0.9 }
@@ -504,7 +504,7 @@ province_event = {
 			10 = {
 				add_province_modifier = {
 					name = cholera_epidemic_big
-					duration = 730
+					duration = 365
 				}
 			}
 			10 = {

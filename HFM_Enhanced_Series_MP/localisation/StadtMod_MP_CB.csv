@@ -21,12 +21,12 @@ conquest_low;Minor Conquest;;;;;;;;;;;;;x
 conquest_low_desc;Annex a country of small size and population by conquest;;;;;;;;;;;;;x
 conquest_low_setup;Annex minor nation of $RECIPIENT$;;;;;;;;;;;;;x
 conquest_low_short;Annex $RECIPIENT$;;;;;;;;;;;;;x
-NORMAL_WAR_LOWER_TARRIFS_NAME;$ORDER$$FIRST$ War to Remove $SECOND$ Tarrifs;;;;;;;;;;;;x
-AGRESSION_WAR_LOWER_TARRIFS_NAME;$ORDER$$FIRST$ War to Remove $SECOND$ Tarrifs;;;;;;;;;;;;x
-lower_tarrifs_cb;Lower Tarrifs;;;;;;;;;;;;;x
-lower_tarrifs_cb_desc;Force a country to remove their tarrifs.;;;;;;;;;;;;;x
-lower_tarrifs_cb_setup;Remove the tarrifs of $RECIPIENT$;;;;;;;;;;;;;x
-lower_tarrifs_cb_short;Remove the tarrifs of $RECIPIENT$;;;;;;;;;;;;;x
+NORMAL_WAR_LOWER_TARIFFS_NAME;$ORDER$$FIRST$ War to Remove $SECOND$ Tariffs;;;;;;;;;;;;x
+AGRESSION_WAR_LOWER_TARIFFS_NAME;$ORDER$$FIRST$ War to Remove $SECOND$ Tariffs;;;;;;;;;;;;x
+lower_tariffs_cb;Lower Tariffs;;;;;;;;;;;;;x
+lower_tariffs_cb_desc;Force a country to remove their tariffs.;;;;;;;;;;;;;x
+lower_tariffs_cb_setup;Remove the tariffs of $RECIPIENT$;;;;;;;;;;;;;x
+lower_tariffs_cb_short;Remove the tariffs of $RECIPIENT$;;;;;;;;;;;;;x
 NORMAL_WAR_ACCESS_NAME;$ORDER$$FIRST$ War for $SECOND$ Military Access;;;;;;;;;;;;;x
 AGRESSION_WAR_ACCESS_NAME;$ORDER$$FIRST$ War for $SECOND$ Military Access;;;;;;;;;;;;;x
 military_access_cb;Military Access;;;;;;;;;;;;;x

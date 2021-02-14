@@ -28,15 +28,20 @@ Flavour Changes
 -- Capital province definition changed back to Europe
 * EIC
 -- Can trigger the future of the company event itself if the UK player refuses to do so
+* Haiti
+-- Starts with traditional tech school instead of unciv one
+-- Now has an option to oppose the absolute monarchy event
+
 
 Political & Reform Changes
 * Unemployment reform changed to Welfare
 -- UBI options added in
 -- unemployment reforms condensed from 4 to 2
 
-Population Growth
+Population
 * Removed base pop growth
 * Fascists can use encourage births NF
+* USE assimilation can overcome the cultural core modifier in Europe
 
 Economy
 * Factorys now pay out 60% of profits in paychecks
@@ -45,6 +50,7 @@ Economy
 Tech
 * Daily research points cap raised to 200
 * Unciv rp max storage increased slightly to 40000
+* General RGO throughput from inventions decreased
 
 New General Decisions
 * Can now transfer infamy
@@ -54,10 +60,12 @@ New General Decisions
 Balance Changes
 * Emigration rate more balanced for old world republics and monarchies & less overall variance
 * Executive ability mtth shortened to 2 months
-* EU culture assimilation toned down a bit
+* USE culture assimilation toned down a bit
+-- Can only overcome the cultural core debuff in Europe
 * Cant build infrastructure via decision whilst at war
 * Qinq and Taiping have the same conditions to self strengthen post taiping rebellion
 * Cant spam request grant, 1 month cooldown
+* Cholera epidemic events mtth increased 
 
 GFX & Localisation Changes
 * barrage_fire localisation added
@@ -70,6 +78,8 @@ Bugs Fixes
 * Fixed trigger on executive event for republics
 * Can now remove immigration buff modifier
 * Removed the disarmed condition for UK on the Treaty of Philadelphia
+* Event for ethiopia war event to dec on Shewa now requires Shewa to exist
+* USE cores on Spain now works for carlists tag as well
 
 
 Version 3

@@ -249,7 +249,7 @@ political_decisions = {
 			has_global_flag = trade_deal_in_progress
 		}
 		allow = {
-			NOT = { any_neighbor_country = { has_country_modifier = recently_requested_trade } }
+			NOT = { any_country = { has_country_modifier = recently_requested_trade } }
 		}
 		effect = {
 			clr_global_flag = trade_deal_in_progress
@@ -3260,24 +3260,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_1
 						has_country_flag = sending_coal
 						coal = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_1
 						has_country_flag = receiving_coal
 						NOT = { coal = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_1
 						has_country_flag = sending_coal
 						coal = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_1
 						has_country_flag = receiving_coal
 						NOT = { coal = 2000 }
@@ -3317,24 +3317,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_2
 						has_country_flag = sending_coal
 						coal = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_2
 						has_country_flag = receiving_coal
 						NOT = { coal = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_2
 						has_country_flag = sending_coal
 						coal = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_2
 						has_country_flag = receiving_coal
 						NOT = { coal = 2000 }
@@ -3374,24 +3374,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_3
 						has_country_flag = sending_coal
 						coal = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_3
 						has_country_flag = receiving_coal
 						NOT = { coal = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_3
 						has_country_flag = sending_coal
 						coal = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_3
 						has_country_flag = receiving_coal
 						NOT = { coal = 2000 }
@@ -3431,24 +3431,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_4
 						has_country_flag = sending_coal
 						coal = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_4
 						has_country_flag = receiving_coal
 						NOT = { coal = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_4
 						has_country_flag = sending_coal
 						coal = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_4
 						has_country_flag = receiving_coal
 						NOT = { coal = 2000 }
@@ -3488,24 +3488,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_5
 						has_country_flag = sending_coal
 						coal = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_5
 						has_country_flag = receiving_coal
 						NOT = { coal = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_5
 						has_country_flag = sending_coal
 						coal = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_5
 						has_country_flag = receiving_coal
 						NOT = { coal = 2000 }
@@ -3545,24 +3545,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_6
 						has_country_flag = sending_coal
 						coal = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_6
 						has_country_flag = receiving_coal
 						NOT = { coal = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_6
 						has_country_flag = sending_coal
 						coal = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_6
 						has_country_flag = receiving_coal
 						NOT = { coal = 2000 }
@@ -3602,24 +3602,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_7
 						has_country_flag = sending_coal
 						coal = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_7
 						has_country_flag = receiving_coal
 						NOT = { coal = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_7
 						has_country_flag = sending_coal
 						coal = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_7
 						has_country_flag = receiving_coal
 						NOT = { coal = 2000 }
@@ -3659,24 +3659,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_8
 						has_country_flag = sending_coal
 						coal = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_8
 						has_country_flag = receiving_coal
 						NOT = { coal = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_8
 						has_country_flag = sending_coal
 						coal = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_8
 						has_country_flag = receiving_coal
 						NOT = { coal = 2000 }
@@ -3716,24 +3716,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_9
 						has_country_flag = sending_coal
 						coal = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_9
 						has_country_flag = receiving_coal
 						NOT = { coal = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_9
 						has_country_flag = sending_coal
 						coal = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_9
 						has_country_flag = receiving_coal
 						NOT = { coal = 2000 }
@@ -3773,24 +3773,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_10
 						has_country_flag = sending_coal
 						coal = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_10
 						has_country_flag = receiving_coal
 						NOT = { coal = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_10
 						has_country_flag = sending_coal
 						coal = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_10
 						has_country_flag = receiving_coal
 						NOT = { coal = 2000 }
@@ -3830,24 +3830,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_11
 						has_country_flag = sending_coal
 						coal = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_11
 						has_country_flag = receiving_coal
 						NOT = { coal = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_11
 						has_country_flag = sending_coal
 						coal = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_11
 						has_country_flag = receiving_coal
 						NOT = { coal = 2000 }
@@ -3887,24 +3887,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_12
 						has_country_flag = sending_coal
 						coal = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_12
 						has_country_flag = receiving_coal
 						NOT = { coal = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_12
 						has_country_flag = sending_coal
 						coal = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_12
 						has_country_flag = receiving_coal
 						NOT = { coal = 2000 }
@@ -3944,24 +3944,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_13
 						has_country_flag = sending_coal
 						coal = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_13
 						has_country_flag = receiving_coal
 						NOT = { coal = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_13
 						has_country_flag = sending_coal
 						coal = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_13
 						has_country_flag = receiving_coal
 						NOT = { coal = 2000 }
@@ -4001,24 +4001,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_14
 						has_country_flag = sending_coal
 						coal = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_14
 						has_country_flag = receiving_coal
 						NOT = { coal = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_14
 						has_country_flag = sending_coal
 						coal = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_14
 						has_country_flag = receiving_coal
 						NOT = { coal = 2000 }
@@ -4058,24 +4058,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_15
 						has_country_flag = sending_coal
 						coal = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_15
 						has_country_flag = receiving_coal
 						NOT = { coal = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_15
 						has_country_flag = sending_coal
 						coal = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_15
 						has_country_flag = receiving_coal
 						NOT = { coal = 2000 }
@@ -4119,24 +4119,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_1
 						has_country_flag = sending_iron
 						iron = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_1
 						has_country_flag = receiving_iron
 						NOT = { iron = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_1
 						has_country_flag = sending_iron
 						iron = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_1
 						has_country_flag = receiving_iron
 						NOT = { iron = 2000 }
@@ -4176,24 +4176,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_2
 						has_country_flag = sending_iron
 						iron = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_2
 						has_country_flag = receiving_iron
 						NOT = { iron = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_2
 						has_country_flag = sending_iron
 						iron = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_2
 						has_country_flag = receiving_iron
 						NOT = { iron = 2000 }
@@ -4233,24 +4233,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_3
 						has_country_flag = sending_iron
 						iron = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_3
 						has_country_flag = receiving_iron
 						NOT = { iron = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_3
 						has_country_flag = sending_iron
 						iron = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_3
 						has_country_flag = receiving_iron
 						NOT = { iron = 2000 }
@@ -4290,24 +4290,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_4
 						has_country_flag = sending_iron
 						iron = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_4
 						has_country_flag = receiving_iron
 						NOT = { iron = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_4
 						has_country_flag = sending_iron
 						iron = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_4
 						has_country_flag = receiving_iron
 						NOT = { iron = 2000 }
@@ -4347,24 +4347,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_5
 						has_country_flag = sending_iron
 						iron = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_5
 						has_country_flag = receiving_iron
 						NOT = { iron = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_5
 						has_country_flag = sending_iron
 						iron = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_5
 						has_country_flag = receiving_iron
 						NOT = { iron = 2000 }
@@ -4404,24 +4404,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_6
 						has_country_flag = sending_iron
 						iron = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_6
 						has_country_flag = receiving_iron
 						NOT = { iron = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_6
 						has_country_flag = sending_iron
 						iron = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_6
 						has_country_flag = receiving_iron
 						NOT = { iron = 2000 }
@@ -4461,24 +4461,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_7
 						has_country_flag = sending_iron
 						iron = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_7
 						has_country_flag = receiving_iron
 						NOT = { iron = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_7
 						has_country_flag = sending_iron
 						iron = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_7
 						has_country_flag = receiving_iron
 						NOT = { iron = 2000 }
@@ -4518,24 +4518,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_8
 						has_country_flag = sending_iron
 						iron = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_8
 						has_country_flag = receiving_iron
 						NOT = { iron = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_8
 						has_country_flag = sending_iron
 						iron = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_8
 						has_country_flag = receiving_iron
 						NOT = { iron = 2000 }
@@ -4575,24 +4575,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_9
 						has_country_flag = sending_iron
 						iron = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_9
 						has_country_flag = receiving_iron
 						NOT = { iron = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_9
 						has_country_flag = sending_iron
 						iron = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_9
 						has_country_flag = receiving_iron
 						NOT = { iron = 2000 }
@@ -4632,24 +4632,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_10
 						has_country_flag = sending_iron
 						iron = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_10
 						has_country_flag = receiving_iron
 						NOT = { iron = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_10
 						has_country_flag = sending_iron
 						iron = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_10
 						has_country_flag = receiving_iron
 						NOT = { iron = 2000 }
@@ -4689,24 +4689,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_11
 						has_country_flag = sending_iron
 						iron = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_11
 						has_country_flag = receiving_iron
 						NOT = { iron = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_11
 						has_country_flag = sending_iron
 						iron = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_11
 						has_country_flag = receiving_iron
 						NOT = { iron = 2000 }
@@ -4746,24 +4746,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_12
 						has_country_flag = sending_iron
 						iron = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_12
 						has_country_flag = receiving_iron
 						NOT = { iron = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_12
 						has_country_flag = sending_iron
 						iron = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_12
 						has_country_flag = receiving_iron
 						NOT = { iron = 2000 }
@@ -4803,24 +4803,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_13
 						has_country_flag = sending_iron
 						iron = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_13
 						has_country_flag = receiving_iron
 						NOT = { iron = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_13
 						has_country_flag = sending_iron
 						iron = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_13
 						has_country_flag = receiving_iron
 						NOT = { iron = 2000 }
@@ -4860,24 +4860,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_14
 						has_country_flag = sending_iron
 						iron = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_14
 						has_country_flag = receiving_iron
 						NOT = { iron = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_14
 						has_country_flag = sending_iron
 						iron = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_14
 						has_country_flag = receiving_iron
 						NOT = { iron = 2000 }
@@ -4917,24 +4917,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_15
 						has_country_flag = sending_iron
 						iron = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_15
 						has_country_flag = receiving_iron
 						NOT = { iron = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_15
 						has_country_flag = sending_iron
 						iron = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_15
 						has_country_flag = receiving_iron
 						NOT = { iron = 2000 }
@@ -4978,24 +4978,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_1
 						has_country_flag = sending_sulphur
 						sulphur = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_1
 						has_country_flag = receiving_sulphur
 						NOT = { sulphur = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_1
 						has_country_flag = sending_sulphur
 						sulphur = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_1
 						has_country_flag = receiving_sulphur
 						NOT = { sulphur = 2000 }
@@ -5035,24 +5035,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_2
 						has_country_flag = sending_sulphur
 						sulphur = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_2
 						has_country_flag = receiving_sulphur
 						NOT = { sulphur = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_2
 						has_country_flag = sending_sulphur
 						sulphur = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_2
 						has_country_flag = receiving_sulphur
 						NOT = { sulphur = 2000 }
@@ -5092,24 +5092,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_3
 						has_country_flag = sending_sulphur
 						sulphur = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_3
 						has_country_flag = receiving_sulphur
 						NOT = { sulphur = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_3
 						has_country_flag = sending_sulphur
 						sulphur = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_3
 						has_country_flag = receiving_sulphur
 						NOT = { sulphur = 2000 }
@@ -5149,24 +5149,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_4
 						has_country_flag = sending_sulphur
 						sulphur = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_4
 						has_country_flag = receiving_sulphur
 						NOT = { sulphur = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_4
 						has_country_flag = sending_sulphur
 						sulphur = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_4
 						has_country_flag = receiving_sulphur
 						NOT = { sulphur = 2000 }
@@ -5206,24 +5206,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_5
 						has_country_flag = sending_sulphur
 						sulphur = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_5
 						has_country_flag = receiving_sulphur
 						NOT = { sulphur = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_5
 						has_country_flag = sending_sulphur
 						sulphur = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_5
 						has_country_flag = receiving_sulphur
 						NOT = { sulphur = 2000 }
@@ -5263,24 +5263,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_6
 						has_country_flag = sending_sulphur
 						sulphur = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_6
 						has_country_flag = receiving_sulphur
 						NOT = { sulphur = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_6
 						has_country_flag = sending_sulphur
 						sulphur = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_6
 						has_country_flag = receiving_sulphur
 						NOT = { sulphur = 2000 }
@@ -5320,24 +5320,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_7
 						has_country_flag = sending_sulphur
 						sulphur = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_7
 						has_country_flag = receiving_sulphur
 						NOT = { sulphur = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_7
 						has_country_flag = sending_sulphur
 						sulphur = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_7
 						has_country_flag = receiving_sulphur
 						NOT = { sulphur = 2000 }
@@ -5377,24 +5377,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_8
 						has_country_flag = sending_sulphur
 						sulphur = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_8
 						has_country_flag = receiving_sulphur
 						NOT = { sulphur = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_8
 						has_country_flag = sending_sulphur
 						sulphur = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_8
 						has_country_flag = receiving_sulphur
 						NOT = { sulphur = 2000 }
@@ -5434,24 +5434,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_9
 						has_country_flag = sending_sulphur
 						sulphur = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_9
 						has_country_flag = receiving_sulphur
 						NOT = { sulphur = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_9
 						has_country_flag = sending_sulphur
 						sulphur = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_9
 						has_country_flag = receiving_sulphur
 						NOT = { sulphur = 2000 }
@@ -5491,24 +5491,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_10
 						has_country_flag = sending_sulphur
 						sulphur = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_10
 						has_country_flag = receiving_sulphur
 						NOT = { sulphur = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_10
 						has_country_flag = sending_sulphur
 						sulphur = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_10
 						has_country_flag = receiving_sulphur
 						NOT = { sulphur = 2000 }
@@ -5548,24 +5548,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_11
 						has_country_flag = sending_sulphur
 						sulphur = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_11
 						has_country_flag = receiving_sulphur
 						NOT = { sulphur = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_11
 						has_country_flag = sending_sulphur
 						sulphur = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_11
 						has_country_flag = receiving_sulphur
 						NOT = { sulphur = 2000 }
@@ -5605,24 +5605,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_12
 						has_country_flag = sending_sulphur
 						sulphur = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_12
 						has_country_flag = receiving_sulphur
 						NOT = { sulphur = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_12
 						has_country_flag = sending_sulphur
 						sulphur = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_12
 						has_country_flag = receiving_sulphur
 						NOT = { sulphur = 2000 }
@@ -5662,24 +5662,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_13
 						has_country_flag = sending_sulphur
 						sulphur = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_13
 						has_country_flag = receiving_sulphur
 						NOT = { sulphur = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_13
 						has_country_flag = sending_sulphur
 						sulphur = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_13
 						has_country_flag = receiving_sulphur
 						NOT = { sulphur = 2000 }
@@ -5719,24 +5719,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_14
 						has_country_flag = sending_sulphur
 						sulphur = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_14
 						has_country_flag = receiving_sulphur
 						NOT = { sulphur = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_14
 						has_country_flag = sending_sulphur
 						sulphur = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_14
 						has_country_flag = receiving_sulphur
 						NOT = { sulphur = 2000 }
@@ -5776,24 +5776,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_15
 						has_country_flag = sending_sulphur
 						sulphur = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_15
 						has_country_flag = receiving_sulphur
 						NOT = { sulphur = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_15
 						has_country_flag = sending_sulphur
 						sulphur = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_15
 						has_country_flag = receiving_sulphur
 						NOT = { sulphur = 2000 }
@@ -5837,24 +5837,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_1
 						has_country_flag = sending_timber
 						timber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_1
 						has_country_flag = receiving_timber
 						NOT = { timber = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_1
 						has_country_flag = sending_timber
 						timber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_1
 						has_country_flag = receiving_timber
 						NOT = { timber = 2000 }
@@ -5894,24 +5894,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_2
 						has_country_flag = sending_timber
 						timber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_2
 						has_country_flag = receiving_timber
 						NOT = { timber = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_2
 						has_country_flag = sending_timber
 						timber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_2
 						has_country_flag = receiving_timber
 						NOT = { timber = 2000 }
@@ -5951,24 +5951,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_3
 						has_country_flag = sending_timber
 						timber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_3
 						has_country_flag = receiving_timber
 						NOT = { timber = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_3
 						has_country_flag = sending_timber
 						timber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_3
 						has_country_flag = receiving_timber
 						NOT = { timber = 2000 }
@@ -6008,24 +6008,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_4
 						has_country_flag = sending_timber
 						timber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_4
 						has_country_flag = receiving_timber
 						NOT = { timber = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_4
 						has_country_flag = sending_timber
 						timber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_4
 						has_country_flag = receiving_timber
 						NOT = { timber = 2000 }
@@ -6065,24 +6065,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_5
 						has_country_flag = sending_timber
 						timber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_5
 						has_country_flag = receiving_timber
 						NOT = { timber = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_5
 						has_country_flag = sending_timber
 						timber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_5
 						has_country_flag = receiving_timber
 						NOT = { timber = 2000 }
@@ -6122,24 +6122,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_6
 						has_country_flag = sending_timber
 						timber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_6
 						has_country_flag = receiving_timber
 						NOT = { timber = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_6
 						has_country_flag = sending_timber
 						timber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_6
 						has_country_flag = receiving_timber
 						NOT = { timber = 2000 }
@@ -6179,24 +6179,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_7
 						has_country_flag = sending_timber
 						timber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_7
 						has_country_flag = receiving_timber
 						NOT = { timber = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_7
 						has_country_flag = sending_timber
 						timber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_7
 						has_country_flag = receiving_timber
 						NOT = { timber = 2000 }
@@ -6236,24 +6236,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_8
 						has_country_flag = sending_timber
 						timber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_8
 						has_country_flag = receiving_timber
 						NOT = { timber = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_8
 						has_country_flag = sending_timber
 						timber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_8
 						has_country_flag = receiving_timber
 						NOT = { timber = 2000 }
@@ -6293,24 +6293,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_9
 						has_country_flag = sending_timber
 						timber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_9
 						has_country_flag = receiving_timber
 						NOT = { timber = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_9
 						has_country_flag = sending_timber
 						timber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_9
 						has_country_flag = receiving_timber
 						NOT = { timber = 2000 }
@@ -6350,24 +6350,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_10
 						has_country_flag = sending_timber
 						timber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_10
 						has_country_flag = receiving_timber
 						NOT = { timber = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_10
 						has_country_flag = sending_timber
 						timber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_10
 						has_country_flag = receiving_timber
 						NOT = { timber = 2000 }
@@ -6407,24 +6407,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_11
 						has_country_flag = sending_timber
 						timber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_11
 						has_country_flag = receiving_timber
 						NOT = { timber = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_11
 						has_country_flag = sending_timber
 						timber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_11
 						has_country_flag = receiving_timber
 						NOT = { timber = 2000 }
@@ -6464,24 +6464,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_12
 						has_country_flag = sending_timber
 						timber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_12
 						has_country_flag = receiving_timber
 						NOT = { timber = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_12
 						has_country_flag = sending_timber
 						timber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_12
 						has_country_flag = receiving_timber
 						NOT = { timber = 2000 }
@@ -6521,24 +6521,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_13
 						has_country_flag = sending_timber
 						timber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_13
 						has_country_flag = receiving_timber
 						NOT = { timber = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_13
 						has_country_flag = sending_timber
 						timber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_13
 						has_country_flag = receiving_timber
 						NOT = { timber = 2000 }
@@ -6578,24 +6578,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_14
 						has_country_flag = sending_timber
 						timber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_14
 						has_country_flag = receiving_timber
 						NOT = { timber = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_14
 						has_country_flag = sending_timber
 						timber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_14
 						has_country_flag = receiving_timber
 						NOT = { timber = 2000 }
@@ -6635,24 +6635,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_15
 						has_country_flag = sending_timber
 						timber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_15
 						has_country_flag = receiving_timber
 						NOT = { timber = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_15
 						has_country_flag = sending_timber
 						timber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_15
 						has_country_flag = receiving_timber
 						NOT = { timber = 2000 }
@@ -6696,24 +6696,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_1
 						has_country_flag = sending_cotton
 						cotton = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_1
 						has_country_flag = receiving_cotton
 						NOT = { cotton = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_1
 						has_country_flag = sending_cotton
 						cotton = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_1
 						has_country_flag = receiving_cotton
 						NOT = { cotton = 2000 }
@@ -6753,24 +6753,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_2
 						has_country_flag = sending_cotton
 						cotton = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_2
 						has_country_flag = receiving_cotton
 						NOT = { cotton = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_2
 						has_country_flag = sending_cotton
 						cotton = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_2
 						has_country_flag = receiving_cotton
 						NOT = { cotton = 2000 }
@@ -6810,24 +6810,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_3
 						has_country_flag = sending_cotton
 						cotton = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_3
 						has_country_flag = receiving_cotton
 						NOT = { cotton = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_3
 						has_country_flag = sending_cotton
 						cotton = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_3
 						has_country_flag = receiving_cotton
 						NOT = { cotton = 2000 }
@@ -6867,24 +6867,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_4
 						has_country_flag = sending_cotton
 						cotton = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_4
 						has_country_flag = receiving_cotton
 						NOT = { cotton = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_4
 						has_country_flag = sending_cotton
 						cotton = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_4
 						has_country_flag = receiving_cotton
 						NOT = { cotton = 2000 }
@@ -6924,24 +6924,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_5
 						has_country_flag = sending_cotton
 						cotton = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_5
 						has_country_flag = receiving_cotton
 						NOT = { cotton = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_5
 						has_country_flag = sending_cotton
 						cotton = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_5
 						has_country_flag = receiving_cotton
 						NOT = { cotton = 2000 }
@@ -6981,24 +6981,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_6
 						has_country_flag = sending_cotton
 						cotton = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_6
 						has_country_flag = receiving_cotton
 						NOT = { cotton = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_6
 						has_country_flag = sending_cotton
 						cotton = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_6
 						has_country_flag = receiving_cotton
 						NOT = { cotton = 2000 }
@@ -7038,24 +7038,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_7
 						has_country_flag = sending_cotton
 						cotton = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_7
 						has_country_flag = receiving_cotton
 						NOT = { cotton = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_7
 						has_country_flag = sending_cotton
 						cotton = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_7
 						has_country_flag = receiving_cotton
 						NOT = { cotton = 2000 }
@@ -7095,24 +7095,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_8
 						has_country_flag = sending_cotton
 						cotton = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_8
 						has_country_flag = receiving_cotton
 						NOT = { cotton = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_8
 						has_country_flag = sending_cotton
 						cotton = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_8
 						has_country_flag = receiving_cotton
 						NOT = { cotton = 2000 }
@@ -7152,24 +7152,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_9
 						has_country_flag = sending_cotton
 						cotton = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_9
 						has_country_flag = receiving_cotton
 						NOT = { cotton = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_9
 						has_country_flag = sending_cotton
 						cotton = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_9
 						has_country_flag = receiving_cotton
 						NOT = { cotton = 2000 }
@@ -7209,24 +7209,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_10
 						has_country_flag = sending_cotton
 						cotton = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_10
 						has_country_flag = receiving_cotton
 						NOT = { cotton = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_10
 						has_country_flag = sending_cotton
 						cotton = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_10
 						has_country_flag = receiving_cotton
 						NOT = { cotton = 2000 }
@@ -7266,24 +7266,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_11
 						has_country_flag = sending_cotton
 						cotton = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_11
 						has_country_flag = receiving_cotton
 						NOT = { cotton = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_11
 						has_country_flag = sending_cotton
 						cotton = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_11
 						has_country_flag = receiving_cotton
 						NOT = { cotton = 2000 }
@@ -7323,24 +7323,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_12
 						has_country_flag = sending_cotton
 						cotton = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_12
 						has_country_flag = receiving_cotton
 						NOT = { cotton = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_12
 						has_country_flag = sending_cotton
 						cotton = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_12
 						has_country_flag = receiving_cotton
 						NOT = { cotton = 2000 }
@@ -7380,24 +7380,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_13
 						has_country_flag = sending_cotton
 						cotton = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_13
 						has_country_flag = receiving_cotton
 						NOT = { cotton = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_13
 						has_country_flag = sending_cotton
 						cotton = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_13
 						has_country_flag = receiving_cotton
 						NOT = { cotton = 2000 }
@@ -7437,24 +7437,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_14
 						has_country_flag = sending_cotton
 						cotton = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_14
 						has_country_flag = receiving_cotton
 						NOT = { cotton = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_14
 						has_country_flag = sending_cotton
 						cotton = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_14
 						has_country_flag = receiving_cotton
 						NOT = { cotton = 2000 }
@@ -7494,24 +7494,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_15
 						has_country_flag = sending_cotton
 						cotton = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_15
 						has_country_flag = receiving_cotton
 						NOT = { cotton = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_15
 						has_country_flag = sending_cotton
 						cotton = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_15
 						has_country_flag = receiving_cotton
 						NOT = { cotton = 2000 }
@@ -7555,24 +7555,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_1
 						has_country_flag = sending_dye
 						dye = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_1
 						has_country_flag = receiving_dye
 						NOT = { dye = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_1
 						has_country_flag = sending_dye
 						dye = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_1
 						has_country_flag = receiving_dye
 						NOT = { dye = 2000 }
@@ -7612,24 +7612,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_2
 						has_country_flag = sending_dye
 						dye = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_2
 						has_country_flag = receiving_dye
 						NOT = { dye = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_2
 						has_country_flag = sending_dye
 						dye = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_2
 						has_country_flag = receiving_dye
 						NOT = { dye = 2000 }
@@ -7669,24 +7669,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_3
 						has_country_flag = sending_dye
 						dye = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_3
 						has_country_flag = receiving_dye
 						NOT = { dye = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_3
 						has_country_flag = sending_dye
 						dye = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_3
 						has_country_flag = receiving_dye
 						NOT = { dye = 2000 }
@@ -7726,24 +7726,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_4
 						has_country_flag = sending_dye
 						dye = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_4
 						has_country_flag = receiving_dye
 						NOT = { dye = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_4
 						has_country_flag = sending_dye
 						dye = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_4
 						has_country_flag = receiving_dye
 						NOT = { dye = 2000 }
@@ -7783,24 +7783,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_5
 						has_country_flag = sending_dye
 						dye = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_5
 						has_country_flag = receiving_dye
 						NOT = { dye = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_5
 						has_country_flag = sending_dye
 						dye = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_5
 						has_country_flag = receiving_dye
 						NOT = { dye = 2000 }
@@ -7840,24 +7840,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_6
 						has_country_flag = sending_dye
 						dye = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_6
 						has_country_flag = receiving_dye
 						NOT = { dye = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_6
 						has_country_flag = sending_dye
 						dye = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_6
 						has_country_flag = receiving_dye
 						NOT = { dye = 2000 }
@@ -7897,24 +7897,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_7
 						has_country_flag = sending_dye
 						dye = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_7
 						has_country_flag = receiving_dye
 						NOT = { dye = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_7
 						has_country_flag = sending_dye
 						dye = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_7
 						has_country_flag = receiving_dye
 						NOT = { dye = 2000 }
@@ -7954,24 +7954,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_8
 						has_country_flag = sending_dye
 						dye = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_8
 						has_country_flag = receiving_dye
 						NOT = { dye = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_8
 						has_country_flag = sending_dye
 						dye = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_8
 						has_country_flag = receiving_dye
 						NOT = { dye = 2000 }
@@ -8011,24 +8011,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_9
 						has_country_flag = sending_dye
 						dye = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_9
 						has_country_flag = receiving_dye
 						NOT = { dye = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_9
 						has_country_flag = sending_dye
 						dye = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_9
 						has_country_flag = receiving_dye
 						NOT = { dye = 2000 }
@@ -8068,24 +8068,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_10
 						has_country_flag = sending_dye
 						dye = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_10
 						has_country_flag = receiving_dye
 						NOT = { dye = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_10
 						has_country_flag = sending_dye
 						dye = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_10
 						has_country_flag = receiving_dye
 						NOT = { dye = 2000 }
@@ -8125,24 +8125,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_11
 						has_country_flag = sending_dye
 						dye = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_11
 						has_country_flag = receiving_dye
 						NOT = { dye = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_11
 						has_country_flag = sending_dye
 						dye = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_11
 						has_country_flag = receiving_dye
 						NOT = { dye = 2000 }
@@ -8182,24 +8182,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_12
 						has_country_flag = sending_dye
 						dye = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_12
 						has_country_flag = receiving_dye
 						NOT = { dye = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_12
 						has_country_flag = sending_dye
 						dye = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_12
 						has_country_flag = receiving_dye
 						NOT = { dye = 2000 }
@@ -8239,24 +8239,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_13
 						has_country_flag = sending_dye
 						dye = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_13
 						has_country_flag = receiving_dye
 						NOT = { dye = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_13
 						has_country_flag = sending_dye
 						dye = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_13
 						has_country_flag = receiving_dye
 						NOT = { dye = 2000 }
@@ -8296,24 +8296,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_14
 						has_country_flag = sending_dye
 						dye = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_14
 						has_country_flag = receiving_dye
 						NOT = { dye = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_14
 						has_country_flag = sending_dye
 						dye = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_14
 						has_country_flag = receiving_dye
 						NOT = { dye = 2000 }
@@ -8353,24 +8353,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_15
 						has_country_flag = sending_dye
 						dye = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_15
 						has_country_flag = receiving_dye
 						NOT = { dye = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_15
 						has_country_flag = sending_dye
 						dye = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_15
 						has_country_flag = receiving_dye
 						NOT = { dye = 2000 }
@@ -8414,24 +8414,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_1
 						has_country_flag = sending_silk
 						silk = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_1
 						has_country_flag = receiving_silk
 						NOT = { silk = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_1
 						has_country_flag = sending_silk
 						silk = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_1
 						has_country_flag = receiving_silk
 						NOT = { silk = 2000 }
@@ -8471,24 +8471,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_2
 						has_country_flag = sending_silk
 						silk = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_2
 						has_country_flag = receiving_silk
 						NOT = { silk = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_2
 						has_country_flag = sending_silk
 						silk = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_2
 						has_country_flag = receiving_silk
 						NOT = { silk = 2000 }
@@ -8528,24 +8528,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_3
 						has_country_flag = sending_silk
 						silk = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_3
 						has_country_flag = receiving_silk
 						NOT = { silk = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_3
 						has_country_flag = sending_silk
 						silk = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_3
 						has_country_flag = receiving_silk
 						NOT = { silk = 2000 }
@@ -8585,24 +8585,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_4
 						has_country_flag = sending_silk
 						silk = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_4
 						has_country_flag = receiving_silk
 						NOT = { silk = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_4
 						has_country_flag = sending_silk
 						silk = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_4
 						has_country_flag = receiving_silk
 						NOT = { silk = 2000 }
@@ -8642,24 +8642,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_5
 						has_country_flag = sending_silk
 						silk = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_5
 						has_country_flag = receiving_silk
 						NOT = { silk = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_5
 						has_country_flag = sending_silk
 						silk = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_5
 						has_country_flag = receiving_silk
 						NOT = { silk = 2000 }
@@ -8699,24 +8699,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_6
 						has_country_flag = sending_silk
 						silk = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_6
 						has_country_flag = receiving_silk
 						NOT = { silk = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_6
 						has_country_flag = sending_silk
 						silk = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_6
 						has_country_flag = receiving_silk
 						NOT = { silk = 2000 }
@@ -8756,24 +8756,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_7
 						has_country_flag = sending_silk
 						silk = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_7
 						has_country_flag = receiving_silk
 						NOT = { silk = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_7
 						has_country_flag = sending_silk
 						silk = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_7
 						has_country_flag = receiving_silk
 						NOT = { silk = 2000 }
@@ -8813,24 +8813,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_8
 						has_country_flag = sending_silk
 						silk = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_8
 						has_country_flag = receiving_silk
 						NOT = { silk = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_8
 						has_country_flag = sending_silk
 						silk = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_8
 						has_country_flag = receiving_silk
 						NOT = { silk = 2000 }
@@ -8870,24 +8870,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_9
 						has_country_flag = sending_silk
 						silk = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_9
 						has_country_flag = receiving_silk
 						NOT = { silk = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_9
 						has_country_flag = sending_silk
 						silk = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_9
 						has_country_flag = receiving_silk
 						NOT = { silk = 2000 }
@@ -8927,24 +8927,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_10
 						has_country_flag = sending_silk
 						silk = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_10
 						has_country_flag = receiving_silk
 						NOT = { silk = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_10
 						has_country_flag = sending_silk
 						silk = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_10
 						has_country_flag = receiving_silk
 						NOT = { silk = 2000 }
@@ -8984,24 +8984,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_11
 						has_country_flag = sending_silk
 						silk = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_11
 						has_country_flag = receiving_silk
 						NOT = { silk = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_11
 						has_country_flag = sending_silk
 						silk = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_11
 						has_country_flag = receiving_silk
 						NOT = { silk = 2000 }
@@ -9041,24 +9041,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_12
 						has_country_flag = sending_silk
 						silk = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_12
 						has_country_flag = receiving_silk
 						NOT = { silk = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_12
 						has_country_flag = sending_silk
 						silk = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_12
 						has_country_flag = receiving_silk
 						NOT = { silk = 2000 }
@@ -9098,24 +9098,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_13
 						has_country_flag = sending_silk
 						silk = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_13
 						has_country_flag = receiving_silk
 						NOT = { silk = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_13
 						has_country_flag = sending_silk
 						silk = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_13
 						has_country_flag = receiving_silk
 						NOT = { silk = 2000 }
@@ -9155,24 +9155,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_14
 						has_country_flag = sending_silk
 						silk = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_14
 						has_country_flag = receiving_silk
 						NOT = { silk = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_14
 						has_country_flag = sending_silk
 						silk = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_14
 						has_country_flag = receiving_silk
 						NOT = { silk = 2000 }
@@ -9212,24 +9212,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_15
 						has_country_flag = sending_silk
 						silk = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_15
 						has_country_flag = receiving_silk
 						NOT = { silk = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_15
 						has_country_flag = sending_silk
 						silk = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_15
 						has_country_flag = receiving_silk
 						NOT = { silk = 2000 }
@@ -9273,24 +9273,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_1
 						has_country_flag = sending_tropical_wood
 						tropical_wood = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_1
 						has_country_flag = receiving_tropical_wood
 						NOT = { tropical_wood = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_1
 						has_country_flag = sending_tropical_wood
 						tropical_wood = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_1
 						has_country_flag = receiving_tropical_wood
 						NOT = { tropical_wood = 2000 }
@@ -9330,24 +9330,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_2
 						has_country_flag = sending_tropical_wood
 						tropical_wood = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_2
 						has_country_flag = receiving_tropical_wood
 						NOT = { tropical_wood = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_2
 						has_country_flag = sending_tropical_wood
 						tropical_wood = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_2
 						has_country_flag = receiving_tropical_wood
 						NOT = { tropical_wood = 2000 }
@@ -9387,24 +9387,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_3
 						has_country_flag = sending_tropical_wood
 						tropical_wood = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_3
 						has_country_flag = receiving_tropical_wood
 						NOT = { tropical_wood = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_3
 						has_country_flag = sending_tropical_wood
 						tropical_wood = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_3
 						has_country_flag = receiving_tropical_wood
 						NOT = { tropical_wood = 2000 }
@@ -9444,24 +9444,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_4
 						has_country_flag = sending_tropical_wood
 						tropical_wood = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_4
 						has_country_flag = receiving_tropical_wood
 						NOT = { tropical_wood = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_4
 						has_country_flag = sending_tropical_wood
 						tropical_wood = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_4
 						has_country_flag = receiving_tropical_wood
 						NOT = { tropical_wood = 2000 }
@@ -9501,24 +9501,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_5
 						has_country_flag = sending_tropical_wood
 						tropical_wood = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_5
 						has_country_flag = receiving_tropical_wood
 						NOT = { tropical_wood = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_5
 						has_country_flag = sending_tropical_wood
 						tropical_wood = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_5
 						has_country_flag = receiving_tropical_wood
 						NOT = { tropical_wood = 2000 }
@@ -9558,24 +9558,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_6
 						has_country_flag = sending_tropical_wood
 						tropical_wood = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_6
 						has_country_flag = receiving_tropical_wood
 						NOT = { tropical_wood = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_6
 						has_country_flag = sending_tropical_wood
 						tropical_wood = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_6
 						has_country_flag = receiving_tropical_wood
 						NOT = { tropical_wood = 2000 }
@@ -9615,24 +9615,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_7
 						has_country_flag = sending_tropical_wood
 						tropical_wood = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_7
 						has_country_flag = receiving_tropical_wood
 						NOT = { tropical_wood = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_7
 						has_country_flag = sending_tropical_wood
 						tropical_wood = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_7
 						has_country_flag = receiving_tropical_wood
 						NOT = { tropical_wood = 2000 }
@@ -9672,24 +9672,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_8
 						has_country_flag = sending_tropical_wood
 						tropical_wood = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_8
 						has_country_flag = receiving_tropical_wood
 						NOT = { tropical_wood = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_8
 						has_country_flag = sending_tropical_wood
 						tropical_wood = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_8
 						has_country_flag = receiving_tropical_wood
 						NOT = { tropical_wood = 2000 }
@@ -9729,24 +9729,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_9
 						has_country_flag = sending_tropical_wood
 						tropical_wood = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_9
 						has_country_flag = receiving_tropical_wood
 						NOT = { tropical_wood = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_9
 						has_country_flag = sending_tropical_wood
 						tropical_wood = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_9
 						has_country_flag = receiving_tropical_wood
 						NOT = { tropical_wood = 2000 }
@@ -9786,24 +9786,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_10
 						has_country_flag = sending_tropical_wood
 						tropical_wood = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_10
 						has_country_flag = receiving_tropical_wood
 						NOT = { tropical_wood = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_10
 						has_country_flag = sending_tropical_wood
 						tropical_wood = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_10
 						has_country_flag = receiving_tropical_wood
 						NOT = { tropical_wood = 2000 }
@@ -9843,24 +9843,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_11
 						has_country_flag = sending_tropical_wood
 						tropical_wood = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_11
 						has_country_flag = receiving_tropical_wood
 						NOT = { tropical_wood = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_11
 						has_country_flag = sending_tropical_wood
 						tropical_wood = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_11
 						has_country_flag = receiving_tropical_wood
 						NOT = { tropical_wood = 2000 }
@@ -9900,24 +9900,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_12
 						has_country_flag = sending_tropical_wood
 						tropical_wood = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_12
 						has_country_flag = receiving_tropical_wood
 						NOT = { tropical_wood = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_12
 						has_country_flag = sending_tropical_wood
 						tropical_wood = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_12
 						has_country_flag = receiving_tropical_wood
 						NOT = { tropical_wood = 2000 }
@@ -9957,24 +9957,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_13
 						has_country_flag = sending_tropical_wood
 						tropical_wood = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_13
 						has_country_flag = receiving_tropical_wood
 						NOT = { tropical_wood = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_13
 						has_country_flag = sending_tropical_wood
 						tropical_wood = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_13
 						has_country_flag = receiving_tropical_wood
 						NOT = { tropical_wood = 2000 }
@@ -10014,24 +10014,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_14
 						has_country_flag = sending_tropical_wood
 						tropical_wood = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_14
 						has_country_flag = receiving_tropical_wood
 						NOT = { tropical_wood = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_14
 						has_country_flag = sending_tropical_wood
 						tropical_wood = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_14
 						has_country_flag = receiving_tropical_wood
 						NOT = { tropical_wood = 2000 }
@@ -10071,24 +10071,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_15
 						has_country_flag = sending_tropical_wood
 						tropical_wood = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_15
 						has_country_flag = receiving_tropical_wood
 						NOT = { tropical_wood = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_15
 						has_country_flag = sending_tropical_wood
 						tropical_wood = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_15
 						has_country_flag = receiving_tropical_wood
 						NOT = { tropical_wood = 2000 }
@@ -10132,24 +10132,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_1
 						has_country_flag = sending_opium
 						opium = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_1
 						has_country_flag = receiving_opium
 						NOT = { opium = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_1
 						has_country_flag = sending_opium
 						opium = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_1
 						has_country_flag = receiving_opium
 						NOT = { opium = 2000 }
@@ -10189,24 +10189,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_2
 						has_country_flag = sending_opium
 						opium = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_2
 						has_country_flag = receiving_opium
 						NOT = { opium = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_2
 						has_country_flag = sending_opium
 						opium = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_2
 						has_country_flag = receiving_opium
 						NOT = { opium = 2000 }
@@ -10246,24 +10246,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_3
 						has_country_flag = sending_opium
 						opium = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_3
 						has_country_flag = receiving_opium
 						NOT = { opium = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_3
 						has_country_flag = sending_opium
 						opium = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_3
 						has_country_flag = receiving_opium
 						NOT = { opium = 2000 }
@@ -10303,24 +10303,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_4
 						has_country_flag = sending_opium
 						opium = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_4
 						has_country_flag = receiving_opium
 						NOT = { opium = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_4
 						has_country_flag = sending_opium
 						opium = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_4
 						has_country_flag = receiving_opium
 						NOT = { opium = 2000 }
@@ -10360,24 +10360,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_5
 						has_country_flag = sending_opium
 						opium = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_5
 						has_country_flag = receiving_opium
 						NOT = { opium = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_5
 						has_country_flag = sending_opium
 						opium = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_5
 						has_country_flag = receiving_opium
 						NOT = { opium = 2000 }
@@ -10417,24 +10417,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_6
 						has_country_flag = sending_opium
 						opium = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_6
 						has_country_flag = receiving_opium
 						NOT = { opium = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_6
 						has_country_flag = sending_opium
 						opium = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_6
 						has_country_flag = receiving_opium
 						NOT = { opium = 2000 }
@@ -10474,24 +10474,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_7
 						has_country_flag = sending_opium
 						opium = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_7
 						has_country_flag = receiving_opium
 						NOT = { opium = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_7
 						has_country_flag = sending_opium
 						opium = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_7
 						has_country_flag = receiving_opium
 						NOT = { opium = 2000 }
@@ -10531,24 +10531,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_8
 						has_country_flag = sending_opium
 						opium = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_8
 						has_country_flag = receiving_opium
 						NOT = { opium = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_8
 						has_country_flag = sending_opium
 						opium = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_8
 						has_country_flag = receiving_opium
 						NOT = { opium = 2000 }
@@ -10588,24 +10588,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_9
 						has_country_flag = sending_opium
 						opium = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_9
 						has_country_flag = receiving_opium
 						NOT = { opium = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_9
 						has_country_flag = sending_opium
 						opium = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_9
 						has_country_flag = receiving_opium
 						NOT = { opium = 2000 }
@@ -10645,24 +10645,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_10
 						has_country_flag = sending_opium
 						opium = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_10
 						has_country_flag = receiving_opium
 						NOT = { opium = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_10
 						has_country_flag = sending_opium
 						opium = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_10
 						has_country_flag = receiving_opium
 						NOT = { opium = 2000 }
@@ -10702,24 +10702,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_11
 						has_country_flag = sending_opium
 						opium = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_11
 						has_country_flag = receiving_opium
 						NOT = { opium = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_11
 						has_country_flag = sending_opium
 						opium = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_11
 						has_country_flag = receiving_opium
 						NOT = { opium = 2000 }
@@ -10759,24 +10759,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_12
 						has_country_flag = sending_opium
 						opium = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_12
 						has_country_flag = receiving_opium
 						NOT = { opium = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_12
 						has_country_flag = sending_opium
 						opium = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_12
 						has_country_flag = receiving_opium
 						NOT = { opium = 2000 }
@@ -10816,24 +10816,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_13
 						has_country_flag = sending_opium
 						opium = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_13
 						has_country_flag = receiving_opium
 						NOT = { opium = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_13
 						has_country_flag = sending_opium
 						opium = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_13
 						has_country_flag = receiving_opium
 						NOT = { opium = 2000 }
@@ -10873,24 +10873,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_14
 						has_country_flag = sending_opium
 						opium = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_14
 						has_country_flag = receiving_opium
 						NOT = { opium = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_14
 						has_country_flag = sending_opium
 						opium = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_14
 						has_country_flag = receiving_opium
 						NOT = { opium = 2000 }
@@ -10930,24 +10930,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_15
 						has_country_flag = sending_opium
 						opium = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_15
 						has_country_flag = receiving_opium
 						NOT = { opium = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_15
 						has_country_flag = sending_opium
 						opium = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_15
 						has_country_flag = receiving_opium
 						NOT = { opium = 2000 }
@@ -10991,24 +10991,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_1
 						has_country_flag = sending_rubber
 						rubber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_1
 						has_country_flag = receiving_rubber
 						NOT = { rubber = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_1
 						has_country_flag = sending_rubber
 						rubber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_1
 						has_country_flag = receiving_rubber
 						NOT = { rubber = 2000 }
@@ -11048,24 +11048,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_2
 						has_country_flag = sending_rubber
 						rubber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_2
 						has_country_flag = receiving_rubber
 						NOT = { rubber = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_2
 						has_country_flag = sending_rubber
 						rubber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_2
 						has_country_flag = receiving_rubber
 						NOT = { rubber = 2000 }
@@ -11105,24 +11105,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_3
 						has_country_flag = sending_rubber
 						rubber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_3
 						has_country_flag = receiving_rubber
 						NOT = { rubber = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_3
 						has_country_flag = sending_rubber
 						rubber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_3
 						has_country_flag = receiving_rubber
 						NOT = { rubber = 2000 }
@@ -11162,24 +11162,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_4
 						has_country_flag = sending_rubber
 						rubber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_4
 						has_country_flag = receiving_rubber
 						NOT = { rubber = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_4
 						has_country_flag = sending_rubber
 						rubber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_4
 						has_country_flag = receiving_rubber
 						NOT = { rubber = 2000 }
@@ -11219,24 +11219,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_5
 						has_country_flag = sending_rubber
 						rubber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_5
 						has_country_flag = receiving_rubber
 						NOT = { rubber = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_5
 						has_country_flag = sending_rubber
 						rubber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_5
 						has_country_flag = receiving_rubber
 						NOT = { rubber = 2000 }
@@ -11276,24 +11276,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_6
 						has_country_flag = sending_rubber
 						rubber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_6
 						has_country_flag = receiving_rubber
 						NOT = { rubber = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_6
 						has_country_flag = sending_rubber
 						rubber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_6
 						has_country_flag = receiving_rubber
 						NOT = { rubber = 2000 }
@@ -11333,24 +11333,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_7
 						has_country_flag = sending_rubber
 						rubber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_7
 						has_country_flag = receiving_rubber
 						NOT = { rubber = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_7
 						has_country_flag = sending_rubber
 						rubber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_7
 						has_country_flag = receiving_rubber
 						NOT = { rubber = 2000 }
@@ -11390,24 +11390,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_8
 						has_country_flag = sending_rubber
 						rubber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_8
 						has_country_flag = receiving_rubber
 						NOT = { rubber = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_8
 						has_country_flag = sending_rubber
 						rubber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_8
 						has_country_flag = receiving_rubber
 						NOT = { rubber = 2000 }
@@ -11447,24 +11447,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_9
 						has_country_flag = sending_rubber
 						rubber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_9
 						has_country_flag = receiving_rubber
 						NOT = { rubber = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_9
 						has_country_flag = sending_rubber
 						rubber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_9
 						has_country_flag = receiving_rubber
 						NOT = { rubber = 2000 }
@@ -11504,24 +11504,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_10
 						has_country_flag = sending_rubber
 						rubber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_10
 						has_country_flag = receiving_rubber
 						NOT = { rubber = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_10
 						has_country_flag = sending_rubber
 						rubber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_10
 						has_country_flag = receiving_rubber
 						NOT = { rubber = 2000 }
@@ -11561,24 +11561,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_11
 						has_country_flag = sending_rubber
 						rubber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_11
 						has_country_flag = receiving_rubber
 						NOT = { rubber = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_11
 						has_country_flag = sending_rubber
 						rubber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_11
 						has_country_flag = receiving_rubber
 						NOT = { rubber = 2000 }
@@ -11618,24 +11618,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_12
 						has_country_flag = sending_rubber
 						rubber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_12
 						has_country_flag = receiving_rubber
 						NOT = { rubber = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_12
 						has_country_flag = sending_rubber
 						rubber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_12
 						has_country_flag = receiving_rubber
 						NOT = { rubber = 2000 }
@@ -11675,24 +11675,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_13
 						has_country_flag = sending_rubber
 						rubber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_13
 						has_country_flag = receiving_rubber
 						NOT = { rubber = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_13
 						has_country_flag = sending_rubber
 						rubber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_13
 						has_country_flag = receiving_rubber
 						NOT = { rubber = 2000 }
@@ -11732,24 +11732,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_14
 						has_country_flag = sending_rubber
 						rubber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_14
 						has_country_flag = receiving_rubber
 						NOT = { rubber = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_14
 						has_country_flag = sending_rubber
 						rubber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_14
 						has_country_flag = receiving_rubber
 						NOT = { rubber = 2000 }
@@ -11789,24 +11789,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_15
 						has_country_flag = sending_rubber
 						rubber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_15
 						has_country_flag = receiving_rubber
 						NOT = { rubber = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_15
 						has_country_flag = sending_rubber
 						rubber = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_15
 						has_country_flag = receiving_rubber
 						NOT = { rubber = 2000 }
@@ -11850,24 +11850,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_1
 						has_country_flag = sending_oil
 						oil = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_1
 						has_country_flag = receiving_oil
 						NOT = { oil = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_1
 						has_country_flag = sending_oil
 						oil = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_1
 						has_country_flag = receiving_oil
 						NOT = { oil = 2000 }
@@ -11907,24 +11907,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_2
 						has_country_flag = sending_oil
 						oil = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_2
 						has_country_flag = receiving_oil
 						NOT = { oil = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_2
 						has_country_flag = sending_oil
 						oil = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_2
 						has_country_flag = receiving_oil
 						NOT = { oil = 2000 }
@@ -11964,24 +11964,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_3
 						has_country_flag = sending_oil
 						oil = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_3
 						has_country_flag = receiving_oil
 						NOT = { oil = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_3
 						has_country_flag = sending_oil
 						oil = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_3
 						has_country_flag = receiving_oil
 						NOT = { oil = 2000 }
@@ -12021,24 +12021,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_4
 						has_country_flag = sending_oil
 						oil = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_4
 						has_country_flag = receiving_oil
 						NOT = { oil = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_4
 						has_country_flag = sending_oil
 						oil = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_4
 						has_country_flag = receiving_oil
 						NOT = { oil = 2000 }
@@ -12078,24 +12078,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_5
 						has_country_flag = sending_oil
 						oil = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_5
 						has_country_flag = receiving_oil
 						NOT = { oil = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_5
 						has_country_flag = sending_oil
 						oil = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_5
 						has_country_flag = receiving_oil
 						NOT = { oil = 2000 }
@@ -12135,24 +12135,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_6
 						has_country_flag = sending_oil
 						oil = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_6
 						has_country_flag = receiving_oil
 						NOT = { oil = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_6
 						has_country_flag = sending_oil
 						oil = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_6
 						has_country_flag = receiving_oil
 						NOT = { oil = 2000 }
@@ -12192,24 +12192,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_7
 						has_country_flag = sending_oil
 						oil = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_7
 						has_country_flag = receiving_oil
 						NOT = { oil = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_7
 						has_country_flag = sending_oil
 						oil = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_7
 						has_country_flag = receiving_oil
 						NOT = { oil = 2000 }
@@ -12249,24 +12249,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_8
 						has_country_flag = sending_oil
 						oil = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_8
 						has_country_flag = receiving_oil
 						NOT = { oil = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_8
 						has_country_flag = sending_oil
 						oil = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_8
 						has_country_flag = receiving_oil
 						NOT = { oil = 2000 }
@@ -12306,24 +12306,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_9
 						has_country_flag = sending_oil
 						oil = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_9
 						has_country_flag = receiving_oil
 						NOT = { oil = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_9
 						has_country_flag = sending_oil
 						oil = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_9
 						has_country_flag = receiving_oil
 						NOT = { oil = 2000 }
@@ -12363,24 +12363,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_10
 						has_country_flag = sending_oil
 						oil = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_10
 						has_country_flag = receiving_oil
 						NOT = { oil = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_10
 						has_country_flag = sending_oil
 						oil = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_10
 						has_country_flag = receiving_oil
 						NOT = { oil = 2000 }
@@ -12420,24 +12420,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_11
 						has_country_flag = sending_oil
 						oil = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_11
 						has_country_flag = receiving_oil
 						NOT = { oil = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_11
 						has_country_flag = sending_oil
 						oil = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_11
 						has_country_flag = receiving_oil
 						NOT = { oil = 2000 }
@@ -12477,24 +12477,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_12
 						has_country_flag = sending_oil
 						oil = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_12
 						has_country_flag = receiving_oil
 						NOT = { oil = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_12
 						has_country_flag = sending_oil
 						oil = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_12
 						has_country_flag = receiving_oil
 						NOT = { oil = 2000 }
@@ -12534,24 +12534,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_13
 						has_country_flag = sending_oil
 						oil = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_13
 						has_country_flag = receiving_oil
 						NOT = { oil = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_13
 						has_country_flag = sending_oil
 						oil = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_13
 						has_country_flag = receiving_oil
 						NOT = { oil = 2000 }
@@ -12591,24 +12591,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_14
 						has_country_flag = sending_oil
 						oil = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_14
 						has_country_flag = receiving_oil
 						NOT = { oil = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_14
 						has_country_flag = sending_oil
 						oil = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_14
 						has_country_flag = receiving_oil
 						NOT = { oil = 2000 }
@@ -12648,24 +12648,24 @@ political_decisions = {
 			tag = BHU
 			OR = {
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_15
 						has_country_flag = sending_oil
 						oil = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_15
 						has_country_flag = receiving_oil
 						NOT = { oil = 2000 }
 					}
 				}
 				AND = {
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = receiver_15
 						has_country_flag = sending_oil
 						oil = 2000
 					}
-					any_neighbor_country = {
+					any_country = {
 						has_country_flag = supplier_15
 						has_country_flag = receiving_oil
 						NOT = { oil = 2000 }

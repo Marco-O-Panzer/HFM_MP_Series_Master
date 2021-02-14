@@ -112,6 +112,7 @@ political_decisions = {
 		}
 		effect = {
 			SPA = { all_core = { add_core = EUR } }
+			SPC = { all_core = { add_core = EUR } }
 			badboy = 25
 		}
 		ai_will_do = {
@@ -209,6 +210,10 @@ political_decisions = {
 		}
 		effect = {
 			ENG = { all_core = { add_core = EUR } }
+			ENL = { all_core = { add_core = EUR } }
+			WHA = { all_core = { add_core = EUR } }
+			SCO = { all_core = { add_core = EUR } }
+			IRE = { all_core = { add_core = EUR } }
 			badboy = 35
 		}
 		ai_will_do = {
