@@ -5,6 +5,7 @@ Changes that are waiting to be implemented:
 * Force the SGF to form if south germans not unified late game
 * Oceanic Union tag
 * hotkey for naval bases
+* decision to build meta stacks
 
 WIP
 * automated trading from victoria universalis
@@ -12,6 +13,7 @@ WIP
 
 BUGS:
 potentially small ai armies? (tho i havent seen this yet)
+ai took non ai decision to increase birth rate
 
 Maybe:
 * Change to UME map

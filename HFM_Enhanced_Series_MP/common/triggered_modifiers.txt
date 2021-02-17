@@ -55,7 +55,6 @@ money_hoarder_5 = {
 
 populationsize_below_1M = {
 	trigger = {
-		total_pops = 
 		NOT = {
 			total_pops = 250000
 

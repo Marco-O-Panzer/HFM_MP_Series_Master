@@ -1,22 +1,3 @@
-gendarmerie = {
-	limit = {
-		military_staff_system = 1
-		has_country_flag = existing_country
-	}
-	news = no
-	chance = {
-		base = 3
-		base = 2
-		modifier = {
-			factor = -2
-			not = { civilized = yes }
-		}
-	}
-	effect = {
-		suppression_points_modifier = 0.05
-	}
-}
-
 mountain_warfare = {
 	limit = {
 		military_logistics = 1

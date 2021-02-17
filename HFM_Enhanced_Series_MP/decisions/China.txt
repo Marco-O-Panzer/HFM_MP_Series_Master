@@ -1686,7 +1686,7 @@ political_decisions = {
 		allow = {
 			any_owned_province = { any_neighbor_province = { province_id = 1498 } }
 			OR = {
-				war_policy = jingosim
+				war_policy = jingoism
 				war_policy = pro_military
 				1498 = { owner = { NOT = { has_country_flag = sino_portuguese_treaty_of_peking_signataire } } }
 			}

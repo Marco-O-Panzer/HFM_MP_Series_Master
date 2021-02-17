@@ -5,7 +5,7 @@ political_decisions = {
 		potential = {
 			tag = HND
 			NOT = { has_country_flag = HND_claimed_tibet }
-			NOT { has_country_flag = hiding_the_decisions }
+			NOT = { has_country_flag = hiding_the_decisions }
 		}
 	
 		allow = {
@@ -29,7 +29,7 @@ political_decisions = {
 		potential = {
 			tag = HND
 			NOT = { has_country_flag = HND_claimed_nepal }
-			NOT { has_country_flag = hiding_the_decisions }
+			NOT = { has_country_flag = hiding_the_decisions }
 		}
 	
 		allow = {
@@ -54,7 +54,7 @@ political_decisions = {
 			tag = HND
 			NOT = { accepted_culture = tibetan }
 			ai = no
-			NOT { has_country_flag = hiding_the_decisions }
+			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		
 		allow = {

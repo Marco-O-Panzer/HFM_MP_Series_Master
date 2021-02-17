@@ -37,7 +37,7 @@ political_decisions = {
 			is_greater_power = yes
 			NOT = { has_country_flag = formexico }
 			NOT = { has_country_flag = hiding_the_decisions }
-			has_country_flag = the_slavery_debate
+			has_country_modifier = the_slavery_debate 
 		}
 		allow = {
 			has_country_flag = hasmanifestdestiny 
@@ -195,7 +195,7 @@ political_decisions = {
 			tag = CHI
 			NOT = { accepted_culture = mongol }
 			ai = no
-			NOT { has_country_flag = hiding_the_decisions }
+			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		
 		allow = {
@@ -237,7 +237,7 @@ political_decisions = {
 			tag = CHI
 			NOT = { accepted_culture = tibetan }
 			ai = no
-			NOT { has_country_flag = hiding_the_decisions }
+			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		
 		allow = {
@@ -269,7 +269,7 @@ political_decisions = {
 			tag = CHI
 			NOT = { accepted_culture = vietnamese }
 			ai = no
-			NOT { has_country_flag = hiding_the_decisions }
+			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		
 		allow = {
@@ -291,7 +291,7 @@ political_decisions = {
 			tag = CHI
 			NOT = { accepted_culture = uighur }
 			ai = no
-			NOT { has_country_flag = hiding_the_decisions }
+			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		
 		allow = {

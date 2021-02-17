@@ -680,7 +680,6 @@ fort = {
 
 naval_base = {    
 	type = naval_base
-	cost = 15000
 	goods_cost =
 	{
 		lumber = 100

@@ -66,6 +66,7 @@ Balance Changes
 * Qinq and Taiping have the same conditions to self strengthen post taiping rebellion
 * Cant spam request grant, 1 month cooldown
 * Cholera epidemic events mtth increased 
+* pop growth decision top growth option removed
 
 GFX & Localisation Changes
 * barrage_fire localisation added

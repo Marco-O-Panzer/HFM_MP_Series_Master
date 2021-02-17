@@ -45,21 +45,21 @@ country_event = {
 
 	}
 	
-	option = {
-		name = "Government Mandated Birthing Campaign."
-		
-		add_country_modifier = {
-		name = birthrate_push_high 
-		duration = -1
-		}
-		
-		add_country_modifier = {
-		name = recently_selected_birthrate
-		duration = 365
-		}
-		
-		clr_country_flag = pop_growth_for_infamy_chooser
-	}
+#	option = {
+#		name = "Government Mandated Birthing Campaign."
+#		
+#		add_country_modifier = {
+#		name = birthrate_push_high 
+#		duration = -1
+#		}
+#		
+#		add_country_modifier = {
+#		name = recently_selected_birthrate
+#		duration = 365
+#		}
+#		
+#		clr_country_flag = pop_growth_for_infamy_chooser
+#	}
 	
 	option = {
 		name = "Rather need the infamy, honestly."

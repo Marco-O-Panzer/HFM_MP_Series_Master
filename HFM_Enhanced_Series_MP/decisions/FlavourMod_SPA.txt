@@ -74,7 +74,7 @@ political_decisions = {
 			}
 			UCA = {
 				exists = yes
-				num_of_revolts = 1
+#				num_of_revolts = 1
 			}
 			NOT = { has_country_flag = reconquista_frca }
 		}

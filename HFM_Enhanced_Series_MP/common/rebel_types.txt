@@ -203,7 +203,6 @@ reactionary_rebels = {
 					government = prussian_constitutionalism
 					government = absolute_monarchy
 					government = democracy
-					government = federal_democracy
 				}
 			}
 			OR = {

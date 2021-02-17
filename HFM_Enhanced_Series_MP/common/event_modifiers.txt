@@ -30,20 +30,6 @@ come_all = {
 	icon = 9
 }
 
-pro_natal = {
-	global_population_growth = 0.002
-	education_efficiency_modifier = -0.15
-	tax_efficiency = -0.1
-	badboy = 0.02
-	icon = 17
-}
-
-anti_natal = {
-	global_population_growth = -0.002
-	education_efficiency_modifier = 0.35
-	icon = 18
-}
-
 home_focus = {
 	cb_generation_speed_modifier = -2
 	diplomatic_points_modifier = -1
@@ -110,20 +96,20 @@ birthrate_push_low = {
 
 birthrate_push_medium = {
     	global_population_growth = 0.002
-    	badboy = 0.02
-	tax_efficiency = -0.1
+    	badboy = 0.03
+	tax_efficiency = -0.15
 	global_pop_consciousness_modifier = 0.02
     	icon = 17
 }
 
-birthrate_push_high = {
-   	global_population_growth = 0.003
-    	badboy = 0.03
-	tax_efficiency = -0.2
-	global_pop_militancy_modifier = 0.01
-	global_pop_consciousness_modifier = 0.03
-    	icon = 17
-}
+#birthrate_push_high = {
+#   	global_population_growth = 0.003
+#    	badboy = 0.03
+#	tax_efficiency = -0.2
+#	global_pop_militancy_modifier = 0.01
+#	global_pop_consciousness_modifier = 0.03
+#   	icon = 17
+#}
 
 recently_selected_birthrate = {
     icon = 1

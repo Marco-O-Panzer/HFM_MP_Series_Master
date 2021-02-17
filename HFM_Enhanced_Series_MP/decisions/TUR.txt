@@ -47,8 +47,7 @@ political_decisions = {
 			
 			random_owned = { limit = { owner = { conscription = four_year_draft } } owner = { political_reform = mandatory_service } }
 			random_owned = { limit = { owner = { conscription = two_year_draft } } owner = { political_reform = four_year_draft } }
-			random_owned = { limit = { owner = { conscription = one_year_draft } } owner = { political_reform = two_year_draft } }
-			random_owned = { limit = { owner = { conscription = no_draft } } owner = { political_reform = one_year_draft } }
+			random_owned = { limit = { owner = { conscription = no_draft } } owner = { political_reform = two_year_draft } }
 			
 			
 			any_pop = {
