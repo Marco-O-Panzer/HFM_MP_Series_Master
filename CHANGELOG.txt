@@ -31,7 +31,8 @@ Flavour Changes
 * Haiti
 -- Starts with traditional tech school instead of unciv one
 -- Now has an option to oppose the absolute monarchy event
-
+* Ottomans
+-- Can have jingoism or pro-mil to revoke Kuwait autonomy (rather than semi / absolute monarchy)
 
 Political & Reform Changes
 * Unemployment reform changed to Welfare
@@ -51,11 +52,13 @@ Tech
 * Daily research points cap raised to 200
 * Unciv rp max storage increased slightly to 40000
 * General RGO throughput from inventions decreased
+* Uncivs will not get RP via taking land in a transfer 
 
 New General Decisions
 * Can now transfer infamy
 * Bureaucrats fix to remove non-accepted culture bureaucrats and convert them to artisans
 * Player to Player automatic resource transfer
+-- World Bank tag added to facilitate this (and to take other actions in future)
 
 Balance Changes
 * Emigration rate more balanced for old world republics and monarchies & less overall variance

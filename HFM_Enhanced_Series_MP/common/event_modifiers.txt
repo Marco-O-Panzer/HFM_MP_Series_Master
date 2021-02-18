@@ -2,6 +2,10 @@ grant_cooldown = {
     icon = 12
 }
 
+jan_mayen_isolationism = {
+	icon = 12
+}
+
 employing_the_labourers = {
     icon = 12
 }
@@ -140,6 +144,11 @@ recently_requested_trade = {
 }
 
 infamy_grant_cooldown = {
+	icon = 12
+}
+
+transfer_rp_debuff = {
+	research_points_on_conquer = -2
 	icon = 12
 }
 

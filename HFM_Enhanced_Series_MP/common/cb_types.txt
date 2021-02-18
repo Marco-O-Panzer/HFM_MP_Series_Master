@@ -7809,6 +7809,7 @@ negotiated_state_transfer = {
 		ai = no
 		THIS = { ai = no } 
 		has_country_flag = begin_land_transfer
+		THIS = { has_country_flag = begin_land_transfer }
 	}
 	
 	allowed_states = {
@@ -7860,6 +7861,7 @@ negotiated_substate_transfer = {
 			number_of_states = 1
 		}
 		has_country_flag = begin_land_transfer
+		THIS = { has_country_flag = begin_land_transfer }
 	}
 	
 	allowed_substate_regions = {
@@ -7907,6 +7909,7 @@ negotiated_puppet_release = {
 		ai = no
 		THIS = { ai = no }
 		has_country_flag = begin_land_transfer
+		THIS = { has_country_flag = begin_land_transfer }
 	}
 	
 	allowed_countries = {

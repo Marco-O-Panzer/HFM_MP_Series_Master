@@ -26,6 +26,7 @@ political_decisions = {
 	land_transfer = {
 		picture = the_central_asia
 		potential = { 
+			civilized = yes
 			NOT = { has_country_flag = begin_land_transfer }
 			NOT = { has_country_flag = hiding_the_decisions }
 		}
@@ -37,9 +38,29 @@ political_decisions = {
 		}
 	}
 	
+	land_transfer_unciv = {
+		picture = the_central_asia
+		potential = { 
+			civilized = no
+			NOT = { has_country_flag = begin_land_transfer }
+			NOT = { has_country_flag = hiding_the_decisions }
+		}
+		
+		allow = { ai = no }
+		
+		effect = {
+			set_country_flag = begin_land_transfer
+			add_country_modifier = {
+				name = transfer_rp_debuff
+				duration = -1
+			}
+		}
+	}
+	
 	end_land_transfer = {
 		picture = the_central_asia
 		potential = { 
+			civilized = yes
 			has_country_flag = begin_land_transfer
 			NOT = { has_country_flag = hiding_the_decisions }
 		}
@@ -48,6 +69,24 @@ political_decisions = {
 		
 		effect = {
 			clr_country_flag = begin_land_transfer
+			remove_country_modifier = transfer_rp_debuff
+		}
+	}
+	
+	end_land_transfer_unciv = {
+		picture = the_central_asia
+		potential = { 
+			civilized = no
+			has_country_flag = begin_land_transfer
+			war = no
+			NOT = { has_country_flag = hiding_the_decisions }
+		}
+		
+		allow = { ai = no }
+		
+		effect = {
+			clr_country_flag = begin_land_transfer
+			remove_country_modifier = transfer_rp_debuff
 		}
 	}
 }

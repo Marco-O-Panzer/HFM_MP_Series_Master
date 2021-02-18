@@ -1,6 +1,7 @@
 GBR		= "countries/Great Britain.txt"
 EUR		= "countries/Europe.txt"
 NGE		= "countries/Niger Federation.txt"
+WBA		= "countries/World Bank.txt"
 
 #Please keep tags sorted alphabetically when you add/remove country tags
 

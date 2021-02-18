@@ -1,0 +1,32 @@
+3275 = {
+	aristocrats = {
+		culture = pan_european
+		religion = catholic
+		size = 1
+	}
+
+	clergymen = {
+		culture = pan_european
+		religion = catholic
+		size = 1
+	}
+
+	artisans = {
+		culture = pan_european
+		religion = catholic
+		size = 1
+	}
+
+	soldiers = {
+		culture = pan_european
+		religion = catholic
+		size = 1
+	}
+
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1
+	}
+
+}

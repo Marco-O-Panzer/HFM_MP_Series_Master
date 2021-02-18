@@ -1080,10 +1080,6 @@ political_decisions = {
 		picture = bahrain_trade
 		potential = {
 			tag = TUR
-			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-			}
 			NOT = { has_country_flag = revoke_kuwait_autonomy }
 			KWT = { 
 				vassal_of = THIS
@@ -1095,12 +1091,13 @@ political_decisions = {
 			OR = {
 				government = absolute_monarchy
 				government = prussian_constitutionalism
+				war_policy = jingoism
+				war_policy = pro_military
 			}
 			war = no
 			has_recently_lost_war = no
 			is_greater_power = yes
 			mass_politics = 1
-			war_policy = jingoism
 			KWT = { 
 				in_sphere = THIS
 				vassal_of = THIS

@@ -2,7 +2,7 @@ political_decisions = {
 
 	global_1836_setup = {
 		potential = {
-			tag = BHU
+			tag = WBA
 			NOT = { has_global_flag = global_1836_setup }
 		}
 		allow = {
@@ -12,6 +12,10 @@ political_decisions = {
 			set_variable = {
 				which = trade_channel
 				value = 1
+			}
+			add_country_modifier = {
+				name = neutrality
+				duration = -1
 			}
 		}
 		ai_will_do = {
