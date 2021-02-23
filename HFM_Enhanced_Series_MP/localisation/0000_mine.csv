@@ -283,3 +283,13 @@ JAN_1;Norf FC;;;;;;;;;;;;x
 PROV3275;Gringotts;x
 WBA;World Bank;x
 WBA_ADJ;Bankers;x
+war_exhaustion_10_decay;War Exhaustion Decay: 0-10;x
+war_exhaustion_20_decay;War Exhaustion Decay: 10-20;x
+war_exhaustion_30_decay;War Exhaustion Decay: 20-30;x
+war_exhaustion_40_decay;War Exhaustion Decay: 30-40;x
+war_exhaustion_50_decay;War Exhaustion Decay: 40-50;x
+war_exhaustion_60_decay;War Exhaustion Decay: 50-60;x
+war_exhaustion_70_decay;War Exhaustion Decay: 60-70;x
+war_exhaustion_80_decay;War Exhaustion Decay: 70-80;x
+war_exhaustion_90_decay;War Exhaustion Decay: 80-90;x
+war_exhaustion_100_decay;War Exhaustion Decay: 90-100;x

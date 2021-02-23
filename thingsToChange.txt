@@ -2,13 +2,12 @@ Changes that are waiting to be implemented:
 * PDM ports:
 -- add in some inventions
 * RB Great Game event suggestions
-* Force the SGF to form if south germans not unified late game
 * Oceanic Union tag
 * hotkey for naval bases
-
-WIP
-* automated trading from victoria universalis
-
+* aircraft carriers
+* migration from colonies to states late game - potential decision being required
+* when at war after GWs are discovered decision to increase max tax and tarrif amount
+* option for ecuador to become a monarchy from a dictatorship
 
 BUGS:
 potentially small ai armies? (tho i havent seen this yet)
@@ -17,4 +16,5 @@ ai took non ai decision to increase birth rate? (also havent seen myself)
 Maybe:
 * Change to UME map
 * Add in PDM service economy, potentially more economy changes
-* Separate decision to hide mp decisions
+* Separate decision/event to hide mp decisions
+* Force the SGF to form if south germans not unified late game

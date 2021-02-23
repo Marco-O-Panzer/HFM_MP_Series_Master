@@ -328,9 +328,6 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\politics_industrial_construction.dds"
 	}
 	
-	
-	###
-	
 	spriteType = {
 		name = "GFX_politics_unciv_bg"
 		texturefile = "gfx\\interface\\politics_unciv_bg.dds"

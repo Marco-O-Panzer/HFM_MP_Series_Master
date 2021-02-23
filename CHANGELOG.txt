@@ -1,12 +1,13 @@
 The HFM Enhanced Series
 #######################
 
-This mod is built on HFM V1.27I and HFM More Stuff V3.5 submod. Below are my changes.
-Infamy reduction depending on rank & healthcare changes inspired by Heirs to Aquitania.
-Population size effects, final tech row, and LGLC tax moddifiers inspired by PDM Divide by Zero.
-Population growth decision and conditions UI changes taken from The Grand Combo.
-Thanks to Nurse_Reno for the craftsmen & bureaucrats fix.
-Generals UI change & Trade Agreements taken from Victoria Universalis.
+This mod is built on HFM V1.27I (SighPie) and HFM More Stuff V3.5 (u/louisky58) submod. Below are my changes. Credit:
+- Infamy reduction depending on rank & healthcare changes inspired by Heirs to Aquitania (Savs).
+- Population size effects, final tech row, and LGLC tax moddifiers inspired by PDM Divide by Zero.
+- Population growth decision and conditions UI changes taken from The Grand Combo (various).
+- Unciv rework from Harolds Triumph (Atlas), built from PUIR (Reno).
+- Thanks to Nurse_Reno for the craftsmen & bureaucrats fix.
+- Generals UI change & Trade Agreements taken from Victoria Universalis (KevinG).
 Everything else is my own (as far as I remember).
 Note that 'global' on a modifier means just across your country.
 
@@ -38,6 +39,8 @@ Political & Reform Changes
 * Unemployment reform changed to Welfare
 -- UBI options added in
 -- unemployment reforms condensed from 4 to 2
+* Rework of the unciv reforms, now each category has 3 levels
+-- RP from conquest debuff now part of the isolationsim choice rather than separate events
 
 Population
 * Removed base pop growth
@@ -53,6 +56,9 @@ Tech
 * Unciv rp max storage increased slightly to 40000
 * General RGO throughput from inventions decreased
 * Uncivs will not get RP via taking land in a transfer 
+
+War Exhaustion
+* There is now a 1% monthly decay on WE, with triggered modifiers applying this decay
 
 New General Decisions
 * Can now transfer infamy
@@ -70,6 +76,7 @@ Balance Changes
 * Cant spam request grant, 1 month cooldown
 * Cholera epidemic events mtth increased 
 * pop growth decision top growth option removed
+* Focus at Home effects less as economically strong, and with some WE reduction now
 
 GFX & Localisation Changes
 * barrage_fire localisation added
