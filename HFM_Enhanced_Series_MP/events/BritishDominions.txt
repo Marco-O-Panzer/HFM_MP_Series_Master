@@ -8,6 +8,8 @@ country_event = {
 	picture = "danishgovernment"
 
 	major = yes
+	
+	fire_only_once = yes
 
 	trigger = {
 		war = no
@@ -262,6 +264,8 @@ country_event = {
 
 	major = yes
 
+	fire_only_once = yes
+
 	trigger = {
 		war = no
 		year = 1901
@@ -465,6 +469,8 @@ country_event = {
 	picture = "danishgovernment"
 
 	major = yes
+
+	fire_only_once = yes
 
 	trigger = {
 		war = no
@@ -677,6 +683,8 @@ country_event = {
 	picture = "danishgovernment"
 
 	major = yes
+	
+	fire_only_once = yes
 
 	trigger = {
 		war = no
@@ -1452,6 +1460,8 @@ country_event = {
 	picture = "danishgovernment"
 
 	major = yes
+
+	fire_only_once = yes
 
 	trigger = {
 		OR = {

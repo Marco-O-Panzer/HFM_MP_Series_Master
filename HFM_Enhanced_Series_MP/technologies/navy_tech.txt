@@ -543,7 +543,8 @@ modern_naval_doctrine_1920 = {
 	area = naval_doctrine
 	year = 1928
 	cost = 60000
-	colonial_points = 100
+	max_naval_base = 1
+	colonial_points = 1000
 	ai_chance = {
 		factor = 0.5
 		modifier = {
@@ -1176,7 +1177,7 @@ oil_driven_ships = {
 
 aircraft_carriers = {
 	area = ship_construction
-	year = 1928
+	year = 1922
 	cost = 60000
 	
 	navy_base = { maximum_speed = 2 } 
@@ -2259,7 +2260,7 @@ naval_integration = {
 
 naval_aviation = {
 	area = naval_science
-	year = 1928
+	year = 1921
 	cost = 60000
 	supply_range = 1
 	navy_base = {
@@ -2889,7 +2890,7 @@ modern_naval_training_1920 = {
 	year = 1928
 	cost = 60000
 	navy_base = {
-		default_organisation = 2
+		default_organisation = 10
 		supply_consumption = 0.1
 	}
 	ai_chance = {

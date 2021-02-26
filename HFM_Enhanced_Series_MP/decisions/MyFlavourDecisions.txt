@@ -408,4 +408,44 @@ political_decisions = {
 			add_accepted_culture = wallonian 
 		}
 	}
+	
+	relax_colonial_immigration_restrictions = {
+		picture = law_of_equality
+		potential = {
+			ai = no
+			colonial_nation = yes
+			NOT = { has_country_flag = increased_migration_to_states }
+		}
+		allow = {
+			plurality = 85
+			mass_politics = 1
+			citizenship_policy = full_citizenship
+			citizens_rights = all_voting_pops
+		}
+		effect = {
+			set_country_flag = increased_migration_to_states 
+			any_pop = {
+				scaled_militancy = {
+					ideology = socialist
+					factor = 1
+				}
+				scaled_militancy = {
+					ideology = liberal
+					factor = 1
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 5
+				}
+				scaled_militancy = {
+					ideology = fascist
+					factor = 5
+				}
+			}
+		}
+	}
 }

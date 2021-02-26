@@ -316,6 +316,17 @@ bad_planning = {
 	icon = 19
 }
 
+taxation_increased = {
+	trigger = {
+		ai = no
+		mass_politics = 1
+		war = yes
+	}
+	max_tax = 1
+	max_tariff = 1
+	icon = 2
+}
+
 african_unciv = {
 	trigger = {
 		OR = {

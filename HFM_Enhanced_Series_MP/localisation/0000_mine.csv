@@ -293,3 +293,18 @@ war_exhaustion_70_decay;War Exhaustion Decay: 60-70;x
 war_exhaustion_80_decay;War Exhaustion Decay: 70-80;x
 war_exhaustion_90_decay;War Exhaustion Decay: 80-90;x
 war_exhaustion_100_decay;War Exhaustion Decay: 90-100;x
+taxation_increased;Total War Taxation;x
+EVTNAME970701;A New Prince?;x
+EVTDESC970701;Our president is a monarchist, and whilst he has agreed to the status quo, we could take the initiative and request for a prince of spanish decent to take our throne.;x
+EVTOPT970701A;No. The status quo suits us well. We will not suffer the rule of a Spanish king once more.;x
+EVTOPT970701B;Yes. Let us reach out to Spain and get oursleves a new King!;x
+relax_colonial_immigration_restrictions_title;Relax Colonial Immigration Restrictions;x
+relax_colonial_immigration_restrictions_desc;We can relax our laws regarding immigration from the colonies, this will provide us with more workers and future citizens, althouth the more conservative and reactionary elements of our nation will not be happy. NOTE: This allows migration from colonies to states, limited to half the base rate of migration. This modifier will be removed if the conditions required to take it are no longer met.;x
+increased_migration_to_states;Relaxed Colonial Immigration Laws;x
+EVTNAME7777908;Colonial Immigration Restricted;x
+EVTDESC7777908;The government has deemed it appropriate to restrict immigration from the colonies. Colonial pops will not migrate to states.;x
+EVTOPTA7777908;Have we chosen correctly?;x
+base_strike;Base Strike;x
+base_strike_desc;An aircraft carrier is a warship that serves as a seagoing airbase, equipped with a full-length flight deck and facilities for carrying, arming, deploying, and recovering aircraft.;x
+mountain_warfare;Mountain Warfare;x
+mountain_warfare_desc;Mountain ranges are of strategic importance since they often act as a natural border, and may also be the origin of a water source. Attacking a prepared enemy position in mountain terrain requires a greater ratio of attacking soldiers to defending soldiers than a war conducted on level ground.;x

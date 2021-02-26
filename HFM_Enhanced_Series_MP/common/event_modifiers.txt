@@ -862,7 +862,6 @@ kinda_bad_badboy = {
 	non_accepted_pop_consciousness_modifier = 0.4
 	non_accepted_pop_militancy_modifier = 0.2
 	political_reform_desire = 0.5
-	cb_generation_speed_modifier = -0.1
 	icon = 8
 }
 
@@ -871,7 +870,6 @@ bad_badboy = {
 	import_cost = 4
 	loan_interest = 4
 	tariff_efficiency_modifier = -0.40
-	mobilisation_economy_impact = 1
 	diplomatic_points_modifier = -0.6
 	factory_owner_cost = 1
 	global_immigrant_attract = -2.0
@@ -883,9 +881,7 @@ bad_badboy = {
 	land_organisation = -0.1
 	naval_organisation = -0.1
 	prestige = -0.06
-	war_exhaustion = 0.9
 	research_points_modifier = -0.2
-	cb_generation_speed_modifier = -0.3
 	icon = 8
 }
 

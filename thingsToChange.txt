@@ -4,10 +4,8 @@ Changes that are waiting to be implemented:
 * RB Great Game event suggestions
 * Oceanic Union tag
 * hotkey for naval bases
-* aircraft carriers
-* migration from colonies to states late game - potential decision being required
-* when at war after GWs are discovered decision to increase max tax and tarrif amount
-* option for ecuador to become a monarchy from a dictatorship
+* hide trade decisions option
+* decision to block bankruptcy events
 
 BUGS:
 potentially small ai armies? (tho i havent seen this yet)

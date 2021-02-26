@@ -464,6 +464,46 @@ country_event = {
 }
 
 country_event = {
+	id = 970701
+	title = "EVTNAME970701"
+	desc = "EVTDESC970701"
+	picture = "carta_esclavitud_ecu"
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = ECU
+		government = presidential_dictatorship
+		NOT = { year = 1860 }
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = "EVTOPT970701A"
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = "EVTOPT970701B"
+		government = prussian_constitutionalism
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberal
+				factor = 9
+			}
+		}		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = {
 	id = 97075
 	title = "EVTNAME97075" #The Era of Conservatism
 	desc = "EVTDESC97075"

@@ -34,6 +34,10 @@ Flavour Changes
 -- Now has an option to oppose the absolute monarchy event
 * Ottomans
 -- Can have jingoism or pro-mil to revoke Kuwait autonomy (rather than semi / absolute monarchy)
+* ECU
+-- Once a dictatorship, an event can fire to give the option to become a semi-con monarchy
+* UK
+-- Dominion independence events now will only fire once for each dominion
 
 Political & Reform Changes
 * Unemployment reform changed to Welfare
@@ -46,19 +50,30 @@ Population
 * Removed base pop growth
 * Fascists can use encourage births NF
 * USE assimilation can overcome the cultural core modifier in Europe
+* Lategame decision for colonial nations to take that allows migration from colonies to states (at half the base rate)
+-- Event will remove this buff if no longer supports full citizenship
 
 Economy
 * Factorys now pay out 60% of profits in paychecks
 * Max stockpile increased to 5k
+* When mass politics is reasearched and when at war, can tariff and tax to 100% regardless of party in power
 
 Tech
 * Daily research points cap raised to 200
 * Unciv rp max storage increased slightly to 40000
 * General RGO throughput from inventions decreased
-* Uncivs will not get RP via taking land in a transfer 
+* Uncivs will not get RP via taking land in a transfer
+* Tech to unlock aircraft carriers now available in the early 1920s
 
 War Exhaustion
 * There is now a 1% monthly decay on WE, with triggered modifiers applying this decay
+
+Units
+* Infantry now have 1 recon
+* Guards now have 3 recon
+* Increase battleships and dreadnoughts per port by 1
+* New unit aircraft carrier added in
+-- Very strong attack, decent defence, extremely expensive to supply (1 per port, requires lvl 6 port)
 
 New General Decisions
 * Can now transfer infamy
@@ -77,9 +92,11 @@ Balance Changes
 * Cholera epidemic events mtth increased 
 * pop growth decision top growth option removed
 * Focus at Home effects less as economically strong, and with some WE reduction now
+* Removed WE, CB speed decrease, and mob impact on economy effects from sanctions modifiers
 
 GFX & Localisation Changes
 * barrage_fire localisation added
+* mountain_warfare localisation added
 * Liferating UI now effectively scaled to 50 max liferating
 * Now can see the decisions to form german unions as a non-gp
 
@@ -256,7 +273,7 @@ CBs & Infamy
 * Added in minor conquest cb for uncivs similar to establish protectorate	
 * Removed negotiated puppet release cb, can just use decision to release vassals	
 -- now uncivs can use this decision as well
-* New cb to lower tarrifs - must be free trade and can only use on protectionists
+* New cb to lower tariffs - must be free trade and can only use on protectionists
 -- Target can revoke its effects at the cost of infamy and prestige
 * Military access CB, very fast justification (~22 days). Can only use on non-GPs and whilst at war
 -- Operates like a humiliate cb, will cause prestige loss on the losing side
@@ -384,7 +401,7 @@ Literacy Impact
 * Reform desire change speed slightly lower at lower literacy and vice versa
 
 Late Game Liquidity Crisis Changes
-* Money hoarder effects added based on treasury size that reduce tarrif efficiency and tax efficiency as money accumulates in treasury
+* Money hoarder effects added based on treasury size that reduce tariff efficiency and tax efficiency as money accumulates in treasury
 -- Aimed at AI hoarding money and killing the world's supply, but also applies to players
 -- Check the triggerd_modifiers file in common to see all the various modifiers at different treasury sizes
 

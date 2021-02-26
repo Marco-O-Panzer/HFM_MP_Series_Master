@@ -486,6 +486,13 @@ migration_chance = {
 	modifier = {
 		factor = -2.2
 		state_scope = { is_colonial = yes }
+		NOT = { has_country_flag = increased_migration_to_states }
+	}
+	
+	modifier = {
+		factor = -0.5
+		state_scope = { is_colonial = yes }
+		has_country_flag = increased_migration_to_states
 	}
 	
 	modifier = {
