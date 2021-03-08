@@ -960,3 +960,28 @@ province_event = {
 		ai_chance = { factor = 1 }
 	}
 }
+
+province_event = {
+	id = 7777909
+	title = "EVTNAME7777909" 
+	desc = "EVTDESC7777909"
+	picture = "russo_turkish"
+		
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT7777909OPTA"
+		war = {
+			target = RUS
+			attacker_goal = { casus_belli = take_from_sphere country = TIB}
+			#defender_goal = { casus_belli = status_quo }
+			call_ally = no
+		}
+		ai_chance = { factor = 85 }
+	}
+	option = {
+		name = "EVT7777909OPTB"
+		prestige = -35
+		ai_chance = { factor = 15 }
+	}
+}

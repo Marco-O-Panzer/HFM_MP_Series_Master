@@ -89,4 +89,34 @@ political_decisions = {
 			remove_country_modifier = transfer_rp_debuff
 		}
 	}
+	
+	stop_bankrupt_events = {
+		picture = cancel_trade
+		potential = {
+			ai = no
+			NOT = { has_country_flag = bankruptcy_events_disabled }
+			NOT = { has_country_flag = hiding_the_decisions }
+		}
+		allow = {
+			exists = yes
+		}
+		effect = {
+			set_country_flag = bankruptcy_events_disabled
+		}
+	}
+	
+	allow_bankrupt_events = {
+		picture = accept_trade
+		potential = {
+			ai = no
+			has_country_flag = bankruptcy_events_disabled
+			NOT = { has_country_flag = hiding_the_decisions }
+		}
+		allow = {
+			exists = yes
+		}
+		effect = {
+			clr_country_flag = bankruptcy_events_disabled
+		}
+	}
 }

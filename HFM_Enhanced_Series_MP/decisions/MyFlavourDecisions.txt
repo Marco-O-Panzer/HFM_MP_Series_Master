@@ -448,4 +448,21 @@ political_decisions = {
 			}
 		}
 	}
+	
+	the_white_tzar = {
+		picture = tibet_capital
+		potential = {
+			tag = RUS
+			NOT = { has_country_flag = stolen_tibet }
+		}
+		allow = {
+			TIB = { in_sphere = THIS }
+			war = no
+		}
+		effect = {
+			QNG = { release_vassal = TIB }
+			TIB = { all_core = { add_core = CHI } }
+			ENG = { country_event = 7777909 }
+		}
+	}
 }

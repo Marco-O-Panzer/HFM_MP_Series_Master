@@ -3,7 +3,7 @@ political_decisions = {
 		picture = ever_victorious
 		potential = {
 			tag = RUS
-			NOT = { has_country_flag = accepted_our_slavics }
+			NOT = { accepted_culture = ukrainian }
 		}
 		allow = {
 			social_science = 1
@@ -13,7 +13,6 @@ political_decisions = {
 		effect = {
 			add_accepted_culture = byelorussian
 			add_accepted_culture = ukrainian
-			set_country_flag = accepted_our_slavics
 		}
 	}
 }

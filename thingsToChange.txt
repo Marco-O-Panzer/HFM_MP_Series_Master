@@ -3,13 +3,28 @@ Changes that are waiting to be implemented:
 -- add in some inventions
 * RB Great Game event suggestions
 * Oceanic Union tag
-* hotkey for naval bases
-* hide trade decisions option
-* decision to block bankruptcy events
+* add new tags to GTFO file
+* Image for my decision managing ones
+* East Africa Federation tag
+* make a negotiated cb icon
+* fix new CB localisations, text colour (release and puppet, steal puppet, etc.)
+* Iron and Coal RGOs in India, maybe needs more provinces
+* Rgo changes for west africa and east africa federations (when got tech appropriate)
+* take terrain from HFME, nice map texture
+* some seige on guards (less than engineers)
+* add in dismantle submod for HFM
+* ai china will westernise by decision in 1908 at the latest
+* fix to remove dead units
+* Generals UI, change personatlity and background to Attack and Defence
+* increase supply limit from early techs
+* unciv events to give tech are wrong, look at Jay stuff pinned in #modding
+* can change the grand campaign text at the start
+* pop growth event, can only take the 2nd option once mass politics is researched 
 
 BUGS:
 potentially small ai armies? (tho i havent seen this yet)
 ai took non ai decision to increase birth rate? (also havent seen myself)
+france becomes the USE sometimes
 
 Maybe:
 * Change to UME map

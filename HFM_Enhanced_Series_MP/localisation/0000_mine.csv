@@ -308,3 +308,14 @@ base_strike;Base Strike;x
 base_strike_desc;An aircraft carrier is a warship that serves as a seagoing airbase, equipped with a full-length flight deck and facilities for carrying, arming, deploying, and recovering aircraft.;x
 mountain_warfare;Mountain Warfare;x
 mountain_warfare_desc;Mountain ranges are of strategic importance since they often act as a natural border, and may also be the origin of a water source. Attacking a prepared enemy position in mountain terrain requires a greater ratio of attacking soldiers to defending soldiers than a war conducted on level ground.;x
+bankruptcy_events_disabled;Disables Bankruptcy Events;x
+stop_bankrupt_events_title;Stop Bankruptcy Events;x
+stop_bankrupt_events_desc;Prevent bankruptcy events from appearing. (Can re-enable);x
+allow_bankrupt_events_title;Allow Bankruptcy Events;x
+allow_bankrupt_events_desc;Allow bankruptcy events to appear.;x
+the_white_tzar_title;The White Tzar;x
+the_white_tzar_desc;Due to our influence over Tibet we can now free them from the clasp of the Qing, although this will reinforce Chinese claims to the region and anger the British who may respond.;x
+EVTNAME7777909;The Bear in Tibet;x
+EVTDESC7777909;Russia has snaked its way into the government of Tibet, we cannot allow this to stand! Force of arms will be considered.;x
+EVT7777909OPTA;To arms it is;x
+EVT7777909OPTB;We cannot act this time;x

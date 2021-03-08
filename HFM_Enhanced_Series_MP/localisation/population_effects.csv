@@ -16,4 +16,6 @@ populationsize_100M_desc;Our population has reached 100.000.000 people.;;;;;;;;;
 populationsize_200M;Population 200 Million;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
 populationsize_200M_desc;Our population has reached 200.000.000 people.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
 populationsize_300M;Population 300 Million;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
-populationsize_300M_desc;Our population has reached 300.000.000 people. It is really getting crowded.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+populationsize_300M_desc;Our population has reached 300.000.000 people.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;
+populationsize_500M;Population 500 Million;;;;;;;;;;;;x,,,
+populationsize_500M_desc;Our population has reached 500.000.000 people.;;;;;;;;;;;;x,,,

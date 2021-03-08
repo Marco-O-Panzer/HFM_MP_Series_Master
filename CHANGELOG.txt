@@ -1,13 +1,15 @@
-The HFM Enhanced Series
-#######################
+The HFM Enhanced Series (MP)
+############################
 
 This mod is built on HFM V1.27I (SighPie) and HFM More Stuff V3.5 (u/louisky58) submod. Below are my changes. Credit:
 - Infamy reduction depending on rank & healthcare changes inspired by Heirs to Aquitania (Savs).
-- Population size effects, final tech row, and LGLC tax moddifiers inspired by PDM Divide by Zero.
-- Population growth decision and conditions UI changes taken from The Grand Combo (various).
+- Population size effects, final tech row, and LGLC tax moddifiers inspired by PDM Divide by Zero (GAGA Extrem).
+- Population growth decision and conditions UI changes taken from The Grand Combo (Jman & others).
 - Unciv rework from Harolds Triumph (Atlas), built from PUIR (Reno).
-- Thanks to Nurse_Reno for the craftsmen & bureaucrats fix.
 - Generals UI change & Trade Agreements taken from Victoria Universalis (KevinG).
+- Aircraft Carrier icon and sprite from CWE mod (settintotrieste & others).
+- Liberate & Puppet CB, Steal Puppet CB from HFME (Jman & others)
+- Thanks to Nurse_Reno for the craftsmen & bureaucrats fix.
 Everything else is my own (as far as I remember).
 Note that 'global' on a modifier means just across your country.
 
@@ -38,6 +40,12 @@ Flavour Changes
 -- Once a dictatorship, an event can fire to give the option to become a semi-con monarchy
 * UK
 -- Dominion independence events now will only fire once for each dominion
+* Russia
+-- Can regain lost cultures after a dismantle
+
+CBs & Infamy
+* Steal Puppet CB added in (for GP usage)
+* Liberate Country and Puppet CB added in (for GP usage)
 
 Political & Reform Changes
 * Unemployment reform changed to Welfare
@@ -52,11 +60,12 @@ Population
 * USE assimilation can overcome the cultural core modifier in Europe
 * Lategame decision for colonial nations to take that allows migration from colonies to states (at half the base rate)
 -- Event will remove this buff if no longer supports full citizenship
+* 200M, 300M, 500M pops get -0.1, -0.1, -0.3 we 
 
 Economy
 * Factorys now pay out 60% of profits in paychecks
 * Max stockpile increased to 5k
-* When mass politics is reasearched and when at war, can tariff and tax to 100% regardless of party in power
+* When in a great war, can tariff and tax to 100% regardless of party in power
 
 Tech
 * Daily research points cap raised to 200
@@ -80,6 +89,7 @@ New General Decisions
 * Bureaucrats fix to remove non-accepted culture bureaucrats and convert them to artisans
 * Player to Player automatic resource transfer
 -- World Bank tag added to facilitate this (and to take other actions in future)
+* Can turn bankruptcy events off and on
 
 Balance Changes
 * Emigration rate more balanced for old world republics and monarchies & less overall variance
@@ -94,11 +104,13 @@ Balance Changes
 * Focus at Home effects less as economically strong, and with some WE reduction now
 * Removed WE, CB speed decrease, and mob impact on economy effects from sanctions modifiers
 
-GFX & Localisation Changes
+GFX, UI & Localisation Changes
 * barrage_fire localisation added
 * mountain_warfare localisation added
 * Liferating UI now effectively scaled to 50 max liferating
 * Now can see the decisions to form german unions as a non-gp
+* Shortcut 'e' now added for building naval bases
+* British India now called the British Raj
 
 Bugs Fixes
 * Tech crash fixed

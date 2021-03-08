@@ -51,3 +51,11 @@ india_acquire_state_setup;Annex $STATE$;;;;;;;;;;;;;x
 india_acquire_state_short;Annex $STATE$;;;;;;;;;;;;;x
 NORMAL_WAR_INDIA_REUNIFICATION;$ORDER$$FIRST$ War of Indian Unification;;;;;;;;;;;;;x
 AGRESSION_WAR_INDIA_REUNIFICATION;$ORDER$$FIRST$ War of Indian Unification;;;;;;;;;;;;;x
+steal_puppet;Take Puppet;;;;;;;;;;;;;x
+steal_puppet_short;Puppet $THIRD$;;;;;;;;;;;;;x
+steal_puppet_desc;Take a §Ypuppet§y from a third country and make it our puppet.;;;;;;;;;;;;;x
+steal_puppet_setup;Take $THIRD$ from $RECIPIENT$.;;;;;;;;;;;;;x
+liberate_puppet;Liberate and Puppet Country;;Befreit das Land;;;;;;;;x;;;;
+liberate_puppet_desc;Liberate and puppet an §Yentire country§y from its oppressors\n\n§YNOTE§y: §RDo not use it with normal Free people or Liberate Country CBs for other non existent countries.§r;;;;;;;x;;;;
+liberate_puppet_short;$THIRD$ acquires $STATE$ and becomes a puppet;;;;;;;;x;
+liberate_puppet_setup;Puppet and return $STATE$ to $THIRD$ from $RECIPIENT$;;;;;;;;;x
