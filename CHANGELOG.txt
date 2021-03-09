@@ -46,6 +46,8 @@ Flavour Changes
 CBs & Infamy
 * Steal Puppet CB added in (for GP usage)
 * Liberate Country and Puppet CB added in (for GP usage)
+* HPM 0.4.6 Protectorate CBs added in, updating from 0.3.9
+-- Note: This means that conquering in Africa will not reduce in infamy cost until the Berlin Conference 
 
 Political & Reform Changes
 * Unemployment reform changed to Welfare
@@ -111,6 +113,7 @@ GFX, UI & Localisation Changes
 * Now can see the decisions to form german unions as a non-gp
 * Shortcut 'e' now added for building naval bases
 * British India now called the British Raj
+* Chinese Federation flag now the Republic flag from DoD
 
 Bugs Fixes
 * Tech crash fixed

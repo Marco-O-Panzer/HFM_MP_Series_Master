@@ -7,7 +7,6 @@ Changes that are waiting to be implemented:
 * Image for my decision managing ones
 * East Africa Federation tag
 * make a negotiated cb icon
-* fix new CB localisations, text colour (release and puppet, steal puppet, etc.)
 * Iron and Coal RGOs in India, maybe needs more provinces
 * Rgo changes for west africa and east africa federations (when got tech appropriate)
 * take terrain from HFME, nice map texture
@@ -17,13 +16,16 @@ Changes that are waiting to be implemented:
 * fix to remove dead units
 * Generals UI, change personatlity and background to Attack and Defence
 * increase supply limit from early techs
-* unciv events to give tech are wrong, look at Jay stuff pinned in #modding
-* can change the grand campaign text at the start
-* pop growth event, can only take the 2nd option once mass politics is researched 
+* can change the grand campaign text at the start (GC_DESC is the localization key for it check bookmarks.txt)
+* pop growth event, can only take the 2nd option once mass politics is researched
+* increase reform desire reduction when fully reformed 
+* 1000 european farmer pops in each province
+* new tag for the republic of turkey
 
 BUGS:
 potentially small ai armies? (tho i havent seen this yet)
 ai took non ai decision to increase birth rate? (also havent seen myself)
+chinese pan nationalists in yemen?
 france becomes the USE sometimes
 
 Maybe:
@@ -31,3 +33,4 @@ Maybe:
 * Add in PDM service economy, potentially more economy changes
 * Separate decision/event to hide mp decisions
 * Force the SGF to form if south germans not unified late game
+* make europe into lots of 'continents' to allow migration

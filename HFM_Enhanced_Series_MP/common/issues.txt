@@ -2030,6 +2030,7 @@ military_reforms = {
 			
 			on_execute = {
 				effect = {
+					activate_technology = clipper_design
 					activate_technology = steamers
 					any_pop = {
 						scaled_militancy = {

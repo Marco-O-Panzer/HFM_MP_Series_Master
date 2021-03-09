@@ -54,7 +54,7 @@ country_event = {
 	
 	trigger = {
 		civilized = no
-		foreign_training = foreign_artillery_two
+		foreign_artillery = foreign_artillery_two
 		NOT = { has_country_flag = foreign_artillery2_flag }
 	}
 	
@@ -621,6 +621,7 @@ country_event = {
 	option = {
 		name = "Ok"
 		clr_country_flag = nu2_flag
+		activate_technology = clipper_design
 		activate_technology = steamers
 	}
 }
