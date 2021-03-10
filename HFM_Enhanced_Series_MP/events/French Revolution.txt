@@ -20,6 +20,12 @@ country_event = {
 	fire_only_once = yes
 
 	option = {
+		name = "The peoples of all of Europe are not our concern"
+		clr_country_flag = ready_for_hugo
+		ai_chance = { factor = 100 }
+	}
+
+	option = {
 		name = "For Europe!"
 		FRA = { all_core = { add_core = EUR } }
 		change_tag = EUR
@@ -32,12 +38,6 @@ country_event = {
 		remove_accepted_culture = french_canadian
 		clr_country_flag = ready_for_hugo
 		ai_chance = { factor = 0 }
-	}
-	
-	option = {
-		name = "The peoples of all of Europe are not our concern"
-		clr_country_flag = ready_for_hugo
-		ai_chance = { factor = 100 }
 	}
 }
 

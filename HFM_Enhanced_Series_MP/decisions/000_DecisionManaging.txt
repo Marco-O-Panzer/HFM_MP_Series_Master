@@ -1,5 +1,6 @@
 political_decisions = {
 	hide_the_decisions = {
+		picture = no_townes
 		potential = {
 			NOT = { has_country_flag = hiding_the_decisions }
 		}
@@ -12,6 +13,7 @@ political_decisions = {
 	}
 	
 	show_the_decisions = {
+		picture = yes_townes
 		potential = {
 			has_country_flag = hiding_the_decisions
 		}

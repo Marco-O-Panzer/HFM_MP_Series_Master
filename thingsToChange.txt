@@ -4,29 +4,22 @@ Changes that are waiting to be implemented:
 * RB Great Game event suggestions
 * Oceanic Union tag
 * add new tags to GTFO file
-* Image for my decision managing ones
 * East Africa Federation tag
 * make a negotiated cb icon
 * Iron and Coal RGOs in India, maybe needs more provinces
 * Rgo changes for west africa and east africa federations (when got tech appropriate)
 * take terrain from HFME, nice map texture
-* some seige on guards (less than engineers)
 * add in dismantle submod for HFM
 * ai china will westernise by decision in 1908 at the latest
 * fix to remove dead units
-* Generals UI, change personatlity and background to Attack and Defence
-* increase supply limit from early techs
-* can change the grand campaign text at the start (GC_DESC is the localization key for it check bookmarks.txt)
-* pop growth event, can only take the 2nd option once mass politics is researched
-* increase reform desire reduction when fully reformed 
 * 1000 european farmer pops in each province
 * new tag for the republic of turkey
+* better starting image
+* add in images for all Townes decisions
 
 BUGS:
 potentially small ai armies? (tho i havent seen this yet)
 ai took non ai decision to increase birth rate? (also havent seen myself)
-chinese pan nationalists in yemen?
-france becomes the USE sometimes
 
 Maybe:
 * Change to UME map

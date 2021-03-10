@@ -116,6 +116,10 @@ signal_detachments = {
 		hussar = {
 			reconnaissance = 1
 		}
+		guard = {
+			reconnaissance = 1
+			siege = 1
+		}
 	}
 }
 flexible_firepower = {
@@ -466,6 +470,7 @@ stormtrooper_training = {
 		}
 		guard = {
 			attack = 1
+			siege = 1
 		}
 		engineer = {
 			attack = 1
@@ -976,6 +981,9 @@ interwar_cavalry = {
 			defence = 2
 			reconnaissance = 2
 			supply_consumption = 0.20
+		}
+		guard = {
+			reconnaissance = 1
 		}
 	}
 }

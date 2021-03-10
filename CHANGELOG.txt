@@ -75,13 +75,15 @@ Tech
 * General RGO throughput from inventions decreased
 * Uncivs will not get RP via taking land in a transfer
 * Tech to unlock aircraft carriers now available in the early 1920s
+* Basic Chemistry now has +50% supply limit
 
 War Exhaustion
 * There is now a 1% monthly decay on WE, with triggered modifiers applying this decay
 
 Units
 * Infantry now have 1 recon
-* Guards now have 3 recon
+* Guards now have 1 recon and can be upgraded with inventions to max 3
+* Guards siege can now be upgraded to max 2 with inventions
 * Increase battleships and dreadnoughts per port by 1
 * New unit aircraft carrier added in
 -- Very strong attack, decent defence, extremely expensive to supply (1 per port, requires lvl 6 port)
@@ -102,9 +104,12 @@ Balance Changes
 * Qinq and Taiping have the same conditions to self strengthen post taiping rebellion
 * Cant spam request grant, 1 month cooldown
 * Cholera epidemic events mtth increased 
-* pop growth decision top growth option removed
+* Pop growth decision top growth option removed
+-- Now also requires mass_politics to take
+* Immigration attraction for infamy now requires state_n_gov
 * Focus at Home effects less as economically strong, and with some WE reduction now
 * Removed WE, CB speed decrease, and mob impact on economy effects from sanctions modifiers
+* More social reform reduction desire when fully socially reformed
 
 GFX, UI & Localisation Changes
 * barrage_fire localisation added
