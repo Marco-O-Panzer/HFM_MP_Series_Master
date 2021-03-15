@@ -168,7 +168,7 @@ populationsize_500M = {
 	icon = 17
 	research_points = 1.25
 	tax_efficiency = -0.05
-	administrative_efficiency_modifier = - 0.05
+	administrative_efficiency_modifier = -0.05
 	war_exhaustion = -0.3
 }
 

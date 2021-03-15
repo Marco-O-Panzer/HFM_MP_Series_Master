@@ -15,10 +15,6 @@ political_decisions = {
 					NOT = { has_country_flag = in_great_war }
 				}
 				AND = {
-					conscription = two_year_draft
-					NOT = { has_country_flag = in_great_war }
-				}
-				AND = {
 					NOT = { conscription = mandatory_service }
 					OR = {
 						conscription = four_year_draft
@@ -41,10 +37,7 @@ political_decisions = {
 				}
 				AND = {
 					NOT = { OR = { war_policy = pacifism war_policy = anti_military } }
-					OR = {
-						conscription = two_year_draft
-						conscription = two_year_draft
-					}
+					conscription = two_year_draft
 				}
 				AND = {
 					conscription = four_year_draft

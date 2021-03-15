@@ -402,6 +402,7 @@ political_decisions = {
 				}
 			}
 			has_country_flag = establish_the_kaitakushi
+			NOT = { has_country_flag = established_karafuto_prefecture }
 		}
 		
 		allow = {
@@ -465,6 +466,8 @@ political_decisions = {
 				}
 				1086 = { add_province_modifier = { name = population_resettlement duration = 1095 } }
 			}
+			
+			set_country_flag = established_karafuto_prefecture
 		}
 		
 		ai_will_do = { factor = 1 }

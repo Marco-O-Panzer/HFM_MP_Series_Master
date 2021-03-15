@@ -9,6 +9,7 @@ This mod is built on HFM V1.27I (SighPie) and HFM More Stuff V3.5 (u/louisky58) 
 - Generals UI change & Trade Agreements taken from Victoria Universalis (KevinG).
 - Aircraft Carrier icon and sprite from CWE mod (settintotrieste & others).
 - Liberate & Puppet CB, Steal Puppet CB from HFME (Jman & others)
+- Protectorate CBs from HPM 0.4.6 (arkhometha)
 - Thanks to Nurse_Reno for the craftsmen & bureaucrats fix.
 Everything else is my own (as far as I remember).
 Note that 'global' on a modifier means just across your country.
@@ -42,6 +43,8 @@ Flavour Changes
 -- Dominion independence events now will only fire once for each dominion
 * Russia
 -- Can regain lost cultures after a dismantle
+* China
+-- Cant take self-strenghtening movement decision once both westernised and 1905+
 
 CBs & Infamy
 * Steal Puppet CB added in (for GP usage)
@@ -119,6 +122,7 @@ GFX, UI & Localisation Changes
 * Shortcut 'e' now added for building naval bases
 * British India now called the British Raj
 * Chinese Federation flag now the Republic flag from DoD
+* Created 3 icons for the Negotiated CB transfers
 
 Bugs Fixes
 * Tech crash fixed
@@ -128,6 +132,7 @@ Bugs Fixes
 * Removed the disarmed condition for UK on the Treaty of Philadelphia
 * Event for ethiopia war event to dec on Shewa now requires Shewa to exist
 * USE cores on Spain now works for carlists tag as well
+* Karafuto Prefecture decision can now only be taken once to prevent it being spammed
 
 
 Version 3

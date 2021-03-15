@@ -755,11 +755,17 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.8
-			education_reform = yes_education_reform
+			OR = {
+				education_reform = yes_western_science 
+				education_reform = western_science_two 
+			}
 		}
 		modifier = {
 			factor = 0.8
-			pre_indust = yes_pre_indust
+			OR = {
+				pre_indust = yes_pre_indust
+				pre_indust = pre_indust_two
+			}
 		}
 	}
 	

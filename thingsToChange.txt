@@ -1,25 +1,30 @@
 Changes that are waiting to be implemented:
+* Change mod name to HFM MP Series
 * PDM ports:
 -- add in some inventions
 * RB Great Game event suggestions
 * Oceanic Union tag
 * add new tags to GTFO file
 * East Africa Federation tag
-* make a negotiated cb icon
 * Iron and Coal RGOs in India, maybe needs more provinces
 * Rgo changes for west africa and east africa federations (when got tech appropriate)
 * take terrain from HFME, nice map texture
 * add in dismantle submod for HFM
-* ai china will westernise by decision in 1908 at the latest
 * fix to remove dead units
 * 1000 european farmer pops in each province
 * new tag for the republic of turkey
 * better starting image
 * add in images for all Townes decisions
+* darwinism reduce pop growth
+* fascist minority event spam (Its a minorities problem)
+* alsace compromise shouldnt do population changes
+* united south america embrace culture decision can be taken more than once
+* Russia in the east ideas
 
 BUGS:
 potentially small ai armies? (tho i havent seen this yet)
 ai took non ai decision to increase birth rate? (also havent seen myself)
+test Arab Union
 
 Maybe:
 * Change to UME map

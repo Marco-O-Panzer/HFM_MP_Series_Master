@@ -19,7 +19,6 @@ carrier = {
 	default_organisation = 45
 	maximum_speed = 8
 	weighted_value = 50.0
-	can_build_overseas = no
 
 
 	#Building Costs
