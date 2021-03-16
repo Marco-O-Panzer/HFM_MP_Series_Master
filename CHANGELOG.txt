@@ -81,7 +81,10 @@ Tech
 * Basic Chemistry now has +50% supply limit
 
 War Exhaustion
-* There is now a 1% monthly decay on WE, with triggered modifiers applying this decay
+* There is now a 2% monthly decay on WE, with triggered modifiers applying this decay
+* Reduction of -0.5 when at war
+* Reduction of -1.5 when at peace
+* Max of 100 when at peace (instead of 50)
 
 Units
 * Infantry now have 1 recon

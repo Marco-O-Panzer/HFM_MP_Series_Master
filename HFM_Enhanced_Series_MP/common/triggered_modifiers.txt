@@ -233,7 +233,7 @@ war_exhaustion_10_decay = {
 		NOT = { war_exhaustion = 10 }
 		war_exhaustion = 0.01
 	}
-	war_exhaustion = -0.1
+	war_exhaustion = -0.2
 }
 
 war_exhaustion_20_decay = {
@@ -241,7 +241,7 @@ war_exhaustion_20_decay = {
 		war_exhaustion = 10
 		NOT = { war_exhaustion = 20 }
 	}
-	war_exhaustion = -0.2
+	war_exhaustion = -0.4
 }
 
 war_exhaustion_30_decay = {
@@ -249,7 +249,7 @@ war_exhaustion_30_decay = {
 		war_exhaustion = 20
 		NOT = { war_exhaustion = 30 }
 	}
-	war_exhaustion = -0.3
+	war_exhaustion = -0.6
 }
 
 war_exhaustion_40_decay = {
@@ -257,7 +257,7 @@ war_exhaustion_40_decay = {
 		war_exhaustion = 30
 		NOT = { war_exhaustion = 40 }
 	}
-	war_exhaustion = -0.4
+	war_exhaustion = -0.8
 }
 
 war_exhaustion_50_decay = {
@@ -265,7 +265,7 @@ war_exhaustion_50_decay = {
 		war_exhaustion = 40
 		NOT = { war_exhaustion = 50 }
 	}
-	war_exhaustion = -0.5
+	war_exhaustion = -1
 }
 
 war_exhaustion_60_decay = {
@@ -273,7 +273,7 @@ war_exhaustion_60_decay = {
 		war_exhaustion = 50
 		NOT = { war_exhaustion = 60 }
 	}
-	war_exhaustion = -0.6
+	war_exhaustion = -1.2
 }
 
 war_exhaustion_70_decay = {
@@ -281,7 +281,7 @@ war_exhaustion_70_decay = {
 		war_exhaustion = 60
 		NOT = { war_exhaustion = 70 }
 	}
-	war_exhaustion = -0.7
+	war_exhaustion = -1.4
 }
 
 war_exhaustion_80_decay = {
@@ -289,7 +289,7 @@ war_exhaustion_80_decay = {
 		war_exhaustion = 70
 		NOT = { war_exhaustion = 80 }
 	}
-	war_exhaustion = -0.8
+	war_exhaustion = -1.6
 }
 
 war_exhaustion_90_decay = {
@@ -297,14 +297,14 @@ war_exhaustion_90_decay = {
 		war_exhaustion = 80
 		NOT = { war_exhaustion = 90 }
 	}
-	war_exhaustion = -0.9
+	war_exhaustion = -1.8
 }
 
 war_exhaustion_100_decay = {
 	trigger = {
 		war_exhaustion = 90
 	}
-	war_exhaustion = -1
+	war_exhaustion = -2
 }
 
 minor_bad_planning = {
