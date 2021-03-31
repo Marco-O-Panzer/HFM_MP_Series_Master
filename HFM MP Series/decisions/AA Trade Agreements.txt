@@ -1,6 +1,8 @@
 political_decisions = {
 
 	prevent_trade_deals = {
+		picture = accept_trade_no
+		alert = no
 		potential = {
 			ai = no
 			NOT = { has_country_flag = no_trade_deals }
@@ -17,6 +19,8 @@ political_decisions = {
 	}
 	
 	enable_trade_deals = {
+		picture = accept_trade_yes
+		alert = no
 		potential = {
 			ai = no
 			has_country_flag = no_trade_deals

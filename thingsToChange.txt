@@ -4,7 +4,6 @@ Changes that are waiting to be implemented:
 * 1000 european farmer pops in each province (CARRY ON FROM CROATIA)
 * new tag for the republic of turkey (TRK) - separate from ottoman tag
 * better starting image
-* add in images for all Townes decisions
 * Russia in the east ideas (pinned)
 * new take capital CB image
 * WAR SUPPORT SYSTEM - check modding

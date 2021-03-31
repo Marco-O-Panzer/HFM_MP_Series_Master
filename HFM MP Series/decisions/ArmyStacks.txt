@@ -1,6 +1,7 @@
 political_decisions = {
 	hide_army_stacks = {
-		picture = no_victory
+		picture = ever_victorious_no
+		alert = no
 		potential = {
 			ai = no
 			NOT = { has_country_flag = hiding_the_decisions }
@@ -14,7 +15,8 @@ political_decisions = {
 		}
 	}
 	show_army_stacks = {
-		picture = ever_victorious
+		picture = ever_victorious_yes
+		alert = no
 		potential = {
 			ai = no
 			NOT = { has_country_flag = hiding_the_decisions }
