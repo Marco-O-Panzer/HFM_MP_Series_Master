@@ -8,7 +8,7 @@ This mod is built on HFM V1.27I (SighPie) and HFM More Stuff V3.5 (u/louisky58) 
 - Unciv rework from Harolds Triumph (Atlas), built from PUIR (Reno).
 - Generals UI change & Trade Agreements taken from Victoria Universalis (KevinG).
 - Aircraft Carrier icon and sprite from CWE mod (settintotrieste & others).
-- Liberate & Puppet CB, Steal Puppet CB from HFME (Jman & others)
+- Liberate & Puppet CB, Steal Puppet CB, map textures from HFME (Jman & others)
 - Protectorate CBs from HPM 0.4.6 (arkhometha)
 - Thanks to Nurse_Reno for the craftsmen & bureaucrats fix.
 Everything else is my own (as far as I remember).
@@ -24,6 +24,7 @@ Flavour Changes
 -- Spheres dont need to be at peace to form germany
 -- Decision to annex slovakia now increased to all Hungarian cores - infamy cost increased to 20
 -- Cores on venice now also cores on lombardia
+-- Apart from claim poland decision, germany cant get take any other cores for infamy decisions in MP Setup
 * USA
 -- All of mexico decision dissapears at the civil war
 * Netherlands
@@ -45,6 +46,24 @@ Flavour Changes
 -- Can regain lost cultures after a dismantle
 * China
 -- Cant take self-strenghtening movement decision once both westernised and 1905+
+-- In MP Setup cannot get the Koreans petition for annexation event
+* France
+-- In MP Setup cannot get the USE event
+* Oceania
+-- New tag formed by Australia or New Zealand 
+-- Can claim Java, New Guinea, and surrounding islands
+-- Can accept those cultures
+* Celtic Union
+-- New tag that can be formed by scotland or ireland after they conquer the other (or wales if they conquer the other two)
+-- Can expand into wales, brittany and galicia (and get accepted cultures in all 3)
+* India
+-- With some basic industrial tech can gain coal and iron provinces (when independent) (5 of each)
+* Coptic Empire / Efrican Federation
+-- Form the Coptic Empire (need to unite ethiopia)
+-- Expansion event with state_n_gov to go north into egypt as the Coptic Empire, or become a republic and south as the Efrican Federation
+-- Can get some coal and iron provinces in Ethiopia via decision with tech
+* Niger Federation
+-- Can get some coal and iron provinces in Nigeria via decision with tech
 
 CBs & Infamy
 * Steal Puppet CB added in (for GP usage)
@@ -58,6 +77,7 @@ Political & Reform Changes
 -- unemployment reforms condensed from 4 to 2
 * Rework of the unciv reforms, now each category has 3 levels
 -- RP from conquest debuff now part of the isolationsim choice rather than separate events
+* buffed emmigration NF to +150%
 
 Population
 * Removed base pop growth
@@ -79,6 +99,7 @@ Tech
 * Uncivs will not get RP via taking land in a transfer
 * Tech to unlock aircraft carriers now available in the early 1920s
 * Basic Chemistry now has +50% supply limit
+* AI unciv will always take isolationsim option (to nerf their westernisation rate, original code can be uncommented if wanted)
 
 War Exhaustion
 * There is now a 2% monthly decay on WE, with triggered modifiers applying this decay
@@ -93,6 +114,7 @@ Units
 * Increase battleships and dreadnoughts per port by 1
 * New unit aircraft carrier added in
 -- Very strong attack, decent defence, extremely expensive to supply (1 per port, requires lvl 6 port)
+* Majors start with meta stacks in decent places (RUS, UK, FRA, PRU, AUS and OTT)
 
 New General Decisions
 * Can now transfer infamy
@@ -100,6 +122,10 @@ New General Decisions
 * Player to Player automatic resource transfer
 -- World Bank tag added to facilitate this (and to take other actions in future)
 * Can turn bankruptcy events off and on
+* Can build army stacks with decisions (costs goods)
+
+New General Events
+* Starting event to decide whether to show or hide the mp specific decisions
 
 Balance Changes
 * Emigration rate more balanced for old world republics and monarchies & less overall variance
@@ -126,6 +152,8 @@ GFX, UI & Localisation Changes
 * British India now called the British Raj
 * Chinese Federation flag now the Republic flag from DoD
 * Created 3 icons for the Negotiated CB transfers
+* Map terrain from HFME put in
+* Removed background when in the tabs, so can now click directly out to provinces or armies
 
 Bugs Fixes
 * Tech crash fixed
@@ -170,7 +198,7 @@ Flavour Changes
 -- Greater germany can expand into venice and poland, and then austria for infamy (gains cores)
 -- Once expanded can take decision to encourage assimilation for non accepted culture militancy gain
 * Niger Federation
--- Formed by any counrty with capital in west africa - cultural union tag
+-- Formed by any country with capital in west africa - cultural union tag
 -- Cores and accepts all of west africa
 -- Can accept cultures down to the kongo if it controls the land
 

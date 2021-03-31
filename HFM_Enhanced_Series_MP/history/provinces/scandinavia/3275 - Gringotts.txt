@@ -1,5 +1,0 @@
-owner = WBA
-controller = WBA
-add_core = WBA
-trade_goods = grain
-life_rating = 50

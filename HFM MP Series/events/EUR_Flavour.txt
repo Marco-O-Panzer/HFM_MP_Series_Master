@@ -1,0 +1,98 @@
+country_event = {
+	id = 7777903
+	title = "EVTNAME7777903"
+	desc = "EVTDESC7777903"
+	picture = "victor_hugo"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		year = 1870
+		tag = EUR
+	}
+
+	mean_time_to_happen = { 
+		months = 3
+	}
+
+	option = {
+		name = "And still we stand."
+		add_country_modifier = {
+			name = european_unity
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = 7777904
+	title = "EVTNAME7777904"
+	desc = "EVTDESC7777904"
+	picture = "victor_hugo"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = EUR
+	}
+
+	mean_time_to_happen = { 
+		months = 12
+	}
+
+	option = {
+		name = "Reaching out to each other across the seas."
+		relation = { who = USA value = 200 }
+	}
+}
+
+country_event = {
+	id = 7777905
+	title = "EVTNAME7777905"
+	desc = "EVTDESC7777905"
+	picture = "eu_flags_waved"
+	
+	trigger = {
+		tag = EUR
+	}
+
+	mean_time_to_happen = { 
+		months = 48
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			government = democracy
+		}
+		modifier = {
+			factor = 0.95
+			vote_franschise = universal_voting
+		}
+		modifier = {
+			factor = 0.95
+			political_parties = secret_ballots
+		}
+		modifier = {
+			factor = 0.95
+			press_rights = free_press
+		}
+		modifier = {
+			factor = 0.95
+			public_meetings = yes_meeting
+		}
+		modifier = {
+			factor = 0.95
+			centralization = federalism
+		}
+		modifier = {
+			factor = 0.95
+			citizens_rights = all_voting_pops
+		}
+	}
+
+	option = {
+		name = "We are European!"
+		add_country_modifier = {
+			name = burst_of_european_unity
+			duration = 30
+		}
+	}
+}

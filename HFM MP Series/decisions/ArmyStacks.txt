@@ -1,0 +1,149 @@
+political_decisions = {
+	hide_army_stacks = {
+		picture = no_victory
+		potential = {
+			ai = no
+			NOT = { has_country_flag = hiding_the_decisions }
+			NOT = { has_country_flag = hidden_the_stacks }
+		}
+		allow = {
+			NOT = { has_country_flag = hidden_the_stacks }
+		}
+		effect = {
+			set_country_flag = hidden_the_stacks
+		}
+	}
+	show_army_stacks = {
+		picture = ever_victorious
+		potential = {
+			ai = no
+			NOT = { has_country_flag = hiding_the_decisions }
+			has_country_flag = hidden_the_stacks
+		}
+		allow = {
+			has_country_flag = hidden_the_stacks
+		}
+		effect = {
+			clr_country_flag = hidden_the_stacks
+		}
+	}
+	early_4_1_5_stack = {
+		picture = ever_victorious
+		potential = {
+			ai = no
+			NOT = { has_country_flag = hiding_the_decisions }
+			NOT = { has_country_flag = hidden_the_stacks }
+			war = no
+		}
+		allow = {
+			military_staff_system = 1
+			bronze_muzzle_loaded_artillery = 1
+			flintlock_rifles = 1
+			small_arms = 50
+			canned_food = 50
+			regular_clothes = 40
+			luxury_clothes = 5
+			artillery = 50
+			canned_food = 50
+			liquor = 50
+		}
+	
+		effect = {
+			capital_scope = { 
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = hussar value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+			}
+			small_arms = -50
+			canned_food = -50
+			regular_clothes = -40
+			luxury_clothes = -5
+			artillery = -50
+			canned_food = -50
+			liquor = -50
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	early_1_5_mob = {
+		picture = ever_victorious
+		potential = {
+			ai = no
+			NOT = { has_country_flag = hiding_the_decisions }
+			NOT = { has_country_flag = hidden_the_stacks }
+			war = no
+		}
+		allow = {
+			military_staff_system = 1
+			bronze_muzzle_loaded_artillery = 1
+			artillery = 50
+			canned_food = 60
+			liquor = 50
+			small_arms = 10
+			luxury_clothes = 5
+		}
+		
+		effect = {
+			capital_scope = { 
+				sub_unit = { type = hussar value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+			}
+			artillery = -50
+			canned_food = -60
+			liquor = -50
+			small_arms = -10
+			luxury_clothes = -5
+		}
+	}
+	late_1_4_mob = {
+		picture = ever_victorious
+		potential = {
+			ai = no
+			NOT = { has_country_flag = hiding_the_decisions }
+			NOT = { has_country_flag = hidden_the_stacks }
+			war = no
+		}
+		allow = {
+			aeronautics = 1
+			bronze_muzzle_loaded_artillery = 1
+			artillery = 40
+			canned_food = 50
+			liquor = 40
+			aeroplanes = 10
+			small_arms = 10
+			regular_clothes = 10
+			wine = 10
+			fuel = 10
+		}
+		
+		effect = {
+			capital_scope = { 
+				sub_unit = { type = plane value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+			}
+			artillery = -40
+			canned_food = -50
+			liquor = -40
+			aeroplanes = -10
+			small_arms = -10
+			regular_clothes = -10
+			wine = -10
+			fuel = -10
+		}
+	}
+}

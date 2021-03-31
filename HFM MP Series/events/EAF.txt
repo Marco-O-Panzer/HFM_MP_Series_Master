@@ -1,0 +1,94 @@
+country_event = {
+	id = 7777911
+	title = "EVTNAME7777911"
+	desc = "EVTDESC7777911"
+	major = yes
+	
+	trigger = {
+		tag = EAF
+		civilised = yes
+		state_n_government = 1
+	}
+	
+	fire_only_once = yes
+		
+	mean_time_to_happen = {
+		months = 60
+		
+		modifier = {
+			factor = 0.5
+			nationalism_n_imperialism = 1
+		}
+	}
+	
+	option = {
+		name = "EVT7777911PTA"
+		EGY_1745 = { add_core = EAF }
+		EGY_1751 = { add_core = EAF }
+		EGY_1755 = { add_core = EAF }
+		EGY_1758 = { add_core = EAF }
+		EGY_1762 = { add_core = EAF }
+		EGY_1771 = { add_core = EAF }
+		badboy = 15
+		set_country_flag = coptic_path
+		ai_chance = { factor = 50 }
+	}
+	
+	option = {
+		name = "EVT7777911PTB"
+		government = democracy
+		SOM_1868 = { add_core = EAF }
+		ENG_2026 = { add_core = EAF }
+		ENG_2019 = { add_core = EAF }
+		BEL_2034 = { add_core = EAF }
+		ENG_2044 = { add_core = EAF }
+		ENG_2036 = { add_core = EAF }
+		ENG_2024 = { add_core = EAF }
+		ENG_2036 = { add_core = EAF }
+		ENG_2039 = { add_core = EAF }
+		badboy = 10
+		set_country_flag = eaf_path
+		ai_chance = { factor = 50 }
+	}
+}
+
+country_event = {
+	id = 7777912
+	title = "EVTNAME7777912"
+	desc = "EVTDESC7777912"
+	picture = "ethiopian_soldiers_marching"
+	
+	trigger = {
+		tag = EAF
+		has_country_flag = coptic_path
+		1745 = { owned_by = EAF }
+		1751 = { owned_by = EAF }
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 12
+		
+		modifier = {
+			factor = 0.5
+			revolution_n_counterrevolution = 1
+		}
+	}
+	
+	option = {
+		name = "EVT7777912PTA"
+		set_country_flag = coptic_conversions
+		any_pop = {
+			limit = { 
+				NOT = { has_pop_religion = coptic }
+			}
+			militancy = 5
+		}
+	}
+	
+	option = {
+		name = "EVT7777912PTB"
+		political_reform = all_voting_pops  
+	}
+}

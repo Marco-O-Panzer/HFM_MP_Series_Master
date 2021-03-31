@@ -1,29 +1,22 @@
 Changes that are waiting to be implemented:
-* Change mod name to HFM MP Series
 * PDM ports:
 -- add in some inventions
 * RB Great Game event suggestions
-* Oceanic Union tag
-* add new tags to GTFO file
-* East Africa Federation tag
-* Iron and Coal RGOs in India, maybe needs more provinces
-* Rgo changes for west africa and east africa federations (when got tech appropriate)
-* take terrain from HFME, nice map texture
 * add in dismantle submod for HFM
 * fix to remove dead units
-* 1000 european farmer pops in each province
-* new tag for the republic of turkey
+* 1000 european farmer pops in each province (CARRY ON FROM CROATIA)
+* new tag for the republic of turkey (TRK) - separate from ottoman tag
 * better starting image
 * add in images for all Townes decisions
-* darwinism reduce pop growth
-* fascist minority event spam (Its a minorities problem)
-* alsace compromise shouldnt do population changes
-* united south america embrace culture decision can be taken more than once
-* Russia in the east ideas
+* Russia in the east ideas (pinned)
+* new take capital CB image
+* WAR SUPPORT SYSTEM - check modding
+* Military access cb image
+* cb image for take capital is state cb icon with a star
+* Iran Flavour
 
 BUGS:
 potentially small ai armies? (tho i havent seen this yet)
-ai took non ai decision to increase birth rate? (also havent seen myself)
 test Arab Union
 
 Maybe:
@@ -31,4 +24,9 @@ Maybe:
 * Add in PDM service economy, potentially more economy changes
 * Separate decision/event to hide mp decisions
 * Force the SGF to form if south germans not unified late game
-* make europe into lots of 'continents' to allow migration
+* From VU, take state for ally
+* New title font for tabs like Budget
+
+ToD:
+* Hungary gets croatian accepted (talk to zoomer)
+* Get rid of straight across constantinople?

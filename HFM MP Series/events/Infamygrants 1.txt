@@ -1,0 +1,100 @@
+#Contents and brief summary
+
+#200000 = notification to country requesting aid that request is made
+
+#20000(2,4,6,8,11) = Receiving country notified giving country will give aid. Ascending, logarithmic, 1000-10 million
+
+country_event = {
+
+	
+	id = 200000
+	
+	title = "Diplomatic Aid Requested"
+	
+	desc = "We have requested diplomatic aid from foreign powers. We can only hope they respond kindly."
+	
+	is_triggered_only = yes	
+	
+	allow_multiple_instances = yes	
+
+	option = {
+	
+		name = "It is out of our hands."
+
+		any_country = {
+		
+			limit = {
+			
+				has_country_flag = will_give_infamy
+			
+				ai = no
+			
+				NOT = { badboy = 1 }
+				
+				#NOT = { tag = THIS }
+		
+			}
+		
+			country_event = {id = 200001 days = 0}
+	
+		}	
+	
+		ai_chance = {factor = 100} 
+	
+	}	
+
+}
+
+
+country_event = {
+	
+id = 200002
+	
+	title = "$FROMCOUNTRY$ Grants Diplomatic Aid"
+	
+	desc = "$FROMCOUNTRY$ has decided to give us small diplomatic aid."
+	
+	allow_multiple_instances = yes		
+	
+	is_triggered_only = yes
+	option = {
+	
+		name = "Great!"
+	
+		ai_chance = {factor = 100} 
+	
+		FROM = { country_event = {id = 200003 days = 0}}
+	
+	}
+
+}
+
+
+country_event = {
+
+	id = 200004
+
+	title = "$FROMCOUNTRY$ Grants Diplomatic Aid"
+
+	desc = "$FROMCOUNTRY$ has decided to give us large diplomatic aid."
+
+	allow_multiple_instances = yes
+	is_triggered_only = yes
+	option = {
+
+		name = "Great!"
+	
+		ai_chance = {factor = 100}
+		 
+FROM = {
+
+		country_event = {id = 200003 days = 0}
+
+		country_event = {id = 200005 days = 0}
+			
+		}
+	
+	}
+
+}
+
