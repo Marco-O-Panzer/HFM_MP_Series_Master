@@ -340,7 +340,7 @@ avantgarde_music = {
 	}
 }
 surrealism = {
-	limit = { mass_culture_n_the_avant_garde = 1 }
+	limit = { modernism = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -358,7 +358,7 @@ surrealism = {
 	}
 }
 modern_design = {
-	limit = { mass_culture_n_the_avant_garde = 1 }
+	limit = { modernism = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -659,7 +659,7 @@ nihilism_and_the_will = {
 	}
 }
 futurism = {
-	limit = { anti__rationalism = 1 }
+	limit = { modernism = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -677,7 +677,7 @@ futurism = {
 	}
 }
 quantum_theory = {
-	limit = { anti__rationalism = 1 }
+	limit = { critical_theory = 1 }
 	news = no
 	chance = {
 		base = 2
@@ -691,7 +691,7 @@ quantum_theory = {
 		}
 	}
 	effect = {
-		shared_prestige = 12.5 
+		shared_prestige = 50
 	}
 }
 #biologism
@@ -1767,6 +1767,28 @@ the_police_state = {
 		}
 		
 		suppression_points_modifier = 0.25
+	}
+}
+unitary_vs_federal = {
+	limit = { government_mobilization = 1 }
+	news = no
+	chance = {
+		base = -1
+		modifier = {
+			factor = 5
+			centralization = federalism
+		}
+		modifier = {
+			factor = 2
+			centralization = unitary 
+		}
+		modifier = {
+			factor = 8
+			centralization = totalitarianism 
+		}
+	}
+	effect = {
+		max_national_focus = 2 
 	}
 }
 #behaviorism

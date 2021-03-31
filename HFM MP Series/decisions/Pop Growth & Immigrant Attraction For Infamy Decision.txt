@@ -1,7 +1,7 @@
 political_decisions = {
 		
 		infamy_for_growth_selector = {
-				picture = conduct_census
+				picture = victorian_family
 				potential = {
 				ai = no
 					AND = { 
@@ -14,7 +14,6 @@ political_decisions = {
 				}
 				
 				allow = {
-					ai = no
 					mass_politics = 1
 				}
 				
@@ -26,7 +25,7 @@ political_decisions = {
 		}
 		
 		infamy_for_growth_modifier_removal = {
-				picture = conduct_census
+				picture = victorian_family
 				potential = {
 					AND = {	
 						ai = no
@@ -51,7 +50,7 @@ political_decisions = {
 		}
 		
 		infamy_for_immigration_selector = {
-				picture = conduct_census
+				picture = irish_in_britain
 				potential = {
 				ai = no
 					AND = { 
@@ -95,7 +94,7 @@ political_decisions = {
 		}
 		
 		infamy_for_immigration_modifier_removal = {
-				picture = conduct_census
+				picture = irish_in_britain
 				potential = {
 					AND = {	
 						ai = no

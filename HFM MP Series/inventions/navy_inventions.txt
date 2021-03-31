@@ -255,7 +255,7 @@ defensive_attitude = {
 }
 #modern_naval_doctrine
 decisive_firepower_doctrine = {
-	limit = { modern_naval_doctrine = 1 }
+	limit = { modern_naval_doctrine_1920 = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -478,7 +478,7 @@ steamer_transports = {
 	}
 }
 commerce_raiders = {
-	limit = { steamers = 1 }
+	limit = { iron_steamers = 1 }
 	chance = {
 		base = 5
 		modifier = {
@@ -673,6 +673,25 @@ dreadnoughts = {
 		activate_unit = dreadnought 
 	}
 }
+first_combat_subs = {
+	limit = {
+		steam_turbine_ships = 1
+	}
+	chance = {
+		base = 5
+		modifier = {
+			factor = 10
+			invention = commerce_raiders
+		}
+	}
+	effect = {
+		commerce_raider = {
+			hull = 10
+			torpedo_attack = 20
+			maximum_speed = 1
+		}
+	}
+}
 #light_cruisers = {
 #	limit = { steam_turbine_ships = 1 }
 #	chance = {
@@ -851,18 +870,61 @@ modern_battleships = {
 #	effect = { 
 #	}
 #}
-#converted_hulk_carriers = {
-#	limit = { oil_driven_ships = 1 }
-#	chance = {
-#		base = 5
-#		modifier = {
-#			factor = 2
-#			invention = experimental_carriers
-#		}
-#	}
-#	effect = {
-#	}
-#}
+new_carriers = {
+	limit = { aircraft_carriers = 1 }
+	chance = {
+		base = -15
+		modifier = {
+			factor = 10
+			aeronautics = 1
+		}
+		modifier = {
+			factor = 10
+			naval_aviation = 1
+		}
+	}
+	effect = {
+		activate_unit = carrier
+	}
+}
+2nd_combat_subs = {
+	limit = {
+		aircraft_carriers = 1
+	}
+	chance = {
+		base = 2
+		modifier = {
+			factor = 3
+			modern_naval_design = 1
+		}
+	}
+	effect = {
+		commerce_raider = {
+			hull = 10
+			torpedo_attack = 25
+			maximum_speed = 1
+		}
+	}
+}
+interwar_carriers = {
+	limit = { aircraft_carriers = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 4
+			invention = late_interwar_fighters
+		}
+		modifier = {
+			factor = 4
+			invention = late_interwar_bombers
+		}
+	}
+	effect = {
+		carrier = {
+			gun_power = 25
+		}
+	}
+}
 #purpose_built_carriers = {
 #	limit = { oil_driven_ships = 1 }
 #	chance = {
@@ -1320,6 +1382,21 @@ advanced_fire_control = {
 		}
 	}
 }
+advanced_carrier_hull = {
+	limit = { modern_naval_design_1920 = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 8
+			invention = new_carriers
+		}
+	}
+	effect = {
+		carrier = {
+			hull = 30
+		}
+	}
+}
 #naval_plans
 night_training = {
 	limit = { naval_plans = 1 }
@@ -1585,7 +1662,7 @@ war_gamming = {
 }
 
 combined_arms_planning = {
-	limit = { naval_integration = 1 }
+	limit = { naval_aviation = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -1600,7 +1677,7 @@ combined_arms_planning = {
 	}
 	effect = {
 		navy_base = {
-			default_organisation = 1
+			default_organisation = 4
 		}
 	}
 }
@@ -1845,7 +1922,7 @@ nco_tactical_training = {
 }
 #modern_naval_training
 amphibious_warfare_training = {
-	limit = { modern_naval_training = 1 }
+	limit = { modern_naval_training_1920 = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -1859,7 +1936,7 @@ amphibious_warfare_training = {
 	}
 	effect = {
 		navy_base = {
-			default_organisation = 1
+			default_organisation = 5
 		}
 	}
 }

@@ -35,6 +35,7 @@ political_decisions = {
 				}
 				owner = {
 					military_reform = yes_foreign_officers
+					activate_technology = military_staff_system
 				}
 			}
 			prestige = 5

@@ -112,7 +112,7 @@ Units
 * Guards now have 1 recon and can be upgraded with inventions to max 3
 * Guards siege can now be upgraded to max 2 with inventions
 * Increase battleships and dreadnoughts per port by 1
-* New unit aircraft carrier added in
+* New units aircraft carrier and submarine, added in
 -- Very strong attack, decent defence, extremely expensive to supply (1 per port, requires lvl 6 port)
 * Majors start with meta stacks in decent places (RUS, UK, FRA, PRU, AUS and OTT)
 

@@ -1,7 +1,4 @@
 Changes that are waiting to be implemented:
-* PDM ports:
--- add in some inventions
-* RB Great Game event suggestions
 * add in dismantle submod for HFM
 * fix to remove dead units
 * 1000 european farmer pops in each province (CARRY ON FROM CROATIA)
@@ -22,8 +19,6 @@ test Arab Union
 Maybe:
 * Change to UME map
 * Add in PDM service economy, potentially more economy changes
-* Separate decision/event to hide mp decisions
-* Force the SGF to form if south germans not unified late game
 * From VU, take state for ally
 * New title font for tabs like Budget
 

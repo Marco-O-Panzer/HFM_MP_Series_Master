@@ -2062,6 +2062,7 @@ military_reforms = {
 			
 			on_execute = {
 				effect = {
+					activate_technology = the_command_principle
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -2085,7 +2086,6 @@ military_reforms = {
 
 			on_execute = {
 				effect = {
-					activate_technology = the_command_principle
 					activate_technology = naval_professionalism
 					any_pop = {
 						scaled_militancy = {

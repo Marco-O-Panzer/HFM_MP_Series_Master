@@ -719,12 +719,12 @@ country_event = {
 country_event = {
 	id = 999025
 	title = "Tech reform flag"
-	desc = "Naval Academies Established"
+	desc = "Naval Schools Established"
 	picture = "Unite"
 	
 	trigger = {
 		civilized = no
-		naval_schools = naval_schools_two
+		naval_schools = naval_schools
 		NOT = { has_country_flag = nsch_flag }
 	}
 	
@@ -741,7 +741,7 @@ country_event = {
 country_event = {
 	id = 999026
 	title = "Tech activation"
-	desc = "Naval Academies Activated"
+	desc = "Naval Schools Activated"
 	picture = "Unite"
 	
 	trigger = {
@@ -756,6 +756,50 @@ country_event = {
 	option = {
 		name = "Ok"
 		clr_country_flag = nsch_flag
+		activate_technology = the_command_principle
+	}
+}
+
+country_event = {
+	id = 9990252
+	title = "Tech reform flag"
+	desc = "Naval Academies Established"
+	picture = "Unite"
+	
+	trigger = {
+		civilized = no
+		naval_schools = naval_schools_two
+		NOT = { has_country_flag = nsch_flag_two }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Ok"
+		set_country_flag = nsch_flag_two
+	}
+}
+
+country_event = {
+	id = 9990262
+	title = "Tech activation"
+	desc = "Naval Academies Activated"
+	picture = "Unite"
+	
+	trigger = {
+		civilized = yes
+		has_country_flag = nsch_flag_two
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Ok"
+		clr_country_flag = nsch_flag_two
 		activate_technology = the_command_principle
 		activate_technology = naval_professionalism
 	}

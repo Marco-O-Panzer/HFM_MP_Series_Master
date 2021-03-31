@@ -202,7 +202,9 @@ political_decisions = {
 		effect = {
 			prestige = 5
 			treasury = -155000
-			economic_reform = yes_transport_improv
+			economic_reform = transport_improv_two
+			activate_technology = experimental_railroad
+			activate_technology = early_railroad
 			build_railway_in_capital = {
 				in_whole_capital_state = yes # no = just in main capital province.
 				limit_to_world_greatest_level = yes

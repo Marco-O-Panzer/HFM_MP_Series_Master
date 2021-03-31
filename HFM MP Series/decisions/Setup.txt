@@ -2854,6 +2854,7 @@ political_decisions = {
 	}
 	
 	option_spectator = {
+		picture = starting_options 
 		alert = no
 		potential = {
 			ai = no

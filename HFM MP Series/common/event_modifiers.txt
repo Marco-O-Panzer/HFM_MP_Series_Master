@@ -928,9 +928,9 @@ swiss_banking = {
 }
 
 freedom_of_religion = {
-	global_pop_militancy_modifier = -0.01
+	global_pop_militancy_modifier = -0.02
 	global_pop_consciousness_modifier = 0.01
-	global_immigrant_attract = 0.3
+	global_immigrant_attract = 0.75
 	global_assimilation_rate = 0.1
 	icon = 5
 }
@@ -2864,8 +2864,7 @@ neutrality = {
 	max_military_spending = -0.10
 	leadership_modifier = -0.7
 	diplomatic_points_modifier = -0.3
-	prestige = -1.5
-	global_immigrant_attract = 0.2
+	global_immigrant_attract = 0.25
 	icon = 7
 }
 
