@@ -44,6 +44,7 @@ Flavour Changes
 -- Dominion independence events now will only fire once for each dominion
 * Russia
 -- Can regain lost cultures after a dismantle
+-- Can take all of manchuria instead of just outer section, and then go on to annex mongolia - at the cost of increase chinese reforms
 * China
 -- Cant take self-strenghtening movement decision once both westernised and 1905+
 -- In MP Setup cannot get the Koreans petition for annexation event
@@ -64,6 +65,9 @@ Flavour Changes
 -- Can get some coal and iron provinces in Ethiopia via decision with tech
 * Niger Federation
 -- Can get some coal and iron provinces in Nigeria via decision with tech
+* Persia
+-- Also start with financial, monetary and legislative reforms
+-- Greater Iran decision gives more cores and 2 accepted cultures (Azerbaijani and Kurdish)
 
 CBs & Infamy
 * Steal Puppet CB added in (for GP usage)
@@ -154,6 +158,9 @@ GFX, UI & Localisation Changes
 * Created 3 icons for the Negotiated CB transfers
 * Map terrain from HFME put in
 * Removed background when in the tabs, so can now click directly out to provinces or armies
+* New menu screen (photoshopped from AHD)
+* New icons for take capital and military access CBs
+* Colourcoded decisions
 
 Bugs Fixes
 * Tech crash fixed

@@ -1,6 +1,6 @@
 political_decisions = {
 	accept_our_slavic_brethren = {
-		picture = ever_victorious
+		picture = russian_march
 		potential = {
 			tag = RUS
 			NOT = { accepted_culture = ukrainian }

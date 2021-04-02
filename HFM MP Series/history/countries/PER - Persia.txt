@@ -55,6 +55,9 @@ set_country_flag = shiite_country
 foreign_artillery = yes_foreign_artillery
 foreign_weapons = yes_foreign_weapons
 land_reform = yes_land_reform
+admin_reform = yes_admin_reform
+finance_reform = yes_finance_reform 
+monetary_reform = yes_monetary_reform 
 
 govt_flag = {
 	government = absolute_monarchy
@@ -64,6 +67,9 @@ govt_flag = {
 # Technologies
 flintlock_rifles = 1
 bronze_muzzle_loaded_artillery = 1
+no_standard = 1
+private_banks = 1
+early_classical_theory_and_critique = 1
 
 # Inventions
 

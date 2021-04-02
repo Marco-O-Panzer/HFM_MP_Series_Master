@@ -56,11 +56,11 @@ claim_mongolia_desc;Long have the Mongolian lands to the north been considered p
 become_democratic_china_title;Restore the Republic!;;;;;;;;;;;;;x,,
 become_democratic_china_desc;Long has the military controlled the government, but now they are reluctantly willing to surrender up the majority of their power to the civiliian administration. This is a new dawn for a free and prosperous China!;;;;;;;;;;;;;x,,
 begin_land_transfer;Begin Land Transfer;;;;;;;;;;;;;x,,
-hide_the_decisions_title;Hide Extra Decisions;;;;;;;;;;;;;x,,
+hide_the_decisions_title;§PHide Extra Decisions§W;;;;;;;;;;;;;x,,
 hide_the_decisions_desc;Remove decisions clutter by hiding the extra decisions modded in by Townes. NOTE: Hides key decisions like advancing research reforms, transfer decisions, or powerful alt-history options.;;;;;;;;;;;;;x,,
 show_the_decisions_title;Show Extra Decisions;;;;;;;;;;;;;x,,
 show_the_decisions_desc;Show the extra decisions modded in by Townes. NOTE: Currently hidden key decisions like advancing research reforms, transfer decisions, or powerful alt-history options.;;;;;;;;;;;;;x,,
-land_transfer_title;Allow Land Transfer;;;;;;;;;;;;;x,,
+land_transfer_title;§YAllow Land Transfer§!;;;;;;;;;;;;;x,,
 land_transfer_desc;Take this decision to enable transfer CBs to be justified on our nation and for us to justify them on others.;;;;;;;;;;;;;x,,
 land_transfer_unciv_title;Allow Land Transfer;;;;;;;;;;;;;x,,
 land_transfer_unciv_desc;Take this decision to enable transfer CBs to be justified on our nation and for us to justify them on others.;;;;;;;;;;;;;x,,
@@ -260,7 +260,7 @@ will_give_infamy_title;Permit Infamy Transfers;;;;;;;;;;;;x
 will_give_infamy_desc;We will consider the use of our diplomatic abilities to justify the expansions of our allies.;;;;;;;;;;;;x
 will_not_give_infamy_title;Deny Infamy Transfers;;;;;;;;;;;;x
 will_not_give_infamy_desc;We will not allow our diplomats to waste their time justifiying the conquests of others.;;;;;;;;;;;;x
-prevent_trade_deals_title;Prevent recieving trade deals;;;;;;;;;;;;x
+prevent_trade_deals_title;§YPrevent recieving trade deals§!;;;;;;;;;;;;x
 prevent_trade_deals_desc;We will not recieve any trade deal offers.;;;;;;;;;;;;x
 enable_trade_deals_title;Allow trade deal proposals;;;;;;;;;;;;x
 enable_trade_deals_desc;We will recieve trade deal offers.;;;;;;;;;;;;x
@@ -309,7 +309,7 @@ base_strike_desc;An aircraft carrier is a warship that serves as a seagoing airb
 mountain_warfare;Mountain Warfare;x
 mountain_warfare_desc;Mountain ranges are of strategic importance since they often act as a natural border, and may also be the origin of a water source. Attacking a prepared enemy position in mountain terrain requires a greater ratio of attacking soldiers to defending soldiers than a war conducted on level ground.;x
 bankruptcy_events_disabled;Disables Bankruptcy Events;x
-stop_bankrupt_events_title;Stop Bankruptcy Events;x
+stop_bankrupt_events_title;§CStop Bankruptcy Events§!;x
 stop_bankrupt_events_desc;Prevent bankruptcy events from appearing. (Can re-enable);x
 allow_bankrupt_events_title;Allow Bankruptcy Events;x
 allow_bankrupt_events_desc;Allow bankruptcy events to appear.;x

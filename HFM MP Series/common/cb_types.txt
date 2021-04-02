@@ -119,6 +119,7 @@ establish_protectorate_NI_casus_belli
 establish_protectorate_casus_belli
 lower_tariffs_cb
 military_access_cb
+overlord_puppet_cb
 status_quo
 negotiated_state_transfer
 negotiated_substate_transfer
@@ -185,7 +186,7 @@ mass_conquest_cb = {
 			neighbour = THIS
 			AND = { war_with = THIS ai = no }
 		}
-		is_vassal = no
+		#is_vassal = no
 		THIS = { NOT = { has_country_modifier = neutrality } }
 		OR = {
 			war_with = THIS
@@ -512,7 +513,7 @@ acquire_core_state = {
 		}
 		NOT = { is_our_vassal = THIS }
 		number_of_states = 2 # annex if you want their last state
-		is_vassal = no
+		#is_vassal = no
 		any_owned_province = { is_core = THIS }
 		NOT = { has_country_modifier = neutrality }
 		THIS = { NOT = { has_country_modifier = neutrality } }
@@ -587,7 +588,7 @@ acquire_all_cores = {
 		civilized = yes
 		NOT = { is_our_vassal = THIS }
 		number_of_states = 2 # annex if you want their last state		
-		is_vassal = no
+		#is_vassal = no
 		any_owned_province = { is_core = THIS }
 		any_owned_province = { NOT = { is_core = THIS } }
 		NOT = { has_country_modifier = neutrality }
@@ -681,7 +682,7 @@ restore_austrian_empire = {
 				is_secondary_power = yes
 			}
 		}
-		is_vassal = no
+		#is_vassal = no
 		neighbour = THIS
 		any_owned_province = {
 			OR = {
@@ -886,7 +887,7 @@ restore_america = {
 			}
 			war_with = THIS
 		}
-		is_vassal = no
+		#is_vassal = no
 		neighbour = THIS
 		any_owned_province = {
 			OR = {
@@ -975,7 +976,7 @@ claim_holy_land = {
 			}
 			war_with = THIS
 		}
-		is_vassal = no
+		#is_vassal = no
 		NOT = { is_canal_enabled = 2 }
 		NOT = { is_greater_power = yes }
 		any_owned_province = {
@@ -1058,7 +1059,7 @@ unification_casus_belli = {
 	always = yes
 	
 	can_use = {
-		is_vassal = no
+		#is_vassal = no
 		NOT = { is_our_vassal = THIS }
 		NOT = { tag = PRU }
 		NOT = { tag = NGF }
@@ -1200,7 +1201,7 @@ unification_annex_casus_belli = {
 	always = yes
 	
 	can_use = {
-		is_vassal = no
+		#is_vassal = no
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			culture_has_union_tag = yes
@@ -1270,7 +1271,7 @@ annex_core_country = {
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		is_vassal = no
+		#is_vassal = no
 		any_owned_province = { is_core = THIS }
 		NOT = {
 			any_owned_province = {
@@ -1337,7 +1338,7 @@ add_to_sphere = {
 		NOT = { total_pops = 11000000 }
 		THIS = { is_greater_power = yes }
 		is_greater_power = no
-		is_vassal = no
+		#is_vassal = no
 		part_of_sphere = no
 		NOT = { has_country_modifier = neutrality }
 		THIS = { NOT = { has_country_modifier = neutrality } }
@@ -1869,7 +1870,7 @@ free_peoples = {
 			any_neighbor_country = { OR = { vassal_of = THIS substate_of = THIS in_sphere = THIS } }
 		}
 		NOT = { is_our_vassal = THIS }
-		is_vassal = no
+		#is_vassal = no
 		number_of_states = 2
 		THIS = { NOT = { has_country_modifier = neutrality } }
 		NOT = { has_country_modifier = neutrality }
@@ -2231,7 +2232,7 @@ liberate_country = {
 			is_our_vassal = THIS
 			has_country_modifier = neutrality
 		}
-		is_vassal = no
+		#is_vassal = no
 		number_of_states = 2
 		THIS = { NOT = { has_country_modifier = neutrality } }
 		OR = {
@@ -2549,7 +2550,7 @@ free_allied_cores = {
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		is_vassal = no
+		#is_vassal = no
 		number_of_states = 2
 		THIS = { NOT = { has_country_modifier = neutrality } }
 		NOT = { has_country_modifier = neutrality }
@@ -2647,7 +2648,7 @@ free_balkans = {
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		is_vassal = no
+		#is_vassal = no
 		number_of_states = 2
 		tag = TUR
 		any_owned_province = {
@@ -3872,7 +3873,7 @@ place_in_the_sun = {
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		is_vassal = no
+		#is_vassal = no
 		any_owned_province = { is_colonial = yes }
 		THIS = {
 			NOT = { has_country_modifier = neutrality }
@@ -3967,7 +3968,7 @@ acquire_state = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
-		is_vassal = no
+		#is_vassal = no
 		OR = {
 			AND = { 
 				THIS = { num_of_ports = 1 } 
@@ -4022,12 +4023,12 @@ acquire_state = {
 		#So cant do this with minor conquest CB
 		NOT = {
 			AND = {
-				is_vassal = no
+				#is_vassal = no
 				NOT = {	total_pops = 400000 }
 				NOT = { is_our_vassal = THIS }
-				NOT = { number_of_states = 5 }
-				civilized = no
-				THIS = { civilized = no }
+				NOT = { number_of_states = 3 }
+				#civilized = no
+				#THIS = { civilized = no }
 			}
 		}
 	}
@@ -4167,7 +4168,7 @@ acquire_state = {
 
 # Take a capital province
 acquire_capital = {
-	sprite_index = 2
+	sprite_index = 36
 	is_triggered_only = yes
 	months = 12
  
@@ -4189,7 +4190,7 @@ acquire_capital = {
  
 	can_use = {
 		number_of_states = 2
-		is_vassal = no
+		#is_vassal = no
 		OR = {
 			AND = { 
 				THIS = { num_of_ports = 1 } 
@@ -4244,12 +4245,12 @@ acquire_capital = {
 		#So cant minor conquest and take capital
 		NOT = {
 			AND = {
-				is_vassal = no
+				#is_vassal = no
 				NOT = {	total_pops = 400000 }
 				NOT = { is_our_vassal = THIS }
-				NOT = { number_of_states = 5 }
-				civilized = no
-				THIS = { civilized = no }
+				NOT = { number_of_states = 3 }
+				#civilized = no
+				#THIS = { civilized = no }
 			}
 		}
 	}
@@ -4438,7 +4439,7 @@ china_acquire_state = {
 				#war_policy = pacifism
 			}
 		}
-		is_vassal = no
+		#is_vassal = no
 		OR = {
 			war_with = THIS
 			THIS = { NOT = { has_country_modifier = no_more_war } }
@@ -4582,7 +4583,7 @@ india_acquire_state = {
 			NOT = { is_core = THIS }
 			is_core = HND
 		}
-		is_vassal = no
+		#is_vassal = no
 		OR = {
 			war_with = THIS
 			THIS = { NOT = { has_country_modifier = no_more_war } }
@@ -4640,7 +4641,7 @@ sahel_jihad_cb = {
 			AND = { war_with = THIS ai = no }
 			neighbour = THIS
 		}
-		is_vassal = no
+		#is_vassal = no
 		civilized = no
 		NOT = { is_our_vassal = THIS }
 		any_owned_province = {
@@ -4762,7 +4763,7 @@ demand_concession_casus_belli = {
 		NOT = { has_country_modifier = neutrality }
 		civilized = no
 		number_of_states = 2
-		is_vassal = no
+		#is_vassal = no
 		OR = {
 			war_with = THIS
 			THIS = { NOT = { has_country_modifier = punitive_effects } }
@@ -4929,7 +4930,7 @@ demand_concession_NI_casus_belli = {
 		}
 		civilized = no
 		number_of_states = 2
-		is_vassal = no
+		#is_vassal = no
 		
 		OR = {
 			THIS = { ai = no }
@@ -5086,7 +5087,7 @@ demand_concession_BC_casus_belli = {
 		}
 		civilized = no
 		number_of_states = 2
-		is_vassal = no
+		#is_vassal = no
 		OR = {
 			THIS = { ai = no }
 			THIS = { war_policy = jingoism NOT = { government = democracy } }
@@ -5298,7 +5299,7 @@ conquest = {
 				NOT = { number_of_states = 4 }
 			}
 		}
-		is_vassal = no
+		#is_vassal = no
 		NOT = { has_country_modifier = neutrality }
 		THIS = { NOT = { has_country_modifier = neutrality } }
 		OR = {
@@ -5435,7 +5436,7 @@ conquest = {
 		}
 		NOT = {
 			AND = {
-				is_vassal = no
+				#is_vassal = no
 				NOT = {	total_pops = 400000 }
 				NOT = { is_our_vassal = THIS }
 				NOT = { number_of_states = 5 }
@@ -5498,7 +5499,7 @@ conquest_low = {
 			neighbour = THIS
 			AND = { war_with = THIS ai = no }
 		}
-		is_vassal = no
+		#is_vassal = no
 		NOT = {	total_pops = 400000 }
 		NOT = { is_our_vassal = THIS }
 		OR = {
@@ -5604,7 +5605,7 @@ annex_africa = {
 			has_country_flag = post_colonial_country
 		}
 		civilized = no
-		is_vassal = no
+		#is_vassal = no
 		OR = {
 			capital_scope = { continent = africa }
 			capital_scope = { continent = central_africa }
@@ -5703,7 +5704,7 @@ annex_africa_full = {
 			has_global_flag = berlin_conference
 		}
 		civilized = no
-		is_vassal = no
+		#is_vassal = no
 		NOT = {
 			tag = MOR
 			tag = ALD
@@ -5775,7 +5776,7 @@ establish_protectorate_casus_belli = {
 	
 	can_use = {
 		civilized = no
-		is_vassal = no
+		#is_vassal = no
 		OR = {
 			any_owned_province = { any_neighbor_province = { owned_by = THIS } }
 			AND = {
@@ -5986,7 +5987,7 @@ establish_protectorate_NI_casus_belli = {
 			number_of_states = 7
 		}
 		civilized = no
-		is_vassal = no
+		#is_vassal = no
 		OR = {
 			war_with = THIS
 			THIS = { NOT = { has_country_modifier = punitive_effects } }
@@ -6149,7 +6150,7 @@ establish_protectorate_BC_casus_belli = {
 			capital_scope = { continent = africa }
 		}
 		civilized = no
-		is_vassal = no
+		#is_vassal = no
 		#OR = {
 		#	war_with = THIS
 		#	THIS = { NOT = { has_country_modifier = punitive_effects } }
@@ -6614,7 +6615,7 @@ liberate_puppet = {
 			is_our_vassal = THIS
 			has_country_modifier = neutrality
 		}
-		is_vassal = no
+		#is_vassal = no
 		number_of_states = 2
 		THIS = { NOT = { has_country_modifier = neutrality } }
 		THIS = { is_greater_power = yes }
@@ -7696,7 +7697,6 @@ conquest_any = {
 	
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		is_vassal = no
 		always = no
 	}
 
@@ -7777,7 +7777,7 @@ treaty_port_casus_belli = {
 		}
 		NOT = { has_country_modifier = neutrality }
 		civilized = no
-		is_vassal = no
+		#is_vassal = no
 		num_of_cities = 2
 		OR = {
 			war_with = THIS
@@ -8065,7 +8065,7 @@ colonial_conquest = {
 				}
 			}
 		}
-		is_vassal = no
+		#is_vassal = no
 		neighbour = THIS
 		NOT = { has_country_modifier = neutrality }
 		NOT = { in_sphere = THIS }
@@ -8201,7 +8201,7 @@ war_reparations = {
 }
 
 military_access_cb = {
-	sprite_index = 11
+	sprite_index = 37
 	is_triggered_only = yes
 	months = 1
 	crisis = yes
@@ -8231,7 +8231,7 @@ military_access_cb = {
 				is_greater_power = no
 			}
 		}
-		is_vassal = no
+		#is_vassal = no
 		OR = {
 			neighbour = THIS
 			THIS = { is_greater_power = yes }
@@ -8256,6 +8256,57 @@ military_access_cb = {
 	
 	on_po_accepted = {
 		prestige_factor = -0.1
+	}
+}
+
+#Dummy CB to start a war so that wargoals can be added on the overlords puppets
+overlord_puppet_cb = {
+	sprite_index = 26
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	
+	
+	badboy_factor = 0
+	prestige_factor = 0
+	peace_cost_factor = 1
+	penalty_factor = 0
+	
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 12
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		THIS = { NOT = { has_country_modifier = neutrality } }
+		NOT = {
+			AND = {
+				has_country_modifier = neutrality
+				is_greater_power = no
+			}
+		}
+		is_vassal = no
+		num_of_vassals_no_substates = 1
+		THIS = { ai = no }
+	}
+	
+	
+	war_name = WAR_OVERLORD_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = pro_military
+			to = jingoism
+			value = 0.25
+		}
+	}
+	
+	on_po_accepted = {
 	}
 }
 

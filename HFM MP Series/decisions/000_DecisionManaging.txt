@@ -26,6 +26,44 @@ political_decisions = {
 			clr_country_flag = hiding_the_decisions
 		}
 	}
+
+	enable_options = {
+		picture = starting_options_yes
+		alert = no
+		potential = {
+			ai = no
+			NOT = { has_global_flag = looking_through_options }
+			NOT = { year = 1837 }
+			NOT = { has_country_flag = test_dec }
+			NOT = { has_global_flag = mp_setup }
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			set_global_flag = looking_through_options
+			set_country_flag = country_looking_through_options
+		}
+	}
+	
+	disable_options = {
+		picture = starting_options_no
+		alert = no
+		potential = {
+			ai = no
+			has_country_flag = country_looking_through_options
+			NOT = { year = 1837 }
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			clr_global_flag = looking_through_options
+			clr_country_flag = country_looking_through_options
+		}
+	}
 	
 	land_transfer = {
 		picture = the_central_asia_yes

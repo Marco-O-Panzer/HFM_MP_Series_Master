@@ -153,6 +153,12 @@ transfer_rp_debuff = {
 	icon = 12
 }
 
+angry_chinese_reform = {
+	research_points = 2
+	org_regain = 0.1
+	global_pop_consciousness_modifier = 0.1
+	global_pop_militancy_modifier = -0.1
+}
 ##############################
 
 european_culture = {

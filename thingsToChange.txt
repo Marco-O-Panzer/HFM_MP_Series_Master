@@ -1,15 +1,10 @@
 Changes that are waiting to be implemented:
 * add in dismantle submod for HFM
-* fix to remove dead units
-* 1000 european farmer pops in each province (CARRY ON FROM CROATIA)
-* new tag for the republic of turkey (TRK) - separate from ottoman tag
-* better starting image
-* Russia in the east ideas (pinned)
-* new take capital CB image
+* 1000 european farmer pops in each province (CARRY ON FROM FRANCE)
+* Use new TRK (Republic of Turkey) tag for if the ottos get dismantled 
 * WAR SUPPORT SYSTEM - check modding
-* Military access cb image
-* cb image for take capital is state cb icon with a star
-* Iran Flavour
+* liberate and puppet cb can be used on non accesible nations - check as russia
+* fix all cbs via event or decision
 
 BUGS:
 potentially small ai armies? (tho i havent seen this yet)
@@ -18,9 +13,8 @@ test Arab Union
 Maybe:
 * Change to UME map
 * Add in PDM service economy, potentially more economy changes
-* From VU, take state for ally
 * New title font for tabs like Budget
 
 ToD:
-* Hungary gets croatian accepted (talk to zoomer)
+* Hungary gets croatian accepted (might already be when they get the crown from bohemia)
 * Get rid of straight across constantinople?
