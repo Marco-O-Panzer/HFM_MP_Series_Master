@@ -4946,10 +4946,10 @@ country_event = {
 			ammunition = 50
 			canned_food = 50
 		}
-		casus_belli = { type = conquest target = ASH months = 60 }
+		casus_belli = { type = conquest_any target = ASH months = 60 }
 		war = {
 			target = ASH
-			attacker_goal = { casus_belli = conquest }
+			attacker_goal = { casus_belli = conquest_any }
 		}
 		ai_chance = { factor = 100 }
 	}

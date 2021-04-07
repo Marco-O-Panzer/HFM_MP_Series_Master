@@ -154,7 +154,7 @@ GFX, UI & Localisation Changes
 * Now can see the decisions to form german unions as a non-gp
 * Shortcut 'e' now added for building naval bases
 * British India now called the British Raj
-* Chinese Federation flag now the Republic flag from DoD
+* Chinese Federation flag now the Republic flag from DoD and now called the Chinese Federal Republic (as a republic)
 * Created 3 icons for the Negotiated CB transfers
 * Map terrain from HFME put in
 * Removed background when in the tabs, so can now click directly out to provinces or armies

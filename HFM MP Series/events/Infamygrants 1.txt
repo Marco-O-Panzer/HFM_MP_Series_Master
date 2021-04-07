@@ -3,6 +3,7 @@
 #200000 = notification to country requesting aid that request is made
 
 #20000(2,4,6,8,11) = Receiving country notified giving country will give aid. Ascending, logarithmic, 1000-10 million
+#1 tacked on the end to stop conflict with germany GMU decisions ids
 
 country_event = {
 
@@ -35,7 +36,7 @@ country_event = {
 		
 			}
 		
-			country_event = {id = 200001 days = 0}
+			country_event = {id = 2000011 days = 0}
 	
 		}	
 	
@@ -63,7 +64,7 @@ id = 200002
 	
 		ai_chance = {factor = 100} 
 	
-		FROM = { country_event = {id = 200003 days = 0}}
+		FROM = { country_event = {id = 2000031 days = 0}}
 	
 	}
 
@@ -88,9 +89,9 @@ country_event = {
 		 
 FROM = {
 
-		country_event = {id = 200003 days = 0}
+		country_event = {id = 2000031 days = 0}
 
-		country_event = {id = 200005 days = 0}
+		country_event = {id = 2000051 days = 0}
 			
 		}
 	

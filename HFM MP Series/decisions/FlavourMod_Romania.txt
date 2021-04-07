@@ -106,7 +106,7 @@ political_decisions = {
 			prestige = 5
 			random_owned = { limit = { owner = { vote_franschise = landed_voting } } owner = { political_reform = wealth_weighted_voting } }
 			random_owned = { limit = { owner = { slavery = yes_slavery } } owner = { political_reform = freedom_of_womb } }
-			random_owned = { limit = { owner = { conscription = no_draft } } owner = { political_reform = one_year_draft } }
+			random_owned = { limit = { owner = { conscription = no_draft } } owner = { political_reform = two_year_draft } }
 			political_reform = free_press
 			political_reform = harassment
 			any_pop = {

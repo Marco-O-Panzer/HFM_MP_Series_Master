@@ -219,7 +219,10 @@ country_event = {
 	picture = "asian_administration"
 	
 	trigger = {
-		government = hms_government  
+		OR = {
+			government = french_bourbon 
+			government = hms_government
+		}
 		NOT = { executive_abilities = parliamentary_system }
 	}
 	

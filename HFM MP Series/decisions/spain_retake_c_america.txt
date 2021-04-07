@@ -34,32 +34,32 @@ political_decisions = {
 		effect = {
 			casus_belli = {
 				target = COS
-				type = conquest
+				type = conquest_any
 				months = 12
 			}
 			casus_belli = {
 				target = HON
-				type = conquest
+				type = conquest_any
 				months = 12
 			}
 			casus_belli = {
 				target = NIC
-				type = conquest
+				type = conquest_any
 				months = 12
 			}
 			casus_belli = {
 				target = ELS
-				type = conquest
+				type = conquest_any
 				months = 12
 			}
 			casus_belli = {
 				target = GUA
-				type = conquest
+				type = conquest_any
 				months = 12
 			}
 			casus_belli = {
 				target = LOS
-				type = conquest
+				type = conquest_any
 				months = 12
 			}
 		}

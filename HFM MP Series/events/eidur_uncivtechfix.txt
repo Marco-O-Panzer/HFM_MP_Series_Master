@@ -1302,7 +1302,7 @@ country_event = {
 	
 	trigger = {
 		civilized = no
-		pre_indust = yes_industrial_construction
+		pre_indust = yes_pre_indust
 		NOT = { has_country_flag = earlyid2_flag }
 	}
 	
@@ -1346,7 +1346,7 @@ country_event = {
 	
 	trigger = {
 		civilized = no
-		industrial_construction = yes_western_science
+		research_reform = yes_education_reform
 		NOT = { has_country_flag = indc_flag }
 	}
 	

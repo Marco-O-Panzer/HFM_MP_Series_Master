@@ -1,4 +1,4 @@
-# THE HFM Enhanced Series MP
+# THE HFM MP Series
 
 
 ## To Install Mod

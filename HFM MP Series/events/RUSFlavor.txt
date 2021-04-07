@@ -810,6 +810,9 @@ country_event = {	#outer or all of manchuria
 			}
 			country_event = 80110
 		}
+		ai_chance = {
+			factor = 100
+		}
 	}
 	
 	option = {
@@ -832,6 +835,9 @@ country_event = {	#outer or all of manchuria
 			}
 		}
 		set_country_flag = all_of_manchuria
+		ai_chance = {
+			factor = 0
+		}
 	}
 }
 		
@@ -956,7 +962,7 @@ country_event = {
 			}
 			add_casus_belli = {
 				target = THIS
-				type = conquest
+				type = conquest_any
 				months = 24
 			}
 		}

@@ -6,7 +6,7 @@ country_event = {
 	
 	trigger = {
 		tag = EAF
-		civilised = yes
+		civilized = yes
 		state_n_government = 1
 	}
 	

@@ -29,7 +29,7 @@ political_decisions = {
 				owner = {
 					war = {
 						target = FRA
-						attacker_goal = { casus_belli = conquest }
+						attacker_goal = { casus_belli = conquest_any }
 						defender_goal = { casus_belli = install_democracy }
 					}
 				}
@@ -39,7 +39,7 @@ political_decisions = {
 				owner = {
 					war = {
 						target = BOR
-						attacker_goal = { casus_belli = conquest }
+						attacker_goal = { casus_belli = conquest_any }
 						defender_goal = { casus_belli = install_democracy }
 					}
 				}

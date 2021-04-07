@@ -8,7 +8,7 @@ political_decisions = {
 					AND = { 
 						NOT = { has_country_modifier = birthrate_push_low  }
 						NOT = { has_country_modifier = birthrate_push_medium }
-						NOT = { has_country_modifier = birthrate_push_high  }
+#						NOT = { has_country_modifier = birthrate_push_high  }
 						NOT = { has_country_flag = pop_growth_for_infamy_chooser }
 					}
 				NOT = { has_country_flag = hiding_the_decisions }
@@ -34,7 +34,7 @@ political_decisions = {
 						OR = { 
 							has_country_modifier = birthrate_push_low 
 							has_country_modifier = birthrate_push_medium
-							has_country_modifier = birthrate_push_high 
+#							has_country_modifier = birthrate_push_high 
 						}
 					}
 				NOT = { has_country_flag = hiding_the_decisions }
@@ -47,7 +47,7 @@ political_decisions = {
 				effect = {
 					remove_country_modifier = birthrate_push_low 
 					remove_country_modifier = birthrate_push_medium
-					remove_country_modifier = birthrate_push_high 
+#					remove_country_modifier = birthrate_push_high 
 				}
 		}
 		

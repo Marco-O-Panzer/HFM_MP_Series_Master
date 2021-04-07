@@ -3,12 +3,19 @@ Changes that are waiting to be implemented:
 * 1000 european farmer pops in each province (CARRY ON FROM FRANCE)
 * Use new TRK (Republic of Turkey) tag for if the ottos get dismantled 
 * WAR SUPPORT SYSTEM - check modding
-* liberate and puppet cb can be used on non accesible nations - check as russia
 * fix all cbs via event or decision
+* if you get rev and counterrev you can accept egyptian - coptic empire
+
+*gracchus reno economy question
 
 BUGS:
 potentially small ai armies? (tho i havent seen this yet)
 test Arab Union
+tpg wont westernise?
+germany shouldnt get croatia
+france conquest cb issues
+Rename Louisiana! decision spam
+coptic empire wont get effects of religious conversion national flag
 
 Maybe:
 * Change to UME map

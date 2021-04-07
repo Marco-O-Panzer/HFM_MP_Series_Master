@@ -35,9 +35,9 @@ political_decisions = {
 			add_accepted_culture = oromo
 			add_accepted_culture = afar
 			add_accepted_culture = cushitic
-			add_accepted_culture = habesha
+			add_accepted_culture = harari
 			add_accepted_culture = somali
-			remove_accepted_culture = no_culture
+			#remove_accepted_culture = no_culture
 			# event chain over egypt for flavour (could lead to converting egypt)
 			all_core = { liferating = 5 }
 		}

@@ -61,13 +61,13 @@ hide_the_decisions_desc;Remove decisions clutter by hiding the extra decisions m
 show_the_decisions_title;Show Extra Decisions;;;;;;;;;;;;;x,,
 show_the_decisions_desc;Show the extra decisions modded in by Townes. NOTE: Currently hidden key decisions like advancing research reforms, transfer decisions, or powerful alt-history options.;;;;;;;;;;;;;x,,
 land_transfer_title;§YAllow Land Transfer§!;;;;;;;;;;;;;x,,
-land_transfer_desc;Take this decision to enable transfer CBs to be justified on our nation and for us to justify them on others.;;;;;;;;;;;;;x,,
+land_transfer_desc;Take this decision to enable transfer CBs to be justified on our nation and for us to justify them on others.§R Cannot use whilst either is at war.§!;;;;;;;;;;;;;x,,
 land_transfer_unciv_title;Allow Land Transfer;;;;;;;;;;;;;x,,
-land_transfer_unciv_desc;Take this decision to enable transfer CBs to be justified on our nation and for us to justify them on others.;;;;;;;;;;;;;x,,
+land_transfer_unciv_desc;Take this decision to enable transfer CBs to be justified on our nation and for us to justify them on others.§R Cannot use whilst either is at war.§!;;;;;;;;;;;;;x,,
 end_land_transfer_title;Disallow Land Transfer;;;;;;;;;;;;;x,,
-end_land_transfer_desc;Take this decions to prevent transfer CBs being justified on our nation (and to prevent us justifying them on other nations).;;;;;;;;;;;;;x,,
+end_land_transfer_desc;Take this decions to prevent transfer CBs being justified on our nation (and to prevent us justifying them on other nations).§R Cannot use whilst either is at war.§!;;;;;;;;;;;;;x,,
 end_land_transfer_unciv_title;Disallow Land Transfer;;;;;;;;;;;;;x,,
-end_land_transfer_unciv_desc;Take this decions to prevent transfer CBs being justified on our nation (and to prevent us justifying them on other nations). NOTE: RP FROM CONQUEST DEBUFF IS CURRENTLY ACTIVE;;;;;;;;;;;;;x,,
+end_land_transfer_unciv_desc;Take this decions to prevent transfer CBs being justified on our nation (and to prevent us justifying them on other nations).§Y RP FROM CONQUEST DEBUFF IS CURRENTLY ACTIVE§R Cannot use whilst either is at war.§!;;;;;;;;;;;;;x,,
 socialist_uh;Socialists want to see the enactment of further political and social reforms.;;;;;;;;;;;;;x,,
 liberal_uh;Liberals want to enact further political reforms, but will also support social reform under conditions of intermediate militancy.;;;;;;;;;;;;;x,,
 EVTNAME777791;Concede to Lower Tarrifs;;;;;;;;;;;;;x,,
@@ -319,7 +319,7 @@ EVTNAME7777909;The Bear in Tibet;x
 EVTDESC7777909;Russia has snaked its way into the government of Tibet, we cannot allow this to stand! Force of arms will be considered.;x
 EVT7777909OPTA;To arms it is;x
 EVT7777909OPTB;We cannot act this time;x
-GC_DESC;The world is entering a new era: new politcs, new industry, new weapons of war, and new Unions. Notable Union tags: Germany, United States of America, United States of Europe, Union of South American Republics, Niger Federation, Chinese Federation, Indian Union, Arab Union.;
+GC_DESC;The world is entering a new era: new politcs, new industry, new weapons of war, and new Unions. Notable Union tags: Germany, United States of America, United States of Europe, Union of South American Republics, Niger Federation, Chinese Federal Republic, Indian Union, Arab Union, and Coptic Empire/Efircan Federation.;
 MILITARY_PERSONALITY;-;
 MILITARY_BACKGROUND;-;
 UV_PERSONALITY;$VAL$;Personnalité : $VAL$;Persönlichkeit: $VAL$;;Personalidad: $VAL$;;;;;;;;;x;;;;

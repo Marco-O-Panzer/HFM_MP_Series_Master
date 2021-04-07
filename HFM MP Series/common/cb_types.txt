@@ -3012,7 +3012,6 @@ USS_monroe = {
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
 	truce_months = 48
-	always = yes
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -4957,10 +4956,7 @@ demand_concession_NI_casus_belli = {
 		
 		#restriction to chinese state conquering
 		OR = {
-			AND = {
-				ai = no
-				THIS = { ai = no }
-			}
+		ai = no
 		OR = {
 			NOT = { owner = { is_culture_group = east_asian } }
 			NOT = { total_pops = 700000 }
@@ -5113,10 +5109,7 @@ demand_concession_BC_casus_belli = {
 		
 		#restriction to Chinese state conquering
 		OR = {
-			AND = {
-				ai = no
-				THIS = { ai = no }
-			}
+		ai = no
 		OR = {
 			NOT = { owner = { is_culture_group = east_asian } }
 			NOT = { total_pops = 700000 }
@@ -6625,6 +6618,12 @@ liberate_puppet = {
 			FROM = { involved_in_crisis = yes }
 		}
 		OR = {
+			AND = { THIS = { num_of_ports = 1 } num_of_ports = 1 }
+			neighbour = THIS
+			war_with = THIS
+			any_neighbor_country = { OR = { vassal_of = THIS substate_of = THIS in_sphere = THIS } }
+		}
+		OR = {
 			THIS = { government = fascist_dictatorship }
 			THIS = { government = proletarian_dictatorship }
 			THIS = { civilized = no }
@@ -7696,8 +7695,6 @@ conquest_any = {
 	crisis = no
 	
 	can_use = {
-		NOT = { is_our_vassal = THIS }
-		always = no
 	}
 
 	badboy_factor = 0
@@ -8339,6 +8336,8 @@ negotiated_state_transfer = {
 		ai = no
 		THIS = { ai = no } 
 		has_country_flag = begin_land_transfer
+		war = no
+		THIS = { war = no }
 		THIS = { has_country_flag = begin_land_transfer }
 	}
 	
@@ -8390,6 +8389,8 @@ negotiated_substate_transfer = {
 		any_substate = {
 			number_of_states = 1
 		}
+		war = no
+		THIS = { war = no }
 		has_country_flag = begin_land_transfer
 		THIS = { has_country_flag = begin_land_transfer }
 	}
@@ -8438,6 +8439,8 @@ negotiated_puppet_release = {
 		is_independant = yes
 		ai = no
 		THIS = { ai = no }
+		war = no
+		THIS = { war = no }
 		has_country_flag = begin_land_transfer
 		THIS = { has_country_flag = begin_land_transfer }
 	}

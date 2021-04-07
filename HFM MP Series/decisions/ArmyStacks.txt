@@ -46,7 +46,6 @@ political_decisions = {
 			regular_clothes = 40
 			luxury_clothes = 5
 			artillery = 50
-			canned_food = 50
 			liquor = 50
 		}
 	
@@ -68,7 +67,6 @@ political_decisions = {
 			regular_clothes = -40
 			luxury_clothes = -5
 			artillery = -50
-			canned_food = -50
 			liquor = -50
 		}
 		ai_will_do = {
