@@ -5,6 +5,7 @@ Changes that are waiting to be implemented:
 * WAR SUPPORT SYSTEM - check modding
 * fix all cbs via event or decision
 * if you get rev and counterrev you can accept egyptian - coptic empire
+* colour coding decisions
 
 *gracchus reno economy question
 

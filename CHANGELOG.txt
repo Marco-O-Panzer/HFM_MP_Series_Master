@@ -82,6 +82,7 @@ Political & Reform Changes
 * Rework of the unciv reforms, now each category has 3 levels
 -- RP from conquest debuff now part of the isolationsim choice rather than separate events
 * buffed emmigration NF to +150%
+* Non-socialist and all trade unions social reform desire swapped (so now all has higher)
 
 Population
 * Removed base pop growth

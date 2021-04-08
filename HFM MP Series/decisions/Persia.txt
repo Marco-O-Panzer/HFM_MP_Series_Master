@@ -136,7 +136,7 @@ establish_the_dar_al_funun = {
 				limit = {
 					owner = {
 						civilized = no
-						education_reform = no_education_reform
+						education_reform = yes_western_science
 					}
 				}
 				owner = {

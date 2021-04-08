@@ -406,11 +406,11 @@ political_reforms = {
 			social_reform_desire = 0.1
 		}
 		non_socialist = {
-			social_reform_desire = 0.5
+			social_reform_desire = 0.3
 			global_immigrant_attract = 0.05
 		}
 		all_trade_unions = {
-			social_reform_desire = 0.3
+			social_reform_desire = 0.5
 			global_immigrant_attract = 0.2
 		}
 	}

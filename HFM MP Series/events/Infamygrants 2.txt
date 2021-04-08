@@ -21,7 +21,7 @@ country_event = {
 	name = "Small diplomatic aid"
 	
 		FROM = {
-			country_event = {id = 200002 days = 0}
+			country_event = {id = 2000021 days = 0}
 		
 		}
 		ai_chance = {factor = 100} 

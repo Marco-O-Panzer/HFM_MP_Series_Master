@@ -3,7 +3,7 @@
 #Socialism
 #
 # Event IDs 17500 - 17599 are reserved for this. DO NOT CHANGE.
-#
+# keep fascism spelt wrong, as it overwrites a  vanilla file with the same name
 ###########################################################################
 
 #Labor Union
