@@ -6,8 +6,11 @@ Changes that are waiting to be implemented:
 * fix all cbs via event or decision
 * if you get rev and counterrev you can accept egyptian - coptic empire
 * colour coding decisions
-
-*gracchus reno economy question
+* remove subs from starting oob files
+* increase focus party change rate
+* low militancy reduces emmigration rate
+* tone down the impact of reactionaries on emigration
+* rb no homeland uk flavour (pinned in modding)
 
 BUGS:
 potentially small ai armies? (tho i havent seen this yet)
