@@ -1,13 +1,13 @@
 ;;;;;;;;;;;;;x,,
-hide_army_stacks_title;Hide the armies;
+hide_army_stacks_title;§CHide the armies§!;
 hide_army_stacks_desc;Hide all the decisions that allow army stack creation. NOTE: To use the built armies, group the new units together and they will function as usual.;
-show_army_stacks_title;Show the armies;
+show_army_stacks_title;§CShow the armies§!;
 show_army_stacks_desc;Show all the decisions that allow army stack creation. NOTE: To use the built armies, group the new units together and they will function as usual.;
-early_4_1_5_stack_title;Early 4/1/5 Army;
+early_4_1_5_stack_title;§CEarly 4/1/5 Army§!;
 early_4_1_5_stack_desc;Construct an army of 4 infantry, 1 hussar, and 5 artillery in the capital. Will consume the same amount of goods as if built manually.;
-early_1_5_mob_title;Early 1/5 Mob Army;
+early_1_5_mob_title;§CEarly 1/5 Mob Army§!;
 early_1_5_mob_desc;Construct an army of 1 hussar and 5 artillery in the capital. Will consume the same amount of goods as if built manually.;
-late_1_4_mob_title;Late 1/4 Mob Army;
+late_1_4_mob_title;§CLate 1/4 Mob Army§!;
 late_1_4_mob_desc;Construct an army of 1 plane and 4 artillery in the capital. Will consume the same amount of goods as if built manually.;
 OCE;Oceania;
 OCE_democracy;Oceania;
@@ -93,7 +93,7 @@ EVT7777912PTB;It is not for us to show their way to God;
 eaf_resources_title;New Industrial Mining;
 eaf_resources_desc;We must strike the earth to take advantage of our natural resources, many of which can be used in our flourishing new industrial economy.;
 nge_resources_title;New Industrial Mining;
-option_disable_colonial_railroading_title;Disable Colonial Railroading;
+option_disable_colonial_railroading_title;§POption: Disable Colonial Railroading§!;
 option_disable_colonial_railroading_desc;Remove the AIs preference for historical colonising;
 nge_resources_desc;We must strike the earth to take advantage of our natural resources, many of which can be used in our flourishing new industrial economy.;
 commerce_raider;Submarine;
@@ -124,3 +124,10 @@ russia_annex_mongolia_title;Annex Mongolia;
 russia_annex_mongolia_desc;As we carry on the path of Zheltorossiya, we will fully integrate our Mongolian puppet. Their people we be best served under our administration.;
 POLITICS_DECISIONS;Decisions:;
 POLITICS_DECISIONS_2;§PInitial Options§!, Alt/Historical, §CQoL Management§!, §EGeneral§!, §YMP§!;Décisions;Entscheidungen;;Decisiones;;;;;;;;;x;;;;
+switch_to_traditional_academic_title;§ERestore The Academia§!;Rétablir l'académie;Akademische Ausrichtung wiederherstellen;;Restauración de la academia;;;;;;;;;x
+switch_to_army_tech_title;§EMilitary-Industrial Complex§!;Complexe militaro-industriel;Militärisch-industrieller Komplex;;Complejo industrial militar;;;;;;;;;x
+switch_to_navy_tech_title;§ESea power & The Merchant Marine§!;Puissance maritime & marine marchande;Seemacht & die Handelsmarine;;El Poder marítimo y la Marina Mercante;;;;;;;;;x
+switch_to_culture_tech_title;§EAvantgarde Intelligentsia§!;Intelligentsia d'avant-garde;Avantgardistische Intelligentsia;;Intelectualidad de vanguardia;;;;;;;;;x
+switch_to_trade_tech_title;§ETycoon Capitalism & Business Schools§!;Capitalisme poussé et écoles commerciales;Magnats-Kapitalismus & Kaufmannsschulen;;Escuelas de negocios y magnates del Capitalismo;;;;;;;;;x
+switch_to_industry_tech_title;§ECorporative Industrialism§!;Industrialisme corporatif;Kooperativer Industrialismus;;Industrialismo corporativo;;;;;;;;;x
+leave_soi_title;§ELeave Sphere of Influence§!;Quitter la sphère d’influence;Einflusssphäre verlassen;;Abandonar esfera de influencia;;;;;;;;;x

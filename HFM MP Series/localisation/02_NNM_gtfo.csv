@@ -1,9 +1,9 @@
 ;;;;;;;;;;;;x,,,,,,,,,,,,,
-gtfo_on_title;Enable 'Release Vassal' decisions;;;;;;;;;;;;x,,
+gtfo_on_title;§EEnable 'Release Vassal' decisions§!;;;;;;;;;;;;x,,
 gtfo_on_desc;The Release Vassal decisions allow you to release vassals, and are otherwise kept hidden from view to avoid having them clutter up your decision list.;;;;;;;;;;;;x
-gtfo_off_title;Disable 'Release Vassal' decisions;;;;;;;;;;;;x,,
+gtfo_off_title;§EDisable 'Release Vassal' decisions§!;;;;;;;;;;;;x,,
 gtfo_off_desc;Your decision list will now be uncluttered!;;;;;;;;;;;;x,,
-gtfo_disabled_title;Deactivate 'Release Vassal' decisions;;;;;;;;;;;;x,,
+gtfo_disabled_title;§EDeactivate 'Release Vassal' decisions§!;;;;;;;;;;;;x,,
 gtfo_disabled_desc;The 'Release Vassal' decisions will disappear from this game session and won't reappear again. You won't be able to use these decisions again for this game.;;;;;;;;;;;;x,,
 gtfo_MNP_title;Grant Manipur Independence;;;;;;;;;;;;x,,
 gtfo_MNP_desc;We've had a good run, but it's time to end our rulership of Manipur: if you love something, let it go!;;;;;;;;;;;;x

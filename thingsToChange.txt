@@ -1,31 +1,18 @@
 Changes that are waiting to be implemented:
-* add in dismantle submod for HFM
 * 1000 european farmer pops in each province (CARRY ON FROM FRANCE)
 * Use new TRK (Republic of Turkey) tag for if the ottos get dismantled 
-* WAR SUPPORT SYSTEM - check modding
-* fix all cbs via event or decision
 * if you get rev and counterrev you can accept egyptian - coptic empire
-* colour coding decisions
-* remove subs from starting oob files
-* increase focus party change rate
-* low militancy reduces emmigration rate
-* tone down the impact of reactionaries on emigration
-* rb no homeland uk flavour (pinned in modding)
+* RB no homeland uk flavour (pinned in modding)
+* add in flavour for parties of new tags
 
 BUGS:
-potentially small ai armies? (tho i havent seen this yet)
-test Arab Union
-tpg wont westernise?
-germany shouldnt get croatia
-france conquest cb issues
-Rename Louisiana! decision spam
-coptic empire wont get effects of religious conversion national flag
+* AI is stupid
+* potential issues with CBs via events or decisions
+* coptic empire wont get effects of religious conversion national flag
 
 Maybe:
 * Change to UME map
 * Add in PDM service economy, potentially more economy changes
 * New title font for tabs like Budget
-
-ToD:
-* Hungary gets croatian accepted (might already be when they get the crown from bohemia)
-* Get rid of straight across constantinople?
+* Modifier to remove soldier pop militancy (prevent continuous 1 brigade rebellions)
+* add in dismantle submod for HFM

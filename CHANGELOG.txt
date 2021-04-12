@@ -6,7 +6,7 @@ This mod is built on HFM V1.27I (SighPie) and HFM More Stuff V3.5 (u/louisky58) 
 - Population size effects, final tech row, and LGLC tax moddifiers inspired by PDM Divide by Zero (GAGA Extrem).
 - Population growth decision and conditions UI changes taken from The Grand Combo (Jman & others).
 - Unciv rework from Harolds Triumph (Atlas), built from PUIR (Reno).
-- Generals UI change & Trade Agreements taken from Victoria Universalis (KevinG).
+- Generals UI change, Trade Agreements & Tech/Inventions taken from Victoria Universalis (KevinG).
 - Aircraft Carrier icon and sprite from CWE mod (settintotrieste & others).
 - Liberate & Puppet CB, Steal Puppet CB, map textures from HFME (Jman & others)
 - Protectorate CBs from HPM 0.4.6 (arkhometha)
@@ -83,6 +83,8 @@ Political & Reform Changes
 -- RP from conquest debuff now part of the isolationsim choice rather than separate events
 * buffed emmigration NF to +150%
 * Non-socialist and all trade unions social reform desire swapped (so now all has higher)
+* Need to be ruled by fascists for birth rate increase NFs
+* Party national focus effect doubled
 
 Population
 * Removed base pop growth
@@ -91,6 +93,7 @@ Population
 * Lategame decision for colonial nations to take that allows migration from colonies to states (at half the base rate)
 -- Event will remove this buff if no longer supports full citizenship
 * 200M, 300M, 500M pops get -0.1, -0.1, -0.3 we 
+* low militancy reduces emmigration rate (-0.1 at below 3, -0.2 below 2, -0.3 below 1, cumulative)
 
 Economy
 * Factorys now pay out 60% of profits in paychecks
@@ -122,7 +125,7 @@ Units
 * Majors start with meta stacks in decent places (RUS, UK, FRA, PRU, AUS and OTT)
 
 New General Decisions
-* Can now transfer infamy
+* Can now transfer infamy (not available for puppets)
 * Bureaucrats fix to remove non-accepted culture bureaucrats and convert them to artisans
 * Player to Player automatic resource transfer
 -- World Bank tag added to facilitate this (and to take other actions in future)

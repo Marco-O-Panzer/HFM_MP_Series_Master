@@ -29,6 +29,8 @@ country_event = {
 				has_country_flag = will_give_infamy
 			
 				ai = no
+
+				is_vassal = no
 			
 				NOT = { badboy = 1 }
 				

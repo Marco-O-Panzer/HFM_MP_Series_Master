@@ -14,6 +14,7 @@ political_decisions = {
 			NOT = { has_country_flag = will_receive_infamy } 
 			ai = no
 			NOT = { has_country_modifier = infamy_grant_cooldown }
+			is_vassal = no
 		}
 		effect = {
 			country_event = {id = 200000 days = 0}

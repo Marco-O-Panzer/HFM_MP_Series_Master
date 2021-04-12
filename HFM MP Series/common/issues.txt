@@ -1679,6 +1679,7 @@ military_reforms = {
 			mobilisation_size = 0.2
 			civilization_progress_modifier = 0.10
 			research_points_on_conquer = 0.10
+			
 
 			on_execute = {
 				effect = {

@@ -1131,6 +1131,21 @@ emigration_chance = {
 			militancy = 9
 		}
 	}
+	
+	group = {
+		modifier = {
+			factor = -0.1
+			NOT = { militancy = 3 }
+		}
+		modifier = {
+			factor = -0.2
+			NOT = { militancy = 2 }
+		}
+		modifier = {
+			factor = -0.3
+			NOT = { militancy = 1 }
+		}
+	}
 
 	group = {
 		modifier = {

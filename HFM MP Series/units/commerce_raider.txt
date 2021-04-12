@@ -1,3 +1,4 @@
+#reskinned as submarine
 commerce_raider = {
 	icon = 8
 	naval_icon = 5
