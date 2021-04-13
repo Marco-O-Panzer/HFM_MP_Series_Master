@@ -4,6 +4,7 @@ Changes that are waiting to be implemented:
 * if you get rev and counterrev you can accept egyptian - coptic empire
 * RB no homeland uk flavour (pinned in modding)
 * add in flavour for parties of new tags
+* massive supply limit boost in the capital for mobilisation to pool at
 
 BUGS:
 * AI is stupid

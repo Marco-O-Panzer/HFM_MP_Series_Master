@@ -14,6 +14,14 @@ This mod is built on HFM V1.27I (SighPie) and HFM More Stuff V3.5 (u/louisky58) 
 Everything else is my own (as far as I remember).
 Note that 'global' on a modifier means just across your country.
 
+Version 5
+---------
+CHECKSUM: (Steam version)
+          (Cracked version)
+
+Population
+* emigration reduction from low militancy reduced (-0.1 below 2, -0.1 below 1, cumulative) 
+
 
 Version 4
 ---------
@@ -89,7 +97,6 @@ Political & Reform Changes
 
 Population
 * Removed base pop growth
-* Fascists can use encourage births NF
 * USE assimilation can overcome the cultural core modifier in Europe
 * Lategame decision for colonial nations to take that allows migration from colonies to states (at half the base rate)
 -- Event will remove this buff if no longer supports full citizenship
