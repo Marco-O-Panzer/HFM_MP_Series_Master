@@ -544,7 +544,6 @@ modern_naval_doctrine_1920 = {
 	year = 1920
 	cost = 60000
 	max_naval_base = 1
-	colonial_points = 1000
 	ai_chance = {
 		factor = 0.5
 		modifier = {

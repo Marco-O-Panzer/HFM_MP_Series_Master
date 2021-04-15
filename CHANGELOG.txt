@@ -19,9 +19,34 @@ Version 5
 CHECKSUM: (Steam version)
           (Cracked version)
 
-Population
-* emigration reduction from low militancy reduced (-0.1 below 2, -0.1 below 1, cumulative) 
+Flavour Changes
+* China
+-- Cant accept vietnemese in mp setup
+-- Self strenghtening movement rp nerfed to 2 rp, and lower % multiplier (40 to 25)
+* UFB
+-- Pop growth from its unique decisions increased slightly (compensate for no CBs)
+-- Starts with acceptable healthcare
 
+Politics & NFs
+* Now requires fascist government type for increased births NF
+
+Population
+* Emigration reduction from low militancy reduced (-0.1 below 2, -0.1 below 1, cumulative) 
+
+Tech
+* Ivention for lvl 8 naval base
+* 3 railroad inventions (1 pre war, 2 interwar)
+
+Buildings
+* 4 more levels of railroad
+* 2 more navalbase levels
+
+GFX, UI & Localisation Changes
+* USA and Brazil absolute monarchies renamed
+
+Bug Fixes
+* Fixed history for swedish province in the Caribbean
+* Imperial & Shogunate Japan start with the same unvic reforms, and now have the starting tech from them
 
 Version 4
 ---------
@@ -174,7 +199,7 @@ GFX, UI & Localisation Changes
 * New icons for take capital and military access CBs
 * Colourcoded decisions
 
-Bugs Fixes
+Bug Fixes
 * Tech crash fixed
 * Ensured ai france doesnt take USE option (now factor 100 vs 0 not to)
 * Fixed trigger on executive event for republics

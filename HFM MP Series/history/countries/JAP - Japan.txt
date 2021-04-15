@@ -51,15 +51,16 @@ upper_house = {
 }
 
 
+# Technologies
 foreign_weapons = yes_foreign_weapons
 army_schools = yes_army_schools
-foreign_artillery = yes_foreign_artillery
+foreign_navies = yes_foreign_navies
+naval_schools = yes_naval_schools
+land_reform = yes_land_reform
+finance_reform = finance_reform_two
 land_reform = yes_land_reform
 education_reform = yes_western_science
-finance_reform = yes_finance_reform
-
-# Technologies
-flintlock_rifles = 1
+foreign_artillery = yes_foreign_artillery
 
 # Inventions
 ##bottling_process = yes
@@ -69,26 +70,17 @@ modern_winemaking = yes
 consciousness = 0
 nonstate_consciousness = 0
 
-oob = "JAP_oob.txt"
-1861.1.1 = {
-	oob = "/1861/JAP_oob.txt"
-}
-1861.1.1 = {
-
-foreign_weapons = yes_foreign_weapons
-army_schools = yes_army_schools
-foreign_training = yes_foreign_training
-foreign_navies = yes_foreign_navies
-land_reform = yes_land_reform
-education_reform = yes_western_science
-finance_reform = finance_reform_two
-
 # Technologies
 flintlock_rifles = 1
-post_nelsonian_thought = 1
+army_command_principle = 1
+clipper_design = 1
+the_command_principle = 1
+mechanized_mining = 1
+late_enlightenment_philosophy = 1
+basic_chemistry = 1
+bronze_muzzle_loaded_artillery = 1
 
 # Inventions
 ##bottling_process = yes
 modern_winemaking = yes
 
-}

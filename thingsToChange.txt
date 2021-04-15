@@ -5,11 +5,18 @@ Changes that are waiting to be implemented:
 * RB no homeland uk flavour (pinned in modding)
 * add in flavour for parties of new tags
 * massive supply limit boost in the capital for mobilisation to pool at
+* release or annex north vietnam vassal of qing / china
+* late game inventions for rgo output
+* option to perma disable crises
+* If shogounate beats imperials, can become a republic
+
 
 BUGS:
 * AI is stupid
 * potential issues with CBs via events or decisions
 * coptic empire wont get effects of religious conversion national flag
+* unciv mil reforms dont show reform cost
+
 
 Maybe:
 * Change to UME map

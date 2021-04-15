@@ -711,6 +711,7 @@ country_event = {
 	option = {
 		name = "Ok"
 		clr_country_flag = shipyards2_flag
+		activate_technology = post_nelsonian_thought
 		activate_technology = battleship_column_doctrine
 	}
 }
@@ -1159,6 +1160,7 @@ country_event = {
 		name = "Ok"
 		clr_country_flag = edu2_flag
 		activate_technology = medicine
+		#activate_technology = aerial_bacteria_and_antiseptic_principle giving inventions this way does nothing :(
 	}
 }
 
