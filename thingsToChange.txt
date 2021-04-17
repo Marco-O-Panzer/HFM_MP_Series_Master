@@ -7,8 +7,11 @@ Changes that are waiting to be implemented:
 * massive supply limit boost in the capital for mobilisation to pool at
 * release or annex north vietnam vassal of qing / china
 * late game inventions for rgo output
-* option to perma disable crises
+* option to perma disable crises - revolution_n_counterrevolution_researched flag needs to never be active
 * If shogounate beats imperials, can become a republic
+* build all railroads decision - also take into account terrain
+* eu cores on switzerland should give one on Lich as well, monacoa, andorra, san marrino, ionian islands - also make it give cores on states not on tags
+* russia can only accept cultures once (via the decision)
 
 
 BUGS:
