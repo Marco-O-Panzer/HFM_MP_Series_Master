@@ -12,6 +12,8 @@ Changes that are waiting to be implemented:
 * build all railroads decision - also take into account terrain
 * eu cores on switzerland should give one on Lich as well, monacoa, andorra, san marrino, ionian islands - also make it give cores on states not on tags
 * russia can only accept cultures once (via the decision)
+* banats gamer gov types called Bazinga
+* more chinese treaty ports
 
 
 BUGS:
@@ -19,6 +21,7 @@ BUGS:
 * potential issues with CBs via events or decisions
 * coptic empire wont get effects of religious conversion national flag
 * unciv mil reforms dont show reform cost
+* unciv army reform gave breech loaded rifles - swap tech given around
 
 
 Maybe:
