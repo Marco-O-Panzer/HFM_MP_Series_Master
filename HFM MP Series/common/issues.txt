@@ -895,11 +895,7 @@ social_reforms = {
 			global_immigrant_attract = 0.9
 			allow = { 
 				ai = no
-				OR = {
-					ruling_party_ideology = socialist
-					ruling_party_ideology = communist
-					ruling_party_ideology = fascist
-				}
+				NOT = { has_country_flag = upper_house_no_ubi }
 			}
 		}
 		good_subsidies = {
@@ -908,11 +904,7 @@ social_reforms = {
 			global_immigrant_attract = 1.5
 			allow = { 
 				ai = no
-				OR = {
-					ruling_party_ideology = socialist
-					ruling_party_ideology = communist
-					ruling_party_ideology = fascist
-				}
+				NOT = { has_country_flag = upper_house_no_ubi }
 			}
 		}
 	}

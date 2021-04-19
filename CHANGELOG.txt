@@ -29,6 +29,7 @@ Flavour Changes
 
 Politics & NFs
 * Now requires fascist government type for increased births NF
+* UBI is now prevented for AIs, and will be removed if the player takes it without a socialist or communist government type
 
 Population
 * Emigration reduction from low militancy reduced (-0.1 below 2, -0.1 below 1, cumulative) 
@@ -47,6 +48,7 @@ GFX, UI & Localisation Changes
 Bug Fixes
 * Fixed history for swedish province in the Caribbean
 * Imperial & Shogunate Japan start with the same unvic reforms, and now have the starting tech from them
+* FIXED THE LONG RUNNING UBI BUG THAT CAUSED LATE GAME CRASHES
 
 Version 4
 ---------

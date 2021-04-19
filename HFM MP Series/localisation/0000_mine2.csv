@@ -139,3 +139,7 @@ advanced_roads_2_desc;-;x
 advanced_roads_3;Interwar Roads II;x
 advanced_roads_3_desc;-;x
 leave_soi_title;§ELeave Sphere of Influence§!;Quitter la sphère d’influence;Einflusssphäre verlassen;;Abandonar esfera de influencia;;;;;;;;;x
+EVTNAME77779071;A More Marxist Approach;x
+EVTDESC77779071;With the arrival of a new marxist government, UBI is back on the table for the upperhouse to consider.;x
+EVT77779071A;We will share the fruits of our labour amoungst us all;x
+upper_house_no_ubi;UBI Vetoed;x
