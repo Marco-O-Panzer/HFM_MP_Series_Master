@@ -143,3 +143,21 @@ EVTNAME77779071;A More Marxist Approach;x
 EVTDESC77779071;With the arrival of a new marxist government, UBI is back on the table for the upperhouse to consider.;x
 EVT77779071A;We will share the fruits of our labour amoungst us all;x
 upper_house_no_ubi;UBI Vetoed;x
+EVTNAME7777914;Capital Supply Depot;x
+EVTDESC7777914;We have built large surplus barracks and supply storage for our incoming mobilised armies to be organised and sent to the front.;x
+EVT7777914OPTA;Good planning Generals;x
+capital_mobilisation;Capital Supply Depot;x
+westernize_nation_desc;Our country is under intellectual assault by modernity and the Western World. In the fields of modern technology, industry and military theory, the old traditions and institutions no longer serve us as they used to. Everywhere we turn, western influences spread like wildfire through our nation, our population, and our souls. If we are to remain what we always have been, and not become something else entirely, now is the time to assume control of our own destiny. It has become apparent to the leading members of our intellectual elite, that the only way to turn the tide on the Western Leviathan is to swim with it, for, as Sun Tzu says: The reed that bends before the wind, also offers a form of resistance. §YReload the save (after techs have been returned via events post westernisaion) to reactivate inventions§!;x
+reclaim_greece_title;Reclaim Greece;x
+reclaim_greece_desc;Greece became independent from our Sultan in 1821, and never have we been able to re-establish control and undo the final borders imposed on us by the 1832 Conference of London. Now we shall.;x
+retake_algeria_title;Retake Algeria;x
+retake_algeria_desc;The Regency of Algiers was a state in North Africa lasting from 1516 to 1830, when it was conquered by the French. It had been semi-autonomous from 1710 due to the coup of Baba Ali Chaouche. We will now reassert our longstanding claims to Algeria.;x
+integrate_algeria_title;Integrate Algeria;x
+integrate_algeria_desc;After our victories over the European powers we can now formally annex Algeria under the Porte's control, although some local forces may resist once more.;x
+integrate_tatar_crimea_title;Establish Crimea;x
+integrate_tatar_crimea_desc;With our control over Crimea secured once more, let us embrace our fellow islamic bretheren of the peninsula.;x
+EVTDESC90900;We are now sufficently advanced for the European barbarians to regard us as "Civilised", and so they must respect our right to centralise and reject foreign influence throughout China. §YReload the save (after techs have been returned via events post westernisaion) to reactivate inventions§!;x
+annex_black_flag_title;Annex Heiqi Jun;x
+annex_black_flag_desc;In light of the French annexation of Indochina, and our historic links with Vietam and the people of the region, we have deemed it appropriate to formally integrate Heiqi Jun into the Empire. This will protect them, and ensure our southern border.;x
+perma_disable_the_crises_title;§PPermanently Disable Crises§!;x
+perma_disable_the_crises_desc;Prevent any crises from occuring this campaign.;x

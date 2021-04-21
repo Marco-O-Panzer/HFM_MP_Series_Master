@@ -37,6 +37,7 @@ country_event = {
 		remove_accepted_culture = arpitan
 		remove_accepted_culture = cajun
 		remove_accepted_culture = french_canadian
+		remove_accepted_culture = neo_zelandais
 		clr_country_flag = ready_for_hugo
 		ai_chance = { factor = 0 }
 	}

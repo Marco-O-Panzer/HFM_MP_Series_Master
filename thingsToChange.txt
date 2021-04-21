@@ -1,32 +1,19 @@
 Changes that are waiting to be implemented:
 * 1000 european farmer pops in each province (CARRY ON FROM FRANCE)
 * Use new TRK (Republic of Turkey) tag for if the ottos get dismantled 
-* if you get rev and counterrev you can accept egyptian - coptic empire
 * RB no homeland uk flavour (pinned in modding)
 * add in flavour for parties of new tags
-* massive supply limit boost in the capital for mobilisation to pool at
-* release or annex north vietnam vassal of qing / china
-* late game inventions for rgo output
-* option to perma disable crises - revolution_n_counterrevolution_researched flag needs to never be active
-* If shogounate beats imperials, can become a republic
 * build all railroads decision - also take into account terrain
 * eu cores on switzerland should give one on Lich as well, monacoa, andorra, san marrino, ionian islands - also make it give cores on states not on tags
-* russia can only accept cultures once (via the decision)
-* banats gamer gov types called Bazinga
-* more chinese treaty ports
-* increase european cultural unity to +25% from 21%
 
 
 BUGS:
 * AI is stupid
 * potential issues with CBs via events or decisions
 * coptic empire wont get effects of religious conversion national flag
-* unciv mil reforms dont show reform cost
-* unciv army reform gave breech loaded rifles - swap tech given around
 
 
 Maybe:
-* Change to UME map
 * Add in PDM service economy, potentially more economy changes
 * New title font for tabs like Budget
 * Modifier to remove soldier pop militancy (prevent continuous 1 brigade rebellions)

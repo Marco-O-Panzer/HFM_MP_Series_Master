@@ -23,9 +23,25 @@ Flavour Changes
 * China
 -- Cant accept vietnemese in mp setup
 -- Self strenghtening movement rp nerfed to 2 rp, and lower % multiplier (40 to 25)
+-- Can annex Heiqi Jun for 3 infamy (if a puppet)
 * UFB
 -- Pop growth from its unique decisions increased slightly (compensate for no CBs)
+-- Gets the same baby boom that the UK gets in the british isles
 -- Starts with acceptable healthcare
+* EAF
+-- Coptic option to tolerate in Egypt gives Misri as accepted
+* Russia
+-- Can only accept its cultures once
+* USE
+-- Cultural unity assimilation affect increased from +21% to +25%
+* Ottos
+-- Istanbul starts as precious goods, and Sidon (in Palestine) with coal
+-- Relaxed conditions to remove independence from puppets (dont need a specific gov type, and now pro mil or jingo)
+-- Can claim and integrate algeria, and get Maghrebi accepted
+-- Can accept Tatar if control Crimea
+
+CBs
+* Restrictions on who can take what port in China removed (except for the Taipei port)
 
 Politics & NFs
 * Now requires fascist government type for increased births NF
@@ -42,6 +58,13 @@ Buildings
 * 4 more levels of railroad
 * 2 more navalbase levels
 
+New General Decisions
+* Can disable crises permanently in the starting setup options
+
+Balance
+* Focus at home now reduces tech cost by 5%
+* Military hopitals effect from Total War Philosophy moved to Modern Chemistry
+
 GFX, UI & Localisation Changes
 * USA and Brazil absolute monarchies renamed
 
@@ -49,6 +72,8 @@ Bug Fixes
 * Fixed history for swedish province in the Caribbean
 * Imperial & Shogunate Japan start with the same unvic reforms, and now have the starting tech from them
 * FIXED THE LONG RUNNING UBI BUG THAT CAUSED LATE GAME CRASHES
+* USE wont keep neo-zelandais as accepted
+* gtfo decisions updated, as couldnt release some tags
 
 Version 4
 ---------

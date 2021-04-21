@@ -483,10 +483,6 @@ political_decisions = {
 		potential = {
 			tag = TUR
 			NOT = { has_country_flag = tunisia_annexed }
-			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-			}
 			TUN = { 
 				exists = yes
 				vassal_of = THIS
@@ -497,10 +493,6 @@ political_decisions = {
 		allow = {
 			is_greater_power = yes
 			nationalism_n_imperialism = 1
-			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-			}
 			OR = {
 				owns = 1745
 				AND = {
@@ -535,10 +527,6 @@ political_decisions = {
 		picture = map_wallachia
 		potential = {
 			tag = TUR
-			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-			}
 			NOT = { exists = ROM }
 			NOT = { has_country_flag = wallachia_annexed }
 			WAL = { 
@@ -548,16 +536,15 @@ political_decisions = {
 		}
 		
 		allow = {
-			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-			}
 			war = no
 			has_recently_lost_war = no
 			#invention = manifest_destiny
 			is_greater_power = yes
 			nationalism_n_imperialism = 1
-			war_policy = jingoism
+			OR = {
+				war_policy = jingoism
+				war_policy = pro_military
+			}
 			WAL = { 
 				in_sphere = THIS
 				vassal_of = THIS
@@ -591,10 +578,6 @@ political_decisions = {
 		picture = map_moldavia
 		potential = {
 			tag = TUR
-			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-			}
 			NOT = { exists = ROM }
 			NOT = { has_country_flag = moldavia_annexed }
 			MOL = { 
@@ -604,16 +587,15 @@ political_decisions = {
 		}
 		
 		allow = {
-			OR = {
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-			}
 			war = no
 			has_recently_lost_war = no
 			#invention = manifest_destiny
 			is_greater_power = yes
 			nationalism_n_imperialism = 1
-			war_policy = jingoism
+			OR = {
+				war_policy = jingoism
+				war_policy = pro_military
+			}
 			MOL = {
 				in_sphere = THIS
 				vassal_of = THIS
@@ -640,6 +622,117 @@ political_decisions = {
 				factor = 0
 				badboy = 0.5
 			}
+		}
+	}
+	
+	reclaim_greece = {
+		picture = greek_map
+		potential = {
+			tag = TUR
+			NOT = { 834 = { is_core = TUR } }
+		}
+		
+		allow = {
+			war = no
+			has_recently_lost_war = no
+			is_greater_power = yes
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			GRE = { all_core = { add_core = TUR }}
+			badboy = 18
+		}
+	}
+	
+	retake_algeria = {
+		picture = algeria_map
+		potential = {
+			tag = TUR
+			NOT = { has_country_flag = claimed_algeria }
+		}
+		
+		allow = {
+			is_greater_power = yes
+			nationalism_n_imperialism = 1
+			owns = 1725
+			war = no
+		}
+		
+		effect = {
+			badboy = 8
+			set_country_flag = claimed_algeria
+			any_country = {
+				limit = {
+					any_owned_province = { is_core = ALD }
+				}
+				add_casus_belli = {
+					target = THIS
+					type = liberate_puppet
+					months = 60
+				}
+			}
+			ALD = {
+				add_casus_belli = {
+					target = THIS
+					type = conquest_any
+					months = 60
+				}
+			}
+		}
+		
+		ai_will_do = { 
+			factor = 0
+		}
+	}
+	
+	integrate_algeria = {
+		picture = algeria_map
+		potential = {
+			tag = TUR
+			NOT = { has_country_flag = algeria_annexed }
+			ALD = { 
+				exists = yes
+				vassal_of = THIS
+				neighbour = THIS
+			}
+		}
+		
+		allow = {
+			is_greater_power = yes
+			nationalism_n_imperialism = 1
+			owns = 1725
+			war = no
+		}
+		
+		effect = {
+			badboy = 2
+			set_country_flag = algeria_annexed
+			ALD = { tech_school = unciv_tech_school country_event = 986500 }
+			add_accepted_culture = maghrebi 
+		}
+		
+		ai_will_do = { 
+		factor = 100
+			modifier = {
+					factor = 0
+					badboy = 0.9
+				}
+			}
+	}
+	
+	integrate_tatar_crimea = {
+		picture = crimea_map
+		potential = {
+			tag = TUR
+			NOT = { accepted_culture = tatar }
+		}
+		allow = {
+			NOT = { citizenship_policy = residency }
+			owns = 964
+		}
+		effect = {
+			add_accepted_culture = tatar
 		}
 	}
 		

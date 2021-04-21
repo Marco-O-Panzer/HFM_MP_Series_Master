@@ -213,11 +213,6 @@ political_decisions = {
 	qingdao_treaty_port = {
 		picture = qingdao_china
 		potential = {
-			OR = { 
-				tag = NGF
-				tag = GER
-				tag = GCF
-			}
 			has_country_modifier = negotiating_treaty
 			1566 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
 			NOT = { has_country_modifier = chinese_treaty_port }
@@ -327,7 +322,6 @@ political_decisions = {
 			has_country_modifier = negotiating_treaty
 			1569 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
 			NOT = { has_country_modifier = chinese_treaty_port }
-			tag = ENG
 		}
 		
 		allow = {
@@ -549,9 +543,6 @@ political_decisions = {
 	kwangchowan_treaty_port = {
 		picture = kwangchowan_china
 		potential = {
-			primary_culture = french
-			is_greater_power = yes
-			capital = 425
 			has_country_modifier = negotiating_treaty
 			2632 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
 			NOT = { has_country_modifier = chinese_treaty_port }
@@ -660,7 +651,6 @@ political_decisions = {
 	tianjin_treaty_port = {
 		picture = tianjin_china
 		potential = {
-			year = 1895
 			has_country_modifier = negotiating_treaty
 			3249 = { owner = { has_country_modifier = negotiating_unequal_treaty civilized = no truce_with = THIS } }
 			NOT = { has_country_modifier = chinese_treaty_port }

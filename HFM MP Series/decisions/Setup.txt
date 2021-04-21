@@ -56,6 +56,24 @@ political_decisions = {
 		}
 	}
 	
+	perma_disable_the_crises = {
+		picture = starting_options 
+		alert = no
+		potential = {
+			ai = no
+			has_country_flag = country_looking_through_options
+			NOT = { year = 1837 }
+			NOT = { has_global_flag = perma_disable_crises }
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			set_global_flag = perma_disable_crises
+		}
+	}
+	
 	option_disable_hpm_crisis = {
 		picture = starting_options 
 		alert = no
@@ -64,6 +82,7 @@ political_decisions = {
 			has_country_flag = country_looking_through_options
 			NOT = { year = 1837 }
 			NOT = { has_global_flag = revolution_n_counter_researched }
+			NOT = { has_global_flag = perma_disable_crises }
 		}
 		
 		allow = {

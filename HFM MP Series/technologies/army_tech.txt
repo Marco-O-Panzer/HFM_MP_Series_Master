@@ -4157,7 +4157,6 @@ total_war_philosophy = {
 	army_base = {
 		supply_consumption = 0.20
 	}
-	soldier_to_pop_loss = 0.05
 	ai_chance = {
 		factor = 1.1
 		modifier = {

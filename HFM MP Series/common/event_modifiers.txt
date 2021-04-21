@@ -41,6 +41,11 @@ home_focus = {
 	influence_modifier = -2
 	prestige = -2
 	research_points_modifier = 0.2
+	navy_tech_research_bonus = 0.05
+	army_tech_research_bonus = 0.05
+	commerce_tech_research_bonus = 0.05
+	industry_tech_research_bonus = 0.05
+	culture_tech_research_bonus = 0.05
 	rgo_throughput = 0.1
 	factory_throughput = 0.05
 	tax_efficiency = 0.05
@@ -191,6 +196,11 @@ niger_research = {
 	global_pop_militancy_modifier = 0.1
 	global_pop_consciousness_modifier = 0.1
 	icon = 3
+}
+
+capital_mobilisation = {
+	supply_limit = 1000
+	icon = 17
 }
 
 ##################################################################################################
