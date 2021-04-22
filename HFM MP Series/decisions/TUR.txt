@@ -170,7 +170,7 @@ political_decisions = {
 	
 	republican_reforms = {
 		potential = {
-			tag = TUR
+			tag = TRK
 			government = democracy
 			NOT = { has_country_flag = had_ataturk_reforms }
 		}
@@ -191,6 +191,7 @@ political_decisions = {
 				name = republican_reforms
 				duration = 3650
 			}
+			nationalvalue = nv_equality
 		}
 	}
 	

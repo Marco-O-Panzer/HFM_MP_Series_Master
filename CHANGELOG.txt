@@ -40,6 +40,9 @@ Flavour Changes
 -- Relaxed conditions to remove independence from puppets (dont need a specific gov type, and now pro mil or jingo)
 -- Can claim and integrate algeria, and get Maghrebi accepted
 -- Can accept Tatar if control Crimea
+* Turkey
+-- New tag, will form when ottos are a republic with no key accepted cultures
+-- Only Kemal flava
 
 CBs
 * Restrictions on who can take what port in China removed (except for the Taipei port)
@@ -68,6 +71,7 @@ Buildings
 New General Decisions
 * Can disable crises permanently in the starting setup options
 * Can now release substates
+* Post colonials will instantly westernise
 
 Balance
 * Focus at home now reduces tech cost by 5%

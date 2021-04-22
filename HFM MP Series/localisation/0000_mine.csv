@@ -319,14 +319,14 @@ EVTNAME7777909;The Bear in Tibet;x
 EVTDESC7777909;Russia has snaked its way into the government of Tibet, we cannot allow this to stand! Force of arms will be considered.;x
 EVT7777909OPTA;To arms it is;x
 EVT7777909OPTB;We cannot act this time;x
-GC_DESC;The world is entering a new era: new politcs, new industry, new weapons of war, and new Unions. Notable Union tags: Germany, United States of America, United States of Europe, Union of South American Republics, Niger Federation, Chinese Federal Republic, Indian Union, Arab Union, and Coptic Empire/Efircan Federation.;
-MILITARY_PERSONALITY;-;
-MILITARY_BACKGROUND;-;
+GC_DESC;The world is entering a new era: new politcs, new industry, new weapons of war, and new Unions. Notable Union tags: Germany, United States of America, United States of Europe, Union of South American Republics, Niger Federation, Chinese Federal Republic, Indian Union, Arab Union, and Coptic Empire/Efircan Federation.;x
+MILITARY_PERSONALITY;-;x
+MILITARY_BACKGROUND;-;x
 UV_PERSONALITY;$VAL$;Personnalité : $VAL$;Persönlichkeit: $VAL$;;Personalidad: $VAL$;;;;;;;;;x;;;;
 UV_BACKGROUND;$VAL$;Caractéristique : $VAL$;Hintergrund: $VAL$;;Historial: $VAL$;;;;;;;;;x;;;;
 UV_PERSONALITY_LABEL;Defence;Personnalité;Persönlichkeit;;Personalidad;;;;;;;;;x;;;;
 UV_BACKGROUND_LABEL;Attack;Caractéristique;Hintergrund;;Marco histórico;;;;;;;;;x;;;;
-EVTNAME7777910;Campaign Setup;
-EVTDESC7777910;Choosing multiplayer will allow the multiplayer only decisions and events;
-EVTOPTA7777910;Singleplayer;
-EVTOPTB7777910;Multiplayer;
+EVTNAME7777910;Campaign Setup;x
+EVTDESC7777910;Choosing multiplayer will allow the multiplayer only decisions and events;x
+EVTOPTA7777910;Singleplayer;x
+EVTOPTB7777910;Multiplayer;x
