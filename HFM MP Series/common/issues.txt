@@ -665,7 +665,7 @@ political_reforms = {
 				ruling_party_ideology = reactionary
 				upper_house_composition = party_appointed
 			}
-			research_points = 1.5
+			research_points = 2
 			factory_output = -0.1
 			tax_efficiency = -0.05
 		}

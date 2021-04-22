@@ -1,3 +1,6 @@
+# Special countries...
+REB 	= 	"countries/rebels.txt"
+
 #Townes' New Tags:
 GBR		= "countries/Great Britain.txt"
 EUR		= "countries/Europe.txt"
@@ -9,9 +12,6 @@ CEU		= "countries/Celtic Union.txt"
 TRK		= "countries/Turkey.txt"
 
 #Please keep tags sorted alphabetically when you add/remove country tags
-
-# Special countries...
-REB 	= 	"countries/rebels.txt"
 
 ### NEW NATIONS MOD ###
 

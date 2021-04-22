@@ -1,4 +1,74 @@
+merchant_banking  = {
+	limit = { private_banks  = 1 }
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			literacy = 0.4
+		}
+		modifier = {
+			factor = 1
+			literacy = 0.5
+		}
+		modifier = {
+			factor = 1
+			literacy = 0.6
+		}
+		modifier = {
+			factor = 1
+			literacy = 0.7
+		}
+		modifier = {
+			factor = 1
+			literacy = 0.8
+		}
+		modifier = {
+			factor = -10 
+			civilized = no
+		}
+	}
+	effect = {
+		activate_building = bank
+	}
+}
+
 #stock_exchange
+stock_exchanges  = {
+	limit = { stock_exchange =  1 }
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			literacy = 0.4
+		}
+		modifier = {
+			factor = 1
+			literacy = 0.5
+		}
+		modifier = {
+			factor = 1
+			literacy = 0.6
+		}
+		modifier = {
+			factor = 1
+			literacy = 0.7
+		}
+		modifier = {
+			factor = 1
+			literacy = 0.8
+		}
+		modifier = {
+			factor = -10 
+			civilized = no
+		}
+	}
+	effect = {
+		activate_building = stock_exchange
+	}
+}
+
 multitude_of_financial_instruments = {
 	limit = {
 		stock_exchange = 1
@@ -1676,6 +1746,39 @@ import_substitution_industrialization = {
 	}
 	effect = {
 		activate_building = synthetic_oil_factory
+	}
+}
+
+synthetic_rubber_production = {
+	limit = {
+		globalized_markets = 1
+	}
+	news = no
+	chance = {
+		base = 0
+		modifier = {
+			factor = 4
+			economic_policy = planned_economy
+		}
+		modifier = {
+			factor = 3
+			economic_policy = state_capitalism
+		}
+		modifier = {
+			factor = 2
+			economic_policy = interventionism
+		}
+		modifier = {
+			factor = 1
+			trade_policy = protectionism
+		}
+		modifier = {
+			factor = 5
+			invention = import_substitution_industrialization
+		}
+	}
+	effect = {
+		activate_building = synthetic_rubber_factory
 	}
 }
 

@@ -666,7 +666,7 @@ guiTypes = {
 	
 	positionType = {
 		name = "goods_entry_offset"
-		position = { x = 99 y = 33 }
+		position = { x = 85 y = 33 }
 	}
 	
 	windowType = {
@@ -682,12 +682,12 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "goods_type"
-			position = { x=1 y =4 }
+			position = { x=2 y =4 }
 			quadTextureSprite ="GFX_resources"
 		}		
 		
 		instantTextBoxType = {
-			position = { x = 37 y = 1 }
+			position = { x = 24 y = 1 }
 			name = "price"
 			font = "vic_18_black"
 			text = "99¤"	
@@ -699,19 +699,19 @@ guiTypes = {
 		iconType = {
 			name ="trend_indicator"
 			spriteType = "GFX_trade_status_arrow"
-			position = { x= 83 y = 1 }
+			position = { x= 68 y = 1 }
 		}
 		
 		iconType = {                       
 			name ="selling_indicator"
 			spriteType = "GFX_trade_sellbuy_indicator"
-			position = { x= 32 y = 14 }
+			position = { x= 31 y = 14 }
 		}
 		
 		iconType = {
 			name ="automation_indicator"
 			spriteType = "GFX_trade_ai_icon"
-			position = { x= 80 y = 16 }
+			position = { x= 65 y = 16 }
 		}
 	}
 	

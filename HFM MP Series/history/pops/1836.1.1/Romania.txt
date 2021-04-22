@@ -169,6 +169,11 @@
 		religion = catholic
 		size = 5425  
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Szatmare (444000/111000 POPS) #part of Romania today 
 651 = {
@@ -332,6 +337,11 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 4150     
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Banat-Bacska Region (1240000) #See Serbia.txt and Croatia.txt for balance of region 
@@ -535,6 +545,11 @@
 		religion = jewish
 		size = 2000     
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Orsova (376000/94000 POPS) #part of Romania today
 653 = {
@@ -650,6 +665,11 @@
 		culture = south_german
 		religion = catholic
 		size = 12900 
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Transylvania Region (2060000) 
@@ -841,6 +861,11 @@
 		religion = jewish
 		size = 1175     
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Gyulafehervar/Alba Iulia (316000/79000 POPS)  
 655 = {
@@ -999,6 +1024,11 @@
 		religion = jewish
 		size = 1175     
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Deva (252000/63000 POPS)  
 656 = {
@@ -1138,6 +1168,11 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 1175     
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Nagyszeben/Sibiu (276000/69000 POPS)  
@@ -1291,6 +1326,11 @@
 		religion = jewish
 		size = 1175     
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Brasso/Brasov (168000/42000 POPS)  
 659 = {
@@ -1437,6 +1477,11 @@
 		religion = jewish
 		size = 1175     
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Udvarhely (228000/57000 POPS)  
 660 = {
@@ -1576,6 +1621,11 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 1175     
+	}
+	farmers = {
+		culture = pan_european
+		religion = protestant
+		size = 1000
 	}
 }
 #Beszterce (300000/75000 POPS)  
@@ -1723,6 +1773,11 @@
 		religion = jewish
 		size = 10521    
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Targu Mures (344000/86000 POPS)  
 2533 = {
@@ -1869,6 +1924,11 @@
 		religion = jewish
 		size = 1175     
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Bukovina Region (204000) #See Ukraine.txt for balance of region 
 #under the rule of Austria in 1836 
@@ -1999,6 +2059,11 @@
 		religion = jewish
 		size = 1125     
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Wallachia Region (1228000)   
 #under the rule of Wallachia in 1836 
@@ -2057,6 +2122,11 @@
 		religion = jewish
 		size = 3300
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Tirgu Jiu (172000/43000 POPS)  
 665 = {
@@ -2100,6 +2170,11 @@
 		culture = gypsy
 		religion = orthodox
 		size = 4000
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Craiova (196000/49000 POPS)  
@@ -2157,6 +2232,11 @@
 		religion = orthodox
 		size = 2500
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Tirgoviste (188000/47000 POPS)  
 667 = {
@@ -2200,6 +2280,11 @@
 		culture = gypsy
 		religion = orthodox
 		size = 7000
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Braila (272000/68000 POPS)  
@@ -2263,6 +2348,11 @@
 		religion = orthodox
 		size = 6000
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Calarasi (140000/35000 POPS)  
 669 = {
@@ -2306,6 +2396,11 @@
 		culture = gypsy
 		religion = orthodox
 		size = 3000
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Moldavia Region (1356000)   
@@ -2383,6 +2478,11 @@
 		religion = orthodox
 		size = 14750
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Botosani (176000/44000 POPS)  
 671 = {
@@ -2420,6 +2520,11 @@
 		culture = gypsy
 		religion = orthodox
 		size = 4000
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Bacau (440000/110000 POPS)  
@@ -2471,6 +2576,11 @@
 		religion = orthodox
 		size = 10000
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Galati (272000/68000 POPS)  
 673 = {
@@ -2520,6 +2630,11 @@
 		culture = gypsy
 		religion = orthodox
 		size = 6000
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Dobruja Region (168000) #see Bulgaria.txt for balance of Region  
@@ -2693,6 +2808,11 @@
 		culture = romanian
 		religion = orthodox
 		size = 2000
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Tulcea (40000/10000 POPS)  

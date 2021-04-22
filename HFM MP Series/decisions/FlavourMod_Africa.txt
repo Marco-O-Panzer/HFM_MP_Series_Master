@@ -2010,7 +2010,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_global_flag = ai_portugal_east_africa
+			set_country_flag = ai_portugal_east_africa
 			badboy = -5
 			any_country = {
 				limit = {

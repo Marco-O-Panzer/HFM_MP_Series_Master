@@ -34,6 +34,7 @@ Flavour Changes
 -- Can only accept its cultures once
 * USE
 -- Cultural unity assimilation affect increased from +21% to +25%
+-- European feeder pops of the local religion in (almost) all European provinces
 * Ottos
 -- Istanbul starts as precious goods, and Sidon (in Palestine) with coal
 -- Relaxed conditions to remove independence from puppets (dont need a specific gov type, and now pro mil or jingo)
@@ -49,6 +50,12 @@ Politics & NFs
 
 Population
 * Emigration reduction from low militancy reduced (-0.1 below 2, -0.1 below 1, cumulative) 
+* South Asian emigration debuff matches East Asian now
+
+Economy
+* New Synthetic Rubber factory for late game
+* Financial services added (maintains factories, built by Banks - clerk only factory)
+* Shares added (built from financial services, supports richer pops everyday and luxury needs, built by stock exchanges - clerk only factory)
 
 Tech
 * Ivention for lvl 8 naval base
@@ -60,13 +67,17 @@ Buildings
 
 New General Decisions
 * Can disable crises permanently in the starting setup options
+* Can now release substates
 
 Balance
 * Focus at home now reduces tech cost by 5%
 * Military hopitals effect from Total War Philosophy moved to Modern Chemistry
+* Prioritized R&D increased to +2, to justify late game investment more
+* War subs % increase from 30 to 50
 
 GFX, UI & Localisation Changes
 * USA and Brazil absolute monarchies renamed
+* Trade tab reworked to mirror the production tab layout
 
 Bug Fixes
 * Fixed history for swedish province in the Caribbean
@@ -74,6 +85,7 @@ Bug Fixes
 * FIXED THE LONG RUNNING UBI BUG THAT CAUSED LATE GAME CRASHES
 * USE wont keep neo-zelandais as accepted
 * gtfo decisions updated, as couldnt release some tags
+* Removed hardcoded status of british dominions always reverting to UK puppet status, even if released by another nation
 
 Version 4
 ---------

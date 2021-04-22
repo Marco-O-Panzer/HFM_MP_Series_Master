@@ -73,6 +73,7 @@ luxury_needs = {
 	steamer_convoy = 0.5
 	radio = 1
 	fuel = 0.2
+	shares = 0.2
 }
 
 country_migration_target = {

@@ -157,6 +157,11 @@
 		religion = protestant
 		size = 100
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Kaunas (204000/51000 POPS)
 361 = {
@@ -267,6 +272,11 @@
 		religion = protestant
 		size = 100
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Marjampole (240000/60000 POPS)
 362 = {
@@ -370,6 +380,11 @@
 		culture = volga_german
 		religion = protestant
 		size = 3675
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Panevezys (204000/51000 POPS)
@@ -475,6 +490,11 @@
 		religion = orthodox
 		size = 1825
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Siauliai (200000/50000 POPS)
 364 = {
@@ -554,6 +574,11 @@
 		culture = volga_german
 		religion = protestant
 		size = 100
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Palanga (84000/21000 POPS)
@@ -635,6 +660,11 @@
 		religion = protestant
 		size = 850
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 
 }
 #East Prussia Region (172000) #see Poland.txt and Lithuania.txt for balance of region
@@ -709,6 +739,11 @@
 	
 	farmers = {
 		culture = lithuanian
+		religion = protestant
+		size = 1000
+	}
+	farmers = {
+		culture = pan_european
 		religion = protestant
 		size = 1000
 	}

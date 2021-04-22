@@ -67,6 +67,11 @@
 		religion = jewish
 		size = 495
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Vyazma (416000/104000 POPS)
 1014 = {
@@ -220,6 +225,11 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 990
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Bryansk (656000/164000 POPS)
@@ -1002,6 +1012,11 @@
 		culture = ugrian
 		religion = orthodox
 		size = 3325
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Pestamo (2700/675 POPS)
@@ -2486,6 +2501,11 @@
 		religion = jewish
 		size = 490
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Tikhvin (156000/44000 POPS)
 1004 = {
@@ -2677,6 +2697,11 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 640
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Velikiye Luki (320000/80000 POPS)
@@ -4011,6 +4036,11 @@
 		culture = tatar
 		religion = orthodox
 		size = 4550
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Samara (208000/52000 POPS)
@@ -5639,6 +5669,11 @@
 		culture = tatar
 		religion = sunni
 		size = 2750
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Chelyabinsk (180000/45000 POPS)

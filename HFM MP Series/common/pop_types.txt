@@ -1299,6 +1299,13 @@ emigration_chance = {
 	}
 	
 	modifier = {
+		factor = -2.0
+		THIS = { is_culture_group = south_asian  }
+		country = { is_culture_group = south_asian civilized = yes }
+		country = { NOT = { has_country_flag = preparations_to_kill } }
+	}
+	
+	modifier = {
 		factor = -0.15
 		THIS = { NOT = { is_culture_group = polish_culture_group } }
 		country = { debt_law = serfdom }

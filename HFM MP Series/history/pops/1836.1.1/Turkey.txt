@@ -138,6 +138,11 @@
 		religion = jewish
 		size = 1000
 	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
+	}
 }
 #Kirklareli (112000/28000 POPS)
 858 = {
@@ -223,6 +228,11 @@
 		culture = sephardic
 		religion = jewish
 		size = 250
+	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
 	}
 }
 #Gelibolu (80000/20000 POPS)
@@ -321,6 +331,11 @@
 		culture = sephardic
 		religion = jewish
 		size = 250
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Istanbul Region (1268000)
@@ -551,6 +566,11 @@
 		religion = animist
 		size = 3500
 	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
+	}
 }
 #Uskudar (188000/47000 POPS)
 861 = {
@@ -630,6 +650,11 @@
 		culture = armenian
 		religion = orthodox
 		size = 3450
+	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
 	}
 }
 #Izmit (316000/79000 POPS)
@@ -716,6 +741,11 @@
 		culture = forest_bantu #african_minor
 		religion = animist
 		size = 500
+	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
 	}
 }
 #Hudavendigar Region (736000)
@@ -847,6 +877,11 @@
 		religion = orthodox
 		size = 1000
 	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
+	}
 }
 #Balikesir (204000/51000 POPS)
 864 = {
@@ -903,6 +938,11 @@
 		religion = orthodox
 		size = 8475
 	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
+	}
 }
 #Chanakkale (132000/33000 POPS)
 865 = {
@@ -958,6 +998,11 @@
 		culture = greek
 		religion = orthodox
 		size = 2800
+	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
 	}
 }
 #Karahisar Region (336000)
@@ -1041,6 +1086,11 @@
 		religion = orthodox
 		size = 1100
 	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
+	}
 }
 #Kutahya (112000/28000 POPS)
 867 = {
@@ -1096,6 +1146,11 @@
 		culture = greek
 		religion = orthodox
 		size = 730
+	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
 	}
 }
 #Eskisehir (140000/35000 POPS)
@@ -1188,6 +1243,11 @@
 		culture = armenian
 		religion = orthodox
 		size = 1100
+	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
 	}
 }
 #Aydin Region (988000)
@@ -1331,6 +1391,11 @@
 		religion = jewish
 		size = 3000
 	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
+	}
 }
 #Manisa (244000/61000 POPS)
 870 = {
@@ -1386,6 +1451,11 @@
 		culture = greek
 		religion = orthodox
 		size = 2450
+	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
 	}
 }
 #Denizli (308000/77000 POPS)
@@ -1443,6 +1513,11 @@
 		religion = orthodox
 		size = 3725
 	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
+	}
 }
 #Mugla (96000/24000 POPS)
 872 = {
@@ -1498,6 +1573,11 @@
 		culture = greek
 		religion = orthodox
 		size = 1875
+	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
 	}
 }
 #Karaman Region (820000)
@@ -1623,6 +1703,11 @@
 		religion = animist
 		size = 2000
 	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
+	}
 }
 #Burdur (200000/50000 POPS)
 874 = {
@@ -1703,6 +1788,11 @@
 		religion = orthodox
 		size = 930
 	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
+	}
 }
 #Antalya (204000/51000 POPS)
 875 = {
@@ -1758,6 +1848,11 @@
 		culture = greek
 		religion = orthodox
 		size = 2800
+	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
 	}
 }
 #Central Anatolia Region (692000)
@@ -1877,6 +1972,11 @@
 		religion = orthodox
 		size = 4700
 	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
+	}
 }
 #Amasya (132000/33000 POPS)
 877 = {
@@ -1956,6 +2056,11 @@
 		culture = armenian
 		religion = orthodox
 		size = 1875
+	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
 	}
 }
 #Kayseri (96000/24000 POPS)
@@ -2043,6 +2148,11 @@
 		religion = orthodox
 		size = 1000
 	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
+	}
 }
 #Sivas (224000/56000 POPS)
 879 = {
@@ -2122,6 +2232,11 @@
 		culture = armenian
 		religion = orthodox
 		size = 8475
+	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
 	}
 }
 #Kastamonu Region (392000)
@@ -2205,6 +2320,11 @@
 		religion = orthodox
 		size = 925
 	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
+	}
 }
 #Bolu (96000/24000 POPS)
 881 = {
@@ -2260,6 +2380,11 @@
 		culture = greek
 		religion = orthodox
 		size = 925
+	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
 	}
 }
 #Trebizonde Region (540000)
@@ -2385,6 +2510,11 @@
 		religion = orthodox
 		size = 4700
 	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
+	}
 }
 #Sinop (192000/48000 POPS)
 883 = {
@@ -2446,6 +2576,11 @@
 		culture = greek
 		religion = orthodox
 		size = 4700
+	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
 	}
 }
 #Giresun (140000/35000 POPS)
@@ -2526,6 +2661,11 @@
 		culture = armenian
 		religion = orthodox
 		size = 1875
+	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
 	}
 }
 #Kars Region (856000) #see Georgia.txt for balance of region 
@@ -2687,6 +2827,11 @@
 		religion = sunni
 		size = 19950
 	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
+	}
 }
 #Ardahan (448000/112000 POPS)
 886 = {
@@ -2809,6 +2954,11 @@
 		religion = orthodox
 		size = 1500
 	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
+	}
 }
 #Eastern Anatolia Region (676000)
 #under the rule of Ottoman Empire in 1836
@@ -2921,6 +3071,11 @@
 		religion = sunni
 		size = 17350
 	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
+	}
 }
 #Erzincan (312000/78000 POPS)
 888 = {
@@ -3006,6 +3161,11 @@
 		culture = kurdish
 		religion = sunni
 		size = 16450
+	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
 	}
 }
 #Malatya (196000/49000 POPS) #mashriqi catholic = Assyrians  
@@ -3116,6 +3276,11 @@
 		culture = kurdish
 		religion = sunni
 		size = 20875
+	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
 	}
 }
 #Kurdistan Region (720000)
@@ -3283,6 +3448,11 @@
 		religion = orthodox
 		size = 1000
 	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
+	}
 }
 #Bitlis (76000/19000 POPS)
 891 = {
@@ -3392,6 +3562,11 @@
 		culture = kurdish
 		religion = sunni
 		size = 5000
+	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
 	}
 }
 #Hakkari (92000/23000 POPS)
@@ -3508,6 +3683,11 @@
 		culture = kurdish
 		religion = sunni
 		size = 9025
+	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
 	}
 }
 #Diyarbakir (264000/66000 POPS)
@@ -3655,6 +3835,11 @@
 		religion = yazidi
 		size = 1375
 	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
+	}
 }
 
 #Jezira/Cizre (92000/23000 POPS)
@@ -3796,6 +3981,11 @@
 		religion = yazidi
 		size = 7025
 	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
+	}
 }
 #Cilicia Region (540000)
 #under the rule of Ottoman Empire in 1836
@@ -3902,6 +4092,11 @@
 		religion = orthodox
 		size = 8075
 	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
+	}
 }
 #Mersin (96000/24000 POPS)
 895 = {
@@ -3976,6 +4171,11 @@
 		religion = orthodox
 		size = 1575
 	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
+	}
 }
 #Marash (192000/48000 POPS)
 896 = {
@@ -4037,6 +4237,11 @@
 		culture = armenian
 		religion = orthodox
 		size = 5650
+	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
 	}
 }
 #Halab Region (756000) #see Syria.txt for balance of region 
@@ -4131,6 +4336,11 @@
 		culture = armenian
 		religion = orthodox
 		size = 9425
+	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
 	}
 }
 #Urfa (348000/87000 POPS)
@@ -4254,6 +4464,11 @@
 		religion = orthodox
 		size = 1000
 	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
+	}
 }
 #Antioch (160000/40000 POPS)
 900 = {
@@ -4369,6 +4584,11 @@
 		culture = mashriqi
 		religion = shiite
 		size = 8500
+	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
 	}
 
 }

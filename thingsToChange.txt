@@ -1,10 +1,10 @@
 Changes that are waiting to be implemented:
-* 1000 european farmer pops in each province (CARRY ON FROM FRANCE)
 * Use new TRK (Republic of Turkey) tag for if the ottos get dismantled 
 * RB no homeland uk flavour (pinned in modding)
 * add in flavour for parties of new tags
 * build all railroads decision - also take into account terrain
 * eu cores on switzerland should give one on Lich as well, monacoa, andorra, san marrino, ionian islands - also make it give cores on states not on tags
+* combine precious rgos into one, and can add in 2 more base rgos
 
 
 BUGS:

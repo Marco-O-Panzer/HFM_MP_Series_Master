@@ -97,6 +97,7 @@ steamers = 1
 traditionalism = yes
 political_religion = yes
 paternalism = yes
+merchant_banking = yes
 
 
 # Starting Consciousness

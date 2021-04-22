@@ -5,11 +5,11 @@ EIC = {
 	influence_value = 100
 }
 
-CAN = {
-	value = 200
-	level = 5
-	influence_value = 100
-}
+#CAN = {
+#	value = 200
+#	level = 5
+#	influence_value = 100
+#}
 
 RPL = {
 	value = 200
@@ -17,23 +17,23 @@ RPL = {
 	influence_value = 100
 }
 
-AST = {
-	value = 200
-	level = 5
-	influence_value = 100
-}
+#AST = {
+#	value = 200
+#	level = 5
+#	influence_value = 100
+#}
 
-NZL = {
-	value = 200
-	level = 5
-	influence_value = 100
-}
+#NZL = {
+#	value = 200
+#	level = 5
+#	influence_value = 100
+#}
 
-SAF = {
-	value = 200
-	level = 5
-	influence_value = 100
-}
+#SAF = {
+#	value = 200
+#	level = 5
+#	influence_value = 100
+#}
 
 EGY = {
 	value = 125		#relation

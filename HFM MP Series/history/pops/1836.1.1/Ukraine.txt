@@ -471,6 +471,11 @@
 		religion = orthodox
 		size = 13975
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Galicia Region (2576000) #see Poland.txt for balance of region 
 #under the rule of Austria in 1836
@@ -595,6 +600,11 @@
 		religion = catholic
 		size = 1825
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Stryi (404000/101000 POPS) #now part of Ukraine  
 951 = {
@@ -698,6 +708,11 @@
 		culture = south_german
 		religion = catholic
 		size = 920
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Ternopil (1136000/284000 POPS) #now part of Ukraine  
@@ -816,6 +831,11 @@
 		religion = catholic
 		size = 920
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Stanislavov (376000/94000 POPS) #now part of Ukraine  
 953 = {
@@ -925,6 +945,11 @@
 		culture = south_german
 		religion = catholic
 		size = 920
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Volhynia-Podolia Region (1892000)
@@ -1050,6 +1075,11 @@
 		religion = orthodox
 		size = 50
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Proskorov (496000/124000 POPS)
 955 = {
@@ -1159,6 +1189,11 @@
 		culture = volga_german
 		religion = catholic
 		size = 4850
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Rovne (460000/115000 POPS)
@@ -1281,7 +1316,12 @@
 		culture = volga_german
 		religion = catholic
 		size = 950
-	}	
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Kovel (444000/111000 POPS)
 957 = {
@@ -1410,6 +1450,11 @@
 		religion = catholic
 		size = 1050
 	}	
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Ukraine Region (4028000)
 #under the rule of Russia in 1836
@@ -1564,6 +1609,11 @@
 		religion = orthodox
 		size = 250
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Korosten (448000/112000 POPS)
 959 = {
@@ -1656,6 +1706,11 @@
 		religion = jewish
 		size = 9975
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Zhitomir (460000/115000 POPS)
 960 = {
@@ -1741,6 +1796,11 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 10700
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Cherkassy (460000/115000 POPS)
@@ -1944,6 +2004,11 @@
 		religion = orthodox
 		size = 1250
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Poltava (1552000/388000 POPS)
 963 = {
@@ -2041,6 +2106,11 @@
 		culture = russian
 		religion = orthodox
 		size = 275
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Taurida Region (360000)
@@ -2866,6 +2936,11 @@
 		religion = catholic
 		size = 2175
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Pervomaisk (496000/124000 POPS)
 969 = {
@@ -2975,6 +3050,11 @@
 		culture = romanian
 		religion = orthodox
 		size = 4625
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Nikolaev (248000/62000 POPS)
@@ -3140,6 +3220,11 @@
 		religion = orthodox
 		size = 14375
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Krivoy Rog (244000/61000 POPS)
 971 = {
@@ -3225,6 +3310,11 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 5375
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Ekaterinoslav (252000/63000 POPS)
@@ -3383,6 +3473,11 @@
 		religion = jewish
 		size = 2150
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Zaporozhia Region (648000)
 #under the rule of Russia in 1836
@@ -3519,6 +3614,11 @@
 		religion = catholic
 		size = 550
 	}	
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Kramatorsk (240000/60000 POPS)
 974 = {
@@ -3580,6 +3680,11 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 1675
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Yuzovka (76000/19000 POPS)
@@ -3660,6 +3765,11 @@
 		culture = russian
 		religion = orthodox
 		size = 3750
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Mariopol (248000/62000 POPS)
@@ -3770,6 +3880,11 @@
 		culture = volga_german
 		religion = catholic
 		size = 875
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Kursk Region (596000) #see Russia.txt for balance of region
@@ -3895,6 +4010,11 @@
 		religion = orthodox
 		size = 7075
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Donbass Region (652000) #see Russia.txt for balance of region 
 #under the rule of Russia in 1836
@@ -3964,6 +4084,11 @@
 		culture = russian
 		religion = orthodox
 		size = 20000
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 
 }
