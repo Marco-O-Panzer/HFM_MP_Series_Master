@@ -83,7 +83,6 @@ hierarchical_order = yes
 traditionalism = yes
 political_religion = yes
 paternalism = yes
-merchant_banking = yes
 
 schools = industrial_tech_school
 

@@ -187,11 +187,6 @@
 		religion = catholic
 		size = 100525
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Ghent (704000/176000 POPS)
 389 = {
@@ -247,11 +242,6 @@
 		culture = wallonian
 		religion = catholic
 		size = 50
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Antwerp (354000/88500 POPS)
@@ -321,11 +311,6 @@
 		religion = catholic
 		size = 25
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Hasselt (272000/68000 POPS)
 391 = {
@@ -358,11 +343,7 @@
 		religion = catholic
 		size = 62175
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
+
 }
 #Wallonia Region (1432000)
 #Namur (388000/97000 POPS)
@@ -462,11 +443,6 @@
 		religion = protestant
 		size = 15925
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Tournai (292000/73000 POPS)
 393 = {
@@ -560,11 +536,6 @@
 		religion = catholic
 		size = 6000
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Charleroi (396000/99000 POPS)
 394 = {
@@ -627,11 +598,6 @@
 		religion = catholic
 		size = 64725
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Liege (212000/53000 POPS)
 395 = {
@@ -682,11 +648,6 @@
 		religion = protestant
 		size = 1250
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Spa - Eupen-Malmedy (144000/36000 POPS)
 396 = {
@@ -731,11 +692,7 @@
 		religion = catholic
 		size = 2175
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
+
 }
 #Luxembourg Region (172000)
 #Arlon (172000/43000 POPS)
@@ -799,9 +756,5 @@
 		religion = protestant
 		size = 8500
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
+
 }

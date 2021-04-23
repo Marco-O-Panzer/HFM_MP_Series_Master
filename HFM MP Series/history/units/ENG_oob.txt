@@ -5,11 +5,11 @@ EIC = {
 	influence_value = 100
 }
 
-#CAN = {
-#	value = 200
-#	level = 5
-#	influence_value = 100
-#}
+CAN = {
+	value = 200
+	level = 5
+	influence_value = 100
+}
 
 RPL = {
 	value = 200
@@ -17,23 +17,23 @@ RPL = {
 	influence_value = 100
 }
 
-#AST = {
-#	value = 200
-#	level = 5
-#	influence_value = 100
-#}
+AST = {
+	value = 200
+	level = 5
+	influence_value = 100
+}
 
-#NZL = {
-#	value = 200
-#	level = 5
-#	influence_value = 100
-#}
+NZL = {
+	value = 200
+	level = 5
+	influence_value = 100
+}
 
-#SAF = {
-#	value = 200
-#	level = 5
-#	influence_value = 100
-#}
+SAF = {
+	value = 200
+	level = 5
+	influence_value = 100
+}
 
 EGY = {
 	value = 125		#relation
@@ -425,47 +425,47 @@ leader = {
 }
 
 army = {
-	name = "1st Army"
+	name = "1st Corps"
 	location = 300
 	regiment = {
 		name= "4th (The Queen's Own) Light Dragoons"
-		type = infantry
+		type = hussar
 		home = 300
 	}
 
 	regiment = {
 		name= "The Royal Dragoons (1st Dragoons)"
-		type = infantry
+		type = dragoon
 		home = 294
 	}
 
 	regiment = {
 		name= "11th (Prince Albert's Own) Hussars"
-		type = infantry
+		type = cuirassier
 		home = 291
 	}
 
 	regiment = {
 		name= "The Grenadier Guards"
-		type = infantry
+		type = guard
 		home = 300
 	}
 
 	regiment = {
 		name= "The Coldstream Guards "
-		type = hussar
+		type = guard
 		home = 300
 	}
 	
 	regiment = {
 		name= "The Scots Fusiliers Guards"
-		type = artillery
+		type = guard
 		home = 271
 	}
 	
 	regiment = {
 		name= "The Black Watch Regiment"
-		type = artillery
+		type = guard
 		home = 268
 	}
 
@@ -490,7 +490,7 @@ army = {
 }
 
 army = {
-	name = "2nd Army"
+	name = "2nd Division"
 	location = 288
 	regiment = {
 		name= "1.2nd Division"
@@ -510,51 +510,10 @@ army = {
 		home = 256
 	}
 
-	regiment = {
-		name= "1.9th Division"
-		type = infantry
-		home = 259
-	}
-
-	regiment = {
-		name= "2.9th Division"
-		type = hussar
-		home = 280
-	}
-
-	regiment = {
-		name= "3.9th Division"
-		type = artillery
-		home = 289
-	}
-
-	regiment = {
-		name= "1.10th Division"
-		type = artillery
-		home = 300
-	}
-
-	regiment = {
-		name= "2.10th Division"
-		type = artillery
-		home = 282
-	}
-
-	regiment = {
-		name= "3.10th Division"
-		type = artillery
-		home = 265
-	}
-	
-	regiment = {
-		name= "3.8th Division"
-		type = artillery
-		home = 2217
-	}
 }
 
 army = {
-	name = "3rd Army"
+	name = "3rd Division"
 	location = 273
 	regiment = {
 		name= "1.3rd Division"
@@ -574,6 +533,11 @@ army = {
 		home = 270
 	}
 
+}
+
+army = {
+	name = "4th Division"
+	location = 263
 	regiment = {
 		name= "1.4th Division"
 		type = infantry
@@ -582,48 +546,48 @@ army = {
 
 	regiment = {
 		name= "2.4th Division"
-		type = hussar
+		type = infantry
 		home = 255
 	}
 
 	regiment = {
 		name= "3.4th Division"
-		type = artillery
+		type = infantry
 		home = 281
 	}
 
+}
+
+army = {
+	name = "5th Division"
+	location = 269
 	regiment = {
 		name= "1.5th Division"
-		type = artillery
+		type = infantry
 		home = 269
 	}
 
 	regiment = {
 		name= "2.5th Division"
-		type = artillery
+		type = infantry
 		home = 271
 	}
 
 	regiment = {
 		name= "3.5th Division"
-		type = artillery
+		type = infantry
 		home = 267
 	}
-	
-	regiment = {
-		name= "3.6th Division"
-		type = artillery
-		home = 300
-	}
+
 }
 
 army = {
-	name = "4th Army"
+	name = "The Canada Garrison"
 	location = 46
 	
 	regiment = {
 		name= "Prince of Wales's Lancers"
-		type = infantry
+		type = cuirassier
 		home = 276
 	}
 	
@@ -647,7 +611,7 @@ army = {
 	
 	regiment = {
 		name= "Prince of Wales's Own Regiment"
-		type = hussar
+		type = infantry
 		home = 286
 	}
 	
@@ -675,15 +639,10 @@ army = {
 		home = 303
 	}
 
-	regiment = {
-		name= "8th Regiment Royal Artillery"
-		type = artillery
-		home = 300
-	}
 }
 
 army = {
-	name = "5th Army"
+	name = "The South Africa Garrison"
 	location = 2096
 	
 	regiment = {
@@ -700,20 +659,75 @@ army = {
 
 	regiment = {
 		name= "10th Regiment Royal Artillery"
-		type = hussar
+		type = artillery
 		home = 285
 	}
-	
+		
+}
+
+army = {
+	name = "The Australia Garrison"
+	location = 2476
 	regiment = {
 		name= "1.8th Division"
-		type = artillery
+		type = infantry
 		home = 299
 	}
 
 	regiment = {
 		name= "2.8th Division"
-		type = artillery
+		type = infantry
 		home = 283
+	}
+
+	regiment = {
+		name= "3.8th Division"
+		type = infantry
+		home = 2217
+	}
+}
+
+army = {
+	name = "The Bombay Garrison"
+	location = 1297
+	regiment = {
+		name= "1.9th Division"
+		type = infantry
+		home = 259
+	}
+
+	regiment = {
+		name= "2.9th Division"
+		type = infantry
+		home = 280
+	}
+
+	regiment = {
+		name= "3.9th Division"
+		type = infantry
+		home = 289
+	}
+}
+
+army = {
+	name = "The Calcutta Garrison"
+	location = 1256
+	regiment = {
+		name= "1.10th Division"
+		type = infantry
+		home = 300
+	}
+
+	regiment = {
+		name= "2.10th Division"
+		type = infantry
+		home = 282
+	}
+
+	regiment = {
+		name= "3.10th Division"
+		type = infantry
+		home = 265
 	}
 }
 
@@ -927,12 +941,12 @@ navy = {
 
 	ship = {
 		name= "HMS Medea"
-		type = frigate
+		type = commerce_raider
 	}
 
 	ship = {
 		name= "HMS Phoenix"
-		type = frigate
+		type = commerce_raider
 	}
 
 }
@@ -1407,7 +1421,7 @@ navy = {
 
 	ship = {
 		name= "HMS Salamander"
-		type = frigate
+		type = commerce_raider
 	}
 
 }
@@ -1487,7 +1501,7 @@ navy = {
 
 	ship = {
 		name= "HMS Rhadamanthus"
-		type = frigate
+		type = commerce_raider
 	}
 
 }

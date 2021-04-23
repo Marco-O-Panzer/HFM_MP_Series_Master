@@ -90,10 +90,5 @@
 		religion = catholic
 		size = 20375
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 
 }

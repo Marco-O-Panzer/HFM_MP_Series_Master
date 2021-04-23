@@ -61,7 +61,7 @@ country_event = {
 		HAI = {
 			add_casus_belli = {
 				target = THIS
-				type = conquest_any
+				type = conquest
 				months = 60
 			}
 		}

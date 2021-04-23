@@ -24,11 +24,6 @@
 		religion = protestant
 		size = 1575
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 
 }
 #Jutland Region : 548000
@@ -81,11 +76,6 @@
 		religion = jewish
 		size = 226
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Alborg (152000/38000 POPS)
 #5k farmers moved to 2557
@@ -118,11 +108,6 @@
 		culture = danish
 		religion = protestant
 		size = 14500
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Ribe (148000/37000 POPS)
@@ -158,11 +143,6 @@
 		religion = protestant
 		size = 23400 
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 
 }
 
@@ -192,11 +172,6 @@
 		culture = danish
 		religion = protestant
 		size = 23550
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 	
@@ -275,11 +250,6 @@
 		religion = protestant
 		size = 38850
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Aabenra (100000/25000 POPS)
 371 = {
@@ -335,11 +305,6 @@
 		culture = north_german
 		religion = protestant
 		size = 6550
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 
 }
@@ -417,11 +382,6 @@
 		religion = protestant
 		size = 1100
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Odense (208000/52000 POPS)
 373 = {
@@ -454,11 +414,6 @@
 		religion = protestant
 		size = 46250
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Bornholm (16000/4000 POPS)
 374 = {
@@ -485,9 +440,5 @@
 		religion = protestant
 		size = 3500
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
+
 }

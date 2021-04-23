@@ -1236,48 +1236,6 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
-	annex_black_flag = {
-		picture = black_flag
-		potential = {
-			tag = QNG
-			1369 = {
-				owner = {
-					NOT = { 
-						tag = DAI 
-						truce_with = THIS
-					}
-				}
-			}
-			NOT = { exists = DAI }
-			HQJ = {
-				exists = yes
-				vassal_of = THIS
-				neighbour = THIS
-			}
-			has_global_flag = black_flag_army
-			has_country_flag = self_strengthening_movement
-			NOT = { has_country_flag = annexed_black_flag }
-		}
-		
-		allow = {
-			war = no
-			OR = {
-				war_policy = jingoism
-				war_policy = pro_military
-			}
-		}
-		
-		effect = {
-			HQJ = {
-				annex_to = THIS
-				all_core = { remove_core = HQJ }
-			}
-			badboy = 3
-			set_country_flag = annexed_black_flag
-		}
-	}
-			
-	
 	treaty_of_tientsin_france = {
 		picture = unequal_treaty
 		potential = {

@@ -19,7 +19,7 @@ bureaucrats_fix_cooldown = {
 }
 
 our_home = {
-	global_population_growth = 0.003
+	global_population_growth = 0.002
 	rgo_throughput = 1
 	cb_generation_speed_modifier = -2
 	diplomatic_points_modifier = -0.5
@@ -31,7 +31,6 @@ our_home = {
 come_all = {
 	global_immigrant_attract = 2.5
 	global_assimilation_rate = 4
-	global_population_growth = 0.001
 	icon = 9
 }
 
@@ -41,11 +40,6 @@ home_focus = {
 	influence_modifier = -2
 	prestige = -2
 	research_points_modifier = 0.2
-	navy_tech_research_bonus = 0.05
-	army_tech_research_bonus = 0.05
-	commerce_tech_research_bonus = 0.05
-	industry_tech_research_bonus = 0.05
-	culture_tech_research_bonus = 0.05
 	rgo_throughput = 0.1
 	factory_throughput = 0.05
 	tax_efficiency = 0.05
@@ -159,12 +153,6 @@ transfer_rp_debuff = {
 	icon = 12
 }
 
-angry_chinese_reform = {
-	research_points = 2
-	org_regain = 0.1
-	global_pop_consciousness_modifier = 0.1
-	global_pop_militancy_modifier = -0.1
-}
 ##############################
 
 european_culture = {
@@ -196,11 +184,6 @@ niger_research = {
 	global_pop_militancy_modifier = 0.1
 	global_pop_consciousness_modifier = 0.1
 	icon = 3
-}
-
-capital_mobilisation = {
-	supply_limit = 1000
-	icon = 17
 }
 
 ##################################################################################################
@@ -945,9 +928,9 @@ swiss_banking = {
 }
 
 freedom_of_religion = {
-	global_pop_militancy_modifier = -0.02
+	global_pop_militancy_modifier = -0.01
 	global_pop_consciousness_modifier = 0.01
-	global_immigrant_attract = 0.75
+	global_immigrant_attract = 0.3
 	global_assimilation_rate = 0.1
 	icon = 5
 }
@@ -2212,8 +2195,8 @@ boxer_agitation = {
 
 self_strengthening_movement = {
 	prestige = 0.05
-	research_points = 2
-	research_points_modifier = 0.25
+	research_points = 2.5
+	research_points_modifier = 0.4
 	research_points_on_conquer = -1.5
 	org_regain = 0.1
 	global_pop_consciousness_modifier = 0.1
@@ -2881,7 +2864,8 @@ neutrality = {
 	max_military_spending = -0.10
 	leadership_modifier = -0.7
 	diplomatic_points_modifier = -0.3
-	global_immigrant_attract = 0.25
+	prestige = -1.5
+	global_immigrant_attract = 0.2
 	icon = 7
 }
 

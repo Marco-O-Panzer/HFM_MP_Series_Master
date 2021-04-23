@@ -79,11 +79,6 @@
 		religion = catholic
 		size = 920   
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Kolberg (160000/40000 POPS) #Part of Poland since 1945
 679 = {
@@ -139,11 +134,6 @@
 		culture = western_slavic
 		religion = protestant
 		size = 1825    
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Koslin (160000/40000 POPS) #Part of Poland since 1945
@@ -225,11 +215,6 @@
 		religion = protestant
 		size = 3825   
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Brandenburg Region (208000) #see Poland.txt for balance of region
 #under the rule of Prussia 1836
@@ -275,11 +260,6 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 200
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Silesia Region (2568000) #see Czechia.txt and Germany.txt for balance of region
@@ -429,11 +409,6 @@
 		religion = catholic
 		size = 31900 
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Liegnitz (484000/121000 POPS) 
 683 = {
@@ -543,11 +518,6 @@
 		culture = czech
 		religion = catholic
 		size = 925 
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Oppeln (492000/123000 POPS) 
@@ -677,11 +647,6 @@
 		religion = catholic
 		size = 3725 
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Kattowitz (452000/113000 POPS) 
 685 = {
@@ -786,11 +751,6 @@
 		religion = catholic
 		size = 9350
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #under the rule of Austria in 1836  
 #Bielsko (204000/52000 POPS) #now part of Poland
@@ -859,11 +819,6 @@
 		culture = south_german
 		religion = catholic
 		size = 1675   
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #West Prussia Region (688000) 
@@ -953,11 +908,6 @@
 		religion = catholic
 		size = 1875 
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Tuchel (180000/45000 POPS) 
 691 = {
@@ -1044,11 +994,6 @@
 		religion = catholic
 		size = 13425
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Deutsche Krone (128000/32000 POPS) 
 692 = {
@@ -1105,11 +1050,6 @@
 		religion = catholic
 		size = 2625
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Elbing (148000/37000 POPS) 
 693 = {
@@ -1165,11 +1105,6 @@
 		culture = polish
 		religion = catholic
 		size = 7475
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Torun (156000/44000 POPS) 
@@ -1263,11 +1198,6 @@
 		religion = catholic
 		size = 24225 
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #East Prussia Region (396000) #see Russia.txt and Lithuania.txt for balance of region
 #under the rule of Prussia in 1836  
@@ -1349,11 +1279,6 @@
 		culture = polish
 		religion = catholic
 		size = 4625 
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Posen-Wielkopolska Region (1704000)  
@@ -1467,11 +1392,6 @@
 		religion = catholic
 		size = 74800
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Bromberg (212000/53000 POPS) 
 700 = {
@@ -1571,11 +1491,6 @@
 		religion = catholic
 		size = 22375
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Gniezno (456000/116000 POPS) 
 701 = {
@@ -1674,11 +1589,6 @@
 		culture = polish
 		religion = catholic
 		size = 89625
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #under the rule of Russia in 1836 (496000) 
@@ -1797,11 +1707,6 @@
 		religion = jewish
 		size = 3000 
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Kalicz (252000/63000 POPS) 
 717 = {
@@ -1911,11 +1816,6 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 2325  
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 
 }
@@ -2060,11 +1960,6 @@
 		religion = catholic
 		size = 920
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #under the rule of Austria in 1836
 #Novy Sacz (596000/149000 POPS)
@@ -2194,11 +2089,6 @@
 		religion = catholic
 		size = 1825
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Tarnow (616000/154000 POPS)
 714 = {
@@ -2291,11 +2181,6 @@
 		religion = catholic
 		size = 920
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #under the rule of Russia in 1836 (1368000)
 #Radom (444000/111000 POPS)
@@ -2364,11 +2249,6 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 8325
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Lublin (476000/119000 POPS)
@@ -2486,11 +2366,6 @@
 		religion = jewish
 		size = 8325
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Kielce (448000/112000 POPS)
 716 = {
@@ -2576,11 +2451,6 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 8325
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Galicia Region (596000) #see Ukraine.txt for balance of region 
@@ -2699,11 +2569,6 @@
 		culture = south_german
 		religion = catholic
 		size = 1825
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Mazovia Region (2224000)
@@ -2865,11 +2730,6 @@
 		religion = protestant
 		size = 3400
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Suwalki (196000/49000 POPS)
 707 = {
@@ -2955,11 +2815,6 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 2900
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Plock (396000/99000 POPS)
@@ -3047,11 +2902,6 @@
 		religion = protestant
 		size = 2690
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Lomza (200000/50000 POPS)
 709 = {
@@ -3113,11 +2963,6 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 5700
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Skierniewicz (436000/109000 POPS)
@@ -3205,11 +3050,6 @@
 		religion = protestant
 		size = 1725
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Siedlice (472000/118000 POPS)
 711 = {
@@ -3271,11 +3111,6 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 8200
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Podlachia Region (320000)  #see Belarus.txt for balance of region
@@ -3400,11 +3235,6 @@
 		culture = tatar
 		religion = sunni
 		size = 3400
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 
 }

@@ -172,6 +172,98 @@
 		size = 3650
 	}
 }
+#Jaliq (180000/45000 POPS) #now part of Uzbekistan  
+3287 = {
+	aristocrats = {
+		culture = uzbek
+		religion = sunni
+		size = 40
+	}
+
+	clergymen = {
+		culture = uzbek
+		religion = sunni
+		size = 25
+	}
+
+	artisans = {
+		culture = uzbek
+		religion = sunni
+		size = 50
+	}
+
+	soldiers = {
+		culture = uzbek
+		religion = sunni
+		size = 300
+	}
+
+	farmers = {
+		culture = uzbek
+		religion = sunni
+		size = 1325
+	}
+
+	aristocrats = {
+		culture = kazak
+		religion = sunni
+		size = 75
+	}
+
+	clergymen = {
+		culture = kazak
+		religion = sunni
+		size = 25
+	}
+
+	artisans = {
+		culture = kazak
+		religion = sunni
+		size = 70
+	}
+
+	soldiers = {
+		culture = kazak
+		religion = sunni
+		size = 525
+	}
+
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 3900
+	}
+
+	aristocrats = {
+		culture = turkmen
+		religion = sunni
+		size = 5
+	}
+
+	clergymen = {
+		culture = turkmen
+		religion = sunni
+		size = 5
+	}
+
+	artisans = {
+		culture = turkmen
+		religion = sunni
+		size = 5
+	}
+
+	soldiers = {
+		culture = turkmen
+		religion = sunni
+		size = 25
+	}
+
+	farmers = {
+		culture = turkmen
+		religion = sunni
+		size = 150
+	}
+}
 #Mawarannahr Region (524000) #see Kazakhstan.txt, Tajikistan.txt, Kirghizstan.txt for balance of region 
 #under the rule of Kokand in 1836  
 #Tashkent (224000/56000 POPS)   
@@ -251,13 +343,13 @@
 	clergymen = {
 		culture = tajik
 		religion = sunni
-		size = 50
+		size = 250
 	}
 
 	artisans = {
 		culture = tajik
 		religion = sunni
-		size = 325
+		size = 2325
 	}
 
 	soldiers = {
@@ -269,7 +361,7 @@
 	farmers = {
 		culture = tajik
 		religion = sunni
-		size = 6450
+		size = 9450
 	}
 
 	slaves = {
@@ -337,7 +429,7 @@
 	artisans = {
 		culture = tajik
 		religion = sunni
-		size = 800
+		size = 3800
 	}
 
 	soldiers = {
@@ -418,13 +510,13 @@
 	clergymen = {
 		culture = uzbek
 		religion = sunni
-		size = 2000
+		size = 500
 	}
 
 	artisans = {
 		culture = uzbek
 		religion = sunni
-		size = 4300
+		size = 1300
 	}
 
 	soldiers = {
@@ -436,37 +528,37 @@
 	farmers = {
 		culture = uzbek
 		religion = sunni
-		size = 142950
+		size = 72950
 	}
 
 	aristocrats = {
 		culture = tajik
 		religion = sunni
-		size = 275
+		size = 1275
 	}
 
 	clergymen = {
 		culture = tajik
 		religion = sunni
-		size = 125
+		size = 5125
 	}
 
 	artisans = {
 		culture = tajik
 		religion = sunni
-		size = 700
+		size = 58700
 	}
 
 	soldiers = {
 		culture = tajik
 		religion = sunni
-		size = 125
+		size = 1125
 	}
 
 	farmers = {
 		culture = tajik
 		religion = sunni
-		size = 10775
+		size = 32775
 	}
 
 	aristocrats = {
@@ -518,8 +610,8 @@
 	}
 
 	slaves = {
-		culture = tajik
-		religion = sunni
+		culture = persian
+		religion = shiite
 		size = 30000
 	}
 }
@@ -534,13 +626,13 @@
 	clergymen = {
 		culture = uzbek
 		religion = sunni
-		size = 1250
+		size = 250
 	}
 
 	artisans = {
 		culture = uzbek
 		religion = sunni
-		size = 4700
+		size = 2700
 	}
 
 	soldiers = {
@@ -552,37 +644,37 @@
 	farmers = {
 		culture = uzbek
 		religion = sunni
-		size = 100800
+		size = 65800
 	}
 
 	aristocrats = {
 		culture = tajik
 		religion = sunni
-		size = 50
+		size = 1050
 	}
 
 	clergymen = {
 		culture = tajik
 		religion = sunni
-		size = 50
+		size = 2050
 	}
 
 	artisans = {
 		culture = tajik
 		religion = sunni
-		size = 300
+		size = 27300
 	}
 
 	soldiers = {
 		culture = tajik
 		religion = sunni
-		size = 50
+		size = 1050
 	}
 
 	farmers = {
 		culture = tajik
 		religion = sunni
-		size = 5600
+		size = 12600
 	}
 
 	aristocrats = {
@@ -632,13 +724,13 @@
 	clergymen = {
 		culture = uzbek
 		religion = sunni
-		size = 500
+		size = 200
 	}
 
 	artisans = {
 		culture = uzbek
 		religion = sunni
-		size = 2550
+		size = 550
 	}
 
 	soldiers = {
@@ -650,25 +742,25 @@
 	farmers = {
 		culture = uzbek
 		religion = sunni
-		size = 46425
+		size = 16425
 	}
 
 	aristocrats = {
 		culture = tajik
 		religion = sunni
-		size = 225
+		size = 525
 	}
 
 	clergymen = {
 		culture = tajik
 		religion = sunni
-		size = 100
+		size = 2100
 	}
 
 	artisans = {
 		culture = tajik
 		religion = sunni
-		size = 500
+		size = 10500
 	}
 
 	soldiers = {
@@ -680,7 +772,7 @@
 	farmers = {
 		culture = tajik
 		religion = sunni
-		size = 11075
+		size = 21075
 	}
 
 	aristocrats = {

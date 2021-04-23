@@ -3,9 +3,9 @@
 #############################################;;;;;;;;;;;;;;x
 EVTNAME1998001;Pop Growth Campaign Selection;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVTDESC1998001;Choose the level of pop-growth campaign for your nation.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-infamy_for_growth_selector_title;§ECommence a Population Growth Campaign§!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+infamy_for_growth_selector_title;Commence a Population Growth Campaign;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 infamy_for_growth_selector_desc;Start a campaign to trade infamy & tax-effiency reduction in-exchange for more overall pop-growth.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-infamy_for_growth_modifier_removal_title;§EStop the ongoing Population Campaign§!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+infamy_for_growth_modifier_removal_title;Stop the ongoing Population Campaign;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 infamy_for_growth_modifier_removal_desc;Cancel the current ongoing growth campaign.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 birthrate_push_low;Basic Growth Incentives;;;;;;;;;;;;x,,,,,,,
 birthrate_push_low_desc;Basic Growth Incentives;;;;;;;;;;;;x,,,,,,,

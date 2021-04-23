@@ -3709,7 +3709,7 @@ country_event = {
 		has_country_flag = preparations_to_kill
 	}
 		
-	mean_time_to_happen = { days = 10  }
+	mean_time_to_happen = { days = 1 }
 		
 	option = {
 		name = "EVTOPTA4433" #Religion

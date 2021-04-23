@@ -1,7 +1,7 @@
 #############################################################
-#							    #
-#                French Revolution Events		    #
-#							    #
+#															#
+#                French Revolution Events					#
+#															#
 #############################################################
 
 
@@ -13,7 +13,6 @@ country_event = {
 
 	trigger = {
 		has_country_flag = ready_for_hugo
-		NOT = { has_global_flag = mp_setup }
 	}
 	major = yes
 		
@@ -37,7 +36,6 @@ country_event = {
 		remove_accepted_culture = arpitan
 		remove_accepted_culture = cajun
 		remove_accepted_culture = french_canadian
-		remove_accepted_culture = neo_zelandais
 		clr_country_flag = ready_for_hugo
 		ai_chance = { factor = 0 }
 	}

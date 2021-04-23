@@ -68,7 +68,7 @@
 	}
 	farmers = {
 		culture = pan_european
-		religion = protestant
+		religion = catholic
 		size = 1000
 	}
 }
@@ -121,7 +121,7 @@
 	}
 	farmers = {
 		culture = pan_european
-		religion = protestant
+		religion = catholic
 		size = 1000
 	}
 }
@@ -154,7 +154,7 @@
 	}
 	farmers = {
 		culture = pan_european
-		religion = protestant
+		religion = catholic
 		size = 1000
 	}
 }
@@ -197,7 +197,7 @@
 	}
 	farmers = {
 		culture = pan_european
-		religion = protestant
+		religion = catholic
 		size = 1000
 	}
 }
@@ -271,7 +271,7 @@
 	}
 	farmers = {
 		culture = pan_european
-		religion = protestant
+		religion = catholic
 		size = 1000
 	}
 }
@@ -304,7 +304,7 @@
 	}
 	farmers = {
 		culture = pan_european
-		religion = protestant
+		religion = catholic
 		size = 1000
 	}
 }
@@ -419,7 +419,7 @@
 	}
 	farmers = {
 		culture = pan_european
-		religion = protestant
+		religion = catholic
 		size = 1000
 	}
 }
@@ -477,7 +477,7 @@
 	}
 	farmers = {
 		culture = pan_european
-		religion = protestant
+		religion = catholic
 		size = 1000
 	}
 }
@@ -536,7 +536,7 @@
 	}
 	farmers = {
 		culture = pan_european
-		religion = protestant
+		religion = catholic
 		size = 1000
 	}
 }
@@ -584,7 +584,7 @@
 	}
 	farmers = {
 		culture = pan_european
-		religion = protestant
+		religion = catholic
 		size = 1000
 	}
 }
@@ -650,7 +650,7 @@
 	}
 	farmers = {
 		culture = pan_european
-		religion = protestant
+		religion = catholic
 		size = 1000
 	}
 }

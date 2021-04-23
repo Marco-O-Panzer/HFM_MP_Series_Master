@@ -220,7 +220,7 @@ country_event = {
 		relation = { who = DOM value = -400 }
 		war = {
 			target = DOM
-			attacker_goal = { casus_belli = conquest_any }
+			attacker_goal = { casus_belli = conquest }
 			defender_goal = { casus_belli = status_quo }
 		}
 		ai_chance = { factor = 100 }
@@ -241,7 +241,7 @@ country_event = {
 		relation = { who = DOM value = -400 }
 		war = {
 			target = DOM
-			attacker_goal = { casus_belli = conquest_any }
+			attacker_goal = { casus_belli = conquest }
 			defender_goal = { casus_belli = status_quo }
 		}
 		change_tag_no_core_switch = DOM

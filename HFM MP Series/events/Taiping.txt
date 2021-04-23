@@ -212,8 +212,8 @@ country_event = {
 		}
 		
 		random_owned = {
-			limit = { owner = { education_reform = yes_western_science } }
-			TPG = { economic_reform = yes_western_science activate_technology = late_enlightenment_philosophy }
+			limit = { owner = { research_reform = yes_research_reform } }
+			TPG = { economic_reform = yes_research_reform activate_technology = late_enlightenment_philosophy }
 		}
 		
 		random_owned = {
@@ -436,13 +436,13 @@ country_event = {
 		}
 		
 		random_owned = {
-			limit = { owner = { education_reform = yes_western_science } }
+			limit = { owner = { education_reform = yes_education_reform } }
 			TPG = { economic_reform = yes_education_reform }
 		}
 		
 		random_owned = {
-			limit = { owner = { education_reform = yes_western_science } }
-			TPG = { economic_reform = yes_western_science activate_technology = late_enlightenment_philosophy }
+			limit = { owner = { research_reform = yes_research_reform } }
+			TPG = { economic_reform = yes_research_reform activate_technology = late_enlightenment_philosophy }
 		}
 		
 		random_owned = {

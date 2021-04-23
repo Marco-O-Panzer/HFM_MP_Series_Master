@@ -248,6 +248,7 @@ carlism = {
 
 the_dark_continent = {
 	limit = {
+		has_country_flag = existing_country
 		revolution_n_counterrevolution = 1
 		year = 1890
 	}

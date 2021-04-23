@@ -26,11 +26,11 @@ navy = {
 	location = 343 #Helsinki
 	ship = {
 		name= "Rurik"
-		type = frigate
+		type = commerce_raider
 	}
 	ship = {
 		name= "Kalevala"
-		type = frigate
+		type = commerce_raider
 	}
 }
 

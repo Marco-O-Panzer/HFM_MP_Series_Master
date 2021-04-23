@@ -67,33 +67,33 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_resources_big"
 		texturefile = "gfx\\interface\\resources_big.dds"
-		noOfFrames = 52 #50
+		noOfFrames = 50
 		norefcount = yes
 	}
 	spriteType = {
 		name = "GFX_resources"
 		texturefile = "gfx\\interface\\resources.dds"
-		noOfFrames = 52
+		noOfFrames = 50
 		norefcount = yes
 	}
 	spriteType = {
 		name = "GFX_resources_transparent"
 		texturefile = "gfx\\interface\\resources.dds"
-		noOfFrames = 52
+		noOfFrames = 50
 		norefcount = yes
 		allwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_resources_small"
 		texturefile = "gfx\\interface\\resources_small.dds"
-		noOfFrames = 52
+		noOfFrames = 50
 		norefcount = yes
 		allwaystransparent = no
 	}
 	spriteType = {
 		name = "GFX_resources_small_transparent"
 		texturefile = "gfx\\interface\\resources_small.dds"
-		noOfFrames = 52
+		noOfFrames = 50
 		norefcount = yes
 		transparencecheck = yes
 	}
@@ -630,13 +630,10 @@ bitmapfonts = {
 			W = { 255 255 255 }
 			B = { 0 0 255 }
 			G = { 0 159 3 }
-			E = { 0 255 0 }
 			R = { 255 50 50 }
 			b = { 0 0 0 }
-			g = { 100 100 100 }
+			g = { 176 176 176 }
 			Y = { 255 189 0 }
-			C = { 0 255 255 }
-			P = { 255 102 255 }
 		}
 	}
 	############################
@@ -650,13 +647,10 @@ bitmapfonts = {
 			W = { 255 255 255 }
 			B = { 0 0 255 }
 			G = { 0 159 3 }
-			E = { 0 255 0 }
 			R = { 255 50 50 }
 			b = { 0 0 0 }
-			g = { 100 100 100 }
+			g = { 176 176 176 }
 			Y = { 255 189 0 }
-			C = { 0 255 255 }
-			P = { 255 102 255 }
 		}
 	}
 
@@ -748,13 +742,10 @@ bitmapfonts = {
 			W = { 255 255 255 }
 			B = { 0 0 255 }
 			G = { 0 159 3 }
-			E = { 0 255 0 }
 			R = { 255 50 50 }
 			b = { 0 0 0 }
-			g = { 100 100 100 }
+			g = { 176 176 176 }
 			Y = { 255 189 0 }
-			C = { 0 255 255 }
-			P = { 255 102 255 }
 		}
 	}
 	
@@ -790,13 +781,10 @@ bitmapfonts = {
 			W = { 255 255 255 }
 			B = { 0 0 255 }
 			G = { 0 159 3 }
-			E = { 0 255 0 }
 			R = { 255 50 50 }
 			b = { 0 0 0 }
-			g = { 100 100 100 }
+			g = { 176 176 176 }
 			Y = { 255 189 0 }
-			C = { 0 255 255 }
-			P = { 255 102 255 }
 		}
 	}
 	
@@ -975,6 +963,7 @@ bitmapfonts = {
 		fontname = "old_english"
 		color = 0xff333333
 	}
+
 	
 	bitmapfont = {
 		name = "tahoma_60"
@@ -1004,13 +993,10 @@ bitmapfonts = {
 			W = { 255 255 255 }
 			B = { 0 0 255 }
 			G = { 0 159 3 }
-			E = { 0 255 0 }
 			R = { 255 50 50 }
 			b = { 0 0 0 }
-			g = { 100 100 100 }
+			g = { 176 176 176 }
 			Y = { 255 189 0 }
-			C = { 0 255 255 }
-			P = { 255 102 255 }
 		}
 	}
 	
@@ -1029,13 +1015,10 @@ bitmapfonts = {
 			W = { 255 255 255 }
 			B = { 0 0 255 }
 			G = { 0 159 3 }
-			E = { 0 255 0 }
 			R = { 255 50 50 }
 			b = { 0 0 0 }
-			g = { 100 100 100 }
+			g = { 176 176 176 }
 			Y = { 255 189 0 }
-			C = { 0 255 255 }
-			P = { 255 102 255 }
 		}		
 	}
 	
@@ -1047,13 +1030,10 @@ bitmapfonts = {
 			W = { 255 255 255 }
 			B = { 0 0 255 }
 			G = { 0 159 3 }
-			E = { 0 255 0 }
 			R = { 255 50 50 }
 			b = { 0 0 0 }
-			g = { 100 100 100 }
+			g = { 176 176 176 }
 			Y = { 255 189 0 }
-			C = { 0 255 255 }
-			P = { 255 102 255 }
 		}		
 	}
 	
@@ -1079,13 +1059,10 @@ bitmapfont = {
 			W = { 255 255 255 }
 			B = { 0 0 255 }
 			G = { 0 159 3 }
-			E = { 0 255 0 }
 			R = { 255 50 50 }
 			b = { 0 0 0 }
-			g = { 100 100 100 }
+			g = { 176 176 176 }
 			Y = { 255 189 0 }
-			C = { 0 255 255 }
-			P = { 255 102 255 }
 		}
 	}
 	
@@ -1104,13 +1081,10 @@ bitmapfont = {
 			W = { 255 255 255 }
 			B = { 0 0 255 }
 			G = { 0 159 3 }
-			E = { 0 255 0 }
 			R = { 255 50 50 }
 			b = { 0 0 0 }
-			g = { 100 100 100 }
+			g = { 176 176 176 }
 			Y = { 255 189 0 }
-			C = { 0 255 255 }
-			P = { 255 102 255 }
 		}
 	}
 	bitmapfont = {
@@ -1138,13 +1112,10 @@ bitmapfont = {
 			W = { 255 255 255 }
 			B = { 0 0 255 }
 			G = { 0 159 3 }
-			E = { 0 255 0 }
 			R = { 255 50 50 }
 			b = { 0 0 0 }
-			g = { 100 100 100 }
+			g = { 176 176 176 }
 			Y = { 255 189 0 }
-			C = { 0 255 255 }
-			P = { 255 102 255 }
 		}
 	}
 bitmapfont = {
@@ -1162,13 +1133,10 @@ bitmapfont = {
 			W = { 255 255 255 }
 			B = { 0 0 255 }
 			G = { 0 159 3 }
-			E = { 0 255 0 }
 			R = { 255 50 50 }
 			b = { 0 0 0 }
-			g = { 100 100 100 }
+			g = { 176 176 176 }
 			Y = { 255 189 0 }
-			C = { 0 255 255 }
-			P = { 255 102 255 }
 		}
 	}
 	bitmapfont = {
@@ -1192,13 +1160,10 @@ bitmapfont = {
 			W = { 255 255 255 }
 			B = { 0 0 255 }
 			G = { 0 159 3 }
-			E = { 0 255 0 }
 			R = { 255 50 50 }
 			b = { 0 0 0 }
-			g = { 100 100 100 }
+			g = { 176 176 176 }
 			Y = { 255 189 0 }
-			C = { 0 255 255 }
-			P = { 255 102 255 }
 		}
 	}
 bitmapfont = {
@@ -1216,13 +1181,10 @@ bitmapfont = {
 			W = { 255 255 255 }
 			B = { 0 0 255 }
 			G = { 0 159 3 }
-			E = { 0 255 0 }
 			R = { 255 50 50 }
 			b = { 0 0 0 }
-			g = { 100 100 100 }
+			g = { 176 176 176 }
 			Y = { 255 189 0 }
-			C = { 0 255 255 }
-			P = { 255 102 255 }
 		}
 	}
 bitmapfont = {

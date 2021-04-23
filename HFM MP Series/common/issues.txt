@@ -406,11 +406,11 @@ political_reforms = {
 			social_reform_desire = 0.1
 		}
 		non_socialist = {
-			social_reform_desire = 0.3
+			social_reform_desire = 0.5
 			global_immigrant_attract = 0.05
 		}
 		all_trade_unions = {
-			social_reform_desire = 0.5
+			social_reform_desire = 0.3
 			global_immigrant_attract = 0.2
 		}
 	}
@@ -665,7 +665,7 @@ political_reforms = {
 				ruling_party_ideology = reactionary
 				upper_house_composition = party_appointed
 			}
-			research_points = 2
+			research_points = 1.5
 			factory_output = -0.1
 			tax_efficiency = -0.05
 		}
@@ -895,7 +895,11 @@ social_reforms = {
 			global_immigrant_attract = 0.9
 			allow = { 
 				ai = no
-				NOT = { has_country_flag = upper_house_no_ubi }
+				OR = {
+					ruling_party_ideology = socialist
+					ruling_party_ideology = communist
+					ruling_party_ideology = fascist
+				}
 			}
 		}
 		good_subsidies = {
@@ -904,7 +908,11 @@ social_reforms = {
 			global_immigrant_attract = 1.5
 			allow = { 
 				ai = no
-				NOT = { has_country_flag = upper_house_no_ubi }
+				OR = {
+					ruling_party_ideology = socialist
+					ruling_party_ideology = communist
+					ruling_party_ideology = fascist
+				}
 			}
 		}
 	}
@@ -1671,7 +1679,6 @@ military_reforms = {
 			mobilisation_size = 0.2
 			civilization_progress_modifier = 0.10
 			research_points_on_conquer = 0.10
-			
 
 			on_execute = {
 				effect = {
@@ -2055,7 +2062,6 @@ military_reforms = {
 			
 			on_execute = {
 				effect = {
-					activate_technology = the_command_principle
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -2079,6 +2085,7 @@ military_reforms = {
 
 			on_execute = {
 				effect = {
+					activate_technology = the_command_principle
 					activate_technology = naval_professionalism
 					any_pop = {
 						scaled_militancy = {

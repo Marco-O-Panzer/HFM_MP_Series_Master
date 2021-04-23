@@ -2,6 +2,7 @@
 franz_boas = {
 	limit = {
 		social_science = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -20,6 +21,7 @@ franz_boas = {
 marcel_mauss = {
 	limit = {
 		social_alienation = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -38,6 +40,7 @@ marcel_mauss = {
 branislaw_malinowski = {
 	limit = {
 		social_alienation = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -57,6 +60,7 @@ branislaw_malinowski = {
 flinders_petrie = {
 	limit = {
 		social_science = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -79,6 +83,7 @@ flinders_petrie = {
 jg_taylor = {
 	limit = {
 		functionalism = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -93,6 +98,7 @@ jg_taylor = {
 cl_wooley = {
 	limit = {
 		social_alienation = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -111,6 +117,7 @@ cl_wooley = {
 arthur_evans = {
 	limit = {
 		social_alienation = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -130,6 +137,7 @@ arthur_evans = {
 heinrich_schliemann = {
 	limit = {
 		functionalism = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -148,6 +156,7 @@ heinrich_schliemann = {
 emile_dirkheim = {
 	limit = {
 		social_science = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -171,6 +180,7 @@ emile_dirkheim = {
 max_weber = {
 	limit = {
 		social_science = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -193,6 +203,7 @@ max_weber = {
 ferdinand_de_saussure = {
 	limit = {
 		social_science = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -234,6 +245,7 @@ jung = {
 david_ricardo = {
 	limit = {
 		early_classical_theory_and_critique = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -255,6 +267,7 @@ david_ricardo = {
 alexander_bain  = {
 	limit = {
 		associationism = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -272,6 +285,7 @@ alexander_bain  = {
 thomas_brown  = {
 	limit = {
 		associationism = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -290,6 +304,7 @@ thomas_brown  = {
 soren_kierkegaard  = {
 	limit = {
 		associationism = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -304,6 +319,7 @@ soren_kierkegaard  = {
 william_hamilton = {
 	limit = {
 		associationism = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -317,6 +333,7 @@ william_hamilton = {
 francis_galton  = {
 	limit = {
 		phenomenalism = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -334,6 +351,7 @@ francis_galton  = {
 alfred_binet  = {
 	limit = {
 		phenomenalism = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -355,6 +373,7 @@ alfred_binet  = {
 charles_spearman  = {
 	limit = {
 		phenomenalism = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -397,6 +416,7 @@ eugenics  = {
 wilhelm_wundt  = {
 	limit = {
 		experimental_psychology = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -410,6 +430,7 @@ wilhelm_wundt  = {
 edward_titchener  = {
 	limit = {
 		experimental_psychology = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -427,6 +448,7 @@ edward_titchener  = {
 william_james  = {
 	limit = {
 		experimental_psychology = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -444,6 +466,7 @@ william_james  = {
 gs_hall  = {
 	limit = {
 		experimental_psychology = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -461,6 +484,7 @@ gs_hall  = {
 hermann_ebbinghaus  = {
 	limit = {
 		experimental_psychology = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -478,6 +502,7 @@ hermann_ebbinghaus  = {
 mary_calkins  = {
 	limit = {
 		experimental_psychology = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -500,6 +525,7 @@ mary_calkins  = {
 alfred_adler  = {
 	limit = {
 		psychoanalysis = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -517,6 +543,7 @@ alfred_adler  = {
 anna_freud  = {
 	limit = {
 		psychoanalysis = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -534,6 +561,7 @@ anna_freud  = {
 karen_horney  = {
 	limit = {
 		psychoanalysis = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -555,6 +583,7 @@ karen_horney  = {
 ivan_pavlov  = {
 	limit = {
 		behaviorism = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -568,6 +597,7 @@ ivan_pavlov  = {
 el_thorndike  = {
 	limit = {
 		behaviorism = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -581,6 +611,7 @@ el_thorndike  = {
 jb_watson  = {
 	limit = {
 		behaviorism = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -598,6 +629,7 @@ jb_watson  = {
 ec_tolman  = {
 	limit = {
 		behaviorism = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -616,6 +648,7 @@ ec_tolman  = {
 emile_coue = {
 	limit = {
 		behaviorism = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -633,6 +666,7 @@ emile_coue = {
 neurology = {
 	limit = {
 		experimental_psychology = 1
+		has_country_flag = existing_country
 	}
 	news = no
 	chance = {

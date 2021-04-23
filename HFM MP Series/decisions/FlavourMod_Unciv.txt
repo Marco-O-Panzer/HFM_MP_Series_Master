@@ -489,8 +489,8 @@ political_decisions = {
 				AND = { QNG = { finance_reform = finance_reform_two } THIS = { NOT = { finance_reform = finance_reform_two } } }
 				AND = { QNG = { monetary_reform = yes_monetary_reform } THIS = { NOT = { monetary_reform = yes_monetary_reform } } }
 				AND = { QNG = { monetary_reform = monetary_reform_two } THIS = { NOT = { monetary_reform = monetary_reform_two } } }
-				AND = { QNG = { education_reform = yes_western_science } THIS = { NOT = { education_reform = yes_western_science } } }
-				AND = { QNG = { research_reform = yes_education_reform } THIS = { NOT = { research_reform = yes_education_reform } } }
+				AND = { QNG = { education_reform = yes_education_reform } THIS = { NOT = { education_reform = yes_education_reform } } }
+				AND = { QNG = { research_reform = yes_research_reform } THIS = { NOT = { research_reform = yes_research_reform } } }
 				AND = { QNG = { foreign_training = yes_foreign_training } THIS = { NOT = { foreign_training = yes_foreign_training } } }
 				AND = { QNG = { foreign_weapons = yes_foreign_weapons } THIS = { NOT = { foreign_weapons = yes_foreign_weapons } } }
 				AND = { QNG = { foreign_officers = yes_foreign_officers } THIS = { NOT = { foreign_officers = yes_foreign_officers } } }
@@ -535,13 +535,13 @@ political_decisions = {
 			}
 			
 			random_owned = {
-				limit = { QNG = { education_reform = yes_western_science } }
-				THIS = { economic_reform = yes_western_science }
+				limit = { QNG = { education_reform = yes_education_reform } }
+				THIS = { economic_reform = yes_education_reform }
 			}
 			
 			random_owned = {
-				limit = { QNG = { research_reform = yes_education_reform } }
-				THIS = { economic_reform = yes_education_reform activate_technology = late_enlightenment_philosophy }
+				limit = { QNG = { research_reform = yes_research_reform } }
+				THIS = { economic_reform = yes_research_reform activate_technology = late_enlightenment_philosophy }
 			}
 			
 			random_owned = {

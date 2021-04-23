@@ -47,7 +47,7 @@ political_decisions = {
 		}
 		allow = {
 			critical_theory = 1
-			mathematical_sociology = 1
+			quantum_mechanics = 1
 			mass_politics = 1
 			literacy = 0.9
 		}

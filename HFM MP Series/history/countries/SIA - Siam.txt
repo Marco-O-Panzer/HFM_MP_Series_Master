@@ -28,7 +28,7 @@ school_reforms = no_schools
 
 
 # New Reforms
-conscription = two_year_draft
+conscription = one_year_draft
 debt_law = serfdom
 penal_system = capital_punishment
 child_labor = child_labor_legal
@@ -70,7 +70,7 @@ oob = "SIA_oob.txt"
 	
 	#Economic Reforms
 	land_reform = yes_land_reform
-	education_reform = yes_western_science
+	education_reform = yes_education_reform
 
 	#Military Reforms
 	foreign_officers = yes_foreign_officers

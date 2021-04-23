@@ -85,11 +85,6 @@
 		religion = catholic
 		size = 5225  
 	}
-	farmers = {
-		culture = pan_european
-		religion = orthodox
-		size = 1000
-	}
 }
 #Pancevo (268000/67000 POPS) #part of Serbia today
 792 = {
@@ -205,11 +200,6 @@
 		culture = romanian
 		religion = orthodox
 		size = 10300 
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Novi Sad (384000/96000 POPS) #part of Serbia today
@@ -363,11 +353,6 @@
 		religion = catholic
 		size = 20375 
 	}
-	farmers = {
-		culture = pan_european
-		religion = orthodox
-		size = 1000
-	}
 }
 #Serbia Region (180310) - 721.240 people
 #under the rule of Serbia in 1836
@@ -419,11 +404,6 @@
 		culture = gypsy
 		religion = orthodox
 		size = 4500
-	}
-	farmers = {
-		culture = pan_european
-		religion = orthodox
-		size = 1000
 	}
 }
 #Bor (220400/55000 POPS)
@@ -481,11 +461,6 @@
 		religion = orthodox
 		size = 16000
 	}
-	farmers = {
-		culture = pan_european
-		religion = orthodox
-		size = 1000
-	}
 }
 #Kragujevac (188000/47000 POPS)
 796 = {
@@ -518,11 +493,6 @@
 		religion = orthodox
 		size = 40200
 	}
-	farmers = {
-		culture = pan_european
-		religion = orthodox
-		size = 1000
-	}
 }
 #Uzice (72000/18000 POPS)
 797 = {
@@ -554,11 +524,6 @@
 		culture = serb
 		religion = orthodox
 		size = 13000
-	}
-	farmers = {
-		culture = pan_european
-		religion = orthodox
-		size = 1000
 	}
 }
 #under the rule of Ottoman Empire in 1836
@@ -654,11 +619,6 @@
 		religion = sunni
 		size = 3450
 	}
-	farmers = {
-		culture = pan_european
-		religion = orthodox
-		size = 1000
-	}
 }
 #Leskovac (220000/55000 POPS)
 799 = {
@@ -739,11 +699,6 @@
 		culture = turkish
 		religion = sunni
 		size = 4575
-	}
-	farmers = {
-		culture = pan_european
-		religion = orthodox
-		size = 1000
 	}
 }
 #Kosovo-Sanjak Region (466000)
@@ -887,11 +842,6 @@
 		culture = albanian
 		religion = sunni
 		size = 19700
-	}
-	farmers = {
-		culture = pan_european
-		religion = sunni
-		size = 1000
 	}
 }
 #Prizren (186000/46000 POPS)
@@ -1118,11 +1068,6 @@
 		religion = orthodox
 		size = 1425
 	}
-	farmers = {
-		culture = pan_european
-		religion = sunni
-		size = 1000
-	}
 }
 #Novi Pazar (72000/18000 POPS)
 804 = {
@@ -1172,11 +1117,6 @@
 		culture = bosniak
 		religion = sunni
 		size = 7450
-	}
-	farmers = {
-		culture = pan_european
-		religion = orthodox
-		size = 1000
 	}
 
 }

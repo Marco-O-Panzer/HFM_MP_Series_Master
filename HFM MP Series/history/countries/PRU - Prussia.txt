@@ -93,7 +93,6 @@ high_pressure_steam_engine = 1
 
 
 #Inventions
-merchant_banking = yes
 
 # Starting Consciousness
 consciousness = 2

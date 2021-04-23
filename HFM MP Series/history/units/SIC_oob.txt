@@ -149,7 +149,7 @@ navy = {
 	location = 754
 	ship = {
 		name= "Ferdinando II"
-		type = frigate
+		type = commerce_raider
 	}
 
 	ship = {

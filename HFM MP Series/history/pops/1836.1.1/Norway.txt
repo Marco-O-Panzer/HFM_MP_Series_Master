@@ -42,11 +42,6 @@
 		religion = protestant
 		size = 31250
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Bodo (56000/14000 POPS)
 306 = {
@@ -161,11 +156,6 @@
 		religion = protestant
 		size = 17825
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 
 }
 
@@ -213,11 +203,6 @@
 		religion = protestant
 		size = 39200
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Christiansand (164000/41000 POPS)
 310 = {
@@ -249,11 +234,6 @@
 		culture = norwegian
 		religion = protestant
 		size = 38825
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Skien (68000/17000 POPS)
@@ -287,11 +267,6 @@
 		religion = protestant
 		size = 17075
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Drammen (132000/33000 POPS)
 312 = {
@@ -323,11 +298,6 @@
 		culture = norwegian
 		religion = protestant
 		size = 32125
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 
 }
@@ -381,11 +351,6 @@
 		religion = protestant
 		size = 5
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Hamar (80000/20000 POPS)
 314 = {
@@ -417,11 +382,6 @@
 		culture = norwegian
 		religion = protestant
 		size = 19750
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Lillehammer (96000/24000 POPS)
@@ -455,11 +415,6 @@
 		religion = protestant
 		size = 23425
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Frederiksstad (68000/17000 POPS)
 316 = {
@@ -491,11 +446,6 @@
 		culture = norwegian
 		religion = protestant
 		size = 17025
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 
 }

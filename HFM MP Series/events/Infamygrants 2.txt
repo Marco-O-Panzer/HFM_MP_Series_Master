@@ -7,7 +7,7 @@
 country_event = {
 
 	is_triggered_only = yes
-	id = 2000011
+	id = 200001
 	title = "$FROMCOUNTRY$ Requests Diplomatic Aid"
 	desc = "$FROMCOUNTRY$ has asked we give them a grant. How much should we give?"
 	allow_multiple_instances = yes
@@ -21,7 +21,7 @@ country_event = {
 	name = "Small diplomatic aid"
 	
 		FROM = {
-			country_event = {id = 2000021 days = 0}
+			country_event = {id = 200002 days = 0}
 		
 		}
 		ai_chance = {factor = 100} 
@@ -38,7 +38,7 @@ country_event = {
 
 country_event = {
 	is_triggered_only = yes
-	id = 2000031
+	id = 200003
 	title = "Choose Diplomatic Aid for $FROMCOUNTRY$"
 	desc = "How much aid would you like to give $FROMCOUNTRY$ (1s)?"
 	allow_multiple_instances = yes	
@@ -102,7 +102,7 @@ country_event = {
 }
 
 country_event = {
-	id = 2000051
+	id = 200005
 	title = "Choose Diplomatic Aid for $FROMCOUNTRY$"
 	desc = "How much money would you like to give $FROMCOUNTRY$ (10s)?"
 	allow_multiple_instances = yes	

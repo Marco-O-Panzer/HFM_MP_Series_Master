@@ -1,4 +1,5 @@
 color = { 255  245 140 } 
+absolute_monarchy = { 60 50 120 }
 graphical_culture = MiddleEasternGC
 
 party = {

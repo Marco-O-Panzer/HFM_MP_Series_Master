@@ -109,7 +109,7 @@ political_decisions = {
 			}
 			casus_belli = {
 				target = SWI
-				type = conquest_any
+				type = conquest
 				months = 60
 			}
 		}
