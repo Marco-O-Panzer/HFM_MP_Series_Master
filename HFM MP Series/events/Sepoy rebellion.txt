@@ -279,7 +279,7 @@ country_event = {
 		any_owned = {
 			limit = {
 				is_core = MUG
-				NOT = { is_core = PAN }
+				NOT = { is_core = PNJ }
 				NOT = { is_core = NEP }
 			}
 			secede_province = MUG

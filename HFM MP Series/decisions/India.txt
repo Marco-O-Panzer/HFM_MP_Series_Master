@@ -909,7 +909,7 @@ political_decisions = {
 	rangit_singh = {
 	picture = rangit_singh
 		potential = {
-			tag = PAN
+			tag = PNJ
 			NOT = { has_country_flag = singh }
 		}
 		allow = {
@@ -932,10 +932,10 @@ political_decisions = {
 		}
 	}
 	
-	PAN_embrace_pashtun_minority = {
+	PNJ_embrace_pashtun_minority = {
 		picture = sikh_empire
 		potential = {
-			tag = PAN
+			tag = PNJ
 			NOT = { has_country_flag = embraced_pashtun }
 			any_owned_province = { culture = pashtun }
 		}
@@ -957,10 +957,10 @@ political_decisions = {
 		}
 	}
 	
-	PAN_embrace_sindi_minority = {
+	PNJ_embrace_sindi_minority = {
 		picture = sikh_empire
 		potential = {
-			tag = PAN
+			tag = PNJ
 			NOT = { has_country_flag = embraced_sindi }
 			any_owned_province = { culture = sindi }
 		}
@@ -974,7 +974,7 @@ political_decisions = {
 		effect = {
 			prestige = 5
 			add_accepted_culture = sindi
-			1223 = { add_core = PAN }
+			1223 = { add_core = PNJ }
 			set_country_flag = embraced_sindi
 		}
 		
@@ -983,10 +983,10 @@ political_decisions = {
 		}
 	}
 
-	PAN_embrace_avadhi_minority = {
+	PNJ_embrace_avadhi_minority = {
 		picture = sikh_empire
 		potential = {
-			tag = PAN
+			tag = PNJ
 			NOT = { has_country_flag = embraced_avadhi }
 			any_owned_province = { culture = avadhi }
 		}
@@ -1125,7 +1125,7 @@ political_decisions = {
 			set_country_flag = mughal_independence
 			any_pop = { limit = { has_pop_religion = sunni } militancy = -9 }
 			any_pop = { limit = { has_pop_religion = sikh } consciousness = 3 }
-			PAN = { all_core = { any_pop = { limit = { has_pop_religion = sikh } militancy = -3 } } }
+			PNJ = { all_core = { any_pop = { limit = { has_pop_religion = sikh } militancy = -3 } } }
 
 			define_general = {
 				name = "Bakht Khan"
@@ -1160,7 +1160,7 @@ political_decisions = {
 			NOT = { has_country_flag = mughal_reborn }
 			NOT = { exists = PAK }
 			NOT = { tag = PAK }
-			NOT = { tag = PAN }
+			NOT = { tag = PNJ }
 			NOT = { tag = KAL }
 			NOT = { tag = MAK }
 			NOT = { tag = SIN }
@@ -1192,13 +1192,13 @@ political_decisions = {
 							}
 						}
 					}
-#					PAN = { all_core = {
-#						OR = {
-#							owned_by = THIS
-#							owner = { OR = { is_vassal = no vassal_of = THIS } ai = yes in_sphere = THIS war = no }
-#							}
-#						}
-#					}
+					PNJ = { all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { OR = { is_vassal = no vassal_of = THIS } ai = yes in_sphere = THIS war = no }
+							}
+						}
+					}
 				}
 			}
 		}
@@ -1247,20 +1247,20 @@ political_decisions = {
 					}
 				}
 			}
-#			PAN = {
-#			all_core = { 
-#				OR = {
-#					owned_by = THIS
-#					owner = {
-#						in_sphere = THIS
-#						ai = yes
-#						OR = { is_vassal = no vassal_of = THIS }
-#						war = no
-#						is_greater_power = no
-#						}
-#					}
-#				}
-#			}
+			PNJ = {
+			all_core = { 
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+						ai = yes
+						OR = { is_vassal = no vassal_of = THIS }
+						war = no
+						is_greater_power = no
+						}
+					}
+				}
+			}
 		}
 		
 		effect = {	
@@ -1282,7 +1282,7 @@ political_decisions = {
 						tag = THIS
 						tag = AFG
 						tag = MUG
-						tag = PAN
+						tag = PNJ
 					}
 					OR = {
 						is_vassal = no
@@ -1292,19 +1292,19 @@ political_decisions = {
 				annex_to = THIS
 			}
 			random_country = {
-				limit = { exists = yes ai = yes vassal_of = THIS tag = PAN }
+				limit = { exists = yes ai = yes vassal_of = THIS tag = PNJ }
 				annex_to = THIS
-				PAN = { all_core = { remove_core = PAN } }
+				PNJ = { all_core = { remove_core = PNJ } }
 			}
 			random_country = {
-				limit = { exists = no tag = PAN }
-				PAN = { all_core = { remove_core = PAN } }
+				limit = { exists = no tag = PNJ }
+				PNJ = { all_core = { remove_core = PNJ } }
 			}
 			CRL = { all_core = { add_core = PAK remove_core = CRL } }
 			KAL = { all_core = { add_core = PAK remove_core = KAL } }
 			MAK = { all_core = { add_core = PAK remove_core = MAK } }
 			SIN = { all_core = { add_core = PAK remove_core = SIN } }
-			PAN = { all_core = { add_core = PAK } }
+			PNJ = { all_core = { add_core = PAK } }
 			KAS = { all_core = { add_core = PAK } }
 			random_country = {
 				limit = { tag = BNG exists = no }
@@ -1348,7 +1348,7 @@ political_decisions = {
 			NOT = { exists = PAK }
 			NOT = { tag = PAK }
 			NOT = { tag = HND }
-			NOT = { tag = PAN }
+			NOT = { tag = PNJ }
 			NOT = { tag = AFG }
 			NOT = { tag = MUG }
 			NOT = { tag = DUR }
@@ -1368,7 +1368,7 @@ political_decisions = {
 			owns = 1222
 			KAL = { all_core = { owned_by = THIS } }
 			SIN = { all_core = { owned_by = THIS } }
-#			PAN = { all_core = { owned_by = THIS } }
+			PNJ = { all_core = { owned_by = THIS } }
 		}
 		
 		effect = {	
@@ -1379,7 +1379,7 @@ political_decisions = {
 			KAL = { all_core = { add_core = PAK remove_core = KAL } }
 			MAK = { all_core = { add_core = PAK remove_core = MAK } }
 			SIN = { all_core = { add_core = PAK remove_core = SIN } }
-			PAN = { all_core = { add_core = PAK remove_core = PAN } }
+			PNJ = { all_core = { add_core = PAK remove_core = PNJ } }
 			KAS = { all_core = { add_core = PAK } }
 			random_country = {
 				limit = { tag =  BNG exists = no }

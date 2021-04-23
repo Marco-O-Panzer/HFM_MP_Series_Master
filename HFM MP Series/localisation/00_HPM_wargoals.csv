@@ -46,8 +46,8 @@ AGRESSION_WAR_CONQUEST_ANY_NAME_RUS_CIR;The $ORDER$Russo-Circassian War;;;;;;;;;
 NORMAL_WAR_CONQUEST_ANY_NAME_RUS_CIR;The $ORDER$Russo-Circassian War;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
 AGRESSION_WAR_CONQUEST_ANY_NAME_RUS_DAG;The $ORDER$Murid War;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
 NORMAL_WAR_CONQUEST_ANY_NAME_RUS_DAG;The $ORDER$Murid War;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
-AGRESSION_WAR_CONQUEST_ANY_NAME_ENG_PAN;The $ORDER$Anglo–Sikh War;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
-NORMAL_WAR_CONQUEST_ANY_NAME_ENG_PAN;The $ORDER$Anglo–Sikh War;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
+AGRESSION_WAR_CONQUEST_ANY_NAME_ENG_PNJ;The $ORDER$Anglo–Sikh War;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
+NORMAL_WAR_CONQUEST_ANY_NAME_ENG_PNJ;The $ORDER$Anglo–Sikh War;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
 NORMAL_CIVIL_WAR_NAME_ARC_ENT;The $ORDER$Platine War;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
 AGRESSION_CIVIL_WAR_NAME_ARC_ENT;The $ORDER$Platine War;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
 NO_ALLOWED_STATES;(There are no applicable states).;;;;;;;;;;;;;;;;;;;;;;;;;;x

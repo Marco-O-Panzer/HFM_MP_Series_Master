@@ -1,6 +1,6 @@
-owner = PAN
-controller = PAN
-add_core = PAN
+owner = PNJ
+controller = PNJ
+add_core = PNJ
 add_core = HND
 trade_goods = wool
 life_rating = 32
