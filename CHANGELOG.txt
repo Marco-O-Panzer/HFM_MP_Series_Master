@@ -47,6 +47,8 @@ Flavour Changes
 -- Only Kemal flava
 * Iran
 -- Atlas changes (new tags, decisions, and pop histories)
+* EIC
+-- Balance modifier changed so EIC will gain (almost) no RP, or lose it
 
 CBs
 * Restrictions on who can take what port in China removed (except for the Taipei port)
