@@ -227,15 +227,4 @@ consumer_goods = {
 		available_from_start = no
 		color = { 129 63 6 }
 	}
-	financial_services = { 
-		cost = 12
-		overseas_penalty = yes
-		available_from_start = no
-		color = { 253 199 110 }
-	}
-	shares = {
-		cost = 20
-		available_from_start = no
-		color = { 253 199 110 }
-	}
 }

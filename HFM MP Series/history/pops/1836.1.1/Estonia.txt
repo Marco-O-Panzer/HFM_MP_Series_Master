@@ -145,11 +145,6 @@
 		religion = orthodox
 		size = 100
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Narva (184000/46000 POPS)  
 350 = {
@@ -206,11 +201,6 @@
 		religion = orthodox
 		size = 1100
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Parnu (92000/23000 POPS)  
 351 = {
@@ -266,11 +256,6 @@
 		culture = estonian
 		religion = protestant
 		size = 20800
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Tartu/Dorpat (156000/39000 POPS)  
@@ -352,11 +337,6 @@
 		religion = orthodox
 		size = 1325
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Kuressaare (16000/4000 POPS)  
 353 = {
@@ -413,9 +393,5 @@
 		religion = protestant
 		size = 3225
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
+
 }

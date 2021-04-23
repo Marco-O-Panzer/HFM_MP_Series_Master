@@ -1415,7 +1415,6 @@ humanistic_psychology = {
 	area = psychology
 	year = 1920
 	cost = 60000
-	regular_experience_level = 10
 	reinforce_rate = 0.1
 	ai_chance = {
 		factor = 1

@@ -51,7 +51,6 @@ luxury_needs = {
 	aeroplanes = 0.4
 	radio = 1
 	fuel = 0.2
-	shares = 0.2
 }
 
 country_migration_target = {
@@ -4854,10 +4853,6 @@ issues =
 				NOT = { is_next_reform = acceptable_subsidies }
 				NOT = { is_ideology_enabled = socialist }
 				country = { civilized = no }
-				AND = {
-					NOT = { ruling_party_ideology = socialist }
-					NOT = { ruling_party_ideology = communist }
-				}
 			}	
 		}
 		modifier = {	
@@ -4939,10 +4934,6 @@ issues =
 				NOT = { is_next_reform = good_subsidies }
 				NOT = { is_ideology_enabled = socialist }
 				country = { civilized = no }
-				AND = {
-					NOT = { ruling_party_ideology = socialist }
-					NOT = { ruling_party_ideology = communist }
-				}
 			}	
 		}
 		modifier = {	

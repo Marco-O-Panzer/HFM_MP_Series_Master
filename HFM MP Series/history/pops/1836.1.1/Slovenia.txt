@@ -73,11 +73,6 @@
 		religion = catholic
 		size = 20000
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 	
 }
 #Carniola Region (460000)  
@@ -131,11 +126,6 @@
 		religion = catholic
 		size = 20000
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 	
 }
 #Postojna (180000/45000 POPS) 
@@ -186,11 +176,6 @@
 		culture = south_german
 		religion = catholic
 		size = 1975
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 
 }

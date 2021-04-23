@@ -2169,24 +2169,6 @@ country_event = {
 			target = ZUL
 			attacker_goal = { casus_belli = establish_protectorate_casus_belli }
 		}	
-		casus_belli = {
-			target = ZUL
-			type = establish_protectorate_NI_casus_belli
-			months = 12
-		}
-		war = {
-			target = ZUL
-			attacker_goal = { casus_belli = establish_protectorate_NI_casus_belli }
-		}	
-		casus_belli = {
-			target = ZUL
-			type = establish_protectorate_BC_casus_belli
-			months = 12
-		}
-		war = {
-			target = ZUL
-			attacker_goal = { casus_belli = establish_protectorate_BC_casus_belli }
-		}	
 		ai_chance = {
 			factor = 99
 			modifier = {

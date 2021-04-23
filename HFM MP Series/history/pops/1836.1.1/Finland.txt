@@ -37,11 +37,6 @@
 		religion = protestant
 		size = 14725
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Kajaani (16000/4000 POPS)
 337 = {
@@ -67,11 +62,6 @@
 		culture = finnish
 		religion = protestant
 		size = 3725
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Tornio (40000/10000 POPS)
@@ -104,11 +94,6 @@
 		culture = sami
 		religion = protestant
 		size = 1075
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Karelia Region (524000)
@@ -210,11 +195,6 @@
 		religion = orthodox
 		size = 100
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Kotka (64000/16000 POPS)
 340 = {
@@ -265,11 +245,6 @@
 		religion = protestant
 		size = 925
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Mikkeli (116000/29000 POPS)
 341 = {
@@ -295,11 +270,6 @@
 		culture = finnish
 		religion = protestant
 		size = 27025
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Kuopio (152000/38000 POPS)
@@ -350,11 +320,6 @@
 		culture = finnish
 		religion = orthodox
 		size = 925
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Finland Region (812000)
@@ -438,11 +403,6 @@
 		religion = protestant
 		size = 7325
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Hameenlinna (44000/11000 POPS)
 344 = {
@@ -498,11 +458,6 @@
 		culture = swedish
 		religion = protestant
 		size = 800
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Turku (280000/70000 POPS)
@@ -560,11 +515,6 @@
 		religion = protestant
 		size = 10225
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Vaasa (272000/68000 POPS)
 346 = {
@@ -620,11 +570,6 @@
 		culture = swedish
 		religion = protestant
 		size = 13675
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Tampere (84000/21000 POPS)
@@ -682,11 +627,6 @@
 		religion = protestant
 		size = 600
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Svealand Region (11000)
 #under the rule of Russia in 1836
@@ -739,9 +679,5 @@
 		religion = protestant
 		size = 130
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
+
 }

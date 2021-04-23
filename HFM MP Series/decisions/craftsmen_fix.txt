@@ -1,7 +1,6 @@
 political_decisions = {
 
 	craftsmen_fix = {
-		picture = nurse_reno
 		alert = yes
 		potential = {
 			ai = no

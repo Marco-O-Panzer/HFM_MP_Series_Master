@@ -829,7 +829,7 @@ country_event = {
 			owner = {
 				add_casus_belli = {
 					target = FROM
-					type = conquest_any
+					type = conquest
 					months = 60
 				}
 			}

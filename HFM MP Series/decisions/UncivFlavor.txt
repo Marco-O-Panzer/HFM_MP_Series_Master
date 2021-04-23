@@ -81,7 +81,6 @@ political_decisions = {
 			small_arms = 20
 			regular_clothes = 50
 			military_reform = yes_foreign_navies
-			activate_technology = clipper_design
 			military_reform = yes_foreign_training
 			add_country_modifier = { name = muhammad_alis_reforms duration = -1 }
 			any_owned = { limit = { continent = africa is_core = EGY NOT = { terrain = desert terrain = semidesert } }

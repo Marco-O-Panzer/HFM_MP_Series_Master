@@ -1,28 +1,10 @@
 ;;;;;;;;;;;;x,,,,,,,,,,,,,
-gtfo_on_title;§EEnable 'Release Vassal' decisions§!;;;;;;;;;;;;x,,
+gtfo_on_title;Enable 'Release Vassal' decisions;;;;;;;;;;;;x,,
 gtfo_on_desc;The Release Vassal decisions allow you to release vassals, and are otherwise kept hidden from view to avoid having them clutter up your decision list.;;;;;;;;;;;;x
-gtfo_off_title;§EDisable 'Release Vassal' decisions§!;;;;;;;;;;;;x,,
+gtfo_off_title;Disable 'Release Vassal' decisions;;;;;;;;;;;;x,,
 gtfo_off_desc;Your decision list will now be uncluttered!;;;;;;;;;;;;x,,
-gtfo_disabled_title;§EDeactivate 'Release Vassal' decisions§!;;;;;;;;;;;;x,,
+gtfo_disabled_title;Deactivate 'Release Vassal' decisions;;;;;;;;;;;;x,,
 gtfo_disabled_desc;The 'Release Vassal' decisions will disappear from this game session and won't reappear again. You won't be able to use these decisions again for this game.;;;;;;;;;;;;x,,
-gtfo_GBR_title;Grant Britain Independence;;;;;;;;;;;;x,,
-gtfo_GBR_desc;We've had a good run, but it's time to end our rulership of Britain: if you love something, let it go!;;;;;;;;;;;;x
-gtfo_EUR_title;Grant Europe Independence;;;;;;;;;;;;x,,
-gtfo_EUR_desc;We've had a good run, but it's time to end our rulership of Europe: if you love something, let it go!;;;;;;;;;;;;x
-gtfo_NGE_title;Grant Niger Federation Independence;;;;;;;;;;;;x,,
-gtfo_NGE_desc;We've had a good run, but it's time to end our rulership of Niger Federation: if you love something, let it go!;;;;;;;;;;;;x
-gtfo_WBA_title;Grant World Bank Independence;;;;;;;;;;;;x,,
-gtfo_WBA_desc;We've had a good run, but it's time to end our rulership of World Bank: if you love something, let it go!;;;;;;;;;;;;x
-gtfo_OCE_title;Grant Oceania Independence;;;;;;;;;;;;x,,
-gtfo_OCE_desc;We've had a good run, but it's time to end our rulership of Oceania: if you love something, let it go!;;;;;;;;;;;;x
-gtfo_EAF_title;Grant Efrica Independence;;;;;;;;;;;;x,,
-gtfo_EAF_desc;We've had a good run, but it's time to end our rulership of Efrica: if you love something, let it go!;;;;;;;;;;;;x
-gtfo_CEU_title;Grant Celts Independence;;;;;;;;;;;;x,,
-gtfo_CEU_desc;We've had a good run, but it's time to end our rulership of Celts: if you love something, let it go!;;;;;;;;;;;;x
-gtfo_TRK_title;Grant Turkey Independence;;;;;;;;;;;;x,,
-gtfo_TRK_desc;We've had a good run, but it's time to end our rulership of Turkey: if you love something, let it go!;;;;;;;;;;;;x
-gtfo_HQJ_title;Grant Heiqi Jun Independence;;;;;;;;;;;;x,,
-gtfo_HQJ_desc;We've had a good run, but it's time to end our rulership of Heiqi Jun: if you love something, let it go!;;;;;;;;;;;;x
 gtfo_MNP_title;Grant Manipur Independence;;;;;;;;;;;;x,,
 gtfo_MNP_desc;We've had a good run, but it's time to end our rulership of Manipur: if you love something, let it go!;;;;;;;;;;;;x
 gtfo_BDK_title;Grant Badakhshan Independence;;;;;;;;;;;;x,,

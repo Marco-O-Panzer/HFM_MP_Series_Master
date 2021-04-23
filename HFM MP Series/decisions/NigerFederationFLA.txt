@@ -5,7 +5,6 @@ political_decisions = {
 			continent = west_africa
 			NOT = { has_country_flag = hiding_the_decisions }
 			NGE = { exists = no }
-			ai = no
 		}
 		allow = {
 			war = no
@@ -70,7 +69,6 @@ political_decisions = {
 			add_accepted_culture = hausa
 			add_accepted_culture = fulbe
 			add_accepted_culture = kanuri
-			remove_accepted_culture = no_culture
 			any_pop = { 
 				limit = { is_primary_culture = yes }
 				militancy = 2
@@ -112,7 +110,6 @@ political_decisions = {
 			add_accepted_culture = senufo
 			add_accepted_culture = bambara
 			add_accepted_culture = songhai
-			remove_accepted_culture = no_culture
 			any_pop = { 
 				limit = { is_primary_culture = yes }
 				militancy = 2
@@ -151,7 +148,6 @@ political_decisions = {
 			add_accepted_culture = western_nigritic
 			add_accepted_culture = fulbe
 			add_accepted_culture = bambara
-			remove_accepted_culture = no_culture
 			any_pop = { 
 				limit = { is_primary_culture = yes }
 				militancy = 2
@@ -189,7 +185,6 @@ political_decisions = {
 			add_accepted_culture = sara
 			add_accepted_culture = fang
 			add_accepted_culture = ubangian
-			remove_accepted_culture = no_culture
 			any_pop = { 
 				limit = { 
 					is_primary_culture = yes 
@@ -225,7 +220,6 @@ political_decisions = {
 			add_accepted_culture = kingwana
 			add_accepted_culture = chokwe
 			add_accepted_culture = luba
-			remove_accepted_culture = no_culture
 			any_pop = { 
 				limit = { 
 					is_primary_culture = yes 
@@ -234,35 +228,6 @@ political_decisions = {
 				militancy = 1
 			}
 			set_country_flag = accepted_cwc
-		}
-	}
-	nge_resources = {
-		picture = coal_mining
-		potential = {
-			tag = NGE
-			NOT = { has_country_flag = nge_ind_rgos }
-			NOT = { has_country_flag = hiding_the_decisions }
-		}
-		allow = {
-			mechanized_mining = 1
-			high_pressure_steam_engine = 1
-			1928 = { owned_by = NGE }
-			1929 = { owned_by = NGE }
-			1930 = { owned_by = NGE }
-			1933 = { owned_by = NGE }
-			1927 = { owned_by = NGE }
-			1940 = { owned_by = NGE }
-			1939 = { owned_by = NGE }
-		}
-		effect = {
-			1928 = { trade_goods = coal }
-			1929 = { trade_goods = coal }
-			1930 = { trade_goods = coal }
-			1933 = { trade_goods = coal }
-			1927 = { trade_goods = iron }
-			1940 = { trade_goods = iron }
-			1939 = { trade_goods = iron }
-			set_country_flag = nge_ind_rgos
 		}
 	}
 }

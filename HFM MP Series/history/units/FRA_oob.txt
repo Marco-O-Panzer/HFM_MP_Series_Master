@@ -177,71 +177,35 @@ leader = {
 }
 
 army = {
-	name = "1st Army"
+	name = "Garde Royale"
 	location = 425
 	regiment = {
 		name= "1.Garde Royale"
-		type = infantry
+		type = guard
 		home = 425
 	}
 
 	regiment = {
 		name= "2.Garde Royale"
-		type = infantry
+		type = guard
 		home = 426
 	}
 
 	regiment = {
 		name= "3.Garde Royale"
-		type = infantry
+		type = guard
 		home = 427
 	}
 
 	regiment = {
 		name= "4.Garde Royale"
-		type = infantry
+		type = guard
 		home = 440
-	}
-	
-	regiment = {
-		name= "1.10ème Division d'Infanterie"
-		type = hussar
-		home = 411
-	}
-
-	regiment = {
-		name= "2.10ème Division d'Infanterie"
-		type = artillery
-		home = 407
-	}
-
-	regiment = {
-		name= "3.10ème Division d'Infanterie"
-		type = artillery
-		home = 444
-	}
-	
-	regiment = {
-		name= "1.11ème Division d'Infanterie"
-		type = artillery
-		home = 467
-	}
-
-	regiment = {
-		name= "2.11ème Division d'Infanterie"
-		type = artillery
-		home = 454
-	}
-
-	regiment = {
-		name= "3.11ème Division d'Infanterie"
-		type = artillery
-		home = 428
 	}
 }
 army = {
-	name = "2nd Army"
-	location = 429
+	name = "1ère Armée"
+	location = 438
 	regiment = {
 		name= "1.1ère Division d'Infanterie"
 		type = infantry
@@ -268,25 +232,25 @@ army = {
 
 	regiment = {
 		name= "2.2ème Division d'Infanterie"
-		type = hussar
+		type = infantry
 		home = 2570
 	}
 
 	regiment = {
 		name= "3.2ème Division d'Infanterie"
-		type = artillery
+		type = infantry
 		home = 404
 	}
 
 	regiment = {
 		name= "1.3ème Division d'Infanterie"
-		type = artillery
+		type = infantry
 		home = 402
 	}
 
 	regiment = {
 		name= "2.3ème Division d'Infanterie"
-		type = artillery
+		type = infantry
 		home = 403
 	}
 
@@ -295,16 +259,41 @@ army = {
 		type = artillery
 		home = 399
 	}
+}
 	
+army = {
+	name = "Cavalerie de la Garde"
+	location = 468
+
+
 	regiment = {
 		name= "1.Cavalerie de la Garde"
-		type = artillery
+		type = hussar
 		home = 458
 	}
+
+	regiment = {
+		name= "2.Cavalerie de la Garde"
+		type = hussar
+		home = 420
+	}
+
+	regiment = {
+		name= "3.Cavalerie de la Garde"
+		type = cuirassier
+		home = 418
+	}
+
+	regiment = {
+		name= "4.Cavalerie de la Garde"
+		type = cuirassier
+		home = 406
+	}
+
 }
 
 army = {
-	name = "3rd Army"
+	name = "Armée d'Algerie"
 	
 	leader = {
 		name = "Bertrand Clauzel"
@@ -342,43 +331,81 @@ army = {
 
 	regiment = {
 		name= "2.5ème Division d'Infanterie"
-		type = hussar
+		type = infantry
 		home = 433
 	}
 
 	regiment = {
 		name= "3.5ème Division d'Infanterie"
-		type = artillery
+		type = infantry
 		home = 431
 	}
 
 	regiment = {
 		name= "1.6ème Division d'Infanterie"
-		type = artillery
+		type = infantry
 		home = 429
 	}
 
 	regiment = {
 		name= "2.6ème Division d'Infanterie"
-		type = artillery
+		type = infantry
 		home = 442
 	}
 
 	regiment = {
 		name= "3.6ème Division d'Infanterie"
-		type = artillery
+		type = infantry
 		home = 459
 	}
-	
+}
+army = {
+	name = "7ème Division d'Infanterie"
+	location = 1701
 	regiment = {
-		name= "4.Cavalerie de la Garde"
-		type = artillery
-		home = 406
+		name= "1.7ème Division d'Infanterie"
+		type = infantry
+		home = 415
+	}
+
+	regiment = {
+		name= "2.7ème Division d'Infanterie"
+		type = infantry
+		home = 416
+	}
+
+	regiment = {
+		name= "3.7ème Division d'Infanterie"
+		type = infantry
+		home = 417
 	}
 }
 
 army = {
-	name = "4th Army"
+	name = "1ère Division de cavalerie"
+	location = 1704
+	regiment = {
+		name= "1.1ère Division de cavalerie"
+		type = dragoon
+		home = 422
+	}
+
+	regiment = {
+		name= "2.1ère Division de cavalerie"
+		type = dragoon
+		home = 436
+	}
+
+	regiment = {
+		name= "3.1ère Division de cavalerie"
+		type = dragoon
+		home = 421
+	}
+
+}
+
+army = {
+	name = "Force d'intervention Espagnole"
 	location = 458
 	regiment = {
 		name= "1.8ème Division d'Infanterie"
@@ -406,39 +433,80 @@ army = {
 
 	regiment = {
 		name= "2.9ème Division d'Infanterie"
-		type = hussar
+		type = artillery
 		home = 470
 	}
 
 	regiment = {
 		name= "3.9ème Division d'Infanterie"
-		type = artillery
+		type = infantry
 		home = 434
 	}
 
 	regiment = {
 		name= "1.2ème Division de cavalerie"
-		type = artillery
+		type = cuirassier
 		home = 462
 	}
 
 	regiment = {
 		name= "2.2ème Division de cavalerie"
-		type = artillery
+		type = cuirassier
 		home = 463
 	}
 
 	regiment = {
 		name= "3.2ème Division de cavalerie"
-		type = artillery
+		type = cuirassier
 		home = 460
 	}
 
+}
+
+army = {
+	name = "Garnison du Sénégal"
+	location = 1784
 	regiment = {
-		name= "3.1ère Division de cavalerie"
-		type = artillery
-		home = 421
+		name= "1.10ème Division d'Infanterie"
+		type = infantry
+		home = 411
 	}
+
+	regiment = {
+		name= "2.10ème Division d'Infanterie"
+		type = infantry
+		home = 407
+	}
+
+	regiment = {
+		name= "3.10ème Division d'Infanterie"
+		type = infantry
+		home = 444
+	}
+
+}
+
+army = {
+	name = "Garnison de Côte d'Ivoire"
+	location = 1894
+	regiment = {
+		name= "1.11ème Division d'Infanterie"
+		type = infantry
+		home = 467
+	}
+
+	regiment = {
+		name= "2.11ème Division d'Infanterie"
+		type = infantry
+		home = 454
+	}
+
+	regiment = {
+		name= "3.11ème Division d'Infanterie"
+		type = infantry
+		home = 428
+	}
+
 }
 
 navy = {

@@ -85,11 +85,6 @@
 		religion = orthodox
 		size = 1000
 	}
-	farmers = {
-		culture = pan_european
-		religion = orthodox
-		size = 1000
-	}
 }
 #Limassol (44000/11000 POPS)
 856 = {
@@ -146,11 +141,6 @@
 		religion = orthodox
 		size = 8425
 	}
-	farmers = {
-		culture = pan_european
-		religion = orthodox
-		size = 1000
-	}
 }
 #Famagusta (44000/11000 POPS)
 857 = {
@@ -206,11 +196,6 @@
 		culture = greek
 		religion = orthodox
 		size = 7425
-	}
-	farmers = {
-		culture = pan_european
-		religion = orthodox
-		size = 1000
 	}
 
 }

@@ -1,6 +1,5 @@
 political_decisions = {
 	accademia_della_crusca = {
-		picture = accademia_della_crusca
         potential = {
            	tag = TUS
             NOT = { has_country_flag = accademia_della_crusca }

@@ -264,12 +264,12 @@ country_event = {
 		diplomatic_influence = { who = BUR value = -200 }
 		casus_belli = {
 			target = BUR
-			type = establish_protectorate_BC_casus_belli
+			type = establish_protectorate_casus_belli
 			months = 60
 		}
 		war = {
 			target = BUR
-			attacker_goal = { casus_belli = establish_protectorate_BC_casus_belli }
+			attacker_goal = { casus_belli = establish_protectorate_casus_belli }
 			defender_goal = { casus_belli = status_quo }
 			call_ally = no
 		}
