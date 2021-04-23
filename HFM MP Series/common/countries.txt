@@ -1,7 +1,8 @@
+REB 	= 	"countries/rebels.txt"
 #Please keep tags sorted alphabetically when you add/remove country tags
 
 # Special countries...
-REB 	= 	"countries/rebels.txt"
+# keep REB at the top of the file, or britian starts at war with them briefly 
 
 #Townes' New Tags:
 GBR		= "countries/Great Britain.txt"
