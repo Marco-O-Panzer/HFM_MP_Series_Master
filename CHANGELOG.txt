@@ -10,6 +10,8 @@ This mod is built on HFM V1.27I (SighPie) and HFM More Stuff V3.5 (u/louisky58) 
 - Aircraft Carrier icon and sprite from CWE mod (settintotrieste & others).
 - Liberate & Puppet CB, Steal Puppet CB, map textures from HFME (Jman & others)
 - Protectorate CBs from HPM 0.4.6 (arkhometha)
+- Clerk only factories from PDM (Naselus)
+- Iran flavour by Atlas
 - Thanks to Nurse_Reno for the craftsmen & bureaucrats fix.
 Everything else is my own (as far as I remember).
 Note that 'global' on a modifier means just across your country.
@@ -43,6 +45,8 @@ Flavour Changes
 * Turkey
 -- New tag, will form when ottos are a republic with no key accepted cultures
 -- Only Kemal flava
+* Iran
+-- Atlas changes (new tags, decisions, and pop histories)
 
 CBs
 * Restrictions on who can take what port in China removed (except for the Taipei port)

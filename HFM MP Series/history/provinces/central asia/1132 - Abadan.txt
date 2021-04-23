@@ -1,5 +1,6 @@
-owner = PER
-controller = PER
+owner = ARB
+controller = ARB
+add_core = ARB
 add_core = PER
 add_core = IRQ
 trade_goods = fish

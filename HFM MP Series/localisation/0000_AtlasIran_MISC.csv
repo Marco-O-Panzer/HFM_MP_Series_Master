@@ -1,0 +1,61 @@
+;;;;;;;;;;;;;x,,
+PROV901;Hasakh;;;;;;;;;;;x
+PROV3276;Dayr al-Zour;;;;;;;;;;;x
+PROV3277;al-Zubayr;;;;;;;;;;;x
+PROV3278;Lar;;;;;;;;;;;x
+PROV3279;Panjdeh;;;;;;;;;;;x
+PROV3280;Kara Kum;;;;;;;;;;;x
+PROV3281;Ghurian;;;;;;;;;;;x
+PROV3282;Qaleh-ye Kah;;;;;;;;;;;x
+PROV3283;Zabol;;;;;;;;;;;x
+PROV3284;Zaranj;;;;;;;;;;;x
+PROV3285;Panjgur;;;;;;;;;;;x
+PROV3286;Turbat;;;;;;;;;;;x
+PROV3287;Jasliq;;;;;;;;;;;x
+PROV3288;Qaleh Ganj;;;;;;;;;;;x
+PROV3289;Saqqiz;;;;;;;;;;;x
+PROV3290;Quchan;;;;;;;;;;;x
+PROV3291;Ghaen;;;;;;;;;;;x
+PROV3292;Tabas;;;;;;;;;;;x
+PROV3293;Faraj;;;;;;;;;;;x
+PROV1144;Dozdab;;;;;;;;;;;x
+PROV3294;Maymana;;;;;;;;;;;x
+PROV3295;Ghor;;;;;;;;;;;x
+PROV3296;Shela;;;;;;;;;;;x
+PER_1140;Kerman-Balochistan;;;;;;;;;;;x
+AFG_1215;Dasht-e Margo;;;;;;;;;;;x
+AFG_1212;Herat;;;;;;;;;;;x
+RUS_1102;Shirvan-Aran;;;;;;;;;;;x
+PER_1112;Azerbaijan;;;;;;;;;;;x
+PER_1148;Kohistan;;;;;;;;;;;x
+PER_1147;Khorasan;;;;;;;;;;;x
+hazara;Caspian;;;;;;;;;;;x
+north_caucasian;Ossetian;;;;;;;;;;;x
+DZD;Dozdab;;;;;;;;;;;x
+DZD_ADJ;Dozdabi;;;;;;;;;;;x
+BSR;Bushehr;;;;;;;;;;;x
+BSR_ADJ;Bushehri;;;;;;;;;;;x
+KGN;Kagan;;;;;;;;;;;x
+KGN_ADJ;Kagani;;;;;;;;;;;x
+ZFN;Za'faranlu;;;;;;;;;;;x
+ZFN_ADJ;Za'faranlu;;;;;;;;;;;x
+SHD;Shadlu;;;;;;;;;;;x
+SHD_ADJ;Shadlu;;;;;;;;;;;x
+ARB;Arabistan;;;;;;;;;;;x
+ARB_ADJ;Arabistani;;;;;;;;;;;x
+KUN;Kunduz;;;;;;;;;;;x
+KUN_ADJ;Kunduzi;;;;;;;;;;;x
+BDK;Badakhshan;;;;;;;;;;;x
+BDK_absolute_monarchy;Badakhshan;;;;;;;;;;;;;;;;;;;;;;;;x
+BDK_ADJ;Badakhshani;;;;;;;;;;;x
+PER;Iran;;;;;;;;;;;;;x
+PER_ADJ;Iranian;;;;;;;;;;;;;x
+PER_absolute_monarchy;Qajar Empire;;;;;;;;;;;;;x
+PER_absolute_monarchy_ADJ;Iranian;;;;;;;;;;;;;x
+revoke_coastal_emirate_autonomy_title;Revoke Coastal Autonomy;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+revoke_coastal_emirate_autonomy_desc;The Persian Coast for many years has been effectively controlled by Emirs loyal to the Shah only in name, in order to centralize Persian control over the coast, we must revoke the automony of these Emirates                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             §R(Note: Annexing Bushehr requires 80% westernisation, Vic2 doesn't show anything above 50%)§;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+regain_omani_coast_title;Reclaim the Strait of Hormuz;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+regain_omani_coast_desc;The powerful, maritime Sultanate of Muscat-Oman under the capable rule of the Bu-Sa'id dynasty, had managed to occupy much of the coastal lands around the Persian Gulf and the Northwest Indian Ocean, all the way to Zanzibar by the mid 1850s. These included ports, islands and coastal regions of Baluchistan, Strait of Hormuz and Laristan on the Iranian side of the Gulf of Oman and the Persian Gulf. These annexations were afforded to Oman during the chaos that ruled Iran in it's transitional period between the Zand and the Qajar dynasties, which was followed immediately by the continuous military campaign by Iran defending itself against the imperial Russian and British forces in the north and the east.\n\nWith the stabilization of our relationship with the Russians and the British, we are now in a position to begin the reoccupation of our rightful ports, coastal areas and Island lost to Oman over the years.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,
+nullify_turkmanchay_gulistan_title;Nullify Turkmanchay and Gulistan;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+nullify_turkmanchay_gulistan_desc;The Treaties of Turkmanchay and Gulistan were not only a humiliating defeat, but it was also emotional devastating. The loss of Aran, Shirvan and Erivan seperated the Iranian Shiites and the treatment of Azeris within Russia didn't help. However, in the last decades we've made tremendous scientific progress and our armies are once again modernised!;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC110086;After a long and bloody conflict the Iranians, against all odds, were able to defeat the Russians and pushed them out of Transcaucasia and Daghestan. Following the Russian surrender the Qajars demanded all of their old claims, that previously were given up in the Treaties of Turkmanchy and Gulistan. Now a new Treaty was signed, heavily favouring Iran and pushing the new border all the way up to the Terek River, seperating Chechnya.;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
