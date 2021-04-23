@@ -23,7 +23,7 @@ country_event = {
 		}
 		random_country = {
 			limit = {
-				tag = PNJ
+				tag = PAN
 				exists = yes
 				ai = yes
 			}
@@ -50,7 +50,7 @@ country_event = {
 		prestige = -35
 		relation = { who = AFG value = 50 }
 		relation = { who = RUS value = 50 }
-		leave_alliance = PNJ
+		leave_alliance = PAN
 		any_pop = {
 			limit = {
 				is_primary_culture = yes
@@ -135,7 +135,7 @@ country_event = {
 		is_disarmed = no
 		war = no
 		has_global_flag = 1_anglo_sikh_war
-		PNJ = {
+		PAN = {
 			exists = yes
 			vassal_of = ENG
 			NOT = { truce_with = ENG }
@@ -168,12 +168,12 @@ country_event = {
 		name = "EVTOPTA99102"
 		prestige = -5
 		set_global_flag = 2_anglo_sikh_war
-		relation = { who = PNJ value = -200 }
-		diplomatic_influence = { who = PNJ value = -200 }
-		release_vassal = PNJ
-		release = PNJ
+		relation = { who = PAN value = -200 }
+		diplomatic_influence = { who = PAN value = -200 }
+		release_vassal = PAN
+		release = PAN
 		war = {
-			target = PNJ
+			target = PAN
 			attacker_goal = { 
 				casus_belli = great_game_cb
 			}

@@ -1,4 +1,4 @@
-PNJ = {
+PAN = {
 	value = -100
 }
 

@@ -1048,7 +1048,7 @@ country_event = {
 			limit = {
 				THIS = { NOT = { has_country_flag = crown_from_the_gutter } }
 				OR = {
-					tag = PNJ
+					tag = PAN
 					tag = MUG
 					tag = HYD
 					tag = BNG

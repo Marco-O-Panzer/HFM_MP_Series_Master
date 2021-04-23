@@ -109,8 +109,8 @@ NORMAL_WAR_AUSTRIAN_EMPIRE_NAME_AUS_KRA;The $ORDER$Krakow Uprising;;;;;;;;;;;;;x
 AGRESSION_WAR_AUSTRIAN_EMPIRE_NAME_AUS_KRA;The $ORDER$Krakow Uprising;;;;;;;;;;;;;x,,,
 NORMAL_PUNITIVE_EXPEDITION_WAR_NAME_ENG_PER;The $ORDER$Anglo-Persian War;;;;;;;;;;;;;;;;;x,,,
 AGRESSION_PUNITIVE_EXPEDITION_WAR_NAME_ENG_PER;The $ORDER$Anglo-Persian War;;;;;;;;;;;;;;;;;x,,,
-NORMAL_WAR_PUPPET_NAME_ENG_PNJ;The $ORDER$Anglo-Sikh War;;;;;;;;;;;;x,,,
-AGRESSION_WAR_PUPPET_NAME_ENG_PNJ;The $ORDER$Anglo-Sikh War;;;;;;;;;;;;x,,,
+NORMAL_WAR_PUPPET_NAME_ENG_PAN;The $ORDER$Anglo-Sikh War;;;;;;;;;;;;x,,,
+AGRESSION_WAR_PUPPET_NAME_ENG_PAN;The $ORDER$Anglo-Sikh War;;;;;;;;;;;;x,,,
 NORMAL_WAR_PUPPET_NAME_ENG_AFG;The $ORDER$Anglo-Afghan War;;;;;;;;;;;;x,,,
 AGRESSION_WAR_PUPPET_NAME_ENG_AFG;The $ORDER$Anglo-Afghan War;;;;;;;;;;;;x,,,
 acquire_substate_core_region;Acquire substate core region;Acquérir une région comme Sous-État;Beschafft eine Unterstaatsregion;;;;;;;;;;;x

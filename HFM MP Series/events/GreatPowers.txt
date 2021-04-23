@@ -2049,7 +2049,7 @@ country_event = {
 				is_core = KAS
 				owner = {
 					civilized = no
-					tag = PNJ
+					tag = PAN
 					truce_with = ENG
 				}
 			}
@@ -2063,15 +2063,15 @@ country_event = {
 		#2nd Anglo-Sikh War
 		random_owned = {
 			limit = {
-				is_core = PNJ
+				is_core = PAN
 				owner = {
 					civilized = no
-					tag = PNJ
+					tag = PAN
 					truce_with = ENG
 					has_global_flag = 2_anglo_sikh_war
 				}
 			}
-			PNJ = { annex_to = ENG }
+			PAN = { annex_to = ENG }
 		}
 		
 		#Gaining Chitral from Afghanistan

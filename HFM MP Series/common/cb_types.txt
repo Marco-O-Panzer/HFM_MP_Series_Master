@@ -3584,7 +3584,7 @@ great_game_cb = {
 			AND = { tag = KAZ THIS = { tag = RUS } }
 			AND = { tag = BDK THIS = { tag = RUS } }
 			AND = {
-				tag = PNJ
+				tag = PAN
 				has_global_flag = 1_anglo_sikh_war
 			}
 			AND = {

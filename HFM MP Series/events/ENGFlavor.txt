@@ -2814,14 +2814,14 @@ country_event = {
 				any_pop = { militancy = 1 consciousness = 2 }
 				military_reform = yes_foreign_weapons
 				military_reform = yes_foreign_training
-				all_core = { remove_core = PNJ }
+				all_core = { remove_core = PAN }
 			}
 		ai_chance = { factor = 100 }
 	}
 	
 	option = {
 		name = "EVT3697009OPTB"
-		any_owned = { limit = { OR = { is_core = PNJ is_core = KAS } } any_pop = { militancy = 4 consciousness = 6 } }
+		any_owned = { limit = { OR = { is_core = PAN is_core = KAS } } any_pop = { militancy = 4 consciousness = 6 } }
 		ai_chance = { factor = 0 }
 	}
 }

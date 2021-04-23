@@ -52,7 +52,7 @@ AFG = {
 	influence_value = 25
 }
 
-PNJ = {
+PAN = {
 	value = -50		#relation		
 	influence_value = 25
 }

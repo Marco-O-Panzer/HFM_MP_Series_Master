@@ -869,20 +869,20 @@ political_decisions = {
 			is_greater_power = yes
 			tag = ENG
 			has_country_flag = empress_of_india
-			exists = PNJ
-			PNJ = {
-				civilized = no
-				vassal_of = ENG
-				ai = yes
-			}
+			exists = PAN
+#			PAN = {
+#				civilized = no
+#				vassal_of = ENG
+#				ai = yes
+#			}
 		}
 		
 		allow = {
-			PNJ = { average_militancy = 4 }
+#			PAN = { average_militancy = 4 }
 		}
 		
 		effect = {
-			PNJ = { annex_to = THIS }
+			ENG = { inherit = PAN }
 		}
 	}
 	

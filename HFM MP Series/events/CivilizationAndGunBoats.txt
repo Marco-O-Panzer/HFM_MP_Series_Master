@@ -4238,7 +4238,7 @@ country_event = {
 		NOT = { tag = MAK }
 		NOT = { tag = TRA }
 		NOT = { tag = CRL }
-		NOT = { tag = PNJ }
+		NOT = { tag = PAN }
 		NOT = { tag = MNP }
 		NOT = { tag = BUN }
 		NOT = { tag = BLC }

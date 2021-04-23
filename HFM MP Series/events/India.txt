@@ -447,7 +447,7 @@ country_event = {
 	picture = "ranjit_singh_death"
 	
 	trigger = {
-		tag = PNJ
+		tag = PAN
 		has_country_flag = singh
 		NOT = { has_leader = "Ranjit Singh" }
 		year = 1838
@@ -485,9 +485,9 @@ country_event = {
 		tag = ENG
 		has_global_flag = ranjit_singh_dead
 		NOT = { 
-			truce_with = PNJ 
-			relation = { who = PNJ value = 150 }
-			alliance_with = PNJ
+			truce_with = PAN 
+			relation = { who = PAN value = 150 }
+			alliance_with = PAN
 		}
 		war = no
 		NOT = { has_global_flag = 1_anglo_sikh_war }
@@ -495,9 +495,9 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 30
-		modifier = { factor = 0.8 PNJ = { average_militancy = 3 } }
+		modifier = { factor = 0.8 PAN = { average_militancy = 3 } }
 		
-		modifier = { factor = 0.5 PNJ = { average_militancy = 7 } }
+		modifier = { factor = 0.5 PAN = { average_militancy = 7 } }
 		
 		modifier = { factor = 0.8 ENG = { ai = yes } }
 		
@@ -511,8 +511,8 @@ country_event = {
 	option = {
 		name = "EVT97116OPTA"
 		#badboy = 2
-		relation = { who = PNJ value = -100 }
-		leave_alliance = PNJ
+		relation = { who = PAN value = -100 }
+		leave_alliance = PAN
 		random_owned = {
 			limit = {
 				owner = {
@@ -522,7 +522,7 @@ country_event = {
 			}
 			owner = {
 				casus_belli = {
-					target = PNJ
+					target = PAN
 					type = establish_protectorate_NI_casus_belli
 					months = 60
 				}
@@ -537,7 +537,7 @@ country_event = {
 			}
 			owner = {
 				casus_belli = {
-					target = PNJ
+					target = PAN
 					type = establish_protectorate_BC_casus_belli
 					months = 60
 				}
@@ -551,10 +551,10 @@ country_event = {
 	option = {
 		name = "EVT97116OPTB"
 		badboy = 2
-		relation = { who = PNJ value = -300 }
-		leave_alliance = PNJ
+		relation = { who = PAN value = -300 }
+		leave_alliance = PAN
 		war = {
-			target = PNJ
+			target = PAN
 			attacker_goal = { 
 				casus_belli = great_game_cb
 			}

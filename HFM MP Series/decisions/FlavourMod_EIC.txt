@@ -776,7 +776,7 @@ political_decisions = {
 			any_neighbor_country = {
 				ai = yes
 				war = no
-				NOT = { tag = PNJ }
+				NOT = { tag = PAN }
 				capital_scope = { is_core = HND }
 				vassal_of = THIS
 				NOT = { alliance_with = THIS }

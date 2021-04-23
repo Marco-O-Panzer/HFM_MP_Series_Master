@@ -161,7 +161,7 @@ country_event = {
 					truce_with = THIS
 				}
 			}
-			PNJ = {
+			PAN = {
 				has_country_flag = ranjit_singh_dead
 				exists = yes
 				civilized = no
@@ -286,7 +286,7 @@ country_event = {
 						neighbour = ENG
 					}
 					AND = {
-						tag = PNJ
+						tag = PAN
 						has_country_flag = ranjit_singh_dead
 					}
 				}
@@ -348,7 +348,7 @@ country_event = {
 						neighbour = ENG
 					}
 					AND = {
-						tag = PNJ
+						tag = PAN
 						has_country_flag = ranjit_singh_dead
 					}
 				}
@@ -528,7 +528,7 @@ country_event = {
 						neighbour = ENG
 					}
 					AND = {
-						tag = PNJ
+						tag = PAN
 						has_country_flag = ranjit_singh_dead
 					}
 				}
@@ -592,7 +592,7 @@ country_event = {
 			tag = KAZ
 			tag = BDK
 			AND = {
-				tag = PNJ
+				tag = PAN
 				has_country_flag = ranjit_singh_dead
 			}
 		}

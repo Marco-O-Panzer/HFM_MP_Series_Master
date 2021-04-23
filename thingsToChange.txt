@@ -10,6 +10,7 @@ BUGS:
 * AI is stupid
 * potential issues with CBs via events or decisions
 * coptic empire wont get effects of religious conversion national flag
+* PAN tag has issues in decisions, had to comment out in gtfo, India, ENG files
 
 
 Maybe:
