@@ -2,11 +2,13 @@ capital = 1121
 primary_culture = persian
 culture = azerbaijani
 culture = hazara
+culture = tajik
+culture = turkmen
 religion = shiite
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.03
+literacy = 0.10
 non_state_culture_literacy = 0.01
 
 # Political reforms
@@ -55,9 +57,6 @@ set_country_flag = shiite_country
 foreign_artillery = yes_foreign_artillery
 foreign_weapons = yes_foreign_weapons
 land_reform = yes_land_reform
-admin_reform = yes_admin_reform
-finance_reform = yes_finance_reform 
-monetary_reform = yes_monetary_reform 
 
 govt_flag = {
 	government = absolute_monarchy
@@ -67,9 +66,6 @@ govt_flag = {
 # Technologies
 flintlock_rifles = 1
 bronze_muzzle_loaded_artillery = 1
-no_standard = 1
-private_banks = 1
-early_classical_theory_and_critique = 1
 
 # Inventions
 
@@ -87,7 +83,7 @@ oob = "PER_oob.txt"
 	foreign_weapons = yes_foreign_weapons
 	foreign_officers = yes_foreign_officers
 	finance_reform = yes_finance_reform
-	education_reform = yes_western_science
+	education_reform = yes_education_reform
 
 	# Technologies
 	military_staff_system = 1

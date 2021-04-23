@@ -1,3 +1,5 @@
+#Please keep tags sorted alphabetically when you add/remove country tags
+
 # Special countries...
 REB 	= 	"countries/rebels.txt"
 
@@ -10,8 +12,6 @@ OCE		= "countries/Oceania.txt"
 EAF		= "countries/East Africa Federation.txt"
 CEU		= "countries/Celtic Union.txt"
 TRK		= "countries/Turkey.txt"
-
-#Please keep tags sorted alphabetically when you add/remove country tags
 
 ### NEW NATIONS MOD ###
 
@@ -239,6 +239,14 @@ TKM		= "countries/Turkmenistan.txt"
 TKS		= "countries/Turkestan.txt"
 UYG		= "countries/Uyghurstan.txt"
 UZB		= "countries/Uzbekistan.txt"
+#Atlas' Additions
+DZD		= "countries/Dozdab.txt"
+BSR		= "countries/Bushehr.txt"
+KGN		= "countries/Kagan.txt"
+ZFN		= "countries/Zafaranlu.txt"
+SHD		= "countries/Shadlu.txt"
+ARB		= "countries/Arabistan.txt"
+KUN		= "countries/Kunduz.txt"
 
 #India
 ASM		= "countries/Assam.txt"
@@ -584,7 +592,6 @@ ELS		="countries/El Salvador.txt"
 GUA		="countries/Guatemala.txt"
 HAI		="countries/Haiti.txt"
 HAW		="countries/Hawaii.txt"
-# MAN		="countries/Manhattan Commune.txt"
 MEX		="countries/Mexico.txt"
 MTC		="countries/Metis Confederacy.txt"
 HON		="countries/Honduras.txt"

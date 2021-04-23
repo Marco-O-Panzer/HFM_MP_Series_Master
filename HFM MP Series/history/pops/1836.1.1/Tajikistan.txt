@@ -3,63 +3,63 @@
 #Khujand (200000/50000 POPS) #now part of Tajikistan  
 1201 = {
 	aristocrats = {
-		culture = uzbek
+		culture = tajik
 		religion = sunni
 		size = 775
 	}
 
 	clergymen = {
-		culture = uzbek
+		culture = tajik
 		religion = sunni
 		size = 400
 	}
 
 	artisans = {
-		culture = uzbek
+		culture = tajik
 		religion = sunni
-		size = 2000
+		size = 12000
 	}
 
 	soldiers = {
-		culture = uzbek
+		culture = tajik
 		religion = sunni
 		size = 400
 	}
 
 	farmers = {
-		culture = uzbek
+		culture = tajik
 		religion = sunni
-		size = 36425
+		size = 18425
 	}
 
 	aristocrats = {
-		culture = tajik
+		culture = uzbek
 		religion = sunni
 		size = 175
 	}
 
 	clergymen = {
-		culture = tajik
+		culture = uzbek
 		religion = sunni
 		size = 75
 	}
 
 	artisans = {
-		culture = tajik
+		culture = uzbek
 		religion = sunni
 		size = 500
 	}
 
 	soldiers = {
-		culture = tajik
+		culture = uzbek
 		religion = sunni
-		size = 100
+		size = 3100
 	}
 
 	farmers = {
-		culture = tajik
+		culture = uzbek
 		religion = sunni
-		size = 9150
+		size = 14150
 	}
 }
 #Badakhshan Region (212000) 
