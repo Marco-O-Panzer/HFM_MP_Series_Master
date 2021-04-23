@@ -1,6 +1,5 @@
-owner = DZD
-controller = DZD
-add_core = DZD
+owner = PER
+controller = PER
 add_core = PER
 add_core = BLC
 trade_goods = grain

@@ -585,7 +585,7 @@ bank = {
 	type = factory
 	on_completion = factory
 	completion_size = 0.2
-	max_level = 99
+	max_level = 50
 	cost = 100000
 	goods_cost = 
 	{
@@ -602,10 +602,10 @@ bank = {
 }
 
 stock_exchange = {
-	type = factory
+	type = financial
 	on_completion = factory
 	completion_size = 0.2
-	max_level = 99
+	max_level = 50
 	cost = 100000
 	goods_cost = 
 	{
