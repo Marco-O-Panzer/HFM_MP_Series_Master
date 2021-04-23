@@ -1,5 +1,6 @@
-political_decisions = {	
+political_decisions = {
 	incorp = { 
+		picture = victorian_diplomats
 		potential = {
 			is_greater_power = yes
 			ai = no

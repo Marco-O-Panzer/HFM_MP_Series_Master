@@ -45,20 +45,24 @@ country_event = {
 			duration = -1
 		}
 
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 0
-				OR = {
-					is_culture_group = east_asian
-					is_culture_group = far_east_asian
-				}
-			}
-			modifier = {
-				factor = 0.5
-				nationalvalue = nv_tradition
-			}
+		ai_chance = {	#to nerf ai unciv westernisation
+			factor = 0
 		}
+
+#		ai_chance = {
+#			factor = 50
+#			modifier = {
+#				factor = 0
+#				OR = {
+#					is_culture_group = east_asian
+#					is_culture_group = far_east_asian
+#				}
+#			}
+#			modifier = {
+#				factor = 0.5
+#				nationalvalue = nv_tradition
+#			}
+#		}
 	}
 	option = {
 		name = "EVTOPTB13000"
@@ -82,21 +86,25 @@ country_event = {
 			limit = { owner = { foreign_training = yes_foreign_training } }
 			owner = { add_country_modifier = { name = isolationist_foreign_training duration = -1 } }
 		}
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 0
-				part_of_sphere = yes
-			}
-			modifier = {
-				factor = 0
-				is_vassal = yes
-			}
-			modifier = {
-			 	factor = 1.5
-			 	nationalvalue = nv_tradition
-			 }
+		ai_chance = {	#to nerf ai unciv westernisation
+			factor = 100
 		}
+		
+#		ai_chance = {
+#			factor = 50
+#			modifier = {
+#				factor = 0
+#				part_of_sphere = yes
+#			}
+#			modifier = {
+#				factor = 0
+#				is_vassal = yes
+#			}
+#			modifier = {
+#			 	factor = 1.5
+#			 	nationalvalue = nv_tradition
+#			 }
+#		}
 	}
 }
 
@@ -4938,10 +4946,10 @@ country_event = {
 			ammunition = 50
 			canned_food = 50
 		}
-		casus_belli = { type = conquest target = ASH months = 60 }
+		casus_belli = { type = conquest_any target = ASH months = 60 }
 		war = {
 			target = ASH
-			attacker_goal = { casus_belli = conquest }
+			attacker_goal = { casus_belli = conquest_any }
 		}
 		ai_chance = { factor = 100 }
 	}

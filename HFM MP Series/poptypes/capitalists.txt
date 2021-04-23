@@ -40,6 +40,7 @@ everyday_needs = {
 	telephones = 5
 	automobiles = 1
 	steamer_convoy = 1.5
+	shares = 1
 }
 
 #Total cash needed: 3883 - Vanilla value: 3863
@@ -65,6 +66,7 @@ luxury_needs = {
 	small_arms = 1 
 	clipper_convoy = 2
 	steamer_convoy = 3
+	shares = 2
 }
 
 
@@ -4686,6 +4688,10 @@ issues =
 				NOT = { is_next_reform = acceptable_subsidies }
 				NOT = { is_ideology_enabled = socialist }
 				country = { civilized = no }
+				AND = {
+					NOT = { ruling_party_ideology = socialist }
+					NOT = { ruling_party_ideology = communist }
+				}
 			}	
 		}
 		
@@ -4756,6 +4762,10 @@ issues =
 				NOT = { is_next_reform = good_subsidies }
 				NOT = { is_ideology_enabled = socialist }
 				country = { civilized = no }
+				AND = {
+					NOT = { ruling_party_ideology = socialist }
+					NOT = { ruling_party_ideology = communist }
+				}
 			}	
 		}
 

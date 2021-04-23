@@ -170,6 +170,11 @@
 		religion = jewish
 		size = 8575
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Brest-Litovsk (324000/81000 POPS)
 937 = {
@@ -315,6 +320,11 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 9500
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Pinsk (276000/69000 POPS)
@@ -462,6 +472,11 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 6125
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Byelorussia Region (1364000)
@@ -659,6 +674,11 @@
 		religion = jewish
 		size = 12225
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Lida (192000/48000 POPS)
 938 = {
@@ -762,6 +782,11 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 6125
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Baranovichi (196000/49000 POPS)
@@ -867,6 +892,11 @@
 		religion = jewish
 		size = 4275
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Slutsk (204000/51000 POPS)
 941 = {
@@ -946,6 +976,11 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 6125
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Mozyr (308000/77000 POPS)
@@ -1038,6 +1073,11 @@
 		culture = ukrainian
 		religion = orthodox
 		size = 23325
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Smolensk Region (392000) #see Russia.txt for balance of region 
@@ -1163,6 +1203,11 @@
 		religion = jewish
 		size = 5625
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Vitebsk Region (2028000)
 #under the rule of Russia in 1836
@@ -1286,6 +1331,11 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 6350
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Polotsk (628000/157000 POPS)
@@ -1415,6 +1465,11 @@
 		religion = catholic
 		size = 4625
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Pastavy (348000/87000 POPS)
 947 = {
@@ -1518,6 +1573,11 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 8325
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Mogilev (392000/98000 POPS)
@@ -1623,6 +1683,11 @@
 		religion = jewish
 		size = 6600
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Gomel (388000/97000 POPS)
 949 = {
@@ -1703,5 +1768,9 @@
 		religion = jewish
 		size = 11225
 	}
-
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }

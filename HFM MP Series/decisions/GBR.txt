@@ -145,6 +145,10 @@ political_decisions = {
 					name = gbr_rgo
 					duration = -1
 				}
+				add_province_modifier = {
+					name = baby_boom
+					duration = 1825
+				}
 			}
 			tech_school = culture_tech_school
 			set_country_flag = our_home

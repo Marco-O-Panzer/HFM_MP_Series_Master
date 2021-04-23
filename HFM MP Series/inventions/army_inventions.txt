@@ -75,7 +75,6 @@ field_fortifications = {
 railroad_transport_groups = {
 	limit = {
 		strategic_mobility = 1
-		has_country_flag = existing_country
 	}
 	chance = {
 		base = 0
@@ -275,7 +274,6 @@ trench_systems = {
 gas_attack_capability = {
 	limit = {
 		military_directionism = 1
-		has_country_flag = existing_country
 	}
 	chance = {
 		base = 0
@@ -295,7 +293,6 @@ gas_attack_capability = {
 gas_defense_capability = {
 	limit = {
 		military_directionism = 1
-		has_country_flag = existing_country
 	}
 	chance = {
 		base = 0
@@ -484,8 +481,7 @@ stormtrooper_training = {
 }
 tank_experiments = {
 	limit = {
-		infiltration = 1
-		has_country_flag = existing_country
+		heavy_armament_dunno = 1
 	}
 	chance = {
 		base = 1
@@ -509,7 +505,7 @@ tank_experiments = {
 	}
 }
 tank_exploits = {
-	limit = { infiltration = 1 }
+	limit = { heavy_armament_dunno = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -585,7 +581,7 @@ firepower_vs_mobility = {
 	}
 }
 grand_battle_plan_vs_superior_firepower = {
-	limit = { modern_army_doctrine = 1 }
+	limit = { modern_army_doctrine_1920 = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -605,7 +601,7 @@ grand_battle_plan_vs_superior_firepower = {
 	}
 }
 human_wave_vs_spearhead = {
-	limit = { modern_army_doctrine = 1 }
+	limit = { modern_army_doctrine_1920 = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -823,7 +819,6 @@ colonial_negotiations = {
 	limit = { 
 		year = 1880 
 		breech_loaded_rifles = 1
-		has_country_flag = existing_country
 	}
 	news = no
 	chance = {
@@ -909,7 +904,7 @@ bolt_action_rifle_armament = {
 }
 #modern_divisional_structure
 interwar_infantry = {
-	limit = { modern_divisional_structure = 1 }
+	limit = { advanced_divisional_structure = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -945,7 +940,7 @@ interwar_infantry = {
 	}
 }
 interwar_cavalry = {
-	limit = { modern_divisional_structure = 1 }
+	limit = { advanced_divisional_structure = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -1052,7 +1047,7 @@ light_tank = {
 	}
 }
 armoured_cars = {
-	limit = { heavy_armament_dunno = 1 }
+	limit = { railway_gun = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -1076,7 +1071,7 @@ armoured_cars = {
 	}
 }
 anti_aircraft_artillery = {
-	limit = { heavy_armament_dunno = 1 }
+	limit = { railway_gun = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -1097,7 +1092,7 @@ anti_aircraft_artillery = {
 	}
 }
 improved_anti_aircraft_artillery = {
-	limit = { heavy_armament_dunno = 1 }
+	limit = { railway_gun = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -1246,7 +1241,6 @@ telegraph_coordination = {
 mobilization_time_tables = {
 	limit = {
 		military_plans = 1
-		has_country_flag = existing_country
 	}
 	chance = {
 		base = 2
@@ -1267,7 +1261,6 @@ mobilization_time_tables = {
 personnel_category_tables = {
 	limit = {
 		military_plans = 1
-		has_country_flag = existing_country
 	}
 	chance = {
 		base = 2
@@ -1566,7 +1559,7 @@ late_interwar_fighters = {
 	}
 }
 t_air_superiority = {
-	limit = { aeronautics = 1 }
+	limit = { combined_arms_experiments = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -1590,7 +1583,7 @@ t_air_superiority = {
 	}
 }
 flying_circus_doctrine = {
-	limit = { aeronautics = 1 }
+	limit = { combined_arms_experiments = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -1614,7 +1607,7 @@ flying_circus_doctrine = {
 	}
 }
 force_substitution_doctrine = {
-	limit = { aeronautics = 1 }
+	limit = { combined_arms_experiments = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -1638,7 +1631,7 @@ force_substitution_doctrine = {
 	}
 }
 battlefield_destruction_doctrine = {
-	limit = { aeronautics = 1 }
+	limit = { combined_arms_experiments = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -1663,7 +1656,7 @@ battlefield_destruction_doctrine = {
 	}
 }
 operational_destruction_doctrine = {
-	limit = { aeronautics = 1 }
+	limit = { combined_arms_experiments = 1 }
 	chance = {
 		base = 2
 		modifier = {
@@ -1688,7 +1681,7 @@ operational_destruction_doctrine = {
 	}
 }
 strategic_destruction_doctrine = {
-	limit = { aeronautics = 1 }
+	limit = { combined_arms_experiments = 1 }
 	chance = {
 		base = 2
 		modifier = {

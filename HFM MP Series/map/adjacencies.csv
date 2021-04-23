@@ -223,38 +223,6 @@ From;To;Type;Through;Data;Comment
 2655;2651;impassable;0;0;Yenisei-Yakut
 2675;2651;impassable;0;0;Yenisei-Yakut
 
-#Small and Large Caucasus
-
-1104;1103;impassable;0;0;Sheki-Siyazen
-1104;1052;impassable;0;0;Sheki-Derbent
-1091;1053;impassable;0;0;Pasanauri-Gunib
-1091;3296;impassable;0;0;Pasanauri-Shela
-1092;1054;impassable;0;0;Kutaisi-Vladikavkaz
-1092;1056;impassable;0;0;Kutaisi-Pyatigorsk
-1095;1051;impassable;0;0;Sukhum-Adyghe
-3274;1051;impassable;0;0;Svaneti-Adyghe
-3274;1056;impassable;0;0;Svaneti-Pyatigorsk
-1090;1099;impassable;0;0;Tblisi-Gyumri
-1105;1099;impassable;0;0;Ganja-Gyumri
-1106;1100;impassable;0;0;Agdam-Kapan
-
-#Zagros and Albruz
-
-1112;1113;impassable;0;0;Ardabil-Rasht
-1124;1114;impassable;0;0;Qazvin-Nushahr
-1121;1114;impassable;0;0;Tehran-Nushahr
-1121;1115;impassable;0;0;Tehran-Sari
-1126;1115;impassable;0;0;Semnan-Sari
-890;1110;impassable;0;0;Van-Urumiya
-924;1110;impassable;0;0;Rewanduz-Urumiya
-924;3289;impassable;0;0;Rewanduz-Saqqiz
-925;1118;impassable;0;0;Baban-Sanandaj
-925;3289;impassable;0;0;Baban-Saqqiz
-1119;1120;impassable;0;0;Ilam-Khoramabad
-1131;1134;impassable;0;0;Ahvaz-Dehkord
-1133;1128;impassable;0;0;Dezful-Arak
-1133;1127;impassable;0;0;Dezful-Isfahan
-1133;1134;impassable;0;0;Dezful-Dehkord
 
 #
 # The canals

@@ -116,16 +116,15 @@ political_decisions = {
 	form_iberia_peacefully = {
 		picture = fueros
 		potential = {
-			tag = SPA
+			OR = {
+				tag = SPA
+				tag = SPC
+			}
 			ai = no
 			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		
 		allow = {
-			OR = {
-				government = hms_government
-				government = democracy
-			}
 			war = no
 			relation = {
 				who = POR
@@ -133,8 +132,11 @@ political_decisions = {
 			}
 			state_n_government = 1
 			idealism = 1
-			citizenship_policy = full_citizenship
-			POR = { in_sphere = SPA }
+			NOT = { citizenship_policy = residency }
+			OR = {
+				POR = { in_sphere = SPA }
+				POR = { in_sphere = SPC }
+			}
 		}
 		
 		effect = {
@@ -146,6 +148,7 @@ political_decisions = {
 				}
 				country_event = { id=11101 days = 0 }
 			}
+			set_global_flag = created_iberia
 		}
 	}
 	
@@ -270,6 +273,7 @@ political_decisions = {
 			NOT = { accepted_culture = vietnamese }
 			ai = no
 			NOT = { has_country_flag = hiding_the_decisions }
+			NOT = { has_global_flag = mp_setup }
 		}
 		
 		allow = {

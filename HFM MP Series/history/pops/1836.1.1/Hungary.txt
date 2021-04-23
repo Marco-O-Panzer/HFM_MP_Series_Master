@@ -109,6 +109,11 @@
 		religion = protestant
 		size = 2740   
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Zalaegerszeg (860000/215000 POPS) #part of Hungary today
 639 = {
@@ -303,6 +308,11 @@
 		religion = catholic
 		size = 6525 
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Baranya Region (232000) #see Croatia.txt for balance of Region
 #under the rule of Austria in 1836  
@@ -444,6 +454,11 @@
 		culture = croat
 		religion = catholic
 		size = 7435 
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Dunautul Region (1892000)  
@@ -599,6 +614,11 @@
 		religion = catholic
 		size = 15500
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Gyor (384000/96000 POPS) 
 642 = {
@@ -733,6 +753,11 @@
 		religion = catholic
 		size = 29925 
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Szekesfehervar (364000/91000 POPS) 
 643 = {
@@ -824,6 +849,11 @@
 		culture = south_german
 		religion = catholic
 		size = 23900
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Kaposvar (392000/98000 POPS) 
@@ -935,6 +965,11 @@
 		religion = catholic
 		size = 6525
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Kecskemet (108000/27000 POPS) 
 645 = {
@@ -1044,6 +1079,11 @@
 		culture = south_german
 		religion = catholic
 		size = 800 
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Felvidek Region (320000) #see Slovakia.txt and Ukraine.txt for balance of Region
@@ -1156,6 +1196,11 @@
 		culture = slovak
 		religion = catholic
 		size = 6600 
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Partium Region (1112000) #See Romania.txt for balance of region 
@@ -1275,6 +1320,11 @@
 		religion = catholic
 		size = 915 
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Szeged (628000/157000 POPS) 
 649 = {
@@ -1391,6 +1441,11 @@
 		religion = catholic
 		size = 5375  
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Bekescsab (328000/82000 POPS) 
 650 = {
@@ -1506,5 +1561,10 @@
 		culture = south_german
 		religion = catholic
 		size = 1675  
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }

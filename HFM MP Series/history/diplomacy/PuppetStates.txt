@@ -38,26 +38,26 @@ substate = {
 }
 
 #CAN / NZL / AST / MRU / NEW / RHO
-substate = {
-	first = ENG
-	second = CAN
-	start_date = 1815.1.1
-	end_date = 1936.1.1
-}
+#substate = {
+#	first = ENG
+#	second = CAN
+#	start_date = 1815.1.1
+#	end_date = 1936.1.1
+#}
 
-substate = {
-	first = ENG
-	second = AST
-	start_date = 1815.1.1
-	end_date = 1936.1.1
-}
+#substate = {
+#	first = ENG
+#	second = AST
+#	start_date = 1815.1.1
+#	end_date = 1936.1.1
+#}
 
-substate = {
-	first = ENG
-	second = NZL
-	start_date = 1815.1.1
-	end_date = 1936.1.1
-}
+#substate = {
+#	first = ENG
+#	second = NZL
+#	start_date = 1815.1.1
+#	end_date = 1936.1.1
+#}
 
 substate = {
 	first = ENG
@@ -66,12 +66,12 @@ substate = {
 	end_date = 1936.1.1
 }
 
-substate = {
-	first = ENG
-	second = NEW
-	start_date = 1815.1.1
-	end_date = 1936.1.1
-}
+#substate = {
+#	first = ENG
+#	second = NEW
+#	start_date = 1815.1.1
+#	end_date = 1936.1.1
+#}
 
 substate = {
 	first = ENG
@@ -758,39 +758,4 @@ vassal = {
 	second = HDJ
 	start_date = 1861.1.1
 	end_date = 1936.1.1
-}
-
-#Iran Vassal States
-vassal = {
-	first = PER
-	second = ZFN
-	start_date = 1836.1.1
-	end_date = 1895.1.1
-}
-
-vassal = {
-	first = PER
-	second = SHD
-	start_date = 1836.1.1
-	end_date = 1895.1.1
-}
-vassal = {
-	first = PER
-	second = BSR
-	start_date = 1836.1.1
-	end_date = 1850.1.1
-}
-
-vassal = {
-	first = PER
-	second = KGN
-	start_date = 1836.1.1
-	end_date = 1880.1.1
-}
-
-vassal = {
-	first = PER
-	second = ARB
-	start_date = 1836.1.1
-	end_date = 1925.1.1
 }

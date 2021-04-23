@@ -127,6 +127,11 @@
 		religion = jewish
 		size = 800
 	}
+	farmers = {
+		culture = pan_european
+		religion = protestant
+		size = 1000
+	}
 }
 #Valmeira (516000/129000 POPS)  
 355 = {
@@ -261,6 +266,11 @@
 		religion = catholic
 		size = 200
 	}
+	farmers = {
+		culture = pan_european
+		religion = protestant
+		size = 1000
+	}
 
 }
 #Daugavpils (136000/34000 POPS)  
@@ -378,6 +388,11 @@
 		religion = catholic
 		size = 2025
 	}
+	farmers = {
+		culture = pan_european
+		religion = protestant
+		size = 1000
+	}
 }
 #Jelgava (128000/32000 POPS)  
 357 = {
@@ -457,6 +472,11 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 750
+	}
+	farmers = {
+		culture = pan_european
+		religion = protestant
+		size = 1000
 	}
 }
 #Ventspils (140000/35000 POPS) #uralic = Livonian 
@@ -538,6 +558,11 @@
 		religion = jewish
 		size = 950
 	}
+	farmers = {
+		culture = pan_european
+		religion = protestant
+		size = 1000
+	}
 }
 #Liepaja (96000/24000 POPS)  
 359 = {
@@ -611,6 +636,11 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 750
+	}
+	farmers = {
+		culture = pan_european
+		religion = protestant
+		size = 1000
 	}
 
 }

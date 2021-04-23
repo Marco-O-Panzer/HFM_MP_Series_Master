@@ -273,7 +273,7 @@ country_event = {
 			}
 			add_casus_belli = {
 				target = THIS
-				type = conquest
+				type = conquest_any
 				months = 12
 			}
 		}
@@ -480,7 +480,7 @@ country_event = {
 			}
 			add_casus_belli = {
 				target = THIS
-				type = conquest
+				type = conquest_any
 				months = 12
 			}
 		}

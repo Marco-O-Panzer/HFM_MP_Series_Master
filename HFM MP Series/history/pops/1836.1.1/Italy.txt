@@ -85,6 +85,16 @@
 		religion = catholic
 		size = 11600
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Aosta (156000/39000 POPS)
 721 = {
@@ -153,6 +163,11 @@
 		religion = catholic
 		size = 5600
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Novara (212000/53000 POPS)
 722 = {
@@ -185,6 +200,11 @@
 		religion = catholic
 		size = 46525
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Alessandria (326000/79000 POPS)
 723 = {
@@ -216,6 +236,11 @@
 		culture = north_italian
 		religion = catholic
 		size = 65200
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Liguria Region (960000)
@@ -281,6 +306,11 @@
 		religion = jewish
 		size = 195
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Savona (316000/79000 POPS)
 725 = {
@@ -312,6 +342,11 @@
 		culture = north_italian
 		religion = catholic
 		size = 70700
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Lombardy Region (2512000)
@@ -426,6 +461,11 @@
 		religion = catholic
 		size = 76975
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Brescia (708000/177000 POPS)
 728 = {
@@ -457,6 +497,11 @@
 		culture = north_italian
 		religion = catholic
 		size = 159075
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Venetia Region (2060000)
@@ -583,6 +628,11 @@
 		religion = catholic
 		size = 111050
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Padua (564000/141000 POPS)
 731 = {
@@ -614,6 +664,11 @@
 		culture = north_italian
 		religion = catholic
 		size = 127775
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Treviso (232000/58000 POPS)
@@ -647,6 +702,11 @@
 		religion = catholic
 		size = 50300
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Udine (300000/75000 POPS)
 733 = {
@@ -678,6 +738,11 @@
 		culture = north_italian
 		religion = catholic
 		size = 52200
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Tirol Region (368000) #see Austria.txt for balance of Region
@@ -743,6 +808,11 @@
 		religion = catholic
 		size = 60075
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Bozen (92000/23000 POPS) #now part of Italy
 735 = {
@@ -798,6 +868,11 @@
 		culture = north_italian
 		religion = catholic
 		size = 5400
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Friuli-Istria Region (292000) #see Croatia.txt for balance of region 
@@ -875,6 +950,11 @@
 		religion = catholic
 		size = 6300
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Gorizia (180000/45000 POPS)
 737 = {
@@ -937,6 +1017,11 @@
 		religion = catholic
 		size = 375
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 
 }
 #Emilia Region (1120000)
@@ -984,6 +1069,11 @@
 		religion = catholic
 		size = 104500
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #under the rule of Modena in 1836
 #Modena (484000/121000 POPS)
@@ -1029,6 +1119,11 @@
 		religion = catholic
 		size = 108750
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Massa (164000/41000 POPS)
 740 = {
@@ -1060,6 +1155,11 @@
 		culture = north_italian
 		religion = catholic
 		size = 36700
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Romagna Region (844000)
@@ -1113,6 +1213,11 @@
 		religion = catholic
 		size = 80650
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Ferrara (180000/45000 POPS)
 742 = {
@@ -1145,6 +1250,11 @@
 		religion = catholic
 		size = 36575
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Ravenna (248000/62000 POPS)
 743 = {
@@ -1176,6 +1286,11 @@
 		culture = north_italian
 		religion = catholic
 		size = 54425
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Tuscany Region (1808000)
@@ -1241,6 +1356,11 @@
 		religion = jewish
 		size = 490
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Leghorn (380000/95000 POPS)
 745 = {
@@ -1291,6 +1411,11 @@
 		religion = jewish
 		size = 1225
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Siena (380000/95000 POPS)
 747 = {
@@ -1323,6 +1448,11 @@
 		religion = catholic
 		size = 84925
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Grosseto (184000/46000 POPS)
 748 = {
@@ -1354,6 +1484,11 @@
 		culture = north_italian
 		religion = catholic
 		size = 41225
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #under the rule of Lucca in 1836
@@ -1405,6 +1540,11 @@
 		culture = north_italian
 		religion = catholic
 		size = 19275
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Latium Region (1272000)
@@ -1487,6 +1627,11 @@
 		religion = jewish
 		size = 1375
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Viterbo (180000/45000 POPS)
 750 = {
@@ -1518,6 +1663,11 @@
 		culture = south_italian
 		religion = catholic
 		size = 40150
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Umbria-Abruzzi Region (1056000)
@@ -1565,6 +1715,11 @@
 		religion = catholic
 		size = 94750
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Ancona (180000/45000 POPS)
 752 = {
@@ -1596,6 +1751,11 @@
 		culture = south_italian
 		religion = catholic
 		size = 35025
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #under the rule of Two Sicilies in 1836
@@ -1641,6 +1801,11 @@
 		culture = south_italian
 		religion = catholic
 		size = 48875
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 	
 }
@@ -1749,6 +1914,11 @@
 		religion = catholic
 		size = 202925
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Salerno (572000/143000 POPS)
 755 = {
@@ -1781,6 +1951,11 @@
 		religion = catholic
 		size = 136175
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Gaeta (436000/109000 POPS)
 2567 = {
@@ -1812,6 +1987,11 @@
 		culture = south_italian
 		religion = catholic
 		size = 98350
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Apulia Region (1424000)
@@ -1865,6 +2045,11 @@
 		religion = catholic
 		size = 4000
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Foggia (572000/143000 POPS)
 757 = {
@@ -1896,6 +2081,11 @@
 		culture = south_italian
 		religion = catholic
 		size = 128800
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Brindisi (280000/70000 POPS)
@@ -1940,6 +2130,11 @@
 		culture = greek
 		religion = orthodox
 		size = 4500
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Calabria-Basilicata Region (1488000)
@@ -1999,6 +2194,11 @@
 		religion = orthodox
 		size = 2000
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Catanzaro (344000/86000 POPS)
 760 = {
@@ -2037,6 +2237,11 @@
 		religion = orthodox
 		size = 3550
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Potenza (572000/143000 POPS)
 761 = {
@@ -2068,6 +2273,11 @@
 		culture = south_italian
 		religion = catholic
 		size = 129325
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Sicily Region (1816000)
@@ -2133,6 +2343,11 @@
 		religion = orthodox
 		size = 4450
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Messina (352000/88000 POPS)
 763 = {
@@ -2170,6 +2385,11 @@
 		culture = albanian
 		religion = orthodox
 		size = 2000
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 	
 }
@@ -2222,6 +2442,11 @@
 		religion = orthodox
 		size = 1000
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Sardinia Region (524000)
 #under the rule of Sardinia in 1836
@@ -2268,6 +2493,11 @@
 		religion = catholic
 		size = 70895
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Sassari (188000/47000 POPS)
 766 = {
@@ -2306,6 +2536,11 @@
 		religion = catholic
 		size = 4814
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 
 }
 
@@ -2340,6 +2575,11 @@
 		religion = catholic
 		size = 3000
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 
 #Belluno - (4000/1000 POPS)
@@ -2373,6 +2613,11 @@
 		religion = catholic
 		size = 1000
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 
 }
 
@@ -2400,6 +2645,11 @@
 		culture = north_italian
 		religion = catholic
 		size = 30000
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 
 }

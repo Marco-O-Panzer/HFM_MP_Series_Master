@@ -139,6 +139,11 @@
 		religion = catholic
 		size = 800 
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Balti (320000/80000 POPS)  
 677 = {
@@ -206,5 +211,10 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 7050   
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }

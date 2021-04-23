@@ -1,9 +1,9 @@
 ;;;;;;;;;;;;x,,,,,,,,,,,,,
-return_core_on_title;Enable 'Return Cores' decisions;;;;;;;;;;;;x,,
+return_core_on_title;§EEnable 'Return Cores' decisions§!;;;;;;;;;;;;x,,
 return_core_on_desc;The Return Cores decisions allow you to return cores of vassals and spherelings, as long as you don't have a core in the province, and are otherwise kept hidden from view to avoid having them clutter up your decision list.;;;;;;;;;;;;x
-return_core_off_title;Disable 'Return Cores' decisions;;;;;;;;;;;;x,,
+return_core_off_title;§EDisable 'Return Cores' decisions§!;;;;;;;;;;;;x,,
 return_core_off_desc;Your decision list will now be uncluttered.;;;;;;;;;;;;x,,
-return_core_disabled_title;Deactivate 'Return Cores' decisions;;;;;;;;;;;;x,,
+return_core_disabled_title;§EDeactivate 'Return Cores' decisions§!;;;;;;;;;;;;x,,
 return_core_disabled_desc;The 'Return Cores' decisions will disappear from this game session and won't reappear again. You won't be able to use these decisions again for this game.;;;;;;;;;;;;x,,
 return_cores_MNP_title;Return cores to Manipur;;;;;;;;;;;;;;;;;;;;x,,
 return_cores_MNP_desc;We hold provinces that Manipur has claims on. Returning these provinces, as an act of good faith, would surely bolster our relations.;;;;;;;;;;;;x

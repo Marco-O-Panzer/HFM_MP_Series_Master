@@ -103,6 +103,11 @@
 		religion = orthodox
 		size = 500
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 
 }
 #Bulgaria Region (1132000)
@@ -264,6 +269,11 @@
 		religion = jewish
 		size = 2000
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Vidin (124000/31000 POPS)
 810 = {
@@ -374,6 +384,11 @@
 		religion = jewish
 		size = 250
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Ruse (188000/47000 POPS)
 811 = {
@@ -460,6 +475,11 @@
 		religion = jewish
 		size = 750
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Pleven (196000/49000 POPS)
 812 = {
@@ -540,6 +560,11 @@
 		religion = orthodox
 		size = 47650
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Shumen (144000/36000 POPS)
 813 = {
@@ -619,6 +644,11 @@
 		culture = bulgarian
 		religion = orthodox
 		size = 42700
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Varna (220000/55000 POPS)
@@ -705,6 +735,11 @@
 		culture = bulgarian
 		religion = orthodox
 		size = 35875
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Rumelia Region (396000)
@@ -848,6 +883,11 @@
 		religion = jewish
 		size = 750
 	}
+	farmers = {
+		culture = pan_european
+		religion = sunni
+		size = 1000
+	}
 }
 #Stara Zagora (80000/20000 POPS)
 816 = {
@@ -933,6 +973,11 @@
 		culture = bulgarian
 		religion = sunni
 		size = 4850
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Burgas (196000/49000 POPS)
@@ -1056,6 +1101,11 @@
 		religion = orthodox
 		size = 4950
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 
 }
 #Dobruja Region (84000) #see Romania.txt for balance of Region  
@@ -1174,5 +1224,10 @@
 		culture = bulgarian
 		religion = sunni
 		size = 4100  
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }

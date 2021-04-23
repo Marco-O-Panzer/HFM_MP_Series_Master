@@ -23,42 +23,8 @@ political_decisions = {
 		}
 	}
 
-	enable_options = {
-		alert = no
-		potential = {
-			ai = no
-			NOT = { has_global_flag = looking_through_options }
-			NOT = { year = 1837 }
-			NOT = { has_country_flag = test_dec }
-		}
-		
-		allow = {
-		}
-		
-		effect = {
-			set_global_flag = looking_through_options
-			set_country_flag = country_looking_through_options
-		}
-	}
-	
-	disable_options = {
-		alert = no
-		potential = {
-			ai = no
-			has_country_flag = country_looking_through_options
-			NOT = { year = 1837 }
-		}
-		
-		allow = {
-		}
-		
-		effect = {
-			clr_global_flag = looking_through_options
-			clr_country_flag = country_looking_through_options
-		}
-	}
-
 	option_disable_colonial_railroading = {
+		picture = starting_options 
 		alert = no
 		potential = {
 			ai = no
@@ -73,6 +39,7 @@ political_decisions = {
 	}
 	
 	option_disable_anarcho_liberals = {
+		picture = starting_options 
 		alert = no
 		potential = {
 			ai = no
@@ -89,13 +56,33 @@ political_decisions = {
 		}
 	}
 	
+	perma_disable_the_crises = {
+		picture = starting_options 
+		alert = no
+		potential = {
+			ai = no
+			has_country_flag = country_looking_through_options
+			NOT = { year = 1837 }
+			NOT = { has_global_flag = perma_disable_crises }
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			set_global_flag = perma_disable_crises
+		}
+	}
+	
 	option_disable_hpm_crisis = {
+		picture = starting_options 
 		alert = no
 		potential = {
 			ai = no
 			has_country_flag = country_looking_through_options
 			NOT = { year = 1837 }
 			NOT = { has_global_flag = revolution_n_counter_researched }
+			NOT = { has_global_flag = perma_disable_crises }
 		}
 		
 		allow = {
@@ -107,6 +94,7 @@ political_decisions = {
 	}
 	
 	option_enable_fantasy_countries = {
+		picture = starting_options 
 		alert = no
 		potential = {
 			ai = no
@@ -124,6 +112,7 @@ political_decisions = {
 	}
 	
 	option_enable_easter_eggs = {
+		picture = starting_options 
 		alert = no
 		potential = {
 			ai = no
@@ -141,6 +130,7 @@ political_decisions = {
 	}
 	
 	option_disable_workplace_events = {
+		picture = starting_options 
 		alert = no
 		potential = {
 			ai = no
@@ -158,6 +148,7 @@ political_decisions = {
 	}
 	
 	option_disable_bankruptcy_events = {
+		picture = starting_options 
 		alert = no
 		potential = {
 			ai = no
@@ -176,6 +167,7 @@ political_decisions = {
 	}
 	
 	option_spawn_occitania = {
+		picture = starting_options 
 		alert = no
 		potential = {
 			ai = no
@@ -241,6 +233,7 @@ political_decisions = {
 ###Disable Starting Party Loyalty
 
 	option_disable_starting_party_loyalty = {
+		picture = starting_options 
 		alert = no
 		potential = {
 			ai = no
@@ -2843,6 +2836,7 @@ political_decisions = {
 	}
 	
 	option_spectator = {
+		picture = starting_options 
 		alert = no
 		potential = {
 			ai = no
@@ -2856,6 +2850,18 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = spectator
+		}
+	}
+	
+	post_colonial_westernise = {
+		picture = the_post_colonialism
+		potential = {
+			has_country_flag = post_colonial_country
+			civilized = no
+		}
+		allow = {}
+		effect = {
+			civilized = yes
 		}
 	}
 }

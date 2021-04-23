@@ -27,6 +27,7 @@ political_decisions = {
 					exists = yes
 				}
 			}
+			NOT = { has_country_flag = claimed_frca_breakaways }
 		}
 
 		allow = {}
@@ -34,34 +35,35 @@ political_decisions = {
 		effect = {
 			casus_belli = {
 				target = COS
-				type = conquest
-				months = 12
+				type = conquest_any
+				months = 60
 			}
 			casus_belli = {
 				target = HON
-				type = conquest
-				months = 12
+				type = conquest_any
+				months = 60
 			}
 			casus_belli = {
 				target = NIC
-				type = conquest
-				months = 12
+				type = conquest_any
+				months = 60
 			}
 			casus_belli = {
 				target = ELS
-				type = conquest
-				months = 12
+				type = conquest_any
+				months = 60
 			}
 			casus_belli = {
 				target = GUA
-				type = conquest
-				months = 12
+				type = conquest_any
+				months = 60
 			}
 			casus_belli = {
 				target = LOS
-				type = conquest
-				months = 12
+				type = conquest_any
+				months = 60
 			}
+			set_country_flag = claimed_frca_breakaways
 		}
 
 		ai_will_do = {

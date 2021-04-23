@@ -87,37 +87,37 @@
 	}
 	
 	aristocrats = {
-		culture = azerbaijani
+		culture = turkish
 		religion = sunni
 		size = 400
 	}
 	
 	officers = {
-		culture = azerbaijani
+		culture = turkish
 		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
-		culture = azerbaijani
+		culture = turkish
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = azerbaijani
+		culture = turkish
 		religion = sunni
 		size = 1000
 	}
 
 	soldiers = {
-		culture = azerbaijani
+		culture = turkish
 		religion = sunni
 		size = 1100
 	}
 
 	farmers = {
-		culture = azerbaijani
+		culture = turkish
 		religion = sunni
 		size = 4000
 	}
@@ -158,9 +158,9 @@
 		size = 17325
 	}
 
-	farmers = {
-		culture = turkish
-		religion = sunni
+	slaves = {
+		culture = azerbaijani
+		religion = orthodox
 		size = 500
 	}
 }
@@ -227,25 +227,25 @@
 	}
 	
 	clergymen = {
-		culture = azerbaijani
+		culture = turkish
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = azerbaijani
+		culture = turkish
 		religion = sunni
 		size = 400
 	}
 
 	soldiers = {
-		culture = azerbaijani
+		culture = turkish
 		religion = sunni
 		size = 600
 	}
 
 	farmers = {
-		culture = azerbaijani
+		culture = turkish
 		religion = sunni
 		size = 1000
 	}
@@ -343,25 +343,25 @@
 	}
 	
 	clergymen = {
-		culture = azerbaijani
+		culture = turkish
 		religion = sunni
 		size = 75
 	}
 
 	artisans = {
-		culture = azerbaijani
+		culture = turkish
 		religion = sunni
 		size = 1525
 	}
 
 	soldiers = {
-		culture = azerbaijani
+		culture = turkish
 		religion = sunni
 		size = 1100
 	}
 
 	farmers = {
-		culture = azerbaijani
+		culture = turkish
 		religion = sunni
 		size = 2000
 	}
@@ -1068,93 +1068,6 @@
 		culture = mashriqi
 		religion = shiite
 		size = 19375
-	}
-}
-#al-Zubayr (140000/35000 POPS)
-3277 = {
-
-	aristocrats = {
-		culture = bedouin
-		religion = sunni
-		size = 100
-	}
-
-	clergymen = {
-		culture = bedouin
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
-		culture = bedouin
-		religion = sunni
-		size = 350
-	}
-
-	soldiers = {
-		culture = bedouin
-		religion = sunni
-		size = 75
-	}
-
-	farmers = {
-		culture = bedouin
-		religion = sunni
-		size = 2425
-	}
-
-	aristocrats = {
-		culture = bedouin
-		religion = shiite
-		size = 75
-	}
-
-	clergymen = {
-		culture = bedouin
-		religion = shiite
-		size = 75
-	}
-
-	artisans = {
-		culture = bedouin
-		religion = shiite
-		size = 250
-	}
-
-	soldiers = {
-		culture = bedouin
-		religion = shiite
-		size = 50
-	}
-
-	farmers = {
-		culture = bedouin
-		religion = shiite
-		size = 8550
-	}
-
-	aristocrats = {
-		culture = mashriqi
-		religion = shiite
-		size = 375
-	}
-
-	clergymen = {
-		culture = mashriqi
-		religion = shiite
-		size = 200
-	}
-
-	artisans = {
-		culture = mashriqi
-		religion = shiite
-		size = 1050
-	}
-
-	farmers = {
-		culture = mashriqi
-		religion = shiite
-		size = 9375
 	}
 }
 #Nasiriyya (152000/38000 POPS)

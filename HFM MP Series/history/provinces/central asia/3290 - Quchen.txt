@@ -1,6 +1,0 @@
-owner = ZFN
-controller = ZFN
-add_core = PER
-add_core = ZFN
-trade_goods = coal
-life_rating = 35

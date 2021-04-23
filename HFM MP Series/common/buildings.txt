@@ -186,6 +186,27 @@ synthetic_oil_factory = {
 	strategic_factory = yes
 }
 
+synthetic_rubber_factory = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		machine_parts = 300
+		steel = 200
+		cement = 200
+	}
+	time = 200
+	visibility = yes
+	onmap = no
+
+	production_type = synthetic_rubber_factory
+	pop_build_factory = yes
+	strategic_factory = yes
+}
+
 fuel_refinery = {
 	type = factory
 
@@ -558,6 +579,48 @@ winery = {
 	pop_build_factory = yes
 }
 
+############# CLERK FACTORIES
+
+bank = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 50
+	cost = 100000
+	goods_cost = 
+	{
+		steel = 350
+		cement = 500
+		glass = 350
+	}
+	time = 200
+	visibility = yes
+	onmap = no
+
+	production_type = bank
+	pop_build_factory = yes
+}
+
+stock_exchange = {
+	type = financial
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 50
+	cost = 100000
+	goods_cost = 
+	{
+		steel = 150
+		cement = 250
+		glass = 250
+	}
+	time = 100
+	visibility = yes
+	onmap = no
+
+	production_type = stock_exchange
+	pop_build_factory = yes
+}
+
 ############# BASIC FACTORIES
 
 lumber_mill = {
@@ -693,9 +756,9 @@ naval_base = {
 	onmap = yes
 	port = yes
 	visibility = yes
-	max_level = 6
+	max_level = 8
 	# Audax Validator "." Ignore_NEXT
-	colonial_points = { 30 50 70 90 110 130 } #points at levels 1-6
+	colonial_points = { 30 50 70 90 110 130 160 200} #points at levels 1-8
 	province = yes
 	one_per_state = yes
 	colonial_range = 25
@@ -713,7 +776,7 @@ railroad = {
 	time = 730
 	visibility = yes
 	onmap = yes
-	max_level = 6
+	max_level = 10
 	province = yes
 	
 	infrastructure = 0.16

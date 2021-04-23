@@ -1,7 +1,7 @@
-owner = OMA
-controller = OMA
-add_core = OMA
+owner = PER
+controller = PER
 add_core = PER
+add_core = BLC
 trade_goods = fruit
 life_rating = 35
 naval_base = 1

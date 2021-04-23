@@ -1,11 +1,13 @@
 political_decisions = {
 
 	will_receive = {
+		picture = money
 		alert = no
 		potential = {
 			ai = no
 			NOT = { has_country_flag = will_receive_grants }
 			NOT = { has_country_flag = hiding_the_decisions }
+			has_global_flag = mp_setup
 		}
 		
 		allow = { 
@@ -41,11 +43,13 @@ political_decisions = {
 #	}
 
 	will_give = {
+		picture = money_yes
 		alert = no
 		potential = {
 			ai = no
 			NOT = { has_country_flag = will_give_grants }
 			NOT = { has_country_flag = hiding_the_decisions }
+			has_global_flag = mp_setup
 		}
 
 		allow = { NOT = { has_country_flag = will_give_grants } }
@@ -56,11 +60,13 @@ political_decisions = {
 
 
 	will_not_give = {
+		picture = no_money
 		alert = no
 		potential = {
 			ai = no
 			has_country_flag = will_give_grants
 			NOT = { has_country_flag = hiding_the_decisions }
+			has_global_flag = mp_setup
 		}
 		
 		allow = { 

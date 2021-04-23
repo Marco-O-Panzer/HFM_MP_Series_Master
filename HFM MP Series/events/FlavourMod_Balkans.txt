@@ -221,12 +221,12 @@ country_event = {
 		}	
 		casus_belli = {
 			target = CRE
-			type = conquest
+			type = conquest_any
 			months = 12
 		}
 		war = {
 			target = CRE
-			attacker_goal = { casus_belli = conquest }
+			attacker_goal = { casus_belli = conquest_any }
 			defender_goal = { casus_belli = status_quo }
 		}
 		ai_chance = {
@@ -249,12 +249,12 @@ country_event = {
 		TUR = {
 			casus_belli = {
 				target = CRE
-				type = conquest
+				type = conquest_any
 				months = 12
 			}
 			war = {
 				target = CRE
-				attacker_goal = { casus_belli = conquest }
+				attacker_goal = { casus_belli = conquest_any }
 				defender_goal = { casus_belli = status_quo }
 			}
 		}

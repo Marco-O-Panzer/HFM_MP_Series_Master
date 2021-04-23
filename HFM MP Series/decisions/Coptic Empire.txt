@@ -1,0 +1,141 @@
+political_decisions = {
+	form_coptic_empire = {
+		picture = coptic_empire
+		potential = {
+			continent = east_africa
+			NOT = { has_country_flag = hiding_the_decisions }
+			EAF = { exists = no }
+			ai = no
+		}
+		allow = {
+			war = no
+			OR = {
+				civilization_progress = 0.5
+				civilized = yes
+			}
+			1852 = { owned_by = THIS }
+			1853 = { owned_by = THIS }
+			1859 = { owned_by = THIS }
+			1865 = { owned_by = THIS }
+		}
+		effect = { 
+			change_tag = EAF
+			ENG_1848 = { add_core = EAF }
+			ETH_1852 = { add_core = EAF }
+			ETH_1853 = { add_core = EAF }
+			ETH_1859 = { add_core = EAF }
+			SOM_1872 = { add_core = EAF }
+			ETH_1865 = { add_core = EAF }
+			add_country_modifier = {
+				name = niger_research
+				duration = 7300
+			}
+			add_accepted_culture = tigray
+			add_accepted_culture = amhara
+			add_accepted_culture = oromo
+			add_accepted_culture = afar
+			add_accepted_culture = cushitic
+			add_accepted_culture = harari
+			add_accepted_culture = somali
+			#remove_accepted_culture = no_culture
+			# event chain over egypt for flavour (could lead to converting egypt)
+			all_core = { liferating = 5 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	eaf_claim_sudan = {
+		picture = coptic_empire
+		potential = {
+			tag = EAF
+			NOT = { 1832 = { is_core = THIS }}
+			NOT = { has_country_flag = hiding_the_decisions }
+		}
+		allow = {
+			state_n_government = 1
+		}
+		effect = {
+			ENG_1844 = { add_core = EAF }
+			EGY_1838 = { add_core = EAF }
+			EGY_1842 = { add_core = EAF }
+			EGY_1827 = { add_core = EAF }
+			EGY_1834 = { add_core = EAF }
+		}
+	}
+	eaf_accept_sudan = {
+		picture = coptic_empire
+		potential = {
+			tag = EAF
+			NOT = { accepted_culture = sudanese }
+			NOT = { has_country_flag = hiding_the_decisions }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			NOT = { citizenship_policy = residency }
+			1844 = { owned_by = THIS }
+			1838 = { owned_by = THIS }
+			1842 = { owned_by = THIS }
+			1827 = { owned_by = THIS }
+			1834 = { owned_by = THIS }
+		}
+		effect = {
+			add_accepted_culture = sudanese
+			add_accepted_culture = beja
+			add_accepted_culture = fur
+			add_accepted_culture = nuba
+			add_accepted_culture = nilotic
+		}
+	}
+	eaf_accept_east_africa = {
+		picture = eaf_flag
+		potential = {
+			tag = EAF
+			NOT = { accepted_culture = sudanese }
+			NOT = { has_country_flag = hiding_the_decisions }
+			has_country_flag = eaf_path
+		}
+		allow = {
+			government = democracy
+			revolution_n_counterrevolution = 1
+			NOT = { citizenship_policy = residency }
+			2026 = { owned_by = THIS }
+			2032 = { owned_by = THIS }
+			2034 = { owned_by = THIS }
+			2037 = { owned_by = THIS }
+			2041 = { owned_by = THIS }
+		}
+		effect = {
+			add_accepted_culture = luo
+			add_accepted_culture = kikuyu_kamba
+			add_accepted_culture = baganda
+			add_accepted_culture = northeast_bantu
+			add_accepted_culture = banyarwanda
+			add_accepted_culture = sukuma
+			add_accepted_culture = kalenjin_maasai
+			add_accepted_culture = unyamwezi
+			add_accepted_culture = nyasa
+			add_accepted_culture = swahili
+			set_country_flag = eaf_united
+		}
+	}
+	eaf_resources = {
+		picture = coal_mining
+		potential = {
+			tag = EAF
+			NOT = { has_country_flag = eaf_ind_rgos }
+			NOT = { has_country_flag = hiding_the_decisions }
+		}
+		allow = {
+			mechanized_mining = 1
+			high_pressure_steam_engine = 1
+		}
+		effect = {
+			1860 = { trade_goods = iron }
+			1863 = { trade_goods = iron }
+			1852 = { trade_goods = coal }
+			1853 = { trade_goods = coal }
+			set_country_flag = eaf_ind_rgos
+		}
+	}
+}

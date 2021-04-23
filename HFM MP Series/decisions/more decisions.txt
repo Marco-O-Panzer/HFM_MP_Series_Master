@@ -20,7 +20,7 @@ political_decisions = {
 					is_sphere_leader_of = SPC
 					is_sphere_leader_of = POR
 				}
-				has_global_flag = fantasy_countries_enabled
+				#has_global_flag = fantasy_countries_enabled
 				}
 		}
 		allow = {

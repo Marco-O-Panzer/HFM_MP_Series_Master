@@ -75,31 +75,31 @@
 	}
 
 	aristocrats = {
-		culture = north_caucasian
+		culture = circassian
 		religion = orthodox
 		size = 25
 	}
 
 	clergymen = {
-		culture = north_caucasian
+		culture = circassian
 		religion = orthodox
 		size = 25
 	}
 
 	artisans = {
-		culture = north_caucasian
+		culture = circassian
 		religion = orthodox
 		size = 150
 	}
 
 	soldiers = {
-		culture = north_caucasian
+		culture = circassian
 		religion = orthodox
 		size = 25
 	}
 
 	farmers = {
-		culture = north_caucasian
+		culture = circassian
 		religion = orthodox
 		size = 2775
 	}
@@ -215,31 +215,31 @@
 	}
 
 	aristocrats = {
-		culture = north_caucasian
+		culture = circassian
 		religion = orthodox
 		size = 100
 	}
 
 	clergymen = {
-		culture = north_caucasian
+		culture = circassian
 		religion = orthodox
 		size = 50
 	}
 
 	artisans = {
-		culture = north_caucasian
+		culture = circassian
 		religion = orthodox
 		size = 300
 	}
 
 	soldiers = {
-		culture = north_caucasian
+		culture = circassian
 		religion = orthodox
 		size = 50
 	}
 
 	farmers = {
-		culture = north_caucasian
+		culture = circassian
 		religion = orthodox
 		size = 5500
 	}
@@ -383,7 +383,7 @@
 	farmers = {
 		culture = armenian
 		religion = orthodox
-		size = 4050
+		size = 4550
 	}
 
 	aristocrats = {
@@ -413,7 +413,7 @@
 	farmers = {
 		culture = azerbaijani
 		religion = sunni
-		size = 1400
+		size = 900
 	}
 }
 #Poti (104000/26000 POPS)

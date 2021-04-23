@@ -1407,4 +1407,53 @@ political_decisions = {
 		
 		ai_will_do = { factor = 1 }
 	}
+	
+	indian_iron_production = {
+		picture = map_india
+		potential = {
+			tag = HND
+			NOT = { has_country_flag = hnd_iron_ore_established }
+		}
+		allow = {
+			mechanized_mining = 1
+			high_pressure_steam_engine = 1
+			1262 = { owned_by = THIS }
+			1277 = { owned_by = THIS }
+			1280 = { owned_by = THIS }
+			1301 = { owned_by = THIS }
+			1302 = { owned_by = THIS }
+		}
+		effect = {
+			1262 = { trade_goods = iron }
+			1277 = { trade_goods = iron }
+			1280 = { trade_goods = iron }
+			1301 = { trade_goods = iron }
+			1302 = { trade_goods = iron }
+			set_country_flag = hnd_iron_ore_established
+		}
+	}
+	indian_coal_production = {
+		picture = map_india
+		potential = {
+			tag = HND
+			NOT = { has_country_flag = hnd_coal_established }
+		}
+		allow = {
+			mechanized_mining = 1
+			high_pressure_steam_engine = 1
+			1306 = { owned_by = THIS }
+			1278 = { owned_by = THIS }
+			1241 = { owned_by = THIS }
+			1263 = { owned_by = THIS }
+			1256 = { owned_by = THIS }
+		}
+		effect = {
+			1306 = { trade_goods = coal }
+			1278 = { trade_goods = coal }
+			1241 = { trade_goods = coal }
+			1263 = { trade_goods = coal }
+			1256 = { trade_goods = coal }
+			set_country_flag = hnd_coal_established
+		}
+	}
 }

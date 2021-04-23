@@ -145,6 +145,12 @@
 		religion = jewish
 		size = 3850
 	}
+	
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Polygyros (100000/25000 POPS) #now part of Greece
 822 = {
@@ -224,6 +230,11 @@
 		culture = greek
 		religion = orthodox
 		size = 33300
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Kavala (160000/40000 POPS) #now part of Greece
@@ -347,6 +358,11 @@
 		religion = jewish
 		size = 300
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Monastir Region (384000) #see Greece.txt for balance of region 
 #under the rule of Ottoman Empire in 1836
@@ -435,6 +451,11 @@
 		religion = sunni
 		size = 7000
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Grevena (140000/35000 POPS) #now part of Greece
 820 = {
@@ -490,6 +511,11 @@
 		culture = turkish
 		religion = sunni
 		size = 325
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Edessa (128000/32000 POPS) #now part of Greece
@@ -570,6 +596,11 @@
 		culture = turkish
 		religion = sunni
 		size = 4975
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Epirus Region (724000) #see Albania.txt for balance of region 
@@ -695,6 +726,11 @@
 		religion = jewish
 		size = 600
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Arta (220000/55000 POPS)
 825 = {
@@ -750,6 +786,11 @@
 		culture = greek
 		religion = orthodox
 		size = 425
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Ionian Islands Region (188000)
@@ -821,6 +862,11 @@
 		religion = jewish
 		size = 490
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Zante (76000/19000 POPS)
 827 = {
@@ -852,6 +898,11 @@
 		culture = greek
 		religion = orthodox
 		size = 17425
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Thrace Region (144000) #see Turkey.txt for balance of region 
@@ -935,6 +986,11 @@
 		religion = orthodox
 		size = 2550
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Dedeagatch (72000/18000 POPS)
 830 = {
@@ -1015,6 +1071,11 @@
 		religion = orthodox
 		size = 3625
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Thessaly Region (408000)  
 #under the rule of Ottoman Empire in 1836
@@ -1091,6 +1152,11 @@
 		religion = jewish
 		size = 350
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Volos (224000/56000 POPS)
 832 = {
@@ -1159,6 +1225,11 @@
 		religion = orthodox
 		size = 800
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Trikala (44000/11000 POPS)
 833 = {
@@ -1215,6 +1286,11 @@
 		religion = orthodox
 		size = 40250
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Hellas Region (510000)  
 #under the rule of Greece in 1836
@@ -1265,6 +1341,11 @@
 		religion = orthodox
 		size = 40175
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Amfissa (76000/19000 POPS)
 835 = {
@@ -1290,6 +1371,11 @@
 		culture = greek
 		religion = orthodox
 		size = 10050
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Lamia (44000/11000 POPS)
@@ -1317,6 +1403,11 @@
 		religion = orthodox
 		size = 9200
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Missolonghi (140000/35000 POPS)
 837 = {
@@ -1343,6 +1434,11 @@
 		religion = orthodox
 		size = 41000
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Khalkis (68000/17000 POPS)
 838 = {
@@ -1368,6 +1464,11 @@
 		culture = greek
 		religion = orthodox
 		size = 9100
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Peloponnese Region (220000)  
@@ -1404,6 +1505,11 @@
 		religion = orthodox
 		size = 10070
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Corinth (40000/10000 POPS)
 840 = {
@@ -1430,6 +1536,11 @@
 		religion = orthodox
 		size = 9100
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Kalamai (68000/17000 POPS)
 841 = {
@@ -1455,6 +1566,11 @@
 		culture = greek
 		religion = orthodox
 		size = 9000
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Patrai (40000/10000 POPS)
@@ -1500,6 +1616,11 @@
 		culture = greek
 		religion = orthodox
 		size = 41000
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Aegean Islands Region (184000)  
@@ -1616,6 +1737,11 @@
 		religion = orthodox
 		size = 12450
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Mytilene (44000/11000 POPS)
 844 = {
@@ -1671,6 +1797,11 @@
 		culture = greek
 		religion = orthodox
 		size = 9125
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 }
 #Rhodes (32000/8000 POPS)
@@ -1810,6 +1941,11 @@
 		religion = orthodox
 		size = 1000
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Iraklion (68000/17000 POPS)
 848 = {
@@ -1877,6 +2013,11 @@
 		culture = greek
 		religion = orthodox
 		size = 9475
+	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 
 }
