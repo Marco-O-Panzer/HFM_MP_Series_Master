@@ -3,7 +3,7 @@ controller = EGY
 add_core = EGY
 add_core = TUR
 add_core = LBN
-trade_goods = coal
+trade_goods = fruit
 life_rating = 35
 
 1861.1.1 = {
