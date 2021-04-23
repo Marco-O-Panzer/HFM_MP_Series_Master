@@ -55,6 +55,11 @@
 		religion = sunni
 		size = 1825
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #Niksic (52000/13000 POPS) 
 2569 = {
@@ -123,6 +128,11 @@
 		religion = sunni
 		size = 5825
 	}
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
+	}
 }
 #under the rule of Montenegro in 1836  
 #Cetinje (104000/26000 POPS) 
@@ -177,6 +187,11 @@
 	
 	farmers = {
 		culture = gypsy
+		religion = orthodox
+		size = 1000
+	}
+	farmers = {
+		culture = pan_european
 		religion = orthodox
 		size = 1000
 	}
@@ -380,6 +395,12 @@
 		culture = north_italian
 		religion = catholic
 		size = 100
+	}
+	
+	farmers = {
+		culture = pan_european
+		religion = orthodox
+		size = 1000
 	}
 
 }

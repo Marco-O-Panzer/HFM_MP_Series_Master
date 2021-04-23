@@ -1131,6 +1131,17 @@ emigration_chance = {
 			militancy = 9
 		}
 	}
+	
+	group = {
+		modifier = {
+			factor = -0.1
+			NOT = { militancy = 2 }
+		}
+		modifier = {
+			factor = -0.1
+			NOT = { militancy = 1 }
+		}
+	}
 
 	group = {
 		modifier = {
@@ -1284,6 +1295,13 @@ emigration_chance = {
 		factor = -2.0
 		THIS = { is_culture_group = east_asian  }
 		country = { is_culture_group = east_asian civilized = yes }
+		country = { NOT = { has_country_flag = preparations_to_kill } }
+	}
+	
+	modifier = {
+		factor = -2.0
+		THIS = { is_culture_group = south_asian  }
+		country = { is_culture_group = south_asian civilized = yes }
 		country = { NOT = { has_country_flag = preparations_to_kill } }
 	}
 	
@@ -1516,7 +1534,7 @@ assimilation_chance = {
 	factor = 1
 	
 	modifier = {
-		factor = 21
+		factor = 25
 		country = { has_country_flag = promoted_european_culture }
 		location = { continent = europe }
 	}
@@ -1741,6 +1759,11 @@ assimilation_chance = {
 #general conversion mtth, same for all pops
 conversion_chance = {
 	factor = 0.1
+
+	modifier = {
+		factor = 2
+		has_country_flag = coptic_conversions
+	}
 
 	modifier = {
 		factor = -100

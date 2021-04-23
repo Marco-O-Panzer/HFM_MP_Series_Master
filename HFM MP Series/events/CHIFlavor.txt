@@ -24,6 +24,7 @@ country_event = {
 		citizens_rights = all_voting_pops
 		accepted_culture = mongol
 		accepted_culture = tibetan
+		NOT = { has_global_flag = mp_setup }
 	}
 	
 	mean_time_to_happen = {

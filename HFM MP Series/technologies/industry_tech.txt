@@ -287,7 +287,6 @@ electrical_power_generation = {
 	farm_rgo_eff = 0.15
 	farm_rgo_size = 0.4
 	mine_rgo_size = 0.4
-	factory_throughput = 0.1
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -328,7 +327,7 @@ electrical_power_generation = {
 
 modern_power_generation = {
 	area = tech_power
-	year = 1928
+	year = 1925
 	cost = 60000
 	rgo_goods_output = { coal = 0.15 }
 	rgo_goods_output = { iron = 0.15 }
@@ -338,7 +337,6 @@ modern_power_generation = {
 	farm_rgo_eff = 0.15
 	farm_rgo_size = 0.4
 	mine_rgo_size = 0.4
-	factory_throughput = 0.1
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -669,9 +667,9 @@ shift_work = {
 
 mechanized_manufacturing = {
 	area = mechanization
-	year = 1928
+	year = 1920
 	cost = 60000
-	factory_throughput = 0.1 
+	factory_throughput = 0.2
 	rgo_throughput = 0.05
 #	factory_goods_throughput = {
 #		shares = -0.1
@@ -1560,7 +1558,7 @@ steel_railroad = {
 }
 integral_rail_system = {
 	area = tech_infrastructure
-	year = 1898
+	year = 1895
 	cost = 35000
 
 	max_railroad = 1
@@ -1591,7 +1589,7 @@ integral_rail_system = {
 }
 limited_access_roads = {
 	area = tech_infrastructure
-	year = 1919
+	year = 1910
 	cost = 47500
 
 	max_railroad = 1
@@ -1908,7 +1906,7 @@ electricity = {
 }
 synthetic_polymers = {
 	area = chemistry_and_electricity
-	year = 1919
+	year = 1910
 	cost = 47500
 
 	supply_limit = 0.50
@@ -1943,6 +1941,7 @@ modern_chemistry = {
 	year = 1920
 	cost = 60000
 	supply_limit = 1
+	soldier_to_pop_loss = 0.05
 	ai_chance = {
 		factor = 1.1
 		modifier = {

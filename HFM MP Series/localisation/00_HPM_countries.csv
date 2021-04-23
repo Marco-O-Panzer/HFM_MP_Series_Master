@@ -429,7 +429,7 @@ MHR;Mahra;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
 MHR_ADJ;Mahrai;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
 SBA;Buenos Aires;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
 SBA_ADJ;Porteno;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,
-BRZ_absolute_monarchy;The Empire of Brazil;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,
+BRZ_absolute_monarchy;The Empire of Bruhzil;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,
 BRZ_prussian_constitutionalism;The Empire of Brazil;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
 BRZ_hms_government;The Empire of Brazil;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
 BRZ_dominion;The Kingdom of Brazil;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
@@ -810,7 +810,7 @@ BAN_reactionary;The Royalist Faction;Faction nationaliste;Die nationalistische F
 BAN_anarcho_liberal;The Libertains;Faction radicale;Die radikale Fraktion;;;;;;;;;;;x
 BAN_socialist;The Socialists;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;x
 BAN_communist;The Communists;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;x
-BAN_fascist;The Nationalist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;x
+BAN_fascist;The Gamer Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;x
 BAR;Barbados;;;;;;;;;;;;x
 BAR_ADJ;Barbadian;;;;;;;;;;;;x
 BHM;Bahamas;;;;;;;;;;;;x
@@ -915,7 +915,7 @@ CHD_communist;Progressive Party;;;;;;;;;;;;;x
 CHD_fascist;National Union for Reform;;;;;;;;;;;;;x
 CHI_presidential_dictatorship;Beiyang China;;;;;;;;;;;;;x
 CHI_proletarian_dictatorship;The People's Republic of China;;;;;;;;;;;;;x
-CHI_democracy;The Chinese Federation;;;;;;;;;;;;;x
+CHI_democracy;The Chinese Federal Republic;;;;;;;;;;;;;x
 CHI_absolute_monarchy;The Empire of China;;;;;;;;;;;;;x
 CHI;China;;;;;;;;;;;;;x
 CHO;Chugoku;;;;;;;;;;;;;x
@@ -2460,8 +2460,6 @@ TRE_communist;Rivoluzionari;Rivoluzionari;Rivoluzionari;;Rivoluzio nari;;;;;;;;;
 TRE_reactionary_2;Cattolici;Cattolici;Cattolici;;C attolici;;;;;;;;;x
 TRE_anarcho_liberal;Radicali;Radicali;Radicali;;Radicali;;;;;;;;;x
 TRE_fascist;Fascisti;Fascisti;Fascisti;;Fascisti;;;;;;;;;x
-TRK;Truk;Truk;Truk;;;;;;;;;;;;x
-TRK_ADJ;Trukese;Trukese;Trukese;;;;;;;;;;;;x
 TRS;Tarasco;;;;;;;;;;;;;x
 TRS_ADJ;Tarascan;;;;;;;;;;;;;x
 TTB;Trinidad & Tobago;Trinité & Tobago;Trinidad & Tobago;;Trinidad & Tobago;;;;;;;;;x
@@ -2595,7 +2593,7 @@ URA_anarcho_liberal;Radicals;Radicaux;Radikale;;;;;;;;;;;;x;;;;;;;;;;;;;;
 URA_fascist;Fascists;Fascistes;Faschisten;;;;;;;;;;;;x;;;;;;;;;;;;;;
 USA;The United States of America;;;;;;;;;;;;;;
 USA_bourgeois_dictatorship;The United States of America;;;;;;;;;;;;;;
-USA_absolute_monarchy;The American Empire;;;;;;;;;;;;x
+USA_absolute_monarchy;The Absolute States of America;;;;;;;;;;;;x
 USA_prussian_constitutionalism;The American Empire;;;;;;;;;;;;x
 USA_hms_government;The Kingdom of America;;;;;;;;;;;;x
 USA_proletarian_dictatorship;The People's Republic of America;;;;;;;;;;;;x

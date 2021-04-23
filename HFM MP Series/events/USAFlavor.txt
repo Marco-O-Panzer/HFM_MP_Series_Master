@@ -1815,7 +1815,7 @@ country_event = {
 		
 		random_owned = {
 			limit = { owner = { NOT = { number_of_states = 2 } owns = 2209 } }
-			owner = { add_casus_belli = { target = FROM type = conquest months = 36 } }
+			owner = { add_casus_belli = { target = FROM type = conquest_any months = 36 } }
 		}
 		
 		random_owned = {

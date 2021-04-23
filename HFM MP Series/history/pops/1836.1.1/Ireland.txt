@@ -85,6 +85,11 @@
 		religion = catholic
 		size = 15250
 	}
+	farmers = {
+		culture = pan_european
+		religion = protestant
+		size = 1000
+	}
 }
 #Londonderry (524000/131000 POPS)
 255 = {
@@ -153,6 +158,11 @@
 		religion = protestant
 		size = 55000
 	}
+	farmers = {
+		culture = pan_european
+		religion = protestant
+		size = 1000
+	}
 }
 #Armagh (274000/68500 POPS)
 256 = {
@@ -214,6 +224,11 @@
 		culture = irish
 		religion = catholic
 		size = 20500
+	}
+	farmers = {
+		culture = pan_european
+		religion = protestant
+		size = 1000
 	}
 }
 #Donegal (508000/127000 POPS) 
@@ -284,6 +299,11 @@
 		religion = protestant
 		size = 16575
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 
 }
 #Connaught Region - 1316000
@@ -318,6 +338,11 @@
 		culture = irish
 		religion = catholic
 		size = 126750
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Sligo (768000/192000 POPs)
@@ -362,6 +387,11 @@
 		culture = irish
 		religion = catholic
 		size = 176250
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 
 }
@@ -458,6 +488,11 @@
 		religion = protestant
 		size = 5250
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Limerick (818000/204500 POPS)
 261 = {
@@ -496,6 +531,11 @@
 		religion = catholic
 		size = 186500
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Waterford (536000/134000 POPs)
 262 = {
@@ -527,6 +567,11 @@
 		culture = irish
 		religion = catholic
 		size = 124750
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 
 }
@@ -635,6 +680,11 @@
 		religion = catholic
 		size = 110375
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Kildare (532000/133000 POPs)
 264 = {
@@ -685,6 +735,11 @@
 		religion = catholic
 		size = 104400
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Wexford (444000/111000 POPS)
 265 = {
@@ -722,6 +777,11 @@
 		culture = irish
 		religion = catholic
 		size = 103000
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 
 }

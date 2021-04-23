@@ -146,3 +146,67 @@ country_event = {
 		capital = 876
 	}
 }
+
+country_event = {
+		
+	id = 7777915
+	
+	trigger = {
+		tag = TUR
+		government = democracy
+		NOT = { accepted_culture = misri }
+		NOT = { accepted_culture = bedouin }
+		NOT = { accepted_culture = albanian }
+		NOT = { accepted_culture = bosniak }
+		OR = {
+			is_greater_power = no
+			has_recently_lost_war = yes
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	fire_only_once = yes
+
+	title = "EVTNAME7777915"
+	desc = "EVTDESC7777915"
+	picture = "young_turks"
+		
+	option = {
+		name = "EVTOPTA7777915"
+		any_owned = {
+			limit = { is_core = BOS NOT = { is_core = TUR } }
+			secede_province = BOS
+		}
+		any_owned = {
+			limit = { is_core = GRE NOT = { is_core = TUR }}
+			secede_province = GRE
+		}
+		any_owned = {
+			limit = { is_core = BUL NOT = { is_core = TUR }}
+			secede_province = BUL
+		}
+		any_owned = {
+			limit = { is_core = ALB NOT = { is_core = TUR }}
+			secede_province = ALB
+		}
+		any_owned = {
+			limit = { is_core = SER NOT = { is_core = TUR }}
+			secede_province = SER
+		}
+		any_owned = {
+			limit = { is_core = LBY NOT = { is_core = TUR }}
+			secede_province = LBY
+		}
+		TUR = {
+			all_core = {
+				add_core = TRK
+				remove_core = TUR
+			}
+		}
+		change_tag = TRK
+	}
+}
+

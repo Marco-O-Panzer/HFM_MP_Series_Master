@@ -61,6 +61,11 @@
 		religion = catholic
 		size = 300
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Croatia Region (870000)
 #under the rule of Austria in 1836
@@ -203,6 +208,11 @@
 		religion = catholic
 		size = 6500
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Sisak (116000/29000 POPS)
 772 = {
@@ -265,6 +275,11 @@
 		religion = orthodox
 		size = 10225
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Karlovac (184000/46000 POPS)
 773 = {
@@ -320,6 +335,11 @@
 		culture = serb
 		religion = orthodox
 		size = 11125
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Senj (96000/24000 POPS)
@@ -383,6 +403,11 @@
 		religion = orthodox
 		size = 10225
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Varadzin (68000/17000 POPS)
 775 = {
@@ -420,6 +445,11 @@
 		culture = croat
 		religion = catholic
 		size = 5000
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Bjelovar (52000/13000 POPS)
@@ -495,6 +525,11 @@
 		religion = catholic
 		size = 4650
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Pozega (80000/20000 POPS)
 777 = {
@@ -538,6 +573,11 @@
 		culture = croat
 		religion = catholic
 		size = 8000
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Fiume (52000/13000 POPS)
@@ -618,6 +658,11 @@
 		culture = hungarian
 		religion = catholic
 		size = 700
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Baranya Region (180000) #see Hungary.txt for balance of Region
@@ -737,6 +782,11 @@
 		religion = catholic
 		size = 5300 
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Dalmatia Region (320000) #see Montenegro.txt for balance of region 
 #under the rule of Austria in 1836
@@ -812,6 +862,11 @@
 		culture = north_italian
 		religion = catholic
 		size = 450
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Zadar (128000/32000 POPS)
@@ -911,6 +966,11 @@
 		religion = orthodox
 		size = 6550
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Dubrovnik (52000/13000 POPS)
 782 = {
@@ -1002,6 +1062,11 @@
 		culture = serb
 		religion = orthodox
 		size = 1825
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 
 }
@@ -1097,5 +1162,10 @@
 		culture = south_german
 		religion = catholic
 		size = 1785 
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }

@@ -790,6 +790,58 @@ country_event = {
 	}
 }
 
+country_event = {	#outer or all of manchuria
+	id = 7777913
+	title = "EVTNAME7777913"
+	desc = "EVTDESC7777913"
+	picture = "asian_administration"
+	
+	is_triggered_only = yes 
+	
+	option = {
+		name = "EVT7777913OPTA"
+		any_country = {
+			limit = {
+				OR = {
+					tag = QNG
+					tag = TPG
+				}
+				exists = yes
+			}
+			country_event = 80110
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "EVT7777913OPTB"
+		CHI_1479 = { add_core = RUS }
+		CHI_1552 = { add_core = RUS }
+		badboy = 15
+		any_country = {
+			limit = {
+				OR = {
+					tag = QNG
+					tag = TPG
+				}
+				exists = yes
+			}
+			country_event = 80110
+			add_country_modifier = {
+				name = angry_chinese_reform
+				duration = 9125
+			}
+		}
+		set_country_flag = all_of_manchuria
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+		
+
 #Mongolian Protectorate
 
 country_event = {
@@ -910,7 +962,7 @@ country_event = {
 			}
 			add_casus_belli = {
 				target = THIS
-				type = conquest
+				type = conquest_any
 				months = 24
 			}
 		}

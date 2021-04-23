@@ -1124,7 +1124,7 @@ country_event = {
 		}
 		casus_belli = {
 			target = FROM
-			type = conquest
+			type = conquest_any
 			months = 60
 		}
 		any_country = {

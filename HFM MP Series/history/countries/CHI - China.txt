@@ -10,7 +10,7 @@ culture = yue
 culture = yi
 culture = hanhui
 religion = mahayana
-government = democracy
+government = presidential_dictatorship
 plurality = 0.0
 nationalvalue = nv_autocracy
 literacy = 0.08
@@ -48,6 +48,11 @@ centralization = regionalism
 colonial_policy = no_colonies 
 
 set_country_flag = mahayana_country
+
+govt_flag = {
+    government = presidential_dictatorship
+    flag = theocracy
+}
 
 ruling_party = CHI_conservative
 upper_house = {

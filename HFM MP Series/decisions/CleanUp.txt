@@ -517,6 +517,7 @@ political_decisions = {
 			ai = yes
 			exists = yes
 			NOT = { has_global_flag = revolution_n_counter_researched }
+			NOT = { has_global_flag = perma_disable_crises }
 			OR = {
 				revolution_n_counterrevolution = 1
 				any_neighbor_country = { revolution_n_counterrevolution = 1 }

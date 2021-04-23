@@ -1,6 +1,7 @@
 political_decisions = {
 
 	bureaucrats_fix = {
+		picture = nurse_reno
 		alert = yes
 		potential = {
 			ai = no

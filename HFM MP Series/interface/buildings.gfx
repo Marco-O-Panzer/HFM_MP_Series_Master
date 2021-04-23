@@ -185,6 +185,38 @@ objectTypes = {
 		scale = 0.9
 	}
 	
+		EMFXActorType = {
+		name = "building_naval_base7"
+		actorfile = "gfx\anims\Navalbase_Late_Empty.xac"
+		
+		idle   = "gfx\anims\Navalbase_Late_Animation.xsm"
+		scale = 0.9
+	}
+	
+	EMFXActorType = {
+		name = "building_naval_base7_ships"
+		actorfile = "gfx\anims\Navalbase_Late_Full.xac"
+		
+		idle   = "gfx\anims\Navalbase_Late_Animation.xsm"
+		scale = 0.9
+	}
+	
+		EMFXActorType = {
+		name = "building_naval_base8"
+		actorfile = "gfx\anims\Navalbase_Late_Empty.xac"
+		
+		idle   = "gfx\anims\Navalbase_Late_Animation.xsm"
+		scale = 0.9
+	}
+	
+	EMFXActorType = {
+		name = "building_naval_base8_ships"
+		actorfile = "gfx\anims\Navalbase_Late_Full.xac"
+		
+		idle   = "gfx\anims\Navalbase_Late_Animation.xsm"
+		scale = 0.9
+	}
+	
 	
 	EMFXActorType = {
 		name = "building_factory"

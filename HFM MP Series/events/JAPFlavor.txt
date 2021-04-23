@@ -2352,7 +2352,7 @@ country_event = {
 			leave_alliance = THIS
 			add_casus_belli = {
 				target = THIS
-				type = conquest
+				type = conquest_any
 				months = 24
 			}
 			add_casus_belli = {
@@ -2402,7 +2402,7 @@ country_event = {
 			leave_alliance = THIS
 			add_casus_belli = {
 				target = THIS
-				type = conquest
+				type = conquest_any
 				months = 24
 			}
 			add_casus_belli = {

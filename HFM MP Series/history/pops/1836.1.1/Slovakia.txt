@@ -193,6 +193,11 @@
 		religion = catholic
 		size = 33000  
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Trencin (342540/85635 POPS)
 634 = {
@@ -290,6 +295,11 @@
 		culture = south_german
 		religion = catholic
 		size = 35 
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Nitra (3279752/819938 POPS)
@@ -443,6 +453,11 @@
 		religion = catholic
 		size = 2750  
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Banska Bystrica (340000/85000 POPS)
 636 = {
@@ -558,6 +573,11 @@
 		culture = polish
 		religion = catholic
 		size = 900 
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }
 #Felvidek Region (860000) #see Hungary.txt and Ukraine.txt for balance of Region
@@ -755,6 +775,11 @@
 		religion = orthodox
 		size = 4450
 	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
+	}
 }
 #Roznava (160400/40100 POPS)
 638 = {
@@ -840,5 +865,10 @@
 		culture = ukrainian
 		religion = orthodox
 		size = 4000
+	}
+	farmers = {
+		culture = pan_european
+		religion = catholic
+		size = 1000
 	}
 }

@@ -1,20 +1,20 @@
 political_decisions = {
 		
 		infamy_for_growth_selector = {
-				picture = conduct_census
+				alert = no
+				picture = victorian_family
 				potential = {
 				ai = no
 					AND = { 
 						NOT = { has_country_modifier = birthrate_push_low  }
 						NOT = { has_country_modifier = birthrate_push_medium }
-						NOT = { has_country_modifier = birthrate_push_high  }
+#						NOT = { has_country_modifier = birthrate_push_high  }
 						NOT = { has_country_flag = pop_growth_for_infamy_chooser }
 					}
 				NOT = { has_country_flag = hiding_the_decisions }
 				}
 				
 				allow = {
-					ai = no
 					mass_politics = 1
 				}
 				
@@ -26,14 +26,15 @@ political_decisions = {
 		}
 		
 		infamy_for_growth_modifier_removal = {
-				picture = conduct_census
+				picture = victorian_family_no
+				alert = no
 				potential = {
 					AND = {	
 						ai = no
 						OR = { 
 							has_country_modifier = birthrate_push_low 
 							has_country_modifier = birthrate_push_medium
-							has_country_modifier = birthrate_push_high 
+#							has_country_modifier = birthrate_push_high 
 						}
 					}
 				NOT = { has_country_flag = hiding_the_decisions }
@@ -46,12 +47,13 @@ political_decisions = {
 				effect = {
 					remove_country_modifier = birthrate_push_low 
 					remove_country_modifier = birthrate_push_medium
-					remove_country_modifier = birthrate_push_high 
+#					remove_country_modifier = birthrate_push_high 
 				}
 		}
 		
 		infamy_for_immigration_selector = {
-				picture = conduct_census
+				picture = irish_in_britain
+				alert = no
 				potential = {
 				ai = no
 					AND = { 
@@ -95,7 +97,8 @@ political_decisions = {
 		}
 		
 		infamy_for_immigration_modifier_removal = {
-				picture = conduct_census
+				picture = irish_in_britain_no
+				alert = no
 				potential = {
 					AND = {	
 						ai = no

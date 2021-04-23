@@ -1,10 +1,13 @@
 political_decisions = {
 
 	prevent_trade_deals = {
+		picture = accept_trade_no
+		alert = no
 		potential = {
 			ai = no
 			NOT = { has_country_flag = no_trade_deals }
 			NOT = { has_country_flag = hiding_the_decisions }
+			has_global_flag = mp_setup
 		}
 		
 		allow = {
@@ -16,10 +19,13 @@ political_decisions = {
 	}
 	
 	enable_trade_deals = {
+		picture = accept_trade_yes
+		alert = no
 		potential = {
 			ai = no
 			has_country_flag = no_trade_deals
 			NOT = { has_country_flag = hiding_the_decisions }
+			has_global_flag = mp_setup
 		}
 		
 		allow = {
@@ -276,6 +282,7 @@ political_decisions = {
 			}
 			NOT = { has_country_flag = no_trade_deals }
 			NOT = { has_country_flag = hiding_the_decisions }
+			has_global_flag = mp_setup
 			NOT = {
 				OR = {
 					has_country_flag = supplier_1

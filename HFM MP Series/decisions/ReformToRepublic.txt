@@ -2,7 +2,10 @@ political_decisions = {
 	proclaim_republic = {
 		picture = provincia_britannia
 		potential = {
-			government = hms_government
+			OR = {
+				government = french_bourbon 
+				government = hms_government
+			}
 			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		allow = {

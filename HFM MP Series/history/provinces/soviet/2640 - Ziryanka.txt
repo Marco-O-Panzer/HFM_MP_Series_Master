@@ -1,8 +1,8 @@
 owner = OMA
 controller = OMA
 add_core = OMA
-add_core = PER
 add_core = BLC
+add_core = MAK
 trade_goods = fish
-terrain = plains
-life_rating = 35
+terrain = mountain
+life_rating = 31

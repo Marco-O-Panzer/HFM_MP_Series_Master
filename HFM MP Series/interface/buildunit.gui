@@ -634,17 +634,17 @@ guiTypes = {
 		}
 		guiButtonType = {
 			name = "unit_folder_8"
-			position = { x= 152 y =31}
+			position = { x= 224 y =31}
 			quadTextureSprite ="GFX_unit_folder_navy_4_commerce_raider"
 		}
 		guiButtonType = {
 			name = "unit_folder_9"
-			position = { x= 188 y =31}
+			position = { x= 152 y =31}
 			quadTextureSprite ="GFX_unit_folder_navy_5_ironclad"
 		}
 		guiButtonType = {
 			name = "unit_folder_10"
-			position = { x= 224 y =31}
+			position = { x= 188 y =31}
 			quadTextureSprite ="GFX_unit_folder_navy_6_monitor"
 		}
 		guiButtonType = {
