@@ -1558,23 +1558,23 @@ political_decisions = {
 				OR = {
 					AND = {
 						owns = 2293
-						2293 = { trade_goods = precious_metal NOT = { has_province_modifier = silver_mine } }
+						2293 = { trade_goods = precious_goods NOT = { has_province_modifier = silver_mine } }
 					}
 					AND = {
 						owns = 2296
-						2296 = { trade_goods = precious_metal NOT = { has_province_modifier = silver_mine } }
+						2296 = { trade_goods = precious_goods NOT = { has_province_modifier = silver_mine } }
 					}
 					AND = {
 						owns = 312
-						312 = { trade_goods = precious_metal NOT = { has_province_modifier = silver_mine } }
+						312 = { trade_goods = precious_goods NOT = { has_province_modifier = silver_mine } }
 					}
 					AND = {
 						owns = 2322
-						2322 = { trade_goods = precious_metal NOT = { has_province_modifier = silver_mine } }
+						2322 = { trade_goods = precious_goods NOT = { has_province_modifier = silver_mine } }
 					}
 					AND = {
 						owns = 2323
-						2323 = { trade_goods = precious_metal NOT = { has_province_modifier = silver_mine } }
+						2323 = { trade_goods = precious_goods NOT = { has_province_modifier = silver_mine } }
 					}
 				}
 			}
@@ -1588,7 +1588,7 @@ political_decisions = {
 			any_neighbor_country = {
 				any_owned = {
 					limit = {
-						trade_goods = precious_metal
+						trade_goods = precious_goods
 						NOT = { has_province_modifier = silver_mine }
 						OR = {
 							province_id = 2293

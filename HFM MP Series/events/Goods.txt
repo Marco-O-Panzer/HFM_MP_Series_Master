@@ -26,7 +26,7 @@ province_event = {
 			province_id = 1187			# Semipalatinsk
 			province_id = 1070			# Yeniseysk - Russia
 		}
-		not = { trade_goods = precious_metal }
+		not = { trade_goods = precious_goods }
 	}
 
 	mean_time_to_happen =  {
@@ -38,7 +38,7 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1100"
-		trade_goods = precious_metal
+		trade_goods = precious_goods
 		add_province_modifier = {
 			name = gold_rush
 			duration = 730
@@ -83,7 +83,7 @@ province_event = {
 			province_id = 2645			# Bodaybo, Russia
 			#province_id = 2058			# Moyo, Mozambique
 		}
-		not = { trade_goods = precious_metal }
+		not = { trade_goods = precious_goods }
 		not = { trade_goods = oil }
 	}
 
@@ -108,7 +108,7 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1100"
-		trade_goods = precious_metal
+		trade_goods = precious_goods
 		# life_rating = 5
 		owner = { random_owned = { limit = { province_id = 104 NOT = { life_rating = 39 } } life_rating = 10 } }
 		owner = { random_owned = { limit = { province_id = 89 NOT = { life_rating = 39 } } life_rating = 10 } }
@@ -149,7 +149,7 @@ province_event = {
 			province_id = 2400			# Rio Grande
 			province_id = 1643			# Sapporo
 		}
-		not = { trade_goods = precious_metal }
+		not = { trade_goods = precious_goods }
 		NOT = { year = 1920 }
 	}
 	
@@ -177,8 +177,8 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1100"
-		owner = { random_owned = { limit = { province_id = 2488 NOT = { trade_goods = precious_metal } } change_province_name = "Cairns" } }
-		trade_goods = precious_metal
+		owner = { random_owned = { limit = { province_id = 2488 NOT = { trade_goods = precious_goods } } change_province_name = "Cairns" } }
+		trade_goods = precious_goods
 		add_province_modifier = { name = gold_rush duration = 730 }
 		# life_rating = 5
 		owner = { random_owned = { limit = { province_id = 1913 } remove_province_modifier = gold_rush } }
@@ -207,7 +207,7 @@ province_event = {
 	trigger = {
 		year = 1886
 		province_id = 2106
-		NOT = { trade_goods = precious_metal }
+		NOT = { trade_goods = precious_goods }
 	}
 	
 	fire_only_once = yes
@@ -221,7 +221,7 @@ province_event = {
 	
 	option = {
 		name = "EVTOPTA1139"
-		trade_goods = precious_metal
+		trade_goods = precious_goods
 		add_province_modifier = {
 			name = gold_rush
 			duration = 5475
@@ -274,7 +274,7 @@ country_event = {
 			owner = { add_country_modifier = { name = gold_rush_country duration = 730 } }
 		}
 		122 = {
-			trade_goods = precious_metal
+			trade_goods = precious_goods
 			add_province_modifier = {
 				name = gold_rush
 				duration = 3650
@@ -296,7 +296,7 @@ province_event = {
 			province_id = 2603		# Alice Springs
 			province_id = 2648		# Yakutsk - Russia
 		}
-		not = { trade_goods = precious_metal }
+		not = { trade_goods = precious_goods }
 	}
 
 	mean_time_to_happen =  {
@@ -314,7 +314,7 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA1100"
-		trade_goods = precious_metal
+		trade_goods = precious_goods
 		add_province_modifier = { name = gold_rush duration = 730 }
 		owner = {
 			random_owned = {

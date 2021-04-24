@@ -8,7 +8,7 @@ piston_steam_engine = {
 	rgo_goods_output = { coal = 0.15 }
 	rgo_goods_output = { iron = 0.15 }
 	rgo_goods_output = { oil = 0.05 }
-	rgo_goods_output = { precious_metal = 0.05 }
+	rgo_goods_output = { precious_goods = 0.05 }
 	rgo_goods_output = { sulphur = 0.15 }
 	farm_rgo_eff = 0.15
 	farm_rgo_size = 0.1
@@ -62,7 +62,7 @@ high_pressure_steam_engine = {
 	rgo_goods_output = { coal = 0.15 }
 	rgo_goods_output = { iron = 0.15 }
 	rgo_goods_output = { oil = 0.05 }
-	rgo_goods_output = { precious_metal = 0.05 }
+	rgo_goods_output = { precious_goods = 0.05 }
 	rgo_goods_output = { sulphur = 0.15 }
 	farm_rgo_eff = 0.15
 	farm_rgo_size = 0.2
@@ -116,7 +116,7 @@ compound_steam_engines = {
 	rgo_goods_output = { coal = 0.15 }
 	rgo_goods_output = { iron = 0.1 }
 	rgo_goods_output = { oil = 0.1 }
-	rgo_goods_output = { precious_metal = 0.1 }
+	rgo_goods_output = { precious_goods = 0.1 }
 	rgo_goods_output = { sulphur = 0.15 }
 	farm_rgo_eff = 0.15
 	farm_rgo_size = 0.3
@@ -170,7 +170,7 @@ steam_turbine = {
 	rgo_goods_output = { coal = 0.15 }
 	rgo_goods_output = { iron = 0.15 }
 	rgo_goods_output = { oil = 0.15 }
-	rgo_goods_output = { precious_metal = 0.15 }
+	rgo_goods_output = { precious_goods = 0.15 }
 	rgo_goods_output = { sulphur = 0.15 }
 	farm_rgo_eff = 0.15
 	farm_rgo_size = 0.4
@@ -228,7 +228,7 @@ combustion_engine = {
 	rgo_goods_output = { coal = 0.15 }
 	rgo_goods_output = { iron = 0.15 }
 	rgo_goods_output = { oil = 0.15 }
-	rgo_goods_output = { precious_metal = 0.15 }
+	rgo_goods_output = { precious_goods = 0.15 }
 	rgo_goods_output = { sulphur = 0.15 }
 	farm_rgo_eff = 0.15
 	farm_rgo_size = 0.4
@@ -282,7 +282,7 @@ electrical_power_generation = {
 	rgo_goods_output = { coal = 0.15 }
 	rgo_goods_output = { iron = 0.15 }
 	rgo_goods_output = { oil = 0.15 }
-	rgo_goods_output = { precious_metal = 0.15 }
+	rgo_goods_output = { precious_goods = 0.15 }
 	rgo_goods_output = { sulphur = 0.15 }
 	farm_rgo_eff = 0.15
 	farm_rgo_size = 0.4
@@ -332,7 +332,7 @@ modern_power_generation = {
 	rgo_goods_output = { coal = 0.15 }
 	rgo_goods_output = { iron = 0.15 }
 	rgo_goods_output = { oil = 0.15 }
-	rgo_goods_output = { precious_metal = 0.15 }
+	rgo_goods_output = { precious_goods = 0.15 }
 	rgo_goods_output = { sulphur = 0.15 }
 	farm_rgo_eff = 0.15
 	farm_rgo_size = 0.4
@@ -802,7 +802,7 @@ mechanized_mining = {
 		modifier = {
 			factor = 1.1
 			any_owned_province = {
-				produces = precious_metal
+				produces = precious_goods
 			}
 		}
 		modifier = {
@@ -913,7 +913,7 @@ puddling = {
 		modifier = {
 			factor = 1.1
 			any_owned_province = {
-				produces = precious_metal
+				produces = precious_goods
 			}
 		}
 		modifier = {
@@ -935,10 +935,10 @@ hot_blast = {
 	year = 1836
 	cost = 17500
 	rgo_goods_output = {
-		precious_metal = 0.15
+		precious_goods = 0.15
 	}
 	rgo_size = {
-		precious_metal = 0.3
+		precious_goods = 0.3
 	}
 	rgo_goods_output = {
 		coal = 0.5
@@ -1008,7 +1008,7 @@ hot_blast = {
 		modifier = {
 			factor = 1.1
 			any_owned_province = {
-				produces = precious_metal
+				produces = precious_goods
 			}
 		}
 		modifier = {
@@ -1029,7 +1029,7 @@ bessemer_process = {
 	year = 1850
 	cost = 25000
 	rgo_goods_output = {
-		precious_metal = 0.15
+		precious_goods = 0.15
 	}
 	rgo_goods_output = {
 		coal = 0.4
@@ -1041,7 +1041,7 @@ bessemer_process = {
 		iron = 0.9
 	}
 	rgo_size = {
-		precious_metal = 0.3
+		precious_goods = 0.3
 	}
 	factory_goods_output = {
 		steel = 0.1
@@ -1110,7 +1110,7 @@ bessemer_process = {
 		modifier = {
 			factor = 1.1
 			any_owned_province = {
-				produces = precious_metal
+				produces = precious_goods
 			}
 		}
 		modifier = {
@@ -1144,7 +1144,7 @@ advanced_metallurgy = {
 		sulphur = 0.4
 	}
 	rgo_size = {
-		precious_metal = 0.5
+		precious_goods = 0.5
 	}
 	
 	ai_chance = {
@@ -1207,7 +1207,7 @@ advanced_metallurgy = {
 		modifier = {
 			factor = 1.1
 			any_owned_province = {
-				produces = precious_metal
+				produces = precious_goods
 			}
 		}
 		modifier = {
@@ -1287,7 +1287,7 @@ electric_furnace = {
 		modifier = {
 			factor = 1.1
 			any_owned_province = {
-				produces = precious_metal
+				produces = precious_goods
 			}
 		}
 		modifier = {
@@ -1340,7 +1340,7 @@ modern_metallurgy = {
 				big_producer = coal
 				big_producer = steel
 				big_producer = oil
-				produces = precious_metal
+				produces = precious_goods
 			}
 		}
 		modifier = {

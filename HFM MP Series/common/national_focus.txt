@@ -22,7 +22,7 @@ rail_focus = { #Now called Colonial Policy
 				trade_goods = coal
 				trade_goods = iron
 				trade_goods = oil
-				trade_goods = precious_metal
+				trade_goods = precious_goods
 				trade_goods = sulphur
 			}
 		}
@@ -42,7 +42,7 @@ rail_focus = { #Now called Colonial Policy
 				trade_goods = coal
 				trade_goods = iron
 				trade_goods = oil
-				trade_goods = precious_metal
+				trade_goods = precious_goods
 				trade_goods = sulphur
 			}
 		}

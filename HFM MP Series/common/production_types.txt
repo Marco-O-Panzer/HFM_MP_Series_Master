@@ -417,6 +417,21 @@ steamer_shipyard = {
 	}
 }
 
+interwar_hull_shipyard = {     
+	template = factory_template
+	input_goods = {
+		steamer_convoy = 1
+		machine_parts = 0.25
+	}
+	output_goods = steamer_convoy 
+	is_coastal = yes
+	value = 1			
+	bonus = {
+		trigger = { has_building = steamer_shipyard }
+		value = 0.125
+	}
+}
+
 ############# LUXURY GOODS FACTORIES
 
 luxury_clothes_factory = {       
@@ -474,6 +489,17 @@ steel_factory = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.125
 	}
+}
+
+bronze_factory = {       
+	template = factory_template
+	input_goods = { 
+		copper = 57		
+		tin = 12		
+	}
+
+	output_goods = bronze 
+	value = 75
 }
 
 artillery_factory = {       
@@ -577,6 +603,16 @@ regular_clothes_factory = {
 		value = 0.25
 	}
 }
+
+shoe_factory = {
+	template = factory_template	#
+	input_goods = {   
+		cattle = 60
+		bronze = 10		
+	}
+	output_goods = shoes 
+	value = 75
+}
        
 explosives_factory = {       
 	template = factory_template
@@ -593,6 +629,19 @@ explosives_factory = {
 	bonus = {
 		trigger = { has_building = ammunition_factory }
 		value = 0.1
+	}
+}
+
+pharma_factory = {       
+	template = factory_template
+	input_goods = {   
+		regular_clothes = 1
+	}
+	output_goods = pharma 
+	value = 1
+	bonus = {
+		trigger = { has_building = regular_clothes_factory }
+		value = 0.15
 	}
 }
 
@@ -901,6 +950,20 @@ iron_mine = {
 	mine = yes
 }
 
+copper_mine = {
+	template = RGO_template_labourers
+	output_goods = copper
+	value = 8.0
+	mine = yes
+}
+
+tin_mine = {
+	template = RGO_template_labourers
+	output_goods = tin
+	value = 6.5
+	mine = yes
+}
+
 oil_rig = {
 	template = RGO_template_labourers
 	output_goods = oil 
@@ -920,13 +983,6 @@ orchard = {
 	output_goods = fruit 
 	value = 3.0 #2.8
 	farm = yes
-}
-
-precious_metal_mine = {
-	template = RGO_template_labourers
-	output_goods = precious_metal 
-	value = 3
-	mine = yes
 }
 
 precious_goods_market = {
@@ -1521,5 +1577,58 @@ artisan_fertilizer = {
 	
 	type = artisan
 	
+	workforce = 10000
+}
+
+artisan_cobbler = {
+	input_goods = {   
+		cattle = 50
+	}
+	output_goods = shoes 
+	value = 37
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 10000
+}
+
+artisan_bronzeworker = {       
+	input_goods = { 
+		copper = 30
+		lead = 12
+	}
+
+	output_goods = bronze 
+	value = 37.5
+	
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	
+	type = artisan
+	workforce = 10000
+}
+
+
+artisan_chemist = {       
+	input_goods = {        
+		opium = 19
+		glass = 10
+	}
+	output_goods = pharmaceuticals 
+	value = 45
+
+	owner = {
+		poptype = artisan 
+		effect = output
+	}
+	
+	type = artisan
+
 	workforce = 10000
 }

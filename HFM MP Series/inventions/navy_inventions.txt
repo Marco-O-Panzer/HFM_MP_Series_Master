@@ -880,6 +880,7 @@ new_carriers = {
 	}
 	effect = {
 		activate_unit = carrier
+		activate_building = interwar_hull_shipyard
 	}
 }
 2nd_combat_subs = {

@@ -207,7 +207,7 @@ country_event = {
 		picture = "chilean_silver_rush"
 		
 		trigger = {
-			2323 = { owned_by = THIS trade_goods = precious_metal }
+			2323 = { owned_by = THIS trade_goods = precious_goods }
 			year = 1880
 		}
 		

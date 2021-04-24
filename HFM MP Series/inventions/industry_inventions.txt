@@ -930,7 +930,7 @@ steel_alloys = {
 		}
 	}
 	effect = {
-		rgo_goods_output = { precious_metal = 0.05 }
+		rgo_goods_output = { precious_goods = 0.05 }
 		factory_goods_output = { steel = 0.02 }
 	}
 }
@@ -977,6 +977,39 @@ stainless_steel = {
 #iron_railroad
 #steel_railroad
 #medicine
+medical_equipment = {
+	limit = { medicine = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 1
+			invention = aerial_bacteria_and_antiseptic_principle
+		}
+		modifier = {
+			factor = 1
+			invention = vaccination
+		}
+		modifier = {
+			factor = 1
+			invention = chemotherapy
+		}
+		modifier = {
+			factor = 1
+			invention = clinical_thermometers_and_binaural_stethoscopes
+		}
+		modifier = {
+			factor = 1
+			invention = prophylaxis_against_malaria
+		}
+		modifier = {
+			factor = 1
+			invention = pressure_chambers_for_thorax_surgery
+		}
+	}
+	effect = {
+		activate_building = pharma_factory
+	}
+}
 combat_medicine = {
 	limit = { medicine = 1 }
 	chance = {
@@ -1511,6 +1544,22 @@ cotton_gin = {
 	}
 	chance = {
 		base = 6
+	}
+	effect = {
+		rgo_goods_output = { cotton = 2.0 }
+	}
+}
+
+mechanical_cotton = {
+	limit = {
+		compound_steam_engines = 1
+	}
+	chance = {
+		base = 0
+		modifier = {
+			factor = 5
+			invention = cotton_gin
+		}	
 	}
 	effect = {
 		rgo_goods_output = { cotton = 1.0 }
