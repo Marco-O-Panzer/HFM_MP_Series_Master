@@ -229,6 +229,18 @@
 		religion = sunni
 		size = 8200
 	}
+	
+	artisans = {
+		culture = tajik
+		religion = sunni
+		size = 2500
+	}
+
+	farmers = {
+		culture = tajik
+		religion = sunni
+		size = 500
+	}
 
 	aristocrats = {
 		culture = kirgiz
@@ -263,7 +275,7 @@
 	farmers = {
 		culture = kirgiz
 		religion = sunni
-		size = 13550
+		size = 10550
 	}
 
 }

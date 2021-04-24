@@ -1,5 +1,7 @@
-owner = PER
-controller = PER
+owner = KGN
+controller = KGN
+add_core = KGN
 add_core = PER
 trade_goods = fish
 life_rating = 35
+naval_base = 1
