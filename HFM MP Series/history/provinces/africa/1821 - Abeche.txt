@@ -1,4 +1,4 @@
-trade_goods = grain
+trade_goods = wool
 terrain = semidesert
 life_rating = 5
 colonial = 1
