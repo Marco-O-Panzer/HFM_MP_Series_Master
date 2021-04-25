@@ -983,10 +983,6 @@ medical_equipment = {
 		base = 0
 		modifier = {
 			factor = 1
-			invention = aerial_bacteria_and_antiseptic_principle
-		}
-		modifier = {
-			factor = 1
 			invention = vaccination
 		}
 		modifier = {

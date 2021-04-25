@@ -417,13 +417,13 @@ steamer_shipyard = {
 	}
 }
 
-interwar_hull_shipyard = {     
+interwar_hull_shipyard = {
 	template = factory_template
 	input_goods = {
 		steamer_convoy = 1
 		machine_parts = 0.25
 	}
-	output_goods = steamer_convoy 
+	output_goods = interwar_hull 
 	is_coastal = yes
 	value = 1			
 	bonus = {
@@ -637,7 +637,7 @@ pharma_factory = {
 	input_goods = {   
 		regular_clothes = 1
 	}
-	output_goods = pharma 
+	output_goods = pharmaceuticals 
 	value = 1
 	bonus = {
 		trigger = { has_building = regular_clothes_factory }
@@ -1587,7 +1587,7 @@ artisan_cobbler = {
 	output_goods = shoes 
 	value = 37
 	owner = {
-		poptype = artisan 
+		poptype = artisans
 		effect = output
 	}
 	
@@ -1599,14 +1599,14 @@ artisan_cobbler = {
 artisan_bronzeworker = {       
 	input_goods = { 
 		copper = 30
-		lead = 12
+		tin = 12
 	}
 
 	output_goods = bronze 
 	value = 37.5
 	
 	owner = {
-		poptype = artisan 
+		poptype = artisans
 		effect = output
 	}
 	
@@ -1624,7 +1624,7 @@ artisan_chemist = {
 	value = 45
 
 	owner = {
-		poptype = artisan 
+		poptype = artisans
 		effect = output
 	}
 	

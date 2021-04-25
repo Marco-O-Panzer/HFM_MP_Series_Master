@@ -158,10 +158,12 @@ industrial_goods = {
 	bronze = {
 		cost = 6
 		color = { 253 199 110 }
+		available_from_start = no
 	}
-	pharma = {
+	pharmaceuticals = {
 		cost = 7
 		color = { 150 150 150 }
+		available_from_start = no
 	}
 }
 
@@ -245,6 +247,7 @@ consumer_goods = {
 	shoes = {
 		cost = 6
 		color = { 253 199 110 }
+		available_from_start = no
 	}
 	financial_services = { 
 		cost = 12

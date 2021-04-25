@@ -412,6 +412,7 @@ mechanical_production = {
 	cost = 5000
 
 	activate_building = regular_clothes_factory 
+	activate_building = shoe_factory
 	ai_chance = {
 		factor = 2
 		modifier = {
@@ -757,6 +758,7 @@ mechanized_mining = {
 	year = 1836
 	cost = 5000
 	activate_building = steel_factory 
+	activate_building = bronze_factory 
 
 	rgo_goods_output = {
 		iron = 0.25
