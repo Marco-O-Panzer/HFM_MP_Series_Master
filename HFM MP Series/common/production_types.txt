@@ -491,7 +491,7 @@ steel_factory = {
 	}
 }
 
-bronze_factory = {       
+bronze_factory = { 
 	template = factory_template
 	input_goods = { 
 		copper = 57		
@@ -500,6 +500,14 @@ bronze_factory = {
 
 	output_goods = bronze 
 	value = 75
+	bonus = {
+		trigger = { trade_goods_in_state = copper }
+		value = 0.25
+	}
+	bonus = {
+		trigger = { trade_goods_in_state = tin }
+		value = 0.05
+	}
 }
 
 artillery_factory = {       

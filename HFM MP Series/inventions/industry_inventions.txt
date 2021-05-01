@@ -1,3 +1,23 @@
+industrial_bronze_production = {
+	limit = { mechanized_mining = 1 }
+	chance = {
+		base = 10
+	}
+	effect = {
+		activate_building = bronze_factory 
+	}
+}
+
+industrial_boots_production = {
+	limit = { mechanical_production = 1 }
+	chance = {
+		base = 10
+	}
+	effect = {
+		activate_building = shoe_factory
+	}
+}
+
 #combustion_engine
 daimlers_automobile = {
 	limit = { combustion_engine = 1 }

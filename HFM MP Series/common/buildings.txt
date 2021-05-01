@@ -273,6 +273,28 @@ steamer_shipyard = {
 	pop_build_factory = yes
 }
 
+interwar_hull_shipyard = {
+	type = factory
+	
+	steam = yes
+
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		machine_parts = 600
+		steel = 300
+		cement = 300
+	}
+	time = 200
+	visibility = yes
+	onmap = no
+
+	production_type = interwar_hull_shipyard
+	pop_build_factory = yes
+}
+
 clipper_shipyard = {
 	type = factory
 	
@@ -356,6 +378,26 @@ steel_factory = {
 	onmap = no
 	
 	production_type = steel_factory
+	pop_build_factory = yes
+}
+
+bronze_factory = {
+	type = factory
+
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		machine_parts = 200
+		iron = 200
+		coal = 200
+	}
+	time = 100
+	visibility = yes
+	onmap = no
+	
+	production_type = bronze_factory
 	pop_build_factory = yes
 }
 
@@ -457,6 +499,25 @@ regular_clothes_factory = {
 	pop_build_factory = yes
 }
 
+shoe_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		machine_parts = 140
+		iron = 200
+		cement = 200
+	}
+	time = 200
+	visibility = yes
+	onmap = no
+
+	production_type = shoe_factory
+	pop_build_factory = yes
+}
+
 explosives_factory = {
 	type = factory
 	on_completion = factory
@@ -473,6 +534,25 @@ explosives_factory = {
 	onmap = no
 
 	production_type = explosives_factory
+	pop_build_factory = yes
+}
+
+pharma_factory = {
+	type = factory
+	on_completion = factory
+	completion_size = 0.2
+	max_level = 99
+	goods_cost =
+	{
+		machine_parts = 140
+		iron = 200
+		cement = 200
+	}
+	time = 200
+	visibility = yes
+	onmap = no
+
+	production_type = pharma_factory
 	pop_build_factory = yes
 }
 
