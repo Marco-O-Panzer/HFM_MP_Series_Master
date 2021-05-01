@@ -187,10 +187,20 @@ mechanical_cotton;Mechanical Cotton Production;x
 mechanical_cotton_desc;Egypt under Muhammad Ali in the early 19th century had the fifth most productive cotton industry in the world, in terms of the number of spindles per capita. The industry was initially driven by machinery that relied on traditional energy sources, such as animal power, water wheels, and windmills, which were also the principal energy sources in Western Europe up until around 1870. It was under Muhammad Ali in the early 19th century that steam engines were introduced to the Egyptian cotton industry.;x
 interwar_hull;Interwar Hull;x
 interwar_hull_shipyard;Interwar Shipyard;x
-interwar_hull_shipyard_desc;Interwar Shipyard desc;x
+interwar_hull_shipyard_desc;Shipbuilding has always been a ‘boom and bust’ industry, and the years between the wars were more bust than boom.;x
 bronze;Bronze;x
 bronze_factory;Bronze Factory;x
-bronze_factory_desc;aaa;x
+bronze_factory_desc;Bronze is an alloy consisting primarily of copper, commonly with about 12–12.5% tin and often with the addition of other metals (such as aluminium, manganese, nickel or zinc) and sometimes non-metals or metalloids such as arsenic, phosphorus or silicon. These additions produce a range of alloys that may be harder than copper alone, or have other useful properties, such as strength, ductility, or machinability.;x
 shoes;Boots;x
 shoe_factory;Shoe Factory;x
-shoe_factory_desc;shoe fac desc;x
+shoe_factory_desc;The shoemaking trade flourished in the eighteenth and early nineteenth centuries but began to be affected by industrialization in the later nineteenth century. Traditional handicraft shoemaking has now been largely superseded in volume of shoes produced by industrial mass production of footwear, but not necessarily in quality, attention to detail, or craftsmanship.;x
+pharma_factory;Pharmaceuticals Plant;x
+pharma_factory_desc;Pharmacuetical manufacturing is the process of industrial-scale synthesis of pharmaceutical drugs as part of the pharmaceutical industry. The process of drug manufacturing can be broken down into a series of unit operations, such as milling, granulation, coating, tablet pressing, and others.;x
+industrial_bronze_production;Industrial Bronze;x
+industrial_bronze_production_desc;Bronze, or bronze-like alloys and mixtures, were used for coins over a longer period. Bronze was especially suitable for use in boat and ship fittings prior to the wide employment of stainless steel owing to its combination of toughness and resistance to salt water corrosion. Bronze is still commonly used in ship propellers and submerged bearings.;x
+industrial_boots_production;Mass Shoe Production;x
+industrial_boots_production_desc;Until the 19th century, shoemaking was a traditional handicraft, but by the century's end, the process had been almost completely mechanized, with production occurring in large factories. Despite the obvious economic gains of mass-production, the factory system produced shoes without the individual differentiation that the traditional shoemaker was able to provide.;x
+interwar_hulls;Interwar Hull Construction;x
+interwar_hulls_desc;During World War One, many ships sank, so after the war there were a few years when there was high demand for building new ships. However, by the mid 1920s, enough ships had been built to meet demand. This was partly a result of the peace terms, under which Germany was expected to build ships to be distributed among the Allies.;x
+medical_equipment;Drug Manufacturing;x
+medical_equipment_desc;In the pharmaceutical industry, a wide range of excipients may be blended together with the active pharmaceutical ingredient to create the final blend used to manufacture the solid dosage form. The range of materials that may be blended, presents a number of variables which must be addressed to achieve target product quality attributes.;x

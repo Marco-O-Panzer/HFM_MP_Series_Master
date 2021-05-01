@@ -35,6 +35,7 @@ everyday_needs = {
 	opium = 10
 	fertilizer = 0.5 #0
 	explosives = 0.25
+	shoes = 1
 }
 
 
@@ -51,6 +52,8 @@ luxury_needs = {
 	radio = 1.0
 	fuel = 0.1
 	opium = 2
+	shoes = 2
+	pharmaceuticals = 2
 }
 
 country_migration_target = { factor = 0 }

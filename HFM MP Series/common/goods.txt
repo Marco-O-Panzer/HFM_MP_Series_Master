@@ -31,7 +31,7 @@ military_goods = {
 		available_from_start = no
 	}
 	interwar_hull = {
-		cost = 4000
+		cost = 500
 		color = { 100 100 100 }
 		available_from_start = no
 	}

@@ -24,7 +24,7 @@ carrier = {
 	#Building Costs
 	build_time = 720
 	build_cost = {
-		steamer_convoy = 300
+		interwar_hull = 100
 		aeroplanes = 100
 		small_arms = 100
 		wine = 100
@@ -40,7 +40,7 @@ carrier = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 5
+		interwar_hull = 1
 		artillery = 2
 		canned_food = 2
 		telephones = 0.2
@@ -51,6 +51,7 @@ carrier = {
 		small_arms = 1
 		regular_clothes = 1.5
 		fuel = 4
+		pharmaceuticals = 2
 	}
 	
 	#Naval Abilties

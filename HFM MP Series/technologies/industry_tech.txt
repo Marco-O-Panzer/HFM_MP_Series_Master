@@ -762,6 +762,9 @@ mechanized_mining = {
 		iron = 0.25
 	}
 	rgo_goods_output = {
+		copper = 0.25
+	}
+	rgo_goods_output = {
 		coal = 0.4
 	}
 	rgo_goods_output = {
@@ -842,6 +845,12 @@ puddling = {
 	}
 	rgo_size = {
 		iron = 0.2
+	}
+	rgo_goods_output = {
+		copper = 0.25
+	}
+	rgo_size = {
+		copper = 0.2
 	}
 	
 	ai_chance = {
@@ -949,6 +958,12 @@ hot_blast = {
 	rgo_size = {
 		iron = 0.2
 	}
+	rgo_goods_output = {
+		copper = 0.25
+	}
+	rgo_size = {
+		copper = 0.2
+	}
 	
 	ai_chance = {
 		factor = 2
@@ -1039,6 +1054,9 @@ bessemer_process = {
 	}
 	rgo_goods_output = {
 		iron = 0.9
+	}
+	rgo_goods_output = {
+		copper = 0.9
 	}
 	rgo_size = {
 		precious_goods = 0.3
@@ -1140,6 +1158,9 @@ advanced_metallurgy = {
 	rgo_goods_output = {
 		iron = 0.5
 	}
+	rgo_goods_output = {
+		copper = 0.5
+	}
 	rgo_size = {
 		sulphur = 0.4
 	}
@@ -1237,6 +1258,9 @@ electric_furnace = {
 	rgo_goods_output = {
 		iron = 1
 	}
+	rgo_goods_output = {
+		copper = 1
+	}
 	
 	ai_chance = {
 		factor = 2
@@ -1313,6 +1337,9 @@ modern_metallurgy = {
 	}
 	rgo_goods_output = {
 		iron = 1.5
+	}
+	rgo_goods_output = {
+		copper = 1.5
 	}
 	factory_goods_output = {
 		steel = 0.05 

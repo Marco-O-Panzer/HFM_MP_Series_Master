@@ -36,6 +36,8 @@ dragoon = {
 		ammunition = 0.125 # 0
 		canned_food = 0.12 #0.08
 		regular_clothes = 0.067 #0
+		pharmaceuticals = 0.12
+		shoes = 0.067
 	}
 	
 

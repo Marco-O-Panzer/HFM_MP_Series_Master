@@ -5,7 +5,7 @@ factory_template = {
 	efficiency = {
 		cement = 0.5 #if no cement, work at 75% efficiency #cost = 8
 		machine_parts = 0.05 # was 0.01 cost = 36.5		# 9.825/day/level for both
-		financial_services = 0.1
+		financial_services = 0.2
 	}
 	
 	owner = {
@@ -35,6 +35,7 @@ factory_template = {
 cheap_factory_template = {
 	efficiency = {
 		cement = 0.25 #if no cement, work at 75% efficiency #cost = £4/level
+		financial_services = 0.1
 	}
 	
 	owner = {
@@ -64,7 +65,7 @@ cheap_factory_template = {
 machine_part_user_template = {
 	efficiency = {
 		cement = 0.5 #if no cement, work at 75% efficiency #cost = 16.0
-		financial_services = 0.1
+		financial_services = 0.2
 	}
 	
 	owner = {
@@ -95,7 +96,7 @@ cement_template = {
 	efficiency = {
 		iron = 2.3 #if no cement, work at 75% efficiency #cost = 16.0
 		machine_parts = 0.05 # was 0.01 cost = 36.5 		#9.825/day/level for both
-		financial_services = 0.1
+		financial_services = 0.2
 	}
 	
 	owner = {
@@ -254,12 +255,13 @@ telephone_factory = {
 
 ############# STRATEGIC FACTORIES
 
-electric_gear_factory = {       
+electric_gear_factory = {   
 	template = factory_template
 	input_goods = { 
 		rubber = 4		#28
 		coal = 5		#11.5
 		steel = 5		#23.5	total input+maint = 73
+		copper = 2
 	}
 	output_goods = electric_gear 
 	value = 5.5			#88
@@ -275,6 +277,10 @@ electric_gear_factory = {
 		trigger = { has_building = steel_factory }
 		value = 0.15
 	}
+	bonus = {
+		trigger = { trade_goods_in_state = copper }
+		value = 0.05
+	}
 }
 
 machine_parts_factory = {       
@@ -282,12 +288,17 @@ machine_parts_factory = {
 	input_goods = {    
 		steel = 9		#42.3
 		coal = 5		#11.5  total input+maint = 66
+		bronze = 1
 	}
 	output_goods = machine_parts 
 	value = 3.0		#73
 	bonus = {
 		trigger = { has_building = steel_factory }
 		value = 0.15
+	}
+	bonus = {
+		trigger = { has_building = steel_factory }
+		value = 0.05
 	}
 	bonus = {
 		trigger = { trade_goods_in_state = coal }
@@ -420,14 +431,28 @@ steamer_shipyard = {
 interwar_hull_shipyard = {
 	template = factory_template
 	input_goods = {
-		steamer_convoy = 1
-		machine_parts = 0.25
+		steel = 125		
+		coal = 100		
+		machine_parts = 2
+		bronze = 20
 	}
 	output_goods = interwar_hull 
 	is_coastal = yes
 	value = 1			
 	bonus = {
-		trigger = { has_building = steamer_shipyard }
+		trigger = { trade_goods_in_state = coal }
+		value = 0.125
+	}
+	bonus = {
+		trigger = { has_building = steel_factory }
+		value = 0.125
+	}
+	bonus = {
+		trigger = { has_building = machine_parts_factory }
+		value = 0.125
+	}
+	bonus = {
+		trigger = { has_building = bronze_factory }
 		value = 0.125
 	}
 }
@@ -494,12 +519,12 @@ steel_factory = {
 bronze_factory = { 
 	template = factory_template
 	input_goods = { 
-		copper = 57		
-		tin = 12		
+		copper = 20		
+		tin = 2.5		
 	}
 
 	output_goods = bronze 
-	value = 75
+	value = 20
 	bonus = {
 		trigger = { trade_goods_in_state = copper }
 		value = 0.25
@@ -515,6 +540,7 @@ artillery_factory = {
 	input_goods = { 
 		explosives = 1		#20
 		steel = 8		#37.6   total input+maint = 67.6
+		bronze = 1
 	}
 	output_goods = artillery 
 	value = 1.5			#78
@@ -615,11 +641,19 @@ regular_clothes_factory = {
 shoe_factory = {
 	template = factory_template	#
 	input_goods = {   
-		cattle = 60
-		bronze = 10		
+		cattle = 40
+		bronze = 7		
 	}
 	output_goods = shoes 
-	value = 75
+	value = 15
+	bonus = {
+		trigger = { has_building = bronze_factory }
+		value = 0.1
+	}
+	bonus = {
+		trigger = { trade_goods_in_state = cattle }
+		value = 0.25
+	}
 }
        
 explosives_factory = {       
@@ -642,14 +676,19 @@ explosives_factory = {
 
 pharma_factory = {       
 	template = factory_template
-	input_goods = {   
-		regular_clothes = 1
+	input_goods = {        
+		opium = 17.5
+		glass = 10		#70
 	}
 	output_goods = pharmaceuticals 
-	value = 1
+	value = 20
 	bonus = {
-		trigger = { has_building = regular_clothes_factory }
+		trigger = { has_building = glass_factory }
 		value = 0.15
+	}
+	bonus = {
+		trigger = { trade_goods_in_state = opium }
+		value = 0.05
 	}
 }
 
@@ -1162,6 +1201,7 @@ artisan_electric_gear = {
 		rubber = 4		#28
 		coal = 5		#11.5
 		steel = 5		#23.5	total input+maint = 73
+		copper = 2
 	}
 	output_goods = electric_gear 
 	value = 5.5			#88
@@ -1180,6 +1220,7 @@ artisan_machine_parts = {
 	input_goods = {    
 		steel = 9		#42.3
 		coal = 5		#11.5  total input+maint = 66
+		bronze = 1
 	}
 	output_goods = machine_parts 
 	value = 2.5			#73
@@ -1223,6 +1264,28 @@ artisan_steamer = {
 	output_goods = steamer_convoy 
 	is_coastal = yes
 	value = 3.5			#195
+	
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+
+	workforce = 10000
+}
+
+artisan_interwar_hull = {       
+	input_goods = {
+		steel = 125		
+		coal = 100		
+		machine_parts = 2
+		bronze = 20
+	}
+	output_goods = steamer_convoy 
+	is_coastal = yes
+	value = 1			#195
 	
 	owner = {
 		poptype = artisans 
@@ -1593,7 +1656,7 @@ artisan_cobbler = {
 		cattle = 50
 	}
 	output_goods = shoes 
-	value = 37
+	value = 15
 	owner = {
 		poptype = artisans
 		effect = output
@@ -1607,11 +1670,11 @@ artisan_cobbler = {
 artisan_bronzeworker = {       
 	input_goods = { 
 		copper = 30
-		tin = 12
+		tin = 4
 	}
 
 	output_goods = bronze 
-	value = 37.5
+	value = 20
 	
 	owner = {
 		poptype = artisans
@@ -1629,7 +1692,7 @@ artisan_chemist = {
 		glass = 10
 	}
 	output_goods = pharmaceuticals 
-	value = 45
+	value = 20
 
 	owner = {
 		poptype = artisans

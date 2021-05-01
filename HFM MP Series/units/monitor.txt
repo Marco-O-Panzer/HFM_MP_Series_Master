@@ -37,6 +37,7 @@ monitor = {
 		artillery = 0.3
 		canned_food = 0.8
 		ammunition = 0.3
+		pharmaceuticals = 0.8
 	}
 	
 	#Naval Abilties
