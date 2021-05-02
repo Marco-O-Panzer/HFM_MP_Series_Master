@@ -27,4 +27,9 @@ state_building = {
 	building = liquor_distillery
 	upgrade = yes
 }
+state_building = {
+	level = 2
+	building = shoe_factory
+	upgrade = yes
+}
 1861.1.1 = { railroad = 3 }

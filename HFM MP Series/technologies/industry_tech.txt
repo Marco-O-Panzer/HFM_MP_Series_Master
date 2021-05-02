@@ -7,6 +7,7 @@ piston_steam_engine = {
 	activate_building =  fabric_factory
 	rgo_goods_output = { coal = 0.15 }
 	rgo_goods_output = { iron = 0.15 }
+	rgo_goods_output = { copper = 0.15 }
 	rgo_goods_output = { oil = 0.05 }
 	rgo_goods_output = { precious_goods = 0.05 }
 	rgo_goods_output = { sulphur = 0.15 }
@@ -61,6 +62,7 @@ high_pressure_steam_engine = {
 
 	rgo_goods_output = { coal = 0.15 }
 	rgo_goods_output = { iron = 0.15 }
+	rgo_goods_output = { copper = 0.15 }
 	rgo_goods_output = { oil = 0.05 }
 	rgo_goods_output = { precious_goods = 0.05 }
 	rgo_goods_output = { sulphur = 0.15 }
@@ -114,7 +116,8 @@ compound_steam_engines = {
 	cost = 17500
 
 	rgo_goods_output = { coal = 0.15 }
-	rgo_goods_output = { iron = 0.1 }
+	rgo_goods_output = { iron = 0.15 }
+	rgo_goods_output = { copper = 0.15 }
 	rgo_goods_output = { oil = 0.1 }
 	rgo_goods_output = { precious_goods = 0.1 }
 	rgo_goods_output = { sulphur = 0.15 }
@@ -169,6 +172,7 @@ steam_turbine = {
 
 	rgo_goods_output = { coal = 0.15 }
 	rgo_goods_output = { iron = 0.15 }
+	rgo_goods_output = { copper = 0.15 }
 	rgo_goods_output = { oil = 0.15 }
 	rgo_goods_output = { precious_goods = 0.15 }
 	rgo_goods_output = { sulphur = 0.15 }
@@ -227,6 +231,7 @@ combustion_engine = {
 
 	rgo_goods_output = { coal = 0.15 }
 	rgo_goods_output = { iron = 0.15 }
+	rgo_goods_output = { copper = 0.15 }
 	rgo_goods_output = { oil = 0.15 }
 	rgo_goods_output = { precious_goods = 0.15 }
 	rgo_goods_output = { sulphur = 0.15 }
@@ -281,6 +286,7 @@ electrical_power_generation = {
 
 	rgo_goods_output = { coal = 0.15 }
 	rgo_goods_output = { iron = 0.15 }
+	rgo_goods_output = { copper = 0.15 }
 	rgo_goods_output = { oil = 0.15 }
 	rgo_goods_output = { precious_goods = 0.15 }
 	rgo_goods_output = { sulphur = 0.15 }
@@ -331,6 +337,7 @@ modern_power_generation = {
 	cost = 60000
 	rgo_goods_output = { coal = 0.15 }
 	rgo_goods_output = { iron = 0.15 }
+	rgo_goods_output = { copper = 0.15 }
 	rgo_goods_output = { oil = 0.15 }
 	rgo_goods_output = { precious_goods = 0.15 }
 	rgo_goods_output = { sulphur = 0.15 }
