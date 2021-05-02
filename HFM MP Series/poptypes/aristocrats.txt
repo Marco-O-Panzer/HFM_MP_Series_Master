@@ -39,6 +39,8 @@ everyday_needs = {
 	fertilizer = 0.5 #0
 	steamer_convoy = 1.5
 	shares = 1
+	shoes = 5
+	pharmaceuticals = 5
 }
 
 #Total cash needed: 2618 - Vanilla value: 2121
@@ -57,6 +59,7 @@ luxury_needs = {
 	clipper_convoy = 2
 	steamer_convoy = 2
 	shares = 2
+	pharmaceuticals = 10
 }
 
 
@@ -712,7 +715,7 @@ migration_target = {
 			trade_goods = coal
 			trade_goods = sulphur
 			trade_goods = iron
-			trade_goods = precious_metal
+			trade_goods = precious_goods
 			trade_goods = tobacco
 			trade_goods = coffee
 			trade_goods = tea

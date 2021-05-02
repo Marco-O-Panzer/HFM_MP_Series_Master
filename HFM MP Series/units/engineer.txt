@@ -33,6 +33,8 @@ engineer = {
 		explosives = 0.083
 		regular_clothes = 0.05 #0
 		tobacco = 0.017 #0
+		pharmaceuticals = 0.12
+		shoes = 0.05
 	}
 	
 

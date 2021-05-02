@@ -493,7 +493,7 @@ quantative_easing = {
 	}
 	effect = {
 		rgo_goods_output = {
-			precious_metal = 1.5
+			precious_goods = 1.5
 		}
 	}
 }

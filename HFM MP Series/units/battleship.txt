@@ -42,6 +42,7 @@ battleship = {
 		coal = 2.5
 		ammunition = 0.6
 		tobacco = 1.6
+		pharmaceuticals = 0.8
 	}
 	
 	#Naval Abilties

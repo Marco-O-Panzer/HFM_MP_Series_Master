@@ -1975,8 +1975,8 @@ political_decisions = {
 		
 		effect = {
 			2324 = { any_pop = { limit = { is_primary_culture = yes } literacy = 0.05 } }
-			2322 = { trade_goods = precious_metal add_province_modifier = { name = silver_mine duration = -1 } }
-			2323 = { trade_goods = precious_metal add_province_modifier = { name = silver_mine duration = -1 } }
+			2322 = { trade_goods = precious_goods add_province_modifier = { name = silver_mine duration = -1 } }
+			2323 = { trade_goods = precious_goods add_province_modifier = { name = silver_mine duration = -1 } }
 		}
 	}
 	

@@ -120,7 +120,7 @@ province_event = {
 			NOT = { trade_goods = tropical_wood } 
 			NOT = { trade_goods = rubber }
 			NOT = { trade_goods = oil }
-			NOT = { trade_goods = precious_metal }
+			NOT = { trade_goods = precious_goods }
 			NOT = { trade_goods = precious_goods }
 			NOT = { trade_goods = cattle }
 			NOT = { trade_goods = fish }
@@ -265,7 +265,7 @@ province_event = {
 			NOT = { trade_goods = tropical_wood } 
 			NOT = { trade_goods = rubber }
 			NOT = { trade_goods = oil }
-			NOT = { trade_goods = precious_metal }
+			NOT = { trade_goods = precious_goods }
 			NOT = { trade_goods = precious_goods }
 			NOT = { trade_goods = cattle }
 			NOT = { trade_goods = fish }
@@ -411,7 +411,7 @@ province_event = {
 			NOT = { trade_goods = tropical_wood } 
 			NOT = { trade_goods = rubber }
 			NOT = { trade_goods = oil }
-			NOT = { trade_goods = precious_metal }
+			NOT = { trade_goods = precious_goods }
 			NOT = { trade_goods = precious_goods }
 			NOT = { trade_goods = cattle }
 			NOT = { trade_goods = fish }
@@ -642,7 +642,7 @@ province_event = {
 			NOT = { trade_goods = tropical_wood } 
 			NOT = { trade_goods = rubber }
 			NOT = { trade_goods = oil }
-			NOT = { trade_goods = precious_metal }
+			NOT = { trade_goods = precious_goods }
 			NOT = { trade_goods = precious_goods }
 			NOT = { trade_goods = cattle }
 			NOT = { trade_goods = fish }
@@ -800,7 +800,7 @@ province_event = {
 			NOT = { trade_goods = tropical_wood } 
 			NOT = { trade_goods = rubber }
 			NOT = { trade_goods = oil }
-			NOT = { trade_goods = precious_metal }
+			NOT = { trade_goods = precious_goods }
 			NOT = { trade_goods = precious_goods }
 			NOT = { trade_goods = cattle }
 			NOT = { trade_goods = fish }
@@ -1009,7 +1009,7 @@ province_event = {
 			NOT = { trade_goods = tropical_wood } 
 			NOT = { trade_goods = rubber }
 			NOT = { trade_goods = oil }
-			NOT = { trade_goods = precious_metal }
+			NOT = { trade_goods = precious_goods }
 			NOT = { trade_goods = precious_goods }
 			NOT = { trade_goods = cattle }
 			NOT = { trade_goods = fish }
@@ -1174,7 +1174,7 @@ province_event = {
 			NOT = { trade_goods = tropical_wood } 
 			NOT = { trade_goods = rubber }
 			NOT = { trade_goods = oil }
-			NOT = { trade_goods = precious_metal }
+			NOT = { trade_goods = precious_goods }
 			NOT = { trade_goods = precious_goods }
 			NOT = { trade_goods = cattle }
 			NOT = { trade_goods = fish }
@@ -1308,7 +1308,7 @@ province_event = {
 			NOT = { trade_goods = tropical_wood } 
 			NOT = { trade_goods = rubber }
 			NOT = { trade_goods = oil }
-			NOT = { trade_goods = precious_metal }
+			NOT = { trade_goods = precious_goods }
 			NOT = { trade_goods = precious_goods }
 			NOT = { trade_goods = cattle }
 			NOT = { trade_goods = fish }
@@ -1448,7 +1448,7 @@ province_event = {
 			NOT = { trade_goods = tropical_wood } 
 			NOT = { trade_goods = rubber }
 			NOT = { trade_goods = oil }
-			NOT = { trade_goods = precious_metal }
+			NOT = { trade_goods = precious_goods }
 			NOT = { trade_goods = precious_goods }
 			NOT = { trade_goods = cattle }
 			NOT = { trade_goods = fish }
@@ -1594,7 +1594,7 @@ province_event = {
 			NOT = { trade_goods = tropical_wood } 
 			NOT = { trade_goods = rubber }
 			NOT = { trade_goods = oil }
-			NOT = { trade_goods = precious_metal }
+			NOT = { trade_goods = precious_goods }
 			NOT = { trade_goods = precious_goods }
 			NOT = { trade_goods = cattle }
 			NOT = { trade_goods = fish }
@@ -1676,7 +1676,7 @@ province_event = {
 			NOT = { trade_goods = tropical_wood } 
 			NOT = { trade_goods = rubber }
 			NOT = { trade_goods = oil }
-			NOT = { trade_goods = precious_metal }
+			NOT = { trade_goods = precious_goods }
 			NOT = { trade_goods = precious_goods }
 			NOT = { trade_goods = cattle }
 			NOT = { trade_goods = fish }
@@ -1842,7 +1842,7 @@ province_event = {
 			NOT = { trade_goods = tropical_wood } 
 			NOT = { trade_goods = rubber }
 			NOT = { trade_goods = oil }
-			NOT = { trade_goods = precious_metal }
+			NOT = { trade_goods = precious_goods }
 			NOT = { trade_goods = precious_goods }
 			NOT = { trade_goods = cattle }
 			NOT = { trade_goods = fish }
@@ -1923,7 +1923,7 @@ province_event = {
 			NOT = { trade_goods = tropical_wood } 
 			NOT = { trade_goods = rubber }
 			NOT = { trade_goods = oil }
-			NOT = { trade_goods = precious_metal }
+			NOT = { trade_goods = precious_goods }
 			NOT = { trade_goods = precious_goods }
 			NOT = { trade_goods = cattle }
 			NOT = { trade_goods = fish }
@@ -2199,7 +2199,7 @@ province_event = {
 			NOT = { trade_goods = tropical_wood } 
 			NOT = { trade_goods = rubber }
 			NOT = { trade_goods = oil }
-			NOT = { trade_goods = precious_metal }
+			NOT = { trade_goods = precious_goods }
 			NOT = { trade_goods = precious_goods }
 			NOT = { trade_goods = cattle }
 			NOT = { trade_goods = fish }
@@ -2475,7 +2475,7 @@ province_event = {
 			NOT = { trade_goods = tropical_wood } 
 			NOT = { trade_goods = rubber }
 			NOT = { trade_goods = oil }
-			NOT = { trade_goods = precious_metal }
+			NOT = { trade_goods = precious_goods }
 			NOT = { trade_goods = precious_goods }
 			NOT = { trade_goods = cattle }
 			NOT = { trade_goods = fish }

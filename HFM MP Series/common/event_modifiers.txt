@@ -2586,8 +2586,7 @@ manufacturing_belt = {
 }
 
 king_cotton = {
-	local_RGO_output = 0.075
-	local_RGO_throughput = 0.075
+	local_RGO_output = 1
 	icon = 15
 }
 

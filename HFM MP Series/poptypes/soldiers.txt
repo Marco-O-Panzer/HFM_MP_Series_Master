@@ -49,6 +49,7 @@ everyday_needs = {
 	tobacco = 1
 	ammunition = 0.5 #0
 	small_arms = 0.35 #0
+	shoes = 2
 }
 
 #Total cash needed: 136.78 - Vanilla value: 125.995
@@ -62,6 +63,8 @@ luxury_needs = {
 	radio = 1.0
 	fuel = 0.1
 	#dye = 0.5
+	shoes = 3
+	pharmaceuticals = 5
 }
 
 
@@ -710,7 +713,7 @@ modifier = {
 			trade_goods = coal
 			trade_goods = sulphur
 			trade_goods = iron
-			trade_goods = precious_metal
+			trade_goods = precious_goods
 			trade_goods = tobacco
 			trade_goods = coffee
 			trade_goods = tea

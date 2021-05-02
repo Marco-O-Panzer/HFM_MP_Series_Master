@@ -865,6 +865,15 @@ modern_battleships = {
 #	effect = { 
 #	}
 #}
+interwar_hulls = {
+	limit = { oil_driven_ships = 1 }
+	chance = {
+		base = 5
+	}
+	effect = {
+		activate_building = interwar_hull_shipyard
+	}
+}
 new_carriers = {
 	limit = { aircraft_carriers = 1 }
 	chance = {
@@ -879,6 +888,7 @@ new_carriers = {
 		}
 	}
 	effect = {
+		activate_building = interwar_hull_shipyard
 		activate_unit = carrier
 	}
 }

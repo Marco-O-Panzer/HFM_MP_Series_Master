@@ -51,6 +51,7 @@ everyday_needs = {
 	telephones = 0.5	#8
 	cement = 0.5		#8
 	steel = 1			#4.7
+	shoes = 5
 }
 
 #Total cash needed: 461.7 - Vanilla value: 383.4
@@ -68,6 +69,8 @@ luxury_needs = {
 	radio = 1
 	fuel = 0.2
 	shares = 0.2
+	shoes = 5
+	pharmaceuticals = 5
 }
 
 country_migration_target = {
@@ -724,7 +727,7 @@ modifier = {
 			trade_goods = coal
 			trade_goods = sulphur
 			trade_goods = iron
-			trade_goods = precious_metal
+			trade_goods = precious_goods
 			trade_goods = tobacco
 			trade_goods = coffee
 			trade_goods = tea

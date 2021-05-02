@@ -34,6 +34,8 @@ tank = {
 		fuel = 0.5
 		regular_clothes = 0.067 #0
 		ammunition = 0.17
+		pharmaceuticals = 0.12
+		shoes = 0.067
 	}
 	
 
