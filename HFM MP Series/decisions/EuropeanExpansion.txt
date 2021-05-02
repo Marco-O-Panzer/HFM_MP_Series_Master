@@ -5,6 +5,7 @@ political_decisions = {
 			tag = BEL
 			NOT = { exists = EUR }
 			NOT = { has_country_flag = hiding_the_decisions }
+			NOT = { has_global_flag = mp_setup }
 		}
 		allow = {
 			is_greater_power = yes

@@ -204,3 +204,6 @@ interwar_hulls;Interwar Hull Construction;x
 interwar_hulls_desc;During World War One, many ships sank, so after the war there were a few years when there was high demand for building new ships. However, by the mid 1920s, enough ships had been built to meet demand. This was partly a result of the peace terms, under which Germany was expected to build ships to be distributed among the Allies.;x
 medical_equipment;Drug Manufacturing;x
 medical_equipment_desc;In the pharmaceutical industry, a wide range of excipients may be blended together with the active pharmaceutical ingredient to create the final blend used to manufacture the solid dosage form. The range of materials that may be blended, presents a number of variables which must be addressed to achieve target product quality attributes.;x
+EVTNAME7777916;Capital Supply Removal;x
+EVTDESC7777916;Remove the supply increase in the capital for AI nations;x
+EVT7777916OPTA;Do it;x

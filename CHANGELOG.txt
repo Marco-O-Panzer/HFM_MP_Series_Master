@@ -10,8 +10,9 @@ This mod is built on HFM V1.27I (SighPie) and HFM More Stuff V3.5 (u/louisky58) 
 - Aircraft Carrier icon and sprite from CWE mod (settintotrieste & others).
 - Liberate & Puppet CB, Steal Puppet CB, map textures from HFME (Jman & others)
 - Protectorate CBs from HPM 0.4.6 (arkhometha)
-- Clerk only factories from PDM (Naselus)
+- Clerk only factories & new goods GFX from PDM (Naselus)
 - Iran flavour by Atlas
+- Military topbar expansion by SirRunner
 - Thanks to Nurse_Reno for the craftsmen & bureaucrats fix.
 Everything else is my own (as far as I remember).
 Note that 'global' on a modifier means just across your country.
@@ -24,7 +25,7 @@ CHECKSUM: (Steam version)
 Flavour Changes
 * China
 -- Cant accept vietnemese in mp setup
--- Self strenghtening movement rp nerfed to 2 rp, and lower % multiplier (40 to 25)
+-- Self strenghtening movement rp nerfed to 2 rp, and removed multiplier
 -- Can annex Heiqi Jun for 3 infamy (if a puppet)
 * UFB
 -- Pop growth from its unique decisions increased slightly (compensate for no CBs)
@@ -60,6 +61,8 @@ Politics & NFs
 Population
 * Emigration reduction from low militancy reduced (-0.1 below 2, -0.1 below 1, cumulative) 
 * South Asian emigration debuff matches East Asian now
+* Base supply limit increased by about 2/3
+* Soldier pops concentrated in state capitals, so easier to recruit 
 
 Economy
 * New Synthetic Rubber factory for late game
@@ -84,6 +87,8 @@ Balance
 * Military hopitals effect from Total War Philosophy moved to Modern Chemistry
 * Prioritized R&D increased to +2, to justify late game investment more
 * War subs % increase from 30 to 50
+* Non colonial reform gives +0.01% pop growth (as cant get men for the colonies event)
+* Money hoarding treasury sizes all increased
 
 GFX, UI & Localisation Changes
 * USA and Brazil absolute monarchies renamed
@@ -603,4 +608,4 @@ Federal Republic of Great Britain - Easter Egg
 * INCREDIBLY STRONG nation at home (~Greater Germany power levels), but isolationist
 
 
-Any problems or changes to suggest can talk to the mod creators: Townes
+Any problems or changes to suggest can talk to the mod creators: Townes, Abe, Gracchus
