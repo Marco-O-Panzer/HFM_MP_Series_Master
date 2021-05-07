@@ -87,7 +87,7 @@ raw_material_goods = {
 		color = { 253 199 110 }
 	}
 	tin = {
-		cost = 4.6
+		cost = 5
 		color = { 253 199 110 }
 	}
 	precious_goods = { 

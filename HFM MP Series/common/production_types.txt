@@ -288,7 +288,7 @@ machine_parts_factory = {
 	input_goods = {    
 		steel = 9		#42.3
 		coal = 5		#11.5  total input+maint = 66
-		bronze = 1
+		bronze = 2
 	}
 	output_goods = machine_parts 
 	value = 3.0		#73
@@ -519,8 +519,8 @@ steel_factory = {
 bronze_factory = { 
 	template = factory_template
 	input_goods = { 
-		copper = 20		
-		tin = 2.5		
+		copper = 40		
+		tin = 5		
 	}
 
 	output_goods = bronze 
@@ -540,7 +540,7 @@ artillery_factory = {
 	input_goods = { 
 		explosives = 1		#20
 		steel = 8		#37.6   total input+maint = 67.6
-		bronze = 1
+		bronze = 6
 	}
 	output_goods = artillery 
 	value = 1.5			#78
@@ -642,7 +642,7 @@ shoe_factory = {
 	template = factory_template	#
 	input_goods = {   
 		cattle = 40
-		bronze = 7		
+		bronze = 10		
 	}
 	output_goods = shoes 
 	value = 15
@@ -1000,14 +1000,14 @@ iron_mine = {
 copper_mine = {
 	template = RGO_template_labourers
 	output_goods = copper
-	value = 8.0
+	value = 6.0
 	mine = yes
 }
 
 tin_mine = {
 	template = RGO_template_labourers
 	output_goods = tin
-	value = 6.5
+	value = 5
 	mine = yes
 }
 
@@ -1220,7 +1220,7 @@ artisan_machine_parts = {
 	input_goods = {    
 		steel = 9		#42.3
 		coal = 5		#11.5  total input+maint = 66
-		bronze = 1
+		bronze = 2
 	}
 	output_goods = machine_parts 
 	value = 2.5			#73
@@ -1362,6 +1362,7 @@ artisan_artillery = {
 	input_goods = { 
 		explosives = 1		#20
 		steel = 8		#37.6   total input+maint = 67.6
+		copper = 6
 	}
 	output_goods = artillery 
 	value = 1.5			#78
@@ -1669,8 +1670,8 @@ artisan_cobbler = {
 
 artisan_bronzeworker = {       
 	input_goods = { 
-		copper = 30
-		tin = 4
+		copper = 48
+		tin = 15
 	}
 
 	output_goods = bronze 
