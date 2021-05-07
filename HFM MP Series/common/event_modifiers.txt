@@ -2213,7 +2213,6 @@ boxer_agitation = {
 self_strengthening_movement = {
 	prestige = 0.05
 	research_points = 2
-	research_points_modifier = 0.25
 	research_points_on_conquer = -1.5
 	org_regain = 0.1
 	global_pop_consciousness_modifier = 0.1

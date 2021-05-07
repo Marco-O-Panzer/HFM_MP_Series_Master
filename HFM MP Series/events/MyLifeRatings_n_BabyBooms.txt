@@ -40,6 +40,7 @@ country_event = {
 				NOT = { terrain = arctic }
 				NOT = { terrain = montane_tundra }
 				NOT = { terrain = montane_forest }
+				NOT = { life_rating = 33 }
 			}
 			life_rating = 3
 		}

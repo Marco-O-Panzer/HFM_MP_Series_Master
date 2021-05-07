@@ -18,3 +18,24 @@ country_event = {
 		capital_scope = { add_province_modifier = { name = capital_mobilisation duration = -1 } }
 	}
 }
+
+country_event = {
+	id = 7777916
+	title = "EVTNAME7777916"
+	desc = "EVTDESC7777916"
+	picture = "supply_depot"
+
+	trigger = {
+		ai = yes
+		capital_scope = { has_province_modifier = capital_mobilisation }
+	}
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	option = {
+		name = "EVT7777916OPTA"
+		capital_scope = { remove_province_modifier = capital_mobilisation }
+	}
+}

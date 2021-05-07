@@ -1745,7 +1745,7 @@ basic_chemistry = {
 	year = 1836
 	cost = 5000
 
-	supply_limit = 0.5
+	supply_limit = 0.25
 	
 	activate_building = fertilizer_factory 
 	ai_chance = {
