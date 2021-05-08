@@ -7,7 +7,6 @@ piston_steam_engine = {
 	activate_building =  fabric_factory
 	rgo_goods_output = { coal = 0.15 }
 	rgo_goods_output = { iron = 0.15 }
-	rgo_goods_output = { copper = 0.15 }
 	rgo_goods_output = { oil = 0.05 }
 	rgo_goods_output = { precious_goods = 0.05 }
 	rgo_goods_output = { sulphur = 0.15 }
@@ -63,6 +62,7 @@ high_pressure_steam_engine = {
 	rgo_goods_output = { coal = 0.15 }
 	rgo_goods_output = { iron = 0.15 }
 	rgo_goods_output = { copper = 0.15 }
+	rgo_goods_output = { tin = 0.15 }
 	rgo_goods_output = { oil = 0.05 }
 	rgo_goods_output = { precious_goods = 0.05 }
 	rgo_goods_output = { sulphur = 0.15 }
@@ -118,6 +118,7 @@ compound_steam_engines = {
 	rgo_goods_output = { coal = 0.15 }
 	rgo_goods_output = { iron = 0.15 }
 	rgo_goods_output = { copper = 0.15 }
+	rgo_goods_output = { tin = 0.15 }
 	rgo_goods_output = { oil = 0.1 }
 	rgo_goods_output = { precious_goods = 0.1 }
 	rgo_goods_output = { sulphur = 0.15 }
@@ -173,6 +174,7 @@ steam_turbine = {
 	rgo_goods_output = { coal = 0.15 }
 	rgo_goods_output = { iron = 0.15 }
 	rgo_goods_output = { copper = 0.15 }
+	rgo_goods_output = { tin = 0.15 }
 	rgo_goods_output = { oil = 0.15 }
 	rgo_goods_output = { precious_goods = 0.15 }
 	rgo_goods_output = { sulphur = 0.15 }
@@ -232,6 +234,7 @@ combustion_engine = {
 	rgo_goods_output = { coal = 0.15 }
 	rgo_goods_output = { iron = 0.15 }
 	rgo_goods_output = { copper = 0.15 }
+	rgo_goods_output = { tin = 0.15 }
 	rgo_goods_output = { oil = 0.15 }
 	rgo_goods_output = { precious_goods = 0.15 }
 	rgo_goods_output = { sulphur = 0.15 }
@@ -287,6 +290,7 @@ electrical_power_generation = {
 	rgo_goods_output = { coal = 0.15 }
 	rgo_goods_output = { iron = 0.15 }
 	rgo_goods_output = { copper = 0.15 }
+	rgo_goods_output = { tin = 0.15 }
 	rgo_goods_output = { oil = 0.15 }
 	rgo_goods_output = { precious_goods = 0.15 }
 	rgo_goods_output = { sulphur = 0.15 }
@@ -338,6 +342,7 @@ modern_power_generation = {
 	rgo_goods_output = { coal = 0.15 }
 	rgo_goods_output = { iron = 0.15 }
 	rgo_goods_output = { copper = 0.15 }
+	rgo_goods_output = { tin = 0.15 }
 	rgo_goods_output = { oil = 0.15 }
 	rgo_goods_output = { precious_goods = 0.15 }
 	rgo_goods_output = { sulphur = 0.15 }
@@ -772,6 +777,9 @@ mechanized_mining = {
 		copper = 0.25
 	}
 	rgo_goods_output = {
+		tin = 0.25
+	}
+	rgo_goods_output = {
 		coal = 0.4
 	}
 	rgo_goods_output = {
@@ -858,6 +866,12 @@ puddling = {
 	}
 	rgo_size = {
 		copper = 0.2
+	}
+	rgo_goods_output = {
+		tin = 0.25
+	}
+	rgo_size = {
+		tin = 0.2
 	}
 	
 	ai_chance = {
@@ -971,6 +985,12 @@ hot_blast = {
 	rgo_size = {
 		copper = 0.2
 	}
+	rgo_goods_output = {
+		tin = 0.25
+	}
+	rgo_size = {
+		tin = 0.2
+	}
 	
 	ai_chance = {
 		factor = 2
@@ -1064,6 +1084,9 @@ bessemer_process = {
 	}
 	rgo_goods_output = {
 		copper = 0.9
+	}
+	rgo_goods_output = {
+		tin = 0.5
 	}
 	rgo_size = {
 		precious_goods = 0.3
@@ -1168,6 +1191,9 @@ advanced_metallurgy = {
 	rgo_goods_output = {
 		copper = 0.5
 	}
+	rgo_goods_output = {
+		tin = 0.5
+	}
 	rgo_size = {
 		sulphur = 0.4
 	}
@@ -1268,6 +1294,9 @@ electric_furnace = {
 	rgo_goods_output = {
 		copper = 1
 	}
+	rgo_goods_output = {
+		tin = 1
+	}
 	
 	ai_chance = {
 		factor = 2
@@ -1347,6 +1376,9 @@ modern_metallurgy = {
 	}
 	rgo_goods_output = {
 		copper = 1.5
+	}
+	rgo_goods_output = {
+		tin = 1.5
 	}
 	factory_goods_output = {
 		steel = 0.05 
