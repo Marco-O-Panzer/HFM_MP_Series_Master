@@ -198,6 +198,10 @@ political_decisions = {
 					tag = KUK
 				}
 			}
+			modifier = {
+				factor = 0
+				has_global_flag = mp_setup 
+			}
 		}
 	}
 
@@ -839,6 +843,10 @@ political_decisions = {
 					tag = AUS
 					tag = KUK
 				}
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = mp_setup 
 			}
 		}
 	}

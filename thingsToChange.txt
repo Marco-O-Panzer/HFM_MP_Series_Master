@@ -3,7 +3,6 @@ Changes that are waiting to be implemented:
 * add in flavour for parties of new tags
 * build all railroads decision - also take into account terrain
 * eu cores on switzerland should give one on Lich as well, monacoa, andorra, san marrino, ionian islands - also make it give cores on states not on tags
-* combine precious rgos into one, and can add in 2 more base rgos
 
 
 BUGS:
@@ -13,7 +12,6 @@ BUGS:
 
 
 Maybe:
-* Add in PDM service economy, potentially more economy changes
 * New title font for tabs like Budget
 * Modifier to remove soldier pop militancy (prevent continuous 1 brigade rebellions)
 * add in dismantle submod for HFM

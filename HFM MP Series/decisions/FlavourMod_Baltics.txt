@@ -304,6 +304,7 @@ political_decisions = {
 						is_culture_group = germanic
 						is_culture_group = scandinavian
 					}
+					NOT = { accepted_culture = estonian }
 					owns = 349
 					NOT = { has_global_flag = german_renamed_estonia }
 				}
@@ -341,6 +342,7 @@ political_decisions = {
 							is_culture_group = germanic
 							is_culture_group = scandinavian
 						}
+						NOT = { accepted_culture = estonian }
 					}
 				}
 				349 = { change_province_name = "Reval" }
