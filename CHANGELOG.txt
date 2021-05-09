@@ -68,6 +68,9 @@ Economy
 * New Synthetic Rubber factory for late game
 * Financial services added (maintains factories, built by Banks - clerk only factory)
 * Shares added (built from financial services, supports richer pops everyday and luxury needs, built by stock exchanges - clerk only factory)
+* New RGOs copper and tin
+* New industrial goods bronze and pharmaceuticals
+* New military good Interwar Hull
 
 Tech
 * Ivention for lvl 8 naval base
@@ -81,6 +84,7 @@ New General Decisions
 * Can disable crises permanently in the starting setup options
 * Can now release substates
 * Post colonials will instantly westernise
+* Certain places in the Balkans and South America can change their rgos to industrial rgos with 1900s power tech
 
 Balance
 * Focus at home now reduces tech cost by 5%
@@ -102,6 +106,7 @@ Bug Fixes
 * gtfo decisions updated, as couldnt release some tags
 * Removed hardcoded status of british dominions always reverting to UK puppet status, even if released by another nation
 * Added India core on Fort William (Bengal trade port province)
+* AI wont form Yugo, Romania, Turkestan or Transcaucasia in MP setup
 
 Version 4
 ---------

@@ -1662,8 +1662,8 @@ political_decisions = {
 			OR = {
 				AND = { owns = 691 NOT = { has_global_flag = west_prussia_rename_german } }
 				AND = { owns = 690 NOT = { has_global_flag = danzig_rename_german } }
-				
 			}
+			NOT = { tag = DNB }
 		}
 		
 		allow = {
@@ -1782,6 +1782,7 @@ political_decisions = {
 			is_culture_group = germanic
 			owns = 699
 			has_global_flag = posen_rename_polish
+			NOT = { tag = DNB }
 		}
 		
 		allow = {
@@ -1806,6 +1807,7 @@ political_decisions = {
 			OR = {
 				primary_culture = hungarian
 				tag = KUK
+				tag = DNB
 			}
 			owns = 642
 			NOT = { has_global_flag = transdanubia_rename_hun }

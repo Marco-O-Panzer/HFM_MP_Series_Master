@@ -519,6 +519,9 @@ country_event = {
 			}
 			year = 1845
 		}
+		NOT = { 729 = { is_core = AUS } }
+		NOT = { 729 = { is_core = KUK } }
+		NOT = { 729 = { is_core = DNB } }
 	}
 
 	mean_time_to_happen = {

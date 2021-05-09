@@ -261,7 +261,7 @@ electric_gear_factory = {
 		rubber = 4		#28
 		coal = 5		#11.5
 		steel = 5		#23.5	total input+maint = 73
-		copper = 2
+		copper = 3
 	}
 	output_goods = electric_gear 
 	value = 5.5			#88
@@ -288,7 +288,7 @@ machine_parts_factory = {
 	input_goods = {    
 		steel = 9		#42.3
 		coal = 5		#11.5  total input+maint = 66
-		bronze = 1
+		bronze = 2
 	}
 	output_goods = machine_parts 
 	value = 3.0		#73
@@ -434,7 +434,7 @@ interwar_hull_shipyard = {
 		steel = 125		
 		coal = 100		
 		machine_parts = 2
-		bronze = 20
+		bronze = 35
 	}
 	output_goods = interwar_hull 
 	is_coastal = yes
@@ -519,12 +519,12 @@ steel_factory = {
 bronze_factory = { 
 	template = factory_template
 	input_goods = { 
-		copper = 20		
-		tin = 2.5		
+		copper = 25		
+		tin = 10		
 	}
 
 	output_goods = bronze 
-	value = 20
+	value = 25
 	bonus = {
 		trigger = { trade_goods_in_state = copper }
 		value = 0.25
@@ -540,7 +540,7 @@ artillery_factory = {
 	input_goods = { 
 		explosives = 1		#20
 		steel = 8		#37.6   total input+maint = 67.6
-		bronze = 1
+		bronze = 3
 	}
 	output_goods = artillery 
 	value = 1.5			#78
@@ -641,11 +641,11 @@ regular_clothes_factory = {
 shoe_factory = {
 	template = factory_template	#
 	input_goods = {   
-		cattle = 40
-		bronze = 7		
+		cattle = 45
+		bronze = 20		
 	}
 	output_goods = shoes 
-	value = 15
+	value = 45
 	bonus = {
 		trigger = { has_building = bronze_factory }
 		value = 0.1
@@ -1000,14 +1000,14 @@ iron_mine = {
 copper_mine = {
 	template = RGO_template_labourers
 	output_goods = copper
-	value = 8.0
+	value = 5.0
 	mine = yes
 }
 
 tin_mine = {
 	template = RGO_template_labourers
 	output_goods = tin
-	value = 6.5
+	value = 2.5
 	mine = yes
 }
 
@@ -1063,7 +1063,7 @@ silkworm_ranch = {
 sulphur_mine = {
 	template = RGO_template_labourers
 	output_goods = sulphur 
-	value = 3.2
+	value = 5.5
 	mine = yes
 }
 
@@ -1201,7 +1201,7 @@ artisan_electric_gear = {
 		rubber = 4		#28
 		coal = 5		#11.5
 		steel = 5		#23.5	total input+maint = 73
-		copper = 2
+		copper = 3
 	}
 	output_goods = electric_gear 
 	value = 5.5			#88
@@ -1220,7 +1220,7 @@ artisan_machine_parts = {
 	input_goods = {    
 		steel = 9		#42.3
 		coal = 5		#11.5  total input+maint = 66
-		bronze = 1
+		bronze = 2
 	}
 	output_goods = machine_parts 
 	value = 2.5			#73
@@ -1281,7 +1281,7 @@ artisan_interwar_hull = {
 		steel = 125		
 		coal = 100		
 		machine_parts = 2
-		bronze = 20
+		bronze = 35
 	}
 	output_goods = steamer_convoy 
 	is_coastal = yes
@@ -1362,6 +1362,7 @@ artisan_artillery = {
 	input_goods = { 
 		explosives = 1		#20
 		steel = 8		#37.6   total input+maint = 67.6
+		copper = 4
 	}
 	output_goods = artillery 
 	value = 1.5			#78
@@ -1669,12 +1670,12 @@ artisan_cobbler = {
 
 artisan_bronzeworker = {       
 	input_goods = { 
-		copper = 30
-		tin = 4
+		copper = 35
+		tin = 15
 	}
 
 	output_goods = bronze 
-	value = 20
+	value = 25
 	
 	owner = {
 		poptype = artisans
