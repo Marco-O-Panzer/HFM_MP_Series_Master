@@ -44,99 +44,66 @@ leader = {
 }
 
 army = {
-	name = "1e Infanterie Divisie"
+	name = "1st Army"
 	location = 387 #Brussels
 	regiment = {
-		name= "1e Infanterie Brigade"
+		name= "1st Infantry"
 		type = infantry
-		home = 387 #Brussels
+		home = 381
 	}
-
+	
 	regiment = {
-		name= "2e Infanterie Brigade"
+		name= "2nd Infantry"
 		type = infantry
-		home = 388 #Bruges
+		home = 381
 	}
-
+	
 	regiment = {
-		name= "3e Infanterie Brigade"
+		name= "3rd Infantry"
 		type = infantry
-		home = 389 #Ghent
+		home = 381
 	}
-
+	
 	regiment = {
-		name= "1er Brigade d'Artillerie"
+		name= "4th Infantry"
+		type = infantry
+		home = 387
+	}
+	
+	regiment = {
+		name= "1st Hussars"
+		type = hussar
+		home = 387
+	}
+	
+	regiment = {
+		name= "1st Artillery"
 		type = artillery
-		home = 392 #Liege
+		home = 387
 	}
-
-}
-
-army = {
-	name = "2eme Division d'Infanterie"
-	location = 387 #Spa
+	
 	regiment = {
-		name= "4e Infanterie Brigade"
-		type = infantry
-		home = 390 #Antwerp
+		name= "2nd Artillery"
+		type = artillery
+		home = 394
 	}
-
+	
 	regiment = {
-		name= "5eme Brigade d'Infanterie"
-		type = infantry
-		home = 393 #Tournai
+		name= "3rd Artillery"
+		type = artillery
+		home = 394
 	}
-
+	
 	regiment = {
-		name= "6eme Brigade d'Infanterie"
-		type = infantry
-		home = 394 #Charleroi
+		name= "4th Artillery"
+		type = artillery
+		home = 394
 	}
-
-}
-
-army = {
-	name = "3eme Division d'Infanterie"
-	location = 388 #Brugges
+	
 	regiment = {
-		name= "7eme Brigade d'Infanterie"
-		type = infantry
-		home = 395 #Namur
-	}
-
-	regiment = {
-		name= "8eme Brigade d'Infanterie"
-		type = infantry
-		home = 396 #Spa
-	}
-
-	regiment = {
-		name= "9eme Brigade d'Infanterie"
-		type = infantry
-		home = 398 #Arlon
-	}
-
-}
-
-army = {
-	name = "1er Division de Cavalerie"
-	location = 395 #Namur
-	regiment = {
-		name= "1er Brigade de Cavalerie"
-		type = dragoon
-		home = 387 #Brussels
-	}
-
-	regiment = {
-		name= "2eme Brigade de Cavalerie"
-		type = cuirassier
-		home = 392 #Liege
-	}
-
-	regiment = {
-		name= "3e Cavalerie Brigade"
-		type = cuirassier
-		home = 391 #Hasselt
+		name= "5th Artillery"
+		type = artillery
+		home = 397
 	}
 
 }

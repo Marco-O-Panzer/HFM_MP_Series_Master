@@ -49,70 +49,43 @@ leader = {
 }
 
 army = {
-	name = "Ejército del Norte"
-	location = 2146
-	regiment = {
-		name= "1.Division Cos"
-		type = irregular
-		home = 2174
-	}
-
-	regiment = {
-		name= "2.Division Cos"
-		type = irregular
-		home = 2174
-	}
-
-	regiment = {
-		name= "3.Division Cos"
-		type = irregular
-		home = 2174
-	}
-
-}
-
-army = {
-	name = "Activo Oajaca"
-	location = 2177
-	regiment = {
-		name= "1.Oajaca y Tlaxcala"
-		type = irregular
-		home = 2177
-	}
-
-	regiment = {
-		name= "2.Oajaca y Tlaxcala"
-		type = irregular
-		home = 2177
-	}
-
-	regiment = {
-		name= "3.Oajaca y Tlaxcala"
-		type = irregular
-		home = 2177
-	}
-
-}
-
-army = {
-	name = "Ejército del Ciudad Mejico"
+	name = "1st Reserve Army"
 	location = 2172
+	
 	regiment = {
-		name= "1.Division Comonfort"
-		type = infantry
-		home = 2176
+		name= "1st Hussars"
+		type = hussar
+		home = 2153
 	}
-
+	
 	regiment = {
-		name= "2.Division Comonfort"
-		type = irregular
-		home = 2176
+		name= "1st Artillery"
+		type = artillery
+		home = 2172
 	}
-
+	
 	regiment = {
-		name= "3.Division Comonfort"
-		type = irregular
-		home = 2176
+		name= "2nd Artillery"
+		type = artillery
+		home = 2161
+	}
+	
+	regiment = {
+		name= "3rd Artillery"
+		type = artillery
+		home = 2170
+	}
+	
+	regiment = {
+		name= "4th Artillery"
+		type = artillery
+		home = 2172
+	}
+	
+	regiment = {
+		name= "5th Artillery"
+		type = artillery
+		home = 2183
 	}
 
 }

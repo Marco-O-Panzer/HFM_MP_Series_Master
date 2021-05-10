@@ -428,128 +428,127 @@ army = {
 	name = "1st Army"
 	location = 300
 	regiment = {
-		name= "4th (The Queen's Own) Light Dragoons"
+		name= "1st Infantry"
 		type = infantry
 		home = 300
 	}
-
+	
 	regiment = {
-		name= "The Royal Dragoons (1st Dragoons)"
-		type = infantry
-		home = 294
-	}
-
-	regiment = {
-		name= "11th (Prince Albert's Own) Hussars"
-		type = infantry
-		home = 291
-	}
-
-	regiment = {
-		name= "The Grenadier Guards"
+		name= "2nd Infantry"
 		type = infantry
 		home = 300
 	}
-
+	
 	regiment = {
-		name= "The Coldstream Guards "
+		name= "3rd Infantry"
+		type = infantry
+		home = 300
+	}
+	
+	regiment = {
+		name= "4th Infantry"
+		type = infantry
+		home = 300
+	}
+	
+	regiment = {
+		name= "1st Hussars"
 		type = hussar
 		home = 300
 	}
 	
 	regiment = {
-		name= "The Scots Fusiliers Guards"
+		name= "1st Artillery"
 		type = artillery
-		home = 271
+		home = 300
 	}
 	
 	regiment = {
-		name= "The Black Watch Regiment"
+		name= "2nd Artillery"
 		type = artillery
-		home = 268
-	}
-
-	regiment = {
-		name= "2nd Regiment Royal Artillery"
-		type = artillery
-		home = 295
+		home = 300
 	}
 	
 	regiment = {
-		name= "8th Regiment Royal Artillery"
+		name= "3rd Artillery"
 		type = artillery
-		home = 298
+		home = 300
 	}
 	
 	regiment = {
-		name= "9th Regiment Royal Artillery"
+		name= "4th Artillery"
 		type = artillery
-		home = 284
+		home = 300
 	}
 	
+	regiment = {
+		name= "5th Artillery"
+		type = artillery
+		home = 300
+	}
 }
 
 army = {
 	name = "2nd Army"
 	location = 288
 	regiment = {
-		name= "1.2nd Division"
+		name= "1st Infantry"
 		type = infantry
-		home = 288
-	}
-
-	regiment = {
-		name= "2.2nd Division"
-		type = infantry
-		home = 287
-	}
-
-	regiment = {
-		name= "3.2nd Division"
-		type = infantry
-		home = 256
-	}
-
-	regiment = {
-		name= "1.9th Division"
-		type = infantry
-		home = 259
-	}
-
-	regiment = {
-		name= "2.9th Division"
-		type = hussar
-		home = 280
-	}
-
-	regiment = {
-		name= "3.9th Division"
-		type = artillery
-		home = 289
-	}
-
-	regiment = {
-		name= "1.10th Division"
-		type = artillery
-		home = 300
-	}
-
-	regiment = {
-		name= "2.10th Division"
-		type = artillery
-		home = 282
-	}
-
-	regiment = {
-		name= "3.10th Division"
-		type = artillery
-		home = 265
+		home = 296
 	}
 	
 	regiment = {
-		name= "3.8th Division"
+		name= "2nd Infantry"
+		type = infantry
+		home = 296
+	}
+	
+	regiment = {
+		name= "3rd Infantry"
+		type = infantry
+		home = 291
+	}
+	
+	regiment = {
+		name= "4th Infantry"
+		type = infantry
+		home = 291
+	}
+	
+	regiment = {
+		name= "1st Hussars"
+		type = hussar
+		home = 284
+	}
+	
+	regiment = {
+		name= "1st Artillery"
 		type = artillery
-		home = 2217
+		home = 284
+	}
+	
+	regiment = {
+		name= "2nd Artillery"
+		type = artillery
+		home = 280
+	}
+	
+	regiment = {
+		name= "3rd Artillery"
+		type = artillery
+		home = 280
+	}
+	
+	regiment = {
+		name= "4th Artillery"
+		type = artillery
+		home = 277
+	}
+	
+	regiment = {
+		name= "5th Artillery"
+		type = artillery
+		home = 277
 	}
 }
 
@@ -557,133 +556,68 @@ army = {
 	name = "3rd Army"
 	location = 273
 	regiment = {
-		name= "1.3rd Division"
+		name= "1st Infantry"
 		type = infantry
 		home = 273
 	}
-
+	
 	regiment = {
-		name= "2.3rd Division"
+		name= "2nd Infantry"
 		type = infantry
-		home = 266
-	}
-
-	regiment = {
-		name= "3.3rd Division"
-		type = infantry
-		home = 270
-	}
-
-	regiment = {
-		name= "1.4th Division"
-		type = infantry
-		home = 263
-	}
-
-	regiment = {
-		name= "2.4th Division"
-		type = hussar
-		home = 255
-	}
-
-	regiment = {
-		name= "3.4th Division"
-		type = artillery
-		home = 281
-	}
-
-	regiment = {
-		name= "1.5th Division"
-		type = artillery
-		home = 269
-	}
-
-	regiment = {
-		name= "2.5th Division"
-		type = artillery
-		home = 271
-	}
-
-	regiment = {
-		name= "3.5th Division"
-		type = artillery
-		home = 267
+		home = 273
 	}
 	
 	regiment = {
-		name= "3.6th Division"
+		name= "3rd Infantry"
+		type = infantry
+		home = 271
+	}
+	
+	regiment = {
+		name= "4th Infantry"
+		type = infantry
+		home = 271
+	}
+	
+	regiment = {
+		name= "1st Hussars"
+		type = hussar
+		home = 266
+	}
+	
+	regiment = {
+		name= "1st Artillery"
 		type = artillery
-		home = 300
+		home = 266
+	}
+	
+	regiment = {
+		name= "2nd Artillery"
+		type = artillery
+		home = 263
+	}
+	
+	regiment = {
+		name= "3rd Artillery"
+		type = artillery
+		home = 263
+	}
+	
+	regiment = {
+		name= "4th Artillery"
+		type = artillery
+		home = 260
+	}
+	
+	regiment = {
+		name= "5th Artillery"
+		type = artillery
+		home = 277
 	}
 }
 
 army = {
 	name = "4th Army"
-	location = 46
-	
-	regiment = {
-		name= "Prince of Wales's Lancers"
-		type = infantry
-		home = 276
-	}
-	
-	regiment = {
-		name= "12th (The East Suffolk) Regiment"
-		type = infantry
-		home = 277
-	}
-
-	regiment = {
-		name= "9th (The East Norfolk) Regiment"
-		type = infantry
-		home = 277
-	}
-
-	regiment = {
-		name= "The Welsh Regiment"
-		type = infantry
-		home = 274
-	}
-	
-	regiment = {
-		name= "Prince of Wales's Own Regiment"
-		type = hussar
-		home = 286
-	}
-	
-	regiment = {
-		name= "1st Regiment Royal Artillery"
-		type = artillery
-		home = 262
-	}
-	
-	regiment = {
-		name= "3rd Regiment Royal Artillery"
-		type = artillery
-		home = 292
-	}
-	
-	regiment = {
-		name= "6th Regiment Royal Artillery"
-		type = artillery
-		home = 302
-	}
-	
-	regiment = {
-		name= "7th Regiment Royal Artillery"
-		type = artillery
-		home = 303
-	}
-
-	regiment = {
-		name= "8th Regiment Royal Artillery"
-		type = artillery
-		home = 300
-	}
-}
-
-army = {
-	name = "5th Army"
 	location = 2096
 	
 	regiment = {

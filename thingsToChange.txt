@@ -3,6 +3,7 @@ Changes that are waiting to be implemented:
 * add in flavour for parties of new tags
 * build all railroads decision - also take into account terrain
 * eu cores on switzerland should give one on Lich as well, monacoa, andorra, san marrino, ionian islands - also make it give cores on states not on tags
+* Byzantium for greece
 
 
 BUGS:

@@ -51,97 +51,44 @@ leader = {
 }
 
 army = {
-	name = "Esercito delle Due Sicilia"
+	name = "1st Reserve Army"
 	location = 754
+	
 	regiment = {
-		name= "1. Fanteria di Linea - Re e Regina"
-		type = infantry
+		name= "1st Hussars"
+		type = hussar
 		home = 754
 	}
-
+	
 	regiment = {
-		name= "2. Fanteria di Linea - Duca di Calabria"
-		type = infantry
-		home = 757
-	}
-
-	regiment = {
-		name= "3. Fanteria di Linea - Duca di Noto"
-		type = infantry
-		home = 755
-	}
-
-	regiment = {
-		name= "4. Fanteria di Linea"
+		name= "1st Artillery"
 		type = artillery
-		home = 2567
-	}
-
-	regiment = {
-		name= "1. Cavalleria di Linea"
-		type = cuirassier
 		home = 754
 	}
-
+	
 	regiment = {
-		name= "2. Cavalleria di Linea"
-		type = cuirassier
-		home = 753
+		name= "2nd Artillery"
+		type = artillery
+		home = 754
 	}
-
+	
 	regiment = {
-		name= "3. Cavalleria di Linea"
-		type = cuirassier
+		name= "3rd Artillery"
+		type = artillery
 		home = 756
 	}
-
-}
-
-army = {
-	name = "Guardia Reale"
-	location = 762
+	
 	regiment = {
-		name= "1. Guardia Reale"
-		type = guard
-		home = 762
+		name= "4th Artillery"
+		type = artillery
+		home = 756
 	}
-
+	
 	regiment = {
-		name= "2. Guardia Reale"
-		type = guard
-		home = 764
-	}
-
-	regiment = {
-		name= "3. Guardia Reale"
-		type = guard
-		home = 759
-	}
-
-	regiment = {
-		name= "1. Truppe Svizzere"
-		type = infantry
-		home = 760
-	}
-
-	regiment = {
-		name= "2. Truppe Svizzere"
-		type = infantry
-		home = 761
-	}
-
-	regiment = {
-		name= "3. Truppe Svizzere"
-		type = infantry
-		home = 758
-	}
-
-	regiment = {
-		name= "4. Truppe Svizzere"
+		name= "5th Artillery"
 		type = artillery
 		home = 763
 	}
-
 }
 
 navy = {

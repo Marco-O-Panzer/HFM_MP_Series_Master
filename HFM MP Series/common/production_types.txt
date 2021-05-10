@@ -1021,7 +1021,7 @@ oil_rig = {
 opium_plantation = {
 	template = RGO_template_farmers
 	output_goods = opium 
-	value = 0.7
+	value = 2
 	farm = yes
 }
 
