@@ -1839,6 +1839,8 @@ political_decisions = {
 			NOT = { accepted_culture = hungarian }
 			owns = 642
 			has_global_flag = transdanubia_rename_hun
+			NOT = { tag = KUK }
+			NOT = { tag = DNB }
 		}
 		
 		allow = {

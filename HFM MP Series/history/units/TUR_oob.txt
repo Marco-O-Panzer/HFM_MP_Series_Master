@@ -123,69 +123,63 @@ army = {
 	name = "1st Army"
 	location = 860
 	regiment = {
-		name= "1. Bostancy-yy Hassa"
+		name= "1st Infantry"
 		type = infantry
-		home = 860
-	}
-
-	regiment = {
-		name= "2. Bostancy-yy Hassa"
-		type = infantry
-		home = 828
-	}
-
-	regiment = {
-		name= "3. Bostancy-yy Hassa"
-		type = infantry
-		home = 859
-	}
-
-	regiment = {
-		name= "4. Bostancy-yy Hassa"
-		type = infantry
-		home = 861
+		home = 674
 	}
 	
 	regiment = {
-		name= "1. Sipahis"
+		name= "2nd Infantry"
+		type = infantry
+		home = 803
+	}
+	
+	regiment = {
+		name= "3rd Infantry"
+		type = infantry
+		home = 803
+	}
+	
+	regiment = {
+		name= "4th Infantry"
+		type = infantry
+		home = 805
+	}
+	
+	regiment = {
+		name= "1st Hussars"
 		type = hussar
-		home = 798
-	}
-
-	regiment = {
-		name= "2. Sipahis"
-		type = artillery
-		home = 799
-	}
-
-	regiment = {
-		name= "3. Sipahis"
-		type = artillery
-		home = 802
-	}
-
-	regiment = {
-		name= "1. Piyade Tümeni"
-		type = artillery
-		home = 802
-	}
-
-	regiment = {
-		name= "2. Piyade Tümeni"
-		type = artillery
-		home = 803
-	}
-
-	regiment = {
-		name= "3. Piyade Tümeni"
-		type = artillery
-		home = 803
+		home = 805
 	}
 	
 	regiment = {
-		name= "3. Redif Halab"
+		name= "1st Artillery"
 		type = artillery
-		home = 923
+		home = 806
+	}
+	
+	regiment = {
+		name= "2nd Artillery"
+		type = artillery
+		home = 806
+	}
+	
+	regiment = {
+		name= "3rd Artillery"
+		type = artillery
+		home = 809
+	}
+	
+	regiment = {
+		name= "4th Artillery"
+		type = artillery
+		home = 809
+	}
+	
+	regiment = {
+		name= "5th Artillery"
+		type = artillery
+		home = 809
 	}
 }
 
@@ -193,207 +187,64 @@ army = {
 	name = "2nd Army"
 	location = 812
 
-	regiment = {
-		name= "4. Piyade Tümeni"
+regiment = {
+		name= "1st Infantry"
 		type = infantry
-		home = 804
+		home = 823
 	}
-
+	
 	regiment = {
-		name= "1. Redif Izmir"
+		name= "2nd Infantry"
 		type = infantry
-		home = 806
+		home = 832
 	}
-
+	
 	regiment = {
-		name= "2. Redif Izmir"
+		name= "3rd Infantry"
 		type = infantry
-		home = 807
+		home = 832
 	}
-
+	
 	regiment = {
-		name= "3. Redif Izmir"
+		name= "4th Infantry"
 		type = infantry
-		home = 807
-	}
-
-	regiment = {
-		name= "1. Redif Bursa"
-		type = hussar
 		home = 849
 	}
-
+	
 	regiment = {
-		name= "2. Redif Bursa"
-		type = artillery
-		home = 850
+		name= "1st Hussars"
+		type = hussar
+		home = 860
 	}
-
+	
 	regiment = {
-		name= "3. Redif Bursa"
+		name= "1st Artillery"
 		type = artillery
-		home = 851
+		home = 860
 	}
-
+	
 	regiment = {
-		name= "5. Piyade Tümeni"
+		name= "2nd Artillery"
+		type = artillery
+		home = 860
+	}
+	
+	regiment = {
+		name= "3rd Artillery"
+		type = artillery
+		home = 863
+	}
+	
+	regiment = {
+		name= "4th Artillery"
+		type = artillery
+		home = 873
+	}
+	
+	regiment = {
+		name= "5th Artillery"
 		type = artillery
 		home = 882
-	}
-
-	regiment = {
-		name= "6. Piyade Tümeni"
-		type = artillery
-		home = 884
-	}
-
-	regiment = {
-		name= "7. Piyade Tümeni"
-		type = artillery
-		home = 879
-	}
-}
-
-army = {
-	name = "3rd Army"
-	location = 895
-
-	regiment = {
-		name= "8. Piyade Tümeni"
-		type = infantry
-		home = 888
-	}
-
-	regiment = {
-		name= "1. Redif Kars"
-		type = infantry
-		home = 888
-	}
-
-	regiment = {
-		name= "2. Redif Kars"
-		type = infantry
-		home = 887
-	}
-
-	regiment = {
-		name= "3. Redif Kars"
-		type = infantry
-		home = 887
-	}
-
-	regiment = {
-		name= "1. Redif Trabzon"
-		type = hussar
-		home = 876
-	}
-
-	regiment = {
-		name= "2. Redif Trabzon"
-		type = artillery
-		home = 883
-	}
-
-	regiment = {
-		name= "3. Redif Trabzon"
-		type = artillery
-		home = 869
-	}
-	
-	regiment = {
-		name= "4. Sipahis"
-		type = artillery
-		home = 810
-	}
-
-	regiment = {
-		name= "5. Sipahis"
-		type = artillery
-		home = 811
-	}
-
-	regiment = {
-		name= "6. Sipahis"
-		type = artillery
-		home = 812
-	}
-
-}
-
-army = {
-	name = "4th Army"
-	location = 1736
-
-	regiment = {
-		name= "9. Piyade Tümeni"
-		type = infantry
-		home = 813
-	}
-
-	regiment = {
-		name= "10. Piyade Tümeni"
-		type = infantry
-		home = 818
-	}
-
-	regiment = {
-		name= "11. Piyade Tümeni"
-		type = infantry
-		home = 674
-	}
-
-	regiment = {
-		name= "1. Redif Diyarbakir"
-		type = infantry
-		home = 675
-	}
-
-	regiment = {
-		name= "2. Redif Diyarbakir"
-		type = hussar
-		home = 809
-	}
-
-	regiment = {
-		name= "3. Redif Diyarbakir"
-		type = artillery
-		home = 814
-	}
-
-	regiment = {
-		name= "12. Piyade Tümeni"
-		type = artillery
-		home = 925
-	}
-
-	regiment = {
-		name= "13. Piyade Tümeni"
-		type = artillery
-		home = 925
-	}
-
-	regiment = {
-		name= "14. Piyade Tümeni"
-		type = artillery
-		home = 926
-	}
-
-	regiment = {
-		name= "1. Redif Halab"
-		type = artillery
-		home = 923
-	}
-	
-	regiment = {
-		name= "2. Askäris"
-		type = artillery
-		home = 1734
-	}
-	
-	regiment = {
-		name= "2. Redif Halab"
-		type = artillery
-		home = 923
 	}
 }
 

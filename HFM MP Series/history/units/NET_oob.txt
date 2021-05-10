@@ -112,122 +112,68 @@ leader = {
 }
 
 army = {
-	name = "1e Divisie"
+	name = "1st Army"
 	location = 375 
 	regiment = {
-		name= "1e Cavalerie Brigade"
-		type = cuirassier
+		name= "1st Infantry"
+		type = infantry
 		home = 375
-	}
-
-	regiment = {
-		name= "2e Cavalerie Brigade"
-		type = cuirassier
-		home = 383
-	}
-
-	regiment = {
-		name= "3e Cavalerie Brigade"
-		type = cuirassier
-		home = 380
 	}
 	
 	regiment = {
-		name= "4e Cavalerie Brigade"
-		type = hussar
-		home = 382
-	}
-
-	regiment = {
-		name = "1e Infanterie Brigade"
-		type = infantry
-		home = 376
-	}
-
-	regiment = {
-		name = "2e Infanterie Brigade"
-		type = infantry
-		home = 376
-	}
-
-	regiment = {
-		name = "3e Infanterie Brigade"
-		type = infantry
-		home = 377
-	}
-
-}
-
-army = {
-	name = "2e Divisie"
-	location = 381
-	regiment = {
-		name = "4e Infanterie Brigade"
-		type = infantry
-		home = 378
-	}
-
-	regiment = {
-		name = "5e Infanterie Brigade"
-		type = infantry
-		home = 379
-	}
-
-	regiment = {
-		name = "6e Infanterie Brigade"
-		type = infantry
-		home = 382
-	}
-
-}
-
-army = {
-	name = "3e Divisie"
-	location = 375
-	regiment = {
-		name = "7e Infanterie Brigade"
-		type = infantry
-		home = 383
-	}
-
-	regiment = {
-		name = "8e Infanterie Brigade"
-		type = infantry
-		home = 384
-	}
-
-	regiment = {
-		name = "9e Infanterie Brigade"
+		name= "2nd Infantry"
 		type = infantry
 		home = 375
 	}
+	
 	regiment = {
-		name = "1e Artillerie Brigade"
-		type = artillery
-		home = 386
+		name= "3rd Infantry"
+		type = infantry
+		home = 375
 	}
+	
 	regiment = {
-		name = "2e Artillerie Brigade"
-		type = artillery
-		home = 385
-	}	
-
-}
-
-army = {
-	name = "K.N.I.L."
-	location = 1413
-	regiment = {
-		name = "1e Indische Brigade"
+		name= "4th Infantry"
 		type = infantry
 		home = 1413
 	}
-
+	
 	regiment = {
-		name = "Banisaren Korps"
-		type = irregular
-		home = 1421
+		name= "1st Hussars"
+		type = hussar
+		home = 379
 	}
+	
+	regiment = {
+		name= "1st Artillery"
+		type = artillery
+		home = 379
+	}
+	
+	regiment = {
+		name= "2nd Artillery"
+		type = artillery
+		home = 385
+	}
+	
+	regiment = {
+		name= "3rd Artillery"
+		type = artillery
+		home = 385
+	}
+	
+	regiment = {
+		name= "4th Artillery"
+		type = artillery
+		home = 1413
+	}
+	
+	regiment = {
+		name= "5th Artillery"
+		type = artillery
+		home = 1418
+	}
+
 }
 
 navy = {

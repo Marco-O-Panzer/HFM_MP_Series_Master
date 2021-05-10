@@ -62,7 +62,8 @@ Population
 * Emigration reduction from low militancy reduced (-0.1 below 2, -0.1 below 1, cumulative) 
 * South Asian emigration debuff matches East Asian now
 * Base supply limit increased by about 2/3
-* Soldier pops concentrated in state capitals, so easier to recruit 
+* Soldier pops concentrated in state capitals, so easier to recruit
+* Minimum pop for a brigade raised to 2k
 
 Economy
 * New Synthetic Rubber factory for late game
@@ -71,6 +72,8 @@ Economy
 * New RGOs copper and tin
 * New industrial goods bronze and pharmaceuticals
 * New military good Interwar Hull
+* Price increases for goods that rely on new RGOs
+* Base Sulphur and Opium output increased
 
 Tech
 * Ivention for lvl 8 naval base
