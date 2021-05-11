@@ -468,6 +468,12 @@ demotion_chance = {
 migration_chance = {
 	factor = 1
 	
+	modifier = {
+		factor = 1
+		country = { has_country_flag = promoted_european_culture }
+		location = { continent = europe }
+	}
+	
 	group = {
 		modifier = {
 			factor = -0.1
@@ -1762,7 +1768,7 @@ conversion_chance = {
 
 	modifier = {
 		factor = 2
-		has_country_flag = coptic_conversions
+		country = { has_country_flag = coptic_conversions }
 	}
 
 	modifier = {

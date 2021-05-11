@@ -438,7 +438,7 @@ TUR_855 = { 855 856 857 } #Cyprus
 TUR_860 = { 860 828 858 859 } #Thrace
 
 
-### Middle East
+### Anatolia
 
 TUR_863 = { 863 861 862 864 865 867 } #Hudavendigar
 
@@ -459,6 +459,8 @@ TUR_890 = { 890 891 887 } #Van
 TUR_893 = { 893 889 899 892 2414 } #Diyarbakir
 
 TUR_894 = { 894 896 898 895 900 } #Adana
+
+### Middle East
 
 EGY_897 = { 897 901 904 905 3276 } #Aleppo
 

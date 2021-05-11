@@ -38,6 +38,7 @@ Flavour Changes
 * USE
 -- Cultural unity assimilation affect increased from +21% to +25%
 -- European feeder pops of the local religion in (almost) all European provinces
+-- Now 1 decision to claim all of Europe
 * Ottos
 -- Istanbul starts as precious goods, and Sidon (in Palestine) with coal
 -- Relaxed conditions to remove independence from puppets (dont need a specific gov type, and now pro mil or jingo)
@@ -46,6 +47,7 @@ Flavour Changes
 * Turkey
 -- New tag, will form when ottos are a republic with no key accepted cultures
 -- Only Kemal flava
+-- Now a part of Europe
 * Iran
 -- Atlas changes (new tags, decisions, and pop histories)
 * EIC
@@ -96,6 +98,7 @@ Balance
 * War subs % increase from 30 to 50
 * Non colonial reform gives +0.01% pop growth (as cant get men for the colonies event)
 * Money hoarding treasury sizes all increased
+* Emigrant push from liberal agitation lowered
 
 GFX, UI & Localisation Changes
 * USA and Brazil absolute monarchies renamed
@@ -110,6 +113,7 @@ Bug Fixes
 * Removed hardcoded status of british dominions always reverting to UK puppet status, even if released by another nation
 * Added India core on Fort William (Bengal trade port province)
 * AI wont form Yugo, Romania, Turkestan or Transcaucasia in MP setup
+* Cant inherit all of italy by releasing Rome now (when creating italy)
 
 Version 4
 ---------

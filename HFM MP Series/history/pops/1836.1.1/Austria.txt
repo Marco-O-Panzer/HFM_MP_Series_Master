@@ -455,6 +455,11 @@
 		religion = catholic
 		size = 1000
 	}
+	farmers = {
+		culture = pan_european
+		religion = jewish
+		size = 1000
+	}
 }
 #Sankt Polten (88000/22000 POPS)
 620 = {

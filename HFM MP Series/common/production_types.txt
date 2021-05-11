@@ -1362,7 +1362,7 @@ artisan_artillery = {
 	input_goods = { 
 		explosives = 1		#20
 		steel = 8		#37.6   total input+maint = 67.6
-		copper = 4
+		bronze = 4
 	}
 	output_goods = artillery 
 	value = 1.5			#78
