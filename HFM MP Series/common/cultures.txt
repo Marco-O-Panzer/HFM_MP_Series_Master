@@ -2966,6 +2966,7 @@ east_african = {
 
 		last_names = { Kony Oculi Oneko p'Bitek Orombi Ramogi Luwum Obote Ocollo Tugo Tuga Tugi Ju Mono Ajalo Adugo Poolo Moolo }
 	}
+	union = EAF
 }
 
 southern_african = {

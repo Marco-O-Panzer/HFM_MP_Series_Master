@@ -1520,8 +1520,8 @@ political_decisions = {
 						AND = { owns = 155 NOT = { has_global_flag = french_renamed_minnesota } }
 						AND = { owns = 120 NOT = { has_global_flag = french_renamed_south_dakota } }
 						AND = { owns = 117 NOT = { has_global_flag = french_renamed_north_dakota } }
+						AND = { owns = 116 NOT = { has_global_flag = french_renamed_montana } }
 						AND = { owns = 112 NOT = { has_global_flag = french_renamed_wyoming } }
-						AND = { owns = 78 NOT = { has_global_flag = french_renamed_washington } }
 						AND = { owns = 81 NOT = { has_global_flag = french_renamed_oregon } }
 						AND = { owns = 91 NOT = { has_global_flag = french_renamed_idaho } }
 					}
@@ -1539,8 +1539,8 @@ political_decisions = {
 						AND = { owns = 155 has_global_flag = french_renamed_minnesota }
 						AND = { owns = 120 has_global_flag = french_renamed_south_dakota }
 						AND = { owns = 117 has_global_flag = french_renamed_north_dakota }
+						AND = { owns = 116 has_global_flag = french_renamed_montana }
 						AND = { owns = 112 has_global_flag = french_renamed_wyoming }
-						AND = { owns = 78 has_global_flag = french_renamed_washington }
 						AND = { owns = 81 has_global_flag = french_renamed_oregon }
 						AND = { owns = 91 has_global_flag = french_renamed_idaho }
 					}
@@ -1737,7 +1737,7 @@ political_decisions = {
 			###Kansas - American###
 			random_owned = {
 				limit = {
-					province_id = 126 
+					province_id = 127
 					owner = { is_culture_group = american_cultures }
 				}
 				126 = {
@@ -1750,7 +1750,7 @@ political_decisions = {
 			###Kansas###
 			random_owned = {
 				limit = {
-					province_id = 126 
+					province_id = 127
 					owner = { 
 						OR = { 
 							primary_culture = french_canadian
@@ -1994,7 +1994,7 @@ political_decisions = {
 			###Oregon - American###
 			random_owned = {
 				limit = {
-					province_id = 83 
+					province_id = 81
 					owner = { is_culture_group = american_cultures }
 				}
 				83 = {
@@ -2008,7 +2008,7 @@ political_decisions = {
 			###Oregon###
 			random_owned = {
 				limit = {
-					province_id = 83 
+					province_id = 81
 					owner = { 
 						OR = { 
 							primary_culture = french_canadian
