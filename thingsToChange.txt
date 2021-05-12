@@ -1,5 +1,4 @@
 Changes that are waiting to be implemented:
-* RB no homeland uk flavour (pinned in modding)
 * add in flavour for parties of new tags
 * build all railroads decision - also take into account terrain
 

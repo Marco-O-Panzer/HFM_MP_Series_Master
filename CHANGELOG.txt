@@ -52,6 +52,9 @@ Flavour Changes
 -- Atlas changes (new tags, decisions, and pop histories)
 * EIC
 -- Balance modifier changed so EIC will gain (almost) no RP, or lose it
+* UK
+-- If the Chartists win the UK is exiled and then can change to Canada, and focus on North America or trying to return home
+-- Will not get the dominions asking to leave if the UK is reformed after being exiled
 
 CBs
 * Restrictions on who can take what port in China removed (except for the Taipei port)

@@ -17,6 +17,7 @@ country_event = {
 		any_owned_province = { is_core = NEW }
 		NOT = { exists = NEW }
 		is_possible_vassal = NEW
+		NOT = { has_global_flag = eng_to_canada_flag }
 	}
 
 	mean_time_to_happen = {
@@ -478,6 +479,7 @@ country_event = {
 		any_owned_province = { is_core = NZL }
 		NOT = { exists = NZL }
 		is_possible_vassal = NZL
+		NOT = { has_global_flag = eng_to_canada_flag }
 	}
 
 	mean_time_to_happen = {
@@ -692,6 +694,7 @@ country_event = {
 		any_owned_province = { is_core = SAF }
 		NOT = { exists = SAF }
 		is_possible_vassal = SAF
+		NOT = { has_global_flag = eng_to_canada_flag }
 	}
 
 	mean_time_to_happen = {
@@ -1471,6 +1474,7 @@ country_event = {
 		war = no
 		year = 1924
 		any_owned_province = { is_core = RHO }
+		NOT = { has_global_flag = eng_to_canada_flag }
 	}
 
 	mean_time_to_happen = {

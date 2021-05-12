@@ -318,6 +318,8 @@ country_event = {
 	picture = "confederation"
 
 	major = yes
+	
+	fire_only_once = yes
 
 	trigger = {
 		OR = {
@@ -329,6 +331,7 @@ country_event = {
 		any_owned_province = { is_core = CAN }
 		NOT = { exists = CAN }
 		is_possible_vassal = CAN
+		NOT = { has_global_flag = eng_to_canada_flag }
 	}
 
 	mean_time_to_happen = {

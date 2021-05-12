@@ -703,30 +703,30 @@ political_decisions = {
 		}
 	}
 	
-	clean_up_ai_eic = {
-		picture = anglification
-		potential = {
-			tag = EIC
-			ai = yes
-			OR = { 
-				has_global_flag = sepoy_rebellion
-				year = 1862
-				NOT = { government = colonial_company }
-			}
-		}
-		
-		allow = {
-			war = no
-		}
-		
-		effect = {
-			any_owned = { secede_province = ENG }
-			annex_to = ENG
-			ENG = { inherit = EIC }
-		}
-		
-		ai_will_do = { factor = 1 }
-	}
+#	clean_up_ai_eic = {
+#		picture = anglification
+#		potential = {
+#			tag = EIC
+#			ai = yes
+#			OR = { 
+#				has_global_flag = sepoy_rebellion
+#				year = 1862
+#				NOT = { government = colonial_company }
+#			}
+#		}
+#		
+#		allow = {
+#			war = no
+#		}
+#		
+#		effect = {
+#			any_owned = { secede_province = ENG }
+#			annex_to = ENG
+#			ENG = { inherit = EIC }
+#		}
+#		
+#		ai_will_do = { factor = 1 }
+#	}
 	
 	end_mughals = {
 		picture = panthay
