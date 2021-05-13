@@ -17,7 +17,6 @@ political_decisions = {
 		}
 		effect = { 
 			government = democracy
-			nationalvalue = nv_liberty
 			set_country_flag = republic_proclaimed
 		}
 		ai_will_do = {

@@ -269,7 +269,7 @@ decisive_firepower_doctrine = {
 	}
 	effect = {
 		navy_base = {
-			gun_power = 1
+			gun_power = 2
 		}
 		clipper_transport = {
 			gun_power = -1

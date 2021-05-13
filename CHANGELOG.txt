@@ -58,6 +58,7 @@ Flavour Changes
 
 CBs
 * Restrictions on who can take what port in China removed (except for the Taipei port)
+* Demand concession can now be used on capitals
 
 Politics & NFs
 * Now requires fascist government type for increased births NF
@@ -93,6 +94,7 @@ New General Decisions
 * Can now release substates
 * Post colonials will instantly westernise
 * Certain places in the Balkans and South America can change their rgos to industrial rgos with 1900s power tech
+* Forts and Ports build decisions now take into account terrain (can only be used once per level)
 
 Balance
 * Focus at home now reduces tech cost by 5%
