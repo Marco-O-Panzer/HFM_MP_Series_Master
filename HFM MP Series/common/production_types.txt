@@ -641,11 +641,11 @@ regular_clothes_factory = {
 shoe_factory = {
 	template = factory_template	#
 	input_goods = {   
-		cattle = 45
-		bronze = 20		
+		cattle = 7
+		bronze = 7		
 	}
 	output_goods = shoes 
-	value = 45
+	value = 35
 	bonus = {
 		trigger = { has_building = bronze_factory }
 		value = 0.1
@@ -944,7 +944,7 @@ RGO_template_labourers = {
 cattle_ranch = {
 	template = RGO_template_farmers
 	output_goods = cattle 
-	value = 1.7 #1.8
+	value = 2.1
 	farm = yes
 }
 
@@ -1654,10 +1654,10 @@ artisan_fertilizer = {
 
 artisan_cobbler = {
 	input_goods = {   
-		cattle = 50
+		cattle = 7
 	}
 	output_goods = shoes 
-	value = 15
+	value = 20
 	owner = {
 		poptype = artisans
 		effect = output
