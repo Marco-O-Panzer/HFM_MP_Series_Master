@@ -4,7 +4,7 @@ commerce_raider = {
 	naval_icon = 5
 	
 	type = naval
-	sprite = Raider
+	sprite = Submarine
 	active = no
 	unit_type = light_ship
 	move_sound = steam_move

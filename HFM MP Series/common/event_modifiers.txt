@@ -159,6 +159,12 @@ transfer_rp_debuff = {
 	icon = 12
 }
 
+mass_literacy_in_progress = {
+	administrative_efficiency_modifier = -0.15
+	badboy = 0.03
+	icon = 3
+}
+
 angry_chinese_reform = {
 	research_points = 2
 	org_regain = 0.1

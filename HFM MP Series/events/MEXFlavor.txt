@@ -904,6 +904,133 @@ country_event = {
 	}
 }
 
+#####################################
+#Townes Mexican 2nd Independence War#
+#####################################
+
+#France starts the war
+country_event = {
+	id = 7777920
+	title = "EVTNAME7777920"
+	desc = "EVTDESC7777920"
+	picture = "maximilian"
+	
+	trigger = {
+		primary_culture = french
+		is_greater_power = yes
+		capital = 425
+		has_country_flag = 2nd_empire
+		NOT = { government = democracy }
+		exists = MEX
+		MEX = { is_greater_power = no }
+		has_global_flag = acw_war_started
+	}
+ 
+	mean_time_to_happen =  {
+		months = 1
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1861
+		}
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1862
+		}
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1863
+		}
+	}
+		
+	fire_only_once = yes
+		
+	option = {
+		name = "EVT7777920OPTA"
+		war = {
+			target = MEX
+			attacker_goal = { casus_belli = make_puppet }
+			defender_goal = { casus_belli = status_quo }
+		}
+		MEX = { country_event = { id = 7777921 days = 5 } }
+		badboy = -6
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = "EVT7777920OPTB"
+		prestige = -40
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Mexican reaction
+country_event = {
+	id = 7777921
+	title = "EVTNAME7777921"
+	desc = "EVTDESC7777921"
+	picture = "mexico_soldiers"
+	
+	is_triggered_only = yes
+		
+	option = {
+		name = "EVT7777921OPTA"
+		USA = {
+			relation = { who = MEX value = 100 }
+			diplomatic_influence = { who = MEX value = 100 }
+		}
+		USA = { country_event = { id = 7777922 days = 10 } }
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = "EVT7777921OPTB"
+		any_pop = {
+			ideology = { value = conservative }
+			militancy = -2
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#US reaction
+country_event = {
+	id = 7777922
+	title = "EVTNAME7777922"
+	desc = "EVTDESC7777922"
+	picture = "william_seward"
+	
+	is_triggered_only = yes
+		
+	option = {
+		name = "EVT7777922OPTA"
+		relation = { who = MEX value = 100 }
+		diplomatic_influence = { who = MEX value = 100 }
+		create_alliance = MEX
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = "EVT7777922OPTB"
+		relation = { who = MEX value = -200 }
+		diplomatic_influence = { who = MEX value = -200 }
+		leave_alliance = MEX
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+
 country_event = {
 
 	id = 44830

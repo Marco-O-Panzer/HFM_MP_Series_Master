@@ -86,7 +86,7 @@ market_structure = 1
 	mechanized_fishing_vessels = yes
 	steamer_automatic_construction_plants = yes
 	steamer_transports = yes
-	commerce_raiders = yes
+	
 	aerial_bacteria_and_antiseptic_principle = yes
 	clinical_thermometers_and_binaural_stethoscopes = yes
 	prophylaxis_against_malaria = yes

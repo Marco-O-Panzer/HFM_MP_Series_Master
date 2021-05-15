@@ -1797,10 +1797,14 @@ mass_advertising = {
 	core_pop_consciousness_modifier = 0.01
 }
 national_radio_networks = {
-	limit = { behaviorism = 1 }
+	limit = { psychoanalysis = 1 }
 	news = no
 	chance = {
 		base = 3
+		modifier = {
+			factor = -3
+			NOT = { year = 1900 }
+		}
 		modifier = {
 			factor = 5
 			year = 1920

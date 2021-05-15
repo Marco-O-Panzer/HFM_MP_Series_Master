@@ -66,7 +66,7 @@ upper_house = {
 
 # Inventions
 #corvettes = yes
-commerce_raiders = yes
+
 precision_work = yes
 # Inventions
 

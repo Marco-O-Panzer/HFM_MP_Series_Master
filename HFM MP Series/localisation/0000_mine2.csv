@@ -243,3 +243,23 @@ EVTOPTA7777919;Liberty is paramount;x
 EVTOPTB7777919;Equality is whats fair;x
 EVTOPTC7777919;Order will reign;x
 EVTOPTD7777919;Productivity enriches;x
+EVTNAME7777920;Second French intervention in Mexico;x
+EVTDESC7777920;Mexico has refused to repay debts owed to us, we can use this pretext (and whilst the USA is preoccupied with the Civil War) to invade an make a client out of Mexico.;x
+EVT7777920OPTA;Yes, we shall install Maximilian I as Emperor;x
+EVT7777920OPTB;No, Franco-American relations would suffer too greatly;x
+EVTNAME7777921;Second French intervention in Mexico;x
+EVTDESC7777921;We are attacked once more! Our second indpendence war is apon us! We must try to call on aid from the United States. As preoccupied as they are, it is our only hope for aid.;x
+EVT7777921OPTA;Let us hope the Americans respond kindly in turn.;x
+EVT7777921OPTB;No, we will not call on outside aid and intervention, this is our fight;x
+EVTNAME7777922;Second French intervention in Mexico;x
+EVTDESC7777922;European imperialism is back in the Americas, France seeks to impose their monarchichal ways on Mexico and control it once more, how shall we respond?;x
+EVT7777922OPTA;We shall aid the Mexican Republic;x
+EVT7777922OPTB;This does not concern us;x
+start_mass_literacy_campaign_title;§EStart Mass Literacy Campaign§!;x
+start_mass_literacy_campaign_desc;We can begin a mass education campaign to target the most illiterate citizens and raise their literacy. It will cost administrative effort, and other nations will be wary of the fast rise in the ability of populace.;x
+EVTNAME7777923;The Literacy Campaign of $YEAR$;x
+EVTDESC7777923;We have complied a list of areas most in need of targeted education to increase our literacy. Lower literacy citizens will gain more effect from the campaign, with higher literacy citizens seeing little to no effect, shall we proceed?;x
+EVT7777923OPTA;Yes, our people must have the oppertunity education affords them;x
+EVT7777923OPTB;No, the literacy of our populace is now sufficent;x
+mass_literacy_in_progress;Mass Literacy Campaign;x
+mass_literacy_in_progress_desc;There is currently a nationwide effort to educate the most needing of our populace.;x

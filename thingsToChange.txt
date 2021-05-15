@@ -1,11 +1,10 @@
 Changes that are waiting to be implemented:
 * add in flavour for parties of new tags
-* build all railroads decision - also take into account terrain
-
+* big validator cleanup and tidy
 
 BUGS:
 * AI is stupid
-* Potential issues with CBs via events or decisions
+* Potential issues with CBs via events or decisions giving infamy cost when they shouldnt
 
 
 Maybe:

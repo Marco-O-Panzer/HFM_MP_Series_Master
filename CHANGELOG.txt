@@ -55,6 +55,8 @@ Flavour Changes
 * UK
 -- If the Chartists win the UK is exiled and then can change to Canada, and focus on North America or trying to return home
 -- Will not get the dominions asking to leave if the UK is reformed after being exiled
+* FRA
+-- French Mexican (2nd Independence) war added in - option for the USA and Mexico to strengthen relations over it
 
 CBs
 * Restrictions on who can take what port in China removed (except for the Taipei port)
@@ -95,6 +97,7 @@ New General Decisions
 * Post colonials will instantly westernise
 * Certain places in the Balkans and South America can change their rgos to industrial rgos with 1900s power tech
 * Forts and Ports build decisions now take into account terrain (can only be used once per level)
+* New mass literacy campaign, more effective the lower the pop's literacy is - costs infamy
 
 Balance
 * Focus at home now reduces tech cost by 5%
