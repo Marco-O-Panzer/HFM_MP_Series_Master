@@ -300,9 +300,103 @@ country_event = {
 				secede_province = EIC
 			}
 		}
+		CAN = {
+			prestige = -100
+			release_vassal = EIC
+			diplomatic_influence = {
+				who = EIC
+				value = -400
+			}
+			any_owned = {
+				limit = {
+					is_core = HND
+					is_overseas = yes
+				}
+				secede_province = EIC
+			}
+			any_owned = {
+				limit = {
+					is_core = SRI
+					is_overseas = yes
+				}
+				secede_province = EIC
+			}
+			any_owned = {
+				limit = {
+					is_core = JOH
+					is_overseas = yes
+				}
+				secede_province = EIC
+			}
+			any_owned = {
+				limit = {
+					is_core = CHI
+					is_overseas = yes
+				}
+				secede_province = EIC
+			}
+			any_owned = {
+				limit = {
+					is_core = BUR
+					is_overseas = yes
+				}
+				secede_province = EIC
+			}
+			any_owned = {
+				limit = {
+					is_core = AFG
+					is_overseas = yes
+				}
+				secede_province = EIC
+			}
+			any_owned = {
+				limit = {
+					is_core = MLD
+					is_overseas = yes
+				}
+				secede_province = EIC
+			}
+			any_owned = {
+				limit = {
+					is_core = PER
+					is_overseas = yes
+				}
+				secede_province = EIC
+			}
+			any_owned = {
+				limit = {
+					is_core = SIA
+					is_overseas = yes
+				}
+				secede_province = EIC
+			}
+			any_owned = {
+				limit = {
+					is_core = SLG
+					is_overseas = yes
+				}
+				secede_province = EIC
+			}
+			any_owned = {
+				limit = {
+					is_core = PRK
+					is_overseas = yes
+				}
+				secede_province = EIC
+			}
+			2128 = {
+				secede_province = EIC
+			}
+			2125 = {
+				secede_province = EIC
+			}
+		}
 		any_country = {
 			limit = {
-				vassal_of = ENG
+				OR = {
+					vassal_of = ENG
+					vassal_of = CAN
+				}
 				NOT = {
 					continent = europe
 					continent = australia_new_zealand

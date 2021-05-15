@@ -41,6 +41,17 @@ objectTypes = {
 	}		
 	
 	EMFXActorType = {
+		name = "GenericSubmarine"
+		actorfile = "gfx\anims\Submarine.xac"
+		scale = 1.4
+				
+		idle   = "gfx\anims\SubmarineMove.xsm"
+		move   = "gfx\anims\SubmarineMove.xsm"
+		attack = "gfx\anims\SubmarineMove.xsm"
+		
+	}	
+	
+	EMFXActorType = {
 		name = "GenericRaider"
 		actorfile = "gfx\anims\Generic_Raider.xac"
 		

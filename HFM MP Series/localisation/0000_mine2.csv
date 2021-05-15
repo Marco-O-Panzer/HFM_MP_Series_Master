@@ -217,3 +217,49 @@ alaskan_copper_production_title;New Industrial RGOs;x
 alaskan_copper_production_desc;Advancements in technology allow us to mine previous unobtainable goods, bolstering supply for our industrial base.;x
 brazilian_coal_title;New Industrial RGOs;x
 brazilian_coal_desc;Advancements in technology allow us to mine previous unobtainable goods, bolstering supply for our industrial base.;x
+EVTDESC5329627;We must decide who will lead our new Italian ally.;x
+berlin_conference;Berlin Conference;x
+hasmanifestdestiny;Manifest Destiny;x
+EVTNAME7777917;New England requests unification;x
+EVTDESC7777917;The government of New England, with the consent of its legislature, has requested unification with Canada. In return they ask for equal standing as full citizens. How shall we respond?;x
+EVTOPTA7777917;Yes! We shall be united;x
+EVTOPTB7777917;No, we seek to return to our homeland;x
+EVTNAME7777918;The Exiling;x
+EVTDESC7777918;We have lost. The Chartists are victorious and so we shall look across the seas, the shores and lands of Canada shall be our home. Maybe one day we will return, maybe not.;x
+EVTOPTA7777918;So it is.;x
+eng_to_canada_title;O Canada!;x
+eng_to_canada_desc;It is time to make ourselves and our governmnet more reflective of the new political reality, we will forge ourselves anew!;x
+accept_quebec_now_title;Coast to Coast;x
+accept_quebec_now_desc;We must work with the french speakers of our land, and take Hudson Bay Company land under Crown control;x
+releast_and_puppet_nen_title;New England, New Canada;x
+releast_and_puppet_nen_desc;We request, no we DEMAND the freedom of the people of New England. We will go to Washington and enforce our demands like its 1812. §RNote: will gain 10 infamy in total§!;x
+north_east_corridor_cores_title;The South East Corridor;x
+north_east_corridor_cores_desc;Since integration of the New Englanders and acceptance of their culture, we can now assert control over these lands, and future rightful control, to the international community.;x
+can_to_uk_title;Restore our United Kingdom;x
+can_to_uk_desc;After our victory over the republicans, we can proclaim once more the United Kingdom of Great Britain and Ireland.;x
+EVTNAME7777919;Our Common Values;x
+EVTDESC7777919;With the reorganisation into the Republic, we will now set out the ideals and character of our nation in the new constitution and subsequent laws. How shall we focus ourselves?;x
+EVTOPTA7777919;Liberty is paramount;x
+EVTOPTB7777919;Equality is whats fair;x
+EVTOPTC7777919;Order will reign;x
+EVTOPTD7777919;Productivity enriches;x
+EVTNAME7777920;Second French intervention in Mexico;x
+EVTDESC7777920;Mexico has refused to repay debts owed to us, we can use this pretext (and whilst the USA is preoccupied with the Civil War) to invade an make a client out of Mexico.;x
+EVT7777920OPTA;Yes, we shall install Maximilian I as Emperor;x
+EVT7777920OPTB;No, Franco-American relations would suffer too greatly;x
+EVTNAME7777921;Second French intervention in Mexico;x
+EVTDESC7777921;We are attacked once more! Our second indpendence war is apon us! We must try to call on aid from the United States. As preoccupied as they are, it is our only hope for aid.;x
+EVT7777921OPTA;Let us hope the Americans respond kindly in turn.;x
+EVT7777921OPTB;No, we will not call on outside aid and intervention, this is our fight;x
+EVTNAME7777922;Second French intervention in Mexico;x
+EVTDESC7777922;European imperialism is back in the Americas, France seeks to impose their monarchichal ways on Mexico and control it once more, how shall we respond?;x
+EVT7777922OPTA;We shall aid the Mexican Republic;x
+EVT7777922OPTB;This does not concern us;x
+start_mass_literacy_campaign_title;§EStart Mass Literacy Campaign§!;x
+start_mass_literacy_campaign_desc;We can begin a mass education campaign to target the most illiterate citizens and raise their literacy. It will cost administrative effort, and other nations will be wary of the fast rise in the ability of populace.;x
+EVTNAME7777923;The Literacy Campaign of $YEAR$;x
+EVTDESC7777923;We have complied a list of areas most in need of targeted education to increase our literacy. Lower literacy citizens will gain more effect from the campaign, with higher literacy citizens seeing little to no effect, shall we proceed?;x
+EVT7777923OPTA;Yes, our people must have the oppertunity education affords them;x
+EVT7777923OPTB;No, the literacy of our populace is now sufficent;x
+mass_literacy_in_progress;Mass Literacy Campaign;x
+mass_literacy_in_progress_desc;There is currently a nationwide effort to educate the most needing of our populace.;x

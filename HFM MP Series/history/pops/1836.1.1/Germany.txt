@@ -1404,6 +1404,11 @@
 		religion = protestant
 		size = 1000
 	}
+	farmers = {
+		culture = pan_european
+		religion = jewish
+		size = 1000
+	}
 }
 #Prenzlau (280000/70000 POPS)
 550 = {
@@ -2387,6 +2392,11 @@
 	farmers = {
 		culture = pan_european
 		religion = protestant
+		size = 1000
+	}
+	farmers = {
+		culture = pan_european
+		religion = jewish
 		size = 1000
 	}
 }

@@ -4756,6 +4756,7 @@ demand_concession_casus_belli = {
 			capital_scope = { continent = west_africa }
 			capital_scope = { continent = east_africa }
 			capital_scope = { continent = south_west_africa }
+			capital_scope = { continent = europe }
 		}
 			}
 		}
@@ -4826,7 +4827,7 @@ demand_concession_casus_belli = {
 				any_owned_province = { any_neighbor_province = { owned_by = THIS is_overseas = no has_building = railroad } }
 			}
 		}
-		NOT = { any_owned_province = { is_capital = yes } }
+		#NOT = { any_owned_province = { is_capital = yes } }
 		OR = {
 			any_owned_province = { any_neighbor_province = { owned_by = THIS } }
 			THIS = { ai = no war_with = THIS }
@@ -4925,6 +4926,7 @@ demand_concession_NI_casus_belli = {
 			capital_scope = { continent = west_africa }
 			capital_scope = { continent = east_africa }
 			capital_scope = { continent = south_west_africa }
+			capital_scope = { continent = europe }
 		}
 		}
 		civilized = no
@@ -4988,7 +4990,7 @@ demand_concession_NI_casus_belli = {
 				any_owned_province = { any_neighbor_province = { owned_by = THIS is_overseas = no has_building = railroad } }
 			}
 		}
-		NOT = { any_owned_province = { is_capital = yes } }
+		#NOT = { any_owned_province = { is_capital = yes } }
 		OR = {
 			any_owned_province = { any_neighbor_province = { owned_by = THIS } }
 			THIS = { ai = no war_with = THIS }
@@ -5141,7 +5143,7 @@ demand_concession_BC_casus_belli = {
 				any_owned_province = { any_neighbor_province = { owned_by = THIS is_overseas = no has_building = railroad } }
 			}
 		}
-		NOT = { any_owned_province = { is_capital = yes } }
+		#NOT = { any_owned_province = { is_capital = yes } }
 		OR = {
 			any_owned_province = { any_neighbor_province = { owned_by = THIS } }
 			THIS = { ai = no war_with = THIS }

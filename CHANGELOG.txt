@@ -38,6 +38,7 @@ Flavour Changes
 * USE
 -- Cultural unity assimilation affect increased from +21% to +25%
 -- European feeder pops of the local religion in (almost) all European provinces
+-- Now 1 decision to claim all of Europe
 * Ottos
 -- Istanbul starts as precious goods, and Sidon (in Palestine) with coal
 -- Relaxed conditions to remove independence from puppets (dont need a specific gov type, and now pro mil or jingo)
@@ -46,13 +47,20 @@ Flavour Changes
 * Turkey
 -- New tag, will form when ottos are a republic with no key accepted cultures
 -- Only Kemal flava
+-- Now a part of Europe
 * Iran
 -- Atlas changes (new tags, decisions, and pop histories)
 * EIC
 -- Balance modifier changed so EIC will gain (almost) no RP, or lose it
+* UK
+-- If the Chartists win the UK is exiled and then can change to Canada, and focus on North America or trying to return home
+-- Will not get the dominions asking to leave if the UK is reformed after being exiled
+* FRA
+-- French Mexican (2nd Independence) war added in - option for the USA and Mexico to strengthen relations over it
 
 CBs
 * Restrictions on who can take what port in China removed (except for the Taipei port)
+* Demand concession can now be used on capitals
 
 Politics & NFs
 * Now requires fascist government type for increased births NF
@@ -88,6 +96,8 @@ New General Decisions
 * Can now release substates
 * Post colonials will instantly westernise
 * Certain places in the Balkans and South America can change their rgos to industrial rgos with 1900s power tech
+* Forts and Ports build decisions now take into account terrain (can only be used once per level)
+* New mass literacy campaign, more effective the lower the pop's literacy is - costs infamy
 
 Balance
 * Focus at home now reduces tech cost by 5%
@@ -96,6 +106,7 @@ Balance
 * War subs % increase from 30 to 50
 * Non colonial reform gives +0.01% pop growth (as cant get men for the colonies event)
 * Money hoarding treasury sizes all increased
+* Emigrant push from liberal agitation lowered
 
 GFX, UI & Localisation Changes
 * USA and Brazil absolute monarchies renamed
@@ -110,6 +121,7 @@ Bug Fixes
 * Removed hardcoded status of british dominions always reverting to UK puppet status, even if released by another nation
 * Added India core on Fort William (Bengal trade port province)
 * AI wont form Yugo, Romania, Turkestan or Transcaucasia in MP setup
+* Cant inherit all of italy by releasing Rome now (when creating italy)
 
 Version 4
 ---------

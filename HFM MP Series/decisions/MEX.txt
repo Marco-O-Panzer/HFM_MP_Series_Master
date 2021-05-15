@@ -1,6 +1,7 @@
 political_decisions = {
 	restore_mexican_empire = {
 		potential = {
+			ai = no
 			tag = MEX
 			government = democracy
 			NOT = { has_country_flag = we_have_tried_this_once }

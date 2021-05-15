@@ -1738,6 +1738,12 @@
 		religion = catholic
 		size = 1000
 	}
+
+	farmers = {
+		culture = pan_european
+		religion = jewish
+		size = 1000
+	}
 }
 #Chartres (284000/71000 POPS)
 426 = {
