@@ -59,7 +59,7 @@ barrage_fire = {
 	}
 	effect = {
 		artillery = {
-			attack = 0.1
+			attack = 0.5
 			supply_consumption = 0.1
 		}
 	}
@@ -91,7 +91,7 @@ counter_battery_fire = {
 	}
 	effect = {
 		artillery = {
-			attack = 0.1
+			attack = 0.5
 			supply_consumption = 0.1
 		}
 	}

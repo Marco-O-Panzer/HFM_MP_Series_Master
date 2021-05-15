@@ -1,6 +1,6 @@
 Changes that are waiting to be implemented:
-* add in flavour for parties of new tags
 * big validator cleanup and tidy
+
 
 BUGS:
 * AI is stupid

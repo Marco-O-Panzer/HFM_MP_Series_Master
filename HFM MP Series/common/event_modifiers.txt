@@ -64,6 +64,7 @@ internally_reforming = {
 gbr_rgo = {
 	farm_rgo_size = 10
 	mine_rgo_size = 10
+	icon = 13
 }
 
 developing = {

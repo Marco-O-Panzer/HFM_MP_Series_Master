@@ -681,7 +681,7 @@ pharma_factory = {
 		glass = 10		#70
 	}
 	output_goods = pharmaceuticals 
-	value = 20
+	value = 25
 	bonus = {
 		trigger = { has_building = glass_factory }
 		value = 0.15
@@ -1021,7 +1021,7 @@ oil_rig = {
 opium_plantation = {
 	template = RGO_template_farmers
 	output_goods = opium 
-	value = 2
+	value = 8
 	farm = yes
 }
 
@@ -1693,7 +1693,7 @@ artisan_chemist = {
 		glass = 10
 	}
 	output_goods = pharmaceuticals 
-	value = 20
+	value = 22
 
 	owner = {
 		poptype = artisans

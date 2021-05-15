@@ -107,6 +107,7 @@ Balance
 * Non colonial reform gives +0.01% pop growth (as cant get men for the colonies event)
 * Money hoarding treasury sizes all increased
 * Emigrant push from liberal agitation lowered
+* Artillery attack from late game inventions and techs doubled (from quarter to half of defence stat)
 
 GFX, UI & Localisation Changes
 * USA and Brazil absolute monarchies renamed
