@@ -1,5 +1,6 @@
 Changes that are waiting to be implemented:
 * big validator cleanup and tidy
+* in mp setup reduce all european pops by 100%
 
 
 BUGS:

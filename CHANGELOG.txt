@@ -57,6 +57,8 @@ Flavour Changes
 -- Will not get the dominions asking to leave if the UK is reformed after being exiled
 * FRA
 -- French Mexican (2nd Independence) war added in - option for the USA and Mexico to strengthen relations over it
+* KUK
+-- Loses north german on forming
 
 CBs
 * Restrictions on who can take what port in China removed (except for the Taipei port)
