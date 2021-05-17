@@ -244,7 +244,7 @@ EVTOPTB7777919;Equality is whats fair;x
 EVTOPTC7777919;Order will reign;x
 EVTOPTD7777919;Productivity enriches;x
 EVTNAME7777920;Second French intervention in Mexico;x
-EVTDESC7777920;Mexico has refused to repay debts owed to us, we can use this pretext (and whilst the USA is preoccupied with the Civil War) to invade an make a client out of Mexico.;x
+EVTDESC7777920;Mexico has refused to repay debts owed to us, we can use this pretext (and whilst the USA is preoccupied with the Civil War) to invade an make a client out of Mexico. §RNote: wil cost 4 infamy§!;x
 EVT7777920OPTA;Yes, we shall install Maximilian I as Emperor;x
 EVT7777920OPTB;No, Franco-American relations would suffer too greatly;x
 EVTNAME7777921;Second French intervention in Mexico;x
@@ -263,3 +263,11 @@ EVT7777923OPTA;Yes, our people must have the oppertunity education affords them;
 EVT7777923OPTB;No, the literacy of our populace is now sufficent;x
 mass_literacy_in_progress;Mass Literacy Campaign;x
 mass_literacy_in_progress_desc;There is currently a nationwide effort to educate the most needing of our populace.;x
+EVTNAME7777924;Removing European Pops;x
+EVTDESC7777924;They aren't needed in MP setup;x
+EVTOPTA7777924;Restore the usual cultures;x
+option_disable_euro_pops_title;§POption: Remove European pops§!;x
+option_disable_euro_pops_desc;Remove specifically European culture pops (they are used as feeder pops for other pops to assimilate to when the USE exists).;x
+bomber;Bomber;x
+bomber_desc;A bomber is a combat aircraft designed to attack ground and naval targets by dropping air-to-ground weaponry (such as bombs), launching torpedoes, or deploying air-launched cruise missiles.;x
+plane;Fighter;x

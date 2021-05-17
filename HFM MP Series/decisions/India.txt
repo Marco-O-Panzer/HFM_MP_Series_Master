@@ -1418,13 +1418,15 @@ political_decisions = {
 			mechanized_mining = 1
 			high_pressure_steam_engine = 1
 			1262 = { owned_by = THIS }
+			1265 = { owned_by = THIS }
 			1277 = { owned_by = THIS }
 			1280 = { owned_by = THIS }
 			1301 = { owned_by = THIS }
 			1302 = { owned_by = THIS }
 		}
 		effect = {
-			1262 = { trade_goods = iron }
+			1262 = { trade_goods = copper }
+			1265 = { trade_goods = tin }
 			1277 = { trade_goods = iron }
 			1280 = { trade_goods = iron }
 			1301 = { trade_goods = iron }

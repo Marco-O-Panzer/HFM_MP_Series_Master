@@ -40,8 +40,8 @@ everyday_needs = {
 	telephones = 5
 	automobiles = 1
 	steamer_convoy = 1.5
-	shares = 1
-	shoes = 30
+	shares = 4
+	shoes = 20
 	pharmaceuticals = 15
 }
 
@@ -68,7 +68,7 @@ luxury_needs = {
 	small_arms = 1 
 	clipper_convoy = 2
 	steamer_convoy = 3
-	shares = 2
+	shares = 6
 	pharmaceuticals = 20
 }
 

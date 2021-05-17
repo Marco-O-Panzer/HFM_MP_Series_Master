@@ -1127,7 +1127,7 @@ light_artillery = {
 	}
 	effect = {
 		artillery = {
-			attack = 0.1
+			attack = 0.5
 			support = 0.1
 			supply_consumption = 0.25
 		}
@@ -1148,7 +1148,7 @@ medium_artillery = {
 	}
 	effect = {
 		artillery = {
-			attack = 0.1
+			attack = 0.5
 			support = 0.1
 			supply_consumption = 0.25
 		}
@@ -1169,7 +1169,7 @@ heavy_artillery = {
 	}
 	effect = {
 		artillery = {
-			attack = 0.1
+			attack = 0.5
 			support = 0.1
 			supply_consumption = 0.25
 		}
@@ -1496,10 +1496,7 @@ early_interwar_bombers = {
 		}
 	}
 	effect = {
-		plane = {
-			attack = 0.5
-			support = 1
-		}
+		activate_unit = bomber
 	}
 }
 late_interwar_bombers = {
@@ -1508,7 +1505,7 @@ late_interwar_bombers = {
 		base = 0
 		modifier = {
 			factor = 2
-			indirect_artillery_fire = 1
+			combined_arms_experiments = 1
 		}
 		modifier = {
 			factor = -2
@@ -1516,8 +1513,8 @@ late_interwar_bombers = {
 		}
 	}
 	effect = {
-		plane = {
-			attack = 0.5
+		bomber = {
+			attack = 3
 			support = 1
 		}
 	}
@@ -1533,8 +1530,9 @@ early_interwar_fighters = {
 	}
 	effect = {
 		plane = {
-			attack = 0.25
-			defence = 3
+			attack = 1
+			defence = 5
+			support = 0.5
 		}
 	}
 }
@@ -1553,8 +1551,9 @@ late_interwar_fighters = {
 	}
 	effect = {
 		plane = {
-			attack = 0.25
-			defence = 3
+			attack = 1
+			defence = 5
+			support = 0.5
 		}
 	}
 }
@@ -1577,8 +1576,9 @@ t_air_superiority = {
 	}
 	effect = {
 		plane = {
-			defence = 3
-			default_organisation = 5
+			defence = 5
+			default_organisation = 10
+			support = 0.5
 		}
 	}
 }
@@ -1601,8 +1601,9 @@ flying_circus_doctrine = {
 	}
 	effect = {
 		plane = {
-			defence = 3
-			default_organisation = 5
+			defence = 5
+			default_organisation = 10
+			support = 0.5
 		}
 	}
 }
@@ -1625,8 +1626,9 @@ force_substitution_doctrine = {
 	}
 	effect = {
 		plane = {
-			defence = 3
-			default_organisation = 5
+			defence = 5
+			default_organisation = 10
+			support = 0.5
 		}
 	}
 }
@@ -1648,10 +1650,10 @@ battlefield_destruction_doctrine = {
 		}
 	}
 	effect = {
-		plane = {
-			attack = 0.25
+		bomber = {
+			attack = 3
 			support = 1
-			default_organisation = 5
+			default_organisation = 10
 		}
 	}
 }
@@ -1673,10 +1675,10 @@ operational_destruction_doctrine = {
 		}
 	}
 	effect = {
-		plane = {
-			attack = 0.25
+		bomber = {
+			attack = 3
 			support = 1
-			default_organisation = 5
+			default_organisation = 10
 		}
 	}
 }
@@ -1700,7 +1702,11 @@ strategic_destruction_doctrine = {
 	effect = {
 		plane = {
 			reconnaissance = 2
-			default_organisation = 5
+			default_organisation = 10
+		}
+		bomber = {
+			default_organisation = 10
+			attack = 3
 		}
 	}
 }

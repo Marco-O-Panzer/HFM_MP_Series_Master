@@ -1,4 +1,48 @@
 political_decisions = {
+	for_the_republic = {
+		picture = provincia_britannia
+		potential = {
+			tag = ENG
+			NOT = { year = 1851 }
+			NOT = { has_country_flag = hiding_the_decisions }
+		}
+		allow = {
+			NOT = { year = 1851 }
+		}
+
+		effect = {
+			300 = {
+				add_core = GBR
+				secede_province = GBR
+			}
+			289 = {
+				add_core = GBR
+			}
+			295 = {
+				add_core = GBR
+			}
+			GBR = {
+				capital = 300
+				leadership = 80
+			}
+			change_tag_no_core_switch = GBR
+			GBR = {
+				war = {
+					target = ENG
+					attacker_goal = {
+						casus_belli = acquire_all_cores
+					}
+					defender_goal = {
+						casus_belli = civil_war
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
 	the_revolution_spreads = {
 		picture = form_madagascar
 		potential = {

@@ -7,7 +7,7 @@ This mod is built on HFM V1.27I (SighPie) and HFM More Stuff V3.5 (u/louisky58) 
 - Population growth decision and conditions UI changes taken from The Grand Combo (Jman & others).
 - Unciv rework from Harolds Triumph (Atlas), built from PUIR (Reno).
 - Generals UI change, Trade Agreements & Tech/Inventions taken from Victoria Universalis (KevinG).
-- Aircraft Carrier icon and sprite from CWE mod (settintotrieste & others).
+- Aircraft Carrier & Bomber icons and sprite from CWE mod (settintotrieste & others).
 - Liberate & Puppet CB, Steal Puppet CB, map textures from HFME (Jman & others)
 - Protectorate CBs from HPM 0.4.6 (arkhometha)
 - Clerk only factories & new goods GFX from PDM (Naselus)
@@ -57,6 +57,8 @@ Flavour Changes
 -- Will not get the dominions asking to leave if the UK is reformed after being exiled
 * FRA
 -- French Mexican (2nd Independence) war added in - option for the USA and Mexico to strengthen relations over it
+* KUK
+-- Loses north german on forming
 
 CBs
 * Restrictions on who can take what port in China removed (except for the Taipei port)
@@ -87,6 +89,11 @@ Tech
 * Ivention for lvl 8 naval base
 * 3 railroad inventions (1 pre war, 2 interwar)
 
+Units
+* Airplanes split up into fighters and bombers
+* Fighters start as recon only units, but can gain large defence
+* Bombers can gain large attack
+
 Buildings
 * 4 more levels of railroad
 * 2 more navalbase levels
@@ -98,6 +105,7 @@ New General Decisions
 * Certain places in the Balkans and South America can change their rgos to industrial rgos with 1900s power tech
 * Forts and Ports build decisions now take into account terrain (can only be used once per level)
 * New mass literacy campaign, more effective the lower the pop's literacy is - costs infamy
+* Setup option decision to remove European culture pops (theyre auto removed in mp setup)
 
 Balance
 * Focus at home now reduces tech cost by 5%
@@ -107,6 +115,7 @@ Balance
 * Non colonial reform gives +0.01% pop growth (as cant get men for the colonies event)
 * Money hoarding treasury sizes all increased
 * Emigrant push from liberal agitation lowered
+* Artillery attack from late game inventions and techs doubled (from quarter to half of defence stat)
 
 GFX, UI & Localisation Changes
 * USA and Brazil absolute monarchies renamed

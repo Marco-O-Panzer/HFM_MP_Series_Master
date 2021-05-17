@@ -1,10 +1,10 @@
-plane = {
-	icon = 19
+bomber = {
+	icon = 23
 	
 	type = land
 	sprite = Plane
 	active = no
-	unit_type = cavalry
+	unit_type = support
 	floating_flag = no
 	primary_culture = yes
 	
@@ -41,10 +41,10 @@ plane = {
 	
 
 	#Land Abilties
-	reconnaissance = 4
-	attack = 0
-	defence = 0
+	reconnaissance = 0
+	attack = 9
+	defence = 2
 	discipline = 0.1
-	support = 2.5
+	support = 2
 	maneuver = 2
 }

@@ -5,7 +5,7 @@ factory_template = {
 	efficiency = {
 		cement = 0.5 #if no cement, work at 75% efficiency #cost = 8
 		machine_parts = 0.05 # was 0.01 cost = 36.5		# 9.825/day/level for both
-		financial_services = 0.2
+		financial_services = 0.5
 	}
 	
 	owner = {
@@ -35,7 +35,7 @@ factory_template = {
 cheap_factory_template = {
 	efficiency = {
 		cement = 0.25 #if no cement, work at 75% efficiency #cost = £4/level
-		financial_services = 0.1
+		financial_services = 0.2
 	}
 	
 	owner = {
@@ -65,7 +65,7 @@ cheap_factory_template = {
 machine_part_user_template = {
 	efficiency = {
 		cement = 0.5 #if no cement, work at 75% efficiency #cost = 16.0
-		financial_services = 0.2
+		financial_services = 0.5
 	}
 	
 	owner = {
@@ -96,7 +96,7 @@ cement_template = {
 	efficiency = {
 		iron = 2.3 #if no cement, work at 75% efficiency #cost = 16.0
 		machine_parts = 0.05 # was 0.01 cost = 36.5 		#9.825/day/level for both
-		financial_services = 0.2
+		financial_services = 0.5
 	}
 	
 	owner = {
@@ -288,7 +288,7 @@ machine_parts_factory = {
 	input_goods = {    
 		steel = 9		#42.3
 		coal = 5		#11.5  total input+maint = 66
-		bronze = 2
+		bronze = 3
 	}
 	output_goods = machine_parts 
 	value = 3.0		#73
@@ -540,7 +540,7 @@ artillery_factory = {
 	input_goods = { 
 		explosives = 1		#20
 		steel = 8		#37.6   total input+maint = 67.6
-		bronze = 3
+		bronze = 4
 	}
 	output_goods = artillery 
 	value = 1.5			#78
@@ -641,11 +641,11 @@ regular_clothes_factory = {
 shoe_factory = {
 	template = factory_template	#
 	input_goods = {   
-		cattle = 45
-		bronze = 20		
+		cattle = 7
+		bronze = 7		
 	}
 	output_goods = shoes 
-	value = 45
+	value = 35
 	bonus = {
 		trigger = { has_building = bronze_factory }
 		value = 0.1
@@ -681,7 +681,7 @@ pharma_factory = {
 		glass = 10		#70
 	}
 	output_goods = pharmaceuticals 
-	value = 20
+	value = 25
 	bonus = {
 		trigger = { has_building = glass_factory }
 		value = 0.15
@@ -944,7 +944,7 @@ RGO_template_labourers = {
 cattle_ranch = {
 	template = RGO_template_farmers
 	output_goods = cattle 
-	value = 1.7 #1.8
+	value = 2.1
 	farm = yes
 }
 
@@ -1021,7 +1021,7 @@ oil_rig = {
 opium_plantation = {
 	template = RGO_template_farmers
 	output_goods = opium 
-	value = 2
+	value = 8
 	farm = yes
 }
 
@@ -1070,14 +1070,14 @@ sulphur_mine = {
 tea_plantation = {
 	template = RGO_template_farmers
 	output_goods = tea 
-	value = 1.75	#1.75
+	value = 3
 	farm = yes
 }
 
 timber_lodge = {
 	template = RGO_template_labourers
 	output_goods = timber 
-	value = 8 #8
+	value = 10
 	farm = yes
 }
 
@@ -1220,7 +1220,7 @@ artisan_machine_parts = {
 	input_goods = {    
 		steel = 9		#42.3
 		coal = 5		#11.5  total input+maint = 66
-		bronze = 2
+		bronze = 3
 	}
 	output_goods = machine_parts 
 	value = 2.5			#73
@@ -1654,10 +1654,11 @@ artisan_fertilizer = {
 
 artisan_cobbler = {
 	input_goods = {   
-		cattle = 50
+		cattle = 7
+		bronze = 7
 	}
 	output_goods = shoes 
-	value = 15
+	value = 20
 	owner = {
 		poptype = artisans
 		effect = output
@@ -1670,8 +1671,8 @@ artisan_cobbler = {
 
 artisan_bronzeworker = {       
 	input_goods = { 
-		copper = 35
-		tin = 15
+		copper = 25
+		tin = 10
 	}
 
 	output_goods = bronze 
@@ -1693,7 +1694,7 @@ artisan_chemist = {
 		glass = 10
 	}
 	output_goods = pharmaceuticals 
-	value = 20
+	value = 22
 
 	owner = {
 		poptype = artisans
