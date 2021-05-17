@@ -35,6 +35,7 @@ political_decisions = {
 		
 		effect = {
 			change_tag = HND
+			nationalvalue = nv_liberty
 			primary_culture = anglo_indian
 			add_accepted_culture = marathi
 			add_accepted_culture = avadhi

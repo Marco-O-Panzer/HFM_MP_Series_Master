@@ -263,3 +263,11 @@ EVT7777923OPTA;Yes, our people must have the oppertunity education affords them;
 EVT7777923OPTB;No, the literacy of our populace is now sufficent;x
 mass_literacy_in_progress;Mass Literacy Campaign;x
 mass_literacy_in_progress_desc;There is currently a nationwide effort to educate the most needing of our populace.;x
+EVTNAME7777924;Removing European Pops;x
+EVTDESC7777924;They aren't needed in MP setup;x
+EVTOPTA7777924;Restore the usual cultures;x
+option_disable_euro_pops_title;§POption: Remove European pops§!;x
+option_disable_euro_pops_desc;Remove specifically European culture pops (they are used as feeder pops for other pops to assimilate to when the USE exists).;x
+bomber;Bomber;x
+bomber_desc;A bomber is a combat aircraft designed to attack ground and naval targets by dropping air-to-ground weaponry (such as bombs), launching torpedoes, or deploying air-launched cruise missiles.;x
+plane;Fighter;x
