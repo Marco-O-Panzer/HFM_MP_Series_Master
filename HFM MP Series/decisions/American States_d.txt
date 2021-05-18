@@ -94,7 +94,7 @@ political_decisions = {
 		potential = {
 			tag = NEN
 			is_vassal = no
-			USA_232 = {
+			232 = {
 				NOT = {
 					is_core = NEN
 				}
@@ -133,7 +133,7 @@ political_decisions = {
 		potential = {
 			is_vassal = no
 			tag = NEN
-			ENG_68 = { NOT = { is_core = NEN } }
+			68 = { NOT = { is_core = NEN } }
 			OR = {
 				has_country_flag = NEN_maritimes_refuse
 				AND ={
@@ -185,8 +185,8 @@ political_decisions = {
 			}
 			ENG_68 = { 
 				owned_by = ENG 
-				NOT = { is_core = NEN }
 			}
+			68 = { NOT = { is_core = NEN } }
 		}
 		allow = {
 			has_unclaimed_cores = no
@@ -221,10 +221,14 @@ political_decisions = {
 			}
 			ENG_68 = {
 				owned_by = THIS
-				is_core = THIS
 			}
 			USA_232 = {
 				owned_by = THIS
+			}
+			68 = {
+				is_core = THIS
+			}
+			232 = {
 				is_core = THIS
 			}
 			NOT = { has_country_flag = NEN_lawrence_purchase }
@@ -275,10 +279,14 @@ political_decisions = {
 			tag = NEN
 			ENG_68 = {
 				owned_by = THIS
-				is_core = THIS
 			}
 			USA_232 = {
 				owned_by = THIS
+			}
+			68 = {
+				is_core = THIS
+			}
+			232 = {
 				is_core = THIS
 			}
 			NOT = { has_country_flag = NEN_lawrence_agrees }

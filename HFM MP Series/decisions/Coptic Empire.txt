@@ -39,7 +39,7 @@ political_decisions = {
 			add_accepted_culture = somali
 			#remove_accepted_culture = no_culture
 			# event chain over egypt for flavour (could lead to converting egypt)
-			all_core = { liferating = 5 }
+			all_core = { life_rating = 5 }
 		}
 		ai_will_do = {
 			factor = 0
@@ -91,9 +91,9 @@ political_decisions = {
 		picture = eaf_flag
 		potential = {
 			tag = EAF
-			NOT = { accepted_culture = sudanese }
 			NOT = { has_country_flag = hiding_the_decisions }
 			has_country_flag = eaf_path
+			NOT = { has_country_flag = eaf_united }
 		}
 		allow = {
 			government = democracy
@@ -107,12 +107,12 @@ political_decisions = {
 		}
 		effect = {
 			add_accepted_culture = luo
-			add_accepted_culture = kikuyu_kamba
+			add_accepted_culture = kikuyu 
 			add_accepted_culture = baganda
-			add_accepted_culture = northeast_bantu
-			add_accepted_culture = banyarwanda
+			add_accepted_culture = lacustrine_bantu
+			add_accepted_culture = ruanda
 			add_accepted_culture = sukuma
-			add_accepted_culture = kalenjin_maasai
+			add_accepted_culture = maasai
 			add_accepted_culture = unyamwezi
 			add_accepted_culture = nyasa
 			add_accepted_culture = swahili

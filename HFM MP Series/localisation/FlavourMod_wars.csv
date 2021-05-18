@@ -200,6 +200,8 @@ AGRESSION_WAR_CONQUEST_ANY_NAME_QNG_NIA;The Nian Rebellion;;;;;;;;;;;;;;;;;;;;;;
 NORMAL_WAR_ADD_SPHERE_NAME_USA_TKG;Commodore Perry's Expedition to Japan;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
 NORMAL_WAR_CONQUEST_ANY_NAME_SIC_SYC;The $ORDER$Sicilian Revolution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
 AGRESSION_WAR_CONQUEST_ANY_NAME_SIC_SYC;The $ORDER$Sicilian Revolution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
+cut_down_to_size_taiping;Intervention in China;x
+cut_down_to_size_taiping_desc;;x
 cut_down_to_size_taiping_setup;Restore Order to China;;;;;;;;;;x
 cut_down_to_size_taiping_short;Restore Order to China;;;;;;;;;;x
 AGRESSION_WAR_ALL_CORES_NAME_GER_AUS;$ORDER$War of German Unification;;;;;;;;;;;;x,,,
@@ -212,10 +214,12 @@ NORMAL_WAR_CONQUEST_ANY_NAME_ENG_MUG;The Indian Rebellion;;;;;;;;;;;;;;;;;;;;;;;
 AGRESSION_WAR_CONQUEST_ANY_NAME_ENG_MUG;The Indian Rebellion;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
 NORMAL_CIVIL_WAR_NAME_ENG_EIC;The East India Company Uprising;;;;;;;;;;;;x,,,
 AGRESSION_CIVIL_WAR_NAME_ENG_EIC;The East India Company Uprising;;;;;;;;;;;;x,,,
-cb_sykes_picot_;The Asia Minor Agreement;;;;;;;;;;x
+cb_sykes_picot;The Asia Minor Agreement;;;;;;;;;;x
+cb_sykes_picot_desc;;x
 cb_sykes_picot_setup;Seize the Arab Provinces;;;;;;;;;;x
 cb_sykes_picot_short;Seize the Arab Provinces;;;;;;;;;;x
-cut_down_to_size_ottoman_;The Russo-Turkish War;;;;;;;;;;x
+cut_down_to_size_ottoman;The Russo-Turkish War;;;;;;;;;;x
+cut_down_to_size_ottoman_desc;
 cut_down_to_size_ottoman_setup;Free the Balkans;;;;;;;;;;x
 cut_down_to_size_ottoman_short;Free the Balkans;;;;;;;;;;x
 NORMAL_SYKES_PICOT_WAR_NAME;The$ORDER$Asia Minor Expedition;;;;;;;;;;;;;;;;;;;;x,,,

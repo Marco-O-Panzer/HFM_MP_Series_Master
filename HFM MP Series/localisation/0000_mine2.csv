@@ -271,3 +271,4 @@ option_disable_euro_pops_desc;Remove specifically European culture pops (they ar
 bomber;Bomber;x
 bomber_desc;A bomber is a combat aircraft designed to attack ground and naval targets by dropping air-to-ground weaponry (such as bombs), launching torpedoes, or deploying air-launched cruise missiles.;x
 plane;Fighter;x
+pan_european_group;Pan-European;x
