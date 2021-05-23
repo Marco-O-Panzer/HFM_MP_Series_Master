@@ -30,7 +30,7 @@ political_decisions = {
 				name = niger_research
 				duration = 7300
 			}
-			all_core = { liferating = 5 }
+			all_core = { life_rating = 5 }
 			1781 = { remove_core = NGE }
 			1782 = { remove_core = NGE }
 			1914 = { add_core = NGE }
@@ -66,7 +66,7 @@ political_decisions = {
 			add_accepted_culture = itsekari
 			add_accepted_culture = ibo
 			add_accepted_culture = ibibio
-			add_accepted_culture = kwa
+			add_accepted_culture = east_kwa
 			add_accepted_culture = hausa
 			add_accepted_culture = fulbe
 			add_accepted_culture = kanuri

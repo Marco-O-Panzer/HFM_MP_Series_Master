@@ -463,6 +463,7 @@ political_decisions = {
 			random_country = {
 				limit = {
 					tag = MEX
+					USA = { ai = yes }
 					any_owned_province = {
 						OR = {
 							region = MEX_85
@@ -474,7 +475,7 @@ political_decisions = {
 						}
 					}
 				}
-#				country_event = 44126
+				country_event = 44126
 			}
 			any_country = {
 				limit = {

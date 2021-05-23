@@ -272,3 +272,9 @@ bomber;Bomber;x
 bomber_desc;A bomber is a combat aircraft designed to attack ground and naval targets by dropping air-to-ground weaponry (such as bombs), launching torpedoes, or deploying air-launched cruise missiles.;x
 plane;Fighter;x
 pan_european_group;Pan-European;x
+civilize_ai_countries_title;Auto Westernise;x
+civilize_ai_countries_desc;Westernise the slow ai countries - cleanup;x
+ITA_annex_ITS_title;Unite the Peninsula;
+ITA_annex_ITS_desc;Merge our two union states;x
+global_1836_setup_title;World Bank Neutrality;x
+global_1836_setup_desc;Prevent CB justification on the World Bank;x

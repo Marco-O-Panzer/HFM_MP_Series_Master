@@ -1129,8 +1129,8 @@ political_decisions = {
 
 			define_general = {
 				name = "Bakht Khan"
-				personality = audacious
-				background = school_of_the_bayonet
+				personality = defence_2.1
+				background = attack_2.1
 			}
 			leave_alliance = ENG
 			any_country = {

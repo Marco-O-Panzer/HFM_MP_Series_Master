@@ -483,8 +483,6 @@ political_decisions = {
 						owner = { in_sphere = THIS }
 						owner = { vassal_of = THIS }
 						empty = yes
-						region = USA_1
-						region = HAW_658
 					}
 				}
 			}
@@ -498,8 +496,6 @@ political_decisions = {
 						owner = { in_sphere = THIS }
 						owner = { vassal_of = THIS }
 						empty = yes
-						region = USA_1
-						region = HAW_658
 					}
 				}
 			}
@@ -513,8 +509,6 @@ political_decisions = {
 						owner = { in_sphere = THIS }
 						owner = { vassal_of = THIS }
 						empty = yes
-						region = USA_1
-						region = HAW_658
 					}
 				}
 			}
