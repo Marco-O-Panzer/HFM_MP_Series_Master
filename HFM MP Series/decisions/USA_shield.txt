@@ -60,6 +60,7 @@ political_decisions = {
 			ENG = {
 				country_event = {
 					id = 72749
+					days = 0
 				}
 			}
 			relation = {
@@ -148,6 +149,7 @@ political_decisions = {
 			USA = {
 				country_event = {
 					id = 72748
+					days = 0
 				}
 			}
 		}
@@ -226,6 +228,7 @@ political_decisions = {
 				}
 				country_event = {
 					id = 72747
+					days = 0
 				}
 			}	
 			USA = { all_core = { remove_core = ENG } }
@@ -247,7 +250,7 @@ political_decisions = {
 		}
 	}
 	FRA_USA_QUE = {
-		picture = quebec_question
+		picture = postcol_QUE
 		potential = {
 			tag = FRA
 			has_global_flag = USA_CAN_achieved
@@ -280,6 +283,7 @@ political_decisions = {
 			USA = {
 				country_event = {
 					id = 72738
+					days = 0
 				}
 			}
 		}
@@ -289,7 +293,7 @@ political_decisions = {
 	}
 	
 	USA_french = {
-		picture = quebec_question
+		picture = postcol_QUE
 		potential = {
 			tag = USA
 			owns = 58
@@ -309,6 +313,7 @@ political_decisions = {
 		effect = {
 			country_event = {
 				id = 93744
+				days = 0
 			}
 		}
 		ai_will_do = {
@@ -387,6 +392,7 @@ political_decisions = {
 				}
 				country_event = {
 					id = 2278764
+					days = 0
 				}
 			}		
 		}
@@ -816,6 +822,7 @@ political_decisions = {
 				}
 				country_event = {
 					id = 3309812
+					days = 0
 				}
 			} 
 			any_country = {
@@ -827,6 +834,7 @@ political_decisions = {
 				}
 				country_event = {
 					id = 5517145
+					days = 0
 				}
 			}
 		}
@@ -975,6 +983,7 @@ political_decisions = {
 				}
 				country_event = {
 					id = 72666
+					days = 0
 				}
 			}
 			THIS = {
@@ -1040,6 +1049,7 @@ political_decisions = {
 				}
 				country_event = {
 					id = 72666
+					days = 0
 				}
 			}
 			THIS = {
@@ -1077,6 +1087,7 @@ political_decisions = {
 			set_global_flag = mexican_monarch
 			country_event = { 
 				id = 7597306
+				days = 0
 			}
 		}
 		ai_will_do = {

@@ -4,14 +4,12 @@ political_decisions = {
 				alert = no
 				picture = victorian_family
 				potential = {
-				ai = no
-					AND = { 
-						NOT = { has_country_modifier = birthrate_push_low  }
-						NOT = { has_country_modifier = birthrate_push_medium }
-#						NOT = { has_country_modifier = birthrate_push_high  }
-						NOT = { has_country_flag = pop_growth_for_infamy_chooser }
-					}
-				NOT = { has_country_flag = hiding_the_decisions }
+					ai = no
+					NOT = { has_country_modifier = birthrate_push_low  }
+					NOT = { has_country_modifier = birthrate_push_medium }
+#					NOT = { has_country_modifier = birthrate_push_high  }
+					NOT = { has_country_flag = pop_growth_for_infamy_chooser }
+					NOT = { has_country_flag = hiding_the_decisions }
 				}
 				
 				allow = {
@@ -21,6 +19,7 @@ political_decisions = {
 				effect = {
 					country_event = {
 						id = 1998001
+						days = 0
 					}
 				}
 		}
@@ -29,15 +28,13 @@ political_decisions = {
 				picture = victorian_family_no
 				alert = no
 				potential = {
-					AND = {	
-						ai = no
-						OR = { 
-							has_country_modifier = birthrate_push_low 
-							has_country_modifier = birthrate_push_medium
-#							has_country_modifier = birthrate_push_high 
-						}
+					ai = no
+					OR = { 
+						has_country_modifier = birthrate_push_low 
+						has_country_modifier = birthrate_push_medium
+#						has_country_modifier = birthrate_push_high 
 					}
-				NOT = { has_country_flag = hiding_the_decisions }
+					NOT = { has_country_flag = hiding_the_decisions }
 				}
 				
 				allow = {
@@ -55,13 +52,11 @@ political_decisions = {
 				picture = irish_in_britain
 				alert = no
 				potential = {
-				ai = no
-					AND = { 
-						NOT = { has_country_modifier = immigration_pull_low  }
-						NOT = { has_country_modifier = immigration_pull_high  }
-						NOT = { has_country_flag = immigration_for_infamy_chooser }
-					}
-				NOT = { has_country_flag = hiding_the_decisions }
+					ai = no
+					NOT = { has_country_modifier = immigration_pull_low  }
+					NOT = { has_country_modifier = immigration_pull_high  }
+					NOT = { has_country_flag = immigration_for_infamy_chooser }
+					NOT = { has_country_flag = hiding_the_decisions }
 				}
 				
 				allow = {
@@ -92,6 +87,7 @@ political_decisions = {
 				effect = {
 					country_event = {
 						id = 1998002
+						days = 0
 					}
 				}
 		}
@@ -100,14 +96,12 @@ political_decisions = {
 				picture = irish_in_britain_no
 				alert = no
 				potential = {
-					AND = {	
-						ai = no
-						OR = { 
-							has_country_modifier = immigration_pull_low
-							has_country_modifier = immigration_pull_high
-						}
+					ai = no
+					OR = { 
+						has_country_modifier = immigration_pull_low
+						has_country_modifier = immigration_pull_high
 					}
-				NOT = { has_country_flag = hiding_the_decisions }
+					NOT = { has_country_flag = hiding_the_decisions }
 				}
 				
 				allow = {

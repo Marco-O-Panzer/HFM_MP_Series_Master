@@ -580,12 +580,8 @@ political_decisions = {
 			}
 			any_country = {
 				limit = {
-					OR = {
-						AND = {
-							capital_scope = { continent = west_africa }
-							in_sphere = THIS
-						}
-					}
+					capital_scope = { continent = west_africa }
+					in_sphere = THIS
 					civilized = no
 					exists = yes
 					ai = yes
@@ -1456,7 +1452,7 @@ political_decisions = {
 	
 	###Italian Africa###
 	italian_somaliland = {
-		picture = "italian_somaliland"
+		picture = italian_somaliland
 		potential = { 
 			OR = {
 				tag = ITA

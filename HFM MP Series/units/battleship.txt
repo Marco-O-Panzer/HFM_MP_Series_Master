@@ -31,18 +31,18 @@ battleship = {
 		coal = 25
 	}
 	min_port_level = 4
-	limit_per_port = 3
-	supply_consumption_score = 50
+	limit_per_port = 6
+	supply_consumption_score = 0
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 1.5
-		artillery = 0.6
-		canned_food = 0.8
-		coal = 2.5
-		ammunition = 0.6
-		tobacco = 1.6
-		pharmaceuticals = 0.8
+		steamer_convoy = 6
+		artillery = 2.4
+		canned_food = 3.2
+		coal = 10
+		ammunition = 2.4
+		tobacco = 6.4
+		pharmaceuticals = 3.2
 	}
 	
 	#Naval Abilties

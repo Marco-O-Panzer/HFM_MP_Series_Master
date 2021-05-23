@@ -32,20 +32,20 @@ dreadnought = {
 		fuel = 60
 	}
 	min_port_level = 5
-	limit_per_port = 2
-	supply_consumption_score = 60
+	limit_per_port = 4
+	supply_consumption_score = 0
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		interwar_hull = 0.35
-		artillery = 0.8
-		canned_food = 1
-		telephones = 0.02
-		fuel = 4
-		ammunition = 0.8
-		regular_clothes = 0.5
-		tobacco = 2
-		pharmaceuticals = 1
+		interwar_hull = 1.4
+		artillery = 3.2
+		canned_food = 4
+		telephones = 0.08
+		fuel = 16
+		ammunition = 3.2
+		regular_clothes = 2
+		tobacco = 8
+		pharmaceuticals = 4
 	}
 	
 	#Naval Abilties

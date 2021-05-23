@@ -615,7 +615,7 @@ political_decisions = {
 	become_the_fsa_french_lousiana = {
 		potential = {
 			tag = USA
-			ai = yes
+			#ai = yes
 			NOT = { owns = 139 }
 			has_global_flag = treaty_of_new_york
 			exists = CSA
@@ -638,7 +638,13 @@ political_decisions = {
 				}
 				add_core = FSA
 			}
-			change_tag = FSA
+			any_owned = {
+				limit = {
+					owned_by = USA
+				}
+				secede_province = FSA
+			}
+			change_tag_no_core_switch = FSA
 		}
 		
 		ai_will_do = { factor = 1 }

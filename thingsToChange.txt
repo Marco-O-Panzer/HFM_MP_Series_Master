@@ -10,3 +10,4 @@ BUGS:
 Maybe:
 * New title font for tabs like Budget
 * Add in dismantle submod for HFM
+* Compress generals view on the left in the military tab

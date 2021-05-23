@@ -831,7 +831,7 @@ naval_base = {
 		machine_parts = 1
 	}
 	time = 1080
-	naval_capacity = 1
+	naval_capacity = 0
 	capital = yes
 	onmap = yes
 	port = yes

@@ -320,7 +320,7 @@ political_decisions = {
 			war = no
 			is_vassal = no
 			invention = manifest_destiny
-			NOT = { rebel_power_fraction = 50 }
+			NOT = { revolt_percentage = 0.5 }
 			NOT = { num_of_revolts = 1 }
 			NOT = { any_owned_province = { country_units_in_province = REB } }
 			OR = {
