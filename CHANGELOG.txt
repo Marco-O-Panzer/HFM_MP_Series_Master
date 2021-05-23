@@ -19,8 +19,8 @@ Note that 'global' on a modifier means just across your country.
 
 Version 5
 ---------
-CHECKSUM: (Steam version)
-          (Cracked version)
+CHECKSUM: (Steam version)   EIUP
+          (Cracked version) EIUP
 
 Flavour Changes
 * China
@@ -116,6 +116,7 @@ Balance
 * Money hoarding treasury sizes all increased
 * Emigrant push from liberal agitation lowered
 * Artillery attack from late game inventions and techs doubled (from quarter to half of defence stat)
+* Navy cap removed, navy goods consumption quadrupled
 
 GFX, UI & Localisation Changes
 * USA and Brazil absolute monarchies renamed
@@ -131,6 +132,7 @@ Bug Fixes
 * Added India core on Fort William (Bengal trade port province)
 * AI wont form Yugo, Romania, Turkestan or Transcaucasia in MP setup
 * Cant inherit all of italy by releasing Rome now (when creating italy)
+* FSA USA switch glitch fixed
 
 Version 4
 ---------
