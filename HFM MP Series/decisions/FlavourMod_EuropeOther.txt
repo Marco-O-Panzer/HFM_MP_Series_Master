@@ -27,10 +27,8 @@ political_decisions = {
 	serbian_rename_slo = {
 		picture = gtfo
 		potential = {
-			AND= {
-				primary_culture = serb
-				NOT = { TAG = YUG }
-			}
+			primary_culture = serb
+			NOT = { tag = YUG }
 			owns = 767
 			owns = 768
 			NOT = { has_global_flag = slovene_renamed_slo }
@@ -309,10 +307,8 @@ political_decisions = {
 	istria_rename_serbian = {
 		picture = greater_serbia
 		potential = {
-			AND= {
-				primary_culture = serb
-				NOT = { TAG = YUG }
-			}
+			primary_culture = serb
+			NOT = { tag = YUG }
 			owns = 769
 			owns = 736
 			owns = 737
@@ -394,10 +390,8 @@ political_decisions = {
 	istria_rename_ser = {
 		picture = greater_serbia
 		potential = {
-			AND= {
-				primary_culture = serb
-				NOT = { TAG = YUG }
-			}
+			primary_culture = serb
+			NOT = { tag = YUG }
 			owns = 770
 			owns = 778
 			NOT = { has_global_flag = istria_rename_ser }
@@ -1977,10 +1971,8 @@ political_decisions = {
 	serbian_rename_cro_cores = {
 		picture = greater_serbia
 		potential = {
-			AND= {
-				primary_culture = serb
-				NOT = { TAG = YUG }
-			}
+			primary_culture = serb
+			NOT = { tag = YUG }
 			NOT = { owns = 771 }
 			owns = 772
 			NOT = { has_global_flag = serbia_rename_cro_cores }
@@ -2006,10 +1998,8 @@ political_decisions = {
 	serbian_rename_cro = {
 		picture = greater_serbia
 		potential = {
-			AND= {
-				primary_culture = serb
-				NOT = { TAG = YUG }
-			}
+			primary_culture = serb
+			NOT = { tag = YUG }
 			owns = 771
 			NOT = { has_global_flag = serbia_rename_cro }
 		}
@@ -2144,10 +2134,8 @@ political_decisions = {
 	slavonia_rename_ser = {
 		picture = greater_serbia
 		potential = {
-			AND= {
-				primary_culture = serb
-				NOT = { TAG = YUG }
-			}
+			primary_culture = serb
+			NOT = { tag = YUG }
 			owns = 777
 			owns = 779
 			NOT = { has_global_flag = slavonia_rename_ser }
@@ -2276,10 +2264,8 @@ political_decisions = {
 	dalmatia_rename_ser = {
 		picture = greater_serbia
 		potential = {
-			AND = {
-				primary_culture = serb
-				NOT = { tag = YUG }
-			}
+			primary_culture = serb
+			NOT = { tag = YUG }
 			owns = 780
 			owns = 781
 			owns = 2582

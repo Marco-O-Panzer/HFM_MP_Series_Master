@@ -99,6 +99,7 @@ political_decisions = {
 	}
 	
 	the_vega_expedition = {
+		picture = the_vega_expedition
 		potential = {
 			OR = {
 				tag = SWE

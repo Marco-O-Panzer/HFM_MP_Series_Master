@@ -3594,9 +3594,9 @@ great_game_cb = {
 			AND = {
 				tag = AFG
 				THIS = { tag = RUS }
-				KOK = { OR = { all_core = { OR = { owned_by = THIS owner = { vassal_of = THIS war = no } } } } }
-				KHI = { OR = { all_core = { OR = { owned_by = THIS owner = { vassal_of = THIS war = no } } } } }
-				BUK = { OR = { all_core = { OR = { owned_by = THIS owner = { vassal_of = THIS war = no } } } } }
+				KOK = { all_core = { OR = { owned_by = THIS owner = { vassal_of = THIS war = no } } } }
+				KHI = { all_core = { OR = { owned_by = THIS owner = { vassal_of = THIS war = no } } } }
+				BUK = { all_core = { OR = { owned_by = THIS owner = { vassal_of = THIS war = no } } } }
 				OR = { 
 					BDK = { OR = { all_core = { OR = { owned_by = THIS owner = { vassal_of = THIS war = no } } } vassal_of = THIS } }
 					1208 = { OR = { owned_by = THIS owner = { vassal_of = THIS war = no } } }
@@ -4521,12 +4521,10 @@ china_acquire_state = {
 				}
 				THIS = { ai = no }
 			}
-			AND = {
-				any_owned_province = {
-					NOT = {	is_core = THIS }
-					is_core = CHI
-					owner = { civilized = no }
-				}
+			any_owned_province = {
+				NOT = {	is_core = THIS }
+				is_core = CHI
+				owner = { civilized = no }
 			}
 			any_owned_province = {
 				owner = { is_culture_group = east_asian }
@@ -6311,7 +6309,8 @@ lower_tariffs_cb = {
 		NOT = { is_our_vassal = THIS }
 		is_independant = yes
 		THIS = { ai = no } 
-		AND = { THIS = { num_of_ports = 1 } num_of_ports = 1 }
+		THIS = { num_of_ports = 1 }
+		num_of_ports = 1
 		THIS = { trade_policy = free_trade }
 		trade_policy = protectionism 
 		NOT = { has_country_modifier = lost_the_tarrif_war }

@@ -31,16 +31,16 @@ ironclad = {
 		regular_clothes = 12
 	}
 	min_port_level = 2
-	limit_per_port = 10
-	supply_consumption_score = 3
+	limit_per_port = 16
+	supply_consumption_score = 0
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 0.75
-		artillery = 0.2
-		canned_food = 0.4
-		ammunition = 0.2
-		pharmaceuticals = 0.4
+		steamer_convoy = 3
+		artillery = 0.8
+		canned_food = 1.6
+		ammunition = 0.8
+		pharmaceuticals = 1.6
 	}
 	
 	#Naval Abilties

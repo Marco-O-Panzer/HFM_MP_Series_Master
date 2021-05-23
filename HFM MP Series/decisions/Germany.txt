@@ -510,6 +510,7 @@ political_decisions = {
 	}
 	
 	von_moltkes_staff_reforms = {
+		picture = von_moltkes_staff_reforms
 		potential = {
 			OR = {
 				tag = PRU
@@ -550,7 +551,7 @@ political_decisions = {
 	}
 	
 	the_ruhr_boom = {
-		picture = essen_ruhr
+		picture = the_ruhr_boom
 		potential = {
 			OR = {
 				tag = PRU

@@ -35,23 +35,23 @@ carrier = {
 		coal = 75
 	}
 	min_port_level = 6
-	limit_per_port = 1
-	supply_consumption_score = 180
+	limit_per_port = 2
+	supply_consumption_score = 0
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		interwar_hull = 1
-		artillery = 2
-		canned_food = 2
-		telephones = 0.2
-		coal = 4
-		ammunition = 3
-		tobacco = 2
-		aeroplanes = 2
-		small_arms = 1
-		regular_clothes = 1.5
-		fuel = 4
-		pharmaceuticals = 2
+		interwar_hull = 4
+		artillery = 8
+		canned_food = 8
+		telephones = 0.8
+		coal = 16
+		ammunition = 12
+		tobacco = 8
+		aeroplanes = 8
+		small_arms = 4
+		regular_clothes = 6
+		fuel = 16
+		pharmaceuticals = 8
 	}
 	
 	#Naval Abilties

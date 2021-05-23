@@ -433,7 +433,7 @@ country_event = {
 		}
 		
 		modifier = {
-			factor = 1
+			factor = 0.7
 			232 = {
 				OR = {
 					average_consciousness = 6

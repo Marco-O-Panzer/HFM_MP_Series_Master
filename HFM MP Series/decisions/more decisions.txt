@@ -109,6 +109,7 @@ political_decisions = {
 			}
 			country_event = {
 				id = 72751
+				days = 0
 			}
 		}
 		ai_will_do = {
@@ -224,6 +225,7 @@ political_decisions = {
 			badboy = 10
 			country_event = {
 				id = 5329627
+				days = 0
 			}
 		}
 		ai_will_do = {
@@ -451,11 +453,13 @@ political_decisions = {
 			AUS = {
 				country_event = {
 					id = 72753
+					days = 0
 				}
 			}
 			KUK = {
 				country_event = {
 					id = 72753
+					days = 0
 				}
 			}
 		}
@@ -660,6 +664,7 @@ political_decisions = {
 			}
 			country_event = {
 				id = 72750
+				days = 0
 			}
 			any_country = {
 				limit = {
@@ -673,6 +678,7 @@ political_decisions = {
 				}
 				country_event = {
 					id = 72664
+					days = 0
 				}
 			}
 		}
@@ -819,6 +825,7 @@ political_decisions = {
 				}
 				country_event = {
 					id = 72664
+					days = 0
 				}
 			}
 		}
@@ -874,6 +881,7 @@ political_decisions = {
 				}
 				country_event = {
 					id = 72664
+					days = 0
 				}
 			}
 			THIS = {
@@ -936,6 +944,7 @@ political_decisions = {
 				}
 				country_event = {
 					id = 72664
+					days = 0
 				}
 			}
 			THIS = {
@@ -998,6 +1007,7 @@ political_decisions = {
 				}
 				country_event = {
 					id = 72664
+					days = 0
 				}
 			}
 			THIS = {
@@ -1136,7 +1146,7 @@ political_decisions = {
 						tag = DES
 					}
 				}
-				country_event = { id = 72739 }
+				country_event = { id = 72739 days = 0 }
 			}
 			MEX_85 = { add_core = MEX } #California
 			TEX_132 = { add_core = MEX } #Texas
@@ -1231,6 +1241,7 @@ political_decisions = {
 			USA = {
 				country_event = {
 					id = 72881
+					days = 0
 				}
 			}
 			add_accepted_culture = caribeno
@@ -1267,6 +1278,7 @@ political_decisions = {
 			USA = {
 				country_event = {
 					id = 56278
+					days = 0
 				}
 			}
 		}
@@ -1297,6 +1309,7 @@ political_decisions = {
 			}
 			country_event = {
 				id = 56277
+				days = 0
 			}
 		}
 		ai_will_do = {
@@ -1323,7 +1336,7 @@ political_decisions = {
 			}
 			war = no
 			is_vassal = no
-			in_sphere = no
+			part_of_sphere = no
 		}
 		effect = {
 			prestige = 10
@@ -1666,6 +1679,7 @@ political_decisions = {
 				}
 				country_event = {
 					id = 2159212
+					days = 0
 				}
 			}
 		}
@@ -1782,6 +1796,7 @@ political_decisions = {
 				}
 				country_event = {
 					id = 2159212
+					days = 0
 				}
 			}
 		}
