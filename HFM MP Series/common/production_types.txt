@@ -958,14 +958,14 @@ coal_mine = {
 coffee_plantation = {
 	template = RGO_template_farmers
 	output_goods = coffee 
-	value = 1.5	#1.5
+	value = 3.5	#1.5
 	farm = yes
 }
 
 cotton_plantation = {
 	template = RGO_template_farmers
 	output_goods = cotton 
-	value = 2.0 #3
+	value = 1.9 #3
 	farm = yes
 }
 
@@ -979,7 +979,7 @@ dye_plantation = {
 fishing_wharf = {
 	template = RGO_template_farmers
 	output_goods = fish 
-	value = 2.1 #2.2
+	value = 2.7 #2.2
 	farm = yes
 }
 
@@ -1077,7 +1077,7 @@ tea_plantation = {
 timber_lodge = {
 	template = RGO_template_labourers
 	output_goods = timber 
-	value = 10
+	value = 15
 	farm = yes
 }
 
@@ -1658,7 +1658,7 @@ artisan_cobbler = {
 		bronze = 7
 	}
 	output_goods = shoes 
-	value = 20
+	value = 30
 	owner = {
 		poptype = artisans
 		effect = output

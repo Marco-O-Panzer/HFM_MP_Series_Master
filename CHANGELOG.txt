@@ -17,6 +17,19 @@ This mod is built on HFM V1.27I (SighPie) and HFM More Stuff V3.5 (u/louisky58) 
 Everything else is my own (as far as I remember).
 Note that 'global' on a modifier means just across your country.
 
+Version 6
+---------
+CHECKSUM: (Steam version)   
+          (Cracked version) 
+
+Economy
+* More starting tin provinces
+* Base wood production increased
+
+Static Modifiers
+* Peace war exhaustion decrease changed to -1
+* At war war exhaustion decrease changed to -0.25
+
 Version 5
 ---------
 CHECKSUM: (Steam version)   EIUP
