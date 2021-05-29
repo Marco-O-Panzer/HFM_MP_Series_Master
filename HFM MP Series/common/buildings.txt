@@ -666,7 +666,7 @@ bank = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 50
-	cost = 100000
+	cost = 10000
 	goods_cost = 
 	{
 		steel = 350
@@ -686,7 +686,7 @@ stock_exchange = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 50
-	cost = 100000
+	cost = 10000
 	goods_cost = 
 	{
 		steel = 150

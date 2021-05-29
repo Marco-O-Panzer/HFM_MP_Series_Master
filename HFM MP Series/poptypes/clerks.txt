@@ -218,7 +218,6 @@ country_migration_target = {
 	
 	modifier = {
 		factor = 1.8
-		NOT = { total_pops = 500000 }
 		NOT = { number_of_states = 2 }
 		has_country_flag = new_world_nation
 		NOT = { year = 1905 }
@@ -256,8 +255,7 @@ country_migration_target = {
 	}
 	
 	modifier = {
-		factor = 1.2
-		NOT = { total_pops = 500000 }
+		factor = 1.2s
 		NOT = { number_of_states = 2 }
 		has_country_flag = new_world_nation
 		year = 1905

@@ -17,10 +17,16 @@ This mod is built on HFM V1.27I (SighPie) and HFM More Stuff V3.5 (u/louisky58) 
 Everything else is my own (as far as I remember).
 Note that 'global' on a modifier means just across your country.
 
+
 Version 6
 ---------
 CHECKSUM: (Steam version)   
           (Cracked version) 
+
+Politics
+* No tax restrictions for State Capitalism
+* LF can tax up to 75%
+* Planned can tax down to 25%
 
 Economy
 * More starting tin provinces
@@ -29,6 +35,11 @@ Economy
 Static Modifiers
 * Peace war exhaustion decrease changed to -1
 * At war war exhaustion decrease changed to -0.25
+
+Fixes
+* Arabia formation more dynamic, done on the cores of the integrated tags now
+* Pop conditions for new world immigration attraction bonus removed
+
 
 Version 5
 ---------
@@ -146,6 +157,7 @@ Bug Fixes
 * AI wont form Yugo, Romania, Turkestan or Transcaucasia in MP setup
 * Cant inherit all of italy by releasing Rome now (when creating italy)
 * FSA USA switch glitch fixed
+
 
 Version 4
 ---------
