@@ -1701,8 +1701,8 @@ political_decisions = {
 			157 = { trade_goods = iron }
 			232 = { trade_goods = iron }
 			235 = { trade_goods = iron }
-			98 = { trade_goods = iron }
 			98 = { trade_goods = copper }
+			110 = { trade_goods = tin }
 		}
 		
 		ai_will_do = { factor = 1 }

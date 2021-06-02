@@ -65,7 +65,11 @@ political_decisions = {
 			tag = USA
 			has_country_flag = hasmanifestdestiny
 			NOT = { has_country_flag = treaty_of_guadalupe_hidalgo }
-			MEX = { is_greater_power = no NOT = { has_country_flag = manifest_destiny_refuted } }
+			MEX = { 
+				exists = yes
+				is_greater_power = no
+				NOT = { has_country_flag = manifest_destiny_refuted }
+			}
 		}
 
 		allow = {

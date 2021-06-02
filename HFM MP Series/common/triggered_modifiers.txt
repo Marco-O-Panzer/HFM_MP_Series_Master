@@ -344,6 +344,40 @@ taxation_increased = {
 	icon = 2
 }
 
+unciv_infamy = {
+	trigger = {
+		civilized = no
+		NOT = { civilization_progress = 0.1 }
+	}
+	badboy = -0.2
+}
+
+unciv_infamy_2 = {
+	trigger = {
+		civilized = no
+		civilization_progress = 0.1
+		NOT = { civilization_progress = 0.25 }
+	}
+	badboy = -0.15
+}
+
+unciv_infamy_3 = {
+	trigger = {
+		civilized = no
+		civilization_progress = 0.25
+		NOT = { civilization_progress = 0.45 }
+	}
+	badboy = -0.12
+}
+
+unciv_infamy_4 = {
+	trigger = {
+		civilized = no
+		civilization_progress = 0.45
+	}
+	badboy = -0.1
+}
+
 african_unciv = {
 	trigger = {
 		OR = {
@@ -354,8 +388,57 @@ african_unciv = {
 			continent = south_west_africa 
 		}
 		civilized = no
+		NOT = { civilization_progress = 0.1 }
 	}
 	badboy = -0.2
+}
+
+african_unciv_2 = {
+	trigger = {
+		OR = {
+			continent = africa
+			continent = central_africa 
+			continent = west_africa 
+			continent = east_africa 
+			continent = south_west_africa 
+		}
+		civilized = no
+		civilization_progress = 0.1
+		NOT = { civilization_progress = 0.25 }
+	}
+	badboy = -0.15
+}
+
+african_unciv_3 = {
+	trigger = {
+		OR = {
+			continent = africa
+			continent = central_africa 
+			continent = west_africa 
+			continent = east_africa 
+			continent = south_west_africa 
+		}
+		civilized = no
+		civilization_progress = 0.25
+		NOT = { civilization_progress = 0.45 }
+	}
+	badboy = -0.1
+}
+
+african_unciv_4 = {
+	trigger = {
+		OR = {
+			continent = africa
+			continent = central_africa 
+			continent = west_africa 
+			continent = east_africa 
+			continent = south_west_africa 
+		}
+		civilized = no
+		civilization_progress = 0.45
+		NOT = { civilization_progress = 0.7 }
+	}
+	badboy = -0.05
 }
 
 extreme_bad_planning = {

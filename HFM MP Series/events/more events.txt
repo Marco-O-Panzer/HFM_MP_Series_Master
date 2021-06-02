@@ -376,7 +376,7 @@ country_event = {
 	desc = EVTDESC72751
 	major = yes
 	is_triggered_only = yes
-	 
+	
 	 
 	option = { 
 		name = "Well of course the Spainards will Rule."

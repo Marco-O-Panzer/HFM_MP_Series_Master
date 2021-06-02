@@ -16,11 +16,11 @@ political_decisions = {
 						NOT = { tag = TPG }
 						NOT = { tag = CHI }
 						NOT = { tag = QNG }
+					}
 					is_sphere_leader_of = SPA
 					is_sphere_leader_of = SPC
 					is_sphere_leader_of = POR
-				}
-				#has_global_flag = fantasy_countries_enabled
+					#has_global_flag = fantasy_countries_enabled
 				}
 		}
 		allow = {
@@ -110,6 +110,10 @@ political_decisions = {
 			country_event = {
 				id = 72751
 				days = 0
+			}
+			diplomatic_influence = {
+				who = CAT
+				value = 300
 			}
 		}
 		ai_will_do = {

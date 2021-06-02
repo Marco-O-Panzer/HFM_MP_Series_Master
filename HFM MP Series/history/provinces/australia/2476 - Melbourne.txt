@@ -5,6 +5,10 @@ trade_goods = wool
 life_rating = 35
 terrain = melbourne
 colonial = 2
+1836.1.2 = {
+	controller = AST
+	owner = AST
+}
 1861.1.1 = {
 	colonial = 2
 	state_building = {

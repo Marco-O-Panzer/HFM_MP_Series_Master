@@ -79,7 +79,11 @@ country_event = {
 			who = EIC
 			value = -400
 		}
-		EIC = {
+		any_country = {
+			limit = {
+				tag = EIC
+				exists = yes
+			}
 			country_event = 9990005
 		}
 	}

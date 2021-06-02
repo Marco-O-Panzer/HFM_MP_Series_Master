@@ -9,7 +9,7 @@ TUR_presidential_dictatorship_adj;Ottoman;Turc;Türkisch;;turca;;;;;;;;;x,,,
 TUR_democracy;The Sublime Porte;Turquie;Türkei;;Turquía;;;;;;;;;x,,,
 TUR_democracy_ADJ;Ottoman;Turc;Türkisch;;turca;;;;;;;;;x,,,
 all_of_mexico_title;All of Mexico!;;;;;;;;;;;;;x,,,
-all_of_mexico_desc;It is not enough to have empty lands, all Mexicans are Americans!  NOTE: Not an option once the civil war starts.;;;;;;;;;;;;;x,,
+all_of_mexico_desc;It is not enough to have empty lands, all Mexicans are Americans! §YNOTE: Not an option once the civil war starts.§!;;;;;;;;;;;;;x,,
 cultural_expansion_title;Expand the Federation!;;;;;;;;;;;;;x,,,
 cultural_expansion_desc;Whilst we have made excellent progress regardless of our cultures, some are still left out. It is time to bring them as full citizens into the Federation.;;;;;;;;;;;;;x,,
 EVT90056OPTB;They have their sphere, we have ours;;;;;;;;;;;;;x,,
@@ -195,6 +195,15 @@ EVTNAME7777905;To be European;;;;;;;;;;;;;x,,
 EVTDESC7777905;We are experiencing a massive rise in European solidarity, people are feeling more European than ever before!;;;;;;;;;;;;;x,,
 promoted_european_culture;European Cultural Unity;;;;;;;;;;;;;x,,
 african_unciv;African Primitive;;;;;;;;;;;;;x,,
+african_unciv_1;African Primitive;;;;;;;;;;;;;x,,
+african_unciv_2;African Primitive;;;;;;;;;;;;;x,,
+african_unciv_3;African Primitive;;;;;;;;;;;;;x,,
+african_unciv_4;African Partially Westernised;;;;;;;;;;;;;x,,
+unciv_infamy;Uncivilised;x
+unciv_infamy_1;Uncivilised;x
+unciv_infamy_2;Uncivilised;x
+unciv_infamy_3;Uncivilised;x
+unciv_infamy_4;Uncivilised;x
 NGE;The Union of Niger;;;;;;;;;;;;;x,,
 NGE_ADJ;Nigerian;;;;;;;;;;;;;x,,
 NGE_democracy;The Niger Federation;;;;;;;;;;;;;x,,

@@ -135,6 +135,8 @@ political_decisions = {
 			1863 = { trade_goods = iron }
 			1852 = { trade_goods = coal }
 			1853 = { trade_goods = coal }
+			1862 = { trade_goods = copper }
+			1861 = { trade_goods = tin }
 			set_country_flag = eaf_ind_rgos
 		}
 	}

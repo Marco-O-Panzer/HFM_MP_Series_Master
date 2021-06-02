@@ -1,0 +1,51 @@
+Vicky 2: Standard Rules
+================
+1. Claimed countries (from the spreadsheet) are reserved unless the player doesnt give warning they cant play
+2. 1 GP ally before 1850, no more than 2 until 1890, 3 post 1890, and no limits once Great Wars are discovered. (Vision alliances are allowed but must be announced.)
+3. Great powers are not allowed to subsidize their factories. The only exception are factories directly involved in military production, however, those must not produce an amount of military goods greater than three times (3x) the maximum capacity of your military. 
+-- This can be found my maximizing your military budget and looking at your trade tab. 
+4. Spherelings only allowed GP ally is overlord, unless sphered by war
+5. Playing China is restricted
+-- Cannot have Chinese cores as states aside from Manchuria, Taiwan, and treaty ports
+6. Can only release a puppet when it gets at least 75% of its cores on release
+7. No nation ruining or exploits, like transfer cb to gain research points or release to reintegrate via event/decision
+-- Any player nation willingly inherited by another player nation must be at less than 10 infamy
+8. Rehosts on the hour.
+-- Player war OOS/crash can be an exception
+9. If you announce you cant make a session, your country is 'protected' i.e no nation ruining
+-- Can't use this protection for consecutive weeks
+-- Players who, before they leave: start wars, own or occupy contested land, leave the session early, or otherwise mess with players who are actually playing are only protected insofar that they can't have core and not-already-disputed territory taken, can't be nation-ruined, and can't be otherwise bullied.  (For instance, a France player who doesn't show up for 1860-1870 is can still have A-L taken from them, but no more).
+10. Can repick a nation with GM approval (guideline is if current pick is ruined, irrelevant, or no longer exists)
+11. RQs will be banned from playing important nations and will be banned from the server after repeat offenses
+-- Can leave a campaign at anytime without being penalised in another campaign (unless above conditions apply)
+-- Defense clause: if you think the GM is targeting you, contact an admin
+12. Any player unanimously deemed toxic by his co-players for his actions in a game will be warned once and then banned
+13. GM discretion on when rules are broken
+14. Rules can be added/changed mid campaign/session if 2/3+ of the players and GM agree
+
+Vicky 2: War Rules
+=======
+1. Can only move through neutral territory if going from allied controlled to allied controlled territory
+-- No fighting in neutral territory, initiator must delete stack
+-- If a war party peaces out and now enemy no longer has access to the war targets, must give access and their land is treated as non-neutral
+2. No ships in neutral ports
+3. Multiprovince retreating requires the stack to be deleted
+-- If retreating from a battle that will still be in progress, can multi province retreat if behind front line
+4. No deleting units in hostile territory (unless multiretreat)
+5. Don't join a war without war leader permission
+-- Exception is crisis war
+6. If no significant action is taken by the attackers in 2 years and no war goals are met they must white peace 
+-- If the defenders have a wargoal other than status quo this doesnt apply
+7. If a sides wargoals are met for 5 years with no ticking score against them and no non-overseas core lands continuously occupied, they may enforce a peace and the enemy must peace out for the wargoal(s).
+8. After one nation / side surrenders, can add wargoals up to 100 on them (can only go over 100 with recipient's & GM's permission)
+- First of all have to take what you declared for & added pre surrender (up to 100), then if spare warscore:
+-- Cannot add any wargoals on unoccupied states (unless a Great War)
+-- All wargoals must be added in one year from the surrender being announced
+-- Defender must accept a peace that is 100 WS or below as long as it meets these conditions
+-- NOTE: Doesnt have to be an unconditional surrender, can have a limited WS peace if agreed
+9. Cannot join a war to peace out at the expense of a minor player without them surrendering, or having been judged to have lost the war by all other players
+10. Don't move into a province where the enemy is battling rebels
+11. Cannot delete factories in contested states
+12. Do not hold peace deals
+13. Do not transfer away land that is occupied by an enemy
+-- Not limited to just using the transfer CB

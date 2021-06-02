@@ -278,4 +278,7 @@ ITA_annex_ITS_title;Unite the Peninsula;
 ITA_annex_ITS_desc;Merge our two union states;x
 global_1836_setup_title;World Bank Neutrality;x
 global_1836_setup_desc;Prevent CB justification on the World Bank;x
+changing_executive;Changing Executive;x
+UK_NAME;UK Puppet Dominions;x
+UK_DESC;Canada and Australia are released as puppets to pick at the start. The UK can then go on to release them from puppet status via generic release vassal decision if they so want to.;x
 SUPPLY_LOAD_STATUS_DESC_BASIC;The total §Ysupply throughput§! of all our §Ynaval ports§! will always be sufficient for any navy we maintain.;x

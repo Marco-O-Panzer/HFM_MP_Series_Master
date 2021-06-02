@@ -1,6 +1,7 @@
 Changes that are waiting to be implemented:
 * big validator cleanup and tidy
-
+* Portugal Reino Unido flava
+* Separate EAF and Coptic Empire tags, can build them off ethiopia first being formed (optional route)
 
 BUGS:
 * AI is stupid

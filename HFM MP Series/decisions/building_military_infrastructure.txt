@@ -43,6 +43,9 @@ political_decisions = {
 								terrain = arctic				#-4
 								terrain = boreal 				#-4
 								terrain = montane_tundra 		#-4
+								terrain = new_world_arctic 
+								terrain = new_world_boreal 
+								terrain = new_world_montane_tundra 
 							}
 						}
 					}
@@ -99,10 +102,13 @@ political_decisions = {
 								terrain = arctic				#-4
 								terrain = boreal 				#-4
 								terrain = montane_tundra 		#-4
+								terrain = new_world_arctic 
+								terrain = new_world_boreal 
+								terrain = new_world_montane_tundra 
 							}
 						}
 					}
-					naval_base = 3
+					naval_base = 2 #makes it lvl 2 if jumping from 0, others seem to be fine
 				}
 			}
 		}
@@ -155,6 +161,9 @@ political_decisions = {
 								terrain = arctic				#-4
 								terrain = boreal 				#-4
 								terrain = montane_tundra 		#-4
+								terrain = new_world_arctic 
+								terrain = new_world_boreal 
+								terrain = new_world_montane_tundra 
 							}
 						}
 					}
@@ -211,6 +220,9 @@ political_decisions = {
 								terrain = arctic				#-4
 								terrain = boreal 				#-4
 								terrain = montane_tundra 		#-4
+								terrain = new_world_arctic 
+								terrain = new_world_boreal 
+								terrain = new_world_montane_tundra 
 							}
 						}
 					}
@@ -267,6 +279,9 @@ political_decisions = {
 								terrain = arctic				#-4
 								terrain = boreal 				#-4
 								terrain = montane_tundra 		#-4
+								terrain = new_world_arctic 
+								terrain = new_world_boreal 
+								terrain = new_world_montane_tundra 
 							}
 						}
 					}
@@ -288,6 +303,9 @@ political_decisions = {
 							terrain = arctic				#-4
 							terrain = boreal 				#-4
 							terrain = montane_tundra 		#-4
+							terrain = new_world_arctic 
+							terrain = new_world_boreal 
+							terrain = new_world_montane_tundra 
 						}
 					}
 					naval_base = 1
@@ -329,6 +347,9 @@ political_decisions = {
 							terrain = arctic				#-4
 							terrain = boreal 				#-4
 							terrain = montane_tundra 		#-4
+							terrain = new_world_arctic 
+							terrain = new_world_boreal 
+							terrain = new_world_montane_tundra 
 						}
 					}
 				}
@@ -341,6 +362,9 @@ political_decisions = {
 						terrain = arctic				#-4
 						terrain = boreal 				#-4
 						terrain = montane_tundra 		#-4
+						terrain = new_world_arctic 
+						terrain = new_world_boreal 
+						terrain = new_world_montane_tundra 
 					}
 				}
 				naval_base = 3
@@ -361,6 +385,9 @@ political_decisions = {
 								terrain = arctic				#-4
 								terrain = boreal 				#-4
 								terrain = montane_tundra 		#-4
+								terrain = new_world_arctic 
+								terrain = new_world_boreal 
+								terrain = new_world_montane_tundra 
 							}
 						}
 					}
@@ -382,6 +409,9 @@ political_decisions = {
 							terrain = arctic				#-4
 							terrain = boreal 				#-4
 							terrain = montane_tundra 		#-4
+							terrain = new_world_arctic 
+							terrain = new_world_boreal 
+							terrain = new_world_montane_tundra 
 						}
 					}
 					naval_base = 3
@@ -423,6 +453,9 @@ political_decisions = {
 							terrain = arctic				#-4
 							terrain = boreal 				#-4
 							terrain = montane_tundra 		#-4
+							terrain = new_world_arctic 
+							terrain = new_world_boreal 
+							terrain = new_world_montane_tundra 
 						}
 					}
 				}
@@ -435,6 +468,9 @@ political_decisions = {
 						terrain = arctic				#-4
 						terrain = boreal 				#-4
 						terrain = montane_tundra 		#-4
+						terrain = new_world_arctic 
+						terrain = new_world_boreal 
+						terrain = new_world_montane_tundra 
 					}
 				}
 				naval_base = 4
@@ -455,6 +491,9 @@ political_decisions = {
 								terrain = arctic				#-4
 								terrain = boreal 				#-4
 								terrain = montane_tundra 		#-4
+								terrain = new_world_arctic 
+								terrain = new_world_boreal 
+								terrain = new_world_montane_tundra 
 							}
 						}
 					}
@@ -476,6 +515,9 @@ political_decisions = {
 							terrain = arctic				#-4
 							terrain = boreal 				#-4
 							terrain = montane_tundra 		#-4
+							terrain = new_world_arctic 
+							terrain = new_world_boreal 
+							terrain = new_world_montane_tundra 
 						}
 					}
 					naval_base = 4

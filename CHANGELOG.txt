@@ -23,22 +23,35 @@ Version 6
 CHECKSUM: (Steam version)   
           (Cracked version) 
 
+Bookmarks
+* New bookmark on the 2nd Jan 1836 that releases Canada and Australia as UK puppets
+
+CBs & Infamy
+* Unciv infamy reduction effects now scale on westernisation %
+* Infamy transfers are only available to civs
+
 Politics
 * No tax restrictions for State Capitalism
 * LF can tax up to 75%
 * Planned can tax down to 25%
 
 Economy
-* More starting tin provinces
+* More starting tin and copper provinces
 * Base wood production increased
+* Decisions that change to industrial RGOs now also give copper (and tin) rgos
 
 Static Modifiers
 * Peace war exhaustion decrease changed to -1
 * At war war exhaustion decrease changed to -0.25
 
+Balance
+* Alexander's reforms dont give Russia the pop growth for quite as long (from 8 to 5 years)
+
 Fixes
 * Arabia formation more dynamic, done on the cores of the integrated tags now
 * Pop conditions for new world immigration attraction bonus removed
+* Iberia now clearly formable if an spain or portugal are sphered (catalonia will also be annexed into it)
+* Ports decision rank 2 now will give lvl 2 ports in empty available provinces, not lvl 3
 
 
 Version 5

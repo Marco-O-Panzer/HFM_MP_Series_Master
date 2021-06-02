@@ -253,6 +253,11 @@ political_decisions = {
 			1927 = { owned_by = NGE }
 			1940 = { owned_by = NGE }
 			1939 = { owned_by = NGE }
+			1942 = { owned_by = NGE }
+			1943 = { owned_by = NGE }
+			1901 = { owned_by = NGE }
+			1904 = { owned_by = NGE }
+			1905 = { owned_by = NGE }
 		}
 		effect = {
 			1928 = { trade_goods = coal }
@@ -262,6 +267,11 @@ political_decisions = {
 			1927 = { trade_goods = iron }
 			1940 = { trade_goods = iron }
 			1939 = { trade_goods = iron }
+			1942 = { trade_goods = tin }
+			1943 = { trade_goods = tin }
+			1901 = { trade_goods = copper }
+			1904 = { trade_goods = copper }
+			1905 = { trade_goods = copper }
 			set_country_flag = nge_ind_rgos
 		}
 	}
