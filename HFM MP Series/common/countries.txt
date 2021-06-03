@@ -13,6 +13,8 @@ OCE		= "countries/Oceania.txt"
 EAF		= "countries/East Africa Federation.txt"
 CEU		= "countries/Celtic Union.txt"
 TRK		= "countries/Turkey.txt"
+IDO		= "countries/Indochina.txt"
+COP		= "countries/Coptic Empire.txt"
 
 ### NEW NATIONS MOD ###
 

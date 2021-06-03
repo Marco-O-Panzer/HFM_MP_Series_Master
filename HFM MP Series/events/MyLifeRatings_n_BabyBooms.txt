@@ -9,6 +9,7 @@ country_event = {
 			tag = CHI
 			tag = HND
 			tag = KOR
+			tag = IDO
 		}
 		civilized = yes
 		NOT = { has_country_flag = asian_liferating_increase_1 }
@@ -59,6 +60,7 @@ country_event = {
 			tag = CHI
 			tag = HND
 			tag = KOR
+			tag = IDO
 		}
 		civilized = yes
 		has_country_flag = asian_liferating_increase_1
@@ -104,6 +106,7 @@ country_event = {
 			tag = CHI
 			tag = HND
 			tag = KOR
+			tag = IDO
 		}
 		civilized = yes
 		has_country_flag = asian_liferating_increase_2

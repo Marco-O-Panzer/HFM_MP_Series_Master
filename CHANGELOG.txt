@@ -23,6 +23,17 @@ Version 6
 CHECKSUM: (Steam version)   
           (Cracked version) 
 
+Flavour Changes
+* Canada
+-- Can change primary culture to french canadian and accept anglo canadian
+-- If french canadian primary, and owns haiti (por au prince), can accept Afro Francais
+-- Can request eastern lands off the UK
+* Indochina
+-- Now a formable for anyone with vietnamese, khemer or laos culture
+-- Can accept all the cultures above, and limited expansion options
+* Coptic Empire
+-- EAF and COP tags are now separate, and will be formed by ethiopia via a guaranteed event
+
 Bookmarks
 * New bookmark on the 2nd Jan 1836 that releases Canada and Australia as UK puppets
 
@@ -46,6 +57,7 @@ Static Modifiers
 
 Balance
 * Alexander's reforms dont give Russia the pop growth for quite as long (from 8 to 5 years)
+* Swiss partition now more evenly splits the infamy if all 3 agree
 
 Fixes
 * Arabia formation more dynamic, done on the cores of the integrated tags now

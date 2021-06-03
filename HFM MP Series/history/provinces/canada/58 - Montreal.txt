@@ -21,4 +21,6 @@ colonial = 2
 1836.1.2 = {
 	controller = CAN
 	owner = CAN
+	add_core = CAN
+	colonial = 0
 }

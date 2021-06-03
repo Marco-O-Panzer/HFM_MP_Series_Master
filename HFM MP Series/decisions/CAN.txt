@@ -700,5 +700,63 @@ political_decisions = {
 		
 		ai_will_do = { factor = 1 }
 	}
-	
+	french_can_primary = {
+		picture = postcol_QUE
+		potential = {
+			tag = CAN
+			NOT = { primary_culture = french_canadian }
+			NOT = { has_country_flag = hiding_the_decisions }
+		}
+		allow = {
+			QUE = {
+				all_core = { owned_by = THIS }
+			}
+		}
+		effect = {
+			primary_culture = french_canadian
+			add_accepted_culture = anglo_canadian
+		}
+		ai_will_do = { factor = 0 }
+	}
+	accept_hatians = {
+		picture = port_au_prince
+		potential = {
+			tag = CAN
+			primary_culture = french_canadian
+			NOT = { accepted_culture = afro_antillean }
+			NOT = { has_country_flag = hiding_the_decisions }
+		}
+		allow = {
+			2213 = { owned_by = THIS }
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+			add_accepted_culture = afro_antillean
+		}
+	}
+	request_canadian_lands = {
+		picture = canadian_dominion
+		potential = {
+			tag = CAN
+			NOT = { owns = 68 }
+			NOT = { has_country_flag = hiding_the_decisions }
+			NOT = { has_country_flag = requested_our_lands }
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			set_country_flag = requested_our_lands
+			any_country = {
+				limit = {
+					exists = yes
+					OR = {
+						tag = ENL
+						tag = ENG
+					}
+				}
+				country_event = { id=7777925 days = 0 }
+			}
+		}
+	}
 }

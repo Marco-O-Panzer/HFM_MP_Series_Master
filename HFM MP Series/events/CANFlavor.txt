@@ -2133,5 +2133,36 @@ country_event = {
 	}
 }
 	
+country_event = {
+	id = 7777925
+	title = "EVTNAME7777925"
+	desc = "EVTDESC7777925"
+	picture = "confederation"
 	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT7777925OPTA"
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = NEW
+					is_core = MRU
+				}
+				NOT = { is_core = NEN }
+			}
+			secede_province = CAN
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = "EVT7777925OPTB"
+		relation = { who = CAN value = -100 }
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
 		

@@ -56,13 +56,21 @@ country_event = {
 
 	trigger = {
 		OR = { 
-			tag = ENG
-			tag = CAN
+			AND = {
+				tag = ENG
+				NOT = { owns = 263 }
+				NOT = { owns = 269 }
+				NOT = { owns = 300 }
+				NOT = { owns = 273 }
+			}
+			AND = {
+				tag = CAN
+				ENG = { NOT = { owns = 263 } }
+				ENG = { NOT = { owns = 269 } }
+				ENG = { NOT = { owns = 300 } }
+				ENG = { NOT = { owns = 273 } }
+			}
 		}
-		NOT = { owns = 263 }
-		NOT = { owns = 269 }
-		NOT = { owns = 300 }
-		NOT = { owns = 273 }
 	}
 	
 	fire_only_once = yes

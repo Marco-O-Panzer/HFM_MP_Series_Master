@@ -416,10 +416,10 @@ EVTDESC13066;"We find that your country is sixty or seventy thousand li from Chi
 EVTNAME13067;The Treaty of Nanjing ($YEAR$);;;;;;;;;;x;;;;
 EVTDESC13067;In the wake of our defeat in against the British, we have been forced to agree to a series of unreasonable demands. Most notably we have been forced to cede the Island of Hong Kong and to abolish the former monopoly of the Cohong and their Thirteen Factories in Canton.;;;;;;;;;x;;;;
 EVOPTA13067;We have no choice but to accept the demands;;;;;;;;;;x;;;;
-EVTNAME500059;A Swiss Partition?;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-EVTDESC500059;The $FROMCOUNTRY_ADJ$ has come to us with a interesting proposal: the Partition of Switzerland along ethnic lines. The former cantons of Switzerland would be split among German, French and Italian and the $COUNTRY_ADJ$ cantons would be incorporated into $COUNTRY$, should we agree to this proposal?;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-EVTOPTA500059;It is for the best.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-EVTOPTB500059;We refuse to accept this unlawful occupation of Switzerland!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTNAME500060;A Swiss Partition?;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC500060;The $FROMCOUNTRY_ADJ$ has come to us with a interesting proposal: the Partition of Switzerland along ethnic lines. The former cantons of Switzerland would be split among German, French and Italian and the $COUNTRY_ADJ$ cantons would be incorporated into $COUNTRY$, should we agree to this proposal?;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTOPTA500060;It is for the best.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTOPTB500060;We refuse to accept this unlawful occupation of Switzerland!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 EVTNAME500061;The Swiss Partition - $FROMCOUNTRY$ Agrees!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 EVTDESC500061;The $FROMCOUNTRY_ADJ$ foreign minister has agreed to our proposal, the $FROMCOUNTRY_ADJ$ cantons of Switzerland shall be transferred to their control;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 EVTOPTA500061;Excellent;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
