@@ -28,6 +28,10 @@ country_event = {
 			has_country_flag = arab_revolt
 			has_country_flag = arab_revolt_ended
 			has_country_flag = friend_of_the_arabs
+			AND = {
+				tag = COP
+				accepted_culture = misri
+			}
 		}
 		any_owned_province = {
 			any_core = {

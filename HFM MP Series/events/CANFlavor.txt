@@ -2151,6 +2151,7 @@ country_event = {
 				}
 				NOT = { is_core = NEN }
 			}
+			add_core = CAN
 			secede_province = CAN
 		}
 		ai_chance = {

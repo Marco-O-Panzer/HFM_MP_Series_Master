@@ -82,6 +82,7 @@ political_decisions = {
 			OR = {
 				tag = SPA
 				tag = SPC
+				tag = POR
 			}
 			ai = no
 			NOT = { has_country_flag = hiding_the_decisions }
@@ -89,9 +90,27 @@ political_decisions = {
 		
 		allow = {
 			war = no
-			relation = {
-				who = POR
-				value = 150
+			OR = {
+				AND = {
+					NOT = { tag = POR }
+					relation = {
+						who = POR
+						value = 150
+					}
+				}
+				AND = {
+					tag = POR
+					OR = {
+						relation = {
+							who = SPA
+							value = 150
+						}
+						relation = {
+							who = SPC
+							value = 150
+						}
+					}
+				}
 			}
 			state_n_government = 1
 			idealism = 1
@@ -99,6 +118,8 @@ political_decisions = {
 			OR = {
 				POR = { in_sphere = SPA }
 				POR = { in_sphere = SPC }
+				SPA = { in_sphere = POR }
+				SPC = { in_sphere = POR }
 			}
 		}
 		
@@ -107,53 +128,63 @@ political_decisions = {
 			prestige = 25
 			any_country = {
 				limit = {
-					tag = POR
+					OR = {
+						tag = POR
+						tag = SPA
+						tag = SPC
+					}
+					NOT = { tag = THIS }
 				}
 				country_event = { id=11101 days = 0 }
 			}
+			add_accepted_culture = portuguese
+			add_accepted_culture = spanish
+			add_accepted_culture = catalan
+			add_accepted_culture = basque
 			set_global_flag = created_iberia
 		}
 	}
 	
-	accept_the_portuguese = {
-		picture = fueros
-		potential = {
-			tag = IBR
-			ai = no
-			NOT = { has_country_flag = hiding_the_decisions }
-			NOT = { accepted_culture = portuguese }
-		}
-		
-		allow = {
-			war = no
-			NOT = { citizenship_policy = residency }
-		}
-		
-		effect = {
-			add_accepted_culture = portuguese
-		}
-	}
+#	accept_the_portuguese = {
+#		picture = fueros
+#		potential = {
+#			tag = IBR
+#			ai = no
+#			NOT = { has_country_flag = hiding_the_decisions }
+#			NOT = { accepted_culture = portuguese }
+#			NOT = { primary_culture = portuguese }
+#		}
+#		
+#		allow = {
+#			war = no
+#			NOT = { citizenship_policy = residency }
+#		}
+#		
+#		effect = {
+#			add_accepted_culture = portuguese
+#		}
+#	}
 	
-	accept_the_basque = {
-		picture = fueros
-		potential = {
-			tag = IBR
-			ai = no
-			NOT = { has_country_flag = hiding_the_decisions }
-			accepted_culture = portuguese
-			NOT = { accepted_culture = basque }
-		}
-		
-		allow = {
-			war = no
-			NOT = { citizenship_policy = residency }
-			revolution_n_counterrevolution = 1
-		}
-		
-		effect = {
-			add_accepted_culture = basque
-		}
-	}
+#	accept_the_basque = {
+#		picture = fueros
+#		potential = {
+#			tag = IBR
+#			ai = no
+#			NOT = { has_country_flag = hiding_the_decisions }
+#			accepted_culture = portuguese
+#			NOT = { accepted_culture = basque }
+#		}
+#		
+#		allow = {
+#			war = no
+#			NOT = { citizenship_policy = residency }
+#			revolution_n_counterrevolution = 1
+#		}
+#		
+#		effect = {
+#			add_accepted_culture = basque
+#		}
+#	}
 	
 	CHI_accept_mongols = {
 		picture = tibet_capital

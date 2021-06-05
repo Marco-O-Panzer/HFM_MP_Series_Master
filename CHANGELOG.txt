@@ -58,6 +58,7 @@ Static Modifiers
 Balance
 * Alexander's reforms dont give Russia the pop growth for quite as long (from 8 to 5 years)
 * Swiss partition now more evenly splits the infamy if all 3 agree
+* Slavery debate effects nerfed
 
 Fixes
 * Arabia formation more dynamic, done on the cores of the integrated tags now

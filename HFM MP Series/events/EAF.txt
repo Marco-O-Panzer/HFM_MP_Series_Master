@@ -55,6 +55,7 @@ country_event = {
 	option = {
 		name = "EVT7777911PTB"
 		government = democracy
+		SOM_1872 = { add_core = EAF }
 		SOM_1868 = { add_core = EAF }
 		ENG_2026 = { add_core = EAF }
 		ENG_2019 = { add_core = EAF }
