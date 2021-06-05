@@ -32,8 +32,8 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA45100" 
-		prestige = 5
-		relation = { who = PAP value = 50 }
+		prestige = 25
+		relation = { who = PAP value = 150 }
 		any_pop = { limit = { is_state_religion = yes } scaled_militancy = { factor = -3 issue = moralism } }
 	}
 }
@@ -236,8 +236,35 @@ country_event = {
 			remove_province_modifier = nationalist_agitation
 			secede_province = DOM
 		}
+		USA = {
+        	diplomatic_influence = { who = DOM value = 400 }
+        }
 		DOM = {
-			define_general = { name = "Pedro Santana" personality = implacable background = nationalist } }
+			define_general = { name = "Pedro Santana" personality = implacable background = nationalist }
+			
+			any_pop = {
+				limit  = {
+					OR = {
+						has_pop_culture = afro_caribeno
+						has_pop_culture = caribeno
+					}
+					pop_type = soldiers
+				}
+				reduce_pop = 2.0
+			}
+			capital_scope = {
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = cavalry value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+			}
+		}
 		relation = { who = DOM value = -400 }
 		war = {
 			target = DOM
@@ -302,5 +329,220 @@ country_event = {
 			modifier = { factor = 0 vassal_of = FROM }
 			modifier = { factor = 1.5 literacy = 0.3 }
 		}
+	}
+}
+country_event = {
+
+    id = 45106
+
+    title = "EVTNAME45106"
+    desc = "EVTDESC45106"
+    picture = "haiti_debts"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "EVT45106OPTA"
+        prestige = -10
+        FRA = { 
+        	treasury = 500000
+        	any_pop = {
+        		limit = {
+        			has_pop_culture = afro_antillean
+        		}
+        		reduce_pop = 5
+        	}
+        }
+        HAI = { 
+        	treasury = -25000
+        	any_pop = {
+        		limit = {
+        			has_pop_culture = afro_antillean
+        		}
+        		reduce_pop = 0.99
+        	}
+        }
+        ai_chance = {
+            factor = 60
+        }
+    }
+
+    option = {
+        name = "EVT45106OPTB"
+        prestige = 10
+        FRA = { country_event = 45107 }
+        ai_chance = {
+            factor = 10
+        }
+    }
+}
+country_event = {
+
+    id = 45107
+
+    title = "EVTNAME45107"
+    desc = "EVTDESC45107"
+    picture = "haiti_debts"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "EVT45107OPTA"
+        casus_belli = {
+            target = FROM
+            type = war_reparations
+            months = 12
+        }
+        war = {
+            target = FROM
+            attacker_goal = { casus_belli = war_reparations }
+        }
+        ai_chance = {
+            factor = 90
+        }
+    }
+
+    option = {
+        name = "EVT45107OPTB"
+        badboy = 8
+        relation = { who = USA value = -200 }
+        add_casus_belli = {
+            target = USA
+            type = cut_down_to_size
+            months = 48
+        }
+        casus_belli = {
+            target = FROM
+            type = war_reparations
+            months = 80
+        }
+        casus_belli = {
+            target = FROM
+            type = make_puppet
+            months = 120
+        }
+        war = {
+            target = FROM
+            attacker_goal = { casus_belli = war_reparations }
+        }
+        ai_chance = {
+            factor = 5
+        }
+    }
+    option = {
+        name = "EVT45107OPTC"
+        badboy = 10
+        relation = { who = USA value = -300 }
+        add_casus_belli = {
+            target = USA
+            type = cut_down_to_size
+            months = 48
+        }
+        casus_belli = {
+            target = FROM
+            type = conquest
+            months = 12
+        }
+        war = {
+            target = FROM
+            attacker_goal = { casus_belli = conquest }
+        }
+        ai_chance = {
+            factor = 4
+        }
+    }
+    option = {
+        name = "EVT45107OPTD"
+        badboy = -2
+        prestige = -20
+        relation = { who = HAI value = 200 }
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+province_event = {
+	id = 1740010
+	title = "A fine Soldier"
+	desc = "Conscript Unemployed citizens."
+	
+	trigger = {
+		owner = {
+			tag = HAI
+		}
+		OR = {
+			country_units_in_province = THIS
+			any_pop = {
+				unemployment = 0.08
+			}
+		}
+		controlled_by_rebels = no
+	}
+	
+	mean_time_to_happen = {
+		months = 400
+		modifier = {
+			factor = 0.2
+			owner = {
+				NOT = { military_score = 10 }
+			}
+		}
+		modifier = {
+			factor = 0.4
+			owner = {
+				NOT = { military_score = 20 }
+			}
+		}
+		modifier = {
+			factor = 0.6
+			owner = {
+				NOT = { military_score = 30 }
+			}
+		}
+		modifier = {
+			factor = 0.8
+			owner = {
+				NOT = { military_score = 40 }
+			}
+		}
+		modifier = {
+			factor = 0.9
+			owner = {
+				NOT = { military_score = 50 }
+			}
+		}
+	}
+	
+	option = {
+		name = "Abduct and force him into army service!"
+		leadership = 10
+		ammunition = 10
+		small_arms = 10
+		artillery = 2
+		canned_food = 10
+		wine = 10
+		luxury_clothes = 3
+		machine_parts = 50
+		clipper_convoy = 5
+		wool = 5
+		random_pop = {
+			limit = {
+				OR = {
+					pop_type = labourers
+					pop_type = farmers
+					pop_type = artisans
+				}
+			}
+			pop_type = soldiers
+		}
+		random_pop = {
+			consciousness = 2
+			militancy = 1
+		}
+	}
+	
+	option = {
+		name = "Leave him alone"
+		badboy = -2
 	}
 }

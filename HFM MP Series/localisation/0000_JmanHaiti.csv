@@ -1,0 +1,68 @@
+;;;;;;;;;;;;;x
+french_canadian;Québécois;;;;;;;;;;;;;;;;;;;;;;;;x
+mulatto;Mulâtres;;;;;;;;;;;;;;;;;;;;;;;;x
+afro_antillean;Afro-Français;;;;;;;;;;;;;;;;;;;;;;;;x
+afro_caribeno;Afro-Latino;;;;;;;;;;;;;;;;;;;;;;;;x
+afro_caribbean;Afro-Caribbean;;;;;;;;;;;;;;;;;;;;;;;;x
+EVTNAME45107;Haiti Fails to Honour its Debts;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EVTDESC45107;Haitian legacy of debt began shortly after gaining independence from France in 1804. In 1825, France, with warships at the ready, demanded Haiti compensate France for its loss of slaves and its slave colony. In exchange for French recognition of Haiti as a sovereign republic, France demanded payment of 150 million francs. In addition to the payment, France required that Haiti discount its exported goods to them by 50%. In $YEAR$, France agreed to reduce the debt to 90 million francs (500,000Â¤) to be paid over a period of 30 years to compensate former plantation owners who had lost their property. Haiti, however, still refuses to pay what is owed to us and will not do so unless we use force.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EVT45107OPTA;We will take what is owed to us.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EVT45107OPTB;To safeguard French assets, the Haitian government must be controlled.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EVT45107OPTC;Clearly, the Haitians are not fit to rule themselves.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EVT45107OPTD;They are not worth our time.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EVTNAME45106;Haiti's Debts to France;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EVTDESC45106;Haitian legacy of debt began shortly after gaining independence from France in 1804. In 1825, France, with warships at the ready, demanded Haiti compensate France for its loss of slaves and its slave colony. In exchange for French recognition of Haiti as a sovereign republic, France demanded payment of 150 million francs. In addition to the payment, France required that Haiti discount its exported goods to them by 50%. In $YEAR$, France agreed to reduce the debt to 90 million francs to be paid over a period of 30 years to compensate former plantation owners who had lost their property. This is the best deal we can get, and refusing to honour our debt will likely result in French intervention.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+fra_reps_title;Demand Haitian Reparations;;;;;;;;;;;;;;;;;;;;;;;;x
+EVT45106OPTA;We must honour our agreements.§R(Pay or owe 500,000¤)§W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+EVT45106OPTB;We owe nothing to the French.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+fra_reps_desc;Haiti has long agreed to paying the french government reparations for their Revolution. It is once again time to demand money from them.;;;;;;;;;;;;;;;;;;;;;;;;x
+end_french_title;End French Reparations;;;;;;;;;;;;;;;;;;;;;;;;x
+end_french_desc;For far to long Haiti has sacrficed it self to the French, now it is over that we have beaten them on the fields of Battle we can enforce that we shall not pay them.;;;;;;;;;;;;;;;;;;;;;;;;x
+end_usa_blockade_title;End US Blockage on US;;;;;;;;;;;;;;;;;;;;;;;;x
+end_usa_blockade_desc;For our entire existance the US has blockaded us for being a slave state it is time for that to stop.;;;;;;;;;;;;;;;;;;;;;;;;x
+toussaints_legacy_title;For the Legcay of Toussaint we must reform the Nation;;;;;;;;;;;;;;;;;;;;;;;;x
+toussaints_legacy_desc;Toussaint Louverture would be dissapointed at the state of Haiti week shall reform the nation to fit his vision of Haiti, Vive la Haiti.;;;;;;;;;;;;;;;;;;;;;;;;x
+toussaints_legacy_2_title;The Toussaint Reforms are complete;;;;;;;;;;;;;;;;;;;;;;;;x
+toussaints_legacy_2_desc;Toussaint Louverture would be now that the reforms are complete we must put them into effect to see Haiti become the light of the new world.;;;;;;;;;;;;;;;;;;;;;;;;x
+equal_rule_title;Unite the Mulattoes and Black Haitians;;;;;;;;;;;;;;;;;;;;;;;;x
+equal_rule_desc;For as long as we existed Haiti have been divided on race now that we have the oportunity it is time to unite the people under a Haitian culture.;;;;;;;;;;;;;;;;;;;;;;;;x
+pan_africanism_HAI_title;Accept are Black Brothers;;;;;;;;;;;;;;;;;;;;;;;;x
+pan_africanism_HAI_desc;Black people across the world have been oppressed by the Europeans since we are the only strong Black state we must liberate them.;;;;;;;;;;;;;;;;;;;;;;;;x
+HAI_ULA_claim_title;Enforce Claims on Louisiana;;;;;;;;;;;;;;;;;;;;;;;;x
+HAI_ULA_claim_desc;Since the days of Toussaint's capture our nation have unofically claimed the Louisiana Territory but now that Haiti is strong we can enforce our claims.;;;;;;;;;;;;;;;;;;;;;;;;x
+claim_glp_mtq_title;Claim Guadeloupe and Martinique;;;;;;;;;;;;;;;;;;;;;;;;x
+claim_glp_mtq_desc;The peoples of Martinique and Guadeloupe are quite similar in culture to the Haitian people thus it is time to unite with them.;;;;;;;;;;;;;;;;;;;;;;;;x
+wealth_distribution_title;Wealth Distribution;;;;;;;;;;;x
+wealth_distribution_desc;Now that we have the wealth, we can give it to the People yay.;;;;;;;;;;;x
+que_exiles_title;Atract exiles from the Candians;;;;;;;;;;;x
+que_exiles_desc;There are revolts in we can take the opportunity to accept many exiles.;;;;;;;;;;;x
+GLP;Guadeloupe;;;;;;;;;;;;;;;;;;;;;;;;x
+GLP_ADJ;Guadeloupéen;;;;;;;;;;;;;;;;;;;;;;;;x
+GLP_conservative;Parti Conservateur des Antilles;;;;;;;;;;;;;x
+GLP_liberal;Forces Démocratiques Antillais;;;;;;;;;;;;;x
+GLP_socialist;Mouvement de Décolonisation et d'Émancipation Sociale;;;;;;;;;;;;;x
+GLP_communist;Parti Révolutionnaire Antillais;;;;;;;;;;;;;x
+GLP_reactionary;Union des Propriétaires Fonciers;;;;;;;;;;;;;x
+GLP_anarcho_liberal;Front Libre des Antilles;;;;;;;;;;;;;x
+GLP_fascist;Garde civile des Antilles;;;;;;;;;;;;;x
+GLP_democracy;Guadeloupe;;;;;;;;;;;;;;;;;;;;x
+GLP_presidential_dictatorship;Guadeloupe;;;;;;;;;;;;;;;;;;;;x
+GLP_bourgeois_dictatorship;Guadeloupe;;;;;;;;;;;;;;;;;;;;x
+GLP_proletarian_dictatorship;République Socialiste du Guadeloupe;;;;;;;;;;;;;;;;;;;;x
+GLP_fascist_dictatorship;Guadeloupe;;;;;;;;;;;;;;;;;;;;x
+GLP_absolute_monarchy;Royaume de Guadeloupe;;;;;;;;;;;;;x
+GLP_prussian_constitutionalism;Royaume de Guadeloupe;;;;;;;;;;;;;x
+MTQ;Martinique;;;;;;;;;;;;;;;;;;;;;;;;x
+MTQ_ADJ;Martiniqués;;;;;;;;;;;;;;;;;;;;;;;;x
+MTQ_democracy;Martinique;;;;;;;;;;;;;;;;;;;;x
+MTQ_presidential_dictatorship;Martinique;;;;;;;;;;;;;;;;;;;;x
+MTQ_bourgeois_dictatorship;Martinique;;;;;;;;;;;;;;;;;;;;x
+MTQ_proletarian_dictatorship;République Socialiste du Martinique;;;;;;;;;;;;;;;;;;;;x
+MTQ_fascist_dictatorship;Martinique;;;;;;;;;;;;;;;;;;;;x
+MTQ_absolute_monarchy;Royaume de Martinique;;;;;;;;;;;;;x
+MTQ_prussian_constitutionalism;Royaume de Martinique;;;;;;;;;;;;;x
+reps_haiti;Haitian Reparations;;;;;;;;;;;;;x
+USA_blockade;US Blockade;;;;;;;;;;;;;x
+HAI_mass_reforms;Haitian Mass Reforms;;;;;;;;;;;;;x
+toussaints_legacy;Toussaint's Legcay;;;;;;;;;;;;;x
+equal_rule;Equal Rule;;;;;;;;;;;;;x
