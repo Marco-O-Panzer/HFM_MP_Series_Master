@@ -1,5 +1,4 @@
 ;;;;;;;;;;;;;x
-french_canadian;Québécois;;;;;;;;;;;;;;;;;;;;;;;;x
 mulatto;Mulâtres;;;;;;;;;;;;;;;;;;;;;;;;x
 afro_antillean;Afro-Français;;;;;;;;;;;;;;;;;;;;;;;;x
 afro_caribeno;Afro-Latino;;;;;;;;;;;;;;;;;;;;;;;;x
@@ -30,6 +29,8 @@ pan_africanism_HAI_title;Accept are Black Brothers;;;;;;;;;;;;;;;;;;;;;;;;x
 pan_africanism_HAI_desc;Black people across the world have been oppressed by the Europeans since we are the only strong Black state we must liberate them.;;;;;;;;;;;;;;;;;;;;;;;;x
 HAI_ULA_claim_title;Enforce Claims on Louisiana;;;;;;;;;;;;;;;;;;;;;;;;x
 HAI_ULA_claim_desc;Since the days of Toussaint's capture our nation have unofically claimed the Louisiana Territory but now that Haiti is strong we can enforce our claims.;;;;;;;;;;;;;;;;;;;;;;;;x
+HAI_ULA_claim2_title;Enforce Claims on Louisiana;;;;;;;;;;;;;;;;;;;;;;;;x
+HAI_ULA_claim2_desc;Since the days of Toussaint's capture our nation have unofically claimed the Louisiana Territory but now that Haiti is strong we can enforce our claims.;;;;;;;;;;;;;;;;;;;;;;;;x
 claim_glp_mtq_title;Claim Guadeloupe and Martinique;;;;;;;;;;;;;;;;;;;;;;;;x
 claim_glp_mtq_desc;The peoples of Martinique and Guadeloupe are quite similar in culture to the Haitian people thus it is time to unite with them.;;;;;;;;;;;;;;;;;;;;;;;;x
 wealth_distribution_title;Wealth Distribution;;;;;;;;;;;x

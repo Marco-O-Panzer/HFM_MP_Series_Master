@@ -364,7 +364,7 @@ bank = {
 	output_goods = financial_services 
 	value = 10			#140
 	bonus = {
-		trigger = { has_building = stock_exchange }
+		trigger = { has_building = paper_mill }
 		value = 0.25
 	}
 }
@@ -377,6 +377,10 @@ stock_exchange = {
  	}
 	output_goods = shares 
 	value = 10			#150
+	bonus = {
+		trigger = { has_building = paper_mill }
+		value = 0.25
+	}
 	bonus = {
 		trigger = { has_building = bank }
 		value = 0.25
@@ -1000,14 +1004,14 @@ iron_mine = {
 copper_mine = {
 	template = RGO_template_labourers
 	output_goods = copper
-	value = 5.0
+	value = 3.5
 	mine = yes
 }
 
 tin_mine = {
 	template = RGO_template_labourers
 	output_goods = tin
-	value = 3.5
+	value = 2.5
 	mine = yes
 }
 

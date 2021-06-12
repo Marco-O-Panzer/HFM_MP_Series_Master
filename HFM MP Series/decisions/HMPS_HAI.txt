@@ -204,6 +204,7 @@ political_decisions = {
 		potential = {
 			tag = HAI
 			is_vassal = no
+			NOT = { has_global_flag = mp_setup }
 			NOT = { has_country_flag = HAI_ULA_claim }
 			OR = {
 				is_greater_power = yes
@@ -288,6 +289,51 @@ political_decisions = {
 			83 = { add_core = HAI }
 			78 = { add_core = HAI }
 			79 = { add_core = HAI }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	HAI_ULA_claim2 = {
+		picture = new_france_louisiana
+		potential = {
+			tag = HAI
+			is_vassal = no
+			has_global_flag = mp_setup
+			NOT = { has_country_flag = HAI_ULA_claim2 }
+			OR = {
+				is_greater_power = yes
+				is_secondary_power = yes
+			}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			has_unclaimed_cores = no
+			OR = {
+				war_policy = jingoism
+				war_policy = pro_military
+			}
+			prestige = 50
+		}
+		effect = {
+			set_country_flag = HAI_ULA_claim2
+			add_accepted_culture = cajun
+			badboy = 5
+			any_country = {
+				limit = {
+					OR = {
+						tag = USA
+						tag = CSA
+						tag = FSA
+					}
+				}
+				relation = {
+					who = THIS
+					value = -150
+				}
+			}
+			USA_139 = { add_core = ULA } #Louisiana
+			USA_139 = { add_core = HAI } #Louisiana
 		}
 		ai_will_do = {
 			factor = 1

@@ -712,7 +712,14 @@ political_decisions = {
 				is_sphere_leader_of = SLO
 				is_sphere_leader_of = ALB
 				is_sphere_leader_of = BUL
-			}	
+			}
+			SER = { ai = yes }
+			MON = { ai = yes }
+			CRO = { ai = yes }
+			BOS = { ai = yes }
+			SLO = { ai = yes }
+			ALB = { ai = yes }
+			BUL = { ai = yes }
 		}
 		allow = {
 			war = no

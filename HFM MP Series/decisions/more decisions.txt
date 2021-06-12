@@ -20,6 +20,9 @@ political_decisions = {
 					is_sphere_leader_of = SPA
 					is_sphere_leader_of = SPC
 					is_sphere_leader_of = POR
+					SPA = { ai = yes }
+					SPC = { ai = yes }
+					POR = { ai = yes }
 					#has_global_flag = fantasy_countries_enabled
 				}
 		}
@@ -176,15 +179,15 @@ political_decisions = {
 			NOT = { exists = ITA }
 			OR = {
 				any_owned_province = { is_core = ITA }
-				SAR = { in_sphere = THIS }
-				SIC = { in_sphere = THIS }
-				PAP = { in_sphere = THIS }
-				TUS = { in_sphere = THIS }
-				MOD = { in_sphere = THIS }
-				PAR = { in_sphere = THIS }
-				LUC = { in_sphere = THIS }
-				LOM = { in_sphere = THIS }
-				VEN = { in_sphere = THIS }
+				SAR = { in_sphere = THIS ai = yes }
+				SIC = { in_sphere = THIS ai = yes }
+				PAP = { in_sphere = THIS ai = yes }
+				TUS = { in_sphere = THIS ai = yes }
+				MOD = { in_sphere = THIS ai = yes }
+				PAR = { in_sphere = THIS ai = yes }
+				LUC = { in_sphere = THIS ai = yes }
+				LOM = { in_sphere = THIS ai = yes }
+				VEN = { in_sphere = THIS ai = yes }
 			}
 		}	
 		allow = {
@@ -575,7 +578,10 @@ political_decisions = {
 				is_sphere_leader_of = SWE
 				is_sphere_leader_of = NOR
 				is_sphere_leader_of = DEN
-			}	
+			}
+			SWE = { ai = yes }
+			NOR = { ai = yes }
+			DEN = { ai = yes }
 		}
 		allow = {
 			war = no
@@ -708,7 +714,11 @@ political_decisions = {
 				is_sphere_leader_of = NOR
 				is_sphere_leader_of = DEN
 				is_sphere_leader_of = FIN 
-			}	
+			}
+			SWE = { ai = yes }
+			NOR = { ai = yes }
+			DEN = { ai = yes }
+			FIN = { ai = yes }
 		}
 		allow = {
 			war = no

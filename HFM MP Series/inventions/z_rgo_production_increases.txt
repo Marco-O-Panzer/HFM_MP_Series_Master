@@ -13,12 +13,12 @@ tractors = {
 		}
 	}
 	effect = {
-		rgo_goods_output = { cotton = 0.03 }
+		rgo_goods_output = { cotton = 0.25 }
 		rgo_goods_output = { coffee = 0.05 }
 		rgo_goods_output = { grain = 0.03 }
-		rgo_goods_output = { opium = 0.03 }
+		rgo_goods_output = { opium = 0.05 }
 		rgo_goods_output = { fruit = 0.03 }
-		rgo_goods_output = { cattle = 0.03 }
+		rgo_goods_output = { cattle = 0.15 }
 		RGO_throughput = 0.10
 	}
 }

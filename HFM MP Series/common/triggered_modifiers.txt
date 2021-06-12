@@ -29,7 +29,7 @@ money_hoarder_3 = {
 		money = 10000000
 		not = { money = 15000000 }
 	}
-	tax_efficiency = -0.15
+	tax_efficiency = -0.20
 	tariff_efficiency_modifier = -0.60
 	icon = 1
 }
@@ -39,7 +39,7 @@ money_hoarder_4 = {
 		money = 15000000
 		not = { money = 20000000 }
 	}
-	tax_efficiency = -0.20
+	tax_efficiency = -0.25
 	tariff_efficiency_modifier = -0.80
 	icon = 1
 }
@@ -47,9 +47,19 @@ money_hoarder_4 = {
 money_hoarder_5 = {
 	trigger = {
 		money = 20000000
+		not = { money = 25000000 }
 	}
-	tax_efficiency = -0.25
+	tax_efficiency = -0.40
 	tariff_efficiency_modifier = -1.0
+	icon = 1
+}
+
+money_hoarder_6 = {
+	trigger = {
+		money = 25000000
+	}
+	tax_efficiency = -0.75
+	tariff_efficiency_modifier = -1.25
 	icon = 1
 }
 

@@ -160,6 +160,18 @@ political_decisions = {
 							}
 						}
 						add_core = ARA
+					}
+				}
+				any_neighbor_country = {
+					any_owned = {
+						limit = {
+							OR = {
+								owned_by = NEJ
+								owned_by = HDJ
+								owned_by = HAL
+								owned_by = HDJ
+							}
+						}
 						secede_province = THIS
 					}
 				}
@@ -181,6 +193,18 @@ political_decisions = {
 			}
 			
 			release_vassal = ARA
+			any_owned = {
+				limit = {
+					OR = {
+						province_id = 906
+						province_id = 907
+						province_id = 910
+						province_id = 911
+						province_id = 931
+					}
+				}
+				secede_province = ARA
+			}
 			relation = { who = ARA value = 50 }
 			diplomatic_influence = { who = ARA value = 200 }
 			ARA = { tech_school = unciv_tech_school }

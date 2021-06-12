@@ -12,6 +12,7 @@ This mod is built on HFM V1.27I (SighPie) and HFM More Stuff V3.5 (u/louisky58) 
 - Protectorate CBs from HPM 0.4.6 (arkhometha)
 - Clerk only factories & new goods GFX from PDM (Naselus)
 - Iran flavour by Atlas
+- Haiti flavour by Jman
 - Military topbar expansion by SirRunner
 - Thanks to Nurse_Reno for the craftsmen & bureaucrats fix.
 Everything else is my own (as far as I remember).
@@ -33,23 +34,36 @@ Flavour Changes
 -- Can accept all the cultures above, and limited expansion options
 * Coptic Empire
 -- EAF and COP tags are now separate, and will be formed by ethiopia via a guaranteed event
+* Haiti
+-- Lots of flava added, debt to france, civil strife, recovery and expansion
+* GBR
+-- Starting reforms increased
 
 Bookmarks
 * New bookmark on the 2nd Jan 1836 that releases Canada and Australia as UK puppets
 
 CBs & Infamy
+* Manually built cbs retention length increased to 2.5 years
 * Unciv infamy reduction effects now scale on westernisation %
 * Infamy transfers are only available to civs
+* Republics can use install democracy on absolute monarchies
+* Add to sphere CB increased to 20mil max pop
 
 Politics
 * No tax restrictions for State Capitalism
 * LF can tax up to 75%
 * Planned can tax down to 25%
+* Can sphere up to 20mil pop nations
+
+Population
+* Removed new world country flag, now just done on capital location
 
 Economy
 * More starting tin and copper provinces
 * Base wood production increased
 * Decisions that change to industrial RGOs now also give copper (and tin) rgos
+* Factory machine part upgrade cost reduced to 75%
+* Slightly redid starting UK economy (more cement and machine parts production)
 
 Static Modifiers
 * Peace war exhaustion decrease changed to -1
@@ -59,6 +73,11 @@ Balance
 * Alexander's reforms dont give Russia the pop growth for quite as long (from 8 to 5 years)
 * Swiss partition now more evenly splits the infamy if all 3 agree
 * Slavery debate effects nerfed
+
+Other
+* Questioning our alliance event wont fire for players
+* Tobacco protest disabled in mp setup
+* GPs cant form tags from outside when it would annex a player (i.e Create Italy)
 
 Fixes
 * Arabia formation more dynamic, done on the cores of the integrated tags now

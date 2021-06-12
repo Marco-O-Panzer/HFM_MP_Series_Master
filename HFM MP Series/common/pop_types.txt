@@ -967,7 +967,7 @@ emigration_chance = {
 		}
 		country = {
 			NOT = { has_country_flag = preparations_to_kill }
-			has_country_flag = new_world_nation
+			#has_country_flag = new_world_nation
 			government = democracy
 		}
 	}
@@ -1560,7 +1560,7 @@ assimilation_chance = {
 				is_state_religion = no
 			}
 		}
-		country = { has_country_flag = new_world_nation }
+		#country = { has_country_flag = new_world_nation }
 		OR = {
 			location = { continent = north_america }
 			location = { continent = south_america }
@@ -1709,7 +1709,7 @@ assimilation_chance = {
 	modifier = {
 		factor = -80
 		country = {
-			has_country_flag = new_world_nation
+			#has_country_flag = new_world_nation
 			NOT = { has_country_flag = native_assimilation_enacted }
 		}
 		OR = {

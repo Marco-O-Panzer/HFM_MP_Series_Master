@@ -236,6 +236,7 @@ country_event = {
 			part_of_sphere = yes
 		}
 		civilized = no
+		NOT = { has_global_flag = mp_setup }
 	}
 	
 	fire_only_once = yes

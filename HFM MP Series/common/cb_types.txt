@@ -1335,7 +1335,7 @@ add_to_sphere = {
 			any_neighbor_country = { OR = { vassal_of = THIS substate_of = THIS in_sphere = THIS } }
 		}
 		NOT = { is_our_vassal = THIS }
-		NOT = { total_pops = 11000000 }
+		NOT = { total_pops = 20000000 }
 		THIS = { is_greater_power = yes }
 		is_greater_power = no
 		#is_vassal = no

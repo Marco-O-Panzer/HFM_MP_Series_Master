@@ -35,7 +35,7 @@ country = {
 	NONCORE_TAX_PENALTY = -0.075, -- -5% for each non-core in state
 	BASE_TARIFF_EFFICIENCY = 0.1, -- baseline tariff efficiency
 	COLONY_FORMED_PRESTIGE = 1, -- prestige from founding a colony.
-	CREATED_CB_VALID_TIME = 12,  -- how many months 
+	CREATED_CB_VALID_TIME = 30,  -- how many months 
 	LOYALTY_BOOST_ON_PARTY_WIN = 0.1,
 	MOVEMENT_RADICALISM_BASE = 25,
 	MOVEMENT_RADICALISM_PASSED_REFORM_EFFECT  = -2,
@@ -688,7 +688,7 @@ pops = {
 	NATIONALIST_MOVEMENT_MIL_CAP = 3.0,
 	MOVEMENT_SUPPORT_UH_FACTOR = 3, --  3x means 30% country support equals full UH support
 	REBEL_OCCUPATION_STRENGTH_BONUS = 0.01, -- the amount of strength given to rebel movements when they occupy a province
-	LARGE_POPULATION_LIMIT = 9000000,
+	LARGE_POPULATION_LIMIT = 20000000,
 	LARGE_POPULATION_INFLUENCE_PENALTY_CHUNK = 250000,
 },
 

@@ -142,6 +142,9 @@ political_decisions = {
 			add_accepted_culture = catalan
 			add_accepted_culture = basque
 			set_global_flag = created_iberia
+			POR = { all_core = { add_core = IBR } }
+			SPA = { all_core = { add_core = IBR } }
+			SPC = { all_core = { add_core = IBR } }
 		}
 	}
 	
@@ -452,6 +455,7 @@ political_decisions = {
 		potential = {
 			tag = RUS
 			NOT = { has_country_flag = stolen_tibet }
+			TIB = { exists = yes vassal_of = QNG }
 		}
 		allow = {
 			TIB = { in_sphere = THIS }
@@ -460,7 +464,7 @@ political_decisions = {
 		effect = {
 			QNG = { release_vassal = TIB }
 			TIB = { all_core = { add_core = CHI } }
-			ENG = { country_event = 7777909 }
+			ENG = { country_event = { id = 7777909 days = 7 }
 		}
 	}
 }
