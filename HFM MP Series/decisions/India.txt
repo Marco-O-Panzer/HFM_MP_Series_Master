@@ -1146,6 +1146,14 @@ political_decisions = {
 				diplomatic_influence = { who = THIS value = -400 }
 				country_event = 900041
 			}
+			AWA = {
+				any_owned = {
+					limit = {
+						is_core = MUG 
+					}
+					secede_province = MUG
+				}
+			}
 		}
 		
 		ai_will_do = { factor = 1 }

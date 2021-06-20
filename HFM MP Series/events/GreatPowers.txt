@@ -360,7 +360,7 @@ country_event = {
 	
 	trigger = {
 		war = no
-		ai = no
+		ai = yes
 		great_wars_enabled = no
 		part_of_sphere = yes
 		any_greater_power = {

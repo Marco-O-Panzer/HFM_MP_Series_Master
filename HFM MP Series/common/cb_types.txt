@@ -512,7 +512,7 @@ acquire_core_state = {
 			any_neighbor_country = { substate_of = THIS }
 		}
 		NOT = { is_our_vassal = THIS }
-		number_of_states = 2 # annex if you want their last state
+		# number_of_states = 2 # annex if you want their last state   ### commented out to allow return of non cores on a one state nation
 		#is_vassal = no
 		any_owned_province = { is_core = THIS }
 		NOT = { has_country_modifier = neutrality }
@@ -1335,7 +1335,7 @@ add_to_sphere = {
 			any_neighbor_country = { OR = { vassal_of = THIS substate_of = THIS in_sphere = THIS } }
 		}
 		NOT = { is_our_vassal = THIS }
-		NOT = { total_pops = 20000000 }
+		NOT = { total_pops = 25000000 }
 		THIS = { is_greater_power = yes }
 		is_greater_power = no
 		#is_vassal = no

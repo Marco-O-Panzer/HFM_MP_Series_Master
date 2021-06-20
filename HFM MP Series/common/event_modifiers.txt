@@ -50,6 +50,7 @@ home_focus = {
 	factory_throughput = 0.05
 	tax_efficiency = 0.05
 	war_exhaustion = -0.1
+	education_efficiency_modifier = 0.2
 	icon = 11
 }
 

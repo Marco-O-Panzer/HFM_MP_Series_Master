@@ -20,6 +20,26 @@ political_decisions = {
 			EGY_1834 = { add_core = THIS }
 		}
 	}
+	cop_onto_egypt = {
+		picture = coptic_empire
+		potential = {
+			tag = COP
+			NOT = { 1751 = { is_core = THIS }}
+			NOT = { has_country_flag = hiding_the_decisions }
+		}
+		allow = {
+			nationaliam_n_imperialism = 1
+		}
+		effect = {
+			EGY_1745 = { add_core = COP }
+			EGY_1751 = { add_core = COP }
+			EGY_1755 = { add_core = COP }
+			EGY_1758 = { add_core = COP }
+			EGY_1762 = { add_core = COP }
+			EGY_1771 = { add_core = COP }
+			badboy = 20
+		}
+	}
 	eaf_accept_sudan = {
 		picture = coptic_empire
 		potential = {

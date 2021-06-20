@@ -217,6 +217,8 @@ medical_equipment;Drug Manufacturing;x
 medical_equipment_desc;In the pharmaceutical industry, a wide range of excipients may be blended together with the active pharmaceutical ingredient to create the final blend used to manufacture the solid dosage form. The range of materials that may be blended, presents a number of variables which must be addressed to achieve target product quality attributes.;x
 EVTNAME7777916;Capital Supply Removal;x
 EVTDESC7777916;Remove the supply increase in the capital for AI nations;x
+EVTNAME77779161;Non-Capital Supply Removal;x
+EVTDESC77779161;Remove the supply increase in the former capital;x
 EVT7777916OPTA;Do it;x
 bolivian_tin_production_title;New Industrial RGOs;x
 bolivian_tin_production_desc;Advancements in technology allow us to mine previous unobtainable goods, bolstering supply for our industrial base.;x
@@ -320,3 +322,5 @@ EVTDESC7777925;The government of Canada has formally requested of us to hand ove
 EVT7777925OPTA;We accept;x
 EVT7777925OPTB;No, not this time;x
 liberal_revolution_in_progress;Liberal Revolution in Progress;x
+cop_onto_egypt_title;Home of the Great Church of Antioch;x
+cop_onto_egypt_desc;Egypt is our right to claim, we will establish Coptic control over it once more!;x

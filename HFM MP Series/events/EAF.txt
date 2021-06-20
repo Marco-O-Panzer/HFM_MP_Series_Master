@@ -29,12 +29,6 @@ country_event = {
 	
 	option = {
 		name = "EVT7777911PTA"
-		EGY_1745 = { add_core = COP }
-		EGY_1751 = { add_core = COP }
-		EGY_1755 = { add_core = COP }
-		EGY_1758 = { add_core = COP }
-		EGY_1762 = { add_core = COP }
-		EGY_1771 = { add_core = COP }
 		add_country_modifier = {
 			name = niger_research
 			duration = 7300

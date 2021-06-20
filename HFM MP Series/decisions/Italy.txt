@@ -504,7 +504,7 @@ political_decisions = {
 			}
 			NOT = {
 				has_global_flag = garibaldi_redshirts
-				has_global_flag = italian_call_to_union
+				#has_global_flag = italian_call_to_union
 			}
 		}
 

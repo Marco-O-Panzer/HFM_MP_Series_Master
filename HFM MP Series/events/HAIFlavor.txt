@@ -349,8 +349,9 @@ country_event = {
         	any_pop = {
         		limit = {
         			has_pop_culture = afro_antillean
+        			NOT = { total_pops = 12500000 }
         		}
-        		reduce_pop = 5
+        		reduce_pop = 1.05
         	}
         }
         HAI = { 
@@ -359,7 +360,7 @@ country_event = {
         		limit = {
         			has_pop_culture = afro_antillean
         		}
-        		reduce_pop = 0.99
+        		reduce_pop = 0.95
         	}
         }
         ai_chance = {
@@ -480,7 +481,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 400
+		months = 1000
 		modifier = {
 			factor = 0.2
 			owner = {

@@ -197,12 +197,12 @@ political_decisions = {
 				sub_unit = { type = ironclad value = current }
 				sub_unit = { type = ironclad value = current }
 			}
-			any_owned = {
-				limit = {
-					region = JAP_1649
-				}
-				naval_base = -3
-			}
+			#any_owned = {
+			#	limit = {
+			#		region = JAP_1649
+			#	}
+			#	naval_base = -3
+			#}
 			random_owned = {
 				limit = { owner = { ai = yes } }
 				owner = {

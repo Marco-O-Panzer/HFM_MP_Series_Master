@@ -357,12 +357,12 @@ synthetic_sulphur_factory = {
 ############# CLERK FACTORIES
 
 bank = {       
-	template = bank_template   #56
+	template = bank_template   
 	input_goods = {
-		paper = 10		   #56
+		paper = 10		   
 	}
 	output_goods = financial_services 
-	value = 10			#140
+	value = 7.5		
 	bonus = {
 		trigger = { has_building = paper_mill }
 		value = 0.25
@@ -370,13 +370,13 @@ bank = {
 }
 
 stock_exchange = {
-	template = bank_template	#56
+	template = bank_template	
 	input_goods = {
-		paper = 10			#56
+		paper = 10			
 		financial_services = 10
  	}
 	output_goods = shares 
-	value = 10			#150
+	value = 7.5
 	bonus = {
 		trigger = { has_building = paper_mill }
 		value = 0.25
@@ -1004,14 +1004,14 @@ iron_mine = {
 copper_mine = {
 	template = RGO_template_labourers
 	output_goods = copper
-	value = 3.5
+	value = 3.8
 	mine = yes
 }
 
 tin_mine = {
 	template = RGO_template_labourers
 	output_goods = tin
-	value = 2.5
+	value = 3
 	mine = yes
 }
 

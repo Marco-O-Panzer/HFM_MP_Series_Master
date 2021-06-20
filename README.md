@@ -15,4 +15,4 @@
 
 Bugs reports or suggestions? Post in the mod's [https://discord.gg/543cVHQGWY] (Discord Channel)
 
-Mod Creators: Townes, Abe, Gracchus
+Mod Creators: Townes, Abe, Gracchus, Atlas, Jmom

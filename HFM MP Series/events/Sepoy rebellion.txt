@@ -283,7 +283,7 @@ country_event = {
 				NOT = { is_core = NEP }
 			}
 			secede_province = MUG
-		}			
+		}
 	}
 }
 

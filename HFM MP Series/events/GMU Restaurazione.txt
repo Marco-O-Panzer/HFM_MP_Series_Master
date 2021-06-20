@@ -1613,6 +1613,7 @@ country_event = {
 					tag = PAR
 					tag = MOD
 					tag = LUC
+					tag = RMG
 				}
 			}
 			any_owned = { add_core = SAR secede_province = THIS }
