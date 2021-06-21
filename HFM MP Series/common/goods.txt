@@ -39,7 +39,7 @@ military_goods = {
 
 raw_material_goods = {
 	cotton = { 
-		cost = 2
+		cost = 2.9
 		color = { 255 255 255 }
 	}
 	dye = {	

@@ -49,7 +49,7 @@ luxury_needs = {
 	radio = 1
 	fuel = 0.2
 	steamer_convoy = 0.2
-	shares = 0.2
+	shares = 1
 	shoes = 5
 	pharmaceuticals = 10
 }

@@ -55,7 +55,6 @@ political_decisions = {
 			add_accepted_culture = telegu
 			add_accepted_culture = malayalam
 			add_accepted_culture = sindi
-			add_accepted_culture = nepali
 			add_accepted_culture = british
 			any_country = {
 				limit = {

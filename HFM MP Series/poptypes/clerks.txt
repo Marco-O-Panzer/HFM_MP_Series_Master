@@ -52,7 +52,7 @@ luxury_needs = {
 	aeroplanes = 0.4
 	radio = 1
 	fuel = 0.2
-	shares = 0.2
+	shares = 1
 	shoes = 4
 	pharmaceuticals = 6
 }

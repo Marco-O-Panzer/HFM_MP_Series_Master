@@ -969,14 +969,14 @@ coffee_plantation = {
 cotton_plantation = {
 	template = RGO_template_farmers
 	output_goods = cotton 
-	value = 1.9 #3
+	value = 1.2
 	farm = yes
 }
 
 dye_plantation = {
 	template = RGO_template_farmers
 	output_goods = dye 
-	value = 0.22
+	value = 0.26
 	farm = yes
 }
 
@@ -1053,14 +1053,14 @@ rubber_lodge = {
 sheep_ranch = {
 	template = RGO_template_farmers
 	output_goods = wool 
-	value = 5.5
+	value = 6
 	farm = yes
 }
 
 silkworm_ranch = {
 	template = RGO_template_farmers
 	output_goods = silk 
-	value = 0.5	#0.25
+	value = 0.75	#0.25
 	farm = yes
 }
 
