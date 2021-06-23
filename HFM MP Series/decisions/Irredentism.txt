@@ -498,9 +498,12 @@ political_decisions = {
 			war = no
 			is_vassal = no
 			is_disarmed = no
-			war_policy = jingoism
+			OR = {
+				war_policy = jingoism
+				war_policy = pro_military
+			}
 			is_greater_power = yes
-			government = fascist_dictatorship
+			#government = fascist_dictatorship
 		}
 		
 		effect = {

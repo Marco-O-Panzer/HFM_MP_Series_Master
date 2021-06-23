@@ -35,7 +35,6 @@ political_decisions = {
 		
 		effect = {
 			change_tag = HND
-			nationalvalue = nv_liberty
 			primary_culture = anglo_indian
 			add_accepted_culture = marathi
 			add_accepted_culture = avadhi
@@ -56,6 +55,7 @@ political_decisions = {
 			add_accepted_culture = malayalam
 			add_accepted_culture = sindi
 			add_accepted_culture = british
+			country_event = {id=7777919 days = 150}
 			any_country = {
 				limit = {
 					vassal_of = THIS
