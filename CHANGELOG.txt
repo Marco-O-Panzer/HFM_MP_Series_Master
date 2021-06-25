@@ -40,6 +40,9 @@ Flavour Changes
 -- Starting reforms increased
 * Iberia
 -- Can now be formed militarily by any Spain
+* DNB
+-- Now requires the decisions to accept the cultures
+-- Can only accept the cultures if they approved of the Federation fully
 
 Bookmarks
 * New bookmark on the 2nd Jan 1836 that releases Canada and Australia as UK puppets

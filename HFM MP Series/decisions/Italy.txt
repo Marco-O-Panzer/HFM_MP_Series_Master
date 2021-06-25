@@ -1349,11 +1349,14 @@ political_decisions = {
 		allow = {
 			is_greater_power = yes
 			nationalism_n_imperialism = 1
-			war_policy = jingoism
 			OR = {
-				government = absolute_monarchy
-				government = fascist_dictatorship
+				war_policy = jingoism
+				war_policy = pro_military
 			}
+			#OR = {
+			#	government = absolute_monarchy
+			#	government = fascist_dictatorship
+			#}
 		}
 		
 		effect = {

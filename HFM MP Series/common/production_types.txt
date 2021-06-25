@@ -725,7 +725,7 @@ canned_food_factory = {
 		fish = 4
 	}
 	output_goods = canned_food 
-	value = 3	#2.5
+	value = 3.25	#2.5
 	bonus = {
 		trigger = { trade_goods_in_state = grain }
 		value = 0.075
@@ -1519,7 +1519,7 @@ artisan_canned_food = {
 		fish = 8
 	}
 	output_goods = canned_food 
-	value = 6
+	value = 6.5
 	
 	owner = {
 		poptype = artisans 

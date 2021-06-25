@@ -1444,6 +1444,7 @@ country_event = {
 		tag = DNB
 		war = no
 		has_global_flag = full_czech_approval
+		NOT = { has_global_flag = mp_setup }
 	}
 	
 	mean_time_to_happen = {
@@ -1475,6 +1476,7 @@ country_event = {
 		tag = DNB
 		war = no
 		has_global_flag = full_romanian_approval
+		NOT = { has_global_flag = mp_setup }
 	}
 	
 	mean_time_to_happen = {
@@ -1508,6 +1510,7 @@ country_event = {
 		tag = DNB
 		war = no
 		has_global_flag = full_croatian_approval
+		NOT = { has_global_flag = mp_setup }
 	}
 	
 	mean_time_to_happen = {
@@ -1547,6 +1550,7 @@ country_event = {
 		tag = DNB
 		war = no
 		has_global_flag = full_slovene_approval
+		NOT = { has_global_flag = mp_setup }
 	}
 	
 	mean_time_to_happen = {
@@ -1578,6 +1582,7 @@ country_event = {
 		tag = DNB
 		war = no
 		has_global_flag = full_slovakian_approval
+		NOT = { has_global_flag = mp_setup }
 	}
 	
 	mean_time_to_happen = {
@@ -1617,6 +1622,7 @@ country_event = {
 		tag = DNB
 		war = no
 		has_global_flag = full_polish_approval
+		NOT = { has_global_flag = mp_setup }
 	}
 	
 	mean_time_to_happen = {

@@ -813,6 +813,10 @@ political_decisions = {
 		potential = {
 			tag = DNB
 			any_owned_province = { is_core = BOH }
+			OR = {
+				NOT = { has_global_flag = mp_setup }
+				has_global_flag = full_czech_approval
+			}
 			NOT = {
 				OR = {
 					accepted_culture = czech
@@ -857,6 +861,10 @@ political_decisions = {
 				tag = DNB
 			}
 			any_owned_province = { is_core = SLO }
+			OR = {
+				NOT = { has_global_flag = mp_setup }
+				has_global_flag = full_slovene_approval
+			}
 			NOT = {
 				accepted_culture = slovene
 				has_country_flag = embraced_slovenes
@@ -908,6 +916,10 @@ political_decisions = {
 				tag = DNB
 			}
 			any_owned_province = { is_core = CRO }
+			OR = {
+				NOT = { has_global_flag = mp_setup }
+				has_global_flag = full_croatian_approval
+			}
 			NOT = {
 				accepted_culture = croat
 				has_country_flag = embraced_croats
@@ -955,6 +967,10 @@ political_decisions = {
 			OR = {
 				tag = KUK
 				tag = DNB
+			}
+			OR = {
+				NOT = { has_global_flag = mp_setup }
+				has_global_flag = full_polish_approval
 			}
 			NOT = {
 				accepted_culture = polish
