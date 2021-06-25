@@ -32,7 +32,7 @@ guard = {
 		ammunition = 0.17 #0
 		liquor = 0.017
 		luxury_clothes = 0.017
-		pharmaceuticals = 0.15
+		pharmaceuticals = 0.075
 		shoes = 0.2
 	}
 	
