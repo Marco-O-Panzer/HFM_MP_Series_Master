@@ -349,7 +349,6 @@ country_event = {
         	any_pop = {
         		limit = {
         			has_pop_culture = afro_antillean
-        			NOT = { total_pops = 12500000 }
         		}
         		reduce_pop = 1.05
         	}
@@ -360,7 +359,7 @@ country_event = {
         		limit = {
         			has_pop_culture = afro_antillean
         		}
-        		reduce_pop = 0.95
+        		reduce_pop = 0.99
         	}
         }
         ai_chance = {
@@ -481,7 +480,7 @@ province_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1000
+		months = 400
 		modifier = {
 			factor = 0.2
 			owner = {
@@ -545,5 +544,137 @@ province_event = {
 	option = {
 		name = "Leave him alone"
 		badboy = -2
+	}
+}
+province_event = {
+	id = HAI1
+	title = "Haiti Burns"
+	desc = "The Haitians are burning down their own nation."
+	
+	trigger = {
+		OR = {
+			tag = FRA 
+			tag = USA
+		}
+		OR = {
+			2213 = {
+				controller = {
+					controlled_by = THIS
+				}
+			} 
+			2214 = {
+				controller = {
+					controlled_by = THIS
+				}
+			} 
+			2215 = {
+				controller = {
+					controlled_by = THIS
+				}
+			} 
+			2216 = {
+				controller = {
+					controlled_by = THIS
+				}
+			}
+		}
+	}
+	
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 1
+		modifier = {
+			factor = 0.2
+			owner = {
+				NOT = { military_score = 10 }
+			}
+		}
+		modifier = {
+			factor = 0.4
+			owner = {
+				NOT = { military_score = 20 }
+			}
+		}
+		modifier = {
+			factor = 0.6
+			owner = {
+				NOT = { military_score = 30 }
+			}
+		}
+		modifier = {
+			factor = 0.8
+			owner = {
+				NOT = { military_score = 40 }
+			}
+		}
+		modifier = {
+			factor = 0.9
+			owner = {
+				NOT = { military_score = 50 }
+			}
+		}
+	}
+	option = {
+		name = "Damn the Haitians!"
+		HAI = {
+			ammunition = 10
+			small_arms = 10
+			artillery = 2
+			canned_food = 10
+			wine = 10
+			luxury_clothes = 3
+			machine_parts = 50
+			clipper_convoy = 5
+			wool = 5
+			any_pop = {
+				limit = {
+					OR = {
+						pop_type = labourers
+						pop_type = farmers
+						pop_type = artisans
+					}
+				}
+				reduce_pop = 0.75
+			}
+			any_owned = {
+				add_province_modifier
+				name = scorched_earth
+				duration = 2190
+			}
+		}
+		random_pop = {
+			consciousness = 2
+			militancy = 1
+		}
+	}
+}
+
+#Diplo end blockade
+country_event = {
+
+	id = HAI2
+	
+	is_triggered_only = yes
+ 
+	
+	title = "The Blockade on Haiti"
+	desc = "Should we end our long standing blockade on Haiti"
+	picture = "haiti_debts"
+
+	option = {
+		name = "Yes" 
+		prestige = 25
+		badboy = -2
+		relation = { who = HAI value = 200 }
+		HAI = {
+			remove_province_modifier = USA_blockade
+		}
+	}
+	option = {
+		name = "No" 
+		prestige = -5
+		badboy = 2
+		relation = { who = HAI value = -200 }
 	}
 }

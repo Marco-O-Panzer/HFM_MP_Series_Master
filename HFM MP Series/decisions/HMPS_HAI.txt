@@ -398,4 +398,65 @@ political_decisions = {
 			}
 		}
 	}
+	diplo_end_blockade = {
+		picture = map_caribbean
+		potential = {
+			tag = HAI
+			NOT = {
+				has_country_flag = diplo_end_blockade
+			}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			set_country_flag = diplo_end_blockade
+			USA = {
+				country_event = HAI2
+			}
+		}
+	}
+	#Haiti's Last Stand
+	full_siege_me_down = {
+		picture = force_publique
+		potential = {
+			tag = HAI
+			war = yes
+			OR = {
+				war_with = FRA 
+				war_with = USA
+			}
+		}
+		allow = {
+			NOT = {
+				has_country_modifier = death_war
+			}
+			is_greater_power = no 
+		}
+		effect = {
+			any_pop = {
+        		limit = {
+        			has_pop_culture = afro_antillean
+        		}
+        		reduce_pop = 0.99
+        	}
+        	any_pop = {
+        		limit = {
+        			has_pop_culture = mulatto
+        		}
+        		reduce_pop = 0.95
+        	}
+        	any_pop = {
+        		limit = {
+        			has_pop_culture = polish
+        		}
+        		reduce_pop = 0.50
+        	}
+        	set_country_flag = full_siege_me_down
+        	add_country_modifier = {
+        		name = death_war
+        		duration = 1825
+        	}
+		}
+	}
 }
