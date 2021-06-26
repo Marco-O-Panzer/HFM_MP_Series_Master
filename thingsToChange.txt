@@ -1,5 +1,5 @@
 Changes that are waiting to be implemented:
-* big validator cleanup and tidy
+* big validator cleanup and tidy (eh maybe not with Vic 3 announcement)
 
 BUGS:
 * AI is stupid

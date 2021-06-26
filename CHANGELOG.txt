@@ -42,7 +42,7 @@ Flavour Changes
 -- Can now be formed militarily by any Spain
 * DNB
 -- Now requires the decisions to accept the cultures
--- Can only accept the cultures if they approved of the Federation fully
+-- Can only accept the cultures if they approved of the Federation fully (in MP)
 
 Bookmarks
 * New bookmark on the 2nd Jan 1836 that releases Canada and Australia as UK puppets
@@ -717,4 +717,4 @@ Federal Republic of Great Britain - Easter Egg
 * INCREDIBLY STRONG nation at home (~Greater Germany power levels), but isolationist
 
 
-Any problems or changes to suggest can talk to the mod creators: Townes, Abe, Gracchus
+Any problems or changes to suggest can talk to the mod creators: Townes, Abe, Gracchus, Atlas, Jmon
