@@ -2,5 +2,5 @@ owner = RUS
 controller = RUS
 add_core = RUS
 add_core = DON
-trade_goods = wool
+trade_goods = copper
 life_rating = 35

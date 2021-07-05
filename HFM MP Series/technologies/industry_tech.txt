@@ -960,6 +960,9 @@ hot_blast = {
 	rgo_goods_output = {
 		iron = 0.25
 	}
+	rgo_goods_output = {
+		copper = 0.25
+	}
 	rgo_size = {
 		iron = 0.2
 	}
@@ -1058,7 +1061,7 @@ bessemer_process = {
 		coal = 0.4
 	}
 	rgo_goods_output = {
-		iron = 0.9
+		iron = 0.75
 	}
 	rgo_goods_output = {
 		copper = 0.9
@@ -1167,7 +1170,7 @@ advanced_metallurgy = {
 		iron = 0.5
 	}
 	rgo_goods_output = {
-		copper = 0.5
+		copper = 0.75
 	}
 	rgo_goods_output = {
 		tin = 0.5

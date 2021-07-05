@@ -79,12 +79,32 @@ country_event = {
 		diplomatic_influence = {
 			who = CSA
 			value = -400
-		}			
-
+		}
+		
 		war = {
 			target = CSA
 			attacker_goal = { casus_belli = civil_war }
 			defender_goal = { casus_belli = status_quo }
+		}
+		
+		any_country = {
+			limit = {
+				vassal_of = USA
+				tag = MEX
+				has_global_flag = formexico
+			}
+			USA = {
+				release_vassal = MEX
+				diplomatic_influence = {
+					who = MEX
+					value = -400
+				}
+				war = {
+					target = MEX
+					attacker_goal = { casus_belli = civil_war }
+					defender_goal = { casus_belli = status_quo }
+				}
+			}
 		}
 	}
 	
@@ -126,6 +146,26 @@ country_event = {
 				target = CSA
 				attacker_goal = { casus_belli = civil_war }
 				defender_goal = { casus_belli = status_quo }
+			}
+		}
+		
+		any_country = {
+			limit = {
+				vassal_of = USA
+				tag = MEX
+				has_global_flag = formexico
+			}
+			USA = {
+				release_vassal = MEX
+				diplomatic_influence = {
+					who = MEX
+					value = -400
+				}
+				war = {
+					target = MEX
+					attacker_goal = { casus_belli = civil_war }
+					defender_goal = { casus_belli = status_quo }
+				}
 			}
 		}
 		set_global_flag = american_civil_war_has_happened
@@ -374,6 +414,64 @@ country_event = {
 				duration = 150
 			}
 		}
+		
+		any_country = {
+			limit = {
+				exists = no
+				tag = MEX
+				has_global_flag = formexico
+			}
+			USA = { 
+				any_owned = {
+					limit = {
+						is_core = MEX
+						NOT = { is_core = USA }
+						NOT = {
+							OR = {
+								is_primary_culture = yes
+								is_accepted_culture = yes
+							}
+						}
+					}
+					secede_province = MEX
+					USA = { create_vassal = MEX }
+				}
+				relation = {
+					who = MEX
+					value = 200
+				}
+				diplomatic_influence = {
+					who = MEX
+					value = 400
+				}	
+			}
+			ruling_party_ideology = conservative
+			political_reform = mandatory_service
+			political_reform = culture_voting_only
+			capital = 2172
+			leadership = 80
+			treasury = 40000
+			small_arms = 300
+			cotton = 100
+			ammunition = 200
+			canned_food = 200
+			artillery = 100
+			wine = 200
+			liquor = 200
+			any_pop = { limit = { has_pop_culture = mexican } militancy = -9 }
+			random_pop = {
+				limit = {
+					pop_type = farmers
+					has_pop_culture = mexican
+				}
+				pop_type = soldiers
+			}
+			add_country_modifier = {
+				name = no_more_war
+				duration = 150
+			}
+		}
+		
 		capital = 2146
 		country_event = {id=16000 days = 150}
 		ai_chance = {

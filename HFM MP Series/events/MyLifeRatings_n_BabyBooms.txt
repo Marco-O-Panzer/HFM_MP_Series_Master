@@ -41,9 +41,57 @@ country_event = {
 				NOT = { terrain = arctic }
 				NOT = { terrain = montane_tundra }
 				NOT = { terrain = montane_forest }
+				NOT = { life_rating = 31 }
+			}
+			life_rating = 1
+		}
+		all_core = {
+			limit = {
+				NOT = { terrain = mountain }
+				NOT = { terrain = desert }
+				NOT = { terrain = jungle } 
+				NOT = { terrain = arctic }
+				NOT = { terrain = montane_tundra }
+				NOT = { terrain = montane_forest }
+				NOT = { life_rating = 32 }
+			}
+			life_rating = 1
+		}
+		all_core = {
+			limit = {
+				NOT = { terrain = mountain }
+				NOT = { terrain = desert }
+				NOT = { terrain = jungle } 
+				NOT = { terrain = arctic }
+				NOT = { terrain = montane_tundra }
+				NOT = { terrain = montane_forest }
 				NOT = { life_rating = 33 }
 			}
-			life_rating = 3
+			life_rating = 1
+		}
+		all_core = {
+			limit = {
+				NOT = { terrain = mountain }
+				NOT = { terrain = desert }
+				NOT = { terrain = jungle } 
+				NOT = { terrain = arctic }
+				NOT = { terrain = montane_tundra }
+				NOT = { terrain = montane_forest }
+				NOT = { life_rating = 34 }
+			}
+			life_rating = 1
+		}
+		all_core = {
+			limit = {
+				NOT = { terrain = mountain }
+				NOT = { terrain = desert }
+				NOT = { terrain = jungle } 
+				NOT = { terrain = arctic }
+				NOT = { terrain = montane_tundra }
+				NOT = { terrain = montane_forest }
+				NOT = { life_rating = 35 }
+			}
+			life_rating = 1
 		}
 		set_country_flag = asian_liferating_increase_1
 	}
@@ -86,9 +134,6 @@ country_event = {
 	option = {
 		name = "EVTOPTA777795"
 		all_core = {
-			limit = {
-				NOT = { life_rating = 36 }
-			}
 			life_rating = 5
 		}
 		set_country_flag = asian_liferating_increase_2

@@ -35,20 +35,20 @@ political_decisions = {
 		potential = {
 			tag = USA
 			is_greater_power = yes
-			NOT = { has_country_flag = formexico }
+			NOT = { has_global_flag = formexico }
 			NOT = { has_country_flag = hiding_the_decisions }
 			has_country_modifier = the_slavery_debate 
 		}
 		allow = {
-			has_country_flag = hasmanifestdestiny 
+#			has_country_flag = hasmanifestdestiny 
 		}
 
 		effect = {
-			set_country_flag = formexico
+			set_global_flag = formexico
 			badboy = 32
 			war = {
 				target = MEX
-				attacker_goal = { casus_belli = unification_annex_casus_belli }
+				attacker_goal = { casus_belli = conquest_any }
 				defender_goal = { casus_belli = status_quo }
 				call_ally = no
 			}

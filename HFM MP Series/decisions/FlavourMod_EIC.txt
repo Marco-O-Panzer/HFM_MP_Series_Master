@@ -55,6 +55,9 @@ political_decisions = {
 			add_accepted_culture = malayalam
 			add_accepted_culture = sindi
 			add_accepted_culture = british
+			set_country_flag = hindu_country
+			clr_country_flag = protestant_country
+			religion = hindu
 			country_event = {id=7777919 days = 150}
 			any_country = {
 				limit = {

@@ -1028,7 +1028,7 @@ political_decisions = {
 					province_control_days = 182
 					unemployment_by_type = { type = farmers value = 0.2 }
 				}
-				trade_goods = fruit
+				trade_goods = tin
 			}
 			random_owned = {
 				limit = {
@@ -1048,7 +1048,7 @@ political_decisions = {
 					province_control_days = 182
 					unemployment_by_type = { type = farmers value = 0.2 }
 				}
-				trade_goods = iron
+				trade_goods = copper
 			}
 			random_owned = {
 				limit = {

@@ -7376,6 +7376,10 @@ acquire_substate_region = {
 			}
 			number_of_states = 1
 		}
+		OR = {
+			war_with = THIS
+			THIS = { NOT = { has_country_modifier = no_more_war } }
+		}
 	}
 	
 	allowed_substate_regions = {
@@ -8286,6 +8290,10 @@ overlord_puppet_cb = {
 	can_use = {
 		NOT = { is_our_vassal = THIS }
 		THIS = { NOT = { has_country_modifier = neutrality } }
+		OR = {
+			war_with = THIS
+			THIS = { NOT = { has_country_modifier = no_more_war } }
+		}
 		NOT = {
 			AND = {
 				has_country_modifier = neutrality

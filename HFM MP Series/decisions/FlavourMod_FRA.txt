@@ -366,8 +366,8 @@ political_decisions = {
 		
 		allow = {
 			war = no
-			ruling_party_ideology = liberal
-			394 = {	average_militancy = 7 }
+			revolution_n_counterrevolution = 1
+			NOT = { citizenship_policy = residency }
 		}
 		
 		effect = {

@@ -166,6 +166,10 @@ aeroplane_factory = {
 		trigger = { has_building = electric_gear_factory }
 		value = 0.25
 	}
+	bonus = {
+		trigger = { has_building = synthetic_rubber_factory }
+		value = 0.15
+	}
 }
 
 barrel_factory = {       
@@ -214,6 +218,10 @@ automobile_factory = {
 	bonus = {
 		trigger = { has_building = electric_gear_factory }
 		value = 0.05
+	}
+	bonus = {
+		trigger = { has_building = synthetic_rubber_factory }
+		value = 0.1
 	}
 }
 
@@ -267,6 +275,10 @@ electric_gear_factory = {
 	value = 5.5			#88
 	bonus = {
 		trigger = { trade_goods_in_state = rubber }
+		value = 0.05
+	}
+	bonus = {
+		trigger = { has_building = synthetic_rubber_factory }
 		value = 0.05
 	}
 	bonus = {
@@ -711,6 +723,10 @@ ammunition_factory = {
 		value = 0.1
 	}
 	bonus = {
+		trigger = { has_building = synthetic_sulphur_factory }
+		value = 0.15
+	}
+	bonus = {
 		trigger = { has_building = steel_factory }
 		value = 0.15
 	}
@@ -720,7 +736,7 @@ canned_food_factory = {
 	template = cheap_factory_template
 	input_goods = { 
 		steel = 0.5
-		cattle = 4
+		cattle = 3
 		grain = 4
 		fish = 4
 	}
@@ -874,6 +890,10 @@ fertilizer_factory = {
 	value = 5			#50
 	bonus = {
 		trigger = { trade_goods_in_state = sulphur }
+		value = 0.25
+	}
+	bonus = {
+		trigger = { has_building = synthetic_sulphur_factory }
 		value = 0.25
 	}
 }
@@ -1514,7 +1534,7 @@ artisan_ammunition = {
 artisan_canned_food = {       
 	input_goods = { 
 		steel = 1
-		cattle = 8
+		cattle = 6
 		grain = 8
 		fish = 8
 	}

@@ -591,6 +591,9 @@ political_decisions = {
 				AST = { set_country_flag = unreleasable_country }
 				NZL = { set_country_flag = unreleasable_country }
 			}
+			2473 = { life_rating = 13 }
+			2474 = { life_rating = 13 }
+			2475 = { life_rating = 13 }
 		}
 	}
 	

@@ -1428,6 +1428,7 @@ political_decisions = {
 			1262 = { owned_by = THIS }
 			1265 = { owned_by = THIS }
 			1231 = { owned_by = THIS }
+			1289 = { owned_by = THIS }
 			1267 = { owned_by = THIS }
 			1277 = { owned_by = THIS }
 			1280 = { owned_by = THIS }
@@ -1438,6 +1439,7 @@ political_decisions = {
 			1262 = { trade_goods = copper }
 			1265 = { trade_goods = tin }
 			1231 = { trade_goods = tin }
+			1289 = { trade_goods = tin }
 			1267 = { trade_goods = copper }
 			1277 = { trade_goods = iron }
 			1280 = { trade_goods = iron }

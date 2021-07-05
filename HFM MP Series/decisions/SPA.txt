@@ -643,6 +643,11 @@ political_decisions = {
 					any_owned_province = { is_core = POR }
 				}
 			}
+			NOT = {
+				owns = 521
+				owns = 518
+				owns = 527
+			}
 		}
 
 		effect = {

@@ -181,10 +181,10 @@ AGRESSION_WAR_CONQUEST_ANY_NAME_RUS_CPL;The $ORDER$Polish War of Independence;;;
 NORMAL_WAR_RESTORE_ORDER_NAME_MEX_CAL;The $ORDER$Bear Flag Revolt;;;;;;;;;;;;x,,,
 AGRESSION_WAR_CIVIL_WAR_NAME_TPG_QNG;The Taiping Rebellion;;;;;;;;;;;;x,,,
 AGRESSION_WAR_CIVIL_WAR_NAME_QNG_TPG;The Taiping Rebellion;;;;;;;;;;;;x,,,
-NORMAL_WAR_CIVIL_WAR_NAME_USA_CSA;The American Civil War;;;;;;;;;;;;x,,,
-AGRESSION_WAR_CIVIL_WAR_NAME_USA_CSA;The American Civil War;;;;;;;;;;;;x,,,
-NORMAL_WAR_RESTORE_ORDER_NAME_USA_CSA;The American Civil War;;;;;;;;;;;;x,,,
-AGRESSION_WAR_RESTORE_ORDER_NAME_USA_CSA;The American Civil War;;;;;;;;;;;;x,,,
+NORMAL_CIVIL_WAR_NAME_USA_CSA_USA;The American Civil War;$ORDER$ guerre de rébellion;$ORDER$Rebellionskrieg;;;;;;;;;;;x
+AGRESSION_CIVIL_WAR_NAME_USA_CSA_USA;The American Civil War;$ORDER$ guerre de rébellion;$ORDER$Rebellionskrieg;;;;;;;;;;;x
+NORMAL_CIVIL_WAR_NAME_USA_MEX_USA;The Mexican Rebellion;$ORDER$ guerre de rébellion;$ORDER$Rebellionskrieg;;;;;;;;;;;x
+AGRESSION_CIVIL_WAR_NAME_USA_MEX_USA;The Mexican Rebellion;$ORDER$ guerre de rébellion;$ORDER$Rebellionskrieg;;;;;;;;;;;x
 NORMAL_WAR_CONQUEST_ANY_NAME_ENG_LHJ;The Aden Expedition;;;;;;;;;;;;x,,,
 AGRESSION_WAR_CONQUEST_ANY_NAME_ENG_LHJ;The Aden Expedition;;;;;;;;;;;;x,,,
 NORMAL_WAR_HUMILIATE_NAME_ENG_TPG;British Intervention in China;;;;;;;;;;;;x,,,
