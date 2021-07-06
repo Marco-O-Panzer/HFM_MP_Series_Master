@@ -43,7 +43,7 @@ Flavour Changes
 -- Can now be formed militarily by any Spain
 * DNB
 -- Now requires the decisions to accept the cultures
--- Can only accept the cultures if they approved of the Federation fully
+-- Can only accept the cultures if they approved of the Federation fully (in MP)
 * USA
 -- Will get a Mexican rebellionduring the civil war if fully annexed mexico
 * India
@@ -732,4 +732,4 @@ Federal Republic of Great Britain - Easter Egg
 * INCREDIBLY STRONG nation at home (~Greater Germany power levels), but isolationist
 
 
-Any problems or changes to suggest can talk to the mod creators: Townes, Abe, Gracchus
+Any problems or changes to suggest can talk to the mod creators: Townes, Abe, Gracchus, Atlas, Jmon
