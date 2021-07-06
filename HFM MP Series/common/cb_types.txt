@@ -1338,7 +1338,7 @@ add_to_sphere = {
 		NOT = { total_pops = 25000000 }
 		THIS = { is_greater_power = yes }
 		is_greater_power = no
-		#is_vassal = no
+		is_vassal = no
 		part_of_sphere = no
 		NOT = { has_country_modifier = neutrality }
 		THIS = { NOT = { has_country_modifier = neutrality } }
@@ -1614,7 +1614,7 @@ steal_puppet = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 60
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1
@@ -1654,17 +1654,12 @@ steal_puppet = {
 	on_add = {
 		any_country = {
 			limit = {
-				exists = no
-				has_country_flag = existing_country
+				exists = yes
+				vassal_of = FROM
+				is_substate = no
+				NOT = { has_country_flag = unreleasable_country }
 			}
-			clr_country_flag = existing_country
-		}
-		any_country = {
-			limit = {
-				exists = no
-				has_country_flag = vassal_nation_cb
-			}
-			clr_country_flag = vassal_nation_cb
+			set_country_flag = vassal_nation_cb
 		}
 		move_issue_percentage = { 
 			from = jingoism 
@@ -1674,15 +1669,23 @@ steal_puppet = {
 	}
 	
 	on_po_accepted = {
+		THIS = {
+			random_country = {
+				limit = {
+					exists = yes
+					has_country_flag = vassal_nation_cb
+					is_vassal = no
+					in_sphere = THIS
+					#truce_with = THIS	#doesnt work, as truce is given after this check
+				}
+				country_event = 19370
+			}
+		}
 		any_country = {
 			limit = {
-				exists = yes
 				has_country_flag = vassal_nation_cb
-				is_vassal = no
-				in_sphere = THIS
 			}
-			country_event = 9999990
-			country_event = 19370
+			clr_country_flag = vassal_nation_cb
 		}
 	}
 }
@@ -5553,7 +5556,7 @@ annex_africa = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 2
 	break_truce_militancy_factor = 2
-	truce_months = 0
+	truce_months = 48
 	
 	good_relation_prestige_factor = 0
 	good_relation_infamy_factor = 0
@@ -5657,7 +5660,7 @@ annex_africa_full = {
 	break_truce_prestige_factor = 0
 	break_truce_infamy_factor = 0
 	break_truce_militancy_factor = 0
-	truce_months = 0
+	truce_months = 48
 	
 	good_relation_prestige_factor = 0
 	good_relation_infamy_factor = 0
@@ -6597,7 +6600,7 @@ liberate_puppet = {
 	break_truce_prestige_factor = 1
 	break_truce_infamy_factor = 1
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 48
 	
 	good_relation_prestige_factor = 1
 	good_relation_infamy_factor = 1

@@ -46,5 +46,5 @@ plane = {
 	defence = 0
 	discipline = 0.1
 	support = 2.5
-	maneuver = 2
+	maneuver = 3
 }

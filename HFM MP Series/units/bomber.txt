@@ -46,5 +46,5 @@ bomber = {
 	defence = 2
 	discipline = 0.1
 	support = 2
-	maneuver = 2
+	maneuver = 3
 }

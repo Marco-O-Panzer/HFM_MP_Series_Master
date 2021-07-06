@@ -958,7 +958,7 @@ political_decisions = {
 					province_control_days = 182
 					unemployment_by_type = { type = farmers value = 0.2 }
 				}
-				trade_goods = tropical_wood
+				trade_goods = tea
 			}
 			random_owned = {
 				limit = {
@@ -968,7 +968,7 @@ political_decisions = {
 					province_control_days = 182
 					unemployment_by_type = { type = farmers value = 0.2 }
 				}
-				trade_goods = tropical_wood
+				trade_goods = grain
 			}
 			random_owned = {
 				limit = {
@@ -1093,6 +1093,56 @@ political_decisions = {
 					25 = { trade_goods = grain }
 					25 = { trade_goods = tobacco }
 				}
+			}
+			random_owned = {
+				limit = {
+					province_id = 1227     
+					trade_goods = wool
+					controlled_by = THIS
+					province_control_days = 182
+					unemployment_by_type = { type = farmers value = 0.2 }
+				}
+				trade_goods = tea
+			}
+			random_owned = {
+				limit = {
+					province_id = 1245    
+					trade_goods = opium
+					controlled_by = THIS
+					province_control_days = 182
+					unemployment_by_type = { type = farmers value = 0.2 }
+				}
+				trade_goods = grain
+			}
+			random_owned = {
+				limit = {
+					province_id = 1232  
+					trade_goods = wool
+					controlled_by = THIS
+					province_control_days = 182
+					unemployment_by_type = { type = farmers value = 0.2 }
+				}
+				trade_goods = tea
+			}
+			random_owned = {
+				limit = {
+					province_id = 1287   
+					trade_goods = cotton
+					controlled_by = THIS
+					province_control_days = 182
+					unemployment_by_type = { type = farmers value = 0.2 }
+				}
+				trade_goods = tea
+			}
+			random_owned = {
+				limit = {
+					province_id = 1294  
+					trade_goods = cotton
+					controlled_by = THIS
+					province_control_days = 182
+					unemployment_by_type = { type = farmers value = 0.2 }
+				}
+				trade_goods = tea
 			}
 		}
 		

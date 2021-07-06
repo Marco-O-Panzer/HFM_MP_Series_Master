@@ -1,3 +1,24 @@
+## Interwar Combat Width Increases
+#interwar_warfare = {
+#    limit = { year = 1920 }
+#    chance = {
+#        base = 100
+#    }
+#    effect = {
+#        combat_width = 5
+#    }
+#}
+
+#interwar_warfare_2 = {
+#    limit = { year = 1930 }
+#    chance = {
+#        base = 100
+#    }
+#    effect = {
+#        combat_width = 5
+#    }
+#}
+
 #post_napoleonic_thought
 post_napoleonic_army_doctrine = {
 	limit = { post_napoleonic_thought = 1 }

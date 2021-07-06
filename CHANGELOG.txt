@@ -6,6 +6,7 @@ This mod is built on HFM V1.27I (SighPie) and HFM More Stuff V3.5 (u/louisky58) 
 - Population size effects, final tech row, and LGLC tax moddifiers inspired by PDM Divide by Zero (GAGA Extrem).
 - Population growth decision and conditions UI changes taken from The Grand Combo (Jman & others).
 - Unciv rework from Harolds Triumph (Atlas), built from PUIR (Reno).
+- Revanchism buffs taken from PUIR (Reno)
 - Generals UI change, Trade Agreements & Tech/Inventions taken from Victoria Universalis (KevinG).
 - Aircraft Carrier & Bomber icons and sprite from CWE mod (settintotrieste & others).
 - Liberate & Puppet CB, Steal Puppet CB, map textures from HFME (Jman & others)
@@ -43,6 +44,10 @@ Flavour Changes
 * DNB
 -- Now requires the decisions to accept the cultures
 -- Can only accept the cultures if they approved of the Federation fully
+* USA
+-- Will get a Mexican rebellionduring the civil war if fully annexed mexico
+* India
+-- RGO changes wont give huge rubber overproduction from: End of natural dyes - event also reduces wool production now and grants some tea
 
 Bookmarks
 * New bookmark on the 2nd Jan 1836 that releases Canada and Australia as UK puppets
@@ -55,6 +60,12 @@ CBs & Infamy
 * Republics can use install democracy on absolute monarchies
 * Add to sphere CB increased to 25mil max pop
 * Can use acquire core CB on one state nations (and therefore also return non cores)
+
+War
+* Land unit build time reduced, now most at 50 days, some at 40 (irregulars at 30)
+* Revanchism buffs that give mob size and org increases, higher with more revanchism
+* Artillery maneuver increased to 2
+* Planes and bombers maneuver increased to 3
 
 Politics
 * No tax restrictions for State Capitalism
@@ -71,6 +82,7 @@ Economy
 * Decisions that change to industrial RGOs now also give copper (and tin) rgos
 * Factory machine part upgrade cost reduced to 75%
 * Slightly redid starting UK economy (more cement and machine parts production)
+* (Aiming for) plentiful production of rgos, especially moving late game
 
 Static Modifiers
 * Peace war exhaustion decrease changed to -1
@@ -81,17 +93,20 @@ Balance
 * Swiss partition now more evenly splits the infamy if all 3 agree
 * Slavery debate effects nerfed
 * Focus at Home gives slight education buff
+* Province 773 changed from mountains to hills (on austrian italian border, austrian side)
 
 Other
 * Questioning our alliance event wont fire for players
 * Tobacco protest disabled in mp setup
 * GPs cant form tags from outside when it would annex a player (i.e Create Italy)
+* Ai wont take leave sphere decision in MP setup
 
 Fixes
 * Arabia formation more dynamic, done on the cores of the integrated tags now
 * Pop conditions for new world immigration attraction bonus removed
 * Iberia now clearly formable if an spain or portugal are sphered (catalonia will also be annexed into it)
 * Ports decision rank 2 now will give lvl 2 ports in empty available provinces, not lvl 3
+* Take vassal cb now works (previously only put in sphere)
 
 
 Version 5
