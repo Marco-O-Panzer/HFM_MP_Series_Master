@@ -94,6 +94,7 @@ Balance
 * Slavery debate effects nerfed
 * Focus at Home gives slight education buff
 * Province 773 changed from mountains to hills (on austrian italian border, austrian side)
+* Statue of liberty nerfed to 50% bonus (from 125%)
 
 Other
 * Questioning our alliance event wont fire for players

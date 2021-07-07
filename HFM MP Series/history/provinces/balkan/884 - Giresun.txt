@@ -2,5 +2,5 @@ owner = TUR
 controller = TUR
 add_core = TUR
 add_core = PNT
-trade_goods = fruit
+trade_goods = copper
 life_rating = 35
