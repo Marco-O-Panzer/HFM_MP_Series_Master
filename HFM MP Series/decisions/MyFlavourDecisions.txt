@@ -40,7 +40,7 @@ political_decisions = {
 			has_country_modifier = the_slavery_debate 
 		}
 		allow = {
-#			has_country_flag = hasmanifestdestiny 
+			has_country_flag = hasmanifestdestiny 
 		}
 
 		effect = {
