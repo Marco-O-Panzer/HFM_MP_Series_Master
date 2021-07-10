@@ -60,6 +60,7 @@ CBs & Infamy
 * Republics can use install democracy on absolute monarchies
 * Add to sphere CB increased to 25mil max pop
 * Can use acquire core CB on one state nations (and therefore also return non cores)
+* Mass Conquest costs 25 infamy justification, and 25 to apply the cb
 
 War
 * Land unit build time reduced, now most at 50 days, some at 40 (irregulars at 30)
@@ -95,6 +96,7 @@ Balance
 * Focus at Home gives slight education buff
 * Province 773 changed from mountains to hills (on austrian italian border, austrian side)
 * Statue of liberty nerfed to 50% bonus (from 125%)
+* Belgium can accept Flemish just with State n Gov
 
 Other
 * Questioning our alliance event wont fire for players
