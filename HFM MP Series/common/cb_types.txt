@@ -188,6 +188,7 @@ mass_conquest_cb = {
 		}
 		#is_vassal = no
 		THIS = { NOT = { has_country_modifier = neutrality } }
+		NOT = { has_country_modifier = neutrality }
 		OR = {
 			war_with = THIS
 			THIS = { NOT = { has_country_modifier = no_more_war } }
@@ -196,15 +197,16 @@ mass_conquest_cb = {
 			THIS = { government = fascist_dictatorship }
 			THIS = { government = proletarian_dictatorship }
 			THIS = { government = presidential_dictatorship }
+			THIS = { government = absolute_monarchy } #absolute menace
 		}
-		mass_politics = 1
+		THIS = { mass_politics = 1 }
 		THIS = { ai = no }
 		
 	}
 
-	badboy_factor = 4
+	badboy_factor = 2.5
 	prestige_factor = 5
-	peace_cost_factor = 1
+	peace_cost_factor = 2
 	penalty_factor = 1
 	
 	break_truce_prestige_factor = 5
@@ -222,6 +224,7 @@ mass_conquest_cb = {
 			to = pro_military
 			value = 0.25
 		}
+		badboy = 25
 	}
 	
 	po_annex = yes
@@ -264,16 +267,26 @@ dismantle_cb = {
 		is_vassal = no
 		NOT = { is_our_vassal = THIS }
 		NOT = { has_country_flag = dismantle_declared }
-		NOT = {
-			relation = {
-				who = THIS
-				value = -100
+		OR = {
+			THIS = { ai = no }
+			NOT = {
+				relation = {
+					who = THIS
+					value = -100
+				}
 			}
 		}
 		THIS = {
 			is_greater_power = yes
 			is_disarmed = no
 			mass_politics = 1
+		}
+		NOT = {
+			AND = {
+				is_greater_power = yes
+				NOT = { has_country_flag = in_great_war }
+				war_with = THIS
+			}
 		}
 		THIS = {
 			NOT = { has_country_flag = in_great_war }
