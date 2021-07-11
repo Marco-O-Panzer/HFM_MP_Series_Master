@@ -52,6 +52,12 @@ Flavour Changes
 Bookmarks
 * New bookmark on the 2nd Jan 1836 that releases Canada and Australia as UK puppets
 
+Political
+* Dictatorship to Democracy gradual reform, and rebel republic formation, now give the same options as monarchy to republit
+-- i.e national value option, centeralisation option, executive option
+* Advanced UBI given a bit of pop growth, like pensions
+* Encourage births NF replaced for Secret Police (militancy reduction) one for authoritarian government types
+
 CBs & Infamy
 * No jingo requirement for adding wargoals
 * Manually built cbs retention length increased to 2.5 years
@@ -67,6 +73,9 @@ War
 * Revanchism buffs that give mob size and org increases, higher with more revanchism
 * Artillery maneuver increased to 2
 * Planes and bombers maneuver increased to 3
+* Gas defense chances to discover now greatly increased when neighbouring or fighting a gas attack nation
+* Ship supply costs halved (so now ~2x base HFM)
+* In 1920 and 1930 combat width will increase by 5 (via hidden invention)
 
 Politics
 * No tax restrictions for State Capitalism
@@ -76,6 +85,8 @@ Politics
 
 Population
 * Removed new world country flag, now just done on capital location
+* Literacy base change speed reduced 25%
+* 2% Intellectuals now gives +4 RP
 
 Economy
 * More starting tin and copper provinces
@@ -88,6 +99,7 @@ Economy
 Static Modifiers
 * Peace war exhaustion decrease changed to -1
 * At war war exhaustion decrease changed to -0.25
+* Max literacy gives +5 RP
 
 Balance
 * Alexander's reforms dont give Russia the pop growth for quite as long (from 8 to 5 years)
@@ -97,6 +109,8 @@ Balance
 * Province 773 changed from mountains to hills (on austrian italian border, austrian side)
 * Statue of liberty nerfed to 50% bonus (from 125%)
 * Belgium can accept Flemish just with State n Gov
+* Focus at Home effects length halved to last now 10 years
+* South Africa frontier immigration attraction nerfed from +410% to +50%
 
 Other
 * Questioning our alliance event wont fire for players
@@ -110,6 +124,7 @@ Fixes
 * Iberia now clearly formable if an spain or portugal are sphered (catalonia will also be annexed into it)
 * Ports decision rank 2 now will give lvl 2 ports in empty available provinces, not lvl 3
 * Take vassal cb now works (previously only put in sphere)
+* Cant use doctrine of lapse on India
 
 
 Version 5

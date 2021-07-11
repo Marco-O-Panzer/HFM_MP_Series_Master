@@ -36,11 +36,11 @@ ironclad = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 3
-		artillery = 0.8
-		canned_food = 1.6
-		ammunition = 0.8
-		pharmaceuticals = 1.6
+		steamer_convoy = 1.5
+		artillery = 0.4
+		canned_food = 0.8
+		ammunition = 0.4
+		pharmaceuticals = 0.8
 	}
 	
 	#Naval Abilties

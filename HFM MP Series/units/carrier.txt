@@ -40,18 +40,18 @@ carrier = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		interwar_hull = 4
-		artillery = 8
-		canned_food = 8
-		telephones = 0.8
-		coal = 16
-		ammunition = 12
-		tobacco = 8
-		aeroplanes = 8
-		small_arms = 4
-		regular_clothes = 6
-		fuel = 16
-		pharmaceuticals = 8
+		interwar_hull = 2
+		artillery = 4
+		canned_food = 4
+		telephones = 0.4
+		coal = 8
+		ammunition = 6
+		tobacco = 4
+		aeroplanes = 4
+		small_arms = 2
+		regular_clothes = 3
+		fuel = 8
+		pharmaceuticals = 4
 	}
 	
 	#Naval Abilties

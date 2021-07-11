@@ -132,7 +132,7 @@ to_funded_title;§EAdvance Research Funding§!;;;;;;;;;;;;;x,,
 to_funded_desc;Advances in our nations education and research allow the government to increase funding for research projects, and put more political focus into R&D.;;;;;;;;;;;;;x,,
 to_priority_funded_title;§EAdvance Research Funding§!;;;;;;;;;;;;;x,,
 to_priority_funded_desc;Advances in our nations education and research allow the government to increase funding for research projects, and put more political focus into R&D.;;;;;;;;;;;;;x,,
-encourage_pop_growth;Encourage Births;;;;;;;;;;;;;x,,
+secret_police;Secret Police;;;;;;;;;;;;;x,,
 encourage_assimilation;Encourage Assimilation;;;;;;;;;;;;;x,,
 EUR;The United States of Europe;;;;;;;;;;;;;x,,
 EUR_democracy;The United States of Europe;;;;;;;;;;;;x
@@ -257,7 +257,7 @@ trinket_subsidies_desc;Basic jobseekers allowances are provided by a government 
 low_subsidies;Generous Subsidies;;;;;;;;;;;;x
 low_subsidies_desc;Standard jobseekers allowances are provided by a government agency.;;;;;;;;;;;;x
 acceptable_subsidies;Standard UBI;;;;;;;;;;;;x
-acceptable_subsidies_desc;The government provides a small monthly income to all citizens, regardless of their situation. This income is guarantteed and paid from the government budget. §YThis reform will be rescinded if a non socialist/communist government is in power!§!;;;;;;;;;;;;x
+acceptable_subsidies_desc;The government provides a small monthly income to all citizens, regardless of their economic situation. This income is guarantteed and paid from the government budget. §YThis reform will be rescinded if a non socialist/communist government is in power!§!;;;;;;;;;;;;x
 good_subsidies;Advanced UBI;;;;;;;;;;;;x
 good_subsidies_desc;A large sum of money is provided to each citizen monthly. This is an unconditional payment and funded by the government budget. §YThis reform will be rescinded if a non socialist/communist government is in power!§!;;;;;;;;;;;;x
 EVTNAME7777907;Change in Welfare Policy;;;;;;;;;;;;x

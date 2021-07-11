@@ -37,15 +37,15 @@ dreadnought = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		interwar_hull = 1.4
-		artillery = 3.2
-		canned_food = 4
-		telephones = 0.08
-		fuel = 16
-		ammunition = 3.2
-		regular_clothes = 2
-		tobacco = 8
-		pharmaceuticals = 4
+		interwar_hull = 0.7
+		artillery = 1.6
+		canned_food = 2
+		telephones = 0.04
+		fuel = 8
+		ammunition = 1.6
+		regular_clothes = 1
+		tobacco = 4
+		pharmaceuticals = 2
 	}
 	
 	#Naval Abilties

@@ -34,15 +34,15 @@ cruiser = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 1.2
-		artillery = 0.4
-		canned_food = 2.4
-		fuel = 4.0
-		coal = 4.0
-		ammunition = 0.4
-		regular_clothes = 1.2
-		tobacco = 2.4
-		pharmaceuticals = 2.4
+		steamer_convoy = 0.6
+		artillery = 0.2
+		canned_food = 1.2
+		fuel = 2
+		coal = 2
+		ammunition = 0.2
+		regular_clothes = 0.6
+		tobacco = 1.2
+		pharmaceuticals = 1.2
 	}
 	
 	#Naval Abilties

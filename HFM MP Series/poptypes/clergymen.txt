@@ -3,7 +3,7 @@ color = { 234 227 40 }
 strata = middle
 
 can_reduce_consciousness = yes
-research_points = 3	#if max %, then 2 extra research points.
+research_points = 4	#if max %, then 4 extra research points.
 research_optimum = 0.02	#2%
 
 rebel = {

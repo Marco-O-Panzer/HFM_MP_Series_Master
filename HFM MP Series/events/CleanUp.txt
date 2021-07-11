@@ -336,6 +336,7 @@ country_event = {
 		remove_country_modifier = fight_the_power
 		government = democracy
 		election = yes
+		country_event = 777789
 		random_owned = { limit = { owner = { border_policy = closed_borders } } owner = { political_reform = open_borders } }
 		random_owned = { limit = { owner = { centralization = totalitarianism } } owner = { political_reform = unitary } }
 	}
