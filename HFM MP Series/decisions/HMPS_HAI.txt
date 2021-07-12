@@ -65,7 +65,7 @@ political_decisions = {
 			}
 		}
 		effect = {
-			prestige = 250
+			prestige = 100
 			money = 250000
 			leadership = 100
 			ammunition = 100

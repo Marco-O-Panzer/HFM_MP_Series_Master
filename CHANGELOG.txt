@@ -15,7 +15,7 @@ This mod is built on HFM V1.27I (SighPie) and HFM More Stuff V3.5 (u/louisky58) 
 - Iran flavour by Atlas
 - Haiti flavour by Jman
 - Military topbar expansion by SirRunner
-- Thanks to Nurse_Reno for the craftsmen & bureaucrats fix.
+- Thanks to Nurse_Reno for the craftsmen & bureaucrats fix, and immigration code.
 - Credit to Jay for the alt flags submod
 Everything else is my own (as far as I remember).
 Note that 'global' on a modifier means just across your country.
@@ -40,6 +40,7 @@ Flavour Changes
 -- Lots of flava added, debt to france, civil strife, recovery and expansion
 * GBR
 -- Starting reforms increased
+-- Immigration attraction and assimilation modifier nerfed significantly
 * Iberia
 -- Can now be formed militarily by any Spain
 * DNB
@@ -96,6 +97,7 @@ Economy
 * Factory machine part upgrade cost reduced to 75%
 * Slightly redid starting UK economy (more cement and machine parts production)
 * (Aiming for) plentiful production of rgos, especially moving late game
+* Planned Econ factory throughput bonus increased from 5% to 10%
 
 Static Modifiers
 * Peace war exhaustion decrease changed to -1
@@ -112,6 +114,8 @@ Balance
 * Belgium can accept Flemish just with State n Gov
 * Focus at Home effects length halved to last now 10 years
 * South Africa frontier immigration attraction nerfed from +410% to +50%
+* Russian dmitry_milyutin reforms now last for 10 years (rather than 50)
+* More immigrant attraction on women's suffrage
 
 Other
 * Questioning our alliance event wont fire for players

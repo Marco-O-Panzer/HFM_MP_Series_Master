@@ -67,6 +67,17 @@ country_migration_target = {
 	factor = 1
 	
 	modifier = {
+        factor = 100
+        NOT = {
+            any_owned_province = {
+                any_core = {
+                    has_recent_imigration = 15
+                }
+            }
+        }
+    }
+	
+	modifier = {
 		factor = 1.35
 		government = democracy
 	}
@@ -202,7 +213,18 @@ country_migration_target = {
 	
 	modifier = {
 		factor = 0
-		government = proletarian_dictatorship
+		OR = {
+			government = proletarian_dictatorship
+			government = fascist_dictatorship
+		}
+	}
+	
+	modifier = {
+		factor = 0.5
+		OR = {
+			government = absolute_monarchy
+			government = theocracy
+		}
 	}
 	
 	modifier = {
@@ -240,6 +262,8 @@ country_migration_target = {
 		OR = {
 			government = democracy
 			government = hms_government
+			government = dominion
+			government = colonial_company
 		}
 	}
 
@@ -278,6 +302,8 @@ country_migration_target = {
 		OR = {
 			government = democracy
 			government = hms_government
+			government = dominion
+			government = colonial_company
 		}
 	}
 	

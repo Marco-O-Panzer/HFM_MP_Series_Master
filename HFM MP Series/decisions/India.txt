@@ -5,6 +5,7 @@ political_decisions = {
 		potential = {
 			tag = HND
 			NOT = { has_country_flag = HND_claimed_tibet }
+			NOT = { is_core = 1587 }
 			NOT = { has_country_flag = hiding_the_decisions }
 		}
 	
@@ -29,6 +30,7 @@ political_decisions = {
 		potential = {
 			tag = HND
 			NOT = { has_country_flag = HND_claimed_nepal }
+			NOT = { is_core = 1326 }
 			NOT = { has_country_flag = hiding_the_decisions }
 		}
 	
