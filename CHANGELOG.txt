@@ -16,6 +16,7 @@ This mod is built on HFM V1.27I (SighPie) and HFM More Stuff V3.5 (u/louisky58) 
 - Haiti flavour by Jman
 - Military topbar expansion by SirRunner
 - Thanks to Nurse_Reno for the craftsmen & bureaucrats fix.
+- Credit to Jay for the alt flags submod
 Everything else is my own (as far as I remember).
 Note that 'global' on a modifier means just across your country.
 
