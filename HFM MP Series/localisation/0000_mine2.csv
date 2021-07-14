@@ -178,14 +178,14 @@ EVTNAME7777915;A New Republic;x
 EVTDESC7777915;The Ottoman Empire is dead, and so are the claims that went with it. We shall focus on building a Turkish Republic, free from foreign domination.;x
 EVTOPTA7777915;Lets begin;x
 TRK;Turkey;;;;;;;;;;;;x
-TRK_democracy;The Repulic of Turkey;
-TRK_absolute_monarchy;The Grand Ottoman Soverienty;
-TRK_prussian_constitutionalism;The Grand Ottoman Soverienty;
-TRK_hms_government;The Ottoman State;
-TRK_presidential_dictatorship;Turkey;
-TRK_bourgeois_dictatorship;Turkey;
-TRK_proletarian_dictatorship;Turkish Socialist Republic;
-TRK_fascist_dictatorship;Turkish Empire;
+TRK_democracy;The Republic of Turkey;x
+TRK_absolute_monarchy;The Grand Turkish Soverienty;x
+TRK_prussian_constitutionalism;The Grand Turkish Soverienty;x
+TRK_hms_government;Turkey;x
+TRK_presidential_dictatorship;Turkey;x
+TRK_bourgeois_dictatorship;Turkey;x
+TRK_proletarian_dictatorship;Turkish Socialist Republic;x
+TRK_fascist_dictatorship;Turkish Empire;x
 TRK_ADJ;Turkish;;;;;;;;;;;;x
 TRK_reactionary;Restorationists;x
 TRK_conservative;CHP;x

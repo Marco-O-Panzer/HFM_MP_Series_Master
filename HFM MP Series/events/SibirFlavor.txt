@@ -327,7 +327,7 @@ country_event = {
 				build_factory_in_capital_state = glass_factory
 			}
 		}
-		random_owned = { limit = { province_id = 1616 } THIS = { capital = 1616 } } #Peking
+		#random_owned = { limit = { province_id = 1616 } THIS = { capital = 1616 } } #Peking
 	}
 }
 

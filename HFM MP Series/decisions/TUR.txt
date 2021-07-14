@@ -169,6 +169,7 @@ political_decisions = {
 	}
 	
 	republican_reforms = {
+		picture = least_patriotic_turkler
 		potential = {
 			tag = TRK
 			government = democracy

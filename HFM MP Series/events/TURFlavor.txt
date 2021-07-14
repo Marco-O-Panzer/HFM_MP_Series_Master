@@ -153,7 +153,14 @@ country_event = {
 	
 	trigger = {
 		tag = TUR
-		government = democracy
+		year = 1900
+		NOT = {
+			OR = {
+				government = hms_government
+				government = prussian_constitutionalism 
+				government = absolute_monarchy 
+			}
+		}
 		NOT = { accepted_culture = misri }
 		NOT = { accepted_culture = bedouin }
 		NOT = { accepted_culture = albanian }
