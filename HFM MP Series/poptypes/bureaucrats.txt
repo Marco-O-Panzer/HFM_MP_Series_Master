@@ -1091,23 +1091,23 @@ promote_to =
 		group = {
 			modifier = {
 				factor = 2
-				soldiers = 0.01
+				state_scope = { soldiers = 0.01 }
 			}
 			modifier = {
 				factor = 2
-				soldiers = 0.02
+				state_scope = { soldiers = 0.02 }
 			}
 			modifier = {
 				factor = 2
-				soldiers = 0.03
+				state_scope = { soldiers = 0.03 }
 			}
 			modifier = {
 				factor = 2
-				soldiers = 0.04
+				state_scope = { soldiers = 0.04 }
 			}
 			modifier = {
 				factor = 2
-				soldiers = 0.05
+				state_scope = { soldiers = 0.05 }
 			}
 		}
 		modifier = {
@@ -1415,7 +1415,7 @@ promote_to =
 		factor = 0.01
 		modifier = {
 			factor = 5.0
-			soldiers = 0.03
+			state_scope = { soldiers = 0.03 }
 		}
 		modifier = {
 			factor = 5.0

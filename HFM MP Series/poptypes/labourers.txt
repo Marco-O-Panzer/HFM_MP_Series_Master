@@ -871,23 +871,23 @@ serfs = {
 		group = {
 			modifier = {
 				factor = 1
-				soldiers = 0.01
+				state_scope = { soldiers = 0.01 }
 			}
 			modifier = {
 				factor = 1
-				soldiers = 0.02
+				state_scope = { soldiers = 0.02 }
 			}
 			modifier = {
 				factor = 1
-				soldiers = 0.03
+				state_scope = { soldiers = 0.03 }
 			}
 			modifier = {
 				factor = 1
-				soldiers = 0.04
+				state_scope = { soldiers = 0.04 }
 			}
 			modifier = {
 				factor = 1
-				soldiers = 0.05
+				state_scope = { soldiers = 0.05 }
 			}
 		}
 		modifier = {
@@ -1286,48 +1286,48 @@ serfs = {
 		group = {
 			modifier = {
 				factor = -2
-				soldiers = 0.005
+				state_scope = { soldiers = 0.005 }
 			}
 			modifier = {
 				factor = -2
-				soldiers = 0.01
+				state_scope = { soldiers = 0.01 }
 			}
 			modifier = {
 				factor = -2
-				soldiers = 0.015
+				state_scope = { soldiers = 0.015 }
 			}
 			modifier = {
 				factor = -2
-				soldiers = 0.02
+				state_scope = { soldiers = 0.02 }
 			}
 			modifier = {
 				factor = -2
-				soldiers = 0.025
+				state_scope = { soldiers = 0.025 }
 			}
 			modifier = {
 				factor = -2
-				soldiers = 0.03
+				state_scope = { soldiers = 0.03 }
 			}
 			modifier = {
 				factor = -2
-				soldiers = 0.035
+				state_scope = { soldiers = 0.035 }
 			}
 			modifier = {
 				factor = -2
-				soldiers = 0.04
+				state_scope = { soldiers = 0.04 }
 			}
 			modifier = {
 				factor = -2
-				soldiers = 0.045
+				state_scope = { soldiers = 0.045 }
 			}
 			modifier = {
 				factor = -100
-				soldiers = 0.05
+				state_scope = { soldiers = 0.05 }
 			}
 		}
 		modifier = {
 			factor = -100
-			soldiers = 0.008
+			state_scope = { soldiers = 0.008 }
 			OR = {
 				location = { is_colonial = yes is_overseas = yes }
 				AND = { 
@@ -1350,7 +1350,7 @@ serfs = {
 		
 		modifier = {
 			factor = -100
-			soldiers = 0.015
+			state_scope = { soldiers = 0.015 }
 			OR = {
 				location = { is_colonial = yes is_overseas = yes }
 				AND = { 

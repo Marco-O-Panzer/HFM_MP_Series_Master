@@ -17,7 +17,7 @@ plane = {
 
 
 	#Building Costs
-	build_time = 50
+	build_time = 125
 	build_cost = {
 		aeroplanes = 10
 		small_arms = 10
