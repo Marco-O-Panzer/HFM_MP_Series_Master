@@ -1,0 +1,1 @@
+installation: Run this mod as a standard mod with HMPS enabled, this is defined as a submod so mod order is irrelevant
