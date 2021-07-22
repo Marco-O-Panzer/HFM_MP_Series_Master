@@ -1,0 +1,1 @@
+installation: put the flags folder on the common\Victoria 2\mod\HFM MP Series\gfx
