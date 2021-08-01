@@ -979,6 +979,15 @@ emigration_chance = {
 	}
 	
 	modifier = {
+		factor = -1
+		country = {
+			NOT = { has_country_flag = preparations_to_kill }
+			has_country_flag = swiss_opportunity
+			government = democracy
+		}
+	}
+	
+	modifier = {
 		factor = -0.2
 		NOT = { location = { continent = north_america } }
 		NOT = { location = { continent = south_america } }

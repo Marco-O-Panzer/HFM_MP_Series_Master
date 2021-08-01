@@ -6649,17 +6649,22 @@ country_event = {
 		OR = {
 			AND = {
 				government = fascist_dictatorship
-				overlord = { NOT = { government = fascist_dictatorship } }
+				overlord = { OR = { government = democracy government = hms_government } }
 				NOT = { truce_with = THIS }
 			}
 			AND = {
 				government = proletarian_dictatorship
-				overlord = { NOT = { government = proletarian_dictatorship } }
+				overlord = { OR = { government = democracy government = hms_government } }
 				NOT = { truce_with = THIS }
 			}
 			AND = {
 				government = bourgeois_dictatorship
-				overlord = { NOT = { government = bourgeois_dictatorship } }
+				overlord = { OR = { government = democracy government = hms_government } }
+				NOT = { truce_with = THIS }
+			}
+			AND = {
+				government = absolute_monarchy
+				overlord = { OR = { government = democracy } }
 				NOT = { truce_with = THIS }
 			}
 		}

@@ -50,6 +50,9 @@ Flavour Changes
 -- Will get a Mexican rebellionduring the civil war if fully annexed mexico
 * India
 -- RGO changes wont give huge rubber overproduction from: End of natural dyes - event also reduces wool production now and grants some tea
+* SWI
+-- Halved land of opportunity effect but now lasts till 36
+-- Less emigration when land of opportunity taken
 
 Bookmarks
 * New bookmark on the 2nd Jan 1836 that releases Canada and Australia as UK puppets
@@ -59,6 +62,7 @@ Political
 -- i.e national value option, centeralisation option, executive option
 * Advanced UBI given a bit of pop growth, like pensions
 * Encourage births NF replaced for Secret Police (militancy reduction) one for authoritarian government types
+* Influence now keys of GP rank with multiplyer going from 10% to 150% (no direct tech bonus anymore)
 
 CBs & Infamy
 * No jingo requirement for adding wargoals
@@ -98,6 +102,7 @@ Economy
 * Slightly redid starting UK economy (more cement and machine parts production)
 * (Aiming for) plentiful production of rgos, especially moving late game
 * Planned Econ factory throughput bonus increased from 5% to 10%
+* Bank upgrade cost reduced drastically (to 10%)
 
 Static Modifiers
 * Peace war exhaustion decrease changed to -1
@@ -116,12 +121,16 @@ Balance
 * South Africa frontier immigration attraction nerfed from +410% to +50%
 * Russian dmitry_milyutin reforms now last for 10 years (rather than 50)
 * More immigrant attraction on women's suffrage
+* Jap pop growth modifier from new capital event reduced
+* Gibraltar terrain combat width now -80%, and supply limit reduced from 16 to 6
+* China cant take self-strengthen decision when already westernised
 
 Other
 * Questioning our alliance event wont fire for players
 * Tobacco protest disabled in mp setup
 * GPs cant form tags from outside when it would annex a player (i.e Create Italy)
 * Ai wont take leave sphere decision in MP setup
+* Only GPs with capital in europe can form iberia (from the outside)
 
 Fixes
 * Arabia formation more dynamic, done on the cores of the integrated tags now
@@ -130,6 +139,7 @@ Fixes
 * Ports decision rank 2 now will give lvl 2 ports in empty available provinces, not lvl 3
 * Take vassal cb now works (previously only put in sphere)
 * Cant use doctrine of lapse on India
+* Fixed CBs granted when enforcing extreme ideology or democracy on rebellious puppet
 
 
 Version 5

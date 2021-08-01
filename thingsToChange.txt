@@ -1,9 +1,5 @@
 Changes that are waiting to be implemented:
 * big validator cleanup and tidy (eh maybe not with Vic 3 announcement)
-* swiss emigration?
-* make iberia formation only visible to GPs
-* self strenghthening cant be taken once westernised
-* nerf tokyo pop growth buffs (remove them) and super high life rating
 * no anarcho libs, add radicals (change anarcholib dictatorship)
 * all changes pinned in suggestion channels
 

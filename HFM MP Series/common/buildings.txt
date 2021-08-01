@@ -666,7 +666,7 @@ bank = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 50
-	cost = 10000
+	cost = 1000
 	goods_cost = 
 	{
 		steel = 350

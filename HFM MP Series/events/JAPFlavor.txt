@@ -1491,7 +1491,7 @@ country_event = {
 				name = baby_boom
 				duration = 1825
 			}
-			life_rating = 7
+			life_rating = 5
 		}
 		1655 = {
 			add_province_modifier = {
@@ -1502,11 +1502,15 @@ country_event = {
 				name = baby_boom
 				duration = 1825
 			}
-			life_rating = 10
+			life_rating = 5
+		}
+		add_country_modifier = {
+			name = global_baby_boom_small
+			duration = 5475
 		}
 		add_country_modifier = {
 			name = global_baby_boom
-			duration = 3650
+			duration = 1825
 		}
 		random_owned = {
 			limit = {
@@ -1533,23 +1537,11 @@ country_event = {
 				duration = 14600
 			}
 			add_province_modifier = {
-				name = small_baby_boom
-				duration = 14600
-			}
-			add_province_modifier = {
 				name = baby_boom
 				duration = 1825
 			}
 			change_province_name = "Tokyo"
-			life_rating = 8
-		}
-		add_country_modifier = {
-			name = global_baby_boom_small
-			duration = 5475
-		}
-		add_country_modifier = {
-			name = global_baby_boom
-			duration = 1825
+			life_rating = 5
 		}
 		ai_chance = {
 			factor = 100
@@ -1565,21 +1557,9 @@ country_event = {
 				duration = 14600
 			}
 			add_province_modifier = {
-				name = small_baby_boom
-				duration = 14600
-			}
-			add_province_modifier = {
 				name = baby_boom
 				duration = 1825
 			}
-		}
-		add_country_modifier = {
-			name = global_baby_boom_small
-			duration = 5475
-		}
-		add_country_modifier = {
-			name = global_baby_boom
-			duration = 1825
 		}
 		ai_chance = {
 			factor = 0

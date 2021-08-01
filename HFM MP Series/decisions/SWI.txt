@@ -292,7 +292,8 @@ political_decisions = {
 		}
 		
 		effect = {
-			add_country_modifier = { name = land_of_opportunity duration = 730 }
+			set_country_flag = swiss_opportunity
+			add_country_modifier = { name = land_of_opportunity duration = -1 }
 			add_country_modifier = { name = swiss_banking duration = -1 }	
 		}
 		ai_will_do = { factor = 1 }

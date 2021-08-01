@@ -690,6 +690,11 @@ political_decisions = {
 					any_owned_province = { is_core = SPA }
 				}
 			}
+			NOT = {
+				owns = 487
+				owns = 498
+				owns = 513
+			}
 		}
 
 		effect = {

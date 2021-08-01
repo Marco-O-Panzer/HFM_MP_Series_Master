@@ -3,6 +3,71 @@
 #
 # Effects are fully scriptable here.
 
+### Influence Modifiers ###
+
+rank_1 = {
+	trigger = {
+		rank = 1
+	}
+	influence_modifier = 1.5
+}
+
+rank_2 = {
+	trigger = {
+		rank = 2
+		NOT = { rank = 1 }
+	}
+	influence_modifier = 1.25
+}
+
+rank_3 = {
+	trigger = {
+		rank = 3
+		NOT = { rank = 2 }
+	}
+	influence_modifier = 1
+}
+
+rank_4 = {
+	trigger = {
+		rank = 4
+		NOT = { rank = 3 }
+	}
+	influence_modifier = 0.75
+}
+
+rank_5 = {
+	trigger = {
+		rank = 5
+		NOT = { rank = 4 }
+	}
+	influence_modifier = 0.5
+}
+
+rank_6 = {
+	trigger = {
+		rank = 6
+		NOT = { rank = 5 }
+	}
+	influence_modifier = 0.3
+}
+
+rank_7 = {
+	trigger = {
+		rank = 7
+		NOT = { rank = 6 }
+	}
+	influence_modifier = 0.2
+}
+
+rank_8 = {
+	trigger = {
+		rank = 8
+		NOT = { rank = 7 }
+	}
+	influence_modifier = 0.1
+}
+
 ### Reno Revanchism Buffs ###
 
 save_the_nation0.5  = {

@@ -1379,11 +1379,8 @@ political_decisions = {
 				tag = CHI
 				tag = KMT
 			}
-			NOT = { 
-				AND = {
-					year = 1905
-					civilized = yes
-				}
+			NOT = {
+				civilized = yes
 			}
 			NOT = { has_country_modifier = self_strengthening_movement }
 			has_global_flag = taiping_has_happened
