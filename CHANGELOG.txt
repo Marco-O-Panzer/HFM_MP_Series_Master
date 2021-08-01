@@ -53,6 +53,8 @@ Flavour Changes
 * SWI
 -- Halved land of opportunity effect but now lasts till 36
 -- Less emigration when land of opportunity taken
+* CPL
+-- Januray Uprising if surpressed will give cores to Prussia and Russia on any CPL land held at the time
 
 Bookmarks
 * New bookmark on the 2nd Jan 1836 that releases Canada and Australia as UK puppets
