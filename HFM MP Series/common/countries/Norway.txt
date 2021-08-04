@@ -142,7 +142,7 @@ party = {
 	start_date = 1830.1.1
 	end_date = 1901.1.1
 
-	ideology = anarcho_liberal
+	ideology = radical
 
 	social_policy = no_state_interference
 	economic_policy = laissez_faire
@@ -157,7 +157,7 @@ party = {
 	start_date = 1901.1.1
 	end_date = 1945.1.1
 
-	ideology = anarcho_liberal
+	ideology = radical
 
 	social_policy = no_state_interference
 	economic_policy = state_capitalism

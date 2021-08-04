@@ -29,6 +29,7 @@ colonial_company = {
 	socialist = yes
 	conservative = yes
 	reactionary = yes
+	radical = yes
 	
 	election = no
 	appoint_ruling_party = yes
@@ -42,6 +43,7 @@ dominion = {
 	communist = yes
 	anarcho_liberal = yes
 	fascist = yes
+	radical = yes
 	
 	election = yes
 	duration = 48
@@ -83,6 +85,7 @@ prussian_constitutionalism = {
 	socialist = yes
 	conservative = yes
 	reactionary = yes
+	radical = yes
 	
 	
 	election = yes
@@ -99,6 +102,7 @@ hms_government = {
 	communist = yes
 	anarcho_liberal = yes
 	fascist = yes
+	radical = yes
 	
 	
 	election = yes
@@ -115,6 +119,7 @@ democracy = {
 	communist = yes
 	anarcho_liberal = yes
 	fascist = yes
+	radical = yes
 	
 	
 	election = yes
@@ -140,6 +145,7 @@ french_bourbon = {
 	communist = yes
 	anarcho_liberal = yes
 	fascist = yes
+	radical = yes
 	
 	
 	election = yes

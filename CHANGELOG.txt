@@ -90,6 +90,12 @@ Politics
 * LF can tax up to 75%
 * Planned can tax down to 25%
 * Can sphere up to 20mil pop nations
+* New faction radicals added in place of anarcho libs
+-- 100% support for political reforms, 40% base for social (increases with mil) and revoking social
+-- Not doing desired reforms and rising lower and middle class militancy will boost this faction
+-- Drops in popularity by 75% once socialists are active
+* Liberals only base 50% support pol reforms (increases with mil)
+-- Their support rate for social reforms as mil increases reduced to be inline with cons
 
 Population
 * Removed new world country flag, now just done on capital location

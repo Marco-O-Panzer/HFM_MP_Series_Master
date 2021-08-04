@@ -29,6 +29,9 @@ ideologies = {
 	liberal = {
 		factor = 3
 	}
+	radical = {
+		factor = 2
+	}
 	conservative = {
 		factor = 1
 	}

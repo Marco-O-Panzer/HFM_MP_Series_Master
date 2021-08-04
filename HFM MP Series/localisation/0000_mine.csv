@@ -75,7 +75,7 @@ end_land_transfer_desc;Take this decions to prevent transfer CBs being justified
 end_land_transfer_unciv_title;§YDisallow Land Transfer§!;;;;;;;;;;;;;x,,
 end_land_transfer_unciv_desc;Take this decions to prevent transfer CBs being justified on our nation (and to prevent us justifying them on other nations).§Y RP FROM CONQUEST DEBUFF IS CURRENTLY ACTIVE§R Cannot use whilst either is at war.§!;;;;;;;;;;;;;x,,
 socialist_uh;Socialists want to see the enactment of further political and social reforms.;;;;;;;;;;;;;x,,
-liberal_uh;Liberals want to enact further political reforms, but will also support social reform under conditions of intermediate militancy.;;;;;;;;;;;;;x,,
+liberal_uh;Liberals want to enact some political reforms, but will also support greater political reform and social reform under conditions of high militancy.;;;;;;;;;;;;;x,,
 EVTNAME777791;Concede to Lower Tarrifs;;;;;;;;;;;;;x,,
 EVTDESC777791;As the loser of the war we have been forced to lower our tarrifs for 5 years.;;;;;;;;;;;;;x,,
 EVT777791OPTA;Lower the tarrifs;;;;;;;;;;;;;x,,

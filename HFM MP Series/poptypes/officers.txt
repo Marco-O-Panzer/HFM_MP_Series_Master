@@ -2088,6 +2088,156 @@ ideologies = {
 			}
 		}
 	}
+	radical = {
+		factor = 0.9
+		
+		modifier = {
+			factor = 0.25
+			is_ideology_enabled = socialist
+		}
+		
+		modifier = {
+			factor = 1.05
+			OR = { nationalvalue = nv_equality nationalvalue = nv_liberty }
+			NOT = { ruling_party_ideology = communist }
+		}
+		
+		modifier = {
+			factor = 0.9
+			OR = { is_accepted_culture = yes is_primary_culture = yes }
+			OR = {
+				AND = {
+					OR = {
+						nationalvalue = nv_autocracy
+						nationalvalue = nv_tradition
+					}
+					country = { civilized = yes }
+				}
+				state_scope = { is_slave = yes }
+			}
+		}
+		
+		modifier = {
+			factor = 1.05
+			political_reform_want = 0.02
+		}
+		modifier = {
+			factor = 1.05
+			political_reform_want = 0.04
+		}
+		modifier = {
+			factor = 1.05
+			political_reform_want = 0.06
+		}
+		modifier = {
+			factor = 1.1
+			political_reform_want = 0.08
+		}
+		modifier = {
+			factor = 1.1
+			political_reform_want = 0.10
+		}
+		modifier = {
+			factor = 1.1
+			political_reform_want = 0.12
+		}
+		modifier = {
+			factor = 1.1
+			political_reform_want = 0.14
+		}
+		modifier = {
+			factor = 1.15
+			political_reform_want = 0.16
+		}
+		modifier = {
+			factor = 1.15
+			political_reform_want = 0.18
+		}
+		modifier = {
+			factor = 1.15
+			political_reform_want = 0.20
+		}
+		modifier = {
+			factor = 1.05
+			social_reform_want = 0.02
+		}
+		modifier = {
+			factor = 1.05
+			social_reform_want = 0.04
+		}
+		modifier = {
+			factor = 1.05
+			social_reform_want = 0.06
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.08
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.1
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.12
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.14
+		}
+		modifier = {
+			factor = 1.15
+			social_reform_want = 0.16
+		}
+		modifier = {
+			factor = 1.15
+			social_reform_want = 0.18
+		}
+		modifier = {
+			factor = 1.15
+			social_reform_want = 0.2
+		}
+		modifier = {
+			factor = 1.2
+			state_scope = {
+				not = { poor_strata_everyday_needs = 0.25 }
+			}
+		}
+		modifier = {
+			factor = 1.1
+			state_scope = {
+				NOT = { middle_strata_everyday_needs = 0.25 }
+			}
+		}
+		modifier = {
+			factor = 1.05
+			OR = { 
+				poor_strata_militancy = 5
+				middle_strata_militancy = 5
+			}
+		}
+		modifier = {
+			factor = 1.05
+			OR = {
+				poor_strata_militancy = 6
+				middle_strata_militancy = 6
+			}
+		}
+		modifier = {
+			factor = 1.05
+			OR = {
+				poor_strata_militancy = 7
+				middle_strata_militancy = 7
+			}
+		}
+		modifier = {
+			factor = 1.05
+			OR = {
+				poor_strata_militancy = 8
+				middle_strata_militancy = 8
+			}
+		}
+	}
 	anarcho_liberal = {
 		factor = 1
 		

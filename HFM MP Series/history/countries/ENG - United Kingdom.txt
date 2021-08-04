@@ -98,12 +98,13 @@ ruling_party = ENG_liberal
 last_election = 1835.2.19
 upper_house = {
 	fascist = 0
-	liberal = 12
-	conservative = 83
+	liberal = 10
+	conservative = 80
 	reactionary = 5
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
+	radical = 5
 }
 
 schools = naval_tech_school
