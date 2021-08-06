@@ -320,7 +320,7 @@ MONEY_EFFECT;Funds §R$VALUE$§W¤§W.\n;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 theocracy_ruler;Your Holiness;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 proletarian_dictatorship_ruler;Chairman;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 presidential_dictatorship_ruler;President;;;;;;;;;;;;;;;;;;;x;;;;
-bourgeois_dictatorship_ruler;Board Director;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+bourgeois_dictatorship_ruler;First Speaker;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 fascist_dictatorship_ruler;Supreme Leader;;;;;;;;;;;;;;;;;;x;;;;
 absolute_monarchy_ruler;King;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 prussian_constitutionalism_ruler;King;;;;;;;;;;;;;;;;;;;;;;;;x;;;;

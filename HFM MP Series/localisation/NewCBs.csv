@@ -66,3 +66,9 @@ overlord_puppet_cb_setup;Declare on the overlord;x
 NORMAL_WAR_OVERLORD_NAME;$ORDER$$FIRST$ - $SECOND_COUNTRY$ Overlord War;x
 AGRESSION_WAR_OVERLORD_NAME;$RECIPIENT$ Overlord War;x
 take_from_sphere;Take from Sphere;x
+install_radical_democracy;Enforce Republic;x
+install_radical_democracy_short;Enforce republic on $RECIPIENT$;x
+install_radical_democracy_desc;Establish a republic on a non-republican bordering nation. \n\n§YNOTE: Will cost 7 infamy when used.§!;x
+install_radical_democracy_setup;Enforce Republican Government;x
+NORMAL_RADICAL_DEMOCRACY_WAR_NAME;$ORDER$$FIRST$ Establishment of $SECOND$ Democracy;x
+AGRESSION_RADICAL_DEMOCRACY_WAR_NAME;$ORDER$$FIRST$ Establishment of $SECOND$ Democracy;x

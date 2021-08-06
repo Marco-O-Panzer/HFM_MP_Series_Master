@@ -629,7 +629,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-	title = "EVTNAME800053"  # The New Regime - Anarcho-Liberal
+	title = "EVTNAME800053"  # The New Regime - Anarchists
 	desc = "EVTDESC800053"
 	picture = "Revolution"
 
@@ -653,14 +653,6 @@ country_event = {
 		clr_country_flag = does_not_want_to_unify
 		clr_country_flag = rebels_in_capital
 		remove_country_modifier = fight_the_power
-		random_owned = {
-			limit = {
-				owner = {
-					NOT = { ruling_party_ideology = anarcho_liberal }
-				}
-			}
-			owner = { ruling_party_ideology = liberal }
-		}
 		capital_scope = {
 			any_pop = {
 				limit = { literacy = 0.4 }
@@ -692,10 +684,10 @@ country_event = {
 				ideology = anarcho_liberal
 				factor = -8
 			}
-			scaled_militancy = {
-				ideology = socialist
-				factor = 2
-			}
+			#scaled_militancy = {
+			#	ideology = socialist
+			#	factor = 2
+			#}
 			scaled_militancy = {
 				ideology = communist
 				factor = 4

@@ -85,7 +85,6 @@ prussian_constitutionalism = {
 	socialist = yes
 	conservative = yes
 	reactionary = yes
-	radical = yes
 	
 	
 	election = yes

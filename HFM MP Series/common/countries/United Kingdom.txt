@@ -123,6 +123,21 @@ party = {
 	war_policy = jingoism
 }
 
+party = {
+	name = "Anarchists"
+	start_date = 1870.1.1
+	end_date = 2000.1.1
+
+	ideology = anarcho_liberal
+
+	social_policy = welfare_state
+	economic_policy = planned_economy
+	trade_policy = free_trade
+	religious_policy = pro_atheism
+	citizenship_policy = full_citizenship
+	war_policy = anti_military
+}
+
 unit_names = {
 	dreadnought = {
 		 "HMS Dreadnought" "HMS Bellerophon" "HMS Superb" "HMS Temeraire" "HMS St Vincent" "HMS Collingwood" "HMS Vanguard" "HMS Neptune" "HMS Colossus" "HMS Hercules" "HMS Orion" "Monarch" "HMS Conqueror" "HMS Thunderer" "HMS King George V" "HMS Centurion" "HMS Audacious" "HMS Ajax" "HMS Iron Duke" "HMS Marlborough" "HMS Benbow" "HMS Emperor of India" "HMS Agincourt" "HMS Erin" "HMS Canada" "HMS Queen Elizabeth" "HMS Warspite" "HMS Barham" "HMS Valiant" "HMS Malaya" "HMS Royal Oak" "HMS Royal Sovereign" "HMS Revenge" "HMS Resolution" "HMS Ramillies" "HMS Resistance" "HMS Nelson" "HMS Rodney" "HMS Prince of Wales" "HMS Duke of York" "HMS Anson" "HMS Howe" "HMS Lion"

@@ -17,3 +17,14 @@ rank_7;Rank 7;x
 rank_8;Rank 8;x
 radical;Radical;x
 radical_uh;Radicals want to enact further political reforms, and have a low support for social reform but will become more supportive under conditions of intermediate militancy.;x
+radical_rebels_name;Radicals;x
+radical_rebels_army;Radicals;x
+radical_rebels_desc;Radicals will seek to found a Republic if successful. They will advance all political reforms they can, and are supportive of some social reforms.;x
+anarcho_liberal;Anarchist;x
+anarcho_liberal_uh;Anarchists will advance all social and political reforms, and will revoke none.;x
+anarcho_liberal_name;Anarchists;x
+anarcho_liberal_army;Anarchists;x
+anarcho_liberal_desc;Anarchists want the people free of state corceion, and for all to realise the value of their labour. They will seek to advance politial and social reforms.;x
+EVTDESC60020;In the interests of the workers, a serious of confederated communes have been founded across the nation, combining local direct democracy and the principles of free assosication. Resources will be shared as agreed upon, and all workers will enjoy the value of their labour.;x
+EVTOPTA60020;I love anarchism;x
+queppe_gov_type;Anarchist Governance;x

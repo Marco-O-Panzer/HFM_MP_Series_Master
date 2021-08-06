@@ -229,6 +229,18 @@ save_the_nation5  = {
 
 #########
 
+queppe_gov_type = {
+	trigger = {
+		government = bourgeois_dictatorship
+	}
+	global_pop_militancy_modifier = 0.1
+	core_pop_militancy_modifier = -0.2
+	land_organisation = -0.05
+	mobilisation_size = 0.025
+}
+
+#########
+
 money_hoarder_1 = {
 	trigger = {
 		money = 2000000

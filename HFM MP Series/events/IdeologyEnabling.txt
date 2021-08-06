@@ -141,7 +141,7 @@ country_event = {
 }
 
 ##########################
-# Enable Anarcho-Liberal
+# Enable Anarchists
 ##########################
 country_event = {
 	id = 1002
@@ -156,15 +156,16 @@ country_event = {
 	trigger = {
 		NOT = { is_ideology_enabled = anarcho_liberal }
 		NOT = { has_global_flag = anarcho_liberals_disabled }
-		year = 1848
+		year = 1870
 		civilized = yes
-		literacy = 0.6
+		literacy = 0.8
 		OR = {
-			laissez_faire = 10
-			pluralism = 15
-			anti_military = 15
-			political_reform_want = 0.25
+			NOT = { pluralism = 50 }
+			war_exhaustion = 20
+			political_reform_want = 0.3
+			social_reform_want = 0.3
 			unemployment = 0.2
+			tech_school = culture_tech_school
 		}
 	}
 	
