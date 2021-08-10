@@ -991,79 +991,49 @@ anarcho_liberal_rebels = {
 		}
 		modifier = {
 			factor = 0
-			OR = {
-				political_movement = yes
-				social_movement = yes
-			}	
+			NOT = {
+				OR = {
+					political_movement = yes
+					social_movement = yes
+				}
+			}
 		}
 		modifier = {
 			factor = 0
 			country = { government = bourgeois_dictatorship }
 		}
 		modifier = {
-			factor = 0
+			factor = 0.5
 			country = {
-				OR = {
-					government = democracy
-					government = hms_government
-				}
+				government = democracy
 				ruling_party_ideology = anarcho_liberal
 			}
 		}
 		modifier = {
-			factor = 0.5
-			country = {
-				OR = {
-					government = democracy
-					government = hms_government
-				}
-				ruling_party_ideology = liberal
+			factor = 1.2
+			country = { 
+				NOT = { plurality = 35 }
+				literacy = 0.5
 			}
 		}
 		modifier = {
-			factor = 1.015
-			country = { NOT = { plurality = 35 } }
+			factor = 1.2
+			country = { 
+				NOT = { plurality = 50 }
+				literacy = 0.7
+			}
 		}
 		modifier = {
 			factor = 0
-			NOT = {
-				OR = {
-					pop_majority_ideology = anarcho_liberal
+				pop_majority_ideology = anarcho_liberal
 					pop_majority_ideology = liberal
-				}
 			}
 		}
 		modifier = {
-			factor = 1.15
+			factor = 2
 			pop_majority_ideology = anarcho_liberal
 		}
-		modifier = {
-			factor = 1.02
-			pop_majority_ideology = liberal
-		}
 		
-		modifier = {
-			factor = 0.1
-			country = {
-				OR = {
-					government = democracy
-					government = hms_government
-				}
-				OR = { 
-					vote_franschise = universal_weighted_voting
-					vote_franschise = universal_voting
-				}
-				OR = {
-					upper_house_composition = state_equal_weight
-					upper_house_composition = population_equal_weight
-				}
-				NOT = { debt_law = serfdom }
-				NOT = { border_policy = closed_borders }
-				public_meetings = yes_meeting
-				press_rights = free_press
-				slavery = no_slavery
-			}
-		}
 		
 		modifier = {
 			factor = 0
@@ -1111,6 +1081,23 @@ anarcho_liberal_rebels = {
 			factor = 0.1
 			is_primary_culture = no
 			is_accepted_culture = no
+		}
+		
+		modifier = {
+			factor = 1.1
+			war_exhaustion = 40
+		}
+		modifier = {
+			factor = 1.1
+			war_exhaustion = 60
+		}
+		modifier = {
+			factor = 1.1
+			war_exhaustion = 80
+		}
+		modifier = {
+			factor = 1.1
+			war_exhaustion = 100
 		}
 	}
  

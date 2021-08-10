@@ -212,6 +212,7 @@ country_event = {
 		political_reform = confederalism
 		political_reform = all_voting_pops
 		political_reform = proportional_representation
+		political_reform = no_draft
 		clr_country_flag = everywhere_genocide_only
 		clr_country_flag = non_colonial_genocide_only
 		clr_country_flag = colonial_genocide_only

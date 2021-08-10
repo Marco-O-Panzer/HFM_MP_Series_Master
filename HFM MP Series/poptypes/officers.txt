@@ -2239,7 +2239,7 @@ ideologies = {
 		}
 	}
 	anarcho_liberal = {
-		factor = 1
+		factor = 0.5
 		
 		modifier = {
 			factor = 0.25
@@ -2256,64 +2256,183 @@ ideologies = {
 		}
 		
 		modifier = {
-			factor = 1.3
+			factor = 1.5
 			country = { government = bourgeois_dictatorship }
-			OR = {
-				nationalvalue = nv_autocracy
-				nationalvalue = nv_tradition
-			}
 			OR = { is_accepted_culture = yes is_primary_culture = yes }
 		}
 		
 		modifier = {
-			factor = 0.3
-			NOT = { country = { government = bourgeois_dictatorship } }
-			OR = {
-				nationalvalue = nv_autocracy
-				nationalvalue = nv_tradition
-			}
-			OR = { is_accepted_culture = yes is_primary_culture = yes }
-		}
-		
-		modifier = {
-			factor = 1.1
+			factor = 1.05
 			political_reform_want = 0.10
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.05
 			political_reform_want = 0.20
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.05
 			political_reform_want = 0.30
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.05
 			political_reform_want = 0.40
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.05
 			political_reform_want = 0.50
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.05
 			political_reform_want = 0.60
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.05
 			political_reform_want = 0.70
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.05
 			political_reform_want = 0.80
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.05
 			political_reform_want = 0.90
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.05
 			political_reform_want = 1
+		}
+		
+		modifier = {
+			factor = 1.05
+			social_reform_want = 0.10
+		}
+		modifier = {
+			factor = 1.05
+			social_reform_want = 0.20
+		}
+		modifier = {
+			factor = 1.05
+			social_reform_want = 0.30
+		}
+		modifier = {
+			factor = 1.05
+			social_reform_want = 0.40
+		}
+		modifier = {
+			factor = 1.05
+			social_reform_want = 0.50
+		}
+		modifier = {
+			factor = 1.05
+			social_reform_want = 0.60
+		}
+		modifier = {
+			factor = 1.05
+			social_reform_want = 0.70
+		}
+		modifier = {
+			factor = 1.05
+			social_reform_want = 0.80
+		}
+		modifier = {
+			factor = 1.05
+			social_reform_want = 0.90
+		}
+		modifier = {
+			factor = 1.05
+			social_reform_want = 1
+		}
+		
+		modifier = {
+			factor = 1.2
+			war_exhaustion = 20
+		}
+		modifier = {
+			factor = 1.2
+			war_exhaustion = 30
+		}
+		modifier = {
+			factor = 1.2
+			war_exhaustion = 40
+		}
+		modifier = {
+			factor = 1.2
+			war_exhaustion = 50
+		}
+		modifier = {
+			factor = 1.2
+			war_exhaustion = 60
+		}
+		modifier = {
+			factor = 1.2
+			war_exhaustion = 70
+		}
+		modifier = {
+			factor = 1.2
+			war_exhaustion = 80
+		}
+		modifier = {
+			factor = 1.2
+			war_exhaustion = 90
+		}
+		modifier = {
+			factor = 1.2
+			war_exhaustion = 100
+		}
+		
+		modifier = {
+			factor = 1.1
+			OR = { 
+			poor_strata_militancy = 5
+			middle_strata_militancy = 5
+			}
+		}
+		modifier = {
+			factor = 1.1
+			OR = {
+			poor_strata_militancy = 6
+			middle_strata_militancy = 6
+			}
+		}
+		modifier = {
+			factor = 1.1
+			OR = {
+			poor_strata_militancy = 7
+			middle_strata_militancy = 7
+			}
+		}
+		modifier = {
+			factor = 1.1
+			OR = {
+			poor_strata_militancy = 8
+			middle_strata_militancy = 8
+			}
+		}
+		
+		modifier = {
+			factor = 1.1
+			literacy = 0.5
+			NOT = { plurality = 50 }
+		}
+		modifier = {
+			factor = 1.1
+			literacy = 0.6
+			NOT = { plurality = 60 }
+		}
+		modifier = {
+			factor = 1.1
+			literacy = 0.7
+			NOT = { plurality = 70 }
+		}
+		modifier = {
+			factor = 1.1
+			literacy = 0.8
+			NOT = { plurality = 80 }
+		}
+		modifier = {
+			factor = 1.1
+			literacy = 0.9
+			NOT = { plurality = 90 }
 		}
 	}
 }
