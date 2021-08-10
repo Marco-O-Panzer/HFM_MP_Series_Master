@@ -1025,8 +1025,8 @@ anarcho_liberal_rebels = {
 		}
 		modifier = {
 			factor = 0
+			NOT = {
 				pop_majority_ideology = anarcho_liberal
-					pop_majority_ideology = liberal
 			}
 		}
 		modifier = {
