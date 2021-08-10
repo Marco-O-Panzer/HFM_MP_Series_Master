@@ -836,7 +836,6 @@ political_decisions = {
 		effect = {
 			set_country_flag = embraced_czechs
 			add_accepted_culture = czech
-			prestige = -25
 			any_pop = {
 				limit = { has_pop_culture = hungarian }
 				consciousness = 4
@@ -856,10 +855,7 @@ political_decisions = {
 	embrace_slovene_minority = {
 		picture = embrace_minority
 		potential = {
-			OR = {
-				tag = KUK
-				tag = DNB
-			}
+			tag = DNB
 			any_owned_province = { is_core = SLO }
 			OR = {
 				NOT = { has_global_flag = mp_setup }
@@ -885,7 +881,6 @@ political_decisions = {
 		effect = {
 			set_country_flag = embraced_slovenes
 			add_accepted_culture = slovene
-			prestige = -25
 			any_pop = {
 				limit = {
 					OR = {
@@ -911,10 +906,7 @@ political_decisions = {
 	embrace_croat_minority = {
 		picture = embrace_minority
 		potential = {
-			OR = {
-				tag = KUK
-				tag = DNB
-			}
+			tag = DNB
 			any_owned_province = { is_core = CRO }
 			OR = {
 				NOT = { has_global_flag = mp_setup }
@@ -939,7 +931,6 @@ political_decisions = {
 		effect = {
 			set_country_flag = embraced_croats
 			add_accepted_culture = croat
-			prestige = -25
 			any_pop = {
 				limit = {
 					OR = {
@@ -964,10 +955,7 @@ political_decisions = {
 	embrace_polish_minority = {
 		picture = embrace_minority
 		potential = {
-			OR = {
-				tag = KUK
-				tag = DNB
-			}
+			tag = DNB
 			OR = {
 				NOT = { has_global_flag = mp_setup }
 				has_global_flag = full_polish_approval
@@ -993,7 +981,6 @@ political_decisions = {
 		effect = {
 			set_country_flag = embraced_poles
 			add_accepted_culture = polish
-			prestige = -25
 			any_pop = {
 				limit = {
 					OR = {

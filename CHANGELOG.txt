@@ -44,7 +44,7 @@ Flavour Changes
 * Iberia
 -- Can now be formed militarily by any Spain
 * DNB
--- Now requires the decisions to accept the cultures
+-- Now requires the decisions to accept the cultures (wont lose prestige)
 -- Can only accept the cultures if they approved of the Federation fully (in MP)
 * USA
 -- Will get a Mexican rebellionduring the civil war if fully annexed mexico
@@ -55,6 +55,10 @@ Flavour Changes
 -- Less emigration when land of opportunity taken
 * CPL
 -- Januray Uprising if surpressed will give cores to Prussia and Russia on any CPL land held at the time
+* SCA
+-- Dont have to lose Finish accepted to form (removed abandon Finish, removed concede Finish)
+-- Removed prestige conditions on forming
+-- Any requirement to be a GP is removed, and if a sphere is a condition can alternatively vassalize
 
 Bookmarks
 * New bookmark on the 2nd Jan 1836 that releases Canada and Australia as UK puppets
@@ -65,6 +69,17 @@ Political
 * Advanced UBI given a bit of pop growth, like pensions
 * Encourage births NF replaced for Secret Police (militancy reduction) one for authoritarian government types
 * Influence now keys of GP rank with multiplyer going from 10% to 150% (no direct tech bonus anymore)
+* No tax restrictions for State Capitalism
+* LF can tax up to 75%
+* Planned can tax down to 25%
+* Can sphere up to 20mil pop nations
+* New faction radicals added in place of anarcho libs
+-- 100% support for political reforms, 40% base for social (increases with mil) and revoking social
+-- Not doing desired reforms and rising lower and middle class militancy will boost this faction
+-- Drops in popularity by 75% once socialists are active
+* Liberals only base 50% support pol reforms (increases with mil)
+-- Their support rate for social reforms as mil increases reduced to be inline with cons
+* Immigration attraction drops as we increase (-2*WE = IA decrease)
 
 CBs & Infamy
 * No jingo requirement for adding wargoals
@@ -84,18 +99,6 @@ War
 * Gas defense chances to discover now greatly increased when neighbouring or fighting a gas attack nation
 * Ship supply costs halved (so now ~2x base HFM)
 * In 1920 and 1930 combat width will increase by 5 (via hidden invention)
-
-Politics
-* No tax restrictions for State Capitalism
-* LF can tax up to 75%
-* Planned can tax down to 25%
-* Can sphere up to 20mil pop nations
-* New faction radicals added in place of anarcho libs
--- 100% support for political reforms, 40% base for social (increases with mil) and revoking social
--- Not doing desired reforms and rising lower and middle class militancy will boost this faction
--- Drops in popularity by 75% once socialists are active
-* Liberals only base 50% support pol reforms (increases with mil)
--- Their support rate for social reforms as mil increases reduced to be inline with cons
 
 Population
 * Removed new world country flag, now just done on capital location
@@ -148,6 +151,7 @@ Fixes
 * Take vassal cb now works (previously only put in sphere)
 * Cant use doctrine of lapse on India
 * Fixed CBs granted when enforcing extreme ideology or democracy on rebellious puppet
+* Players can now refuse diplo annexation of overlords cores
 
 
 Version 5

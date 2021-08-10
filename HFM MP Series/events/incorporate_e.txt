@@ -47,7 +47,12 @@ country_event = {
 			factor = 100
 		}
 	}
-	
+	option = {
+		name = "No."
+		ai_chance = {
+			factor = 0
+		}
+	}
 }
 
 country_event = {

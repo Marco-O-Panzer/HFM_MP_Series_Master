@@ -1,6 +1,5 @@
 Changes that are waiting to be implemented:
 * big validator cleanup and tidy (eh maybe not with Vic 3 announcement)
-* no anarcho libs, add radicals (change anarcholib dictatorship)
 * all changes pinned in suggestion channels
 
 BUGS:
