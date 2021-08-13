@@ -72,3 +72,9 @@ install_radical_democracy_desc;Establish a republic on a non-republican borderin
 install_radical_democracy_setup;Enforce Republican Government;x
 NORMAL_RADICAL_DEMOCRACY_WAR_NAME;$ORDER$$FIRST$ Establishment of $SECOND$ Democracy;x
 AGRESSION_RADICAL_DEMOCRACY_WAR_NAME;$ORDER$$FIRST$ Establishment of $SECOND$ Democracy;x
+stop_med_tolls;End the Tolls;x
+stop_med_tolls_short;Revoke the tolls of $RECIPIENT$;x
+stop_med_tolls_desc;Prevent the offending nation from levying tolls across the Mediterranean Strait;x
+stop_med_tolls_setup;Break the Mediterranean tolls;x
+NORMAL_WAR_REVOKE_TOLLS_NAME;$ORDER$$FIRST$ Revocation of $SECOND$ Tolls;x
+AGRESSION_WAR_REVOKE_TOLLS_NAME;$ORDER$$FIRST$ Revocation of $SECOND$ Tolls;x

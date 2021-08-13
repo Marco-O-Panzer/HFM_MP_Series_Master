@@ -142,6 +142,8 @@ Other
 * GPs cant form tags from outside when it would annex a player (i.e Create Italy)
 * Ai wont take leave sphere decision in MP setup
 * Only GPs with capital in europe can form iberia (from the outside)
+* Ai EIC can take decision for UK to annex it (if Sepoy doesnt fire for some reason)
+* Can now apply tolls across the strait of Gibraltar (and affected nations get a CB to remove it)
 
 Fixes
 * Arabia formation more dynamic, done on the cores of the integrated tags now

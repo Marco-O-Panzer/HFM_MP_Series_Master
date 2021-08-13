@@ -75,6 +75,7 @@ liberate_country
 free_peoples
 free_allied_cores
 free_balkans
+stop_med_tolls
 monroe2     
 monroe_doctrine
 USS_monroe
@@ -2778,6 +2779,61 @@ free_balkans = {
 			from = jingoism 
 			to = pro_military
 			value = 0.25
+		}
+	}
+}
+
+stop_med_tolls = {
+sprite_index = 13
+	is_triggered_only = yes
+	months = 12
+	
+	badboy_factor = 1.5
+	prestige_factor = 1
+	peace_cost_factor = 15
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 48
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	always = yes
+	
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		has_country_modifier = trolling_the_med
+		THIS = { has_country_modifier = med_getting_trolled }
+	}
+
+	po_remove_prestige = yes
+	
+	tws_battle_factor = 2.0
+	
+	war_name = WAR_REVOKE_TOLLS_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+	
+	on_po_accepted = {
+		prestige_factor = -0.2
+		remove_country_modifier = trolling_the_med
+		clr_global_flag = med_tomfoolery
+		set_country_flag = has_trolled_the_med
+		any_country = {
+			limit = {
+				has_country_modifier = med_getting_trolled
+			}
+			country_event = 7777928
 		}
 	}
 }

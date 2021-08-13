@@ -5,10 +5,9 @@ political_decisions = {
 		potential = {
 			tag = EIC
 			is_vassal = yes
-			ai = no
 		}
 		allow = {
-			year = 1860
+			year = 1862		#5 years after historical Sepoy
 		}
 		
 		effect = {

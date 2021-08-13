@@ -28,3 +28,20 @@ anarcho_liberal_desc;Anarchists want the people free of state corceion, and for 
 EVTDESC60020;In the interests of the workers, a serious of confederated communes have been founded across the nation, combining local direct democracy and the principles of free assosication. Resources will be shared as agreed upon, and all workers will enjoy the value of their labour.;x
 EVTOPTA60020;I love anarchism;x
 queppe_gov_type;Anarchist Governance;x
+med_tolls_title;§EToll the Mediterranean Strait§!;x
+med_tolls_desc;Due to our dominance across the strait, we can exact a toll on any foreign ships that pass through the waters. Doing so will increase our income and prestige, but give just cause for war to the affected nations.;x
+revoke_the_tolls_title;§ERevoke our Mediterranean Tolls§!;x
+revoke_the_tolls_desc;The outrage caused by our actions has caused a national security risk. To make ammends we will remove our tolls on ships passing through the strait.;x
+EVTNAME7777926;The New Mediterranean Tolls;x
+EVTDESC7777926;Outrageous! We must now submitting to taxation of our goods transported through the Mediterranean Strait. We can seek to rectify the situation via war, and force the offending nation to back down from their tolls permanently.;x
+EVT7777926OPTA;We will not stand for this affront;x
+EVTNAME7777927;Control lost over the strait;x
+EVTDESC7777927;Since we no longer control key land on either side of the strait, we have been forced to effectively rescind our taxation of goods passing through.;x
+EVT7777927OPTA;Our coffers may now suffer;x
+EVTNAME7777928;Mediterranean Tolls Rescinded;x
+EVTDESC7777928;Through either war or diplomacy (or mayhaps both), the nation that so outrageously taxed our goods passing through the Mediterranean strait has been forced to revoke their charges permanently. Our merchants shall rejoice.;x
+EVT7777928OPTA;As is right;x
+trolling_the_med;Mediterranean Tolls;x
+trolling_the_med_desc;We tax the goods passing through the strait, boosting our coffers and prestige;x
+med_getting_trolled;Mediterranean Tolls;x
+med_getting_trolled_desc;We are being taxed on the value of our goods passing through the strait. This harms our traders and prestige.;x

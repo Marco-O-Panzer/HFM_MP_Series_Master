@@ -212,6 +212,22 @@ capital_mobilisation = {
 	icon = 17
 }
 
+###
+
+trolling_the_med = {
+	tariff_efficiency_modifier = 0.2
+	import_cost = -0.1
+	prestige = 0.05
+	icon = 9
+}
+
+med_getting_trolled = {
+	tariff_efficiency_modifier = -0.1
+	import_cost = 0.1
+	prestige = -0.05
+	icon = 9
+}
+
 ### Haiti stuff ###
 
 reps_haiti = {
