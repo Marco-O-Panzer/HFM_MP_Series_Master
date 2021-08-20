@@ -600,7 +600,7 @@ migration_target = {
 	}
 	
 	modifier = {
-		factor = -2.81
+		factor = 2.81
 		OR = { 
 			is_core = HND
 			continent = indochina

@@ -4,6 +4,7 @@ culture = welsh
 culture = scottish
 culture = anglo_canadian
 culture = australian
+culture = anglo_indian
 religion = protestant
 government = hms_government
 plurality = 30

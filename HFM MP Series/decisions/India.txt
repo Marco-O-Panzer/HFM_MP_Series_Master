@@ -925,7 +925,7 @@ political_decisions = {
 			}
 			add_country_modifier = {
 				name = shastar_vidya
-				duration = -1
+				duration = 7300
 			}
 			plurality = 5
 		}

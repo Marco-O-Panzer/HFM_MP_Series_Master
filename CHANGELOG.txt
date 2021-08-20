@@ -59,6 +59,12 @@ Flavour Changes
 -- Dont have to lose Finish accepted to form (removed abandon Finish, removed concede Finish)
 -- Removed prestige conditions on forming
 -- Any requirement to be a GP is removed, and if a sphere is a condition can alternatively vassalize
+* IBR
+-- Dont need Gibraltar to form Iberia from the outside
+* UK
+-- Starts with Anglo-Indian accepted
+* KUK
+-- Can't greater Germany
 
 Bookmarks
 * New bookmark on the 2nd Jan 1836 that releases Canada and Australia as UK puppets
@@ -80,6 +86,8 @@ Political
 * Liberals only base 50% support pol reforms (increases with mil)
 -- Their support rate for social reforms as mil increases reduced to be inline with cons
 * Immigration attraction drops as we increase (-2*WE = IA decrease)
+* No more RP gain from conquest - swapped for reforms giving RP (with econ giving slightly more)
+* No diplo time lag
 
 CBs & Infamy
 * No jingo requirement for adding wargoals
@@ -91,7 +99,7 @@ CBs & Infamy
 * Can use acquire core CB on one state nations (and therefore also return non cores)
 * Mass Conquest costs 25 infamy justification, and 25 to apply the cb
 
-War
+Military & War
 * Land unit build time reduced, now most at 50 days, some at 40 (irregulars at 30)
 * Revanchism buffs that give mob size and org increases, higher with more revanchism
 * Artillery maneuver increased to 2
@@ -99,11 +107,13 @@ War
 * Gas defense chances to discover now greatly increased when neighbouring or fighting a gas attack nation
 * Ship supply costs halved (so now ~2x base HFM)
 * In 1920 and 1930 combat width will increase by 5 (via hidden invention)
+*
 
 Population
 * Removed new world country flag, now just done on capital location
 * Literacy base change speed reduced 25%
 * 2% Intellectuals now gives +4 RP
+* Some capital liferatings increased in the Americas & Europe
 
 Economy
 * More starting tin and copper provinces
@@ -121,7 +131,7 @@ Static Modifiers
 * Max literacy gives +5 RP
 
 Balance
-* Alexander's reforms dont give Russia the pop growth for quite as long (from 8 to 5 years)
+* Alexander's reforms dont give Russia the pop growth for quite as long (from 8 to 5 years) - and a republican version added
 * Swiss partition now more evenly splits the infamy if all 3 agree
 * Slavery debate effects nerfed
 * Focus at Home gives slight education buff
@@ -135,6 +145,7 @@ Balance
 * Jap pop growth modifier from new capital event reduced
 * Gibraltar terrain combat width now -80%, and supply limit reduced from 16 to 6
 * China cant take self-strengthen decision when already westernised
+* Nerfed and time limited Sikh Shastar reform
 
 Other
 * Questioning our alliance event wont fire for players

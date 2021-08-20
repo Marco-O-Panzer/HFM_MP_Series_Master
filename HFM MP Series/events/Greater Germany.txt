@@ -6,7 +6,7 @@
 
 #Forming Germany as Austria
 
-#This event fires if Austria or Austria-Hungary is in a position to form Germany
+#This event fires if Austria (not Austria-Hungary) is in a position to form Germany
 #but still owns non-Austrian/German core provinces
 
 country_event = {
@@ -21,10 +21,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
-		OR = {
-			tag = AUS
-			tag = KUK
-		}
+		tag = AUS
 		prestige = 45
 		nationalism_n_imperialism = 1
 		is_greater_power = yes
@@ -40,7 +37,7 @@ country_event = {
 								is_vassal = no
 								vassal_of = THIS
 							}
-							war = no
+							#war = no
 							is_greater_power = no
 						}
 					}

@@ -1064,6 +1064,7 @@ economic_reforms = {
 			technology_cost = 4000
 			tax_efficiency = 0.05
 			civilization_progress_modifier = 0.05
+			research_points = 0.05
 			allow = { NOT = { has_country_flag = lacking_writing_system } }
 			
 			on_execute = {
@@ -1090,6 +1091,7 @@ economic_reforms = {
 			technology_cost = 4000
 			tax_efficiency = 0.05
 			civilization_progress_modifier = 0.10
+			research_points = 0.1
 			
 			on_execute = {
 				effect = {
@@ -1123,6 +1125,7 @@ economic_reforms = {
 			technology_cost = 4000 #was 10000
 			education_efficiency_modifier = 0.10
 			civilization_progress_modifier = 0.05
+			research_points = 0.05
 			
 			on_execute = {
 				effect = {
@@ -1148,6 +1151,7 @@ economic_reforms = {
 			technology_cost = 4000
 			education_efficiency_modifier = 0.10
 			civilization_progress_modifier = 0.10
+			research_points = 0.1
 			
 			on_execute = {
 				effect = {
@@ -1181,6 +1185,7 @@ economic_reforms = {
 			technology_cost = 4000
 			civilization_progress_modifier = 0.05
 			allow = { NOT = { has_country_flag = lacking_writing_system } money = 10000 }
+			research_points = 0.05
 			
 			on_execute = {
 				effect = {
@@ -1206,6 +1211,7 @@ economic_reforms = {
 	  firearms_production_two = {
 			technology_cost = 4000
 			civilization_progress_modifier = 0.10
+			research_points = 0.1
 			
 			on_execute = {
 				effect = {
@@ -1239,6 +1245,7 @@ economic_reforms = {
 		yes_land_reform = {
 			technology_cost = 4000 #was 8000
 			civilization_progress_modifier = 0.05 #was 0.15
+			research_points = 0.05
 			
 			on_execute = {
 				effect = {
@@ -1263,6 +1270,7 @@ economic_reforms = {
 		land_reform_two = {
 			technology_cost = 4000
 			civilization_progress_modifier = 0.10
+			research_points = 0.1
 			
 			on_execute = {
 				effect = {
@@ -1293,6 +1301,7 @@ economic_reforms = {
 		yes_admin_reform = {
 			technology_cost = 4000 #was 10000
 			civilization_progress_modifier = 0.05
+			research_points = 0.05
 			
 			on_execute = {
 				effect = {
@@ -1317,6 +1326,7 @@ economic_reforms = {
 		admin_reform_two = { #new
 			technology_cost = 4000
 			civilization_progress_modifier = 0.10
+			research_points = 0.1
 			
 			on_execute = {
 				effect = {
@@ -1349,6 +1359,7 @@ economic_reforms = {
 			technology_cost = 4000 #was 7000
 			civilization_progress_modifier = 0.05 #was 0.15
 			max_loan_modifier = -1.0 # no loan 4 u
+			research_points = 0.05
 			
 			on_execute = {
 				effect = {
@@ -1373,7 +1384,7 @@ economic_reforms = {
 		finance_reform_two = {
 			technology_cost = 4000
 			civilization_progress_modifier = 0.10 #was 0.35
-			
+			research_points = 0.1
 			max_loan_modifier = -0.2 # 80% loans
 			
 			on_execute = {
@@ -1406,6 +1417,8 @@ economic_reforms = {
 		yes_western_science = {
 			technology_cost = 4000
 			civilization_progress_modifier = 0.05
+			research_points = 0.05
+			
 			on_execute = {
 				effect = {
 					activate_technology = late_enlightenment_philosophy
@@ -1430,6 +1443,9 @@ economic_reforms = {
 		western_science_two = {
 			technology_cost = 4000
 			civilization_progress_modifier = 0.10
+			research_points = 0.1
+			
+			
 			on_execute = {
 				effect = {
 					
@@ -1463,6 +1479,8 @@ economic_reforms = {
 			farm_rgo_eff = 0.20
 			mine_rgo_eff = 0.20
 			civilization_progress_modifier = 0.05 #was 0.15
+			research_points = 0.05
+			
 			on_execute = {
 				trigger = {
 					can_build_railway_in_capital = {
@@ -1499,6 +1517,7 @@ economic_reforms = {
 			farm_rgo_eff = 0.40
 			mine_rgo_eff = 0.40
 			civilization_progress_modifier = 0.10
+			research_points = 0.1
 			
 			on_execute = {
 				effect = {
@@ -1530,6 +1549,8 @@ economic_reforms = {
 		yes_pre_indust = {
 			technology_cost = 4000 #was 15000
 			civilization_progress_modifier = 0.05 #was 0.10
+			research_points = 0.05
+			
 			on_execute = {
 				trigger = {
 					can_build_factory_in_capital_state = canned_food_factory # example, no trigger needed here
@@ -1558,6 +1579,8 @@ economic_reforms = {
 		pre_indust_two = { #was in own category
 			technology_cost = 4000
 			civilization_progress_modifier = 0.10
+			research_points = 0.1
+			
 			on_execute = {
 				effect = {
 					activate_technology = organized_factories
@@ -1590,6 +1613,8 @@ economic_reforms = {
 		yes_industrial_construction = {
 			technology_cost = 4000
 			civilization_progress_modifier = 0.05
+			research_points = 0.05
+			
 			on_execute = {
 				effect = {
 					activate_technology = mechanical_production
@@ -1613,6 +1638,8 @@ economic_reforms = {
 		industrial_construction_two = {
 			technology_cost = 4000
 			civilization_progress_modifier = 0.10
+			research_points = 0.1
+			
 			on_execute = {
 				effect = {
 					
@@ -1650,7 +1677,8 @@ military_reforms = {
 			land_organisation = 0.1
 			mobilisation_size = 0.1
 			civilization_progress_modifier = 0.05
-			research_points_on_conquer = 0.05 #0.25
+			#research_points_on_conquer = 0.05 #0.25
+			research_points = 0.02
 
 			
 			on_execute = {
@@ -1677,7 +1705,8 @@ military_reforms = {
 			land_organisation = 0.15
 			mobilisation_size = 0.2
 			civilization_progress_modifier = 0.10
-			research_points_on_conquer = 0.10
+			#research_points_on_conquer = 0.10
+			research_points = 0.05
 			
 
 			on_execute = {
@@ -1709,7 +1738,8 @@ military_reforms = {
 			land_defense_modifier = 0.1
 			technology_cost = 4000 #was 10000
 			civilization_progress_modifier = 0.05 #was 0.10
-			research_points_on_conquer = 0.05 #0.25
+			#research_points_on_conquer = 0.05 #0.25
+			research_points = 0.02
 
 			on_execute = {
 				effect = {
@@ -1735,7 +1765,9 @@ military_reforms = {
 			technology_cost = 4000
 			land_defense_modifier = 0.15
 			civilization_progress_modifier = 0.10
-			research_points_on_conquer = 0.10
+			#research_points_on_conquer = 0.10
+			research_points = 0.05
+			
 			on_execute = {
 				effect = {
 					activate_technology = muzzle_loaded_rifles
@@ -1765,6 +1797,8 @@ military_reforms = {
 		yes_military_constructions = {
 			technology_cost = 4000 #10000
 			civilization_progress_modifier = 0.05
+			research_points = 0.02
+			
 			on_execute = {
 				effect = {
 					activate_technology = post_napoleonic_thought
@@ -1789,6 +1823,7 @@ military_reforms = {
 		military_constructions_two = {
 			technology_cost = 4000
 			civilization_progress_modifier = 0.10
+			research_points = 0.05
 
 			on_execute = {
 				effect = {
@@ -1824,7 +1859,8 @@ military_reforms = {
 			leadership_modifier = 0.10
 			technology_cost = 4000 #was 10000
 			civilization_progress_modifier = 0.05 #was 0.10
-			research_points_on_conquer = 0.10 #was 0.25
+			#research_points_on_conquer = 0.10 #was 0.25
+			research_points = 0.02
 			
 			on_execute = {
 				effect = {
@@ -1850,7 +1886,8 @@ military_reforms = {
 			leadership_modifier = 0.20
 			technology_cost = 4000
 			civilization_progress_modifier = 0.10
-			research_points_on_conquer = 0.15
+			#research_points_on_conquer = 0.15
+			research_points = 0.05
 
 			on_execute = {
 
@@ -1883,6 +1920,7 @@ military_reforms = {
 			land_unit_start_experience = 10
 			technology_cost = 4000 #was 10000
 			civilization_progress_modifier = 0.05 #was 0.10
+			research_points = 0.02
 		
 			on_execute = {
 				effect = {
@@ -1908,6 +1946,7 @@ military_reforms = {
 			land_unit_start_experience = 10
 			technology_cost = 4000
 			civilization_progress_modifier = 0.10
+			research_points = 0.05
 		
 			on_execute = {
 				effect = {
@@ -1939,7 +1978,8 @@ military_reforms = {
 			tariff_efficiency_modifier = 0.10 #was 0.20
 			technology_cost = 4000 #was 10000
 			civilization_progress_modifier = 0.05 #was 0.10
-			research_points_on_conquer = 0.05 #new
+			#research_points_on_conquer = 0.05 #new
+			research_points = 0.02
 			
 			on_execute = {
 				effect = {
@@ -1965,7 +2005,8 @@ military_reforms = {
 			tariff_efficiency_modifier = 0.20
 			technology_cost = 4000
 			civilization_progress_modifier = 0.10
-			research_points_on_conquer = 0.10
+			#research_points_on_conquer = 0.10
+			research_points = 0.05
 
 			on_execute = {
 				effect = {
@@ -1999,7 +2040,8 @@ military_reforms = {
 			naval_defense_modifier = 0.2
 			technology_cost = 4000 #10000
 			civilization_progress_modifier = 0.05 #was 0.10
-			research_points_on_conquer = 0.05 #new
+			#research_points_on_conquer = 0.05 #new
+			research_points = 0.02
 			
 			on_execute = {
 				effect = {
@@ -2026,7 +2068,8 @@ military_reforms = {
 			naval_defense_modifier = 0.4
 			technology_cost = 4000 #10000
 			civilization_progress_modifier = 0.1
-			research_points_on_conquer = 0.10
+			#research_points_on_conquer = 0.10
+			research_points = 0.05
 			
 			on_execute = {
 				effect = {
@@ -2059,6 +2102,7 @@ military_reforms = {
 			naval_unit_start_experience = 10
 			technology_cost = 4000 #was 10000
 			civilization_progress_modifier = 0.05 #was 0.10
+			research_points = 0.02
 			
 			on_execute = {
 				effect = {
@@ -2083,6 +2127,7 @@ military_reforms = {
 		naval_schools_two = { #new
 			technology_cost = 4000
 			civilization_progress_modifier = 0.10
+			research_points = 0.05
 
 			on_execute = {
 				effect = {
@@ -2114,6 +2159,7 @@ military_reforms = {
 		yes_western_shipyards = {
 			technology_cost = 4000
 			civilization_progress_modifier = 0.05
+			research_points = 0.02
 			
 			allow = {
 				any_owned_province = { port = yes }
@@ -2144,6 +2190,7 @@ military_reforms = {
 		western_shipyards_two = {
 			technology_cost = 4000
 			civilization_progress_modifier = 0.10
+			research_points = 0.05
 			
 			allow = {
 				any_owned_province = { port = yes }
@@ -2181,6 +2228,7 @@ military_reforms = {
 		yes_foreign_artillery = {
 			technology_cost = 4000
 			civilization_progress_modifier = 0.05
+			research_points = 0.02
 			
 			on_execute = {
 				effect = {
@@ -2207,6 +2255,7 @@ military_reforms = {
 		foreign_artillery_two = {
 			technology_cost = 4000
 			civilization_progress_modifier = 0.10
+			research_points = 0.05
 			
 			on_execute = {
 				effect = {

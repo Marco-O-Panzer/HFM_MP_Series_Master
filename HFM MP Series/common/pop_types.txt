@@ -492,13 +492,13 @@ migration_chance = {
 	modifier = {
 		factor = -2.2
 		state_scope = { is_colonial = yes }
-		NOT = { has_country_flag = increased_migration_to_states }
+		country = { NOT = { has_country_flag = increased_migration_to_states } }
 	}
 	
 	modifier = {
 		factor = -0.5
 		state_scope = { is_colonial = yes }
-		has_country_flag = increased_migration_to_states
+		country = { has_country_flag = increased_migration_to_states }
 	}
 	
 	modifier = {
@@ -1467,32 +1467,8 @@ emigration_chance = {
 		}
 		country = { 
 			primary_culture = british
+			NOT = { has_country_flag = our_home }
 		}
-	}
-	
-	modifier = {
-		factor = -0.2
-		THIS = { 
-			OR = { 
-				has_pop_culture = british
-				has_pop_culture = scottish
-				has_pop_culture = welsh
-			}
-		}
-		NOT = { year = 1905 }
-		location = { controlled_by = owner }
-		location = {
-			NOT = {
-				state_id = 254
-				state_id = 258
-				state_id = 260
-				state_id = 263
-			}
-		}
-		country = { 
-			primary_culture = british
-		}
-		has_country_flag = our_home
 	}
 	
 	modifier = {

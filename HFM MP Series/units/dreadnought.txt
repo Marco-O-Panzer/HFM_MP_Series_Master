@@ -24,7 +24,7 @@ dreadnought = {
 	#Building Costs
 	build_time = 360
 	build_cost = {
-		interwar_hull = 25
+		steamer_convoy = 100
 		artillery = 30
 		canned_food = 20
 		telephones = 20
@@ -37,7 +37,7 @@ dreadnought = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		interwar_hull = 0.7
+		steamer_convoy = 4
 		artillery = 1.6
 		canned_food = 2
 		telephones = 0.04

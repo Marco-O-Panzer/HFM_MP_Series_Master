@@ -713,23 +713,15 @@ political_decisions = {
 				government = fascist_dictatorship
 				government = proletarian_dictatorship
 			}
+			owns = 706
+			owns = 715
+			owns = 707
+			owns = 719
 		}
 		
 		effect = {
 			set_country_flag = poland_is_russian
 			badboy = 8
-			random_owned = {
-				limit = {
-					OR = {
-						owner = { government = fascist_dictatorship }
-						owner = { government = proletarian_dictatorship }
-					}
-				}
-				RUS_706 = { add_core = RUS }
-				RUS_715 = { add_core = RUS }
-				707 = { add_core = RUS }
-				719 = { add_core = RUS }
-			}
 			any_owned = {
 				limit = {
 					OR = {

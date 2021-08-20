@@ -69,7 +69,7 @@ political_decisions = {
 		picture = the_central_asia_yes
 		alert = no
 		potential = { 
-			civilized = yes
+			ai = no
 			NOT = { has_country_flag = begin_land_transfer }
 			NOT = { has_country_flag = hiding_the_decisions }
 			has_global_flag = mp_setup
@@ -82,32 +82,32 @@ political_decisions = {
 		}
 	}
 	
-	land_transfer_unciv = {
-		picture = the_central_asia_yes
-		alert = no
-		potential = { 
-			civilized = no
-			NOT = { has_country_flag = begin_land_transfer }
-			NOT = { has_country_flag = hiding_the_decisions }
-			has_global_flag = mp_setup
-		}
-		
-		allow = { ai = no }
-		
-		effect = {
-			set_country_flag = begin_land_transfer
-			add_country_modifier = {
-				name = transfer_rp_debuff
-				duration = -1
-			}
-		}
-	}
+#	land_transfer_unciv = {
+#		picture = the_central_asia_yes
+#		alert = no
+#		potential = { 
+#			civilized = no
+#			NOT = { has_country_flag = begin_land_transfer }
+#			NOT = { has_country_flag = hiding_the_decisions }
+#			has_global_flag = mp_setup
+#		}
+#		
+#		allow = { ai = no }
+#		
+#		effect = {
+#			set_country_flag = begin_land_transfer
+#			add_country_modifier = {
+#				name = transfer_rp_debuff
+#				duration = -1
+#			}
+#		}
+#	}
 	
 	end_land_transfer = {
 		picture = the_central_asia_no
 		alert = no
 		potential = { 
-			civilized = yes
+			ai = no
 			has_country_flag = begin_land_transfer
 			NOT = { has_country_flag = hiding_the_decisions }
 			has_global_flag = mp_setup
@@ -121,24 +121,24 @@ political_decisions = {
 		}
 	}
 	
-	end_land_transfer_unciv = {
-		picture = the_central_asia_no
-		alert = no
-		potential = { 
-			civilized = no
-			has_country_flag = begin_land_transfer
-			war = no
-			NOT = { has_country_flag = hiding_the_decisions }
-			has_global_flag = mp_setup
-		}
-		
-		allow = { ai = no }
-		
-		effect = {
-			clr_country_flag = begin_land_transfer
-			remove_country_modifier = transfer_rp_debuff
-		}
-	}
+#	end_land_transfer_unciv = {
+#		picture = the_central_asia_no
+#		alert = no
+#		potential = { 
+#			civilized = no
+#			has_country_flag = begin_land_transfer
+#			war = no
+#			NOT = { has_country_flag = hiding_the_decisions }
+#			has_global_flag = mp_setup
+#		}
+#		
+#		allow = { ai = no }
+#		
+#		effect = {
+#			clr_country_flag = begin_land_transfer
+#			remove_country_modifier = transfer_rp_debuff
+#		}
+#	}
 	
 	stop_bankrupt_events = {
 		picture = accept_trade_no

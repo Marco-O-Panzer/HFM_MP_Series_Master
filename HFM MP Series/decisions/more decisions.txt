@@ -80,13 +80,13 @@ political_decisions = {
 						}
 					}
 				}
-				517 = {
-					OR = {
-						owned_by = THIS
-						owner = { in_sphere = THIS }
-						owner = { vassal_of = THIS }
-					}
-				}
+				#517 = {
+				#	OR = {
+				#		owned_by = THIS
+				#		owner = { in_sphere = THIS }
+				#		owner = { vassal_of = THIS }
+				#	}
+				#}
 			}
 		effect = {
 			set_global_flag = created_iberia
