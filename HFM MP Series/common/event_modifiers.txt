@@ -55,6 +55,10 @@ home_focus = {
 	icon = 11
 }
 
+home_focus_trial = {
+	icon = 11
+}
+
 internally_reforming = {
 	political_reform_desire = 0.25
 	social_reform_desire = 0.25
@@ -2415,26 +2419,26 @@ kobu_gattai = {
 
 fukoku_kyohei = {
 	prestige = 0.01
-	research_points = 1
+	#research_points = 1
 	core_pop_consciousness_modifier = 0.05
 	core_pop_militancy_modifier = -0.05
 	icon = 3
 }
 
 line_of_advantage = {
-	org_regain = 0.25
-	leadership_modifier = 0.2
-	land_organisation = 0.1
-	naval_organisation = 0.1
+	#org_regain = 0.25
+	#leadership_modifier = 0.2
+	#land_organisation = 0.1
+	#naval_organisation = 0.1
 	cb_generation_speed_modifier = 0.2
 	icon = 15
 }
 
 no_line_of_advantage = {
-	research_points_modifier = 0.1
+	research_points_modifier = 0.05	#0.1
 	political_reform_desire = 0.1
 	cb_generation_speed_modifier = -0.2
-	rgo_output = 0.05
+	#rgo_output = 0.05
 	icon = 15
 }
 

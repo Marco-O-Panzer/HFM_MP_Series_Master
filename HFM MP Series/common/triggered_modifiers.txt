@@ -1432,25 +1432,49 @@ bread_basket = {
 		958 = { #Kyiv
 			OR = {
 				owned_by = THIS
-				owner = { in_sphere = THIS vassal_of = THIS is_greater_power = no }
+				owner = {
+					OR = {
+						in_sphere = THIS 
+						vassal_of = THIS
+					}
+					is_greater_power = no
+				}
 			}
 		}
 		961 = { #Cherkassy
 			OR = {
 				owned_by = THIS
-				owner = { in_sphere = THIS vassal_of = THIS is_greater_power = no }
+				owner = {
+					OR = {
+						in_sphere = THIS 
+						vassal_of = THIS
+					}
+					is_greater_power = no
+				}
 			}
 		}
 		977 = { #Kursk
 			OR = {
 				owned_by = THIS
-				owner = { in_sphere = THIS vassal_of = THIS is_greater_power = no }
+				owner = {
+					OR = {
+						in_sphere = THIS 
+						vassal_of = THIS
+					}
+					is_greater_power = no
+				}
 			}
 		}
 		968 = { #Odessa
 			OR = {
 				owned_by = THIS
-				owner = { in_sphere = THIS vassal_of = THIS is_greater_power = no }
+				owner = {
+					OR = {
+						in_sphere = THIS 
+						vassal_of = THIS
+					}
+					is_greater_power = no
+				}
 			}
 		}
 	}

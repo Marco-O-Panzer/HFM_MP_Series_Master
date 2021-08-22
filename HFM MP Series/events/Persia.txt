@@ -761,10 +761,6 @@ country_event = {
 	option = {
 		name = "EVT110084OPTA" #This seems fair.
 		prestige = 5
-		all_core = { 
-			limit = { is_core = PER }
-			remove_core = TUR 
-		}
 		TUR = {
 			all_core = { 
 				limit = { is_core = TUR } 

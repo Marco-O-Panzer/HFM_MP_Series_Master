@@ -45,3 +45,7 @@ trolling_the_med;Mediterranean Tolls;x
 trolling_the_med_desc;We tax the goods passing through the strait, boosting our coffers and prestige;x
 med_getting_trolled;Mediterranean Tolls;x
 med_getting_trolled_desc;We are being taxed on the value of our goods passing through the strait. This harms our traders and prestige.;x
+un_focus_at_home_title;§ERemove Domestic Focus§!;x
+un_focus_at_home_desc;During the 70 day trial period our domestic focus can be removed, beyond that it can't.;x
+home_focus_trial;§EDomestic Focus Trial§!;x
+home_focus_trial_desc;Can remove Domestic Focus modifier during the first 70 days;x

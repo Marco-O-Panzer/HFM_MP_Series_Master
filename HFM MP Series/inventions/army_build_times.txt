@@ -6,12 +6,15 @@ professional_training = {
 	effect = {
 		artillery = {
 			build_time = 25
+			maximum_speed = 0.5
 		}
 		infantry = {
 			build_time = 20
+			maximum_speed = 0.5
 		}
 		guard = {
 			build_time = 25
+			maximum_speed = 0.5
 		}
 		engineer = {
 			build_time = 25
@@ -42,15 +45,21 @@ professional_training_2 = {
 	effect = {
 		artillery = {
 			build_time = 25
+			maximum_speed = 0.5
 		}
 		infantry = {
 			build_time = 20
+			maximum_speed = 0.5
 		}
 		guard = {
 			build_time = 25
+			maximum_speed = 0.5
 		}
 		engineer = {
 			build_time = 25
+		}
+		tank = {
+			maximum_speed = 1
 		}
 	}
 }

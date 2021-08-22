@@ -272,6 +272,7 @@ political_decisions = {
 			exists = yes
 			NOT = { has_country_modifier = home_focus }
 			NOT = { has_country_flag = hiding_the_decisions }
+			ai = no
 		}
 		allow = {
 			state_n_government = 1
@@ -282,11 +283,34 @@ political_decisions = {
 				name = home_focus
 				duration = 3650
 			}
+			add_country_modifier = {
+				name = home_focus_trial
+				duration = 70
+			}
 		}
 		ai_will_do = {
 			factor = 0
 		}
-	} 
+	}
+	un_focus_at_home = {
+		picture = manufacturing_belt
+		potential = {
+			exists = yes
+			has_country_modifier = home_focus
+			has_country_modifier = home_focus_trial
+			NOT = { has_country_flag = hiding_the_decisions }
+			ai = no
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			remove_country_modifier = home_focus
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
 #	internal_reform = {
 #		picture = enact_female_suffrage
 #		potential = {
