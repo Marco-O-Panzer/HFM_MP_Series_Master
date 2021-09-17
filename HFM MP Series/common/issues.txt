@@ -143,39 +143,29 @@ party_issues = {
 	war_policy = {
 		jingoism = {
 			max_military_spending = 1.0
-			supply_consumption = 0.1
+			supply_consumption = 0.2
 			war_exhaustion_effect = 0.5
 			is_jingoism = yes
 			cb_generation_speed_modifier = 0.3
-			mobilization_impact = 4
-			org_regain = 0.5
-			reinforce_speed = 0.5
+			mobilisation_size = 0.01
 		}
 		pro_military = {
 			max_military_spending = 1.0
+			supply_consumption = 0.1
 			war_exhaustion_effect = 0.7
 			cb_generation_speed_modifier = 0.2
-			mobilization_impact = 3
-			org_regain = 0.25
-			reinforce_speed = 0.25
 		}
 		anti_military = {
-			max_military_spending = 0.5
-			supply_consumption = -0.25
+			max_military_spending = 0.75
 			war_exhaustion_effect = 1.2
 			cb_generation_speed_modifier = -0.2
-			mobilization_impact = 2
-			org_regain = -0.25
-			reinforce_speed = -0.25
 		}
 		pacifism = {
-			max_military_spending = 0.4
-			supply_consumption = -0.5
+			max_military_spending = 0.5
+			supply_consumption = -0.1
 			war_exhaustion_effect = 1.5
 			cb_generation_speed_modifier = -0.4
-			mobilization_impact = 1
-			org_regain = -0.5
-			reinforce_speed = -0.5
+			mobilization_impact = -0.1
 		}
 	}
 	social_policy = {
@@ -188,7 +178,7 @@ party_issues = {
             min_social_spending = 0
         }
         no_position_set = {
-            max_social_spending = 0
+            max_social_spending = 1
             min_social_spending = 0
         }
         populist_welfare = {
@@ -449,21 +439,35 @@ political_reforms = {
 	conscription = {
 		next_step_only = yes
 		mandatory_service = {
-			mobilisation_size = 0.06
+			min_military_spending = 0.5
+			mobilisation_size = 0.04
 			mobilisation_economy_impact = 1
 			land_unit_start_experience = 10
+			org_regain = 0.5
+			reinforce_speed = 0.5
+			supply_consumption = 0.2
 			global_immigrant_attract = -0.1
-			education_efficiency_modifier = -0.01
+			education_efficiency_modifier = -0.05
+			badboy = 0.01
+			allow = { has_country_flag = changing_militarisation }
 		}
 		four_year_draft = {
-			mobilisation_size = 0.04
+			min_military_spending = 0.25
+			mobilisation_size = 0.02
 			mobilisation_economy_impact = 0.1
 			land_unit_start_experience = 5
+			org_regain = 0.25
+			reinforce_speed = 0.25
+			supply_consumption = 0.1
 			global_immigrant_attract = -0.05
+			allow = { has_country_flag = changing_militarisation }
 		}
 		two_year_draft = {
-			mobilisation_size = 0.02
+			mobilisation_size = -0.02
 			mobilisation_economy_impact = 0.05
+			war_exhaustion = -0.5
+			badboy = -0.01
+			allow = { has_country_flag = changing_militarisation }
 		}
 #		one_year_draft = {
 #			mobilisation_size = 0.01
@@ -477,14 +481,15 @@ political_reforms = {
 #			}
 #		}
 		no_draft = {
-			global_immigrant_attract = 0.05
+			mobilisation_size = -0.02
 			land_unit_start_experience = -5
-			allow = {
-				OR = {
-					NOT = { war_policy = jingoism }
-					NOT = { war_policy = pro_military}
-				}
-			}
+			org_regain = -0.25
+			reinforce_speed = -0.25
+			supply_consumption = -0.15
+			badboy = -0.02
+			culture_tech_research_bonus = 0.05
+			education_efficiency_modifier = 0.1
+			allow = { has_country_flag = changing_militarisation }
 		}
 	}
 	

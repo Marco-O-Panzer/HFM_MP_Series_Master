@@ -13,6 +13,8 @@ political_decisions = {
 		
 		allow = {
 			war = no
+			THIS = { all_core = { owned_by = THIS } }
+			revolution_n_counterrevolution = 1
 		}
 		
 		effect = {

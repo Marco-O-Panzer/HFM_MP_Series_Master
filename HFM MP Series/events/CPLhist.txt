@@ -62,22 +62,22 @@ country_event = {
 		name = "EVTOPT500001A"
 		set_global_flag = january_uprising_happened
 		set_country_flag = through_january_uprising
-		CPL = { 
-			all_core = { 
-				limit = {
-					owned_by = RUS
-				}
-				add_core = RUS
-			}
-		}
-		CPL = { 
-			all_core = { 
-				limit = {
-					owned_by = PRU
-				}
-				add_core = PRU
-			}
-		}
+		#CPL = { 
+		#	all_core = { 
+		#		limit = {
+		#			owned_by = RUS
+		#		}
+		#		add_core = RUS
+		#	}
+		#}
+		#CPL = { 
+		#	all_core = { 
+		#		limit = {
+		#			owned_by = PRU
+		#		}
+		#		add_core = PRU
+		#	}
+		#}
 		release = CPL
 		any_owned = {
 			limit = {
@@ -198,22 +198,22 @@ country_event = {
 		name = "EVTOPT500001D"
 		set_global_flag = january_uprising_happened
 		set_country_flag = through_january_uprising
-		CPL = { 
-			all_core = { 
-				limit = {
-					owned_by = RUS
-				}
-				add_core = RUS
-			}
-		}
-		CPL = { 
-			all_core = { 
-				limit = {
-					owned_by = PRU
-				}
-				add_core = PRU
-			}
-		}
+		#CPL = { 
+		#	all_core = { 
+		#		limit = {
+		#			owned_by = RUS
+		#		}
+		#		add_core = RUS
+		#	}
+		#}
+		#CPL = { 
+		#	all_core = { 
+		#		limit = {
+		#			owned_by = PRU
+		#		}
+		#		add_core = PRU
+		#	}
+		#}
 		release = CPL
 		any_owned = {
 			limit = {

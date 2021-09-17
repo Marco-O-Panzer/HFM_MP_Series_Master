@@ -49,3 +49,13 @@ un_focus_at_home_title;§ERemove Domestic Focus§!;x
 un_focus_at_home_desc;During the 70 day trial period our domestic focus can be removed, beyond that it can't.;x
 home_focus_trial;§EDomestic Focus Trial§!;x
 home_focus_trial_desc;Can remove Domestic Focus modifier during the first 70 days;x
+changing_militarisation;Changing Militarisation;x
+EVTNAME7777929;Militarisation;x
+EVTDESC7777929;Instutions take time to have change affected in them, and the policies of the parties in power is what initiates these gradual shifts. Jingoism is locked to the two highest levels, pro-military to the top three, anti-military to the bottom three, and pacifism to the bottom two. The level can be raised or lowered by the executive anyway to a certain degree, as long as it doesnt violate these war policies.;x
+EVT7777929OPTA;Raise militarisation;x
+EVT7777929OPTB;Maintain militarisation;x
+EVT7777929OPTC;Lower militarisation;x
+jingoism_desc;The military is the centrepiece of the state and military spending is prioritised.\n§YLocks militarisation levels to Mandatory and Partial§!;;;;;;;;;;x;;;;
+pro_military_desc;The government is a strong supporter of the armed services.\n§YLocks militarisation levels to Mandatory, Partial and Volunteer§!;;;;;;;;;;x;;;;
+anti_military_desc;The armed forces are a drain on the state coffers and the government feels money is better spent elsewhere.\n§YLocks militarisation levels to Partial, Volunteer and Disarmed§!;;;;;;;;;;x;;;;
+pacifism_desc;The government is actively hostile to the interests of the military, feeling they are opposed to the government policies.\n§YLocks militarisation levels to Volunteer and Pacifism§!;;;;;;;;;;x;;;;

@@ -1472,6 +1472,31 @@ emigration_chance = {
 	}
 	
 	modifier = {
+		factor = -0.2
+		THIS = { 
+			OR = { 
+				has_pop_culture = british
+				has_pop_culture = scottish
+				has_pop_culture = welsh
+			}
+		}
+		NOT = { year = 1905 }
+		location = { controlled_by = owner }
+		location = {
+			NOT = {
+				state_id = 254
+				state_id = 258
+				state_id = 260
+				state_id = 263
+			}
+		}
+		country = { 
+			primary_culture = british
+		}
+		has_country_flag = our_home
+	}
+	
+	modifier = {
 		factor = 0.2
 		THIS = { 
 			has_pop_culture = irish

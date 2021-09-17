@@ -605,6 +605,7 @@ political_decisions = {
 				exists = DNB
 				exists = HUN
 				has_global_flag = proposed_danube_federation
+				has_global_flag = mp_setup
 			}
 		}
 		
@@ -637,6 +638,74 @@ political_decisions = {
 			}
 		}
 		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						ruling_party_ideology = liberal
+						ruling_party_ideology = socialist
+					}
+				}
+			}
+		}
+	}
+	
+	establish_danube_federation = {
+		potential = {
+			tag = KUK
+			owns = 619
+			owns = 641
+			OR = {
+				any_owned_province = { is_core = BOH }
+				any_owned_province = { is_core = SLO }
+				any_owned_province = { is_core = SLV }
+				any_owned_province = { is_core = POL }
+				any_owned_province = { is_core = ROM }
+				any_owned_province = { is_core = CRO }
+			}
+			NOT = {
+				exists = DNB
+				exists = HUN
+			}
+			has_global_flag = mp_setup
+		}
+
+		allow = {
+			war = no
+			OR = {
+				is_greater_power = yes
+				is_secondary_power = yes
+			}
+			revolution_n_counterrevolution = 1
+			social_science = 1
+			OR = {
+				government = democracy
+				government = hms_government
+			}
+			NOT = {
+				average_militancy = 4
+				num_of_revolts = 1
+			}
+		}
+
+		effect = {
+			prestige = 25
+			political_reform = state_equal_weight
+			political_reform = confederalism
+			all_core = {
+				remove_core = KUK
+				add_core = DNB
+			}
+			change_tag = DNB
+			nationalvalue = nv_equality
+			add_country_modifier = {
+				name = national_confusion
+				duration = 3650
+			}
+		}
+
 		ai_will_do = {
 			factor = 1
 			modifier = {

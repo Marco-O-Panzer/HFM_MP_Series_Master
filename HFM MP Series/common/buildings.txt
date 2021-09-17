@@ -666,12 +666,12 @@ bank = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 50
-	cost = 1000
 	goods_cost = 
 	{
 		steel = 350
 		cement = 500
 		glass = 350
+		lumber = 200
 	}
 	time = 200
 	visibility = yes
@@ -686,12 +686,12 @@ stock_exchange = {
 	on_completion = factory
 	completion_size = 0.2
 	max_level = 50
-	cost = 10000
 	goods_cost = 
 	{
 		steel = 150
 		cement = 250
 		glass = 250
+		lumber = 100
 	}
 	time = 100
 	visibility = yes

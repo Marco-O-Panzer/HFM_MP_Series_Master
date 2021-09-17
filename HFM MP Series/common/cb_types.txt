@@ -6457,7 +6457,7 @@ liberate_puppet = {
 	months = 12
 	
 
-	badboy_factor = 3
+	badboy_factor = 4
 	prestige_factor = 2
 	peace_cost_factor = 1
 	penalty_factor = 1
@@ -6481,6 +6481,7 @@ liberate_puppet = {
 		number_of_states = 2
 		THIS = { NOT = { has_country_modifier = neutrality } }
 		THIS = { is_greater_power = yes }
+		THIS = { mass_politics = 1 }
 		OR = {
 			war_with = THIS
 			THIS = { NOT = { has_country_modifier = no_more_war } }

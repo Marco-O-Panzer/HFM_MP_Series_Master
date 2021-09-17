@@ -16,6 +16,7 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = greater_norway
+			badboy = 5
 			GRN = { all_core = { add_core = NOR } }
 			ICL = { all_core = { add_core = NOR } }
 			253 = { add_core = NOR }
@@ -163,6 +164,7 @@ political_decisions = {
 
 		effect = {
 			set_country_flag = claim_greater_albania
+			badboy = 5
 			800 = { #Ulcinj
 				add_core = ALB
 			}
@@ -275,6 +277,7 @@ political_decisions = {
 			military_score = 40
 		}
 		effect = {
+			badboy = 5
 			1218 = {
 				add_core = AFG
 			}
@@ -358,6 +361,7 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = claimed_greater_nepal
+			badboy = 5
 			1235 = { add_core = NEP }
 			1328 = { add_core = NEP }
 			1252 = { add_core = NEP }
@@ -399,6 +403,7 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = claimed_greater_serbia
+			badboy = 15
 			add_accepted_culture = montenegrin
 			prestige = 10
 			AUS_777 = { add_core = SER }
@@ -435,6 +440,7 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = reclaimed_croatia
+			badboy = 10
 			prestige = 5
 			AUS_771 = { add_core = HUN }
 			AUS_777 = { add_core = HUN }
@@ -473,6 +479,7 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = claimed_greater_macedonia
+			badboy = 10
 			prestige = 5
 			808 = { add_core = MCD }
 			823 = { add_core = MCD }
@@ -506,11 +513,13 @@ political_decisions = {
 				is_greater_power = yes
 				is_secondary_power = yes
 			}
+			nationalism_n_imperialism = 1
 			#government = fascist_dictatorship
 		}
 		
 		effect = {
 			set_country_flag = claimed_greater_ukraine
+			badboy = 15
 			prestige = 10
 			DON = { all_core = { add_core = UKR } }
 			RUT = { all_core = { add_core = UKR } }
@@ -629,6 +638,7 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = claimed_greater_assyria
+			badboy = 10
 			prestige = 5
 			923 = {
 				change_province_name = "Nineveh"
@@ -671,13 +681,15 @@ political_decisions = {
 		potential = {
 			tag = BRZ
 			NOT = { has_country_flag = cisplatina_is_ours  }
-			is_greater_power = yes
 		}
 		
 		allow = {
 			nationalism_n_imperialism = 1
 			romanticism = 1
-			is_greater_power = yes
+			OR = {
+				is_greater_power = yes
+				is_secondary_power = yes
+			}
 		}
 		
 		effect = {
@@ -708,13 +720,15 @@ political_decisions = {
 		potential = {
 			tag = BRZ
 			NOT = { has_country_flag = prata_is_ours }
-			is_greater_power = yes
 		}
 		
 		allow = {
 			has_country_flag = cisplatina_is_ours
 			nationalism_n_imperialism = 1
-			is_greater_power = yes
+			OR = {
+				is_greater_power = yes
+				is_secondary_power = yes
+			}
 		}
 		
 		effect = {
@@ -960,7 +974,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			badboy = 10
+			badboy = 20
 			set_country_flag = claimed_greater_syria
 			1756 = { add_core = SYR }
 			1757 = { add_core = SYR }
@@ -1255,6 +1269,7 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = ulster_scot
+			badboy = 5
 			ENG_254 = { add_core = SCO }
 		}
 		

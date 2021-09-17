@@ -51,7 +51,7 @@ country = {
 	ECONOMIC_REFORM_UH_FACTOR = -0.40,
 	MILITARY_REFORM_UH_FACTOR = -0.40,
 	WRONG_REFORM_RADICAL_IMPACT = 15,
-	TECH_YEAR_SPAN = 150,
+	TECH_YEAR_SPAN = 100,
 	TECH_FACTOR_VASSAL = 0.5, -- cost reduction factor if overlord has research the tech
 	MAX_SUPPRESSION = 100,
 	PRESTIGE_HIT_ON_BREAK_COUNTRY = -0.20, -- percentage reduction when country gets taken by rebels
@@ -189,10 +189,10 @@ military = {
 	RECON_SIEGE_EFFECT = 0.5, -- multiplier to effect of recon on speeding up sieges
 	SIEGE_ATTRITION = 2, -- fixed attrition on sieging units
 	BASE_MILITARY_TACTICS = 1.5, -- base mil tactics before tech
-	NAVAL_LOW_SUPPLY_DAMAGE_SUPPLY_STATUS = 0.1, -- how little supply is acceptable before getting damage to STR
+	NAVAL_LOW_SUPPLY_DAMAGE_SUPPLY_STATUS = 0.5, -- how little supply is acceptable before getting damage to STR
 	NAVAL_LOW_SUPPLY_DAMAGE_DAYS_DELAY = 30, -- delay in days before the STR will get damage due to no supplies. Sometimes supply status may jump bcoz of the market.
 	NAVAL_LOW_SUPPLY_DAMAGE_MIN_STR = 5.0, -- when low supply, the navy will supply STR damage but no less then X% to avoid destruction (value from 0 to 100.0)
-	NAVAL_LOW_SUPPLY_DAMAGE_PER_DAY = 0.25, -- damage to navies STR per day if totally 0% supplies (value from 0 to 100.0)
+	NAVAL_LOW_SUPPLY_DAMAGE_PER_DAY = 0.5, -- damage to navies STR per day if totally 0% supplies (value from 0 to 100.0)
 },
 
 diplomacy = {
@@ -505,7 +505,7 @@ diplomacy = {
 	
 	MIN_WARSCORE_TO_INTERVENE = -1,
 	MIN_MONTHS_TO_INTERVENE = 0,
-	MAX_WARSCORE_FROM_BATTLES = 50,
+	MAX_WARSCORE_FROM_BATTLES = 40,
 	
 	GUNBOAT_DIPLOMATIC_COST = 1,
 	GUNBOAT_RELATION_ON_ACCEPT = 1,

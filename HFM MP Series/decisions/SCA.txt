@@ -157,21 +157,12 @@ political_decisions = {
 					OR = {
 						owned_by = THIS
 						owner = {
-							in_sphere = THIS
 							OR = {
-								is_vassal = no
+								in_sphere = THIS
 								vassal_of = THIS
-								AND = {
-									is_vassal = yes
-									#NOT = { tag = FIN }
-									is_culture_group = scandinavian
-									overlord = { is_culture_group = scandinavian }
-								}
+								NOT = { is_culture_group = scandinavian }
 							}
-							war = no
-							is_greater_power = no
 						}
-						#is_core = FIN
 					}
 				}
 			}

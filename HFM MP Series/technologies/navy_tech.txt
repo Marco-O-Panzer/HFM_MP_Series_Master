@@ -1004,7 +1004,7 @@ steel_steamers = {
 }
 steam_turbine_ships = {
 	area = ship_construction
-	year = 1905
+	year = 1900
 	cost = 35000
 	unciv_military = yes
 	navy_base = { maximum_speed = 2 } 

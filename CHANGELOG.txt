@@ -54,7 +54,7 @@ Flavour Changes
 -- Halved land of opportunity effect but now lasts till 36
 -- Less emigration when land of opportunity taken
 * CPL
--- Januray Uprising if surpressed will give cores to Prussia and Russia on any CPL land held at the time
+-- Januray Uprising even if surpressed will not give cores to anyone
 * SCA
 -- Dont have to lose Finish accepted to form (removed abandon Finish, removed concede Finish)
 -- Removed prestige conditions on forming
@@ -67,6 +67,11 @@ Flavour Changes
 -- Can't greater Germany
 * JAP
 -- (No) Line of advantage and research point political modifiers nerfed
+* NET
+-- Claim Artois no longer needs a specific gov type or to own Lux
+* UKR
+-- Can only remove Ukrainian as accepted for russia when ukr has all its cores
+-- Can claim greater ukraine with nat n imp and at least secondary power
 
 Bookmarks
 * New bookmark on the 2nd Jan 1836 that releases Canada and Australia as UK puppets
@@ -100,6 +105,7 @@ CBs & Infamy
 * Add to sphere CB increased to 25mil max pop
 * Can use acquire core CB on one state nations (and therefore also return non cores)
 * Mass Conquest costs 25 infamy justification, and 25 to apply the cb
+* Liberate and Puppet increased to 20 infamy, and locked behind mass pol
 
 Military & War
 * Land unit build time reduced, now most at 50 days, some at 40 (irregulars at 30)
@@ -110,6 +116,11 @@ Military & War
 * Ship supply costs halved (so now ~2x base HFM)
 * In 1920 and 1930 combat width will increase by 5 (via hidden invention)
 * Professional training increases build times and speeds of certain units
+* Soldier pops max per state dependent on party policy
+-- 3% pacifism, 4% anti mil, 5% pro mil, 6% jingo
+-- Badboy effects on extreme mil policies
+* Max warscore from battles reduced to 40
+* Naval underfunding is more punishing on naval attrition
 
 Population
 * Removed new world country flag, now just done on capital location
@@ -125,7 +136,10 @@ Economy
 * Slightly redid starting UK economy (more cement and machine parts production)
 * (Aiming for) plentiful production of rgos, especially moving late game
 * Planned Econ factory throughput bonus increased from 5% to 10%
-* Bank upgrade cost reduced drastically (to 10%)
+* Bank upgrade monetary cost removed and lumber build good added
+
+Tech
+* Years behind in tech reduction bonus buffed 50%
 
 Static Modifiers
 * Peace war exhaustion decrease changed to -1
@@ -159,6 +173,8 @@ Other
 * Can now apply tolls across the strait of Gibraltar (and affected nations get a CB to remove it)
 * GP requirements for Ottomans and Ukraine now can also be SP
 * Bread basket modifier can be gained as GP via sphearing or puppeting Ukraine (/owner of the key provinces)
+* Irredentism decisions missing infamy cost have had it added
+* Generally decisions that require sphereing or GP only have been changed to allow vassals or SP status
 
 Fixes
 * Arabia formation more dynamic, done on the cores of the integrated tags now
@@ -170,6 +186,7 @@ Fixes
 * Fixed CBs granted when enforcing extreme ideology or democracy on rebellious puppet
 * Players can now refuse diplo annexation of overlords cores
 * Treaty of Erzurum will now remove Iran cores on Ottomans
+* North india in asia, not near east
 
 
 Version 5
