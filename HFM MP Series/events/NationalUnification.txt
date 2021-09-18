@@ -581,27 +581,32 @@ country_event = {
 	option = {
 		name = "EVTOPTA11101"
 		set_country_flag = wants_to_unify
-		random_country = {
+		random_owned = {
 			limit = {
-				primary_culture = north_german
-				OR = {
-					tag = FROM
-					tag = NGF
+				owner = {
+					primary_culture = north_german
 				}
 			}
-			THIS = { all_core = { add_core = NGF } }
-			NGF = { country_event = 34627 }
+			owner = {
+				THIS = {
+					all_core = {
+						add_core = NGF
+					}
+				}
+			}
 		}
-		random_country = {
+		random_owned = {
 			limit = {
-				primary_culture = south_german
-				OR = {
-				tag = FROM
-				tag = SGF
+				owner = {
+					primary_culture = south_german
 				}
 			}
-			THIS = {
-				all_core = { add_core = SGF }
+			owner = {
+				THIS = {
+					all_core = {
+						add_core = SGF
+					}
+				}
 			}
 		}
 		any_country = {

@@ -10,7 +10,7 @@ political_decisions = {
 				exists = GER
 				exists = GCF
 				tag = DNB
-				tag = AUS
+				#tag = AUS
 				tag = KUK
 				tag = GCF
 				has_country_flag = inherit_sgf
@@ -26,12 +26,11 @@ political_decisions = {
 						OR = {
 							owned_by = THIS
 							owner = {
-								in_sphere = THIS
 								OR = {
-									is_vassal = no
+									in_sphere = THIS
 									vassal_of = THIS
 								}
-								war = no
+								#war = no
 								is_greater_power = no
 							}
 						}
@@ -75,6 +74,83 @@ political_decisions = {
 					all_core = {
 						remove_core = KUK
 						add_core = AUS
+					}
+				}
+			}
+			random_owned = {
+				limit = { owner = { tag = AUS } }
+				owner = {
+					any_owned = {
+						limit = {
+							is_core = LOM
+							NOT = { province_id = 737 }
+						}
+						secede_province = LOM
+					}
+					diplomatic_influence = {
+						who = LOM
+						value = 300
+					}
+				}
+				owner = {
+					any_owned = {
+						limit = {
+							is_core = DLM
+							NOT = { province_id = 737 }
+						}
+						secede_province = DLM
+					}
+					diplomatic_influence = {
+						who = LOM
+						value = 300
+					}
+				}
+				owner = {
+					any_owned = {
+						limit = {
+							is_core = BKV
+							NOT = { province_id = 737 }
+						}
+						secede_province = BKV
+					}
+					diplomatic_influence = {
+						who = LOM
+						value = 300
+					}
+				}
+				owner = {
+					any_owned = {
+						limit = {
+							is_core = GLM
+						}
+						secede_province = GLM
+					}
+					diplomatic_influence = {
+						who = LOM
+						value = 300
+					}
+				}
+				owner = {
+					any_owned = {
+						limit = {
+							is_core = HUN
+							NOT = { province_id = 624 }
+							NOT = { province_id = 778 }
+						}
+						secede_province = HUN
+						AUS = { create_vassal = HUN }
+					}
+					diplomatic_influence = {
+						who = LOM
+						value = 300
+					}
+				}
+				owner = {
+					any_owned = {
+						limit = {
+							is_core = AUS
+						}
+						add_core = GER
 					}
 				}
 			}
@@ -261,12 +337,11 @@ political_decisions = {
 							OR = {
 								owned_by = THIS
 								owner = {
-									in_sphere = THIS
 									OR = {
-										is_vassal = no
+										in_sphere = THIS
 										vassal_of = THIS
 									}
-									war = no
+									#war = no
 									is_greater_power = no
 								}
 							}
@@ -334,6 +409,13 @@ political_decisions = {
 			}
 			370 = { add_core = GER }
 			371 = { add_core = GER }
+			random_country = {
+				limit = {
+					tag = NGF
+					NOT = { exists = SGF }
+				}
+				NGF = { country_event = 34627 }
+			}
 		}
 		ai_will_do = {
 			factor = 1

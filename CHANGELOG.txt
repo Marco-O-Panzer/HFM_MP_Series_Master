@@ -72,6 +72,9 @@ Flavour Changes
 * UKR
 -- Can only remove Ukrainian as accepted for russia when ukr has all its cores
 -- Can claim greater ukraine with nat n imp and at least secondary power
+* ROM
+-- Can always form the URP even if a principality no longer exists
+-- The URP can always form Romania
 
 Bookmarks
 * New bookmark on the 2nd Jan 1836 that releases Canada and Australia as UK puppets

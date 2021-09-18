@@ -1076,7 +1076,14 @@ unification_casus_belli = {
 		#is_vassal = no
 		NOT = { is_our_vassal = THIS }
 		NOT = { tag = PRU }
-		NOT = { tag = NGF }
+		NOT = {
+			tag = NGF
+			NOT = { THIS = { tag = SGF } }
+		}
+		NOT = {
+			tag = SGF
+			NOT = { THIS = { tag = NGF } }
+		}
 		THIS = { NOT = { tag = KUK } }
 		THIS = { NOT = { tag = DNB } }
 		THIS = { NOT = { tag = UBD } }
