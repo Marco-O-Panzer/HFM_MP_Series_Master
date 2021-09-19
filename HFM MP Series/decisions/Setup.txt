@@ -22,6 +22,29 @@ political_decisions = {
 			factor = 1
 		}
 	}
+	
+	france_life_ratings = {
+		potential = {
+			tag = WBA
+			NOT = { has_global_flag = raised_french_liferatings }
+		}
+		allow = {}
+		effect = {
+			set_global_flag = raised_french_liferatings
+			FRA = {
+				any_owned = {
+					limit = {
+						life_rating = 30
+						continent = europe
+					}
+					life_rating = 2
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 
 	option_disable_colonial_railroading = {
 		picture = starting_options 
@@ -2936,4 +2959,3 @@ political_decisions = {
 		}
 	}
 }
-

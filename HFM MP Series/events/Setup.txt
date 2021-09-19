@@ -58,4 +58,3 @@ country_event = {
 		}
 	}
 }
-

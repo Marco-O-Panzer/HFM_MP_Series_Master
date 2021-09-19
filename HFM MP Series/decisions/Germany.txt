@@ -509,6 +509,44 @@ political_decisions = {
 		}
 	}
 	
+	austrian_diplomatic_staff = {
+		picture = metternich
+		potential = {
+			tag = GER
+			NOT = {
+				has_country_flag = von_beust_staff
+			}
+			primary_culture = south_german
+		}
+		allow = {
+			OR = { 
+				AND = {
+					state_n_government = 1
+					romanticism = 1
+				}
+				AND = {
+					ai = yes
+					year = 1858
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = austrian_diplomatic_corps
+				duration = 5475
+			}
+			prestige = 5
+			set_country_flag = von_beust_staff
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { year = 1850 }
+			}
+		}
+	}
+	
 	von_moltkes_staff_reforms = {
 		picture = von_moltkes_staff_reforms
 		potential = {
@@ -520,6 +558,7 @@ political_decisions = {
 			NOT = {
 				has_country_flag = von_moltke
 			}
+			primary_culture = north_german
 		}
 		allow = {
 			OR = { 
@@ -849,6 +888,7 @@ political_decisions = {
 				tag = GER
 			}
 			OR = {
+				government = hms_government
 				government = prussian_constitutionalism
 				government = absolute_monarchy
 			}
@@ -856,6 +896,7 @@ political_decisions = {
 				year = 1888
 				has_country_flag = von_bismarck_appointed
 			}
+			primary_culture = north_german
 		}
 		
 		allow = {
@@ -883,6 +924,58 @@ political_decisions = {
 				dominant_issue = {
 					factor = 0.2
 					value = jingoism
+				}
+				ideology = {
+					factor = 0.05
+					value = conservative
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	appoint_von_beust = {
+	picture = appoint_von_beust
+		potential = {
+			tag = GER
+			OR = {
+				government = hms_government
+				government = prussian_constitutionalism
+				government = absolute_monarchy
+			}
+			NOT = {
+				year = 1888
+				has_country_flag = von_beust_appointed
+			}
+			primary_culture = south_german
+		}
+		
+		allow = {
+			war = no
+			OR = {
+				nationalism_n_imperialism = 1
+				tag = GER
+			}
+			OR = {
+				ruling_party_ideology = liberal
+				ruling_party_ideology = conservative
+				ruling_party_ideology = reactionary
+			}
+		}
+		
+		effect = {
+			set_country_flag = von_beust_appointed
+			add_country_modifier = {
+				name = von_beust
+				duration = 12775
+			}
+			any_pop = {
+				limit = { is_culture_group = germanic }
+				militancy = -3
+				dominant_issue = {
+					factor = 0.2
+					value = pro_military
 				}
 				ideology = {
 					factor = 0.05

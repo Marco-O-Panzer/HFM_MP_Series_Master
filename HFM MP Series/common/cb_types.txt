@@ -1058,7 +1058,7 @@ unification_casus_belli = {
 	
 	badboy_factor = 0
 	prestige_factor = 1
-	peace_cost_factor = 1
+	peace_cost_factor = 0.5
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -1076,14 +1076,7 @@ unification_casus_belli = {
 		#is_vassal = no
 		NOT = { is_our_vassal = THIS }
 		NOT = { tag = PRU }
-		NOT = {
-			tag = NGF
-			NOT = { THIS = { tag = SGF } }
-		}
-		NOT = {
-			tag = SGF
-			NOT = { THIS = { tag = NGF } }
-		}
+		NOT = { tag = AUS }
 		THIS = { NOT = { tag = KUK } }
 		THIS = { NOT = { tag = DNB } }
 		THIS = { NOT = { tag = UBD } }
@@ -1105,8 +1098,16 @@ unification_casus_belli = {
 				THIS = { NOT = { tag = DNB } }
 				THIS = { NOT = { tag = UBD } }
 			}
-		}	
-		number_of_states = 2
+			AND = {
+				tag = NGF
+				THIS = { tag = SGF }
+			}
+			AND = {
+				tag = SGF
+				THIS = { tag = NGF }
+			}
+		}
+		#number_of_states = 2
 		any_state = {
 			any_owned_province = {
 				any_core = {
@@ -1114,7 +1115,7 @@ unification_casus_belli = {
 					is_cultural_union = yes
 				}
 			}
-			NOT = { any_owned_province = { is_capital = yes } }
+			#NOT = { any_owned_province = { is_capital = yes } }
 		}
 		OR = {
 			war_with = THIS
@@ -1129,7 +1130,7 @@ unification_casus_belli = {
 				NOT = { tag = SIE }
 			}
 		}
-		NOT = { any_owned_province = { is_capital = yes } }
+		#NOT = { any_owned_province = { is_capital = yes } }
 		OR = {
 			THIS = { ai = no }
 			AND = { 

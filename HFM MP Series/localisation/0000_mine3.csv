@@ -59,3 +59,12 @@ jingoism_desc;The military is the centrepiece of the state and military spending
 pro_military_desc;The government is a strong supporter of the armed services.\n§YLocks militarisation levels to Mandatory, Partial and Volunteer§!;;;;;;;;;;x;;;;
 anti_military_desc;The armed forces are a drain on the state coffers and the government feels money is better spent elsewhere.\n§YLocks militarisation levels to Partial, Volunteer and Disarmed§!;;;;;;;;;;x;;;;
 pacifism_desc;The government is actively hostile to the interests of the military, feeling they are opposed to the government policies.\n§YLocks militarisation levels to Volunteer and Pacifism§!;;;;;;;;;;x;;;;
+form_south_german_confederation_desc;While Germany was not united until the proclamation of the German Empire, following the Franco-Prussian war, rising nationalism in the 19th century had meant that unification had been on the cards long before that, with the Frankfurt assembly of 1848 being an important forerunner. By achieving a dominant position among the South German states, we can form the South German Confederation.\n§YAustrian formed SGF will lose all non-german land with the exception of a puppet Hungary§!;x
+austrian_diplomatic_staff_title;Austrian Diplomatic Staff;x
+austrian_diplomatic_staff_desc;Austrian diplomats are renowned for their smooth talking and effectiveness. They will greatly aid the German diplomatic effort on the world stage.;x
+austrian_diplomatic_corps;Austrian Diploatic Corps;x
+austrian_diplomatic_corps_desc;Austrian diplomats are renowned for their smooth talking and effectiveness;x
+appoint_von_beust_title;Appoint Von Beust;x
+appoint_von_beust_desc;Count Friedrich Ferdinand von Beust was a German and Austrian statesman. As an opponent of Otto von Bismarck, he attempted to conclude a common policy of the German middle states between Austria and Prussia.;x
+von_beust;Von Beust;x
+von_beust_desc;Count Friedrich Ferdinand von Beust was a German and Austrian statesman.;x

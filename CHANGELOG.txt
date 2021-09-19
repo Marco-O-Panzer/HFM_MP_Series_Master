@@ -75,6 +75,9 @@ Flavour Changes
 * ROM
 -- Can always form the URP even if a principality no longer exists
 -- The URP can always form Romania
+* GER
+-- North German led germany gains the military flava (bismarck etc.)
+-- South German led germany gains the diplomacy flava (von beust etc.)
 
 Bookmarks
 * New bookmark on the 2nd Jan 1836 that releases Canada and Australia as UK puppets
@@ -130,6 +133,7 @@ Population
 * Literacy base change speed reduced 25%
 * 2% Intellectuals now gives +4 RP
 * Some capital liferatings increased in the Americas & Europe
+* France liferating increased by 2 in Europe
 
 Economy
 * More starting tin and copper provinces

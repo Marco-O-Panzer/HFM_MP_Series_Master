@@ -68,8 +68,8 @@ internally_reforming = {
 }
 
 gbr_rgo = {
-	farm_rgo_size = 10
-	mine_rgo_size = 10
+	farm_rgo_size = 0.4
+	mine_rgo_size = 0.4
 	icon = 13
 }
 
@@ -1830,6 +1830,14 @@ prussian_general_staff = {
 	icon = 15
 }
 
+austrian_diplomatic_corps = {
+	prestige = 0.01
+	badboy = -0.05
+	influence_modifier = 0.25
+	icon = 17
+}
+	
+
 ##### Boer War #####
 trek_boers = {
 	global_immigrant_attract = 3.1		#410%
@@ -2964,6 +2972,15 @@ otto_von_bismarck = {
 	ruling_party_support = 0.35
 	badboy = -0.05
 	icon = 17
+}
+
+von_beust = {
+	prestige = 0.02
+	core_pop_militancy_modifier = -0.05
+	diplomatic_points_modifier = 0.25
+	influence_modifier = 0.2
+	ruling_party_support = 0.35
+	badboy = -0.05
 }
 
 louis_napoleon_iii = {

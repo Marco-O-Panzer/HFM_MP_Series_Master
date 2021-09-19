@@ -22,6 +22,8 @@ upper_house = {
 	communist = 0
 }
 
+decision = france_life_ratings
+
 # Political reforms
 slavery = no_slavery
 upper_house_composition = appointed
