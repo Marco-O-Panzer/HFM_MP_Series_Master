@@ -101,7 +101,7 @@ political_decisions = {
 						secede_province = DLM
 					}
 					diplomatic_influence = {
-						who = LOM
+						who = DLM
 						value = 300
 					}
 				}
@@ -114,7 +114,7 @@ political_decisions = {
 						secede_province = BKV
 					}
 					diplomatic_influence = {
-						who = LOM
+						who = BKV
 						value = 300
 					}
 				}
@@ -126,7 +126,7 @@ political_decisions = {
 						secede_province = GLM
 					}
 					diplomatic_influence = {
-						who = LOM
+						who = GLM
 						value = 300
 					}
 				}
@@ -141,7 +141,7 @@ political_decisions = {
 						AUS = { create_vassal = HUN }
 					}
 					diplomatic_influence = {
-						who = LOM
+						who = HUN
 						value = 300
 					}
 				}

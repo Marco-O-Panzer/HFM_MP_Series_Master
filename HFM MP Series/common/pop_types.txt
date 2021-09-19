@@ -1,6 +1,6 @@
 #general promote mtth, same for all pops
 promotion_chance = {
-	factor = 0.25
+	factor = 0.75
 	
 	group = {
 		modifier = {
@@ -49,6 +49,21 @@ promotion_chance = {
 		factor = -5
 		strata = rich
 	}
+	
+	group = {
+		modifier = {
+			factor = 0.05
+			consciousness = 3
+		}
+		modifier = {
+			factor = 0.05
+			consciousness = 4
+		}
+		modifier = {
+			factor = 0.05
+			consciousness = 5
+		}
+	}
 
 	group = {
 		modifier = {
@@ -80,6 +95,38 @@ promotion_chance = {
 			life_needs = 0.9
 		}
 	}
+	
+	group = {
+		modifier = {
+			factor = 0.125
+			everyday_needs = 0.7
+			strata = poor
+		}
+		modifier = {
+			factor = 0.125
+			everyday_needs = 0.8 
+		}
+		modifier = {
+			factor = 0.125
+			everyday_needs = 0.9
+		}
+	}
+	
+	group = {
+		modifier = {
+			factor = 0.15
+			luxury_needs = 0.7
+			strata = poor
+		}
+		modifier = {
+			factor = 0.15
+			luxury_needs = 0.8 
+		}
+		modifier = {
+			factor = 0.15
+			luxury_needs = 0.9
+		}
+	}
 
 	modifier = {
 		factor = -0.1
@@ -87,7 +134,7 @@ promotion_chance = {
 	}
 	
 	modifier = {
-		factor = -0.1
+		factor = -0.2
 		is_primary_culture = no
 		is_accepted_culture = no
 		state_scope = { is_colonial = yes }
@@ -116,7 +163,7 @@ promotion_chance = {
 	}
 	
 	modifier = {
-		factor = -0.1
+		factor = -0.15
 		country = { 
 			OR = {
 				slavery = yes_slavery 
@@ -127,7 +174,7 @@ promotion_chance = {
 	}
 	
 	modifier = {
-		factor = -0.05
+		factor = -0.1
 		state_scope = { is_slave = yes }
 	}
 	
@@ -137,7 +184,7 @@ promotion_chance = {
 	}
 	
 	modifier = {
-		factor = 2.0
+		factor = 0.5
 		state_scope = { is_colonial = yes }
 		country = {
 			colonial_policy = settlement
@@ -148,76 +195,6 @@ promotion_chance = {
 			is_overseas = no
 			NOT = { is_core = THIS }
 			NOT = { is_core = CRI }
-			total_pops = 55000
-			#culture = russian
-		}
-		year = 1860
-	}
-	
-	modifier = {
-		factor = 2
-		state_scope = { is_colonial = yes }
-		country = {
-			colonial_policy = settlement
-			primary_culture = russian
-		}
-		location = { 
-			is_colonial = yes 
-			OR = { 
-				NOT = { is_core = THIS }
-				state_id = 1086
-			}
-			NOT = { is_core = CRI }
-			total_pops = 75000
-			culture = russian
-		}
-		year = 1860
-	}
-	
-	modifier = {
-		factor = 2.5
-		state_scope = { is_colonial = yes }
-		country = {
-			colonial_policy = settlement
-			primary_culture = russian
-		}
-		location = { 
-			is_colonial = yes 
-			OR = { 
-				NOT = { is_core = THIS }
-				state_id = 1086
-			}
-			NOT = { is_core = CRI }
-			total_pops = 125000
-			culture = russian
-		}
-		year = 1880
-	}
-	
-	modifier = {
-		factor = 10
-		OR = {
-			is_accepted_culture = yes
-			is_primary_culture = yes
-		}
-		state_scope = { is_colonial = yes }
-		country = {
-			colonial_policy = settlement
-			primary_culture = russian
-		}
-		location = {
-			is_colonial = yes 
-			NOT = { is_core = THIS }
-			NOT = { is_core = CRI }
-			total_pops = 25000
-			or = {
-				continent = africa
-				continent = west_africa
-				continent = central_africa
-				continent = east_africa
-				continent = south_west_africa
-			}
-			culture = russian
 		}
 	}
 	
@@ -260,7 +237,7 @@ promotion_chance = {
 }
 
 demotion_chance = {
-	factor = 1
+	factor = 0.75
 
 	modifier = {
 		factor = -0.1

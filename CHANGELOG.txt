@@ -145,6 +145,8 @@ Economy
 * (Aiming for) plentiful production of rgos, especially moving late game
 * Planned Econ factory throughput bonus increased from 5% to 10%
 * Bank upgrade monetary cost removed and lumber build good added
+* Demotion rate decreased 25%, promotion rate increased 200%
+-- New factors for promotion added
 
 Tech
 * Years behind in tech reduction bonus buffed 50%
