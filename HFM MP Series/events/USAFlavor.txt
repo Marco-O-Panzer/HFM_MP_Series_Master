@@ -2147,3 +2147,59 @@ country_event = {
 	}
 }
 
+country_event = {
+
+	id = 7777930 
+	title = "EVTNAME7777930"
+	desc = "EVTDESC7777930"
+	picture = "california_statehood"
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = USA
+		invention = manifest_destiny
+		government = democracy
+		year = 1848
+		MEX_85 = {
+			owned_by = USA
+			is_colonial = no
+		}
+	}
+ 
+	mean_time_to_happen =  {
+		months = 6
+	}
+
+
+	option = {
+		name = "EVTOPTA7777930" 
+		MEX_85 = { add_province_modifier = { name = california_population_boom duration = -1 }}
+	}
+}
+
+country_event = {
+
+	id = 7777931
+	title = "EVTNAME7777931"
+	desc = "EVTDESC7777931"
+	picture = "california_statehood"
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = USA
+		NOT = { government = democracy }
+		MEX_85 = { has_province_modifier = california_population_boom }
+	}
+ 
+	mean_time_to_happen =  {
+		months = 6
+	}
+
+
+	option = {
+		name = "EVTOPTA7777931" 
+		MEX_85 = { remove_province_modifier = california_population_boom }
+	}
+}

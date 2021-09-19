@@ -1075,6 +1075,8 @@ economic_reforms = {
 			on_execute = {
 				effect = {
 				    activate_technology = early_classical_theory_and_critique
+					set_country_flag = currency_flag
+					
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1101,6 +1103,8 @@ economic_reforms = {
 			on_execute = {
 				effect = {
 					activate_technology = late_classical_theory
+					set_country_flag = currency2_flag
+					
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1135,6 +1139,8 @@ economic_reforms = {
 			on_execute = {
 				effect = {
 				activate_technology = malthusian_thought
+				set_country_flag = indc_flag
+				
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1162,6 +1168,8 @@ economic_reforms = {
 				effect = {
 					activate_technology = positivism
 					activate_technology = enlightenment_thought
+					set_country_flag = indc2_flag
+					
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1195,6 +1203,7 @@ economic_reforms = {
 			on_execute = {
 				effect = {
 					activate_technology = piston_steam_engine
+					set_country_flag = steampower_flag
 
 					any_pop = {
 						scaled_militancy = {
@@ -1220,7 +1229,9 @@ economic_reforms = {
 			
 			on_execute = {
 				effect = {
-					activate_technology = high_pressure_steam_engine					
+					activate_technology = high_pressure_steam_engine
+					set_country_flag = steampower2_flag
+					
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1255,6 +1266,8 @@ economic_reforms = {
 			on_execute = {
 				effect = {
 					activate_technology = mechanized_mining
+					set_country_flag = landr_flag
+					
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1279,7 +1292,9 @@ economic_reforms = {
 			
 			on_execute = {
 				effect = {
-					activate_technology = freedom_of_trade					
+					activate_technology = freedom_of_trade
+					set_country_flag = landr2_flag
+					
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1311,6 +1326,8 @@ economic_reforms = {
 			on_execute = {
 				effect = {
 					activate_technology = no_standard
+					set_country_flag = adm_flag
+					
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1336,6 +1353,8 @@ economic_reforms = {
 			on_execute = {
 				effect = {
 					activate_technology = ad_hoc_money_bill_printing
+					set_country_flag = adm2_flag
+					
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1369,6 +1388,8 @@ economic_reforms = {
 			on_execute = {
 				effect = {
 					activate_technology = private_banks
+					set_country_flag = fref_flag
+					
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1395,6 +1416,8 @@ economic_reforms = {
 			on_execute = {
 				effect = {
 					activate_technology = stock_exchange
+					set_country_flag = fref2_flag
+					
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1428,6 +1451,8 @@ economic_reforms = {
 				effect = {
 					activate_technology = late_enlightenment_philosophy
 					activate_technology = basic_chemistry
+					set_country_flag = edu_flag
+					
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1453,8 +1478,9 @@ economic_reforms = {
 			
 			on_execute = {
 				effect = {
-					
 					activate_technology = medicine
+					set_country_flag = edu2_flag
+					
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1495,6 +1521,8 @@ economic_reforms = {
 				}
 				effect = {
 					activate_technology = experimental_railroad
+					set_country_flag = tran_flag
+					
 					build_railway_in_capital = {
 						in_whole_capital_state = yes # no = just in main capital province.
 						limit_to_world_greatest_level = yes
@@ -1527,6 +1555,8 @@ economic_reforms = {
 			on_execute = {
 				effect = {
 					activate_technology = early_railroad
+					set_country_flag = tran2_flag
+					
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1562,6 +1592,8 @@ economic_reforms = {
 				}
 				effect = {
 					activate_technology = guild_based_production
+					set_country_flag = earlyid_flag
+					
 					build_factory_in_capital_state = canned_food_factory
 
 					any_pop = {
@@ -1589,6 +1621,8 @@ economic_reforms = {
 			on_execute = {
 				effect = {
 					activate_technology = organized_factories
+					set_country_flag = earlyid2_flag
+					
 					build_factory_in_capital_state = cement_factory
 					
 					any_pop = {
@@ -1623,6 +1657,8 @@ economic_reforms = {
 			on_execute = {
 				effect = {
 					activate_technology = mechanical_production
+					set_country_flag = machinery_flag
+					
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1647,8 +1683,9 @@ economic_reforms = {
 			
 			on_execute = {
 				effect = {
-					
 					activate_technology = interchangeable_parts
+					set_country_flag = machinery2_flag
+					
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1749,6 +1786,8 @@ military_reforms = {
 			on_execute = {
 				effect = {
 					activate_technology = flintlock_rifles
+					set_country_flag = foreign_weapons_flag
+					
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1776,6 +1815,8 @@ military_reforms = {
 			on_execute = {
 				effect = {
 					activate_technology = muzzle_loaded_rifles
+					set_country_flag = foreign_weapons2_flag
+					
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1807,6 +1848,7 @@ military_reforms = {
 			on_execute = {
 				effect = {
 					activate_technology = post_napoleonic_thought
+					set_country_flag = mil_con_flag
 						
 					any_pop = {
 						scaled_militancy = {
@@ -1833,6 +1875,8 @@ military_reforms = {
 			on_execute = {
 				effect = {
 					activate_technology = strategic_mobility
+					set_country_flag = mil_con2_flag
+					
 					build_fort_in_capital = {
 						in_whole_capital_state = no # no = just in main capital province.
 						limit_to_world_greatest_level = no
@@ -1870,6 +1914,8 @@ military_reforms = {
 			on_execute = {
 				effect = {
 					activate_technology = military_staff_system
+					set_country_flag = fo_flag
+					
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1898,6 +1944,8 @@ military_reforms = {
 
 				effect = {
 					activate_technology = military_plans
+					set_country_flag = fo2_flag
+					
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1930,6 +1978,8 @@ military_reforms = {
 			on_execute = {
 				effect = {
 					activate_technology = army_command_principle
+					set_country_flag = at_flag
+					
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1956,6 +2006,8 @@ military_reforms = {
 			on_execute = {
 				effect = {
 					activate_technology = army_professionalism
+					set_country_flag = at2_flag
+					
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -1989,6 +2041,8 @@ military_reforms = {
 			on_execute = {
 				effect = {
 					activate_technology = alphabetic_flag_signaling
+					set_country_flag = no_flag
+					
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -2017,6 +2071,8 @@ military_reforms = {
 				effect = {
 				activate_technology = naval_plans
 				activate_technology = naval_design_bureaus
+				set_country_flag = no2_flag
+				
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -2051,6 +2107,8 @@ military_reforms = {
 			on_execute = {
 				effect = {
 					activate_technology = clipper_design
+					set_country_flag = nu_flag
+					
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -2080,6 +2138,8 @@ military_reforms = {
 				effect = {
 					activate_technology = clipper_design
 					activate_technology = steamers
+					set_country_flag = nu2_flag
+					
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -2112,6 +2172,8 @@ military_reforms = {
 			on_execute = {
 				effect = {
 					activate_technology = the_command_principle
+					set_country_flag = nsch_flag
+					
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -2137,6 +2199,8 @@ military_reforms = {
 			on_execute = {
 				effect = {
 					activate_technology = naval_professionalism
+					set_country_flag = nsch_flag_two
+					
 					any_pop = {
 						scaled_militancy = {
 							ideology = liberal
@@ -2173,6 +2237,7 @@ military_reforms = {
 			on_execute = {
 				effect = {
 					activate_technology = post_nelsonian_thought
+					set_country_flag = shipyards_flag
 					
 					any_pop = {
 						scaled_militancy = {
@@ -2205,6 +2270,7 @@ military_reforms = {
 			on_execute = {
 				effect = {
 					activate_technology = battleship_column_doctrine
+					set_country_flag = shipyards2_flag
 					
 					any_pop = {
 						scaled_militancy = {
@@ -2238,6 +2304,7 @@ military_reforms = {
 			on_execute = {
 				effect = {
 					activate_technology = bronze_muzzle_loaded_artillery
+					set_country_flag = foreign_artillery_flag
 					
 					any_pop = {
 						scaled_militancy = {
@@ -2265,6 +2332,7 @@ military_reforms = {
 			on_execute = {
 				effect = {
 					activate_technology = iron_muzzle_loaded_artillery
+					set_country_flag = foreign_artillery2_flag
 					
 					any_pop = {
 						scaled_militancy = {

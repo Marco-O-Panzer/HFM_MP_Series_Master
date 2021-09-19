@@ -45,9 +45,10 @@ Flavour Changes
 -- Can now be formed militarily by any Spain
 * DNB
 -- Now requires the decisions to accept the cultures (wont lose prestige)
--- Can only accept the cultures if they approved of the Federation fully (in MP)
+-- Can only accept the cultures if they approved of the Federation fully (in SP)
 * USA
--- Will get a Mexican rebellionduring the civil war if fully annexed mexico
+-- Will get a Mexican rebellion during the civil war if fully annexed mexico
+-- California gains +0.08% monthly pop growth if a state and USA is a republic with manifest destiy - if the USA is not a republic will perma lose modifier
 * India
 -- RGO changes wont give huge rubber overproduction from: End of natural dyes - event also reduces wool production now and grants some tea
 * SWI
@@ -182,6 +183,7 @@ Other
 * Bread basket modifier can be gained as GP via sphearing or puppeting Ukraine (/owner of the key provinces)
 * Irredentism decisions missing infamy cost have had it added
 * Generally decisions that require sphereing or GP only have been changed to allow vassals or SP status
+* Westernisation reforms have country flag on the reform itself - less event spam
 
 Fixes
 * Arabia formation more dynamic, done on the cores of the integrated tags now

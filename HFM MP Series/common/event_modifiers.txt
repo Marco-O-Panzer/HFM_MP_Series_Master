@@ -1336,6 +1336,11 @@ global_baby_boom_small = {
 	icon = 17
 }
 
+california_population_boom = {
+	population_growth = 0.008
+	icon = 19
+}
+
 loyal_askaris = {
 	pop_militancy_modifier = -0.05
 	pop_consciousness_modifier = -0.05
