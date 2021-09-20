@@ -38,10 +38,9 @@ cruiser = {
 		artillery = 0.2
 		canned_food = 1.2
 		fuel = 2
-		coal = 2
 		ammunition = 0.2
 		regular_clothes = 0.6
-		tobacco = 1.2
+		tobacco = 0.3
 		pharmaceuticals = 1.2
 	}
 	

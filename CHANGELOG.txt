@@ -113,6 +113,7 @@ CBs & Infamy
 * Can use acquire core CB on one state nations (and therefore also return non cores)
 * Mass Conquest costs 25 infamy justification, and 25 to apply the cb
 * Liberate and Puppet increased to 20 infamy, and locked behind mass pol
+* Allow negotiated state on the puppet of a player
 
 Military & War
 * Land unit build time reduced, now most at 50 days, some at 40 (irregulars at 30)
@@ -128,6 +129,7 @@ Military & War
 -- Badboy effects on extreme mil policies
 * Max warscore from battles reduced to 40
 * Naval underfunding is more punishing on naval attrition
+* Dreadnought attack buffed
 
 Population
 * Removed new world country flag, now just done on capital location

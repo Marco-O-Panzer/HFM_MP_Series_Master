@@ -43,14 +43,14 @@ dreadnought = {
 		telephones = 0.04
 		fuel = 8
 		ammunition = 1.6
-		regular_clothes = 1
-		tobacco = 4
-		pharmaceuticals = 2
+		regular_clothes = 2
+		tobacco = 1
+		pharmaceuticals = 3
 	}
 	
 	#Naval Abilties
 	hull = 80
-	gun_power = 60
+	gun_power = 70
 	fire_range = 0.8
 	evasion = 0
 }

@@ -454,7 +454,7 @@ interwar_hull_shipyard = {
 	}
 	output_goods = interwar_hull 
 	is_coastal = yes
-	value = 1			
+	value = 2
 	bonus = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.125

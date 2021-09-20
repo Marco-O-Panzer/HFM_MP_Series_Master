@@ -28,7 +28,7 @@ ironclad = {
 		steamer_convoy = 25
 		artillery = 10
 		canned_food = 10
-		regular_clothes = 12
+		regular_clothes = 6
 	}
 	min_port_level = 2
 	limit_per_port = 16

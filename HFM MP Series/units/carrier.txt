@@ -40,13 +40,12 @@ carrier = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		interwar_hull = 2
+		interwar_hull = 1
 		artillery = 4
 		canned_food = 4
 		telephones = 0.4
-		coal = 8
 		ammunition = 6
-		tobacco = 4
+		tobacco = 1
 		aeroplanes = 4
 		small_arms = 2
 		regular_clothes = 3

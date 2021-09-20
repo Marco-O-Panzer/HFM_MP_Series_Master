@@ -8275,7 +8275,7 @@ negotiated_state_transfer = {
 
 	badboy_factor = 0
 	prestige_factor = 0
-	peace_cost_factor = 0
+	peace_cost_factor = 1
 	penalty_factor = 0
 
 	break_truce_prestige_factor = 0
@@ -8290,7 +8290,13 @@ negotiated_state_transfer = {
 	can_use = {
 		number_of_states = 2 # annex if you want their last state
 		is_independant = yes
-		ai = no
+		OR = {
+			ai = no
+			AND = {
+				is_vassal = yes
+				overlord = { ai = no }
+			}
+		}
 		THIS = { ai = no } 
 		has_country_flag = begin_land_transfer
 		war = no
@@ -8326,7 +8332,7 @@ negotiated_substate_transfer = {
 
 	badboy_factor = 0
 	prestige_factor = 0
-	peace_cost_factor = 0
+	peace_cost_factor = 1
 	penalty_factor = 0
 
 	break_truce_prestige_factor = 0
@@ -8380,7 +8386,7 @@ negotiated_puppet_release = {
 
 	badboy_factor = 0
 	prestige_factor = 0
-	peace_cost_factor = 0
+	peace_cost_factor = 1
 	penalty_factor = 0
 	break_truce_prestige_factor = 0
 	break_truce_infamy_factor = 0
