@@ -785,10 +785,10 @@ political_decisions = {
 				duration = -1
 			}
 			
-			add_country_modifier = {
-				name = global_baby_boom
-				duration = 3650
-			}
+			#add_country_modifier = {
+			#	name = global_baby_boom
+			#	duration = 3650
+			#}
 			
 			FRM = {
 				any_owned = {

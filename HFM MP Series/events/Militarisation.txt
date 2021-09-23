@@ -24,6 +24,12 @@ country_event = {
 			NOT = { conscription = mandatory_service }
 			war_policy = jingoism
 		}
+		
+		modifier = {
+			factor = 0.75
+			conscription = no_draft
+			war_policy = jingoism
+		}
 
 		modifier = {
 			factor = 0.9
@@ -44,6 +50,12 @@ country_event = {
 			war = no
 			conscription = mandatory_service
 			war_policy = anti_military
+		}
+		
+		modifier = {
+			factor = 0.75
+			conscription = mandatory_service
+			war_policy = pacifism
 		}
 	}
 

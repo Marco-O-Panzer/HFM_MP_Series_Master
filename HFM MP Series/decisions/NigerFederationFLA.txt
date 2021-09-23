@@ -23,22 +23,23 @@ political_decisions = {
 		effect = { 
 			change_tag = NGE
 			any_country = {
-				limit = { continent = west_africa }
+				limit = { continent = west_africa NOT = { tag = KON } NOT = { tag = TRZ } }
 				all_core = { add_core = NGE}
 			}
 			add_country_modifier = {
 				name = niger_research
 				duration = 7300
 			}
-			all_core = { life_rating = 5 }
-			1781 = { remove_core = NGE }
-			1782 = { remove_core = NGE }
 			1914 = { add_core = NGE }
 			1917 = { add_core = NGE }
 			1918 = { add_core = NGE }
 			1892 = { add_core = NGE }
 			1893 = { add_core = NGE }
 			1896 = { add_core = NGE }
+			1889 = { add_core = NGE }
+			1890 = { add_core = NGE }
+			1891 = { add_core = NGE }
+			all_core = { life_rating = 5 }
 		}
 		ai_will_do = {
 			factor = 0

@@ -1256,8 +1256,11 @@ country_event = {
 	picture = "tonghak_rebellion"
 	
 	trigger = {
-		exists = yes
-		ai = yes
+		OR = {
+			tag = JAP
+			tag = TKG
+		}
+		#ai = yes
 		war = no
 		OR = {
 			JAP = { exists = yes has_country_flag = claimed_korea NOT = { has_country_modifier = foreign_claims } }

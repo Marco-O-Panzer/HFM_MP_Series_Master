@@ -16,13 +16,13 @@ country_event = {
 				is_colonial = no
 				controlled_by = THIS
 			}
-			any_pop = { limit = { NOT = { literacy = 0.70 } } literacy = 0.004 }	#0.2*(0.75)^k
-			any_pop = { limit = { NOT = { literacy = 0.60 } } literacy = 0.005 }
-			any_pop = { limit = { NOT = { literacy = 0.50 } } literacy = 0.006 }
-			any_pop = { limit = { NOT = { literacy = 0.40 } } literacy = 0.008 }
-			any_pop = { limit = { NOT = { literacy = 0.30 } } literacy = 0.011 }
-			any_pop = { limit = { NOT = { literacy = 0.20 } } literacy = 0.015 }
-			any_pop = { limit = { NOT = { literacy = 0.10 } } literacy = 0.020 }
+			any_pop = { limit = { NOT = { literacy = 0.70 } } literacy = 0.002 }	#0.1*(0.75)^k
+			any_pop = { limit = { NOT = { literacy = 0.60 } } literacy = 0.003 }
+			any_pop = { limit = { NOT = { literacy = 0.50 } } literacy = 0.003 }
+			any_pop = { limit = { NOT = { literacy = 0.40 } } literacy = 0.004 }
+			any_pop = { limit = { NOT = { literacy = 0.30 } } literacy = 0.006 }
+			any_pop = { limit = { NOT = { literacy = 0.20 } } literacy = 0.008 }
+			any_pop = { limit = { NOT = { literacy = 0.10 } } literacy = 0.010 }
 		}
 	}
 	option = {

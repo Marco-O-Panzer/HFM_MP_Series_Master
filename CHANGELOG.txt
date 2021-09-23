@@ -17,6 +17,7 @@ This mod is built on HFM V1.27I (SighPie) and HFM More Stuff V3.5 (u/louisky58) 
 - Military topbar expansion by SirRunner
 - Thanks to Nurse_Reno for the craftsmen & bureaucrats fix, and immigration code.
 - Credit to Jay for the alt flags submod
+- Thanks to Zombie for the keybinds
 Everything else is my own (as far as I remember).
 Note that 'global' on a modifier means just across your country.
 
@@ -49,6 +50,7 @@ Flavour Changes
 * USA
 -- Will get a Mexican rebellion during the civil war if fully annexed mexico
 -- California gains +0.08% monthly pop growth if a state and USA is a republic with manifest destiy - if the USA is not a republic will perma lose modifier
+-- If the USA occupies all of british starting Canada, they can claim all of Canada as core for 25 infamy 
 * India
 -- RGO changes wont give huge rubber overproduction from: End of natural dyes - event also reduces wool production now and grants some tea
 * SWI
@@ -133,10 +135,11 @@ Military & War
 
 Population
 * Removed new world country flag, now just done on capital location
-* Literacy base change speed reduced 25%
+* Literacy base change speed reduced 40%
 * 2% Intellectuals now gives +4 RP
 * Some capital liferatings increased in the Americas & Europe
 * France liferating increased by 2 in Europe
+* Province and global baby boom effects halved
 
 Economy
 * More starting tin and copper provinces
@@ -159,7 +162,7 @@ Static Modifiers
 * Max literacy gives +5 RP
 
 Balance
-* Alexander's reforms dont give Russia the pop growth for quite as long (from 8 to 5 years) - and a republican version added
+* Alexander's reforms dont give Russia pop growth - and a republican version added
 * Swiss partition now more evenly splits the infamy if all 3 agree
 * Slavery debate effects nerfed
 * Focus at Home gives slight education buff (can be removed within 70 days for if accidentally taken)
@@ -174,6 +177,7 @@ Balance
 * Gibraltar terrain combat width now -80%, and supply limit reduced from 16 to 6
 * China cant take self-strengthen decision when already westernised
 * Nerfed and time limited Sikh Shastar reform
+* No more country-wide baby boom for Prussia
 
 Other
 * Questioning our alliance event wont fire for players
@@ -200,6 +204,7 @@ Fixes
 * Players can now refuse diplo annexation of overlords cores
 * Treaty of Erzurum will now remove Iran cores on Ottomans
 * North india in asia, not near east
+* NGE cores upon formation no longer in the Kongo
 
 
 Version 5

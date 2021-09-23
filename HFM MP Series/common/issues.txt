@@ -165,7 +165,6 @@ party_issues = {
 			supply_consumption = -0.1
 			war_exhaustion_effect = 1.5
 			cb_generation_speed_modifier = -0.4
-			mobilization_impact = -0.1
 		}
 	}
 	social_policy = {
@@ -441,6 +440,7 @@ political_reforms = {
 		mandatory_service = {
 			min_military_spending = 0.5
 			mobilisation_size = 0.04
+			mobilization_impact = 5
 			mobilisation_economy_impact = 1
 			land_unit_start_experience = 10
 			org_regain = 0.5
@@ -454,6 +454,7 @@ political_reforms = {
 		four_year_draft = {
 			min_military_spending = 0.25
 			mobilisation_size = 0.02
+			mobilization_impact = 4
 			mobilisation_economy_impact = 0.1
 			land_unit_start_experience = 5
 			org_regain = 0.25
@@ -463,7 +464,8 @@ political_reforms = {
 			allow = { has_country_flag = changing_militarisation }
 		}
 		two_year_draft = {
-			mobilisation_size = -0.02
+			#mobilisation_size = -0.02
+			mobilization_impact = 3
 			mobilisation_economy_impact = 0.05
 			war_exhaustion = -0.5
 			badboy = -0.01
@@ -481,7 +483,8 @@ political_reforms = {
 #			}
 #		}
 		no_draft = {
-			mobilisation_size = -0.02
+			#mobilisation_size = -0.02
+			mobilization_impact = 2
 			land_unit_start_experience = -5
 			org_regain = -0.25
 			reinforce_speed = -0.25

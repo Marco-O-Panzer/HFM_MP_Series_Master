@@ -55,6 +55,7 @@ EVTDESC7777929;Instutions take time to have change affected in them, and the pol
 EVT7777929OPTA;Raise militarisation;x
 EVT7777929OPTB;Maintain militarisation;x
 EVT7777929OPTC;Lower militarisation;x
+conscription;Militarisation;x
 jingoism_desc;The military is the centrepiece of the state and military spending is prioritised.\n§YLocks militarisation levels to Mandatory and Partial§!;;;;;;;;;;x;;;;
 pro_military_desc;The government is a strong supporter of the armed services.\n§YLocks militarisation levels to Mandatory, Partial and Volunteer§!;;;;;;;;;;x;;;;
 anti_military_desc;The armed forces are a drain on the state coffers and the government feels money is better spent elsewhere.\n§YLocks militarisation levels to Partial, Volunteer and Disarmed§!;;;;;;;;;;x;;;;
@@ -82,3 +83,7 @@ embrace_slovak_minority;Embrace the Slovak Minority;x
 embrace_slovak_minority;We shall embrace our Slovak citizens, and elevate them to the status shared by that of the Hungarians.;x
 embrace_romanian_minority;Embrace the Romanian Minority;x
 embrace_romanian_minority;We shall embrace our Romanian citizens, and elevate them to the status shared by that of the Hungarians.;x
+usa_claim_canada_title;Revenge for 1812;x
+usa_claim_canada_desc;Now we control all of Canada East of the Great Lakes, we can claim it all for ourselves completing the tale of 1812.;x
+liberal_group;Liberal & Radical parties;x
+anarchist_group;Anarchists;x

@@ -1491,30 +1491,30 @@ country_event = {
 			tag = AUS
 			tag = KUK
 		}
-		owns = 549 #Berlin
-		OR = {
-			AND = {
-				NOT = { owns = 619 } #Vienna
-				total_pops = 12500000
-				has_global_flag = ruhr_boom_has_happened
-			}
-			AND = {
-				NOT = { owns = 619 }
-				total_pops = 12000000
-				NOT = { has_global_flag = ruhr_boom_has_happened }
-			}
-			AND = {
-				owns = 619
-				year = 1885
-				has_global_flag = ruhr_boom_has_happened
-			}
-			AND = {
-				owns = 619
-				year = 1885
-				NOT = { has_global_flag = ruhr_boom_has_happened }
-			}
-		}
-		year = 1865
+		#owns = 549 #Berlin
+		#OR = {
+		#	AND = {
+		#		NOT = { owns = 619 } #Vienna
+		#		total_pops = 12500000
+		#		has_global_flag = ruhr_boom_has_happened
+		#	}
+		#	AND = {
+		#		NOT = { owns = 619 }
+		#		total_pops = 12000000
+		#		NOT = { has_global_flag = ruhr_boom_has_happened }
+		#	}
+		#	AND = {
+		#		owns = 619
+		#		year = 1885
+		#		has_global_flag = ruhr_boom_has_happened
+		#	}
+		#	AND = {
+		#		owns = 619
+		#		year = 1885
+		#		NOT = { has_global_flag = ruhr_boom_has_happened }
+		#	}
+		#}
+		year = 1900
 	}
 	
 	fire_only_once = yes
@@ -1551,9 +1551,9 @@ country_event = {
 			tag = DNB
 			tag = GER
 		}
-		owns = 619 #Vienna
-		total_pops = 12000000
-		year = 1865
+		#owns = 619 #Vienna
+		#total_pops = 12000000
+		year = 1895
 	}
 	
 	fire_only_once = yes

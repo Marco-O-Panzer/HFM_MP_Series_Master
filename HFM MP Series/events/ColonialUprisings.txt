@@ -1400,6 +1400,7 @@ country_event = {
 		colonial_nation = yes
 		civilized = yes
 		invention = mission_to_civilize
+		NOT = { colonial_policy = no_colonies }
 	}
 	
 	mean_time_to_happen = {	

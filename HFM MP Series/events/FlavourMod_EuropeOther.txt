@@ -66,10 +66,10 @@ country_event = {
 
 	trigger = {
 		civilized = yes
-		money = 55000
+		#money = 55000
 		colonial_policy = no_colonies
 		colonial_nation = yes
-		NOT = { has_country_flag = is_now_colonial }
+		#NOT = { has_country_flag = is_now_colonial }
 		NOT = {
 			tag = TUR
 			#ai = yes
@@ -83,7 +83,7 @@ country_event = {
 	option = {
 		name = "EVT99801OPTA"
 		prestige = 10
-		treasury = -55000
+		#treasury = -55000
 		political_reform = settlement
 		any_pop = { 
 			limit = {
@@ -257,9 +257,9 @@ country_event = {
 			tag = ITA
 			tag = ITS
 		}
-		owns = 749 #Rome
-		total_pops = 8500000
-		year = 1885
+		#owns = 749 #Rome
+		#total_pops = 8500000
+		year = 1915
 	}
 	
 	fire_only_once = yes

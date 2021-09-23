@@ -1317,27 +1317,27 @@ colonial_recruitment = {
 }
 
 small_baby_boom = {
-	population_growth = 0.002
+	population_growth = 0.001
 	icon = 19
 }
 
 baby_boom = {
-	population_growth = 0.006
+	population_growth = 0.003
 	icon = 19
 }
 
 global_baby_boom = {
-	global_population_growth = 0.006
+	global_population_growth = 0.003
 	icon = 17
 }
 
 global_baby_boom_small = {
-	global_population_growth = 0.002
+	global_population_growth = 0.001
 	icon = 17
 }
 
 california_population_boom = {
-	population_growth = 0.008
+	population_growth = 0.005
 	icon = 19
 }
 
@@ -2411,7 +2411,7 @@ sakoku = {
 
 rangaku = {
 	prestige = 0.035
-	research_points_modifier = 0.4
+	#research_points_modifier = 0.4
 	global_pop_militancy_modifier = -0.05
 	icon = 5
 }
