@@ -1488,8 +1488,11 @@ country_event = {
 			tag = GCF
 			tag = NGF
 			tag = SGF
-			tag = AUS
-			tag = KUK
+			#tag = AUS
+			#tag = KUK
+			tag = PRU
+			tag = BAV
+			tag = HAN
 		}
 		#owns = 549 #Berlin
 		#OR = {
@@ -1550,6 +1553,8 @@ country_event = {
 			tag = KUK
 			tag = DNB
 			tag = GER
+			tag = HUN
+			tag = CZH
 		}
 		#owns = 619 #Vienna
 		#total_pops = 12000000

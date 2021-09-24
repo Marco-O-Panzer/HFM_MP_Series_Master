@@ -191,7 +191,7 @@ political_decisions = {
 				}
 				add_province_modifier = {
 					name = baby_boom
-					duration = 1825
+					duration = 3650
 				}
 			}
 			tech_school = culture_tech_school

@@ -256,6 +256,13 @@ country_event = {
 		OR = {
 			tag = ITA
 			tag = ITS
+			tag = SAR
+			tag = SIC
+			tag = PAP
+			tag = PAR
+			tag = MOD
+			tag = LUC
+			tag - TUS
 		}
 		#owns = 749 #Rome
 		#total_pops = 8500000

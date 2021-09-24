@@ -920,7 +920,7 @@ emigration_chance = {
 	
 	
 	modifier = {
-		factor = 0.8
+		factor = 0.6
 		THIS = {
 			has_pop_culture = irish
 		}
@@ -989,23 +989,23 @@ emigration_chance = {
 	
 	group = {
 		modifier = {
-			factor = 0.05
+			factor = 0.075
 			literacy = 0.1
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0.075
 			literacy = 0.2
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0.075
 			literacy = 0.3
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0.075
 			literacy = 0.4
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0.075
 			literacy = 0.5
 		}
 		modifier = {
@@ -1017,11 +1017,11 @@ emigration_chance = {
 			literacy = 0.7
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0.025
 			literacy = 0.8
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0.025
 			literacy = 0.9
 		}
 	}
