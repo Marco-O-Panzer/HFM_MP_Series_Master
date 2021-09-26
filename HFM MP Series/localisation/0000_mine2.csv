@@ -106,6 +106,8 @@ eaf_resources_desc;We must strike the earth to take advantage of our natural res
 nge_resources_title;New Industrial Mining;x
 option_disable_colonial_railroading_title;§POption: Disable Colonial Railroading§!;x
 option_disable_colonial_railroading_desc;Remove the AIs preference for historical colonising;x
+option_initiate_mp_setup_title;§POption: Multiplayer Setup§!;x
+option_initiate_mp_setup_desc;Set the mp_setup global flag to unlock features excelusive to mp, and block op sp effects.;x
 nge_resources_desc;We must strike the earth to take advantage of our natural resources, many of which can be used in our flourishing new industrial economy.;x
 commerce_raider;Submarine;x
 commerce_raider_short;SR;x

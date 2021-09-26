@@ -1,29 +1,4 @@
 political_decisions = {
-	eng_to_canada = {
-		picture = canadian_dominion
-		potential = {
-			tag = ENG
-			NOT = { owns = 263 }
-			NOT = { owns = 269 }
-			NOT = { owns = 300 }
-			NOT = { owns = 273 }
-			NOT = { has_country_flag = hiding_the_decisions }
-		}
-		allow = {
-			GBR = { is_greater_power = yes }
-			war = no
-			owns = 57
-			owns = 58
-			owns = 65
-		}
-		effect = {
-			ENG = { all_core = { remove_core = ENG }}
-			change_tag = CAN
-			capital = 57
-			set_global_flag = eng_to_canada_flag
-		}
-	}
-	
 	accept_quebec_now = {
 		picture = vive_le_quebec
 		potential = {

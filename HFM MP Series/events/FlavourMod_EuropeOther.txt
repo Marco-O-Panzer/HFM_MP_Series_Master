@@ -288,6 +288,53 @@ country_event = {
 	}	
 }
 
+#Benelux LR Normalization
+country_event = {
+	id = 3304021
+	title = "EVTNAME33040"
+	desc = "EVTDESC33040"
+	picture = "rome_buildings"
+
+	trigger = {
+		OR = {
+			tag = NET
+			tag = BEL
+			tag = LUX
+			tag = FLA
+			tag = WLL
+		}
+		year = 1890
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = { days = 14 }
+	
+	option = {
+		name = "EVT33040OPTA"
+		NET = { all_core = { limit = { life_rating = 45  } life_rating = -14 } }	
+		NET = { all_core = { limit = { life_rating = 40  } life_rating = -9 } }
+		NET = { all_core = { limit = { life_rating = 36  } life_rating = -4 } }
+		NET = { all_core = { limit = { life_rating = 35  } life_rating = -4 } }
+		NET = { all_core = { limit = { life_rating = 32  } life_rating = -1 } }
+		BEL = { all_core = { limit = { life_rating = 45  } life_rating = -14 } }	
+		BEL = { all_core = { limit = { life_rating = 40  } life_rating = -9 } }
+		BEL = { all_core = { limit = { life_rating = 36  } life_rating = -4 } }
+		BEL = { all_core = { limit = { life_rating = 35  } life_rating = -4 } }
+		BEL = { all_core = { limit = { life_rating = 32  } life_rating = -1 } }
+		FLA = { all_core = { limit = { life_rating = 45  } life_rating = -14 } }	
+		FLA = { all_core = { limit = { life_rating = 40  } life_rating = -9 } }
+		FLA = { all_core = { limit = { life_rating = 36  } life_rating = -4 } }
+		FLA = { all_core = { limit = { life_rating = 35  } life_rating = -4 } }
+		FLA = { all_core = { limit = { life_rating = 32  } life_rating = -1 } }
+		WLL = { all_core = { limit = { life_rating = 45  } life_rating = -14 } }	
+		WLL = { all_core = { limit = { life_rating = 40  } life_rating = -9 } }
+		WLL = { all_core = { limit = { life_rating = 36  } life_rating = -4 } }
+		WLL = { all_core = { limit = { life_rating = 35  } life_rating = -4 } }
+		WLL = { all_core = { limit = { life_rating = 32  } life_rating = -1 } }
+	}	
+}
+
 #San Marino
 country_event = {
 	id = 330403

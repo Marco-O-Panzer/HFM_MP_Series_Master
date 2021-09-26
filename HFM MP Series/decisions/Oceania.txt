@@ -67,112 +67,112 @@ political_decisions = {
 		potential = {
 			tag = OCE
 			NOT = { has_country_flag = hiding_the_decisions }
-			NOT = { 2529 = { is_core = AST } }
+			NOT = { 2529 = { is_core = OCE } }
 		}
 		allow = {
 			nationalism_n_imperialism = 1
 		}
 		effect = {
-			AST_2528 = { add_core = AST }
-			GER_2530 = { add_core = AST }
-			NET_1451 = { add_core = AST }
+			AST_2528 = { add_core = OCE }
+			GER_2530 = { add_core = OCE }
+			NET_1451 = { add_core = OCE }
 			badboy = 10
 		}
 	}
-	claim_java = {
-		picture = postcol_AST
-		potential = {
-			tag = OCE
-			NOT = { has_country_flag = hiding_the_decisions }
-			NOT = { 1416 = { is_core = AST } }
-		}
-		allow = {
-			nationalism_n_imperialism = 1
-		}
-		effect = {
-			NET_1413 = { add_core = AST }
-			NET_1418 = { add_core = AST }
-			BAL_1438 = { add_core = AST }
-			badboy = 15
-		}
-	}
+	#claim_java = {
+	#	picture = postcol_AST
+	#	potential = {
+	#		tag = OCE
+	#		NOT = { has_country_flag = hiding_the_decisions }
+	#		NOT = { 1416 = { is_core = OCE } }
+	#	}
+	#	allow = {
+	#		nationalism_n_imperialism = 1
+	#	}
+	#	effect = {
+	#		NET_1413 = { add_core = OCE }
+	#		NET_1418 = { add_core = OCE }
+	#		BAL_1438 = { add_core = OCE }
+	#		badboy = 15
+	#	}
+	#}
 	claim_oceanic_islands = {
 		picture = postcol_AST
 		potential = {
 			tag = OCE
 			NOT = { has_country_flag = hiding_the_decisions }
-			NOT = { 1446 = { is_core = AST } }
+			NOT = { 1446 = { is_core = OCE } }
 		}
 		allow = {
 			nationalism_n_imperialism = 1
 		}
 		effect = {
-			NET_1449 = { add_core = AST }
-			NET_1446 = { add_core = AST }
-			NET_1447 = { add_core = AST }
-			AST_2534 = { add_core = AST }
-			AST_1097 = { add_core = AST }
-			TON_2540 = { add_core = AST }
-			USA_2543 = { add_core = AST }
-			FRA_801 = { add_core = AST }
+			NET_1449 = { add_core = OCE }
+			NET_1446 = { add_core = OCE }
+			NET_1447 = { add_core = OCE }
+			AST_2534 = { add_core = OCE }
+			AST_1097 = { add_core = OCE }
+			TON_2540 = { add_core = OCE }
+			USA_2543 = { add_core = OCE }
+			FRA_801 = { add_core = OCE }
 			badboy = 5
 		}
 	}
-	accept_melanesian = {
-		picture = postcol_AST
-		potential = {
-			tag = OCE
-			NOT = { has_country_flag = hiding_the_decisions }
-			NOT = { accepted_culture = melanesian }
-		}
-		allow = {
-			war = no
-			revolution_n_counterrevolution = 1
-			2529 = { is_core = AST }
-			2529 = { owned_by = AST }
-			citizenship_policy = full_citizenship
-			citizens_rights = all_voting_pops
-		}
-		effect = {
-			add_accepted_culture = melanesian
-		}
-	}
-	accept_moluccan = { 
-		picture = postcol_AST
-		potential = {
-			tag = OCE
-			NOT = { has_country_flag = hiding_the_decisions }
-			NOT = { accepted_culture = moluccan }
-		}
-		allow = {
-			war = no
-			revolution_n_counterrevolution = 1
-			1446 = { is_core = AST }
-			1446 = { owned_by = AST }
-			citizenship_policy = full_citizenship
-			citizens_rights = all_voting_pops
-		}
-		effect = {
-			add_accepted_culture = moluccan
-		}
-	}
-	accept_javan = {
-		picture = postcol_AST
-		potential = {
-			tag = OCE
-			NOT = { has_country_flag = hiding_the_decisions }
-			NOT = { accepted_culture = javan }
-		}
-		allow = {
-			war = no
-			revolution_n_counterrevolution = 1
-			1416 = { is_core = AST }
-			1416 = { owned_by = AST }
-			citizenship_policy = full_citizenship
-			citizens_rights = all_voting_pops
-		}
-		effect = {
-			add_accepted_culture = javan
-		}
-	}
+	#accept_melanesian = {
+	#	picture = postcol_AST
+	#	potential = {
+	#		tag = OCE
+	#		NOT = { has_country_flag = hiding_the_decisions }
+	#		NOT = { accepted_culture = melanesian }
+	#	}
+	#	allow = {
+	#		war = no
+	#		revolution_n_counterrevolution = 1
+	#		2529 = { is_core = OCE }
+	#		2529 = { owned_by = OCE }
+	#		citizenship_policy = full_citizenship
+	#		citizens_rights = all_voting_pops
+	#	}
+	#	effect = {
+	#		add_accepted_culture = melanesian
+	#	}
+	#}
+	#accept_moluccan = { 
+	#	picture = postcol_AST
+	#	potential = {
+	#		tag = OCE
+	#		NOT = { has_country_flag = hiding_the_decisions }
+	#		NOT = { accepted_culture = moluccan }
+	#	}
+	#	allow = {
+	#		war = no
+	#		revolution_n_counterrevolution = 1
+	#		1446 = { is_core = OCE }
+	#		1446 = { owned_by = OCE }
+	#		citizenship_policy = full_citizenship
+	#		citizens_rights = all_voting_pops
+	#	}
+	#	effect = {
+	#		add_accepted_culture = moluccan
+	#	}
+	#}
+	#accept_javan = {
+	#	picture = postcol_AST
+	#	potential = {
+	#		tag = OCE
+	#		NOT = { has_country_flag = hiding_the_decisions }
+	#		NOT = { accepted_culture = javan }
+	#	}
+	#	allow = {
+	#		war = no
+	#		revolution_n_counterrevolution = 1
+	#		1416 = { is_core = OCE }
+	#		1416 = { owned_by = OCE }
+	#		citizenship_policy = full_citizenship
+	#		citizens_rights = all_voting_pops
+	#	}
+	#	effect = {
+	#		add_accepted_culture = javan
+	#	}
+	#}
 }

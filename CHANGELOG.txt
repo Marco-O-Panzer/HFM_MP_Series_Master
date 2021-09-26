@@ -78,9 +78,14 @@ Flavour Changes
 * ROM
 -- Can always form the URP even if a principality no longer exists
 -- The URP can always form Romania
+* AUS
+-- Can become the SGF at the cost of losing most of its non-german land, leaving HUN as a puppet
+-- To create SGF can have Sigmarigen independent and sphered, vassalised or owned by AUS
 * GER
 -- North German led germany gains the military flava (bismarck etc.)
 -- South German led germany gains the diplomacy flava (von beust etc.)
+* Benelux
+-- LR reduction event added like other parts of Europe
 
 Bookmarks
 * New bookmark on the 2nd Jan 1836 that releases Canada and Australia as UK puppets
@@ -178,6 +183,7 @@ Balance
 * China cant take self-strengthen decision when already westernised
 * Nerfed and time limited Sikh Shastar reform
 * No more country-wide baby boom for Prussia
+* Oceania accepted cultures removed and cant core Java
 
 Other
 * Questioning our alliance event wont fire for players
@@ -192,6 +198,8 @@ Other
 * Irredentism decisions missing infamy cost have had it added
 * Generally decisions that require sphereing or GP only have been changed to allow vassals or SP status
 * Westernisation reforms have country flag on the reform itself - less event spam
+* Setup decision to declare mp_setup
+* Increased MTTH on a lot of liberal revolution events
 
 Fixes
 * Arabia formation more dynamic, done on the cores of the integrated tags now
@@ -205,6 +213,7 @@ Fixes
 * Treaty of Erzurum will now remove Iran cores on Ottomans
 * North india in asia, not near east
 * NGE cores upon formation no longer in the Kongo
+* EIC dissolution wont event spam
 
 
 Version 5

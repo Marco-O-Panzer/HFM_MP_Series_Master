@@ -55,22 +55,12 @@ country_event = {
 	picture = "india"
 
 	trigger = {
-		OR = { 
-			AND = {
-				tag = ENG
-				NOT = { owns = 263 }
-				NOT = { owns = 269 }
-				NOT = { owns = 300 }
-				NOT = { owns = 273 }
-			}
-			AND = {
-				tag = CAN
-				ENG = { NOT = { owns = 263 } }
-				ENG = { NOT = { owns = 269 } }
-				ENG = { NOT = { owns = 300 } }
-				ENG = { NOT = { owns = 273 } }
-			}
-		}
+		tag = ENG
+		NOT = { owns = 263 }
+		NOT = { owns = 269 }
+		NOT = { owns = 300 }
+		NOT = { owns = 273 }
+		GBR = { is_greater_power = yes }
 	}
 	
 	fire_only_once = yes
@@ -81,17 +71,19 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA7777918" 
+		ENG = { 
+			all_core = { remove_core = ENG }
+			capital = 57
+			change_tag = CAN
+		}
+		set_global_flag = eng_to_canada_flag
 		prestige = -25
 		release_vassal = EIC
 		diplomatic_influence = {
 			who = EIC
 			value = -400
 		}
-		any_country = {
-			limit = {
-				tag = EIC
-				exists = yes
-			}
+		EIC = {
 			country_event = 9990005
 		}
 	}

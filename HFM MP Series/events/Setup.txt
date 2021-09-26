@@ -8,6 +8,7 @@ country_event = {
 	
 	trigger = {
 		ai = no
+		NOT = { has_global_flag = mp_setup}
 	}
 	
 	mean_time_to_happen = {

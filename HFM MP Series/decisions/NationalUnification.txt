@@ -261,7 +261,11 @@ political_decisions = {
 					}
 				}
 			}
-			594 = { owned_by = THIS }
+			OR = {
+				SGM = { is_vassal = no in_sphere = THIS}
+				SGM = { vassal_of = AUS }
+				594 = { owned_by = THIS }
+			}
 		}
 		
 		effect = {
