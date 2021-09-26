@@ -910,13 +910,7 @@ colonialmigration_chance = {
 
 #general emigration chance
 emigration_chance = {
-	factor = 0.20
-	
-	
-	#modifier = {
-	#	factor = 0.5
-	#	year = 1837
-	#}
+	factor = 0.25
 	
 	
 	modifier = {
@@ -997,7 +991,7 @@ emigration_chance = {
 			literacy = 0.1
 		}
 		modifier = {
-			factor = 0.025
+			factor = 0.05
 			literacy = 0.2
 		}
 		modifier = {
@@ -1009,7 +1003,7 @@ emigration_chance = {
 			literacy = 0.4
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0.075
 			literacy = 0.5
 		}
 		modifier = {
