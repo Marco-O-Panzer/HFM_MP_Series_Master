@@ -66,6 +66,7 @@ Flavour Changes
 -- Dont need Gibraltar to form Iberia from the outside
 * UK
 -- Starts with Anglo-Indian accepted
+-- Can annex the EIC for 25 infamy at the start
 * KUK
 -- Can't greater Germany
 * JAP
@@ -184,6 +185,8 @@ Balance
 * Nerfed and time limited Sikh Shastar reform
 * No more country-wide baby boom for Prussia
 * Oceania accepted cultures removed and cant core Java
+* Independence events due to militancy won't fire in MP
+* Outside formables disabled on players as much as possible
 
 Other
 * Questioning our alliance event wont fire for players
@@ -200,6 +203,7 @@ Other
 * Westernisation reforms have country flag on the reform itself - less event spam
 * Setup decision to declare mp_setup
 * Increased MTTH on a lot of liberal revolution events
+* UK can only annex the EIC by decision if its a puppet of EIC
 
 Fixes
 * Arabia formation more dynamic, done on the cores of the integrated tags now

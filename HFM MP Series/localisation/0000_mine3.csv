@@ -20,6 +20,7 @@ radical_uh;Radicals want to enact further political reforms, and have a low supp
 radical_rebels_name;Radicals;x
 radical_rebels_army;Radicals;x
 radical_rebels_desc;Radicals will seek to found a Republic if successful. They will advance all political reforms they can, and are supportive of some social reforms.;x
+radical_rebels_title;Radicals;x
 anarcho_liberal;Anarchist;x
 anarcho_liberal_uh;Anarchists will advance all social and political reforms, and will revoke none.;x
 anarcho_liberal_name;Anarchists;x
@@ -87,3 +88,4 @@ usa_claim_canada_title;Revenge for 1812;x
 usa_claim_canada_desc;Now we control all of Canada East of the Great Lakes, we can claim it all for ourselves completing the tale of 1812.;x
 liberal_group;Liberal & Radical parties;x
 anarchist_group;Anarchists;x
+radical_rebels_title

@@ -118,25 +118,25 @@ political_decisions = {
 			badboy = 5
 		}
 	}
-	#accept_melanesian = {
-	#	picture = postcol_AST
-	#	potential = {
-	#		tag = OCE
-	#		NOT = { has_country_flag = hiding_the_decisions }
-	#		NOT = { accepted_culture = melanesian }
-	#	}
-	#	allow = {
-	#		war = no
-	#		revolution_n_counterrevolution = 1
-	#		2529 = { is_core = OCE }
-	#		2529 = { owned_by = OCE }
-	#		citizenship_policy = full_citizenship
-	#		citizens_rights = all_voting_pops
-	#	}
-	#	effect = {
-	#		add_accepted_culture = melanesian
-	#	}
-	#}
+	accept_melanesian = {
+		picture = postcol_AST
+		potential = {
+			tag = OCE
+			NOT = { has_country_flag = hiding_the_decisions }
+			NOT = { accepted_culture = melanesian }
+		}
+		allow = {
+			war = no
+			revolution_n_counterrevolution = 1
+			2529 = { is_core = OCE }
+			2529 = { owned_by = OCE }
+			citizenship_policy = full_citizenship
+			citizens_rights = all_voting_pops
+		}
+		effect = {
+			add_accepted_culture = melanesian
+		}
+	}
 	#accept_moluccan = { 
 	#	picture = postcol_AST
 	#	potential = {

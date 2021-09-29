@@ -138,13 +138,13 @@ political_decisions = {
 				tag = ENG
 				tag = ENL
 			}
-			OR = {
+			#OR = {
 				is_our_vassal = EIC
-				EIC = {
-					ai = yes
-					is_vassal = no
-				}
-			}
+				#EIC = {
+				#	ai = yes
+				#	is_vassal = no
+				#}
+			#}
 			OR = {
 				has_global_flag = sepoy_rebellion
 				MUG = { exists = yes is_vassal = no }
@@ -744,6 +744,23 @@ political_decisions = {
 				create_alliance = THIS
 				military_access = THIS
 			}
+		}
+	}
+	
+	phat_zombie_eic = {
+		potential = {
+			tag = ENG
+			EIC = {
+				exists = yes
+				vassal_of = ENG
+			}
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			badboy = 25
+			inherit = EIC
 		}
 	}
 }

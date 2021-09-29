@@ -543,6 +543,7 @@ country_event = {
 
 	trigger = {
 		war = no
+		NOT = { has_global_flag = mp_setup }
 		NOT = {
 			exists = CRO
 			has_country_flag = no_croatia_independence
@@ -805,6 +806,7 @@ country_event = {
 
 	trigger = {
 		war = no
+		NOT = { has_global_flag = mp_setup }
 		NOT = {
 			exists = SLO
 			has_country_flag = no_slovene_independence
@@ -1064,6 +1066,7 @@ country_event = {
 	picture = "Budapest"
 
 	trigger = {
+		NOT = { has_global_flag = mp_setup }
 		war = no
 		NOT = {
 			exists = BOH
@@ -1315,6 +1318,7 @@ country_event = {
 	picture = "Budapest"
 
 	trigger = {
+		NOT = { has_global_flag = mp_setup }
 		war = no
 		NOT = {
 			exists = SLV

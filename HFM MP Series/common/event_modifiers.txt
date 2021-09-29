@@ -1337,7 +1337,7 @@ global_baby_boom_small = {
 }
 
 california_population_boom = {
-	population_growth = 0.008
+	population_growth = 0.002
 	icon = 19
 }
 
@@ -2231,7 +2231,7 @@ irish_oppression = {
 	farm_rgo_size = -0.15
 	mine_rgo_size = -0.15
 	#immigrant_attract = -0.1
-	immigrant_push = 0.75
+	immigrant_push = 0.50
 	local_factory_throughput = -0.75
 	local_factory_output = -0.5
 	local_artisan_throughput = -0.75
@@ -2243,7 +2243,7 @@ irish_potato_blight = {
 	immigrant_attract = -2
 	pop_militancy_modifier = 0.4	
 	pop_consciousness_modifier = 0.3
-	immigrant_push = 2.0
+	immigrant_push = 0.75
 	local_factory_throughput = -0.25
 	local_factory_output = -0.5
 	local_artisan_throughput = -0.25

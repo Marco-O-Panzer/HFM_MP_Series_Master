@@ -913,14 +913,14 @@ emigration_chance = {
 	factor = 0.25
 	
 	
-	modifier = {
-		factor = 0.6
-		THIS = {
-			has_pop_culture = irish
-		}
-		has_culture_core = yes
-		NOT = { year = 1853 }
-	}
+	#modifier = {
+	#	factor = 0.6
+	#	THIS = {
+	#		has_pop_culture = irish
+	#	}
+	#	has_culture_core = yes
+	#	NOT = { year = 1853 }
+	#}
 
 	
 	modifier = {
