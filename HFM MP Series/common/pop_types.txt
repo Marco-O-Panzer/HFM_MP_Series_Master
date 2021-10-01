@@ -912,17 +912,6 @@ colonialmigration_chance = {
 emigration_chance = {
 	factor = 0.25
 	
-	
-	#modifier = {
-	#	factor = 0.6
-	#	THIS = {
-	#		has_pop_culture = irish
-	#	}
-	#	has_culture_core = yes
-	#	NOT = { year = 1853 }
-	#}
-
-	
 	modifier = {
 		factor = 0.4
 		unemployment = 1
@@ -1325,6 +1314,22 @@ emigration_chance = {
 			NOT = { has_country_flag = preparations_to_kill }
 			government = democracy
 		}
+	}
+	
+	modifier = {
+		factor = -0.05
+		country = { 
+			administration_spending = 0.75
+			OR = {
+				unemployment_subsidies = acceptable_subsidies 
+				unemployment_subsidies = good_subsidies
+			}
+		}
+	}
+		
+	modifier = {
+		factor = -0.1
+		country = { administration_spending = 0.99 unemployment_subsidies = good_subsidies }
 	}
 	
 	modifier = {

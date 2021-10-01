@@ -748,6 +748,7 @@ political_decisions = {
 	}
 	
 	phat_zombie_eic = {
+		picture = zombie_freak
 		potential = {
 			tag = ENG
 			EIC = {
@@ -756,11 +757,27 @@ political_decisions = {
 			}
 		}
 		allow = {
-			war = no
+			#war = no
+			EIC = {
+				exists = yes
+				vassal_of = ENG
+			}
 		}
 		effect = {
 			badboy = 25
 			inherit = EIC
+			any_pop = {
+				limit = { 
+					culture = british
+					OR = {
+						type = aristocrats
+						type = capitalists
+					}
+					#location = { is_core = HND }
+				}
+				militancy = 2
+				consciousness = 2
+			}
 		}
 	}
 }

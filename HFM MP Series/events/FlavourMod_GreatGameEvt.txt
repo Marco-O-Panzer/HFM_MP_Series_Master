@@ -468,6 +468,7 @@ country_event = {
 		}
 		1212 = { owned_by = PER }
 		NOT = { has_global_flag = anglo_persian_war }
+		NOT = { has_country_flag = persia_anglo_war_threaten }
 	}
 	
 	option = {
@@ -516,6 +517,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTB99200"
+		set_country_flag = persia_anglo_war_threaten
 		prestige = -25
 	}
 }

@@ -146,6 +146,7 @@ Population
 * Some capital liferatings increased in the Americas & Europe
 * France liferating increased by 2 in Europe
 * Province and global baby boom effects halved
+* Emigration reduced with admin funded UBI
 
 Economy
 * More starting tin and copper provinces
@@ -187,6 +188,7 @@ Balance
 * Oceania accepted cultures removed and cant core Java
 * Independence events due to militancy won't fire in MP
 * Outside formables disabled on players as much as possible
+* Westernisation reform costs increased 25%
 
 Other
 * Questioning our alliance event wont fire for players
@@ -204,6 +206,7 @@ Other
 * Setup decision to declare mp_setup
 * Increased MTTH on a lot of liberal revolution events
 * UK can only annex the EIC by decision if its a puppet of EIC
+* Can annex rebelling puppets via war for 5 infamy (if due to very different politics)
 
 Fixes
 * Arabia formation more dynamic, done on the cores of the integrated tags now
@@ -218,6 +221,8 @@ Fixes
 * North india in asia, not near east
 * NGE cores upon formation no longer in the Kongo
 * EIC dissolution wont event spam
+* Restore austrian empire cb works on GLM
+* Prevent 2nd herat expedition war option event spam
 
 
 Version 5

@@ -6715,7 +6715,18 @@ country_event = {
 	option = {
 		name = "EVT443027OPTC"
 		ai_chance = { factor = 10 }
-	}	
+	}
+	
+	option = {
+		name = "EVT443027OPTD"
+		badboy = 5
+		war = {
+			target = FROM
+			attacker_goal = { casus_belli = conquest_any }
+			defender_goal = { casus_belli = status_quo }
+			call_ally = no
+		}
+		ai_chance = { factor = 0 }
 }
 
 #Mobilization during peace time ends in pops pissed

@@ -735,6 +735,7 @@ restore_austrian_empire = {
 				is_core = SLV
 				is_core = BOH
 				is_core = HUN
+				is_core = GLM
 				region = AUS_702
 				region = AUS_771
 				region = AUS_780

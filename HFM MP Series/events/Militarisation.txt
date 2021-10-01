@@ -57,6 +57,11 @@ country_event = {
 			conscription = mandatory_service
 			war_policy = pacifism
 		}
+		
+		modifier = {
+			factor = 0.5
+			has_country_flag = in_great_war
+		}
 	}
 
 	option = {
