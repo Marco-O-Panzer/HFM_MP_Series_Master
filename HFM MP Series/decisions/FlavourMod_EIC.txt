@@ -755,6 +755,7 @@ political_decisions = {
 				exists = yes
 				vassal_of = ENG
 			}
+			ai = no
 		}
 		allow = {
 			#war = no
@@ -778,6 +779,9 @@ political_decisions = {
 				militancy = 2
 				consciousness = 2
 			}
+		}
+		ai_will_do = {
+			factor = 0
 		}
 	}
 }

@@ -41,6 +41,22 @@ political_decisions = {
 		}
 		
 		effect = {
+			random_owned = {
+				limit = { owner = { tag = AUS }  }
+				
+				owner = {
+					any_owned = {
+						limit = {
+							OR = {
+								province_id = 662
+								province_id = 663
+							}
+						}
+						secede_province = MOL
+					}
+				}
+			}
+			
 			clr_country_flag = crown_from_the_gutter
 			clr_country_flag = secondary_union_formation
 			random_owned = { limit = { owner = { accepted_culture = french } } owner = { remove_accepted_culture = french } }
@@ -108,26 +124,27 @@ political_decisions = {
 				owner = {
 					any_owned = {
 						limit = {
-							is_core = BKV
-							NOT = { province_id = 737 }
-						}
-						secede_province = BKV
-					}
-					diplomatic_influence = {
-						who = BKV
-						value = 300
-					}
-				}
-				owner = {
-					any_owned = {
-						limit = {
-							is_core = GLM
+							OR = {
+								is_core = GLM
+								is_core = KRA
+							}
 						}
 						secede_province = GLM
 					}
 					diplomatic_influence = {
 						who = GLM
 						value = 300
+					}
+				}
+				owner = {
+					any_owned = {
+						limit = {
+							OR = {
+								province_id = 662
+								province_id = 663
+							}
+						}
+						secede_province = MOL
 					}
 				}
 				owner = {
