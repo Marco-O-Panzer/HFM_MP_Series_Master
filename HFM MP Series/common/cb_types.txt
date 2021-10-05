@@ -157,6 +157,7 @@ aggression_cb = {
 		THIS = { ai = no }
 		THIS = { war_policy = jingoism }
 		THIS = { has_country_flag = allows_no_cb }
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 	
 	war_name = WAR_NO_CB_NAME
@@ -202,7 +203,7 @@ mass_conquest_cb = {
 		}
 		THIS = { mass_politics = 1 }
 		THIS = { ai = no }
-		
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 
 	badboy_factor = 2.5
@@ -295,6 +296,7 @@ dismantle_cb = {
 		}
 		NOT = { has_country_modifier = neutrality }
 		THIS = { NOT = { has_country_modifier = neutrality } }
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 	
 	po_disarmament = yes
@@ -364,7 +366,8 @@ dismantle_cb_add = {
 			is_disarmed = no
 			is_vassal = no
 			mass_politics = 1
-		}		
+		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 	
 	po_disarmament = yes
@@ -427,6 +430,7 @@ dismantle_cb_add_new = {
 			is_vassal = no
 			mass_politics = 1
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 	
 	po_disarmament = yes
@@ -1388,6 +1392,7 @@ add_to_sphere = {
 				NOT = { is_cultural_union = THIS }
 			}
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 	
 	po_add_to_sphere = yes
@@ -1598,7 +1603,8 @@ unification_release_puppet_cb = {
 		NOT = {
 			is_cultural_union = yes
 			is_culture_group = THIS
-		}		
+		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 	
 	# THIS - us
@@ -1661,6 +1667,7 @@ steal_puppet = {
 			THIS = { NOT = { has_country_flag = in_great_war } }
 			THIS = { ai = no }
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 	
 	# THIS - us
@@ -1812,6 +1819,7 @@ take_from_sphere = {
 			NOT = { relation = { who = THIS value = 0 } }
 			THIS = { ai = no }
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 	
 	# THIS - us
@@ -1922,6 +1930,7 @@ free_peoples = {
 			FROM = { involved_in_crisis = yes }
 			THIS = { ai = no }
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 
 	# THIS - us
@@ -2291,6 +2300,7 @@ liberate_country = {
 			has_global_flag = wakhan_treaty
 			has_global_flag = persia_treaty
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 
 	# THIS - us
@@ -2598,6 +2608,7 @@ free_allied_cores = {
 			THIS = { NOT = { has_country_flag = in_great_war } }
 			THIS = { ai = no }
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 
 	# THIS - us
@@ -2724,7 +2735,8 @@ free_balkans = {
 			NOT = { has_country_flag = dismantle_declared }
 			THIS = { NOT = { has_country_flag = in_great_war } }
 			THIS = { ai = no }
-		}		
+		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 
 	# THIS - us
@@ -3254,6 +3266,7 @@ oriental_crisis = {
 				relation = { who = TUR value = 50 }
 			}
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 
 	# THIS - us
@@ -3328,6 +3341,7 @@ release_puppet = {
 			THIS = { NOT = { has_country_flag = in_great_war } }
 			THIS = { ai = no }
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 	
 	# THIS - us
@@ -3476,6 +3490,7 @@ gunboat = {
 			NOT = { relation = { who = THIS value = 50 } }
 			THIS = { ai = no }
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 
 	on_add = {
@@ -3549,6 +3564,7 @@ cut_down_to_size = {
 			THIS = { NOT = { has_country_flag = in_great_war } }
 			THIS = { ai = no }
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 	
 	on_add = {
@@ -3912,6 +3928,7 @@ humiliate = {
 				}
 			}
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 
 	po_remove_prestige = yes
@@ -3976,6 +3993,7 @@ place_in_the_sun = {
 			NOT = { relation = { who = THIS value = 0 } }
 			THIS = { ai = no }
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 	
 	allowed_states = {
@@ -4113,6 +4131,7 @@ acquire_state = {
 				#THIS = { civilized = no }
 			}
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 	
 	allowed_states = {
@@ -4335,6 +4354,7 @@ acquire_capital = {
 				#THIS = { civilized = no }
 			}
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
  
 	allowed_states = {
@@ -4871,6 +4891,7 @@ demand_concession_casus_belli = {
 			NOT = { relation = { who = THIS value = 0 } }
 			THIS = { ai = no }
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 	
 	allowed_states = {
@@ -5032,6 +5053,7 @@ demand_concession_NI_casus_belli = {
 			war_with = THIS
 			THIS = { NOT = { has_country_modifier = punitive_effects } }
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 	
 	allowed_states = {
@@ -5185,6 +5207,7 @@ demand_concession_BC_casus_belli = {
 			war_with = THIS
 			THIS = { NOT = { has_country_modifier = punitive_effects } }
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 	
 	allowed_states = {
@@ -5529,6 +5552,7 @@ conquest = {
 				NOT = { number_of_states = 3 }
 			}
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 
 	badboy_factor = 2
@@ -5590,6 +5614,7 @@ conquest_low = {
 				NOT = { number_of_states = 3 }
 			}
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 
 	badboy_factor = 1.0
@@ -5696,6 +5721,7 @@ annex_africa = {
 				NOT = { has_country_modifier = punitive_effects }
 			}
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 	
 	allowed_states = {
@@ -5808,6 +5834,7 @@ annex_africa_full = {
 				THIS = { any_owned_province = { port = yes } }
 			}
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 	
 	po_annex = yes
@@ -5915,6 +5942,7 @@ establish_protectorate_casus_belli = {
 				}
 			}
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 	
 	po_annex = yes
@@ -6014,6 +6042,7 @@ establish_protectorate_NI_casus_belli = {
 				}
 			}
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 	
 	po_annex = yes
@@ -6109,6 +6138,7 @@ establish_protectorate_BC_casus_belli = {
 				}
 			}
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 	
 	po_annex = yes
@@ -6193,6 +6223,7 @@ lower_tariffs_cb = {
 		THIS = { trade_policy = free_trade }
 		trade_policy = protectionism 
 		NOT = { has_country_modifier = lost_the_tarrif_war }
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 	
 	on_po_accepted = { country_event = 777791 }
@@ -6224,6 +6255,7 @@ cut_down_to_size_boxer = {
 		civilized = no
 		has_country_flag = boxers_appeared
 		NOT = { has_country_flag = boxers_disbanded }
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 	
 	badboy_factor = 1.1
@@ -6438,6 +6470,7 @@ make_puppet = {
 			NOT = { relation = { who = THIS value = 0 } }
 			THIS = { ai = no }
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 	
 	# THIS - us
@@ -6519,6 +6552,7 @@ liberate_puppet = {
 			FROM = { involved_in_crisis = yes }
 			THIS = { ai = no }
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 
 	# THIS - us
@@ -6801,6 +6835,7 @@ uninstall_communist_gov_cb = {
 				}
 			}
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 	
 	po_uninstall_communist_gov_type = yes
@@ -7327,6 +7362,7 @@ acquire_substate_region = {
 			war_with = THIS
 			THIS = { NOT = { has_country_modifier = no_more_war } }
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 	
 	allowed_substate_regions = {
@@ -7503,6 +7539,7 @@ dismantle_forts = {
 			NOT = { relation = { who = THIS value = 0 } }
 			THIS = { ai = no }
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 
 	# THIS - us
@@ -7762,6 +7799,7 @@ treaty_port_casus_belli = {
 			owns = 2589 #Tsushima
 			owns = 3260 #Sado
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 	
 	po_reparations = yes
@@ -8026,6 +8064,7 @@ colonial_conquest = {
 			war_with = THIS
 			THIS = { NOT = { has_country_modifier = punitive_effects } }
 		}
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 	
 	allowed_states = {
@@ -8250,6 +8289,7 @@ overlord_puppet_cb = {
 		is_vassal = no
 		num_of_vassals_no_substates = 1
 		THIS = { ai = no }
+		NOT = { THIS = { has_country_modifier = our_home } }
 	}
 	
 	

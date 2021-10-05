@@ -468,6 +468,7 @@ political_reforms = {
 			mobilization_impact = 3
 			mobilisation_economy_impact = 0.05
 			war_exhaustion = -0.5
+			global_immigrant_attract = 0.25
 			badboy = -0.01
 			allow = { has_country_flag = changing_militarisation }
 		}
@@ -486,7 +487,7 @@ political_reforms = {
 			#mobilisation_size = -0.02
 			mobilization_impact = 2
 			war_exhaustion = -0.5
-			global_immigrant_attract = 0.15
+			global_immigrant_attract = 0.25
 			land_unit_start_experience = -5
 			org_regain = -0.25
 			reinforce_speed = -0.25

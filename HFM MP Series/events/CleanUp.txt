@@ -697,6 +697,7 @@ country_event = {
 			tag = BAN
 			tag = SMR
 			tag = LEG
+			tag = EIC
 			AND = {
 				tag = RHI
 				is_culture_group = french

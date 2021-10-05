@@ -555,6 +555,7 @@ political_decisions = {
 			}
 			casus_belli = { target = PAP type = conquest_any months = 48 }
 			casus_belli = { target = SIC type = conquest_any months = 48 }
+			casus_belli = { target = SYC type = conquest_any months = 48 }
 		}
 		ai_will_do = { factor = 1 }
 	}

@@ -42,6 +42,7 @@ Flavour Changes
 * GBR
 -- Starting reforms increased
 -- Immigration attraction and assimilation modifier nerfed significantly
+-- Our Home now no longer allows CBs to be used aside from ideological or war reps
 * Iberia
 -- Can now be formed militarily by any Spain
 * DNB
@@ -115,7 +116,7 @@ CBs & Infamy
 * No jingo requirement for adding wargoals
 * Manually built cbs retention length increased to 2.5 years
 * Unciv infamy reduction effects now scale on westernisation %
-* Infamy transfers are only available to civs
+* Infamy transfers are only available to GPs and same continent civs
 * Republics can use install democracy on absolute monarchies
 * Add to sphere CB increased to 25mil max pop
 * Can use acquire core CB on one state nations (and therefore also return non cores)
@@ -172,7 +173,7 @@ Balance
 * Alexander's reforms dont give Russia pop growth - and a republican version added
 * Swiss partition now more evenly splits the infamy if all 3 agree
 * Slavery debate effects nerfed
-* Focus at Home gives slight education buff (can be removed within 70 days for if accidentally taken)
+* Focus at Home gives slight education buff (can be removed within 70 days for if accidentally taken) - nerfed late game effects
 * Province 773 changed from mountains to hills (on austrian italian border, austrian side)
 * Statue of liberty nerfed to 50% bonus (from 125%)
 * Belgium can accept Flemish just with State n Gov
@@ -207,6 +208,7 @@ Other
 * Increased MTTH on a lot of liberal revolution events
 * UK can only annex the EIC by decision if its a puppet of EIC
 * Can annex rebelling puppets via war for 5 infamy (if due to very different politics)
+* Expedition of 1000 gives conquest on Sicily if it exists
 
 Fixes
 * Arabia formation more dynamic, done on the cores of the integrated tags now
@@ -223,6 +225,7 @@ Fixes
 * EIC dissolution wont event spam
 * Restore austrian empire cb works on GLM
 * Prevent 2nd herat expedition war option event spam
+* EIC won't petition for cultural annexation
 
 
 Version 5

@@ -22,29 +22,264 @@ country_event = {
 	
 		name = "It is out of our hands."
 
-		any_country = {
-		
+		random_country = {
 			limit = {
-			
-				has_country_flag = will_give_infamy
-			
-				ai = no
-
-				is_vassal = no
-			
-				NOT = { badboy = 1 }
-				
-				#NOT = { tag = THIS }
-		
+				tag = THIS
+				capital_scope = { continent = europe }	### limits those who get the event to GPs and same continent nations
 			}
+			any_country = {
+			
+				limit = {
+				
+					has_country_flag = will_give_infamy
+				
+					ai = no
 		
-			country_event = {id = 2000011 days = 0}
-	
-		}	
+					is_vassal = no
+				
+					NOT = { badboy = 1 }
+					
+					OR = {
+						is_greater_power = yes
+						capital_scope = { continent = europe }
+					}
+					
+					NOT = { has_country_flag = our_home }
+			
+				}
+				
+				country_event = {id = 2000011 days = 0}
+			
+			}
+		}
+		
+		random_country = {
+			limit = {
+				tag = THIS
+				capital_scope = { continent = asia }
+			}
+			any_country = {
+			
+				limit = {
+				
+					has_country_flag = will_give_infamy
+				
+					ai = no
+		
+					is_vassal = no
+				
+					NOT = { badboy = 1 }
+					
+					OR = {
+						is_greater_power = yes
+						capital_scope = { continent = asia }
+					}
+					
+					NOT = { has_country_flag = our_home }
+			
+				}
+				
+				country_event = {id = 2000011 days = 0}
+			
+			}
+		}
+		
+		random_country = {
+			limit = {
+				tag = THIS
+				capital_scope = { continent = indochina }
+			}
+			any_country = {
+			
+				limit = {
+				
+					has_country_flag = will_give_infamy
+				
+					ai = no
+		
+					is_vassal = no
+				
+					NOT = { badboy = 1 }
+					
+					OR = {
+						is_greater_power = yes
+						capital_scope = { continent = indochina }
+					}
+					
+					NOT = { has_country_flag = our_home }
+			
+				}
+				
+				country_event = {id = 2000011 days = 0}
+			
+			}
+		}
+		
+		random_country = {
+			limit = {
+				tag = THIS
+				capital_scope = { continent = east_indies }
+			}
+			any_country = {
+			
+				limit = {
+				
+					has_country_flag = will_give_infamy
+				
+					ai = no
+		
+					is_vassal = no
+				
+					NOT = { badboy = 1 }
+					
+					OR = {
+						is_greater_power = yes
+						capital_scope = { continent = east_indies }
+					}
+					
+					NOT = { has_country_flag = our_home }
+			
+				}
+				
+				country_event = {id = 2000011 days = 0}
+			
+			}
+		}
+		
+		random_country = {
+			limit = {
+				tag = THIS
+				capital_scope = {
+					OR = {
+						continent = africa
+						continent = central_africa
+						continent = west_africa
+						continent = east_africa
+						continent = south_west_africa
+					}
+				}
+			}
+			any_country = {
+			
+				limit = {
+				
+					has_country_flag = will_give_infamy
+				
+					ai = no
+		
+					is_vassal = no
+				
+					NOT = { badboy = 1 }
+					
+					OR = {
+						is_greater_power = yes
+						capital_scope = {
+							OR = {
+								continent = africa
+								continent = central_africa
+								continent = west_africa
+								continent = east_africa
+								continent = south_west_africa
+							}
+						}
+					}
+					
+					NOT = { has_country_flag = our_home }
+			
+				}
+				
+				country_event = {id = 2000011 days = 0}
+			
+			}
+		}
+		
+		random_country = {
+			limit = {
+				tag = THIS
+				capital_scope = {
+					OR = {
+						continent = north_america
+						continent = south_america
+					}
+				}
+			}
+			any_country = {
+			
+				limit = {
+				
+					has_country_flag = will_give_infamy
+				
+					ai = no
+		
+					is_vassal = no
+				
+					NOT = { badboy = 1 }
+					
+					OR = {
+						is_greater_power = yes
+						capital_scope = {
+							OR = {
+								continent = north_america
+								continent = south_america
+							}
+						}
+					}
+					
+					NOT = { has_country_flag = our_home }
+			
+				}
+				
+				country_event = {id = 2000011 days = 0}
+			
+			}
+		}
+		
+		random_country = {
+			limit = {
+				tag = THIS
+				capital_scope = {
+					OR = {
+						continent = oceania
+						continent = australia_new_zealand
+						continent = polynesia
+					}
+				}
+			}
+			any_country = {
+			
+				limit = {
+				
+					has_country_flag = will_give_infamy
+				
+					ai = no
+		
+					is_vassal = no
+				
+					NOT = { badboy = 1 }
+					
+					OR = {
+						is_greater_power = yes
+						capital_scope = {
+							OR = {
+								continent = oceania
+								continent = australia_new_zealand
+								continent = polynesia
+							}
+						}
+					}
+					
+					NOT = { has_country_flag = our_home }
+			
+				}
+				
+				country_event = {id = 2000011 days = 0}
+			
+			}
+		}
 	
 		ai_chance = {factor = 100} 
 	
-	}	
+	}
 
 }
 
