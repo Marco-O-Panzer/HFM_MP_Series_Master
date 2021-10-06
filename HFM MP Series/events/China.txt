@@ -736,7 +736,7 @@ country_event = {
 	option = {
 		name = "EVT90907OPTA"
 		1498 = { remove_core = THIS }
-		1498 = { remove_core = CHI }
+		#1498 = { remove_core = CHI }
 		1498 = { remove_core = GNG }
 		relation = { who = FROM value = 400 }
 		prestige = -5

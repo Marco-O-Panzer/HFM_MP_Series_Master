@@ -235,7 +235,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "Transition to parliamentary sysetm"
+		name = "Transition to parliamentary system"
 		political_reform = parliamentary_system 
 	}
 }

@@ -512,9 +512,48 @@ country_event = {
 	
 	mean_time_to_happen = { days = 1 }
 	
-	immediate = {
+	#immediate = {
+	#}
+	
+	option = {
+		name = "EVT160002OPTA"
+		set_global_flag = taiping_has_been_defeated
+		prestige = 10
 		war_exhaustion = 45
 		plurality = -5
+		any_owned = {
+			limit = { is_core = TPG }
+			any_pop = {
+				militancy = -6
+				reduce_pop = 0.90
+			}
+		}
+		any_pop = {
+			limit = {
+				religion = protestant
+				location = { is_core = TPG }
+			}
+			reduce_pop = 0.85
+		}
+		TPG = { all_core = { remove_core = TPG } }
+		random_owned = { limit = { owner = { ai = yes } } owner = { remove_country_modifier = qing_ai_boost } }
+		MCK = { all_core = { add_core = QNG } }
+		IMG = { all_core = { remove_core = IMG } }
+		random_country = {
+			limit = {
+				tag = IMG
+				substate_of = QNG
+			}	
+			annex_to = QNG
+		}
+		random_country = {
+			limit = {
+				tag = MCK
+				substate_of = QNG
+			}	
+			annex_to = QNG
+		}
+		
 		random_owned = {
 			limit = {
 				owner = { ai = no }
@@ -538,9 +577,9 @@ country_event = {
 				value = liberal
 				}
 			}
-		any_pop = {	
+		any_pop = {
 			militancy = -7
-			reduce_pop = 0.95
+			reduce_pop = 0.98
 		}
 		any_country = { limit = { vassal_of = THIS }
 			any_pop = {
@@ -553,44 +592,6 @@ country_event = {
 				value = liberal
 				}
 			}
-		}
-	}
-	
-	option = {
-		name = "EVT160002OPTA"
-		set_global_flag = taiping_has_been_defeated
-		prestige = 10
-		any_owned = {
-			limit = { is_core = TPG }
-			any_pop = {
-				militancy = -6
-				reduce_pop = 0.85
-			}
-		}
-		any_pop = {
-			limit = {
-				religion = protestant
-				location = { is_core = TPG }
-			}
-			reduce_pop = 0.75
-		}
-		TPG = { all_core = { remove_core = TPG } }
-		random_owned = { limit = { owner = { ai = yes } } owner = { remove_country_modifier = qing_ai_boost } }
-		MCK = { all_core = { add_core = QNG } }
-		IMG = { all_core = { remove_core = IMG } }
-		random_country = {
-			limit = {
-				tag = IMG
-				substate_of = QNG
-			}	
-			annex_to = QNG
-		}
-		random_country = {
-			limit = {
-				tag = MCK
-				substate_of = QNG
-			}	
-			annex_to = QNG
 		}
 	}
 }
