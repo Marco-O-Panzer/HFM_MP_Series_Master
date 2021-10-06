@@ -148,6 +148,7 @@ Population
 * France liferating increased by 2 in Europe
 * Province and global baby boom effects halved
 * Emigration reduced with admin funded UBI
+* USA liferating 38 at start, 35 at 1880, 32 at 1900
 
 Economy
 * More starting tin and copper provinces
@@ -226,6 +227,7 @@ Fixes
 * Restore austrian empire cb works on GLM
 * Prevent 2nd herat expedition war option event spam
 * EIC won't petition for cultural annexation
+* Haiti burns event id fix
 
 
 Version 5

@@ -12,7 +12,7 @@ colonial_conquest_desc;Acquire an enemy §Ystate§W where we have §Ycolonial claim
 colonial_conquest_short;Acquire $STATE$;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
 colonial_conquest_setup;Acquire $STATE$ from $RECIPIENT$;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
 war_reparations;Reparations;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,
-war_reparations_desc;Demand §Yreparations§! from $RECIPIENT$.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,
+war_reparations_desc;Demand §Ywar reparations§!.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,
 war_reparations_short;Demand Reparations;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,
 war_reparations_setup;Demand §Yreparations§! from $RECIPIENT$.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,
 install_democracy_make_puppet;Install a Democratic Puppet;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,

@@ -2203,3 +2203,268 @@ country_event = {
 		MEX_85 = { remove_province_modifier = california_population_boom }
 	}
 }
+
+#USA LR Normalization
+country_event = {
+	id = 998081
+	title = "EVTNAME33040"
+	desc = "EVTDESC33040"
+	picture = "migration_usa"
+
+	trigger = {
+		tag = USA
+		is_greater_power = yes
+		OR = {
+			AND = {
+				health_care = no_health_care
+				year = 1885
+			}
+			AND = {
+				health_care = trinket_health_care
+				year = 1885
+			}
+			AND = {
+				health_care = low_health_care
+				year = 1882
+			}
+			AND = {
+				health_care = acceptable_health_care
+				year = 1880
+			}
+			AND = {
+				health_care = good_health_care
+				year = 1880
+			}
+		}
+		NOT = { has_country_flag = lr_normalized_usa }
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = { months = 1 }
+	
+	option = {
+		name = "EVT33040OPTA"
+		set_country_flag = lr_normalized_usa
+		any_owned = {
+			limit = {
+				life_rating = 45
+				continent = north_america
+			}
+			life_rating = -1
+		}
+		any_owned = {
+			limit = {
+				life_rating = 44
+				continent = north_america
+			}
+			life_rating = -1
+		}
+		any_owned = {
+			limit = {
+				life_rating = 43
+				continent = north_america
+			}
+			life_rating = -1
+		}
+		any_owned = {
+			limit = {
+				life_rating = 42
+				continent = north_america
+			}
+			life_rating = -1
+		}
+		any_owned = {
+			limit = {
+				life_rating = 41
+				continent = north_america
+			}
+			life_rating = -1
+		}
+		any_owned = {
+			limit = {
+				life_rating = 40
+				continent = north_america
+			}
+			life_rating = -1
+		}
+		any_owned = {
+			limit = {
+				life_rating = 39
+				continent = north_america
+			}
+			life_rating = -1
+		}
+		any_owned = {
+			limit = {
+				life_rating = 38
+				continent = north_america
+			}
+			life_rating = -1
+		}
+		any_owned = {
+			limit = {
+				life_rating = 37
+				continent = north_america
+			}
+			life_rating = -1
+		}
+		any_owned = {
+			limit = {
+				life_rating = 36
+				continent = north_america
+			}
+			life_rating = -1
+		}
+		any_owned = {
+			limit = {
+				life_rating = 36
+				continent = north_america
+			}
+			life_rating = -1
+		}
+		any_owned = {
+			limit = {
+				life_rating = 36
+				continent = north_america
+			}
+			life_rating = -1
+		}
+		any_owned = {
+			limit = {
+				life_rating = 36
+				continent = north_america
+			}
+			life_rating = -1
+		}
+		any_owned = {
+			limit = {
+				life_rating = 36
+				continent = north_america
+			}
+			life_rating = -1
+		}
+	}
+}
+
+#USA LR Normalization 2
+country_event = {
+	id = 998082
+	title = "EVTNAME33040"
+	desc = "EVTDESC33040"
+	picture = "migration_usa"
+
+	trigger = {
+		tag = USA
+		is_greater_power = yes
+		year = 1900
+		NOT = { has_country_flag = lr_normalized_usa_2 }
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = { months = 1 }
+	
+	option = {
+		name = "EVT33040OPTA"
+		set_country_flag = lr_normalized_usa_2
+		any_owned = {
+			limit = {
+				life_rating = 45
+				continent = north_america
+			}
+			life_rating = -1
+		}
+		any_owned = {
+			limit = {
+				life_rating = 44
+				continent = north_america
+			}
+			life_rating = -1
+		}
+		any_owned = {
+			limit = {
+				life_rating = 43
+				continent = north_america
+			}
+			life_rating = -1
+		}
+		any_owned = {
+			limit = {
+				life_rating = 42
+				continent = north_america
+			}
+			life_rating = -1
+		}
+		any_owned = {
+			limit = {
+				life_rating = 41
+				continent = north_america
+			}
+			life_rating = -1
+		}
+		any_owned = {
+			limit = {
+				life_rating = 40
+				continent = north_america
+			}
+			life_rating = -1
+		}
+		any_owned = {
+			limit = {
+				life_rating = 39
+				continent = north_america
+			}
+			life_rating = -1
+		}
+		any_owned = {
+			limit = {
+				life_rating = 38
+				continent = north_america
+			}
+			life_rating = -1
+		}
+		any_owned = {
+			limit = {
+				life_rating = 37
+				continent = north_america
+			}
+			life_rating = -1
+		}
+		any_owned = {
+			limit = {
+				life_rating = 36
+				continent = north_america
+			}
+			life_rating = -1
+		}
+		any_owned = {
+			limit = {
+				life_rating = 35
+				continent = north_america
+			}
+			life_rating = -1
+		}
+		any_owned = {
+			limit = {
+				life_rating = 34
+				continent = north_america
+			}
+			life_rating = -1
+		}
+		any_owned = {
+			limit = {
+				life_rating = 33
+				continent = north_america
+			}
+			life_rating = -1
+		}
+		any_owned = {
+			limit = {
+				life_rating = 33
+				continent = north_america
+			}
+			life_rating = -1
+		}
+	}
+}

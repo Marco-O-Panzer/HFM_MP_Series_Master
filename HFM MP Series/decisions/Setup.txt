@@ -46,6 +46,30 @@ political_decisions = {
 		}
 	}
 	
+	usa_life_ratings = {
+		potential = {
+			tag = WBA
+			NOT = { has_global_flag = raised_american_liferatings }
+		}
+		allow = {}
+		effect = {
+			set_global_flag = raised_american_liferatings
+			USA = {
+				any_owned = {
+					limit = {
+						is_core = USA
+						continent = north_america
+					}
+					life_rating = 3
+				}
+				add_country_modifier = { name = global_baby_boom_small duration = 5475 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	option_initiate_mp_setup = {
 		picture = starting_options 
 		alert = no

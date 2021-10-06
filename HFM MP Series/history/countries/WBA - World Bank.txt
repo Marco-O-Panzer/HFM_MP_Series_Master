@@ -23,6 +23,7 @@ upper_house = {
 }
 
 decision = france_life_ratings
+decision = usa_life_ratings
 
 # Political reforms
 slavery = no_slavery

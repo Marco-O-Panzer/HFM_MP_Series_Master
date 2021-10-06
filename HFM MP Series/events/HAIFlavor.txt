@@ -547,7 +547,7 @@ province_event = {
 	}
 }
 province_event = {
-	id = HAI1
+	id = 1740011
 	title = "Haiti Burns"
 	desc = "The Haitians are burning down their own nation."
 	
@@ -558,24 +558,16 @@ province_event = {
 		}
 		OR = {
 			2213 = {
-				controller = {
-					controlled_by = THIS
-				}
-			} 
+				controlled_by = THIS
+			}
 			2214 = {
-				controller = {
-					controlled_by = THIS
-				}
-			} 
+				controlled_by = THIS
+			}
 			2215 = {
-				controller = {
-					controlled_by = THIS
-				}
-			} 
+				controlled_by = THIS
+			}
 			2216 = {
-				controller = {
-					controlled_by = THIS
-				}
+				controlled_by = THIS
 			}
 		}
 	}
@@ -638,9 +630,10 @@ province_event = {
 				reduce_pop = 0.75
 			}
 			any_owned = {
-				add_province_modifier
-				name = scorched_earth
-				duration = 2190
+				add_province_modifier = {
+					name = scorched_earth
+					duration = 2190
+				}
 			}
 		}
 		random_pop = {
@@ -653,7 +646,7 @@ province_event = {
 #Diplo end blockade
 country_event = {
 
-	id = HAI2
+	id = 1740012
 	
 	is_triggered_only = yes
  
