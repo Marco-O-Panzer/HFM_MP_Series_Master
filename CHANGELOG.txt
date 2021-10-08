@@ -111,6 +111,7 @@ Political
 * Immigration attraction drops as we increase (-2*WE = IA decrease)
 * No more RP gain from conquest - swapped for reforms giving RP (with econ giving slightly more)
 * No diplo time lag
+* Restrictions added for advancing citizenship availability
 
 CBs & Infamy
 * No jingo requirement for adding wargoals
@@ -149,6 +150,8 @@ Population
 * Province and global baby boom effects halved
 * Emigration reduced with admin funded UBI
 * USA liferating 38 at start, 35 at 1880, 32 at 1900
+* Partial citizen rights allows accepted cultures to integrate
+* Full citizenship rights allows any cultures to integrate (even on cultural cores)
 
 Economy
 * More starting tin and copper provinces
@@ -191,6 +194,7 @@ Balance
 * Independence events due to militancy won't fire in MP
 * Outside formables disabled on players as much as possible
 * Westernisation reform costs increased 25%
+* Equality mobo size slightly decreased (0.5)
 
 Other
 * Questioning our alliance event wont fire for players

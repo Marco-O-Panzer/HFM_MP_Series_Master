@@ -187,6 +187,35 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 
+	gov_research_flags = {
+		potential = {
+			tag = WBA
+			any_neighbor_country = {
+				NOT = { has_country_flag = nat_frat_invented }
+				invention = national_fraternity
+			}
+			any_neighbor_country = {
+				NOT = { has_country_flag = rev_n_counter_researched }
+				revolution_n_counterrevolution = 1
+			}
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			any_country = {
+				limit = {
+					NOT = { has_country_flag = rev_n_counter_researched }
+					revolution_n_counterrevolution = 1
+				}
+				set_country_flag = rev_n_counter_researched
+			}
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+
 	abolishing_serfs = {
 		potential = {
 			ai = yes

@@ -1368,12 +1368,6 @@ assimilation_chance = {
 				is_state_religion = no
 			}
 		}
-		#country = { has_country_flag = new_world_nation }
-		OR = {
-			location = { continent = north_america }
-			location = { continent = south_america }
-			location = { continent = australia_new_zealand }
-		}
 	}
 
 	group = {
@@ -1394,11 +1388,18 @@ assimilation_chance = {
 	modifier = {
 		factor = -20
 		has_culture_core = yes
+		OR = {
+			country = { citizens_rights = primary_culture_only }
+			AND = {
+				country = { citizens_rights = culture_voting_only }
+				is_accepted_culture = no
+			}
+		}
 	}
 	
 	modifier = {
 		factor = -20
-		OR = { 
+		OR = {
 			is_culture_group = east_asian
 			is_culture_group = south_asian
 		}
@@ -1415,6 +1416,11 @@ assimilation_chance = {
 	#		location = { is_overseas = yes any_core = { is_accepted_culture = THIS } }
 	#	}
 	#}
+
+	modifier = {
+		factor = 0.4
+		country = { nationalvalue = nv_equality }
+	}
 
 	modifier = {
 		factor = -0.2
@@ -1489,7 +1495,7 @@ assimilation_chance = {
 	modifier = {
 		factor = -0.35
 		country = {
-			has_country_flag = new_world_nation
+			#has_country_flag = new_world_nation
 			has_country_flag = native_assimilation_enacted
 		}
 		OR = {
