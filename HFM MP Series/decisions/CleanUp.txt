@@ -190,13 +190,15 @@ political_decisions = {
 	gov_research_flags = {
 		potential = {
 			tag = WBA
-			any_neighbor_country = {
-				NOT = { has_country_flag = nat_frat_invented }
-				invention = national_fraternity
-			}
-			any_neighbor_country = {
-				NOT = { has_country_flag = rev_n_counter_researched }
-				revolution_n_counterrevolution = 1
+			OR = {
+				any_neighbor_country = {
+					NOT = { has_country_flag = nat_frat_invented }
+					invention = national_fraternity
+				}
+				any_neighbor_country = {
+					NOT = { has_country_flag = rev_n_counter_researched }
+					revolution_n_counterrevolution = 1
+				}
 			}
 		}
 		
@@ -204,6 +206,13 @@ political_decisions = {
 		}
 		
 		effect = {
+			any_country = {
+				limit = {
+					NOT = { has_country_flag = nat_frat_invented }
+					invention = national_fraternity
+				}
+				set_country_flag = nat_frat_invented
+			}
 			any_country = {
 				limit = {
 					NOT = { has_country_flag = rev_n_counter_researched }

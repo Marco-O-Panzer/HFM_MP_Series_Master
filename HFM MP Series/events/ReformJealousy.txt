@@ -1,5 +1,54 @@
 country_event = {
 	
+	id = 7777932 
+
+	trigger = {
+		citizens_rights = all_voting_pops
+		NOT = { citizenship_policy = full_citizenship }
+	}
+ 
+	mean_time_to_happen =  {
+		days = 10
+	}
+
+	title = "EVTNAME7777932"
+	desc = "EVTDESC7777932"
+	picture = "Demonstration"
+	
+
+	option = {
+		name = "I'm sure it is for the best" 
+		political_reform = culture_voting_only 
+		#set_country_flag = residency_party
+	}
+}
+
+#country_event = {	#not needed as allow limit of full citizenship on the reform itself
+#	
+#	id = 7777933
+#
+#	trigger = {
+#		citizenship_policy = full_citizenship
+#		has_country_flag = residency_party
+#	}
+# 
+#	mean_time_to_happen =  {
+#		days = 10
+#	}
+#
+#	title = "EVTNAME7777933"
+#	desc = "EVTDESC7777933"
+#	picture = "Demonstration"
+#	
+#
+#	option = {
+#		name = "EVT77779071A"
+#		clr_country_flag = residency_party
+#	}
+#}
+
+country_event = {
+	
 	id = 7777907 
 
 	trigger = {
@@ -16,7 +65,7 @@ country_event = {
 	}
  
 	mean_time_to_happen =  {
-		days = 1
+		days = 10
 	}
 
 	title = "EVTNAME7777907"
@@ -44,7 +93,7 @@ country_event = {
 	}
  
 	mean_time_to_happen =  {
-		days = 1
+		days = 10
 	}
 
 	title = "EVTNAME77779071"

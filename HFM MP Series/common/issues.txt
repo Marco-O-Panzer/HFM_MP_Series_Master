@@ -524,12 +524,13 @@ political_reforms = {
 			global_assimilation_rate = 0.2
 			global_immigrant_attract = 0.40
 			allow = {
-				NOT = { has_country_flag = residency_party }
+				#NOT = { has_country_flag = residency_party }
 				has_country_flag = rev_n_counter_researched
-				colonial_nation = no
+				NOT = { colonial_nation = yes }
 				vote_franschise = universal_voting
 				press_rights = free_press
 				public_meetings = yes_meeting
+				citizenship_policy = full_citizenship
 			}
 		}
 	}

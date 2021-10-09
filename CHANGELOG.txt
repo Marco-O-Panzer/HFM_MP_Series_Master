@@ -112,6 +112,7 @@ Political
 * No more RP gain from conquest - swapped for reforms giving RP (with econ giving slightly more)
 * No diplo time lag
 * Restrictions added for advancing citizenship availability
+* Republics have slightly higher assimilation
 
 CBs & Infamy
 * No jingo requirement for adding wargoals
