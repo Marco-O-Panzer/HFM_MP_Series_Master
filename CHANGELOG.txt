@@ -88,6 +88,8 @@ Flavour Changes
 -- South German led germany gains the diplomacy flava (von beust etc.)
 * Benelux
 -- LR reduction event added like other parts of Europe
+* Ottos
+-- Cost to reclaim Greece reduced, and greatly reduced if already in control of Greece
 
 Bookmarks
 * New bookmark on the 2nd Jan 1836 that releases Canada and Australia as UK puppets
@@ -215,6 +217,10 @@ Other
 * UK can only annex the EIC by decision if its a puppet of EIC
 * Can annex rebelling puppets via war for 5 infamy (if due to very different politics)
 * Expedition of 1000 gives conquest on Sicily if it exists
+
+GFX, UI & Localisation Changes
+* New stripes.dds
+* water colourmap fixed to line up with provinces
 
 Fixes
 * Arabia formation more dynamic, done on the cores of the integrated tags now

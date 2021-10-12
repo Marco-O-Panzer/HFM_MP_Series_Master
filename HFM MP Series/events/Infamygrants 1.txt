@@ -21,259 +21,312 @@ country_event = {
 	option = {
 	
 		name = "It is out of our hands."
-
-		random_country = {
-			limit = {
-				tag = THIS
-				capital_scope = { continent = europe }	### limits those who get the event to GPs and same continent nations
-			}
-			any_country = {
-			
-				limit = {
-				
-					has_country_flag = will_give_infamy
-				
-					ai = no
 		
-					is_vassal = no
-				
-					NOT = { badboy = 1 }
+		random_owned = {
+			limit = {
+				owner = {
+					capital_scope = { continent = europe }	### limits those who get the event to GPs and same continent nations
+				}
+			}
+			owner = {
+				any_country = {
+		
+					limit = {
 					
-					OR = {
-						is_greater_power = yes
-						capital_scope = { continent = europe }
+						has_country_flag = will_give_infamy
+					
+						ai = no
+			
+						is_vassal = no
+					
+						NOT = { badboy = 1 }
+						
+						OR = {
+							is_greater_power = yes
+							capital_scope = { continent = europe }
+						}
+						
+						NOT = { has_country_flag = our_home }
+				
 					}
 					
-					NOT = { has_country_flag = our_home }
-			
-				}
+					country_event = {id = 2000011 days = 0}
 				
-				country_event = {id = 2000011 days = 0}
-			
+				}
 			}
 		}
 		
-		random_country = {
+		random_owned = {		# levant, iran, iraq area 
 			limit = {
-				tag = THIS
-				capital_scope = { continent = asia }
+				owner = {
+					capital_scope = { continent = oceania }	### limits those who get the event to GPs and same continent nations
+				}
 			}
-			any_country = {
-			
-				limit = {
-				
-					has_country_flag = will_give_infamy
-				
-					ai = no
+			owner = {
+				any_country = {
 		
-					is_vassal = no
-				
-					NOT = { badboy = 1 }
+					limit = {
 					
-					OR = {
-						is_greater_power = yes
-						capital_scope = { continent = asia }
+						has_country_flag = will_give_infamy
+					
+						ai = no
+			
+						is_vassal = no
+					
+						NOT = { badboy = 1 }
+						
+						OR = {
+							is_greater_power = yes
+							capital_scope = { continent = oceania }
+						}
+						
+						NOT = { has_country_flag = our_home }
+				
 					}
 					
-					NOT = { has_country_flag = our_home }
-			
-				}
+					country_event = {id = 2000011 days = 0}
 				
-				country_event = {id = 2000011 days = 0}
-			
+				}
 			}
 		}
 		
-		random_country = {
+		random_owned = {
 			limit = {
-				tag = THIS
-				capital_scope = { continent = indochina }
+				owner = {
+					capital_scope = { continent = asia }	### limits those who get the event to GPs and same continent nations
+				}
 			}
-			any_country = {
-			
-				limit = {
-				
-					has_country_flag = will_give_infamy
-				
-					ai = no
+			owner = {
+				any_country = {
 		
-					is_vassal = no
-				
-					NOT = { badboy = 1 }
+					limit = {
 					
-					OR = {
-						is_greater_power = yes
-						capital_scope = { continent = indochina }
+						has_country_flag = will_give_infamy
+					
+						ai = no
+			
+						is_vassal = no
+					
+						NOT = { badboy = 1 }
+						
+						OR = {
+							is_greater_power = yes
+							capital_scope = { continent = asia }
+						}
+						
+						NOT = { has_country_flag = our_home }
+				
 					}
 					
-					NOT = { has_country_flag = our_home }
-			
-				}
+					country_event = {id = 2000011 days = 0}
 				
-				country_event = {id = 2000011 days = 0}
-			
+				}
 			}
 		}
 		
-		random_country = {
+		random_owned = {
 			limit = {
-				tag = THIS
-				capital_scope = { continent = east_indies }
+				owner = {
+					capital_scope = { continent = indochina }	### limits those who get the event to GPs and same continent nations
+				}
 			}
-			any_country = {
-			
-				limit = {
-				
-					has_country_flag = will_give_infamy
-				
-					ai = no
+			owner = {
+				any_country = {
 		
-					is_vassal = no
-				
-					NOT = { badboy = 1 }
+					limit = {
 					
-					OR = {
-						is_greater_power = yes
-						capital_scope = { continent = east_indies }
+						has_country_flag = will_give_infamy
+					
+						ai = no
+			
+						is_vassal = no
+					
+						NOT = { badboy = 1 }
+						
+						OR = {
+							is_greater_power = yes
+							capital_scope = { continent = indochina }
+						}
+						
+						NOT = { has_country_flag = our_home }
+				
 					}
 					
-					NOT = { has_country_flag = our_home }
-			
-				}
+					country_event = {id = 2000011 days = 0}
 				
-				country_event = {id = 2000011 days = 0}
-			
+				}
 			}
 		}
 		
-		random_country = {
+		random_owned = {
 			limit = {
-				tag = THIS
-				capital_scope = {
-					OR = {
-						continent = africa
-						continent = central_africa
-						continent = west_africa
-						continent = east_africa
-						continent = south_west_africa
-					}
+				owner = {
+					capital_scope = { continent = east_indies }	### limits those who get the event to GPs and same continent nations
 				}
 			}
-			any_country = {
-			
-				limit = {
-				
-					has_country_flag = will_give_infamy
-				
-					ai = no
+			owner = {
+				any_country = {
 		
-					is_vassal = no
-				
-					NOT = { badboy = 1 }
+					limit = {
 					
-					OR = {
-						is_greater_power = yes
-						capital_scope = {
-							OR = {
-								continent = africa
-								continent = central_africa
-								continent = west_africa
-								continent = east_africa
-								continent = south_west_africa
-							}
+						has_country_flag = will_give_infamy
+					
+						ai = no
+			
+						is_vassal = no
+					
+						NOT = { badboy = 1 }
+						
+						OR = {
+							is_greater_power = yes
+							capital_scope = { continent = east_indies }
+						}
+						
+						NOT = { has_country_flag = our_home }
+				
+					}
+					
+					country_event = {id = 2000011 days = 0}
+				
+				}
+			}
+		}
+		
+		random_owned = {
+			limit = {
+				owner = {
+					capital_scope = {
+						OR = {
+							continent = africa
+							continent = central_africa
+							continent = west_africa
+							continent = east_africa
+							continent = south_west_africa
 						}
 					}
-					
-					NOT = { has_country_flag = our_home }
-			
 				}
-				
-				country_event = {id = 2000011 days = 0}
+			}
+			owner = {
+				any_country = {
+		
+					limit = {
+					
+						has_country_flag = will_give_infamy
+					
+						ai = no
 			
+						is_vassal = no
+					
+						NOT = { badboy = 1 }
+						
+						OR = {
+							is_greater_power = yes
+							capital_scope = {
+								OR = {
+									continent = africa
+									continent = central_africa
+									continent = west_africa
+									continent = east_africa
+									continent = south_west_africa
+								}
+							}
+						}
+						
+						NOT = { has_country_flag = our_home }
+				
+					}
+					
+					country_event = {id = 2000011 days = 0}
+				
+				}
 			}
 		}
 		
-		random_country = {
+		random_owned = {
 			limit = {
-				tag = THIS
-				capital_scope = {
-					OR = {
-						continent = north_america
-						continent = south_america
+				owner = {
+					capital_scope = {
+						OR = {
+							continent = north_america
+							continent = south_america
+						}
 					}
 				}
 			}
-			any_country = {
-			
-				limit = {
-				
-					has_country_flag = will_give_infamy
-				
-					ai = no
+			owner = {
+				any_country = {
 		
-					is_vassal = no
-				
-					NOT = { badboy = 1 }
+					limit = {
 					
-					OR = {
-						is_greater_power = yes
-						capital_scope = {
-							OR = {
-								continent = north_america
-								continent = south_america
+						has_country_flag = will_give_infamy
+					
+						ai = no
+			
+						is_vassal = no
+					
+						NOT = { badboy = 1 }
+						
+						OR = {
+							is_greater_power = yes
+							capital_scope = {
+								OR = {
+									continent = north_america
+									continent = south_america
+								}
 							}
 						}
+						
+						NOT = { has_country_flag = our_home }
+				
 					}
 					
-					NOT = { has_country_flag = our_home }
-			
-				}
+					country_event = {id = 2000011 days = 0}
 				
-				country_event = {id = 2000011 days = 0}
-			
+				}
 			}
 		}
 		
-		random_country = {
+		random_owned = {
 			limit = {
-				tag = THIS
-				capital_scope = {
-					OR = {
-						continent = oceania
-						continent = australia_new_zealand
-						continent = polynesia
+				owner = {
+					capital_scope = {
+						OR = {
+							continent = australia_new_zealand
+							continent = polynesia
+						}
 					}
 				}
 			}
-			any_country = {
-			
-				limit = {
-				
-					has_country_flag = will_give_infamy
-				
-					ai = no
+			owner = {
+				any_country = {
 		
-					is_vassal = no
-				
-					NOT = { badboy = 1 }
+					limit = {
 					
-					OR = {
-						is_greater_power = yes
-						capital_scope = {
-							OR = {
-								continent = oceania
-								continent = australia_new_zealand
-								continent = polynesia
+						has_country_flag = will_give_infamy
+					
+						ai = no
+			
+						is_vassal = no
+					
+						NOT = { badboy = 1 }
+						
+						OR = {
+							is_greater_power = yes
+							capital_scope = {
+								OR = {
+									continent = australia_new_zealand
+									continent = polynesia
+								}
 							}
 						}
+						
+						NOT = { has_country_flag = our_home }
+				
 					}
 					
-					NOT = { has_country_flag = our_home }
-			
-				}
+					country_event = {id = 2000011 days = 0}
 				
-				country_event = {id = 2000011 days = 0}
-			
+				}
 			}
 		}
 	

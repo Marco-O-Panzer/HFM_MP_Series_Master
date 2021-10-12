@@ -3603,8 +3603,8 @@ cut_down_to_size = {
 					num_of_ports = 1
 				}
 			}
-			owner = { add_country_modifier = { name = negotiating_unequal_treaty duration = 30 } }
-			THIS = { add_country_modifier = { name = negotiating_treaty duration = 30 } }
+			owner = { add_country_modifier = { name = negotiating_unequal_treaty duration = 90 } }
+			THIS = { add_country_modifier = { name = negotiating_treaty duration = 90 } }
 		}
 		random_owned = { limit = { owner = { civilized = no has_country_modifier = uncivilized_isolationism } }
 			owner = { remove_country_modifier = uncivilized_isolationism }
@@ -7850,8 +7850,8 @@ treaty_port_casus_belli = {
 					num_of_ports = 1
 				}
 			}
-		owner = { add_country_modifier = { name = negotiating_unequal_treaty duration = -1 } }
-			THIS = { add_country_modifier = { name = negotiating_treaty duration = -1 } }
+		owner = { add_country_modifier = { name = negotiating_unequal_treaty duration = 90 } }
+			THIS = { add_country_modifier = { name = negotiating_treaty duration = 90 } }
 		}
 		#random_owned = { limit = { owner = { civilized = no has_country_modifier = uncivilized_isolationism } }
 		#	owner = { remove_country_modifier = uncivilized_isolationism }

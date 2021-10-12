@@ -248,7 +248,7 @@ political_decisions = {
 				QNG = { 
 					add_country_modifier = {
 						name = negotiating_unequal_treaty
-						duration = 30
+						duration = 90
 					}
 				}
 			}
@@ -268,14 +268,14 @@ political_decisions = {
 				TPG = { 
 					add_country_modifier = {
 						name = negotiating_unequal_treaty
-						duration = 30
+						duration = 90
 					}
 				}
 			}
 			THIS = {
 				add_country_modifier = {
 					name = negotiating_treaty
-					duration = -1
+					duration = 90
 				}
 				remove_country_modifier = chinese_treaty_port
 			}

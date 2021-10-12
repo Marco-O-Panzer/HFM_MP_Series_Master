@@ -1052,7 +1052,7 @@ opium_plantation = {
 orchard = {
 	template = RGO_template_farmers
 	output_goods = fruit 
-	value = 3.2 #2.8
+	value = 3.5 #2.8
 	farm = yes
 }
 
@@ -1073,7 +1073,7 @@ rubber_lodge = {
 sheep_ranch = {
 	template = RGO_template_farmers
 	output_goods = wool 
-	value = 6
+	value = 7.5
 	farm = yes
 }
 

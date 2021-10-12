@@ -2370,34 +2370,6 @@ country_event = {
 		set_country_flag = lr_normalized_usa_2
 		any_owned = {
 			limit = {
-				life_rating = 45
-				continent = north_america
-			}
-			life_rating = -1
-		}
-		any_owned = {
-			limit = {
-				life_rating = 44
-				continent = north_america
-			}
-			life_rating = -1
-		}
-		any_owned = {
-			limit = {
-				life_rating = 43
-				continent = north_america
-			}
-			life_rating = -1
-		}
-		any_owned = {
-			limit = {
-				life_rating = 42
-				continent = north_america
-			}
-			life_rating = -1
-		}
-		any_owned = {
-			limit = {
 				life_rating = 41
 				continent = north_america
 			}
@@ -2448,13 +2420,6 @@ country_event = {
 		any_owned = {
 			limit = {
 				life_rating = 34
-				continent = north_america
-			}
-			life_rating = -1
-		}
-		any_owned = {
-			limit = {
-				life_rating = 33
 				continent = north_america
 			}
 			life_rating = -1

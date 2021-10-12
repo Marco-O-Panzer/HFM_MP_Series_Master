@@ -656,8 +656,44 @@ political_decisions = {
 		}
 		
 		effect = {
-			GRE = { all_core = { add_core = TUR }}
-			badboy = 18
+			random_owned = {
+				limit = {
+					owner = {
+						owns = 834
+						owns = 840
+					}
+				}
+				owner = {
+					GRE = {
+						all_core = {
+							add_core = THIS
+						}
+					}
+					TUR = {
+						badboy = 1
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						OR = {
+							NOT = { owns = 834 }
+							NOT = { owns = 840 }
+						}
+					}
+				}
+				owner = {
+					GRE = {
+						all_core = {
+							add_core = THIS
+						}
+					}
+					TUR = {
+						badboy = 8
+					}
+				}
+			}
 		}
 	}
 	
