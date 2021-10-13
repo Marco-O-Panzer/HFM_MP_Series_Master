@@ -80,7 +80,10 @@ political_decisions = {
 				}
 				treasury = 75000
 			}
-			1755 = { secede_province = THIS add_core = THIS }
+			1755 = { 
+				secede_province = THIS 
+				#add_core = THIS
+			}
 			random_owned = { limit = { exists = EGY } owner = { diplomatic_influence = { who = EGY value = 25 } } }
 			country_event = 36970
 		}
@@ -206,7 +209,10 @@ political_decisions = {
 			set_global_flag = seized_suez_canal
 			random_country = { limit = { owns = 1755 NOT = { in_sphere = THIS } } THIS = { treasury = -200000 } }
 			1755 = { owner = { country_event = 36980 } }
-			1755 = { secede_province = THIS add_core = THIS }
+			1755 = { 
+				secede_province = THIS
+				#add_core = THIS
+			}
 			
 			random_owned = { limit = { exists = NEJ } owner = { diplomatic_influence = { who = NEJ value = 25 } } }
 			random_owned = { limit = { exists = HAL } owner = { diplomatic_influence = { who = HAL value = 25 } } }
@@ -253,7 +259,10 @@ political_decisions = {
 				}
 				treasury = 50000
 			}
-			1723 = { secede_province = THIS add_core = THIS }
+			1723 = {
+				secede_province = THIS
+				#add_core = THIS
+			}
 			country_event = 36978
 			set_global_flag = panama_under_construction
 		}

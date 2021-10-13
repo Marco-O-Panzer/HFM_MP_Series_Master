@@ -159,7 +159,7 @@ country_event = {
 				}
 			}
 			secede_province = EGY
-			remove_core = THIS
+			#remove_core = THIS
 			THIS = {
 				diplomatic_influence = {
 					who = EGY

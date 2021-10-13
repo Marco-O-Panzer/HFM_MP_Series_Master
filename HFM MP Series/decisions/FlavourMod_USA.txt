@@ -57,12 +57,15 @@ political_decisions = {
 
 			any_owned = {
 				limit = {
-					OR = {
-						province_id = 146
-						province_id = 173
-					}
+					province_id = 173
 				}
 				trade_goods = iron
+			}
+			any_owned = {
+				limit = {
+					province_id = 249
+				}
+				trade_goods = tin
 			}	
 		
 			set_global_flag = manufacturing_belt

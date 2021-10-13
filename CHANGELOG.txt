@@ -51,7 +51,8 @@ Flavour Changes
 * USA
 -- Will get a Mexican rebellion during the civil war if fully annexed mexico
 -- California gains +0.08% monthly pop growth if a state and USA is a republic with manifest destiy - if the USA is not a republic will perma lose modifier
--- If the USA occupies all of british starting Canada, they can claim all of Canada as core for 25 infamy 
+-- If the USA occupies all of british starting Canada, they can claim all of Canada as core for 25 infamy
+-- Will accept Afroamerican when starting radical reconstruction. Can keep it accepted depending on the option taken at the end of it.
 * India
 -- RGO changes wont give huge rubber overproduction from: End of natural dyes - event also reduces wool production now and grants some tea
 * SWI
@@ -217,6 +218,7 @@ Other
 * UK can only annex the EIC by decision if its a puppet of EIC
 * Can annex rebelling puppets via war for 5 infamy (if due to very different politics)
 * Expedition of 1000 gives conquest on Sicily if it exists
+* Building suez or panama no longer gives a core on it
 
 GFX, UI & Localisation Changes
 * New stripes.dds

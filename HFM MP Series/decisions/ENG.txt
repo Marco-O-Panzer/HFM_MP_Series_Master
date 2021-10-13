@@ -1635,11 +1635,12 @@ political_decisions = {
 		potential = {
 			OR = {
 				AND = {
-					primary_culture = irish
+					OR = { primary_culture = irish tag = GBR }
 					NOT = { has_global_flag = londonderry_renamed }
 				}
 				AND = {
 					primary_culture = british
+					NOT = { tag = GBR }
 					has_global_flag = londonderry_renamed
 				}
 			}
@@ -1654,12 +1655,12 @@ political_decisions = {
 		effect = {
 			
 			random_owned = {
-				limit = { owner = { primary_culture = irish } }
+				limit = { OR = { owner = { primary_culture = irish } owner = { tag = GBR } } }
 				owner = { set_global_flag = londonderry_renamed 255 = { change_province_name = "Derry" } }
 			}
 			
 			random_owned = {
-				limit = { owner = { primary_culture = british } }
+				limit = { owner = { primary_culture = british NOT = { tag = GBR } } }
 				owner = { clr_global_flag = londonderry_renamed 255 = { change_province_name = "Londonderry" } }
 			}
 		}
