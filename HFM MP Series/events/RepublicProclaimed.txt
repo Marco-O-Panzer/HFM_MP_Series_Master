@@ -250,21 +250,87 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA7777919"
-		nationalvalue = nv_liberty
+		random_owned = {
+			limit = {
+				owner = {
+					OR = {
+						liberal = 35
+						AND = {
+							liberal = 20
+							socialist  15
+						}
+						nationalvalue = nv_liberty
+					}
+				}
+			}
+			owner = {
+				nationalvalue = nv_liberty
+				add_country_modifier = {
+					name = nv_cooldown
+					duration = 7300
+				}
+			}
+		}
 	}
 
 	option = {
 		name = "EVTOPTB7777919"
-		nationalvalue = nv_equality
+		random_owned = {
+			limit = {
+				owner = {
+					OR = {
+						socialist = 35
+						AND = {
+							liberal = 15
+							socialist  20
+						}
+						nationalvalue = nv_equality
+					}
+				}
+			}
+			owner = {
+				nationalvalue = nv_equality
+				add_country_modifier = {
+					name = nv_cooldown
+					duration = 7300
+				}
+			}
+		}
 	}
 
 	option = {
 		name = "EVTOPTC7777919"
 		nationalvalue = nv_order
+		add_country_modifier = {
+			name = nv_cooldown
+			duration = 7300
+		}
 	}
 
 	option = {
 		name = "EVTOPTD7777919"
-		nationalvalue = nv_productivity
+		random_owned = {
+			limit = {
+				owner = {
+					OR = {
+						AND = {
+							stock_exchange = 1
+							private_bank_money_bill_printing = 1
+							collectivist_theory = 1
+							business_regulations = 1
+							scientific_management = 1
+						}
+						nationalvalue = nv_productivity
+					}
+				}
+			}
+			owner = {
+				nationalvalue = nv_productivity
+				add_country_modifier = {
+					name = nv_cooldown
+					duration = 7300
+				}
+			}
+		}
 	}
 }

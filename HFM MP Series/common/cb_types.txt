@@ -8332,18 +8332,23 @@ negotiated_state_transfer = {
 
 	can_use = {
 		number_of_states = 2 # annex if you want their last state
-		is_independant = yes
 		OR = {
-			ai = no
+			AND = {
+				ai = no
+				has_country_flag = begin_land_transfer
+				war = no
+				THIS = { war = no }
+				is_independant = yes
+			}
 			AND = {
 				is_vassal = yes
-				overlord = { ai = no }
+				overlord = { 
+					ai = no
+					has_country_flag = begin_land_transfer
+				}
 			}
 		}
-		THIS = { ai = no } 
-		has_country_flag = begin_land_transfer
-		war = no
-		THIS = { war = no }
+		THIS = { ai = no }
 		THIS = { has_country_flag = begin_land_transfer }
 	}
 	

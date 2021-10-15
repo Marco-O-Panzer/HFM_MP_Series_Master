@@ -142,7 +142,7 @@ nationalism = {
 
 infrastructure = {
 	local_factory_throughput = 1		#each % of infra boost throughput 1%
-	local_rgo_output = 1			#each % of infra boost throughput 1%
+	local_rgo_output = 1.25			#each % of infra boost throughput 1%
 	supply_limit = 4
 }
 
@@ -253,7 +253,7 @@ generalised_debt_default = {
 }
 
 total_occupation = {
-	war_exhaustion = 0.5				#increased by war exhaustion. (means 50% of max per month)
+	war_exhaustion = 0.2				#increased by war exhaustion. (means 20% of max per month)
 	global_population_growth = -0.0001
 	import_cost = 0.5
 	prestige = -0.1
@@ -261,7 +261,7 @@ total_occupation = {
 
 total_blockaded = {
 	war_exhaustion = 0.4	#increased by war exhaustion.    (means 0.4 per month)
-	global_population_growth = -0.0001
+	#global_population_growth = -0.0001
 	import_cost = 1
 	prestige = -0.1
 }

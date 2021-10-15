@@ -54,6 +54,10 @@ home_focus_trial = {
 	icon = 11
 }
 
+nv_cooldown = {
+	icon = 6
+}
+
 internally_reforming = {
 	political_reform_desire = 0.25
 	social_reform_desire = 0.25

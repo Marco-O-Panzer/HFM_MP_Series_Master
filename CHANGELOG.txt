@@ -116,6 +116,7 @@ Political
 * No diplo time lag
 * Restrictions added for advancing citizenship availability
 * Republics have slightly higher assimilation
+* Republics can change their NV (with limits) every 20 years
 
 CBs & Infamy
 * No jingo requirement for adding wargoals
@@ -168,6 +169,7 @@ Economy
 * Bank upgrade monetary cost removed and lumber build good added
 * Demotion rate decreased 25%, promotion rate increased 200%
 -- New factors for promotion added
+* Infrastructure rgo output buffed, and general infrastructure effects increased 25%
 
 Tech
 * Years behind in tech reduction bonus buffed 50%

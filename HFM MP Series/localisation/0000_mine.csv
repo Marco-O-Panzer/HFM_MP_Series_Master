@@ -239,13 +239,13 @@ EVTDESC7777906;Our new medicical knowledge and technology is reapidly decreasing
 old_world_war;At War;;;;;;;;;;;;x
 barrage_fire;Barrage Fire;;;;;;;;;;;;x
 barrage_fire_desc;A barrage is massed sustained artillery fire aimed at a series of points along a line. As well as attacking any enemy in that line, a barrage intends to suppress enemy movement and actions through that line.;;;;;;;;;;;;x
-grant_cooldown;Grant Cooldown;;;;;;;;;;;;x
+grant_cooldown;§CGrant Cooldown§!;;;;;;;;;;;;x
 grant_cooldown_desc;We have recently requested aid;;;;;;;;;;;;x
 dutch_accept_walloon_title;Our Walloon Brothers;;;;;;;;;;;;x
 dutch_accept_walloon_desc;Our relationship with the Walloon people has always been close, although fraught with tension. It is time we set aside our quarrels and work together on the major challenges facing us, as one.;;;;;;;;;;;;x
 recently_requested_trade;Recently requested trade;;;;;;;;;;;;x
 recently_requested_trade_desc;We must wait for our negotating team to return;;;;;;;;;;;;x
-infamy_grant_cooldown;Infamy grant cooldown;;;;;;;;;;;;x
+infamy_grant_cooldown;§CInfamy grant cooldown§!;;;;;;;;;;;;x
 infamy_grant_cooldown_desc;We must wait for our diplomatic mission to return;;;;;;;;;;;;x
 will_receive_infamy_transfer_title;§YRequest Infamy Transfer§!;;;;;;;;;;;;x
 will_receive_infamy_transfer_desc;We are in need of diplomatic aid, let us ask our ally for their public support and stated justifcation on the matter. NOTE: Nations with more than 25 infamy will not recieve the request.;;;;;;;;;;;;x
