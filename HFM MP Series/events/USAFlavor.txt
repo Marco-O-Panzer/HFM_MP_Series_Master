@@ -2240,7 +2240,7 @@ country_event = {
 			}
 			AND = {
 				tag = GBR
-				year = 1910
+				year = 1905
 			}
 			AND = {
 				tag = RUS

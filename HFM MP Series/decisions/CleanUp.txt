@@ -1,4 +1,19 @@
 political_decisions = {
+
+	remove_dead_overlords = {
+		potential = {
+			is_vassal = yes
+		}
+		
+		allow = {
+			overlord = { exists = no }
+		}
+		
+		effect = {
+			overlord = { country_event = 80104 }
+		}
+	}
+
 	ottoman_oppression_mil_gain = {
 		potential = {
 			ai = yes

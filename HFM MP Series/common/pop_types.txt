@@ -446,6 +446,11 @@ migration_chance = {
 	factor = 1
 	
 	modifier = {
+		factor = -3
+		NOT = { year = 1837 }
+	}
+	
+	modifier = {
 		factor = 1
 		country = { has_country_flag = promoted_european_culture }
 		location = { continent = europe }
@@ -466,17 +471,17 @@ migration_chance = {
 		}
 	}
 	
-	modifier = {
-		factor = -2.2
-		state_scope = { is_colonial = yes }
-		country = { NOT = { has_country_flag = increased_migration_to_states } }
-	}
-	
-	modifier = {
-		factor = -0.5
-		state_scope = { is_colonial = yes }
-		country = { has_country_flag = increased_migration_to_states }
-	}
+	#modifier = { ### cant have internal migration from colonial states - engine lock
+	#	factor = -2.2
+	#	state_scope = { is_colonial = yes }
+	#	country = { NOT = { has_country_flag = increased_migration_to_states } }
+	#}
+	#
+	#modifier = {
+	#	factor = -0.5
+	#	state_scope = { is_colonial = yes }
+	#	country = { has_country_flag = increased_migration_to_states }
+	#}
 	
 	modifier = {
 		factor = -100
@@ -593,34 +598,34 @@ migration_chance = {
 
 	group = {
 		modifier = {
-			factor = 0.2
+			factor = 0.1
 			unemployment = 0.1
 			NOT = { unemployment = 1 }
 		}
 		
 		modifier = {
-			factor = 0.3
+			factor = 0.2
 			location = { controlled_by = owner }
 			unemployment = 0.2
 			NOT = { unemployment = 1 }
 		}
 		
 		modifier = {
-			factor = 0.4
+			factor = 0.3
 			location = { controlled_by = owner }
 			unemployment = 0.3
 			NOT = { unemployment = 1 }
 		}
 		
 		modifier = {
-			factor = 0.5
+			factor = 0.4
 			location = { controlled_by = owner }
 			unemployment = 0.4
 			NOT = { unemployment = 1 }
 		}
 		
 		modifier = {
-			factor = 0.6
+			factor = 0.4
 			location = { controlled_by = owner }
 			unemployment = 0.5
 			NOT = { unemployment = 1 }
@@ -633,11 +638,11 @@ migration_chance = {
 		country = { slavery = no_slavery }
 	}
 	
-	modifier = {
-		factor = 10
-		THIS = { has_pop_culture = afro_american }
-		country = { tag = NAF }
-	}
+	#modifier = {
+	#	factor = 10
+	#	THIS = { has_pop_culture = afro_american }
+	#	country = { tag = NAF }
+	#}
 		
 	modifier = {
 		factor = 10
@@ -677,74 +682,16 @@ migration_chance = {
 		}
 		country = { primary_culture = swiss_german }
 	}
-	
-	modifier = {
-		factor = 100
-		THIS = { is_culture_group = east_slavic }
-		country = {
-			colonial_policy = settlement
-			primary_culture = russian
-		}
-		location = {
-			life_rating = 25
-			culture = russian
-			OR = { 
-				continent = west_africa 
-				continent = central_africa
-				continent = east_africa
-				continent = asia
-				continent = africa
-			}
-			total_pops = 200000
-		}
-		year = 1860
-	}
-	
-	modifier = {
-		factor = 100
-		THIS = { is_culture_group = east_slavic }
-		country = {
-			colonial_policy = settlement
-			primary_culture = russian
-		}
-		location = {
-			NOT = { life_rating = 25 }
-			culture = russian
-			OR = { 
-				continent = west_africa 
-				continent = central_africa
-				continent = east_africa
-				continent = asia
-				continent = africa
-			}
-			total_pops = 100000
-		}
-		year = 1860
-	}
-	
-	modifier = {
-		factor = 100
-		state_scope = { is_colonial = yes }
-		THIS = { is_culture_group = east_slavic }
-		location = { 
-			is_colonial = yes 
-			NOT = { is_core = THIS }
-			culture = russian
-			total_pops = 100000
-		}
-		country = { 	
-			OR = { 
-				colonial_policy = settlement 
-				border_policy = closed_borders
-			}
-			primary_culture = russian
-		}
-	}
 }
 
 #general colonial migration mtth, same for all pops
 colonialmigration_chance = {
 	factor = 0.25
+	
+	modifier = {
+		factor = -3
+		NOT = { year = 1837 }
+	}
 
 	modifier = {
 		factor = -0.5
@@ -910,7 +857,12 @@ colonialmigration_chance = {
 
 #general emigration chance
 emigration_chance = {
-	factor = 0.25
+	factor = 0.2
+	
+	modifier = {
+		factor = -3
+		NOT = { year = 1837 }
+	}
 	
 	modifier = {
 		factor = 0.4
@@ -1714,12 +1666,12 @@ conversion_chance = {
 	
 	
 	modifier = {
-		factor = 0.1
+		factor = 0.2
 		country = { government = theocracy }
 	}
 	
 	modifier = {
-		factor = 0.1
+		factor = 0.15
 		country = { religious_policy = moralism }
 	}
 	modifier = {

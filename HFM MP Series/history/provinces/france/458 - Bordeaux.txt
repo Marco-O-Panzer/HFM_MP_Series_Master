@@ -9,6 +9,11 @@ state_building = {
 	building = winery
 	upgrade = yes
 }
+state_building = {
+	level = 1
+	building = pharma_factory
+	upgrade = yes
+}
 #state_building = {
 #	level = 1
 #	building = winery

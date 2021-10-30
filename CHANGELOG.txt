@@ -133,7 +133,8 @@ CBs & Infamy
 * Allow negotiated state on the puppet of a player
 * Mil Access CB infamy reduced to 1
 * Minor Conquest ws reduced to 20
-* Conquest ws reduced to 65
+* Annexation ws reduced to 65
+* Puppet ws reduced to 50
 * Can now release country: India
 
 Military & War
@@ -151,6 +152,7 @@ Military & War
 * Max warscore from battles reduced to 40
 * Naval underfunding is more punishing on naval attrition
 * Dreadnought attack buffed
+* Removed stab hit effects
 
 Population
 * Removed new world country flag, now just done on capital location
@@ -179,6 +181,7 @@ Economy
 
 Tech
 * Years behind in tech reduction bonus buffed 50%
+* Pharma unlocked from basic chemistry
 
 Static Modifiers
 * Peace war exhaustion decrease changed to -1
@@ -251,6 +254,7 @@ Fixes
 * EIC won't petition for cultural annexation
 * Haiti burns event id fix
 * Adelsberg - fake port removed
+* French Indochina wont fire to give wargoals on puppets
 
 
 Version 5

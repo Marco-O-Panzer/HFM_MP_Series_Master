@@ -1022,9 +1022,9 @@ stainless_steel = {
 #steel_railroad
 #medicine
 medical_equipment = {
-	limit = { medicine = 1 }
+	limit = { basic_chemistry = 1 }
 	chance = {
-		base = 0
+		base = 3
 		modifier = {
 			factor = 1
 			invention = vaccination
