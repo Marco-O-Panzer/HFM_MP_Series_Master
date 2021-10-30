@@ -1328,7 +1328,7 @@ emigration_chance = {
 	}
 		
 	modifier = {
-		factor = -0.1
+		factor = -0.05
 		country = { administration_spending = 0.99 unemployment_subsidies = good_subsidies }
 	}
 	
@@ -1348,7 +1348,7 @@ assimilation_chance = {
 	factor = 1
 	
 	modifier = {
-		factor = 25
+		factor = 1
 		country = { has_country_flag = promoted_european_culture }
 		location = { continent = europe }
 	}

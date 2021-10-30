@@ -1490,7 +1490,7 @@ country_event = {
 	picture = "deliberation"
 	
 	trigger = {
-		citizens_rights = all_voting_pops
+		citizens_rights = primary_culture_only
 		war = no
 		any_owned_province = { has_province_modifier = national_assimilation }
 	}

@@ -96,7 +96,7 @@ political_decisions = {
 			}
 			revolution_n_counterrevolution = 1
 			NOT = { citizenship_policy = residency }
-			citizens_rights = all_voting_pops
+			NOT = { citizens_rights = primary_culture_only }
 			OR = {
 				liberal = 30
 				socialist = 30

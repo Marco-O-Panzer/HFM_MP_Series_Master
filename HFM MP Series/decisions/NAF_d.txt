@@ -217,7 +217,7 @@ political_decisions = {
 		}
 		allow = {
 			citizenship_policy = full_citizenship
-			citizens_rights = all_voting_pops
+			NOT = { citizens_rights = primary_culture_only }
 			social_alienation = 1
 		}
 		effect = {

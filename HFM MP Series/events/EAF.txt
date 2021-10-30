@@ -118,7 +118,7 @@ country_event = {
 	
 	option = {
 		name = "EVT7777912PTB"
-		political_reform = all_voting_pops
+		political_reform = culture_voting_only
 		add_accepted_culture = misri
 	}
 }

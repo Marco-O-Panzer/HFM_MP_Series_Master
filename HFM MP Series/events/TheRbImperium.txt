@@ -76,6 +76,12 @@ country_event = {
 			capital = 57
 			change_tag = CAN
 		}
+		ENG_296 = { remove_core = GBR add_core = ENL add_core = GBR }
+		ENG_277 = { remove_core = GBR add_core = ENL add_core = GBR }
+		ENG_280 = { remove_core = GBR add_core = ENL add_core = GBR }
+		ENG_284 = { remove_core = GBR add_core = ENL add_core = GBR }
+		ENG_291 = { remove_core = GBR add_core = ENL add_core = GBR }
+		ENG_300 = { remove_core = GBR add_core = ENL add_core = GBR }
 		set_global_flag = eng_to_canada_flag
 		prestige = -25
 		release_vassal = EIC

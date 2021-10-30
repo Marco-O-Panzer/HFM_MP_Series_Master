@@ -182,7 +182,7 @@ political_decisions = {
 		effect = {
 			add_country_modifier = {
 				name = our_home
-				duration = -1
+				duration = 3650
 			}
 			all_core = {
 				add_province_modifier = {

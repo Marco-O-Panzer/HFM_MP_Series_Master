@@ -1448,7 +1448,7 @@ country_event = {
 			}
 			any_owned = {
 				add_province_modifier = {
-					name = baby_boom
+					name = small_immigration_boom
 					duration = 1825
 				}
 			}

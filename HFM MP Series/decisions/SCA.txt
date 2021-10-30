@@ -54,7 +54,7 @@ political_decisions = {
 		}
 		
 		allow = {
-			citizens_rights = all_voting_pops
+			NOT = { citizens_rights = primary_culture_only }
 			citizenship_policy = full_citizenship
 		}
 		

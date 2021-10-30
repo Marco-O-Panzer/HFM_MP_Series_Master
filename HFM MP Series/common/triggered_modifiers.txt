@@ -809,6 +809,47 @@ health_care_fully_funded = {
 	icon = 19
 }
 
+partial_ubi_fully_funded = {
+	trigger = {
+		exists = yes
+		unemployment_subsidies = acceptable_subsidies
+		OR = {
+			AND = {
+				ai = yes
+				administration_spending = 0.50
+			}
+			AND = {
+				ai = no
+				administration_spending = 0.74
+			}
+		}
+	}
+	pension_level = 1.5
+	global_immigrant_attract = 0.45
+	icon = 19
+}
+
+full_ubi_fully_funded = {
+	trigger = {
+		exists = yes
+		unemployment_subsidies = good_subsidies
+		OR = {
+			AND = {
+				ai = yes
+				administration_spending = 0.74
+			}
+			AND = {
+				ai = no
+				administration_spending = 0.99
+			}
+		}
+	}
+	pension_level = 4
+	global_population_growth = 0.001
+	global_immigrant_attract = 1.05
+	icon = 19
+}
+
 low_schools_fully_funded = {
 	trigger = {
 		exists = yes

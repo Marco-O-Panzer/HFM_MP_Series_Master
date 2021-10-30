@@ -231,7 +231,7 @@ political_decisions = {
 			slavery = no_slavery
 			public_meetings = yes_meeting
 			press_rights = free_press
-			citizens_rights = all_voting_pops
+			NOT = { citizens_rights = primary_culture_only }
 			NOT = { citizenship_policy = residency }
 			NOT = { religious_policy = moralism }
 			OR = {

@@ -21,7 +21,7 @@ country_event = {
 		NOT = {
 			AND = {
 				has_country_modifier = ottomanism_reform
-				citizens_rights = all_voting_pops
+				NOT = { citizens_rights = primary_culture_only }
 			}
 			is_culture_group = arab
 			is_culture_group = iranian_turanian
@@ -380,7 +380,7 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.9
-			citizens_rights = all_voting_pops
+			NOT = { citizens_rights = primary_culture_only }
 		}
 		modifier = {
 			factor = 0.75

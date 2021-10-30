@@ -21,7 +21,7 @@ country_event = {
 		press_rights = free_press
 		public_meetings = yes_meeting
 		centralization = federalism
-		citizens_rights = all_voting_pops
+		NOT = { citizens_rights = primary_culture_only }
 		accepted_culture = mongol
 		accepted_culture = tibetan
 		NOT = { has_global_flag = mp_setup }

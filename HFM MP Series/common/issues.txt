@@ -661,7 +661,6 @@ political_reforms = {
 			supply_consumption = -0.05
 			navy_tech_research_bonus = -0.05
 			army_tech_research_bonus = 0.05
-			global_population_growth = 0.001
 		}
 	}
 	
@@ -921,8 +920,7 @@ social_reforms = {
 		}
 		acceptable_subsidies = {
 			unemployment_benefit = 1.0
-			pension_level = 1.5
-			global_immigrant_attract = 0.9
+			global_immigrant_attract = 0.45
 			allow = { 
 				ai = no
 				NOT = { has_country_flag = upper_house_no_ubi }
@@ -930,9 +928,7 @@ social_reforms = {
 		}
 		good_subsidies = {
 			unemployment_benefit = 1.0
-			pension_level = 4
-			global_population_growth = 0.001
-			global_immigrant_attract = 1.5
+			global_immigrant_attract = 0.45
 			allow = { 
 				ai = no
 				NOT = { has_country_flag = upper_house_no_ubi }

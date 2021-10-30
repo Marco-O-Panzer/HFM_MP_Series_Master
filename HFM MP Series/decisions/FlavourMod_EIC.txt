@@ -29,7 +29,7 @@ political_decisions = {
 				ruling_party_ideology = socialist
 			}
 			war = no
-			citizens_rights = all_voting_pops
+			NOT = { citizens_rights = primary_culture_only }
 		}
 		
 		effect = {

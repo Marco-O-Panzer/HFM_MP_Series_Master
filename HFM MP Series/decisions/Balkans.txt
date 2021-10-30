@@ -1438,7 +1438,7 @@ political_decisions = {
 		allow = {
 			NOT = { government = theocracy }
 			citizenship_policy = full_citizenship
-			citizens_rights = all_voting_pops
+			NOT = { citizens_rights = primary_culture_only }
 			prestige = 50
 			revolution_n_counterrevolution = 1
 			experimental_psychology = 1
@@ -1527,7 +1527,7 @@ political_decisions = {
 			prestige = 50
 			NOT = { government = theocracy }
 			citizenship_policy = full_citizenship
-			citizens_rights = all_voting_pops
+			NOT = { citizens_rights = primary_culture_only }
 			mass_politics = 1
 			social_science = 1
 			behaviorism = 1

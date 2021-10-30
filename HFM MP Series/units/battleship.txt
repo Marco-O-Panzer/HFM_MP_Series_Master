@@ -41,7 +41,7 @@ battleship = {
 		canned_food = 1.6
 		coal = 5
 		ammunition = 1.2
-		tobacco = 3.2
+		tobacco = 0.5
 		pharmaceuticals = 1.6
 	}
 	

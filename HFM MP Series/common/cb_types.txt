@@ -2307,11 +2307,11 @@ liberate_country = {
 	# FROM - country scope is possible match?
 	# war target country of goal is scope
 	allowed_countries = {
-		OR = {
-			is_releasable_vassal = FROM
-			FROM = { exists = yes }
-			FROM = { involved_in_crisis = yes }
-		}
+		#OR = {
+		#	is_releasable_vassal = FROM
+		#	FROM = { exists = yes }
+		#	FROM = { involved_in_crisis = yes }
+		#}
 		OR = {
 			THIS = { has_global_flag = intervention_in_vietnam }
 			THIS = { has_global_flag = wakhan_treaty }
@@ -2491,6 +2491,7 @@ liberate_country = {
 			OR = {
 				exists = yes
 				is_cultural_union = no
+				tag = HND
 				involved_in_crisis = yes
 			}
 		}
@@ -3994,6 +3995,7 @@ place_in_the_sun = {
 			THIS = { ai = no }
 		}
 		NOT = { THIS = { has_country_modifier = our_home } }
+		NOT = { THIS = { has_country_modifier = come_all } }
 	}
 	
 	allowed_states = {
@@ -4892,6 +4894,7 @@ demand_concession_casus_belli = {
 			THIS = { ai = no }
 		}
 		NOT = { THIS = { has_country_modifier = our_home } }
+		NOT = { THIS = { has_country_modifier = come_all } }
 	}
 	
 	allowed_states = {
@@ -5054,6 +5057,7 @@ demand_concession_NI_casus_belli = {
 			THIS = { NOT = { has_country_modifier = punitive_effects } }
 		}
 		NOT = { THIS = { has_country_modifier = our_home } }
+		NOT = { THIS = { has_country_modifier = come_all } }
 	}
 	
 	allowed_states = {
@@ -5208,6 +5212,7 @@ demand_concession_BC_casus_belli = {
 			THIS = { NOT = { has_country_modifier = punitive_effects } }
 		}
 		NOT = { THIS = { has_country_modifier = our_home } }
+		NOT = { THIS = { has_country_modifier = come_all } }
 	}
 	
 	allowed_states = {
@@ -5557,7 +5562,7 @@ conquest = {
 
 	badboy_factor = 2
 	prestige_factor = 5
-	peace_cost_factor = 1
+	peace_cost_factor = 0.77
 	penalty_factor = 1
 	
 	break_truce_prestige_factor = 5
@@ -5619,7 +5624,7 @@ conquest_low = {
 
 	badboy_factor = 1.0
 	prestige_factor = 5
-	peace_cost_factor = 1
+	peace_cost_factor = 0.24
 	penalty_factor = 1
 	
 	break_truce_prestige_factor = 5
@@ -5943,6 +5948,7 @@ establish_protectorate_casus_belli = {
 			}
 		}
 		NOT = { THIS = { has_country_modifier = our_home } }
+		NOT = { THIS = { has_country_modifier = come_all } }
 	}
 	
 	po_annex = yes
@@ -6043,6 +6049,7 @@ establish_protectorate_NI_casus_belli = {
 			}
 		}
 		NOT = { THIS = { has_country_modifier = our_home } }
+		NOT = { THIS = { has_country_modifier = come_all } }
 	}
 	
 	po_annex = yes
@@ -6139,6 +6146,7 @@ establish_protectorate_BC_casus_belli = {
 			}
 		}
 		NOT = { THIS = { has_country_modifier = our_home } }
+		NOT = { THIS = { has_country_modifier = come_all } }
 	}
 	
 	po_annex = yes
@@ -8200,7 +8208,7 @@ military_access_cb = {
 	
 	construction_speed = 10
 	
-	badboy_factor = 1.5
+	badboy_factor = 0.5
 	prestige_factor = 1
 	peace_cost_factor = 10
 	penalty_factor = 1

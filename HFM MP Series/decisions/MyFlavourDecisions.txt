@@ -207,7 +207,7 @@ political_decisions = {
 				}
 			}
 			government = democracy
-			citizens_rights = all_voting_pops
+			NOT = { citizens_rights = primary_culture_only }
 			centralization = federalism
 		}
 		
@@ -249,7 +249,7 @@ political_decisions = {
 				}
 			}
 			government = democracy
-			citizens_rights = all_voting_pops
+			NOT = { citizens_rights = primary_culture_only }
 			centralization = federalism
 		}
 		
@@ -277,7 +277,7 @@ political_decisions = {
 			war = no
 			revolution_n_counterrevolution = 1
 			government = democracy
-			citizens_rights = all_voting_pops
+			NOT = { citizens_rights = primary_culture_only }
 			centralization = federalism
 		}
 		
@@ -300,7 +300,7 @@ political_decisions = {
 			accepted_culture = mongol
 			accepted_culture = tibetan
 			government = democracy
-			citizens_rights = all_voting_pops
+			NOT = { citizens_rights = primary_culture_only }
 			centralization = federalism
 			mass_politics = 1
 		}
@@ -402,7 +402,7 @@ political_decisions = {
 		allow = {
 			revolution_n_counterrevolution = 1
 			citizenship_policy = full_citizenship
-			citizens_rights = all_voting_pops
+			NOT = { citizens_rights = primary_culture_only }
 		}
 	
 		effect = {
@@ -421,7 +421,7 @@ political_decisions = {
 #			plurality = 85
 #			mass_politics = 1
 #			citizenship_policy = full_citizenship
-#			citizens_rights = all_voting_pops
+#			NOT = { citizens_rights = primary_culture_only }
 #		}
 #		effect = {
 #			set_country_flag = increased_migration_to_states 

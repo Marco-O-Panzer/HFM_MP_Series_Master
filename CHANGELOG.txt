@@ -43,6 +43,7 @@ Flavour Changes
 -- Starting reforms increased
 -- Immigration attraction and assimilation modifier nerfed significantly
 -- Our Home now no longer allows CBs to be used aside from ideological or war reps
+-- Come All prevents colonial conquests
 * Iberia
 -- Can now be formed militarily by any Spain
 * DNB
@@ -50,7 +51,7 @@ Flavour Changes
 -- Can only accept the cultures if they approved of the Federation fully (in SP)
 * USA
 -- Will get a Mexican rebellion during the civil war if fully annexed mexico
--- California gains +0.08% monthly pop growth if a state and USA is a republic with manifest destiy - if the USA is not a republic will perma lose modifier
+-- California gains +0.08% monthly pop growth for 60 years if a state and USA is a republic with manifest destiy - if the USA is not a republic will perma lose modifier
 -- If the USA occupies all of british starting Canada, they can claim all of Canada as core for 25 infamy
 -- Will accept Afroamerican when starting radical reconstruction. Can keep it accepted depending on the option taken at the end of it.
 * India
@@ -117,6 +118,7 @@ Political
 * Restrictions added for advancing citizenship availability
 * Republics have slightly higher assimilation
 * Republics can change their NV (with limits) every 20 years
+* 2% bureaucrats needed to state, and 2% now the max cap for effects
 
 CBs & Infamy
 * No jingo requirement for adding wargoals
@@ -129,6 +131,10 @@ CBs & Infamy
 * Mass Conquest costs 25 infamy justification, and 25 to apply the cb
 * Liberate and Puppet increased to 20 infamy, and locked behind mass pol
 * Allow negotiated state on the puppet of a player
+* Mil Access CB infamy reduced to 1
+* Minor Conquest ws reduced to 20
+* Conquest ws reduced to 65
+* Can now release country: India
 
 Military & War
 * Land unit build time reduced, now most at 50 days, some at 40 (irregulars at 30)
@@ -201,6 +207,7 @@ Balance
 * Outside formables disabled on players as much as possible
 * Westernisation reform costs increased 25%
 * Equality mobo size slightly decreased (0.5)
+* UFB pop growth reduced and allowed to be more involved
 
 Other
 * Questioning our alliance event wont fire for players
@@ -243,6 +250,7 @@ Fixes
 * Prevent 2nd herat expedition war option event spam
 * EIC won't petition for cultural annexation
 * Haiti burns event id fix
+* Adelsberg - fake port removed
 
 
 Version 5

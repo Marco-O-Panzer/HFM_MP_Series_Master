@@ -44,7 +44,7 @@ dreadnought = {
 		fuel = 8
 		ammunition = 1.6
 		regular_clothes = 2
-		tobacco = 1
+		tobacco = 0.5
 		pharmaceuticals = 3
 	}
 	
