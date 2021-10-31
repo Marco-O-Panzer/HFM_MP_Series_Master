@@ -239,6 +239,7 @@ political_decisions = {
 		picture = the_meiji_restoration
 		potential = {
 			primary_culture = japanese
+			TKG = { exists = yes }
 			OR = {
 				government = absolute_monarchy
 				government = prussian_constitutionalism
@@ -365,6 +366,42 @@ political_decisions = {
 					YZW = { ai = no }
 				}
 			}
+		}
+	}
+	
+	overthrow_the_bakufu_no_tkg = {
+		picture = the_meiji_restoration
+		potential = {
+			primary_culture = japanese
+			TKG = { exists = no }
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+			}
+			NOT = {
+				has_global_flag = boshin_war
+				has_global_flag = boshin_war_has_happened
+				TKG = { has_country_flag = made_peace_with_emperor }
+				has_country_flag = made_peace_with_emperor
+				has_country_flag = peaceful_transition_to_japan
+			}
+		}
+		
+		allow = {
+			war = no
+			OR = {
+				is_vassal = no
+				has_country_flag = supports_imperial_edict
+				has_country_flag = angered_by_bakufu
+				ai = no
+			}
+			state_n_government = 1
+		}
+		
+		effect = {
+			set_global_flag = boshin_war_has_happened
+			country_event = 97646
 		}
 	}
 	

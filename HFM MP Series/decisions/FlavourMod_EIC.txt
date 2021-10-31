@@ -765,7 +765,7 @@ political_decisions = {
 			}
 		}
 		effect = {
-			badboy = 25
+			badboy = 5
 			inherit = EIC
 			any_pop = {
 				limit = { 

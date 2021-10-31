@@ -69,11 +69,12 @@ Flavour Changes
 -- Dont need Gibraltar to form Iberia from the outside
 * UK
 -- Starts with Anglo-Indian accepted
--- Can annex the EIC for 25 infamy at the start
+-- Can annex the EIC for 5 infamy at the start
 * KUK
 -- Can't greater Germany
 * JAP
 -- (No) Line of advantage and research point political modifiers nerfed
+-- Can still form by any minor even if TKG dies
 * NET
 -- Claim Artois no longer needs a specific gov type or to own Lux
 * UKR
