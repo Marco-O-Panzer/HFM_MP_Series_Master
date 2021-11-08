@@ -6772,6 +6772,7 @@ become_independent = {
 				ai = yes
 			}
 		}
+		NOT = { truce_with = THIS }
 	}
 	
 	# THIS - us

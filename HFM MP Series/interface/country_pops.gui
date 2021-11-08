@@ -60,6 +60,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_button_thin_160"
 			buttonText = "REMOVE_FOCUS"
 			buttonFont = "vic_18_black"
+			shortcut = "\"
 		}
 		
 		instantTextBoxType = {
@@ -119,6 +120,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_button_thin_160"	
 			buttonText = "POP_FILTER_SELECT_ALL"
 			buttonFont = "vic_18_black"
+			shortcut = "z"
 		}
 		guiButtonType = {
 			name = "popfilter_DESELECT_ALL"
@@ -126,6 +128,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_button_thin_160"	
 			buttonText = "POP_FILTER_DESELECT_ALL"
 			buttonFont = "vic_18_black"
+			shortcut = "x"
 		}
 		
 		listboxType = 	{

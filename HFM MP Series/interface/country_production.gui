@@ -458,16 +458,19 @@ guiTypes = {
 				name = "prod_subsidize_all"
 				position = { x=946 y =60 }
 				quadTextureSprite ="GFX_prod_subsidize_all"
+				shortcut = "\"
 			}
 			guiButtonType = {
 				name = "prod_unsubsidize_all"
 				position = { x=968 y =60 }
 				quadTextureSprite ="GFX_prod_unsubsidize_all"
+				shortcut = "z"
 			}
 			guiButtonType = {
 				name = "prod_open_all_factories"
 				position = { x=946 y =88 }
 				quadTextureSprite ="GFX_prod_open_all_factories"
+				shortcut = "x"
 			}
 			guiButtonType = {
 				name = "prod_close_all_factories"
@@ -485,6 +488,7 @@ guiTypes = {
 				buttonFont = "vic_18_black"
 				Orientation = "UPPER_LEFT"
 				clicksound = click
+				shortcut = "c"
 			}
 
 			guiButtonType = {
@@ -495,6 +499,7 @@ guiTypes = {
 				buttonFont = "vic_18_black"
 				Orientation = "UPPER_LEFT"
 				clicksound = click
+				shortcut = "v"
 			}
 
 			guiButtonType = {
@@ -505,6 +510,7 @@ guiTypes = {
 				buttonFont = "vic_18_black"
 				Orientation = "UPPER_LEFT"
 				clicksound = click
+				shortcut = "b"
 			}
 			
 			### SORTS

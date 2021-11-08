@@ -558,6 +558,7 @@ political_decisions = {
 						}
 					}				
 				}
+				revolution_n_counterrevolution = 1
 			}
 			OR = {
 				GER = {
@@ -667,7 +668,7 @@ political_decisions = {
 				remove_core = THIS
 				add_core = GER
 			}
-			FRA_412 = { add_core = GER }
+			random_owned = { limit = { owner = { owns = 412 } } owner = { FRA_412 = { add_core = GER } } }
 			remove_country_modifier = zollervein
 			change_tag = GER
 			add_accepted_culture = north_german

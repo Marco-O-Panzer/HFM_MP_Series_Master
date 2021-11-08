@@ -1,43 +1,90 @@
 ###Credit to Zombie_Freak115###
 #you have to have the ui element that allows manual clicking of the specific button/checkbox of the binds to work
+#adapted by Townes
 
-Political mapmode: w
-Infra mapmode: t
-naval mapmode: n
-colonial mapmode: c
-Auto Create leaders: r
-Auto assign leaders: f
-Create General: g
-Create admiral: a
-sort by general type in army tab: s
-de-select national focus: f
-filter all pops in poptab: z
-filter deselect all pops in poptab: x
+
+##############
+## Mapmodes ##
+##############
+
+Naval mapmode: [
+Relations Mapmode: ;
+Westernisation mapmode: '
+================
+
+
+##############
+## Top Tabs ##
+##############
+
+## Production
+Subsidize all factories: \
+Desub all factories: z
+Open all factories: x
+select all goods for filter in factory tab: c
+deselect all goods for filter in factory tab: v
+Show empty states: b
+----------------
+
+## Tech
+Select reseach: \
+---------------
+
+## Population
+De-select national focus: \
+Filter all pops in poptab: z
+Filter deselect all pops in poptab: x
+----------------
+
+## Trade
+Automate trade: \
+Confirm trade: z
+----------------
+
+## Military
+Create General: \
+Create Admiral: z
+Auto Create leaders: x
+Auto Assign leaders: c
+Sort by general type in army tab: v
+Mobilize: b
+De-mobilize: b
+Build single unit in army tab: 1
+Build unit group in army tab: 2
+Cancel all building units in army tab: 3
+================
+
+
+################
+## State View ##
+################
+
+
+
+
+--------------
+TO ADD
+
+
 Load into transport, select units in transport (and load out of transport - not this one, change it to b): v
 Enable rebel hunt: w
 Disable rebel hunt: e
+
 Colonial alert: q
 send colonial expedition: c
 create protectorate from oncolonized province: c
 State colony/make colony from protectorate: c
 build factory on province map: d
-Automate trade: a
-confirm trade: c
+
 Select general on unit: a
-build single unit in army tab: b
-build unit group in army tab: v
-cancel all building units in army tab: z
+
+
 balance unit when making a new unit: b
-mobilize: m
-select reseach: s
+
+
 set land rally point: z
 set naval rally point: x
-subsidize all factories: e
-desub all factories: r
-open all factories: d
-upgrade a factory (can be held down to spamupgrade): v
-select all goods for filter in factory tab: z
-deselect all goods for filter in factory tab: x
+
 
 added SPACEBAR for pausing and + and - for speed up and down even if you are in a MP game (your responsibility if the host gets mad at you for pausing lol)
 

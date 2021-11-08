@@ -1542,6 +1542,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_mapmode_relation"
 			Orientation = "LOWER_RIGHT"
 			clicksound = click
+			shortcut = ";"
 		}
 
 		guiButtonType = {
@@ -1550,6 +1551,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_mapmode_crises"
 			Orientation = "LOWER_RIGHT"
 			clicksound = click
+			shortcut = "'"
 		}
 		
 		guiButtonType = {
@@ -1558,6 +1560,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_mapmode_naval"
 			Orientation = "LOWER_RIGHT"
 			clicksound = click
+			shortcut = "["
 		}
 }
 

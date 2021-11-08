@@ -137,6 +137,7 @@ CBs & Infamy
 * Annexation ws reduced to 65
 * Puppet ws reduced to 50
 * Can now release country: India
+* Cant declare independence when truced with overlord
 
 Military & War
 * Land unit build time reduced, now most at 50 days, some at 40 (irregulars at 30)

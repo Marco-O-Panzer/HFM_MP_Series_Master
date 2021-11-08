@@ -239,7 +239,10 @@ political_decisions = {
 		picture = the_meiji_restoration
 		potential = {
 			primary_culture = japanese
-			TKG = { exists = yes }
+			TKG = { 
+				exists = yes
+				is_vassal = no
+			}
 			OR = {
 				government = absolute_monarchy
 				government = prussian_constitutionalism
@@ -373,7 +376,12 @@ political_decisions = {
 		picture = the_meiji_restoration
 		potential = {
 			primary_culture = japanese
-			TKG = { exists = no }
+			TKG = { 
+				OR = {
+					exists = no
+					is_vassal = yes
+				}
+			}
 			OR = {
 				government = absolute_monarchy
 				government = prussian_constitutionalism
