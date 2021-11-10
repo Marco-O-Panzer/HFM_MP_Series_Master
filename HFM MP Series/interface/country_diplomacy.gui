@@ -109,6 +109,7 @@ guiTypes = {
 			name = "gp_info"
 			position = { x=25 y = 13 }
 			quadTextureSprite ="GFX_prod_tab_button"
+			shortcut = "F1"
 		}
 		
 		instantTextBoxType = { 
@@ -125,6 +126,7 @@ guiTypes = {
 			name = "war_info"
 			position = { x=185 y = 13 }
 			quadTextureSprite ="GFX_prod_tab_button"
+			shortcut = "F2"
 		}
 		
 		instantTextBoxType = { 
@@ -152,6 +154,7 @@ guiTypes = {
 			name = "cb_info"
 			position = { x=345 y = 13 }
 			quadTextureSprite ="GFX_prod_tab_button"
+			shortcut = "F3"
 		}
 		
 		instantTextBoxType = { 
@@ -185,6 +188,7 @@ guiTypes = {
 			name = "crisis_info"
 			position = { x=505 y = 13 }
 			quadTextureSprite ="GFX_prod_tab_button"
+			shortcut = "F4"
 		}
 		
 		instantTextBoxType = { 

@@ -1201,6 +1201,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_button_thin_160"
 			buttonText = "BUDGET_TAKE_LOAN"
 			buttonFont = "vic_18_black"
+			shortcut = "\"
 
 		}
 		
@@ -1210,6 +1211,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_button_thin_160"
 			buttonText = "BUDGET_REPAY_LOAN"
 			buttonFont = "vic_18_black"
+			shortcut = "z"
 		}
 		
 		
@@ -1585,6 +1587,7 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonText = "OK"
 			buttonFont = "vic_18_black"
+			shortcut = "c"
 		}
 		
 		guiButtonType = {
@@ -1596,6 +1599,7 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonText = "CANCEL"
 			buttonFont = "vic_18_black"
+			shortcut = "x"
 		}
 		
 		instantTextBoxType = {
@@ -1701,6 +1705,7 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonText = "OK"
 			buttonFont = "vic_18_black"
+			shortcut = "c"
 		}
 		
 		guiButtonType = {
@@ -1712,6 +1717,7 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonText = "CANCEL"
 			buttonFont = "vic_18_black"
+			shortcut = "x"
 		}
 
 		instantTextBoxType = {
