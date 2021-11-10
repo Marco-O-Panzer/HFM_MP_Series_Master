@@ -142,4 +142,4 @@ unit_names = {
 		Baitarani Balasore Balugaon Behrampur Bhubeneswar Brahmani Chandipur Chilka Cuttack Durga Gopalpur Jagannath
 		Juggernaut Kalijai Konark Lakshmi Mahanadi Nalabana Paradeep Parvati Puri Radha Sarasvati Satapada	
 	}
-}
+}party = {	name = "Anarchists" start_date = 1870.1.1 end_date = 2000.1.1 ideology = anarcho_liberal social_policy = welfare_state economic_policy = planned_economy trade_policy = free_trade religious_policy = pro_atheism citizenship_policy = full_citizenship war_policy = anti_military}  

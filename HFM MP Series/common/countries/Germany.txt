@@ -232,4 +232,4 @@ unit_names = {
 	commerce_raider = {
 		Barbarossa "Cap Trafalgar" Cormoran Iltis "Kaiser Wilhelm der Grosse" "Kronprinz Wilhelm" Leopard Loreley Meteor Möwe "Preussischer Adler" "Prinz Eitel Friedrich" Seeadler Seelöwe Vineta Wolf
 	}
-}
+}party = {	name = "Anarchists" start_date = 1870.1.1 end_date = 2000.1.1 ideology = anarcho_liberal social_policy = welfare_state economic_policy = planned_economy trade_policy = free_trade religious_policy = pro_atheism citizenship_policy = full_citizenship war_policy = anti_military}  

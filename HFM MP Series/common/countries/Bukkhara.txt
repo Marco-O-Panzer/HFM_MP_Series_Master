@@ -141,4 +141,4 @@ unit_names = {
 		Khwarezm Urganj "Din Muhammad" "Yelu Dashi" Kunya "Amu Darya" "Anush Tigin" "Ala Aziz" "Ahmed Sanjar" "Ala Takish" "Jaxartes"
 		"Syr Darya" "Bukhara" "Jalal Mingburnu" "Abu Mamun" "Abu Hasan Ali" "Altun Yash" Harun "Ismail Khandan"
 	}
-}
+}party = {	name = "Anarchists" start_date = 1870.1.1 end_date = 2000.1.1 ideology = anarcho_liberal social_policy = welfare_state economic_policy = planned_economy trade_policy = free_trade religious_policy = pro_atheism citizenship_policy = full_citizenship war_policy = anti_military}  

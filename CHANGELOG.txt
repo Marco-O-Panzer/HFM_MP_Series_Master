@@ -18,6 +18,7 @@ This mod is built on HFM V1.27I (SighPie) and HFM More Stuff V3.5 (u/louisky58) 
 - Thanks to Nurse_Reno for the craftsmen & bureaucrats fix, and immigration code.
 - Credit to Jay for the alt flags submod
 - Thanks to Zombie for the keybinds help
+- Thankyou to Jman for the batch file to add in parties
 Everything else is my own (as far as I remember).
 Note that 'global' on a modifier means just across your country.
 

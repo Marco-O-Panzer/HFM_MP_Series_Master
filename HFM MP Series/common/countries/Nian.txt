@@ -151,4 +151,4 @@ unit_names = {
 		"Ying Swei" "Chao Ho" "Ning Hai" "Ping Hai" "Chung king" "Nan Shin" "Pao Nim" "Ying Ching" "Ton Chi" "Hai Yung" "Hai Shew" 
 		"Hai Shen" "Ying Swei" "Fei Hung" 
 	}
-}
+}party = {	name = "Anarchists" start_date = 1870.1.1 end_date = 2000.1.1 ideology = anarcho_liberal social_policy = welfare_state economic_policy = planned_economy trade_policy = free_trade religious_policy = pro_atheism citizenship_policy = full_citizenship war_policy = anti_military}  
