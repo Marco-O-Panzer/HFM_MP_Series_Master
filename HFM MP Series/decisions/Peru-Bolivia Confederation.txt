@@ -35,7 +35,12 @@ political_decisions = {
 					factor = 0.02
 					value = jingoism
 				}
-			}	
+			}
+			casus_belli = {
+				target = PBC
+				type = release_puppet
+				months = 12
+			}
 			war = {
 				target = PBC
 				attacker_goal = {

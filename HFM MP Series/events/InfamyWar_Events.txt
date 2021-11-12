@@ -193,6 +193,11 @@ country_event = {
 		}
 		FROM = {
 			set_country_flag = coalition_member
+			casus_belli = {
+				target = THIS
+				type = dismantle_cb
+				months = 12
+			}
 			war = {
 				target = THIS
 				attacker_goal = {
@@ -394,6 +399,11 @@ country_event = {
 	option = {
 		name = "EVTOPTA96141" #We shall see.
 		FROM = {
+			casus_belli = {
+				target = THIS
+				type = dismantle_cb
+				months = 12
+			}
 			war = {
 				target = THIS
 				attacker_goal = {

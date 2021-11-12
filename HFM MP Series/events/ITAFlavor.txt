@@ -232,6 +232,11 @@ country_event = {
 				1731 = { is_colonial = yes }
 			}
 			owner = {
+				casus_belli = {
+					target = TUR
+					type = place_in_the_sun
+					months = 12
+				}
 				war = {
 					target = TUR
 					attacker_goal = {
@@ -248,6 +253,11 @@ country_event = {
 				1731 = { is_colonial = yes }
 			}
 			owner = {
+				casus_belli = {
+					target = TUR
+					type = place_in_the_sun
+					months = 12
+				}
 				war = {
 					target = TUR
 					attacker_goal = {

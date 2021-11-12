@@ -1174,6 +1174,11 @@ country_event = {
 				}
 			}
 		}
+		casus_belli = {
+			target = ROM
+			type = make_puppet
+			months = 12
+		}
 		war = {
 			target = ROM
 			attacker_goal = {
@@ -1217,7 +1222,7 @@ country_event = {
 		}
 		casus_belli = {
 			target = ROM
-			type = cut_down_to_size
+			type = make_puppet
 			months = 12
 		}
 		war = {

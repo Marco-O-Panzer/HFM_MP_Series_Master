@@ -915,6 +915,11 @@ political_decisions = {
 				}
 				leave_alliance = THIS
 				relation = { who = THIS value = -400 }
+				casus_belli = {
+					target = THIS
+					type = humiliate
+					months = 12
+				}
 				war = {
 					target = THIS
 					attacker_goal = { casus_belli = humiliate }
@@ -931,6 +936,11 @@ political_decisions = {
 				}
 				leave_alliance = THIS
 				relation = { who = THIS value = -400 }
+				casus_belli = {
+					target = THIS
+					type = humiliate
+					months = 12
+				}
 				war = {
 					target = THIS
 					attacker_goal = { casus_belli = humiliate }
@@ -1090,6 +1100,11 @@ political_decisions = {
 				}
 				leave_alliance = THIS
 				relation = { who = THIS value = -400 }
+				casus_belli = {
+					target = THIS
+					type = humiliate
+					months = 12
+				}
 				war = {
 					target = THIS
 					attacker_goal = { casus_belli = humiliate }
@@ -1107,6 +1122,11 @@ political_decisions = {
 					exists = yes
 				}
 				KNG = { all_core = { remove_core = KNG } }
+				casus_belli = {
+					target = THIS
+					type = humiliate
+					months = 12
+				}
 				war = {
 					target = THIS
 					attacker_goal = { casus_belli = humiliate }

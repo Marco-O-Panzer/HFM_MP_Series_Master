@@ -3382,6 +3382,11 @@ country_event = {
 				FROM = { NOT = { total_pops = 50000000 } }
 			}
 			owner = {
+				casus_belli = {
+					target = FROM
+					type = add_to_sphere
+					months = 12
+				}
 				war = {
 					target = FROM
 					attacker_goal = {
@@ -3397,6 +3402,11 @@ country_event = {
 				FROM = { NOT = { total_pops = 50000000 } }
 			}
 			owner = {
+				casus_belli = {
+					target = FROM
+					type = add_to_sphere
+					months = 12
+				}
 				war = {
 					target = FROM
 					attacker_goal = {

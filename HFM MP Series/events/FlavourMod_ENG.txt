@@ -971,6 +971,11 @@ province_event = {
 	
 	option = {
 		name = "EVT7777909OPTA"
+		casus_belli = {
+			target = RUS
+			type = take_from_sphere
+			months = 12
+		}
 		war = {
 			target = RUS
 			attacker_goal = { casus_belli = take_from_sphere country = TIB}

@@ -312,6 +312,11 @@ country_event = {
 		relation = { who = TUR value = -400 }
 		CYR = { all_core = { add_core = LBY remove_core = CYR } }
 		TRI = { all_core = { add_core = LBY remove_core = TRI } }
+		casus_belli = {
+			target = TUR
+			type = liberate_country
+			months = 12
+		}
 		war = {
 			target = TUR
 			attacker_goal = { casus_belli = liberate_country country = LBY }

@@ -17,6 +17,11 @@ political_decisions = {
 		}
 		
 		effect = {
+			casus_belli = {
+				target = PGG
+				type = make_puppet
+				months = 12
+			}
 			war = {
 				target = PGG
 				attacker_goal = { casus_belli = make_puppet }

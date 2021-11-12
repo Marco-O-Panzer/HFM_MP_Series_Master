@@ -949,13 +949,18 @@ country_event = {
 		
 	option = {
 		name = "EVT7777920OPTA"
+		casus_belli = {
+			target = MEX
+			type = make_puppet
+			months = 12
+		}
 		war = {
 			target = MEX
 			attacker_goal = { casus_belli = make_puppet }
 			defender_goal = { casus_belli = status_quo }
 		}
 		MEX = { country_event = { id = 7777921 days = 5 } }
-		badboy = -6
+		badboy = 4
 		ai_chance = {
 			factor = 100
 		}

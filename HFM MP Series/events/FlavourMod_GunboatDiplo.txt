@@ -196,6 +196,11 @@ country_event = {
 		name = "EVT99956OPTA"
 		prestige = 10
 		FROM = {
+			casus_belli = {
+				target = FROM
+				type = install_democracy
+				months = 12
+			}
 			war = {
 				target = THIS
 				attacker_goal = { casus_belli = install_democracy }

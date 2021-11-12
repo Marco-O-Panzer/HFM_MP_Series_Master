@@ -2433,6 +2433,11 @@ country_event = {
 		leave_alliance = FROM
 		relation = { who = FROM value = -200 }
 		diplomatic_influence = { who = FROM value = -200 }
+		casus_belli = {
+			target = FROM
+			type = acquire_any_state
+			months = 24
+		}
 		war = {
 			target = FROM
 			attacker_goal = {

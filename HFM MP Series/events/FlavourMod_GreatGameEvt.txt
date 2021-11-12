@@ -249,6 +249,11 @@ country_event = {
 				type = liberate_country
 				months = 120
 			}
+			casus_belli = {
+				target = FROM
+				type = release_puppet
+				months = 12
+			}
 			war = {
 				target = RUS
 				attacker_goal = { 
@@ -357,6 +362,11 @@ country_event = {
 				target = RUS
 				type = liberate_country
 				months = 120
+			}
+			casus_belli = {
+				target = RUS
+				type = release_puppet
+				months = 12
 			}
 			war = {
 				target = RUS
@@ -479,6 +489,11 @@ country_event = {
 			target = PER
 			type = treaty_port_casus_belli
 			months = 60
+		}
+		casus_belli = {
+			target = PER
+			type = free_peoples
+			months = 12
 		}
 		war = {
 			target = PER

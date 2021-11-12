@@ -295,6 +295,11 @@ country_event = {
 	option = {
 		name = "EVT99940OPTB"
 		FRA_412 = { add_core = FROM }
+		casus_belli = {
+			target = FROM
+			type = cut_down_to_size
+			months = 12
+		}
 		war = {
 			target = FROM
 			attacker_goal = { casus_belli = cut_down_to_size }

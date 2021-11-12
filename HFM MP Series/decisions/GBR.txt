@@ -15,26 +15,28 @@ political_decisions = {
 				add_core = GBR
 				secede_province = GBR
 			}
-			289 = {
-				add_core = GBR
-			}
-			295 = {
-				add_core = GBR
-			}
+			ENG_296 = { add_core = GBR }
+			ENG_273 = { add_core = GBR }
+			ENG_277 = { add_core = GBR }
+			ENG_280 = { add_core = GBR }
+			ENG_266 = { add_core = GBR }
+			ENG_284 = { add_core = GBR }
+			ENG_291 = { add_core = GBR }
+			ENG_300 = { add_core = GBR }
+			ENG_271 = { add_core = GBR }
+			ENG_254 = { add_core = GBR }
+			ENG_260 = { add_core = GBR }
+			ENG_263 = { add_core = GBR }
+			ENG_258 = { add_core = GBR }
 			GBR = {
 				capital = 300
 				leadership = 80
 			}
 			change_tag_no_core_switch = GBR
-			GBR = {
-				war = {
-					target = ENG
-					attacker_goal = {
-						casus_belli = acquire_all_cores
-					}
-					defender_goal = {
-						casus_belli = civil_war
-					}
+			ENG = {
+				diplomatic_influence = {
+					who = GBR
+					value = 400
 				}
 			}
 		}
@@ -53,19 +55,13 @@ political_decisions = {
 		}
 
 		effect = {
-			ENG_296 = { add_core = GBR }
-			ENG_273 = { add_core = GBR }
-			ENG_277 = { add_core = GBR }
-			ENG_280 = { add_core = GBR }
-			ENG_266 = { add_core = GBR }
-			ENG_284 = { add_core = GBR }
-			ENG_291 = { add_core = GBR }
-			ENG_300 = { add_core = GBR }
-			ENG_271 = { add_core = GBR }
-			ENG_254 = { add_core = GBR }
-			ENG_260 = { add_core = GBR }
-			ENG_263 = { add_core = GBR }
-			ENG_258 = { add_core = GBR }
+			ENG = {
+				diplomatic_influence = {
+					who = GBR
+					value = -400
+				}
+			}
+			
 			257 = {
 				secede_province = GBR
 			}

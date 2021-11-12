@@ -115,6 +115,16 @@ country_event = {
 			}
 			country_event = 99978
 		}
+		casus_belli = {
+			target = FROM
+			type = humiliate
+			months = 12
+		}
+		casus_belli = {
+			target = FROM
+			type = acquire_state
+			months = 12
+		}
 		war = {
 			target = FROM
 			attacker_goal = { casus_belli = humiliate }
@@ -190,6 +200,16 @@ country_event = {
 		random_owned = {
 			limit = { exists = FRA }
 			owner = {
+			casus_belli = {
+				target = FROM
+				type = humiliate
+				months = 12
+			}
+			casus_belli = {
+				target = FROM
+				type = war_reparations
+				months = 12
+			}
 				war = {
 					target = FRA
 					attacker_goal = { casus_belli = humiliate }

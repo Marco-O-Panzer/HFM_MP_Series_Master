@@ -3764,6 +3764,11 @@ country_event = {
 		
 		release_vassal = NOR
 		
+		casus_belli = {
+			target = NOR
+			type = make_puppet
+			months = 12
+		}
 		war = {
 			target = NOR
 			attacker_goal = { casus_belli = make_puppet }

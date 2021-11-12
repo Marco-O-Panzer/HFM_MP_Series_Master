@@ -358,6 +358,11 @@ country_event = {
 	
 	option = {
 		name = "EVT95648OPTA"
+		casus_belli = {
+			target = DAI
+			type = release_puppet
+			months = 12
+		}
 		war = {
 			target = DAI
 			attacker_goal = {

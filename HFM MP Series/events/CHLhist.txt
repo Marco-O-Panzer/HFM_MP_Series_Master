@@ -374,6 +374,11 @@ country_event = {
 	
 	option = {
 		name = "EVT97082OPTA"
+		casus_belli = {
+			target = FROM
+			type = war_reparations
+			months = 12
+		}
 		war = {
 			target = FROM
 			attacker_goal = {

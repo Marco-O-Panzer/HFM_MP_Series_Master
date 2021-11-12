@@ -34,12 +34,17 @@ political_decisions = {
 		}
 
 		effect = {
+			casus_belli = {
+				target = USA
+				type = liberate_puppet
+				months = 12
+			}
 			war = {
 				target = USA
 				attacker_goal = { casus_belli = liberate_puppet country = NEN }
 				defender_goal = {  casus_belli = cut_down_to_size }
 			}
-			badboy = -5
+			badboy = 5
 			set_country_flag = war_for_nen
 		}
 	}

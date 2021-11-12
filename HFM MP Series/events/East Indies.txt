@@ -1026,6 +1026,11 @@ country_event = {
 		random_owned = {
 			limit = { owner = { is_greater_power = no civilized = no } }
 			FROM = {
+				casus_belli = {
+					target = THIS
+					type = acquire_state
+					months = 12
+				}
 				war = {
 				target = THIS
 				attacker_goal = { casus_belli = acquire_state state_province_id = 1391 }

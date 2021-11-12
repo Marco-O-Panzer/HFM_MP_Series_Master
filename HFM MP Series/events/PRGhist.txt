@@ -510,6 +510,11 @@ country_event = {
 		PRG = { clr_country_flag = asked_for_peace
 		clr_country_flag = usa_expedition }
 		badboy = 5
+		casus_belli = {
+			target = PRG
+			type = humiliate
+			months = 12
+		}
 			war = {
 			target = PRG
 			attacker_goal = {

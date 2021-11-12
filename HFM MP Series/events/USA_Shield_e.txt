@@ -49,6 +49,11 @@ country_event = {
 			annex_to = THIS
 		}
 		RPL = { all_core = { remove_core = RPL } }
+		casus_belli = {
+			target = USA
+			type = cut_down_to_size
+			months = 12
+		}
 		war = {
 			target = USA
 			attacker_goal = { casus_belli = cut_down_to_size }

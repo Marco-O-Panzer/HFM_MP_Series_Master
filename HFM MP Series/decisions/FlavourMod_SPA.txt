@@ -89,14 +89,9 @@ political_decisions = {
 			set_country_flag = reconquista_frca
 			prestige = 5
 			badboy = 5
-			casus_belli = {
-				target = UCA
-				type = conquest
-				months = 12
-			}
 			war = {
 				target = UCA
-				attacker_goal = { casus_belli = conquest }
+				attacker_goal = { casus_belli = conquest_any }
 				defender_goal = { casus_belli = status_quo }
 				call_ally = no
 			}

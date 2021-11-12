@@ -3542,6 +3542,11 @@ country_event = {
 			relation = { who = FROM value = -100 }
 			relation = { who = THIS value = 50 }
 		}
+		casus_belli = {
+			target = FROM
+			type = make_puppet
+			months = 12
+		}
 		war = {
 			target = FROM
 			attacker_goal = {
@@ -4109,6 +4114,11 @@ country_event = {
 			type = humiliate
 			months = 100
 			}
+		casus_belli = {
+			target = TUR
+			type = treaty_port_casus_belli
+			months = 12
+		}
 		war = {
 			target = MOR
 				attacker_goal = { casus_belli = treaty_port_casus_belli }

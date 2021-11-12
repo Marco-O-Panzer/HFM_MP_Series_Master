@@ -508,6 +508,11 @@ country_event = {
 				owns = 2209
 			}
 			THIS = {
+				casus_belli = {
+					target = SPA
+					type = free_peoples
+					months = 12
+				}
 				war = {
 					target = SPA
 					attacker_goal = {
@@ -526,6 +531,11 @@ country_event = {
 				is_our_vassal = CUB
 			}
 			THIS = {
+				casus_belli = {
+					target = SPA
+					type = release_puppet
+					months = 12
+				}
 				war = {
 					target = SPA
 					attacker_goal = {
@@ -542,6 +552,11 @@ country_event = {
 				owns = 2209
 			}
 			THIS = {
+				casus_belli = {
+					target = SPC
+					type = free_peoples
+					months = 12
+				}
 				war = {
 					target = SPC
 					attacker_goal = {
@@ -560,6 +575,11 @@ country_event = {
 				is_our_vassal = CUB
 			}
 			THIS = {
+				casus_belli = {
+					target = SPC
+					type = release_puppet
+					months = 12
+				}
 				war = {
 					target = SPC
 					attacker_goal = {
@@ -576,6 +596,11 @@ country_event = {
 				owns = 2209
 			}
 			THIS = {
+				casus_belli = {
+					target = IBR
+					type = free_peoples
+					months = 12
+				}
 				war = {
 					target = IBR
 					attacker_goal = {
@@ -594,6 +619,11 @@ country_event = {
 				is_our_vassal = CUB
 			}
 			THIS = {
+				casus_belli = {
+					target = IBR
+					type = release_puppet
+					months = 12
+				}
 				war = {
 					target = IBR
 					attacker_goal = {

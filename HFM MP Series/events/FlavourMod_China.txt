@@ -314,6 +314,11 @@ country_event = {
 			}
 		}
 		HQJ = { any_pop = { limit = { type = soldiers has_pop_culture = zhuang } reduce_pop = 5 } }	
+		casus_belli = {
+			target = QNG
+			type = release_puppet
+			months = 12
+		}
 		war = {
 			target = QNG
 			attacker_goal = { casus_belli = release_puppet country = HQJ }

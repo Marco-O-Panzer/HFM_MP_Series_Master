@@ -116,6 +116,11 @@ political_decisions = {
 			random_owned = {
 				limit = { exists = FRA }
 				owner = {
+					casus_belli = {
+						target = FRA
+						type = cut_down_to_size
+						months = 12
+					}
 					war = {
 						target = FRA
 						attacker_goal = { casus_belli = acquire_all_cores }
@@ -130,6 +135,11 @@ political_decisions = {
 			random_owned = {
 				limit = { exists = BOR }
 					owner = {
+					casus_belli = {
+						target = BOR
+						type = cut_down_to_size
+						months = 12
+					}
 					war = {
 						target = BOR
 						attacker_goal = { casus_belli = acquire_all_cores }

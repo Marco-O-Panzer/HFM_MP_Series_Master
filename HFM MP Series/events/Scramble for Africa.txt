@@ -889,6 +889,11 @@ country_event = {
 		name = "EVT95514OPTA"
 		FROM = {
 			relation = { who = THIS value = -200 }
+			casus_belli = {
+				target = THIS
+				type = establish_protectorate_BC_casus_belli
+				months = 12
+			}
 			war = {
 				target = THIS
 				attacker_goal = {

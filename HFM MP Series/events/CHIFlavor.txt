@@ -989,6 +989,11 @@ country_event = {
 	
 	option = {
 		name = "EVT1316176OPTA"
+		casus_belli = {
+			target = FROM
+			type = treaty_port_casus_belli
+			months = 12
+		}
 		random_owned = {
 			limit = { owner = { ai = no } }
 			owner = {
@@ -1413,6 +1418,11 @@ country_event = {
 		name = "EVT131709OPTA"
 		leave_alliance = FROM
 		end_military_access = FROM
+		casus_belli = {
+			target = FROM
+			type = treaty_port_casus_belli
+			months = 12
+		}
 		war = {
 			target = FROM
 			attacker_goal = { casus_belli = treaty_port_casus_belli }
@@ -2059,6 +2069,11 @@ country_event = {
 	option = {
 		name = "EVT131709OPTA"
 		badboy = 2
+		casus_belli = {
+			target = FROM
+			type = treaty_port_casus_belli
+			months = 12
+		}
 		war = {
 			target = FROM
 			attacker_goal = { casus_belli = treaty_port_casus_belli }

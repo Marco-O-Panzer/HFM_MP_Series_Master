@@ -110,6 +110,11 @@ country_event = {
 			}
 		}
 		diplomatic_influence = { who = TKG value = -200 }
+		casus_belli = {
+			target = TKG
+			type = add_to_sphere
+			months = 12
+		}
 		war = {
 			target = TKG
 			attacker_goal = {
