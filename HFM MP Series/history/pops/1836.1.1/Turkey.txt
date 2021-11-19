@@ -570,7 +570,7 @@
 	}
 	
 	farmers = {
-		culture = pan_european
+		culture = european
 		religion = sunni
 		size = 1000
 	}
