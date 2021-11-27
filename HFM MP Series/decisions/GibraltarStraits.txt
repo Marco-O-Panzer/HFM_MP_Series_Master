@@ -12,7 +12,6 @@ political_decisions = {
 			}
 			NOT = { has_country_flag = has_trolled_the_med }
 			NOT = { has_global_flag = med_tomfoolery }
-			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		allow = {
 			war = no

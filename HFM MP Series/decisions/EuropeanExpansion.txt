@@ -4,7 +4,6 @@ political_decisions = {
 		potential = {
 			tag = BEL
 			NOT = { exists = EUR }
-			NOT = { has_country_flag = hiding_the_decisions }
 			NOT = { has_global_flag = mp_setup }
 		}
 		allow = {
@@ -26,7 +25,6 @@ political_decisions = {
 		potential = {
 			tag = EUR
 			NOT = { has_country_modifier = european_culture }
-			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		allow = {
 			government = democracy
@@ -47,7 +45,6 @@ political_decisions = {
 		potential = {
 			tag = EUR
 			NOT = { 397 = { is_core = EUR } }
-			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		allow = {
 			is_disarmed = no

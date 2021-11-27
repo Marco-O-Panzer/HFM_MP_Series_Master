@@ -3,6 +3,7 @@ political_decisions = {
 		picture = return_cores_img
 		alert = no 
 		potential = {
+			NOT = { has_country_flag = hiding_the_decisions }
 			OR = {
 				num_of_vassals_no_substates = 1
 				is_greater_power = yes
@@ -32,6 +33,7 @@ political_decisions = {
 		potential = { 
 			has_country_flag = return_cores_decision 
 			NOT = { has_country_flag = return_core_disabled }
+			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		allow = { ai = no }
 		effect = { clr_country_flag = return_cores_decision set_country_flag = return_core_disabled } 

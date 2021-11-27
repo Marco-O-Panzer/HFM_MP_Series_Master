@@ -7,7 +7,6 @@ political_decisions = {
 				tag = SCO
 				tag = WHA
 			}
-			NOT = { has_country_flag = hiding_the_decisions }
 			CEU = { exists = no }
 			ai = no
 		}

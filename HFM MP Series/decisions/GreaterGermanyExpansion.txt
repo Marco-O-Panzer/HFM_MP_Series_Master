@@ -4,7 +4,6 @@ political_decisions = {
 		potential = {
 			tag = GER
 			NOT = { 706 = { is_core = GER } }
-			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		allow = {
 			549 = {
@@ -33,7 +32,6 @@ political_decisions = {
 		potential = {
 			tag = GER
 			NOT = { 637 = { is_core = GER } }
-			NOT = { has_country_flag = hiding_the_decisions }
 			NOT = { has_global_flag = mp_setup }
 		}
 		allow = {
@@ -54,7 +52,6 @@ political_decisions = {
 		potential = {
 			tag = GER
 			NOT = { 729 = { is_core = GER } }
-			NOT = { has_country_flag = hiding_the_decisions }
 			NOT = { has_global_flag = mp_setup }
 		}
 		
@@ -87,7 +84,6 @@ political_decisions = {
 		potential = {
 			tag = GER
 			NOT = { has_country_modifier = german_culture }
-			NOT = { has_country_flag = hiding_the_decisions }
 			NOT = { has_global_flag = mp_setup }
 		}
 		

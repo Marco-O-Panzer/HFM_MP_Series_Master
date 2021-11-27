@@ -704,7 +704,6 @@ political_decisions = {
 		potential = {
 			tag = CAN
 			NOT = { primary_culture = french_canadian }
-			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		allow = {
 			QUE = {
@@ -723,7 +722,6 @@ political_decisions = {
 			tag = CAN
 			primary_culture = french_canadian
 			NOT = { accepted_culture = afro_antillean }
-			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		allow = {
 			2213 = { owned_by = THIS }
@@ -738,7 +736,6 @@ political_decisions = {
 		potential = {
 			tag = CAN
 			NOT = { owns = 68 }
-			NOT = { has_country_flag = hiding_the_decisions }
 			NOT = { has_country_flag = requested_our_lands }
 		}
 		allow = {

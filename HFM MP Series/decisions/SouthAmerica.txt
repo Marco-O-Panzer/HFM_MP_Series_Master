@@ -695,7 +695,6 @@ political_decisions = {
 			primary_culture = portuguese
 			NOT = { has_country_flag = Union_of_PTBR }
 			NOT = { tag = IBR }
-			NOT = { has_country_flag = hiding_the_decisions }
 		}
 
 		allow = {

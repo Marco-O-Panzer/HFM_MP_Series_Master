@@ -6,7 +6,6 @@ political_decisions = {
 				tag = AST
 				tag = NZL
 			}
-			NOT = { has_country_flag = hiding_the_decisions }
 			OCE = { exists = no }
 			ai = no
 		}
@@ -50,7 +49,6 @@ political_decisions = {
 		picture = postcol_AST
 		potential = {
 			tag = AST
-			NOT = { has_country_flag = hiding_the_decisions }
 			ai = no
 			AST = { vassal_of = ENG }
 		}
@@ -66,7 +64,6 @@ political_decisions = {
 		picture = postcol_AST
 		potential = {
 			tag = OCE
-			NOT = { has_country_flag = hiding_the_decisions }
 			NOT = { 2529 = { is_core = OCE } }
 		}
 		allow = {
@@ -83,7 +80,6 @@ political_decisions = {
 	#	picture = postcol_AST
 	#	potential = {
 	#		tag = OCE
-	#		NOT = { has_country_flag = hiding_the_decisions }
 	#		NOT = { 1416 = { is_core = OCE } }
 	#	}
 	#	allow = {
@@ -100,7 +96,6 @@ political_decisions = {
 		picture = postcol_AST
 		potential = {
 			tag = OCE
-			NOT = { has_country_flag = hiding_the_decisions }
 			NOT = { 1446 = { is_core = OCE } }
 		}
 		allow = {
@@ -122,7 +117,6 @@ political_decisions = {
 		picture = postcol_AST
 		potential = {
 			tag = OCE
-			NOT = { has_country_flag = hiding_the_decisions }
 			NOT = { accepted_culture = melanesian }
 		}
 		allow = {
@@ -141,7 +135,6 @@ political_decisions = {
 	#	picture = postcol_AST
 	#	potential = {
 	#		tag = OCE
-	#		NOT = { has_country_flag = hiding_the_decisions }
 	#		NOT = { accepted_culture = moluccan }
 	#	}
 	#	allow = {
@@ -160,7 +153,6 @@ political_decisions = {
 	#	picture = postcol_AST
 	#	potential = {
 	#		tag = OCE
-	#		NOT = { has_country_flag = hiding_the_decisions }
 	#		NOT = { accepted_culture = javan }
 	#	}
 	#	allow = {

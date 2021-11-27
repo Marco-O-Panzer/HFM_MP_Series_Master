@@ -1670,6 +1670,7 @@ political_decisions = {
 			}
 			NOT = { has_country_flag = vassals_dont_need_to_pay }
 			num_of_vassals_no_substates = 1
+			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		
 		allow = {
@@ -1695,6 +1696,7 @@ political_decisions = {
 			ai = no
 			has_country_flag = vassals_dont_need_to_pay
 			num_of_vassals_no_substates = 1
+			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		
 		allow = {
@@ -1719,6 +1721,7 @@ political_decisions = {
 			is_vassal = yes
 			overlord = { has_country_flag = vassals_dont_need_to_pay }
 			NOT = { has_country_flag = exempt_from_vassal_contribution }
+			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		
 		allow = {
