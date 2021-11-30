@@ -36,11 +36,6 @@
 		religion = catholic
 		size = 2000
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Inverness (328000/82000 POPS)
 267 = {
@@ -72,11 +67,6 @@
 		culture = scottish
 		religion = protestant
 		size = 68090
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 
@@ -112,11 +102,7 @@
 		religion = protestant
 		size = 5860
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
+
 }
 
 #Dundee (364000/91000 POPS)
@@ -149,11 +135,6 @@
 		culture = scottish
 		religion = protestant
 		size = 78200
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 
 }
@@ -249,11 +230,6 @@
 		religion = catholic
 		size = 1100
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Stirling (364000/91000 POPS)
 270 = {
@@ -291,11 +267,6 @@
 		culture = british
 		religion = catholic
 		size = 4000
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Glasgow (620000/155000 POPS)
@@ -371,11 +342,6 @@
 		religion = catholic
 		size = 10000
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Dumfries (168000/42000 POPS) 
 272 = {
@@ -407,11 +373,6 @@
 		culture = british
 		religion = catholic
 		size = 5000
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 
 }
@@ -483,11 +444,6 @@
 		religion = protestant
 		size = 30000
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Cardigan (168000/42000 POPS)
 274 = {
@@ -519,11 +475,6 @@
 		culture = welsh
 		religion = protestant
 		size = 38625
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Llandrindod (182000/45500 POPS)
@@ -569,11 +520,6 @@
 		religion = protestant
 		size = 40250
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Holyhead (240000/60000 POPS)
 276 = {
@@ -618,11 +564,7 @@
 		religion = protestant
 		size = 52500
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
+
 }
 
 #Lancashire Region : 1896000
@@ -741,11 +683,6 @@
 		religion = catholic
 		size = 7875
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Manchester (744000/186000 POPS)
 278 = {
@@ -820,11 +757,6 @@
 		religion = catholic
 		size = 2075
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Carlisle (216000/54000 POPS)
 279 = {
@@ -868,11 +800,6 @@
 		culture = irish
 		religion = catholic
 		size = 1250
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 
 }
@@ -925,11 +852,6 @@
 		religion = catholic
 		size = 4000
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Hull (512000/128000 POPS)
 281 = {
@@ -975,11 +897,6 @@
 		religion = catholic
 		size = 5000
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Leeds (468000/117000 POPS)
 282 = {
@@ -1024,11 +941,6 @@
 		culture = british
 		religion = catholic
 		size = 3000
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Sheffield (658000/164500 POPS)
@@ -1095,11 +1007,6 @@
 		culture = british
 		religion = catholic
 		size = 4000
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 
 }
@@ -1183,11 +1090,6 @@
 		religion = catholic
 		size = 3000
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Chester (368000/92000 POPS)
 285 = {
@@ -1232,11 +1134,6 @@
 		religion = catholic
 		size = 1100
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Shrewsbury (316000/79000 POPS)
 286 = {
@@ -1268,11 +1165,6 @@
 		culture = british
 		religion = protestant
 		size = 68875
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Coventry (432000/108000 POPS)
@@ -1317,11 +1209,6 @@
 		culture = british
 		religion = protestant
 		size = 95000
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 
 }
@@ -1393,11 +1280,6 @@
 		religion = catholic
 		size = 5000
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Leicester (404000/101000 POPS)
 289 = {
@@ -1430,11 +1312,6 @@
 		religion = protestant
 		size = 90375
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Lincoln (336000/84000 POPS)
 290 = {
@@ -1466,11 +1343,6 @@
 		culture = british
 		religion = protestant
 		size = 75500
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 
 }
@@ -1518,11 +1390,6 @@
 		religion = protestant
 		size = 68500
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Ipswich (676000/169000 POPS)
 292 = {
@@ -1554,11 +1421,6 @@
 		culture = british
 		religion = protestant
 		size = 156500
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Chelmsford (276000/69000 POPS)
@@ -1597,11 +1459,6 @@
 		culture = british
 		religion = catholic
 		size = 2000
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 
 }
@@ -1649,11 +1506,6 @@
 		religion = protestant
 		size = 66625
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #St. Albans (312000/78000 POPS)
 295 = {
@@ -1685,11 +1537,6 @@
 		culture = british
 		religion = protestant
 		size = 71750
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 
 }
@@ -1761,11 +1608,6 @@
 		religion = catholic
 		size = 2000
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Salisbury (408000/102000 POPS)
 297 = {
@@ -1804,11 +1646,6 @@
 		religion = protestant
 		size = 82375
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Bath (408000/102000 POPS)
 298 = {
@@ -1845,11 +1682,6 @@
 		culture = british
 		religion = protestant
 		size = 70625
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Plymouth (812000/203000 POPS)
@@ -1889,11 +1721,7 @@
 		religion = catholic
 		size = 1100
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
+
 
 }
 #Exeter (812000/203000 POPS)
@@ -1933,21 +1761,11 @@
 		religion = catholic
 		size = 1100
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 
 # Metro London Region - 2052000
 #London (2052000/513000 POPS)
 300 = {
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 	aristocrats = {
 		culture = british
 		religion = protestant
@@ -2127,16 +1945,6 @@
 		religion = mahayana
 		size = 100
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
-	farmers = {
-		culture = pan_european
-		religion = jewish
-		size = 1000
-	}
 
 }
 #Sussex-Kent Region : 1212000
@@ -2177,11 +1985,6 @@
 		religion = catholic
 		size = 1100
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Brighton (404000/101000 POPS)
 302 = {
@@ -2220,11 +2023,6 @@
 		religion = protestant
 		size = 77500
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Portsmouth
 3269 = {
@@ -2250,11 +2048,6 @@
 		culture = british
 		religion = protestant
 		size = 35000
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 
@@ -2301,11 +2094,7 @@
 		religion = protestant
 		size = 73000
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
+
 }
 #Isle Of Man Region - 46000
 #Douglas (46000/11500 POPS)
@@ -2351,11 +2140,7 @@
 		religion = catholic
 		size = 300
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
+
 }
 #Normandie Region
 #Channel Islands (72000/18000 POPS)
@@ -2406,10 +2191,5 @@
 		culture = french
 		religion = catholic
 		size = 12000
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }

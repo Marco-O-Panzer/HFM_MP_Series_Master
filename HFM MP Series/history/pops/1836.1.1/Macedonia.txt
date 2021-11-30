@@ -115,11 +115,6 @@
 		religion = jewish
 		size = 300
 	}
-	farmers = {
-		culture = pan_european
-		religion = orthodox
-		size = 1000
-	}
 }
 #Monastir Region (268000) #see Greece.txt for balance of region 
 #under the rule of Ottoman Empire in 1836  
@@ -256,11 +251,6 @@
 		religion = jewish
 		size = 1000
 	}
-	farmers = {
-		culture = pan_european
-		religion = orthodox
-		size = 1000
-	}
 
 }
 
@@ -312,11 +302,6 @@
 		culture = serb
 		religion = orthodox
 		size = 1100
-	}
-	farmers = {
-		culture = pan_european
-		religion = sunni
-		size = 1000
 	}
 
 }

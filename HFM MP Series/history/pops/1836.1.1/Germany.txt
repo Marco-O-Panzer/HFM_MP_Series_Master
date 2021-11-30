@@ -2,11 +2,6 @@
 #Under rule of Holstein 1836
 #Kiel (256000/64000 POPS)
 369 = {
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 	aristocrats = {
 		culture = north_german
 		religion = protestant
@@ -114,11 +109,6 @@
 		religion = protestant
 		size = 4700 
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Lauenburg (148000/37000 POPS)
 529 = {
@@ -150,11 +140,6 @@
 		culture = north_german
 		religion = protestant
 		size = 33500
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Lower Elbe Region (557600)
@@ -226,11 +211,6 @@
 		religion = jewish
 		size = 1775
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Under rule of Hannover 1836 (396000)
 #Stade (216000/54000 POPS)
@@ -276,11 +256,6 @@
 		religion = protestant
 		size = 48050
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Lunenburg (180000/45000 POPS)
 532 = {
@@ -312,11 +287,6 @@
 		culture = north_german
 		religion = protestant
 		size = 45900
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Under rule of Britain 1836
@@ -386,11 +356,6 @@
 		religion = catholic
 		size = 100 
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #under the Rule of Mecklenburg 1836 
 #Schwerin (484000/121000 POPS)
@@ -448,11 +413,6 @@
 		religion = jewish
 		size = 975
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Neustrelitz (90000/22500 POPS)
 545 = {
@@ -484,11 +444,6 @@
 		culture = north_german
 		religion = protestant
 		size = 19950
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Hannover Region (1288000)
@@ -572,11 +527,6 @@
 		religion = jewish
 		size = 975
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Nienburg (276000/64000 POPS)
 535 = {
@@ -621,11 +571,6 @@
 		religion = jewish
 		size = 975
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Gottingen (180000/45000 POPS)
 537 = {
@@ -657,11 +602,6 @@
 		culture = north_german
 		religion = protestant
 		size = 40925		
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 
 }
@@ -725,11 +665,6 @@
 		culture = north_german
 		religion = catholic
 		size = 22550 
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 
 }
@@ -795,11 +730,6 @@
 		religion = catholic
 		size = 960  
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #East Frisia Region (496000)
 #under the rule of Bremen 1836
@@ -851,11 +781,6 @@
 		culture = north_german
 		religion = catholic
 		size = 375
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #under the rule of Oldenburg 1836 
@@ -920,11 +845,6 @@
 		religion = catholic
 		size = 1860
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Cloppenburg (84000/21000 POPS)
 541 = {
@@ -980,11 +900,6 @@
 		culture = north_german
 		religion = catholic
 		size = 7450
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #under the rule of Hannover 1836
@@ -1055,11 +970,6 @@
 		religion = catholic
 		size = 2260
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 
 }
 #Emden (84000/21000 POPS)
@@ -1123,11 +1033,7 @@
 		religion = catholic
 		size = 14925 
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
+
 }
 #Pomerania Region (289000) #see Poland.txt for balance of region
 #under the rule of Prussia 1836
@@ -1161,11 +1067,6 @@
 		culture = north_german
 		religion = protestant
 		size = 29725
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Stralsund (157000/39250 POPS)
@@ -1235,21 +1136,11 @@
 		religion = jewish
 		size = 245
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Brandenburg Region (1628000) #see Poland.txt for balance of region
 #under the rule of Prussia 1836
 #Berlin (772000/193000 POPS)
 549 = {
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 	aristocrats = {
 		culture = north_german
 		religion = protestant
@@ -1399,16 +1290,6 @@
 		religion = catholic
 		size = 2900   
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
-	farmers = {
-		culture = pan_european
-		religion = jewish
-		size = 1000
-	}
 }
 #Prenzlau (280000/70000 POPS)
 550 = {
@@ -1441,11 +1322,6 @@
 		religion = protestant
 		size = 62500
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Pritzwalk (232000/58000 POPS)
 551 = {
@@ -1477,11 +1353,6 @@
 		culture = north_german
 		religion = protestant
 		size = 51875
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Cottbus (344000/86000 POPS)
@@ -1550,11 +1421,6 @@
 		culture = western_slavic
 		religion = catholic
 		size = 13100     
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Anhalt Region (1527000) 
@@ -1638,11 +1504,6 @@
 		religion = jewish
 		size = 295
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Erfurt (220800/55200 POPS)
 554 = {
@@ -1710,11 +1571,6 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 195    
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Halle (445000/111250 POPS)
@@ -1784,11 +1640,6 @@
 		religion = jewish
 		size = 245    
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Stendal (140000/35000 POPS)
 557 = {
@@ -1820,11 +1671,6 @@
 		culture = north_german
 		religion = protestant
 		size = 31575
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #under the rule of Anhalt 1836
@@ -1894,11 +1740,6 @@
 		culture = north_german
 		religion = catholic
 		size = 920       
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Saxony Region (1379000) 
@@ -2030,11 +1871,6 @@
 		religion = catholic
 		size = 3900       
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Leipzig (420000/105000 POPS)
 559 = {
@@ -2103,11 +1939,6 @@
 		religion = jewish
 		size = 900
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Chemnitz (280000/70000 POPS)
 560 = {
@@ -2139,11 +1970,6 @@
 		culture = north_german
 		religion = protestant
 		size = 62575
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Thuringia Region (865000) 
@@ -2203,11 +2029,6 @@
 		religion = jewish
 		size = 245
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #under the rule of Saxe-Coburg 1836  
 #Gotha (292000/73000 POPS)
@@ -2252,11 +2073,6 @@
 		culture = north_german
 		religion = protestant
 		size = 66750
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #under the rule of Saxe-Meiningen 1836  
@@ -2303,21 +2119,11 @@
 		religion = protestant
 		size = 47350 
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Hesse Region (1719600) 
 #under the rule of Frankfurt 1836  
 #Frankfurt-am-Main (44000/16000 POPS)
 564 = {
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 	aristocrats = {
 		culture = north_german
 		religion = protestant
@@ -2388,16 +2194,6 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 1200
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
-	farmers = {
-		culture = pan_european
-		religion = jewish
-		size = 1000
 	}
 }
 #under the rule of Nassau 1836  
@@ -2479,11 +2275,6 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 1437
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #under the rule of Hesse-Kassel 1836  
@@ -2572,11 +2363,6 @@
 		religion = jewish
 		size = 295
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Fulda (248000/62000 POPS)
 568 = {
@@ -2632,11 +2418,6 @@
 		religion = catholic
 		size = 10300       
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #under the rule of Hesse-Darmstadt 1836  
 #Giessen (200000/50000 POPS)
@@ -2682,11 +2463,6 @@
 		culture = north_german
 		religion = protestant
 		size = 46000 
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Darmstadt (360000/90000 POPS)
@@ -2755,11 +2531,6 @@
 		culture = north_german
 		religion = catholic
 		size = 33875          
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Palatinate-Moselle Region (1815200) 
@@ -2831,11 +2602,6 @@
 		religion = jewish
 		size = 245
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #under the rule of Hesse-Darmstadt 1836  
 #Mainz (242200/60550 POPS)
@@ -2905,11 +2671,6 @@
 		religion = jewish
 		size = 545
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #under the rule of Bavaria 1836  
 #Kaiserslautern (556000/139000 POPS)
@@ -2978,11 +2739,6 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 495
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #under the rule of Prussia 1836  
@@ -3058,11 +2814,6 @@
 		culture = north_german
 		religion = catholic
 		size = 25800 
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Saarbrucken (308000/77000 POPS)
@@ -3144,11 +2895,6 @@
 		religion = catholic
 		size = 1875 
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Kreuznach (228000/57000 POPS)
 574 = {
@@ -3210,11 +2956,6 @@
 		culture = north_german
 		religion = catholic
 		size = 24875
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Rhineland Region (1908000) 
@@ -3310,11 +3051,6 @@
 		religion = jewish
 		size = 565
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Aachen (400000/100000 POPS)
 576 = {
@@ -3358,11 +3094,6 @@
 		culture = wallonian
 		religion = catholic
 		size = 990 
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Kleves (356000/89000 POPS)
@@ -3425,11 +3156,6 @@
 		culture = north_german
 		religion = protestant
 		size = 8275
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 
 }
@@ -3494,11 +3220,6 @@
 		religion = protestant
 		size = 19500 
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 
 }
 #Essen (364000/91000 POPS)
@@ -3562,11 +3283,6 @@
 		religion = protestant
 		size = 200  
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 
 }
 #Koblenz (200000/50000 POPS)
@@ -3623,11 +3339,6 @@
 		culture = north_german
 		religion = protestant
 		size = 42250
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 
 }
@@ -3691,11 +3402,6 @@
 		culture = north_german
 		religion = protestant
 		size = 5500 
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Westphalia Region (1390000) 
@@ -3791,11 +3497,6 @@
 		religion = jewish
 		size = 245
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Munster (464000/116000 POPS)
 581 = {
@@ -3857,11 +3558,6 @@
 		culture = north_german
 		religion = catholic
 		size = 77250   
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Minden (216000/54000 POPS)
@@ -3925,11 +3621,6 @@
 		religion = catholic
 		size = 7600   
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Siegen (104000/26000 POPS)
 583 = {
@@ -3991,11 +3682,6 @@
 		culture = north_german
 		religion = catholic
 		size = 10775 
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Korbach (128000/32000 POPS)
@@ -4059,11 +3745,6 @@
 		religion = catholic
 		size = 11125   
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #under the rule of Lippe in 1836  
 #Detmold (98000/24500 POPS)
@@ -4120,11 +3801,6 @@
 		culture = north_german
 		religion = catholic
 		size = 980    
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Baden Region (1040000) 
@@ -4208,11 +3884,6 @@
 		religion = protestant
 		size = 4400    
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Freiburg (244000/61000 POPS)
 587 = {
@@ -4269,11 +3940,6 @@
 		religion = protestant
 		size = 3700    
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Konstanz (164000/41000 POPS)
 588 = {
@@ -4329,11 +3995,6 @@
 		culture = south_german
 		religion = protestant
 		size = 3700    
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Wurttemburg Region (1308000) 
@@ -4417,11 +4078,6 @@
 		religion = catholic
 		size = 15175
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Heilbronn (340000/85000 POPS)
 590 = {
@@ -4453,11 +4109,6 @@
 		culture = south_german
 		religion = protestant
 		size = 79225
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 
@@ -4515,11 +4166,6 @@
 		religion = catholic
 		size = 30625 
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Swabia Region (833000) 
 #under the rule of Bavaria in 1836  
@@ -4553,11 +4199,6 @@
 		culture = south_german
 		religion = catholic
 		size = 77950 
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #under the rule of Wurttemburg in 1836  
@@ -4622,11 +4263,6 @@
 		religion = catholic
 		size = 83750
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #under the rule of Prussia in 1836  
 #Sigmaringen (61000/15250 POPS)
@@ -4671,11 +4307,6 @@
 		culture = south_german
 		religion = catholic
 		size = 13140
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Franconia Region (1876000) 
@@ -4765,11 +4396,6 @@
 		religion = jewish
 		size = 980
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Aschaffenburg (136000/34000 POPS)
 596 = {
@@ -4802,11 +4428,6 @@
 		religion = catholic
 		size = 31200
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Wurzburg (300000/75000 POPS)
 597 = {
@@ -4838,11 +4459,6 @@
 		culture = south_german
 		religion = catholic
 		size = 65500
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Bayreuth (536000/134000 POPS)
@@ -4899,11 +4515,6 @@
 		culture = south_german
 		religion = protestant
 		size = 77300  
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Bavaria Region (1536000) 
@@ -4999,11 +4610,6 @@
 		religion = jewish
 		size = 1225
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Landshut (164000/41000 POPS)
 600 = {
@@ -5035,11 +4641,6 @@
 		culture = south_german
 		religion = catholic
 		size = 37725
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Ingolstadt (164000/41000 POPS)
@@ -5073,11 +4674,6 @@
 		religion = catholic
 		size = 37175
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Regensburg (248000/62000 POPS)
 602 = {
@@ -5109,11 +4705,6 @@
 		culture = south_german
 		religion = catholic
 		size = 54725
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Silesia Region (200000) #see Czechia.txt and Poland.txt for balance of region
@@ -5179,11 +4770,7 @@
 		religion = protestant
 		size = 5000
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
+
 }
 
 #East Prussia Region (712000) #see Poland.txt and Lithuania.txt for balance of region
@@ -5321,11 +4908,6 @@
 		religion = protestant
 		size = 5650
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Gumbinnen (228000/57000 POPS) #now part of Russia 
 697 = {
@@ -5406,11 +4988,6 @@
 		religion = protestant
 		size = 3800 
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 
 #Former Ghat - Now Nordhorn(16000/4000 POPS)
@@ -5462,11 +5039,7 @@
 		religion = protestant
 		size = 985 
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
+
 }
 
 #under the rule of Schaumburg-Lippe 1836
@@ -5512,11 +5085,6 @@
 		culture = north_german
 		religion = protestant
 		size = 5810
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 
@@ -5565,11 +5133,6 @@
 		religion = protestant
 		size = 23350 
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 
 #under the rule of Schwarzburg 1836  
@@ -5617,11 +5180,6 @@
 		religion = protestant
 		size = 15350 
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 
 #under the rule of Waldeck 1836  
@@ -5668,11 +5226,6 @@
 		culture = north_german
 		religion = protestant
 		size = 6350 
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 
@@ -5730,11 +5283,6 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 650
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Wilhelmshaven (34000/8500 POPS)
@@ -5860,11 +5408,6 @@
 		culture = north_german
 		religion = catholic
 		size = 17600   
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 

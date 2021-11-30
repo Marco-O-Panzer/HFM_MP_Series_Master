@@ -58,11 +58,6 @@
 		religion = catholic
 		size = 40350
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Oviedo (448000/112000 POPS)
 475 = {
@@ -116,11 +111,6 @@
 		size = 3900
 		militancy = 8
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Vigo (328000/82000 POPS)
 476 = {
@@ -158,11 +148,7 @@
 		religion = catholic
 		size = 30500
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
+
 }
 #Leon Region (888000)
 #Leon (280000/70000 POPS)
@@ -207,11 +193,6 @@
 		culture = spanish
 		religion = catholic
 		size = 63600
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Santander (178000/44500) POPS
@@ -266,11 +247,6 @@
 		size = 3900
 		militancy = 8
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Burgos (236000/59000 POPS)
 479 = {
@@ -317,11 +293,6 @@
 		size = 975
 		militancy = 8
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Valladolid (194000/48500 POPS)
 480 = {
@@ -353,11 +324,6 @@
 		culture = spanish
 		religion = catholic
 		size = 40900
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 
 }
@@ -405,11 +371,6 @@
 		religion = catholic
 		size = 62700
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Soria (216000/54000 POPS)
 482 = {
@@ -442,11 +403,6 @@
 		religion = catholic
 		size = 48750
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Salamanca (224000/56000 POPS)
 483 = {
@@ -478,11 +434,6 @@
 		culture = spanish
 		religion = catholic
 		size = 49250
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 
 }
@@ -530,11 +481,6 @@
 		religion = catholic
 		size = 46650
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Almendralejo (192000/48000 POPS)
 485 = {
@@ -566,11 +512,6 @@
 		culture = spanish
 		religion = catholic
 		size = 43700
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Caceres (172000/43000 POPS)
@@ -604,11 +545,7 @@
 		religion = catholic
 		size = 38725
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
+
 }
 #Castilla Nueva Region (1504000)
 #Madrid (364000/91000 POPS)
@@ -696,16 +633,6 @@
 		religion = catholic
 		size = 20100
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Siguenza (204000/51000 POPS)
 488 = {
@@ -737,11 +664,6 @@
 		culture = spanish
 		religion = catholic
 		size = 45800
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Toledo (302000/75500 POPS)
@@ -781,11 +703,6 @@
 		religion = catholic
 		size = 62200
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Cuenca (346000/86500 POPS)
 490 = {
@@ -818,11 +735,6 @@
 		religion = catholic
 		size = 78775
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Ciudad Real (288000/74000 POPS)
 491 = {
@@ -854,11 +766,6 @@
 		culture = spanish
 		religion = catholic
 		size = 65600
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 
 }
@@ -933,11 +840,6 @@
 		culture = spanish
 		religion = catholic
 		size = 18850
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Pamplona (244000/61000 POPS)
@@ -1039,11 +941,6 @@
 		religion = catholic
 		size = 19975
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Logrono (158000/39500 POPS)
 494 = {
@@ -1075,11 +972,6 @@
 		culture = spanish
 		religion = catholic
 		size = 35850
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 
 }
@@ -1145,11 +1037,6 @@
 		religion = catholic
 		size = 1950
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Huesca (224000/56000 POPS)
 496 = {
@@ -1212,11 +1099,6 @@
 		religion = catholic
 		size = 16025
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Teruel (228000/57000 POPS)
 497 = {
@@ -1258,11 +1140,6 @@
 		size = 51500
 		militancy = 8
 		rebel_type = carlist_rebels
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 
 }
@@ -1370,11 +1247,6 @@
 		religion = catholic
 		size = 16125
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Gerona (228000/57000 POPS)
 499 = {
@@ -1438,11 +1310,6 @@
 		culture = spanish
 		religion = catholic
 		size = 18600
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Lerida (164000/41000 POPS)
@@ -1515,11 +1382,6 @@
 		culture = spanish
 		religion = catholic
 		size = 11275
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Tarragona (244000/61000 POPS)
@@ -1595,11 +1457,6 @@
 		religion = catholic
 		size = 17650
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Balearics (240000/60000 POPS)
 502 = {
@@ -1661,11 +1518,6 @@
 		culture = spanish
 		religion = catholic
 		size = 15900
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 
 }
@@ -1767,11 +1619,6 @@
 		religion = catholic
 		size = 39675
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Castellon (212000/53000 POPS)
 504 = {
@@ -1833,11 +1680,6 @@
 		culture = catalan
 		religion = catholic
 		size = 26275
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Alicante (384000/96000 POPS)
@@ -1901,11 +1743,6 @@
 		religion = catholic
 		size = 38300
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 
 }
 #Murcia Region (504000/121000 POPS)
@@ -1952,11 +1789,6 @@
 		religion = catholic
 		size = 42375
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Murcia (92000/23000 POPS)
 507 = {
@@ -1989,11 +1821,6 @@
 		religion = catholic
 		size = 21025
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Albacete (20000/50000 POPS)
 508 = {
@@ -2025,11 +1852,6 @@
 		culture = spanish
 		religion = catholic
 		size = 45600
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 
 }
@@ -2089,11 +1911,6 @@
 		religion = catholic
 		size = 62200
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Cordoba (324000/81000 POPS)
 510 = {
@@ -2126,11 +1943,6 @@
 		religion = catholic
 		size = 68500
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Huelva (140000/35000 POPS)
 511 = {
@@ -2162,11 +1974,6 @@
 		culture = spanish
 		religion = catholic
 		size = 31375
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Cadiz (336000/84000 POPS)
@@ -2206,11 +2013,7 @@
 		religion = catholic
 		size = 64650
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
+
 }
 #Alpujarras Region (1296000)
 #Granada (382000/95500 POPS)
@@ -2262,11 +2065,6 @@
 		religion = catholic
 		size = 72850
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Malaga (402000/100500 POPS)
 514 = {
@@ -2305,11 +2103,6 @@
 		religion = catholic
 		size = 78400
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Almeria (242000/60500 POPS)
 515 = {
@@ -2341,11 +2134,6 @@
 		culture = spanish
 		religion = catholic
 		size = 52600
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Jaen (270000/67500 POPS)
@@ -2379,11 +2167,7 @@
 		religion = catholic
 		size = 58200
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
+
 }
 #see Morocco.txt for Ceuta-Melilla
 #Canary Islands Region (208000)
@@ -2430,11 +2214,7 @@
 		religion = catholic
 		size = 47025
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
+
 }
 
 

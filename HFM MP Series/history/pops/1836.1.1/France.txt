@@ -72,11 +72,6 @@
 		religion = catholic
 		size = 120500
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Dunkirk (396000/99000 POPS)
 400 = {
@@ -151,11 +146,6 @@
 		religion = catholic
 		size = 15000
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Arras (428000/107000 POPS)
 401 = {
@@ -193,11 +183,6 @@
 		culture = picard
 		religion = catholic
 		size = 30125
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Amiens (552000/138000 POPS)
@@ -243,11 +228,6 @@
 		religion = catholic
 		size = 13075
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Beauvais (392000/98000 POPS)
 2570 = {
@@ -292,11 +272,7 @@
 		religion = catholic
 		size = 9450
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
+
 }
 #Ardennes Region (1116000)
 #Laon (528000/132000 POPS)
@@ -341,11 +317,6 @@
 		culture = french
 		religion = catholic
 		size = 120725
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Cambrai (280000/70000 POPS)
@@ -397,11 +368,6 @@
 		religion = catholic
 		size = 15500
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Charleville (308000/77000 POPS)
 405 = {
@@ -434,11 +400,7 @@
 		religion = catholic
 		size = 71250
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
+
 }
 #Champagne Region (856000)
 #Troyes (252000/63000 POPS)
@@ -484,11 +446,6 @@
 		religion = catholic
 		size = 55900
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Chaumont (256000/64000 POPS)
 407 = {
@@ -520,11 +477,6 @@
 		culture = french
 		religion = catholic
 		size = 58750
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Chalons (348000/87000 POPS)
@@ -558,11 +510,7 @@
 		religion = catholic
 		size = 78700
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
+
 }
 #Alsace Region (976000 POPS)
 #Strasbourg (552000/138000 POPS)
@@ -704,11 +652,6 @@
 		religion = protestant
 		size = 24495
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Mulhausen (424000/106000 POPS)
 410 = {
@@ -807,11 +750,7 @@
 		religion = protestant
 		size = 27600
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
+
 }
 #Lorraine Region (1584000)
 #Nancy (432000/108000 POPS)
@@ -898,11 +837,6 @@
 		culture = south_german
 		religion = jewish
 		size = 975
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Metz (420000/105000 POPS)
@@ -1002,11 +936,6 @@
 		religion = catholic
 		size = 27775
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Verdun (320000/80000 POPS)
 413 = {
@@ -1062,11 +991,6 @@
 		culture = south_german
 		religion = catholic
 		size = 1400
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Epinal (412000/103000 POPS)
@@ -1124,11 +1048,7 @@
 		religion = catholic
 		size = 700
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
+
 }
 #Normandy Region (2670000)
 #Rouen (716000/179000 POPS)
@@ -1186,11 +1106,6 @@
 		religion = catholic
 		size = 146550
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Evreux (424000/106000 POPS)
 416 = {
@@ -1223,11 +1138,6 @@
 		religion = catholic
 		size = 97750
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Alencon (442000/110500 POPS)
 417 = {
@@ -1259,11 +1169,6 @@
 		culture = french
 		religion = catholic
 		size = 101800
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Caen (1088000/272000 POPS)
@@ -1303,11 +1208,7 @@
 		religion = catholic
 		size = 150550
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
+
 }
 #Brittany Region (2616000)
 #Brest (552000/138000 POPS)
@@ -1389,11 +1290,6 @@
 		religion = catholic
 		size = 110800
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #St Brieuc (604000/151000 POPS)
 421 = {
@@ -1451,11 +1347,6 @@
 		religion = catholic
 		size = 134500
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Vannes (436000/109000 POPS)
 422 = {
@@ -1512,11 +1403,6 @@
 		religion = catholic
 		size = 90700
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Nantes (476000/119000 POPS)
 423 = {
@@ -1560,11 +1446,6 @@
 		culture = breton
 		religion = catholic
 		size = 20450
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Rennes (548000/137000 POPS)
@@ -1610,11 +1491,7 @@
 		religion = catholic
 		size = 100000
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
+
 }
 #Ile De France Region (2132000)
 #Paris (1520000/380000 POPS)
@@ -1732,18 +1609,6 @@
 		religion = jewish
 		size = 5000
 	}
-
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
-
-	farmers = {
-		culture = pan_european
-		religion = jewish
-		size = 1000
-	}
 }
 #Chartres (284000/71000 POPS)
 426 = {
@@ -1775,11 +1640,6 @@
 		culture = french
 		religion = catholic
 		size = 79675
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Melun (328000/82000 POPS)
@@ -1813,11 +1673,7 @@
 		religion = catholic
 		size = 90500
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
+
 }
 #Burgundy Region (1872000)
 #Dijon (384000/96000 POPS)
@@ -1863,11 +1719,6 @@
 		religion = catholic
 		size = 83850
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Auxerre (356000/89000 POPS)
 429 = {
@@ -1900,11 +1751,6 @@
 		religion = catholic
 		size = 82900
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Moulins (596000/149000 POPS)
 430 = {
@@ -1936,11 +1782,6 @@
 		culture = french
 		religion = catholic
 		size = 137575
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Macon (536000/134000 POPS)
@@ -1980,11 +1821,7 @@
 		religion = catholic
 		size = 36000
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
+
 }
 #Franche Comte Region (914000)
 #Besancon (600000/150000 POPS)
@@ -2042,11 +1879,6 @@
 		religion = catholic
 		size = 70000
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Lons (314000/78500 POPS)
 433 = {
@@ -2085,11 +1917,7 @@
 		religion = catholic
 		size = 30000
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
+
 }
 #Pays de la Loire Region (1948800)
 #Angers (782000/195500 POPS)
@@ -2141,11 +1969,6 @@
 		religion = catholic
 		size = 77900
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Laval (358000/89500 POPS)
 435 = {
@@ -2177,11 +2000,6 @@
 		culture = french
 		religion = catholic
 		size = 82750
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Le Mans (464000/116000 POPS)
@@ -2215,11 +2033,6 @@
 		religion = catholic
 		size = 107100
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #La Roche (344000/86000 POPS)
 437 = {
@@ -2252,11 +2065,7 @@
 		religion = catholic
 		size = 79850
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
+
 }
 #Val de Loire Region (1120000)
 #Orleans (312000/78000 POPS)
@@ -2308,11 +2117,6 @@
 		religion = catholic
 		size = 63350
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Bourges (264400/66100 POPS)
 439 = {
@@ -2344,11 +2148,6 @@
 		culture = french
 		religion = catholic
 		size = 58250
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Blois (243600/60900 POPS)
@@ -2382,11 +2181,6 @@
 		religion = catholic
 		size = 54500
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Tours (300000/75000 POPS)
 441 = {
@@ -2419,11 +2213,7 @@
 		religion = catholic
 		size = 64800
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
+
 }
 #Poitou Region (1106000)
 #La Rochelle (454000/113500 POPS)
@@ -2469,11 +2259,6 @@
 		religion = catholic
 		size = 103925
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Poitiers (288000/72000 POPS)
 443 = {
@@ -2505,11 +2290,6 @@
 		culture = french
 		religion = catholic
 		size = 63625
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Angouleme (364000/91000 POPS)
@@ -2543,11 +2323,7 @@
 		religion = catholic
 		size = 83500
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
+
 }
 #Limousin Region (1596000)
 #Limoges (288000/72000 POPS)
@@ -2605,11 +2381,6 @@
 		religion = catholic
 		size = 32050
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Chateauroux (520000/130000 POPS)
 446 = {
@@ -2647,11 +2418,6 @@
 		culture = occitan
 		religion = catholic
 		size = 41000
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Tulle (788000/197000 POPS)
@@ -2697,11 +2463,7 @@
 		religion = catholic
 		size = 62050
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
+
 }
 #Auvergne Region (1418000)
 #Clermont-Ferrand (728000/182000 POPS)
@@ -2759,11 +2521,6 @@
 		religion = catholic
 		size = 85700
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Aurillac (404000/101000 POPS)
 449 = {
@@ -2801,11 +2558,6 @@
 		culture = occitan
 		religion = catholic
 		size = 42350
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Cahors (286000/71500 POPS)
@@ -2845,11 +2597,7 @@
 		religion = catholic
 		size = 33125
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
+
 }
 #Lyonnais-Dauphine Region (2588000)
 #Lyon (824000/206000 POPS)
@@ -2980,11 +2728,6 @@
 		religion = jewish
 		size = 4200
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #St Etienne (412000/103000 POPS)
 452 = {
@@ -3034,11 +2777,6 @@
 		culture = french
 		religion = catholic
 		size = 35025
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Valence (656000/164000 POPS)
@@ -3090,11 +2828,6 @@
 		religion = catholic
 		size = 60100
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Grenoble (696000/174000 POPS)
 454 = {
@@ -3145,11 +2878,7 @@
 		religion = catholic
 		size = 90800
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
+
 }
 #Midi Region (1604000)
 #Toulouse (672000/168000 POPS)
@@ -3213,11 +2942,6 @@
 		religion = catholic
 		size = 72300
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Montauban (584000/146000 POPS)
 456 = {
@@ -3255,11 +2979,6 @@
 		culture = french
 		religion = catholic
 		size = 60400
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Foix (348000/87000 POPS)
@@ -3305,11 +3024,7 @@
 		religion = catholic
 		size = 250
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
+
 }
 #Aquitaine Region (1864000)
 #Bordeaux (632000/158000 POPS)
@@ -3383,11 +3098,6 @@
 		religion = catholic
 		size = 60510
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Mont de Marsan (556000/139000 POPS)
 459 = {
@@ -3425,11 +3135,6 @@
 		culture = french
 		religion = catholic
 		size = 40975
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Pau (676000/169000 POPS)
@@ -3505,11 +3210,7 @@
 		religion = catholic
 		size = 31300
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
+
 }
 #Languedoc Region (1668000)
 #Montpellier (724000/181000)
@@ -3568,11 +3269,6 @@
 		religion = catholic
 		size = 43150
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Rodez (504000/126000 POPS)
 462 = {
@@ -3611,11 +3307,6 @@
 		religion = catholic
 		size = 25750
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Carcassone (276000/69000 POPS)
 463 = {
@@ -3653,11 +3344,6 @@
 		culture = french
 		religion = catholic
 		size = 12050
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Perpignan (164000/41000 POPS)
@@ -3721,11 +3407,7 @@
 		religion = catholic
 		size = 25075
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
+
 }
 #Savoy Region (486800)
 ##Sardinian until 1860
@@ -3791,11 +3473,6 @@
 		religion = catholic
 		size = 9800
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Chambery (228400/57100 POPS)
 466 = {
@@ -3845,11 +3522,6 @@
 		culture = french
 		religion = catholic
 		size = 10175
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Provence Region (1268400)
@@ -3926,11 +3598,6 @@
 		religion = catholic
 		size = 12400
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Avignon (243600/60900 POPS)
 468 = {
@@ -3968,11 +3635,6 @@
 		culture = french
 		religion = catholic
 		size = 10300
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Digne (113200/31000 POPS)
@@ -4018,11 +3680,6 @@
 		religion = catholic
 		size = 10000
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Toulon (224000/56000 POPS)
 470 = {
@@ -4066,11 +3723,6 @@
 		religion = catholic
 		size = 20300
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Frejus (132000/33000 POPS)
 471 = {
@@ -4108,11 +3760,6 @@
 		culture = french
 		religion = catholic
 		size = 10600
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Nice (Sardinian until 1860) (170800/42700 POPS)
@@ -4163,11 +3810,6 @@
 		culture = french
 		religion = catholic
 		size = 225
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 
@@ -4233,10 +3875,6 @@
 		religion = catholic
 		size = 43300
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
+
 }
 

@@ -2,11 +2,6 @@
 #In personal union with Netherlands in 1836
 #Luxembourg (172000/43000 POPS)
 397 = {
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 	aristocrats = {
 		culture = north_german
 		religion = catholic
@@ -89,11 +84,6 @@
 		culture = french
 		religion = catholic
 		size = 20375
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 
 }

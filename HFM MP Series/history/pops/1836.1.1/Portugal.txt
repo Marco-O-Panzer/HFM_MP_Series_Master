@@ -1,11 +1,6 @@
 #Duoro e Minho Region (1660000)
 #Oporto (768000/192000 POPS)
 518 = {
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 	aristocrats = {
 		culture = portuguese
 		religion = catholic
@@ -47,12 +42,6 @@
 		religion = catholic
 		size = 150200
 	}
-	
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Vila Real (324000/81000) POPS
 519 = {
@@ -85,11 +74,6 @@
 		religion = catholic
 		size = 69275
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Covilha (568000/142000 POPS)
 520 = {
@@ -121,11 +105,6 @@
 		culture = portuguese
 		religion = catholic
 		size = 86500
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 
 }
@@ -173,11 +152,6 @@
 		religion = catholic
 		size = 68500
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Coimbra (460000/115000 POPS)
 522 = {
@@ -216,11 +190,6 @@
 		religion = catholic
 		size = 99800
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Abrantes (140000/35000 POPS)
 523 = {
@@ -253,11 +222,6 @@
 		religion = catholic
 		size = 41550
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Setubal (112000/28000 POPS)
 524 = {
@@ -289,11 +253,6 @@
 		culture = portuguese
 		religion = catholic
 		size = 42800
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 
 }
@@ -341,11 +300,6 @@
 		religion = catholic
 		size = 44250
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Beja (96000/24000 POPS)
 526 = {
@@ -378,11 +332,6 @@
 		religion = catholic
 		size = 42250
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Faro (120000/30000 POPS)
 527 = {
@@ -414,11 +363,6 @@
 		culture = portuguese
 		religion = catholic
 		size = 41025
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 
 }
@@ -466,11 +410,6 @@
 		religion = catholic
 		size = 45975
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Madeira (104000/26000 POPS)
 2135 = {
@@ -502,11 +441,6 @@
 		culture = portuguese
 		religion = catholic
 		size = 23825
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 
 }

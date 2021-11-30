@@ -96,11 +96,6 @@
 		religion = catholic
 		size = 49020
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Basel (272000/68000 POPS)
 604 = {
@@ -193,11 +188,6 @@
 		religion = catholic
 		size = 14550
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 #Bern (352000/88000 POPS)
 605 = {
@@ -260,11 +250,6 @@
 		religion = protestant
 		size = 85600
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Lucerne (204000/51000 POPS)
 606 = {
@@ -296,11 +281,6 @@
 		culture = swiss_german
 		religion = catholic
 		size = 47575
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 
 }
@@ -390,11 +370,6 @@
 		religion = catholic
 		size = 14530
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Neuchatel (56000/14000 POPS)
 608 = {
@@ -432,11 +407,6 @@
 		religion = protestant
 		size = 17225
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Sitten (72000/18000) POPS
 609 = {
@@ -462,11 +432,6 @@
 		culture = swiss_french
 		religion = catholic
 		size = 11135
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Ticino & Grisons Region (188000)
@@ -518,11 +483,6 @@
 		culture = swiss_italian
 		religion = catholic
 		size = 2400
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }
 #Chur (80000/20000 POPS)
@@ -585,11 +545,6 @@
 		culture = swiss_german
 		religion = protestant
 		size = 6475
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 
 }
@@ -672,11 +627,6 @@
 		religion = catholic
 		size = 4000
 	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
-	}
 }
 
 #Jura (POPS Taken from Basel)
@@ -740,11 +690,6 @@
 		religion = catholic
 		size = 14550
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 
 #Brig (POPS taken from Sitten)
@@ -777,10 +722,5 @@
 		culture = swiss_german
 		religion = catholic
 		size = 11135
-	}
-	farmers = {
-		culture = pan_european
-		religion = catholic
-		size = 1000
 	}
 }

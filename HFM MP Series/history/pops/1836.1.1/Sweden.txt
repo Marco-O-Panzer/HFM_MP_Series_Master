@@ -42,11 +42,6 @@
 		religion = protestant
 		size = 22125
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Sundsvall (80000/20000 POPS)
 318 = {
@@ -78,11 +73,6 @@
 		culture = swedish
 		religion = protestant
 		size = 19100
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Ostersund (44000/11000 POPS)
@@ -116,11 +106,6 @@
 		religion = protestant
 		size = 1100
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Umea (56000/14000 POPS)
 320 = {
@@ -152,11 +137,6 @@
 		culture = finnish
 		religion = protestant
 		size = 1100
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Lulea (44000/11000 POPS)
@@ -266,11 +246,6 @@
 		religion = protestant
 		size = 25250
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Falun (144000/36000 POPS)
 323 = {
@@ -302,11 +277,6 @@
 		culture = swedish
 		religion = protestant
 		size = 32750
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Uppsala (88000/22000 POPS)
@@ -340,11 +310,6 @@
 		religion = protestant
 		size = 19525
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Norrkoping (221000/55250 POPS)
 325 = {
@@ -376,11 +341,6 @@
 		culture = swedish
 		religion = protestant
 		size = 50750
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Vasteras (212000/53000 POPS)
@@ -414,11 +374,6 @@
 		religion = protestant
 		size = 48750
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Orebro (127000/31750 POPS)
 327 = {
@@ -450,11 +405,6 @@
 		culture = swedish
 		religion = protestant
 		size = 28975
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Karlstad (190000/47500 POPS)
@@ -488,11 +438,7 @@
 		religion = protestant
 		size = 43300
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
+
 }
 #Gotaland Region : 1457000
 #Goteborg (168000/42000 POPS)
@@ -538,11 +484,6 @@
 		religion = protestant
 		size = 33750
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Boras (220000/55000 POPS)
 330 = {
@@ -574,11 +515,6 @@
 		culture = swedish
 		religion = protestant
 		size = 50750
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Visby (40000/10000 POPS)
@@ -644,11 +580,6 @@
 		religion = protestant
 		size = 41475
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Vaxjo (276000/69000 POPS)
 333 = {
@@ -680,11 +611,6 @@
 		culture = swedish
 		religion = protestant
 		size = 63625
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 }
 #Malmo (312000/77000 POPS)
@@ -724,11 +650,6 @@
 		religion = protestant
 		size = 69125
 	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
-	}
 }
 #Karlskrona (259000/64750 POPS)
 335 = {
@@ -760,11 +681,6 @@
 		culture = swedish
 		religion = protestant
 		size = 60625
-	}
-	farmers = {
-		culture = pan_european
-		religion = protestant
-		size = 1000
 	}
 
 }
