@@ -79,13 +79,13 @@ country_event = {
 		name = "NO! The republic must stand! The military of Haiti will defend our constitution."
 		any_pop = {
 			limit = {
-				ideology = reactionary
+				pop_majority_ideology = reactionary
 			}
 			militancy = 9
 		}
 		any_pop = {
 			limit = {
-				ideology = liberal
+				pop_majority_ideology = liberal
 			}
 			militancy = -2
 		}
@@ -515,16 +515,18 @@ province_event = {
 	
 	option = {
 		name = "Abduct and force him into army service!"
-		leadership = 10
-		ammunition = 10
-		small_arms = 10
-		artillery = 2
-		canned_food = 10
-		wine = 10
-		luxury_clothes = 3
-		machine_parts = 50
-		clipper_convoy = 5
-		wool = 5
+		owner = {
+			leadership = 10
+			ammunition = 10
+			small_arms = 10
+			artillery = 2
+			canned_food = 10
+			wine = 10
+			luxury_clothes = 3
+			machine_parts = 50
+			clipper_convoy = 5
+			wool = 5
+		}
 		random_pop = {
 			limit = {
 				OR = {
@@ -543,7 +545,9 @@ province_event = {
 	
 	option = {
 		name = "Leave him alone"
-		badboy = -2
+		owner = {
+			badboy = -2
+		}
 	}
 }
 province_event = {
@@ -552,22 +556,24 @@ province_event = {
 	desc = "The Haitians are burning down their own nation."
 	
 	trigger = {
-		OR = {
-			tag = FRA 
-			tag = USA
-		}
-		OR = {
-			2213 = {
-				controlled_by = THIS
+		owner = {
+			OR = {
+				tag = FRA 
+				tag = USA
 			}
-			2214 = {
-				controlled_by = THIS
-			}
-			2215 = {
-				controlled_by = THIS
-			}
-			2216 = {
-				controlled_by = THIS
+			OR = {
+				2213 = {
+					controlled_by = THIS
+				}
+				2214 = {
+					controlled_by = THIS
+				}
+				2215 = {
+					controlled_by = THIS
+				}
+				2216 = {
+					controlled_by = THIS
+				}
 			}
 		}
 	}
@@ -661,7 +667,9 @@ country_event = {
 		badboy = -2
 		relation = { who = HAI value = 200 }
 		HAI = {
-			remove_province_modifier = USA_blockade
+			any_owned = {
+				remove_province_modifier = USA_blockade
+			}
 		}
 	}
 	option = {

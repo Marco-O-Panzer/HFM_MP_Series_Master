@@ -288,7 +288,6 @@ political_decisions = {
 				add_core = AFG
 			}
 			set_country_flag = greater_afghanistan
-			badboy = 2
 			any_country = {
 				limit = {
 					OR = {

@@ -2120,7 +2120,7 @@ country_event = { ####result of HUN no/Rom yes
 }
 
 country_event = { ####result of ROM no/Hun yes
-	id = 7142973971
+	id = 71423733
 	title = "Treaty Fails Due to Romanian Dissent"
 	desc = EVTDESC7142973971
 	fire_only_once = yes

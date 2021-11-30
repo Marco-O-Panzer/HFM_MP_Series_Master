@@ -156,7 +156,6 @@ political_decisions = {
 								is_core = NEJ
 								is_core = HDJ
 								is_core = HAL
-								is_core = HDJ
 							}
 						}
 						add_core = ARA
@@ -169,7 +168,6 @@ political_decisions = {
 								owned_by = NEJ
 								owned_by = HDJ
 								owned_by = HAL
-								owned_by = HDJ
 							}
 						}
 						secede_province = THIS
@@ -180,7 +178,6 @@ political_decisions = {
 				remove_core = NEJ
 				remove_core = HDJ
 				remove_core = HAL
-				remove_core = HDJ
 			}
 			
 			random_owned = {

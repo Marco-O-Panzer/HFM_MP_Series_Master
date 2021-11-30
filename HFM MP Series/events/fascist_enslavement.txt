@@ -9,7 +9,7 @@ country_event = {
 			government = fascist_dictatorship
 			AND = {
 				government = absolute_monarchy
-				ruling_party = reactionary
+				ruling_party_ideology = reactionary
 			}
 		}
 		slavery = yes_slavery
@@ -21,7 +21,7 @@ country_event = {
 			factor = 3
 			AND = {
 				government = absolute_monarchy
-				ruling_party = reactionary
+				ruling_party_ideology = reactionary
 			}
 		}
 	}

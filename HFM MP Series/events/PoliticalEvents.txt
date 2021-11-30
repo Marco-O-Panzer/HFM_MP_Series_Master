@@ -5027,9 +5027,9 @@ country_event = {
 			}
 			casus_belli = { target = THIS type = cut_down_to_size months = 60 }
 			relation = { who = THIS value = -400 }
-			}
 		}
 	}
+}
 	
 #Buddhism - Choose the place
 country_event = {
@@ -5137,8 +5137,8 @@ country_event = {
 	option = {
 		name = "EVT443007OPTE" #Go Back
 		country_event = 4433
-		}
 	}
+}
 	
 #Buddhists
 country_event = {
@@ -6290,7 +6290,7 @@ country_event = {
 				33 = { ideology = { factor = -0.15 value = fascist } }
 				33 = { ideology = { factor = -0.2 value = fascist } }
 				}
-			}
+		}
 			
 		random_pop = { limit = { pop_majority_ideology = fascist }
 			random_list = {
@@ -6308,7 +6308,7 @@ country_event = {
 				33 = { ideology = { factor = -0.15 value = fascist } }
 				33 = { ideology = { factor = -0.2 value = fascist } }
 				}
-			}
+		}
 
 		random_pop = { limit = { pop_majority_ideology = fascist }
 			random_list = {
@@ -6326,17 +6326,17 @@ country_event = {
 				33 = { ideology = { factor = -0.15 value = fascist } }
 				33 = { ideology = { factor = -0.2 value = fascist } }
 				}
-			}
+		}
 
 		ai_chance = {
 			factor = 70
 			modifier = {
 				factor = 1.6
 				NOT = { in_sphere = FROM }
-				}
 			}
 		}
 	}
+}
 
 #Fascist Government Coup Puppets - Overlords responds to failed coup
 country_event = {
@@ -6727,6 +6727,7 @@ country_event = {
 			call_ally = no
 		}
 		ai_chance = { factor = 0 }
+	}
 }
 
 #Mobilization during peace time ends in pops pissed
