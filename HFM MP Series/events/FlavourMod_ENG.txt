@@ -923,10 +923,12 @@ province_event = {
 	fire_only_once = yes
 		
 	trigger = {
-		capital_scope = { continent = europe }
-		is_greater_power = yes
-		owns = 2033
-		owns = 2026
+		owner = {
+			capital_scope = { continent = europe }
+			is_greater_power = yes
+			owns = 2033
+			owns = 2026
+		}
 		has_global_flag = berlin_conference
 		has_global_flag = kenya_organized
 	}
@@ -935,27 +937,29 @@ province_event = {
 	
 	option = {
 		name = "EVT99107OPT"
-		any_owned = {
-			limit = {
-				is_core = KNY
-				NOT = { terrain = savanna }
-			}
-			add_province_modifier = {
-				name = small_immigration_boom
-				duration = 3650
-			}
-			add_province_modifier = {
-				name = colonial_exploitation
-				duration = -1
-			}
-			any_pop = {
+		owner = {
+			any_owned = {
 				limit = {
-					is_primary_culture = no
-					is_accepted_culture = no
+					is_core = KNY
+					NOT = { terrain = savanna }
 				}
-				militancy = 3
-				consciousness = 3
-			}	
+				add_province_modifier = {
+					name = small_immigration_boom
+					duration = 3650
+				}
+				add_province_modifier = {
+					name = colonial_exploitation
+					duration = -1
+				}
+				any_pop = {
+					limit = {
+						is_primary_culture = no
+						is_accepted_culture = no
+					}
+					militancy = 3
+					consciousness = 3
+				}	
+			}
 		}
 		ai_chance = { factor = 1 }
 	}
@@ -971,22 +975,26 @@ province_event = {
 	
 	option = {
 		name = "EVT7777909OPTA"
-		casus_belli = {
-			target = RUS
-			type = take_from_sphere
-			months = 12
-		}
-		war = {
-			target = RUS
-			attacker_goal = { casus_belli = take_from_sphere country = TIB}
-			defender_goal = { casus_belli = status_quo }
-			call_ally = no
+		owner = {
+			casus_belli = {
+				target = RUS
+				type = take_from_sphere
+				months = 12
+			}
+			war = {
+				target = RUS
+				attacker_goal = { casus_belli = take_from_sphere country = TIB}
+				defender_goal = { casus_belli = status_quo }
+				call_ally = no
+			}
 		}
 		ai_chance = { factor = 85 }
 	}
 	option = {
 		name = "EVT7777909OPTB"
-		prestige = -35
+		owner = {
+			prestige = -35
+		}
 		ai_chance = { factor = 15 }
 	}
 }

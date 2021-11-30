@@ -262,7 +262,7 @@ country_event = {
 			tag = PAR
 			tag = MOD
 			tag = LUC
-			tag - TUS
+			tag = TUS
 		}
 		#owns = 749 #Rome
 		#total_pops = 8500000

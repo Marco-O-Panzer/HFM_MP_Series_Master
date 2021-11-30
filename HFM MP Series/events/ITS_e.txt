@@ -17,9 +17,6 @@ country_event = {
 		ITA = { all_core = { add_core = ITS } }
 		ITA = { all_core = { remove_core = ITA } }
 	}
-	ai_chance = {
-		factor = 100
-	}
 }
 
 country_event = {
@@ -39,8 +36,5 @@ country_event = {
 		ITS = { all_core = { add_core = ITA } }
 		ITS = { all_core = { remove_core = ITS } }
 		clr_country_flag = ITS_form
-	}
-	ai_chance = {
-		factor = 100
 	}
 }

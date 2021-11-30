@@ -412,7 +412,7 @@ political_decisions = {
 		effect = {
 			set_country_flag = diplo_end_blockade
 			USA = {
-				country_event = HAI2
+				country_event = 1740012
 			}
 		}
 	}

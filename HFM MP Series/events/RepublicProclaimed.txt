@@ -257,7 +257,7 @@ country_event = {
 						liberal = 35
 						AND = {
 							liberal = 20
-							socialist  15
+							socialist = 15
 						}
 						nationalvalue = nv_liberty
 					}
@@ -282,7 +282,7 @@ country_event = {
 						socialist = 35
 						AND = {
 							liberal = 15
-							socialist  20
+							socialist = 20
 						}
 						nationalvalue = nv_equality
 					}

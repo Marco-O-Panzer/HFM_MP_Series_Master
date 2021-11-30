@@ -3341,8 +3341,8 @@ country_event = {
 					tag = ITA
 					tag = ITS
 				}
-			country_event = 202060
 			}
+			country_event = 202060
 		}
 	}
 }
