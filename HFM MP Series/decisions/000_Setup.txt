@@ -17,6 +17,12 @@ political_decisions = {
 				name = neutrality
 				duration = -1
 			}
+			random_country = {
+				limit = {
+					ai = yes
+				}
+				country_event = 477877789
+			}
 		}
 		ai_will_do = {
 			factor = 1

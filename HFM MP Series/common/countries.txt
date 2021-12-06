@@ -17,6 +17,9 @@ IDO		= "countries/Indochina.txt"
 COP		= "countries/Coptic Empire.txt"
 GLP		= "countries/Guadeloupe.txt"
 
+#Cleanup
+CLN     = "countries/Cleanup.txt"
+
 ### NEW NATIONS MOD ###
 
 ###France Mod###
