@@ -307,6 +307,11 @@ political_decisions = {
 		
 		effect = {
 			add_accepted_culture = uighur
+			KMT = {
+				all_core = {
+					remove_core = KMT
+				}
+			}
 			FJN = {
 				all_core = {
 					remove_core = FJN
@@ -370,6 +375,16 @@ political_decisions = {
 			YNN = {
 				all_core = {
 					remove_core = YNN
+				}
+			}
+			PGG = {
+				all_core = {
+					remove_core = PGG
+				}
+			}
+			UYG = {
+				all_core = {
+					remove_core = UYG
 				}
 			}
 			NIA = {

@@ -6,25 +6,29 @@ From;To;Type;Through;Data;Comment
 14;78;sea;3011;0;Vancouver Crossing
 62;75;sea;2946;0;Straits of Belle Isle
 68;70;sea;2944;0;Cabot Strait
-#2237;2269;sea;2975;0;Strait of Trinidad
+2237;2269;sea;2975;0;Strait of Trinidad
 2334;2335;sea;2992;0;Strait of Magellan
 2399;2400;sea;2992;0;Strait of Magellan
 77;74;sea;2944;0;Cabot Strait
 72;73;sea;2944;0;Nova Scotia to Cape Breton
+2212;2215;sea;2969;0;Cuba-Haiti Strait
+2214;2222;sea;2974;0;Puerto Rico-Haiti Strait
 2237;2238;sea;2975;0;Trinidad-Tobago Strait
 2233;2409;sea;2975;0;Grenada-St. Vincent Strait
 2229;2409;sea;2975;0;Barbados-St. Vincent Strait
 2231;2409;sea;2975;0;St. Lucia-St. Vincent Strait
-#2231;2228;sea;2976;0;St. Lucia-Martinique Strait - STOP IT UK
-#2232;2228;sea;2976;0;Dominica-Martinique Strait - STOP IT UK
-#2232;2230;sea;2976;0;Dominica-Guadeloupe Strait - STOP IT UK
-#2225;2230;sea;2976;0;Montserrat-Guadeloupe Strait - STOP IT UK
+2231;2228;sea;2976;0;St. Lucia-Martinique Strait #- STOP IT UK
+2232;2228;sea;2976;0;Dominica-Martinique Strait #- STOP IT UK
+2232;2230;sea;2976;0;Dominica-Guadeloupe Strait #- STOP IT UK
+2225;2230;sea;2976;0;Montserrat-Guadeloupe Strait #- STOP IT UK
 2225;2224;sea;2976;0;Montserrat-Antigua Strait
 2225;2227;sea;2976;0;Montserrat-St. Kitts Strait
 2236;3246;sea;2976;0;St. Martin-St. Barths Strait
+2236;2227;sea;2976;0;Philipsburg-St Kits
 2227;3246;sea;2976;0;St. Kitts-St. Barths Strait
 2223;2226;sea;2976;0;St. Thomas-Tortola Strait
 2226;2222;sea;2976;0;Puerto Rico-Tortola Strait
+2226;45;sea;2976;0;Tortola-Marigot
 2219;2220;sea;2977;0;Bahamas-Turks & Caicos Strait
 2204;2206;sea;3001;0;Panama strait
 5;4;sea;3134;0;Aleutian Island-Dutch Harbor Strait
@@ -71,7 +75,7 @@ From;To;Type;Through;Data;Comment
 254;304;sea;2737;0;Irish Strait
 267;1724;sea;2735;0;Inverness - Orkney Strait
 780;782;land;2762;0;Mostar Bay
-#301;388;sea;2724;0;Straits of Dover
+301;401;sea;2724;0;Straits of Dover
 274;265;sea;2738;0;Ireland Strait Cause AI is dumb
 
 #
@@ -85,12 +89,12 @@ From;To;Type;Through;Data;Comment
 1541;1539;sea;2826;0;Tongzhou - Suzhou through the Yantze River
 1452;1454;sea;2856;0;Biak - Merah Strait
 2406;2562;sea;2825;0;Penghu - Taiwan Strait
-#2406;1484;sea;2825;0;Quangzhou - Taiwan Strait
+2406;1484;sea;2825;0;Quangzhou - Taiwan Strait
 1662;1679;sea;2845;0;Ryukyu Islands Strait
 2562;1678;sea;2846;0;Okinawa Islands Strait
 1071;1142;sea;2787;0;Bandar abbhas - Homuz Strait
 1071;1141;sea;2787;0;Lengeh - Homuz Strait
-#1083;1086;sea;2832;0;Tatar Straits
+1083;1086;sea;2832;0;Tatar Straits
 1087;1643;sea;2831;0;La Perouse Strait
 1162;1165;sea;2788;0;Bahrain Strait
 1309;1322;sea;2794;0;Palk Strait #Ceylon-S India
@@ -99,7 +103,7 @@ From;To;Type;Through;Data;Comment
 1384;1385;sea;2814;0;Straits of Johore to Singapore
 1403;1413;land;2805;0;Sunda Strait
 #1412;1851;sea;2782;0;Aden Strait
-#1412;1875;sea;2782;0;Aden Strait
+1412;1875;sea;2782;0;Aden Strait
 1418;1421;sea;2811;0;Strait of Madura
 1420;1438;sea;2811;0;Bali Strait
 1438;1442;sea;2811;0;Lombok Strait
@@ -108,7 +112,7 @@ From;To;Type;Through;Data;Comment
 1457;1461;sea;2849;0;Tacloban Strait
 1640;1660;land;2843;0;Fukuoka Strait
 1642;1672;sea;2841;0;Hakodate Strait
-#1664;1666;land;2843;0;Matsuyama Strait
+1664;1666;land;2843;0;Matsuyama Strait
 1667;1659;land;2843;0;Setto Strait
 1411;1408;sea;2803;0;Gunungsitoli Strait
 1404;1399;land;2813;0;Palak Panang Strait
@@ -139,7 +143,7 @@ From;To;Type;Through;Data;Comment
 1435;1425;sea;2812;0;Palu-Tarakan Strait
 1644;1089;sea;2839;0;Nemuru-Etorofu Strait
 1089;1088;sea;2839;0;Etorofu-Shumshu Strait
-#1088;1074;sea;2838;0;Shumshu-Petropavlovsk Strait
+1088;1074;sea;2838;0;Shumshu-Petropavlovsk Strait
 1679;1678;sea;2845;0;Amari-Okinawa Strait
 1637;1635;sea;2829;0;Cheju-Kwangju Strait
 #

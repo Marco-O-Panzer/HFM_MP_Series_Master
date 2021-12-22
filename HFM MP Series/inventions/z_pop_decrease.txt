@@ -65,24 +65,24 @@ women_workforce = {
 	}
 }
 
-late_marriage = {
-	limit = { social_alienation = 1 }
-	chance = {
-		base = 0
-		modifier = {
-			factor = 2
-			literacy = 0.80
-		}
-		modifier = {
-			factor = 2
-			literacy = 0.90
-		}
-		modifier = {
-			factor = 4
-			literacy = 0.95
-		}
-	}
-	effect = {
-		pop_growth = -0.0001
-	}
-}
+#late_marriage = {
+#	limit = { social_alienation = 1 }
+#	chance = {
+#		base = 0
+#		modifier = {
+#			factor = 2
+#			literacy = 0.80
+#		}
+#		modifier = {
+#			factor = 2
+#			literacy = 0.90
+#		}
+#		modifier = {
+#			factor = 4
+#			literacy = 0.95
+#		}
+#	}
+#	effect = {
+#		pop_growth = -0.0001
+#	}
+#}

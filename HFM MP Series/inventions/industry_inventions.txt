@@ -1050,6 +1050,23 @@ medical_equipment = {
 		activate_building = pharma_factory
 	}
 }
+basic_drugs = {
+	limit = { basic_chemistry = 1 }
+	chance = {
+		base = 3
+		modifier = {
+			factor = -3
+			NOT = { invention = medical_equipment }
+		}
+		modifier = {
+			factor = 5
+			medicine = 1
+		}
+	}
+	effect = {
+		pop_growth = 0.0001
+	}
+}
 combat_medicine = {
 	limit = { medicine = 1 }
 	chance = {

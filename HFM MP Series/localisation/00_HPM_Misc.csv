@@ -533,6 +533,7 @@ residency_desc;This party supports politics to limit citizenship and political r
 limited_citizenship_desc;This party supports politics to limit citizenship and political rights to people of the same cultural group of this nation.;;;;;;;;;;;;;;;;;;x;
 full_citizenship_desc;This party supports that every vote is equal.;;;;;;;;;;;;;;;;;;;;x;;;;
 movement_censored_press;Campaign for more Press Freedom;;;;;;;;;;;x
+biologism_invented;Biologism Invented;x
 revolution_n_counter_researched;Revolution and Counterrevolution Researched;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 can_create_vassals;Can Create Vassal;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 crisis_begin_researched;Crisis Event Triggered;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,

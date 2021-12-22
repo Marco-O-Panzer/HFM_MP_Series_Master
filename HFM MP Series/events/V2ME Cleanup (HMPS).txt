@@ -184,36 +184,36 @@ country_event = {
 			relation = { who = THIS value = -400 }
 		}
 		
-		#silver mine modifiers
-		any_country = {
-			limit = {
-				any_owned_province = {
-					OR = {
-						province_id = 2293
-						province_id = 2296
-						province_id = 312
-						province_id = 2322
-						province_id = 2323
-					}
-					trade_goods = precious_metal
-					NOT = { has_province_modifier = silver_mine }
-				}
-			}
-			any_owned = {
-				limit = {
-					OR = {
-						province_id = 2293
-						province_id = 2296
-						province_id = 312
-						province_id = 2322
-						province_id = 2323
-					}
-					trade_goods = precious_metal
-					NOT = { has_province_modifier = silver_mine }
-				}
-				add_province_modifier = { name = silver_mine duration = -1 }
-			}
-		}
+		#silver mine modifiers		#no silver in HMPS
+		#any_country = {
+		#	limit = {
+		#		any_owned_province = {
+		#			OR = {
+		#				province_id = 2293
+		#				province_id = 2296
+		#				province_id = 312
+		#				province_id = 2322
+		#				province_id = 2323
+		#			}
+		#			trade_goods = precious_metal
+		#			NOT = { has_province_modifier = silver_mine }
+		#		}
+		#	}
+		#	any_owned = {
+		#		limit = {
+		#			OR = {
+		#				province_id = 2293
+		#				province_id = 2296
+		#				province_id = 312
+		#				province_id = 2322
+		#				province_id = 2323
+		#			}
+		#			trade_goods = precious_metal
+		#			NOT = { has_province_modifier = silver_mine }
+		#		}
+		#		add_province_modifier = { name = silver_mine duration = -1 }
+		#	}
+		#}
 		
 		#stop vassal payments
 		any_country = {
@@ -498,7 +498,7 @@ country_event = {
 		}
 		any_country = {
 			limit = {
-				invention = revolution_n_counterrevolution
+				revolution_n_counterrevolution = 1
 				NOT = { has_country_flag = revolution_n_counter_researched }
 			}
 			set_country_flag = revolution_n_counter_researched

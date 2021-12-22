@@ -525,7 +525,7 @@ political_reforms = {
 			global_immigrant_attract = 0.40
 			allow = {
 				#NOT = { has_country_flag = residency_party }
-				has_country_flag = rev_n_counter_researched
+				has_country_flag = revolution_n_counter_researched
 				NOT = { colonial_nation = yes }
 				vote_franschise = universal_voting
 				press_rights = free_press
