@@ -52,8 +52,7 @@ Flavour Changes
 -- Can only accept the cultures if they approved of the Federation fully (in SP)
 * USA
 -- Will get a Mexican rebellion during the civil war if fully annexed mexico
--- California gains +0.08% monthly pop growth for 60 years if a state and USA is a republic with manifest destiy - if the USA is not a republic will perma lose modifier
--- If the USA occupies all of british starting Canada, they can claim all of Canada as core for 25 infamy
+-- California gains +0.02% monthly pop growth for 60 years if a state and USA is a republic with manifest destiy - if the USA is not a republic will perma lose modifier
 -- Will accept Afroamerican when starting radical reconstruction. Can keep it accepted depending on the option taken at the end of it.
 * India
 -- RGO changes wont give huge rubber overproduction from: End of natural dyes - event also reduces wool production now and grants some tea
@@ -165,7 +164,7 @@ Population
 * France liferating increased by 2 in Europe
 * Province and global baby boom effects halved
 * Emigration reduced with admin funded UBI
-* USA liferating 38 at start, 35 at 1880, 32 at 1900
+* USA liferating 40 at start, 35 at ~1880, 32 at 1900
 * Partial citizen rights allows accepted cultures to integrate
 * Full citizenship rights allows any cultures to integrate (even on cultural cores)
 

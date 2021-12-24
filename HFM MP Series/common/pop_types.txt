@@ -1003,6 +1003,15 @@ emigration_chance = {
 			not = { luxury_needs = 0.1 }
 		}
 	}
+	
+	modifier = {
+		factor = 1
+		THIS = { has_pop_culture = irish }
+		NOT = { year = 1852 }
+		country = {
+			has_country_flag = great_irish_famine
+		}
+	}
 
 	modifier = {
 		factor = -0.1

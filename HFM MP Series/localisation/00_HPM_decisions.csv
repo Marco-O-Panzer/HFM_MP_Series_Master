@@ -131,6 +131,8 @@ option_disable_starting_party_loyalty_title;§POption: Remove Starting Party Loya
 option_disable_starting_party_loyalty_desc;This option will remove all starting party loyalty.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 option_disable_hpm_crisis_title;§POption: Enable Crisis from the Start§!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 option_disable_hpm_crisis_desc;In HPM, crisis only start after 1870 and after Revolution and Counter-revolution is researched and an event fires. This is to stop stuff like free Ireland in 1840 because of the militancy that the famine generates, among other weird crisis. Selecting this option will remove these restrictions and make crisis happen from the start of the game, like it happens in Vanilla Victoria 2.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+option_suppress_army_rebellions_title;§POption: Suppress Army Rebellions§!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+option_suppress_army_rebellions_desc;Prevent soldier pops from rising above 7.0 militancy, and rebelling in your stacks one brigade at a time.;x
 option_enable_fantasy_countries_title;§POption: Enable Scrapped Vanilla/NNM Tags§!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 option_enable_fantasy_countries_desc;This option enables Byzantium and Babylonia and their respective decisions. No, I won't add any flavor for these countries and they aren't tested to work with the rest of the mod, so weird shit might happen.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 option_enable_easter_eggs_title;§POption: Enable Easter Eggs§!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,

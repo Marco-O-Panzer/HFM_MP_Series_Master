@@ -36,7 +36,7 @@ political_decisions = {
 			tag = USA
 			is_greater_power = yes
 			NOT = { has_global_flag = formexico }
-			NOT = { has_country_flag = hiding_the_decisions }
+			NOT = { has_country_flag = treaty_of_guadalupe_hidalgo }
 			has_country_modifier = the_slavery_debate 
 		}
 		allow = {
@@ -62,7 +62,7 @@ political_decisions = {
 		potential = {
 			ai = no
 			has_country_modifier = lost_the_tarrif_war 
-			NOT = { has_country_flag = hiding_the_decisions }
+			#NOT = { has_country_flag = hiding_the_decisions }
 		}
 		
 		allow = {
@@ -195,7 +195,7 @@ political_decisions = {
 			tag = CHI
 			NOT = { accepted_culture = mongol }
 			ai = no
-			NOT = { has_country_flag = hiding_the_decisions }
+			#NOT = { has_country_flag = hiding_the_decisions }
 		}
 		
 		allow = {
@@ -237,7 +237,7 @@ political_decisions = {
 			tag = CHI
 			NOT = { accepted_culture = tibetan }
 			ai = no
-			NOT = { has_country_flag = hiding_the_decisions }
+			#NOT = { has_country_flag = hiding_the_decisions }
 		}
 		
 		allow = {
@@ -269,7 +269,7 @@ political_decisions = {
 			tag = CHI
 			NOT = { accepted_culture = vietnamese }
 			ai = no
-			NOT = { has_country_flag = hiding_the_decisions }
+			#NOT = { has_country_flag = hiding_the_decisions }
 			NOT = { has_global_flag = mp_setup }
 		}
 		
@@ -292,7 +292,7 @@ political_decisions = {
 			tag = CHI
 			NOT = { accepted_culture = uighur }
 			ai = no
-			NOT = { has_country_flag = hiding_the_decisions }
+			#NOT = { has_country_flag = hiding_the_decisions }
 		}
 		
 		allow = {
@@ -483,114 +483,114 @@ political_decisions = {
 		}
 	}
 	
-	usa_claim_canada = {
-		picture = canada_1812
-		potential = {
-			tag = USA
-			war = yes
-			NOT = { 46 = { is_core = USA } }
-		}
-		allow = {
-			CAN_46 = {
-				OR = {
-					AND = {
-						NOT = { owned_by = ENG }
-						NOT = { owned_by = CAN }
-						NOT = { owned_by = QUE }
-						NOT = { owned_by = RPL }
-						NOT = { owned_by = NEW }
-						NOT = { owned_by = ACA }
-						NOT = { owned_by = MRU }
-						NOT = { owned_by = COL }
-					}
-					controlled_by = USA
-				}
-			}
-			CAN_50 = {
-				OR = {
-					AND = {
-						NOT = { owned_by = ENG }
-						NOT = { owned_by = CAN }
-						NOT = { owned_by = QUE }
-						NOT = { owned_by = RPL }
-						NOT = { owned_by = NEW }
-						NOT = { owned_by = ACA }
-						NOT = { owned_by = MRU }
-						NOT = { owned_by = COL }
-					}
-					controlled_by = USA
-				}
-			}
-			CAN_58 = {
-				OR = {
-					AND = {
-						NOT = { owned_by = ENG }
-						NOT = { owned_by = CAN }
-						NOT = { owned_by = QUE }
-						NOT = { owned_by = RPL }
-						NOT = { owned_by = NEW }
-						NOT = { owned_by = ACA }
-						NOT = { owned_by = MRU }
-						NOT = { owned_by = COL }
-					}
-					controlled_by = USA
-				}
-			}
-			CAN_60 = {
-				OR = {
-					AND = {
-						NOT = { owned_by = ENG }
-						NOT = { owned_by = CAN }
-						NOT = { owned_by = QUE }
-						NOT = { owned_by = RPL }
-						NOT = { owned_by = NEW }
-						NOT = { owned_by = ACA }
-						NOT = { owned_by = MRU }
-						NOT = { owned_by = COL }
-					}
-					controlled_by = USA
-				}
-			}
-			ENG_68 = {
-				OR = {
-					AND = {
-						NOT = { owned_by = ENG }
-						NOT = { owned_by = CAN }
-						NOT = { owned_by = QUE }
-						NOT = { owned_by = RPL }
-						NOT = { owned_by = NEW }
-						NOT = { owned_by = ACA }
-						NOT = { owned_by = MRU }
-						NOT = { owned_by = COL }
-					}
-					controlled_by = USA
-				}
-			}
-			ENG_74 = {
-				OR = {
-					AND = {
-						NOT = { owned_by = ENG }
-						NOT = { owned_by = CAN }
-						NOT = { owned_by = QUE }
-						NOT = { owned_by = RPL }
-						NOT = { owned_by = NEW }
-						NOT = { owned_by = ACA }
-						NOT = { owned_by = MRU }
-						NOT = { owned_by = COL }
-					}
-					controlled_by = USA
-				}
-			}
-		}
-		effect = {
-			badboy = 25
-			CAN = { all_core = { add_core = USA } }
-			QUE = { all_core = { add_core = USA } }
-			RPL = { all_core = { add_core = USA } }
-			NEW = { all_core = { add_core = USA } }
-			ACA = { all_core = { add_core = USA } }
-			MRU = { all_core = { add_core = USA } }
-			COL = { all_core = { add_core = USA } }
-		}
-	}
+	#usa_claim_canada = {	#Messes with HFM More Stuff Crusade for Canada chain
+	#	picture = canada_1812
+	#	potential = {
+	#		tag = USA
+	#		war = yes
+	#		NOT = { 46 = { is_core = USA } }
+	#	}
+	#	allow = {
+	#		CAN_46 = {
+	#			OR = {
+	#				AND = {
+	#					NOT = { owned_by = ENG }
+	#					NOT = { owned_by = CAN }
+	#					NOT = { owned_by = QUE }
+	#					NOT = { owned_by = RPL }
+	#					NOT = { owned_by = NEW }
+	#					NOT = { owned_by = ACA }
+	#					NOT = { owned_by = MRU }
+	#					NOT = { owned_by = COL }
+	#				}
+	#				controlled_by = USA
+	#			}
+	#		}
+	#		CAN_50 = {
+	#			OR = {
+	#				AND = {
+	#					NOT = { owned_by = ENG }
+	#					NOT = { owned_by = CAN }
+	#					NOT = { owned_by = QUE }
+	#					NOT = { owned_by = RPL }
+	#					NOT = { owned_by = NEW }
+	#					NOT = { owned_by = ACA }
+	#					NOT = { owned_by = MRU }
+	#					NOT = { owned_by = COL }
+	#				}
+	#				controlled_by = USA
+	#			}
+	#		}
+	#		CAN_58 = {
+	#			OR = {
+	#				AND = {
+	#					NOT = { owned_by = ENG }
+	#					NOT = { owned_by = CAN }
+	#					NOT = { owned_by = QUE }
+	#					NOT = { owned_by = RPL }
+	#					NOT = { owned_by = NEW }
+	#					NOT = { owned_by = ACA }
+	#					NOT = { owned_by = MRU }
+	#					NOT = { owned_by = COL }
+	#				}
+	#				controlled_by = USA
+	#			}
+	#		}
+	#		CAN_60 = {
+	#			OR = {
+	#				AND = {
+	#					NOT = { owned_by = ENG }
+	#					NOT = { owned_by = CAN }
+	#					NOT = { owned_by = QUE }
+	#					NOT = { owned_by = RPL }
+	#					NOT = { owned_by = NEW }
+	#					NOT = { owned_by = ACA }
+	#					NOT = { owned_by = MRU }
+	#					NOT = { owned_by = COL }
+	#				}
+	#				controlled_by = USA
+	#			}
+	#		}
+	#		ENG_68 = {
+	#			OR = {
+	#				AND = {
+	#					NOT = { owned_by = ENG }
+	#					NOT = { owned_by = CAN }
+	#					NOT = { owned_by = QUE }
+	#					NOT = { owned_by = RPL }
+	#					NOT = { owned_by = NEW }
+	#					NOT = { owned_by = ACA }
+	#					NOT = { owned_by = MRU }
+	#					NOT = { owned_by = COL }
+	#				}
+	#				controlled_by = USA
+	#			}
+	#		}
+	#		ENG_74 = {
+	#			OR = {
+	#				AND = {
+	#					NOT = { owned_by = ENG }
+	#					NOT = { owned_by = CAN }
+	#					NOT = { owned_by = QUE }
+	#					NOT = { owned_by = RPL }
+	#					NOT = { owned_by = NEW }
+	#					NOT = { owned_by = ACA }
+	#					NOT = { owned_by = MRU }
+	#					NOT = { owned_by = COL }
+	#				}
+	#				controlled_by = USA
+	#			}
+	#		}
+	#	}
+	#	effect = {
+	#		badboy = 25
+	#		CAN = { all_core = { add_core = USA } }
+	#		QUE = { all_core = { add_core = USA } }
+	#		RPL = { all_core = { add_core = USA } }
+	#		NEW = { all_core = { add_core = USA } }
+	#		ACA = { all_core = { add_core = USA } }
+	#		MRU = { all_core = { add_core = USA } }
+	#		COL = { all_core = { add_core = USA } }
+	#	}
+	#}
 }

@@ -442,6 +442,12 @@ political_decisions = {
 			103 = { add_core = USA }
 			101 = { add_core = USA }
 			100 = { add_core = USA }
+			all_core = {
+				limit = {
+					NOT = { life_rating = 40 }
+				}
+				life_rating = 5
+			}
 			relation = { who = MEX value = -200 }
 			diplomatic_influence = { who = MEX value = -200 }
 			leave_alliance = MEX
@@ -1469,6 +1475,8 @@ political_decisions = {
 			limit = { primary_culture = mexican OR = { owns = 102 owns = 2662 } }
 				country_event = 16453
 			}
+			102 = { life_rating = 5 }
+			2662 = { life_rating = 5 }
 		}
 		ai_will_do = { factor = 1 }
 	}
