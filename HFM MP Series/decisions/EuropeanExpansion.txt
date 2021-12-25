@@ -15,6 +15,7 @@ political_decisions = {
 			change_tag = EUR
 			primary_culture = pan_european
 			remove_accepted_culture = picard
+			387 = { assimilate = yes }
 		}
 		ai_will_do = {
 			factor = 0

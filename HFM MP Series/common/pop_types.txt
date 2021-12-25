@@ -1309,14 +1309,14 @@ assimilation_chance = {
 	factor = 1
 	
 	modifier = {
-		factor = 1
-		country = { has_country_flag = promoted_european_culture }
-		location = { continent = europe }
-	}
-	
-	modifier = {
 		factor = -20
 		has_culture_core = yes
+		NOT = {
+			AND = {
+				country = { has_country_flag = promoted_european_culture }
+				location = { continent = europe }
+			}
+		}
 		OR = {
 			country = { citizens_rights = primary_culture_only }
 			AND = {

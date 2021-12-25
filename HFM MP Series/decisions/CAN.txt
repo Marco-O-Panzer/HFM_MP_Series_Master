@@ -560,6 +560,7 @@ political_decisions = {
 			owns = 57
 			57 = { NOT = { life_rating = 36 } }
 			57 = { NOT = { has_province_modifier = genocide } }
+			NOT = { has_global_flag = founded_ottawa }
 		}
 		
 		allow = {
@@ -569,6 +570,7 @@ political_decisions = {
 		}
 		
 		effect = {
+			set_global_flag = founded_ottawa
 			57 = { 
 				change_province_name = "Ottawa" 
 				life_rating = 5 

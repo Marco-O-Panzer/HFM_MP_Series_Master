@@ -38,6 +38,7 @@ country_event = {
 		remove_accepted_culture = cajun
 		remove_accepted_culture = french_canadian
 		remove_accepted_culture = neo_zelandais
+		425 = { assimilate = yes }
 		FRA = {
 			primary_culture = french
 		}
