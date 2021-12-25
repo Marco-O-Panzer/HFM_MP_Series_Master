@@ -7,6 +7,8 @@
 3. Should then have the .mod file and one HFM MP Series folder in your mod directory
 4. Enable only this mod when using it, it is standalone
 
+## Recommended Launcher Mod
+Radsterman - Compact Launcher [https://www.moddb.com/mods/compact-launcher/downloads/compact-launche]
 
 ## Reasons to play the mod:
 -
