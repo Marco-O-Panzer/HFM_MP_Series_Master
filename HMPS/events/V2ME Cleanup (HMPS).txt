@@ -742,6 +742,15 @@ country_event = {
 	option = {
 		name = "Checking..."
 		
+		#remove colonial policy from non colonial nations
+		any_country = {
+			limit = {
+				NOT = { colonial_policy = no_colonies }
+				colonial_nation = no
+			}
+			political_reform = no_colonies
+		}
+		
 		#updating mil gain for ottomans
 		random_country = {
 			limit = {
