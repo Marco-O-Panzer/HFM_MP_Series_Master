@@ -279,6 +279,7 @@ political_decisions = {
 			ai = no
 			civilized = yes
 			NOT = { has_country_flag = picking_up_a_tech_school }
+			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		
 		allow = {

@@ -126,7 +126,7 @@ enable_options_desc;This decision shows all optional decisions to tweak and chan
 disable_options_title;§PHide 'Options' Decisions§!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 disable_options_desc;This will hide all optional tweaks to vanilla HFM. You still have until 1837 to change your mind though.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 option_disable_anarcho_liberals_title;§POption: Disable Anarchist Ideology§!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-option_disable_anarcho_liberals_desc;This tweak will stop anarchist ideology from spawning. Some people think they are too unrealistic for them, so they might want to disable it. I didn't test any balance issues that might arise without them in the game though.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+option_disable_anarcho_liberals_desc;This tweak will stop anarchist ideology from spawning. Some people think they are too unrealistic for them, so they might want to disable it.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 option_disable_starting_party_loyalty_title;§POption: Remove Starting Party Loyalty§!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 option_disable_starting_party_loyalty_desc;This option will remove all starting party loyalty.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 option_disable_hpm_crisis_title;§POption: Enable Crisis from the Start§!;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,

@@ -78,7 +78,7 @@ political_decisions = {
 	
 	option_initiate_mp_setup = {
 		picture = starting_options 
-		alert = no
+		alert = yes
 		potential = {
 			ai = no
 			has_country_flag = country_looking_through_options
@@ -88,6 +88,21 @@ political_decisions = {
 		allow = {}
 		effect = {
 			set_global_flag = mp_setup
+		}
+	}
+	
+	option_decide_uk_isolation = {
+		picture = starting_options 
+		alert = yes
+		potential = {
+			ai = no
+			has_country_flag = country_looking_through_options
+			NOT = { year = 1837 }
+			NOT = { has_global_flag = isolation_setup }
+		}
+		allow = {}
+		effect = {
+			country_event = 6016815
 		}
 	}
 

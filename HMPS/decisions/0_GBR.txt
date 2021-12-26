@@ -1,6 +1,7 @@
 political_decisions = {
 	for_the_republic = {
 		picture = provincia_britannia
+		alert = no
 		potential = {
 			tag = ENG
 			NOT = { year = 1851 }

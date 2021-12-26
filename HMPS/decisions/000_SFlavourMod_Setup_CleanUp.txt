@@ -49,7 +49,8 @@ political_decisions = {
 	}
 	
 	enable_debug_decision = {
-		picture = starting_options 
+		picture = starting_options
+		alert = no
 		potential = {
 			ai = no
 			has_global_flag = looking_through_options
@@ -63,7 +64,8 @@ political_decisions = {
 	}
 	
 	disable_microstates = {
-		picture = starting_options 
+		picture = starting_options
+		alert = no
 		potential = {
 			ai = no
 			has_global_flag = looking_through_options

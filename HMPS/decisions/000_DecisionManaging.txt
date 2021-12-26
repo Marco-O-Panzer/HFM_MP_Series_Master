@@ -26,27 +26,6 @@ political_decisions = {
 			clr_country_flag = hiding_the_decisions
 		}
 	}
-	
-	vassal_interactions = {
-        picture = gtfo
-        alert = no
-        potential = {
-			NOT = { has_country_flag = hiding_the_decisions }
-			ai = no
-            num_of_vassals_no_substates = 1
-            is_vassal = no
-        }
-        allow = { civilized = yes }
-        effect = {
-			random_country = {
-				limit = {
-					exists = yes
-					vassal_of = THIS
-				}
-				country_event = 477877793
-			}
-		}
-    }
 
 	enable_options = {
 		picture = starting_options_yes
@@ -160,36 +139,4 @@ political_decisions = {
 #			remove_country_modifier = transfer_rp_debuff
 #		}
 #	}
-	
-	stop_bankrupt_events = {
-		picture = accept_trade_no
-		alert = no
-		potential = {
-			ai = no
-			NOT = { has_country_flag = bankruptcy_events_disabled }
-			NOT = { has_country_flag = hiding_the_decisions }
-		}
-		allow = {
-			exists = yes
-		}
-		effect = {
-			set_country_flag = bankruptcy_events_disabled
-		}
-	}
-	
-	allow_bankrupt_events = {
-		picture = accept_trade_yes
-		alert = no
-		potential = {
-			ai = no
-			has_country_flag = bankruptcy_events_disabled
-			NOT = { has_country_flag = hiding_the_decisions }
-		}
-		allow = {
-			exists = yes
-		}
-		effect = {
-			clr_country_flag = bankruptcy_events_disabled
-		}
-	}
 }
