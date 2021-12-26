@@ -8,7 +8,7 @@
 4. Enable only this mod when using it, it is standalone
 
 ## Recommended Launcher Mod
-Radsterman - Compact Launcher [https://www.moddb.com/mods/compact-launcher/downloads/compact-launche]
+Radsterman - Compact Launcher [https://www.moddb.com/mods/compact-launcher/downloads/compact-launcher]
 
 ## Reasons to play the mod:
 -

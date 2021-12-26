@@ -1,6 +1,0 @@
-name = "HFM MP Series"
-path = "mod/HFM MP Series"
-user_dir = "HFM MP Series"
-replace_path = "decisions"
-replace_path = "events"
-replace_path = "history/provinces"
