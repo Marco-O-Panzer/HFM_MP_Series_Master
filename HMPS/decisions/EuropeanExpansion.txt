@@ -51,7 +51,7 @@ political_decisions = {
 			is_disarmed = no
 		}
 		effect = {
-			WBA = {
+			CLN = {
 				any_neighbor_country = {
 					any_owned = {
 						limit = { continent = europe }

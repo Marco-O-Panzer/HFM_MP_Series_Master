@@ -5,7 +5,7 @@ country_event = {
 
 
 	trigger = {
-		tag = WBA
+		tag = CLN
 		NOT = { has_country_modifier = jan_mayen_isolationism }
 	}
 
@@ -15,7 +15,7 @@ country_event = {
 		add_country_modifier = { name = neutrality duration = -1 }
 		any_country = {
 			relation = {
-				who = WBA
+				who = CLN
 				value = -200
 			}
 		}
@@ -28,8 +28,8 @@ country_event = {
 	title = "Leave Bank"
 
 	trigger = {
-		tag = WBA
-		exists = WBA
+		tag = CLN
+		exists = CLN
 		part_of_sphere = yes
 	}
 	

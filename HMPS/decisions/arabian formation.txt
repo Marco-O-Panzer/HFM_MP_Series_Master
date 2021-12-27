@@ -148,7 +148,7 @@ political_decisions = {
 	
 		effect = {
 			prestige = 10
-			WBA = {
+			CLN = {
 				any_neighbor_country = {
 					any_owned = {
 						limit = {

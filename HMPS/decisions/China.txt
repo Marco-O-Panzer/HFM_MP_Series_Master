@@ -1429,7 +1429,7 @@ political_decisions = {
 		potential = {
 			NOT = { has_global_flag = kumul_over }
 			neighbour = KML
-			NOT = { tag = WBA }
+			NOT = { tag = CLN }
 			NOT = { tag = LAN }
 			NOT = { tag = MGL }	
 			OR = {

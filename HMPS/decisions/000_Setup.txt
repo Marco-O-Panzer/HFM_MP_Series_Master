@@ -2,7 +2,7 @@ political_decisions = {
 
 	global_1836_setup = {
 		potential = {
-			tag = WBA
+			tag = CLN
 			NOT = { has_global_flag = global_1836_setup }
 		}
 		allow = {
@@ -31,7 +31,7 @@ political_decisions = {
 	
 	france_life_ratings = {
 		potential = {
-			tag = WBA
+			tag = CLN
 			NOT = { has_global_flag = raised_french_liferatings }
 		}
 		allow = {}
@@ -54,7 +54,7 @@ political_decisions = {
 	
 	usa_life_ratings = {
 		potential = {
-			tag = WBA
+			tag = CLN
 			NOT = { has_global_flag = raised_american_liferatings }
 		}
 		allow = {}

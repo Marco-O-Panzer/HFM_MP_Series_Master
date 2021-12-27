@@ -25,7 +25,7 @@ country_event = {
 	desc = "Replace Southern Italian cores with Northern Italian Cores."
 	
 	trigger = {
-		tag = WBA
+		tag = CLN
 		ITS = { exists = no }
 		has_global_flag = ITS_form
 		749 = { is_core = ITS }
