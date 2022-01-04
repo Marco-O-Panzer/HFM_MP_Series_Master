@@ -1,0 +1,155 @@
+political_decisions = {
+
+	land_transfer = {
+		picture = the_central_asia_yes
+		alert = no
+		potential = { 
+			ai = no
+			NOT = { has_country_flag = begin_land_transfer }
+			NOT = { has_country_flag = hiding_the_decisions }
+			has_global_flag = mp_setup
+		}
+		
+		allow = { ai = no }
+		
+		effect = {
+			set_country_flag = begin_land_transfer
+		}
+	}
+	
+#	land_transfer_unciv = {
+#		picture = the_central_asia_yes
+#		alert = no
+#		potential = { 
+#			civilized = no
+#			NOT = { has_country_flag = begin_land_transfer }
+#			NOT = { has_country_flag = hiding_the_decisions }
+#			has_global_flag = mp_setup
+#		}
+#		
+#		allow = { ai = no }
+#		
+#		effect = {
+#			set_country_flag = begin_land_transfer
+#			add_country_modifier = {
+#				name = transfer_rp_debuff
+#				duration = -1
+#			}
+#		}
+#	}
+	
+	end_land_transfer = {
+		picture = the_central_asia_no
+		alert = no
+		potential = { 
+			ai = no
+			has_country_flag = begin_land_transfer
+			NOT = { has_country_flag = hiding_the_decisions }
+			has_global_flag = mp_setup
+		}
+		
+		allow = { ai = no }
+		
+		effect = {
+			clr_country_flag = begin_land_transfer
+			remove_country_modifier = transfer_rp_debuff
+		}
+	}
+	
+#	end_land_transfer_unciv = {
+#		picture = the_central_asia_no
+#		alert = no
+#		potential = { 
+#			civilized = no
+#			has_country_flag = begin_land_transfer
+#			war = no
+#			NOT = { has_country_flag = hiding_the_decisions }
+#			has_global_flag = mp_setup
+#		}
+#		
+#		allow = { ai = no }
+#		
+#		effect = {
+#			clr_country_flag = begin_land_transfer
+#			remove_country_modifier = transfer_rp_debuff
+#		}
+#	}
+
+	will_receive_infamy_transfer = {
+		picture = infamy
+		alert = no
+		potential = {
+			ai = no
+			NOT = { has_country_flag = will_receive_infamy }
+			NOT = { has_country_flag = hiding_the_decisions }
+			has_global_flag = mp_setup
+		}
+		
+		allow = { 
+			NOT = { has_country_flag = will_receive_infamy } 
+			ai = no
+			NOT = { has_country_modifier = infamy_grant_cooldown }
+			is_vassal = no
+		}
+		effect = {
+			country_event = {id = 200000 days = 0}
+			add_country_modifier = {
+				name = infamy_grant_cooldown
+				duration = 30
+			}
+		}
+
+	}
+
+#	will_not_receive = {
+#		alert = no
+#		potential = {
+#			ai = no
+#			has_country_flag = will_receive_grants
+#			}
+#		
+#		allow = { 
+#			has_country_flag = will_receive_grants
+#			}
+#		effect = {
+#			clr_country_flag = will_receive_grants 
+#
+#		}
+#
+#	}
+
+	will_give_infamy = {
+		picture = infamy_yes
+		alert = no
+		potential = {
+			ai = no
+			NOT = { has_country_flag = will_give_infamy }
+			NOT = { has_country_flag = hiding_the_decisions }
+			has_global_flag = mp_setup
+		}
+
+		allow = { NOT = { has_country_flag = will_give_infamy } }
+		effect = {
+			set_country_flag = will_give_infamy
+		}
+	}
+
+
+	will_not_give_infamy = {
+		picture = infamy_no
+		alert = no
+		potential = {
+			ai = no
+			has_country_flag = will_give_infamy
+			NOT = { has_country_flag = hiding_the_decisions }
+			has_global_flag = mp_setup
+		}
+		
+		allow = { 
+			ai = no
+			has_country_flag = will_give_infamy }
+		effect = {
+			clr_country_flag = will_give_infamy 
+			}
+	}
+}

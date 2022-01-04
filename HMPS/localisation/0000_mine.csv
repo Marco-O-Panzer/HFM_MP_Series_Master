@@ -265,9 +265,9 @@ trinket_subsidies_desc;Basic jobseekers allowances are provided by a government 
 low_subsidies;Generous Subsidies;;;;;;;;;;;;x
 low_subsidies_desc;Standard jobseekers allowances are provided by a government agency.;;;;;;;;;;;;x
 acceptable_subsidies;Standard UBI;;;;;;;;;;;;x
-acceptable_subsidies_desc;The government provides a small monthly income to all citizens, regardless of their economic situation. This income is guarantteed and paid from the government budget. §YMust have admin spending at 75% minimum to gain the full effects. This reform will be rescinded if a non socialist/communist government is in power!§!;;;;;;;;;;;;x
+acceptable_subsidies_desc;The government provides a small monthly income to all citizens, regardless of their economic situation. This income is guarantteed and paid from the government budget. \n§YMust have admin spending at 75%+ to gain the full effects.\n§RThis reform will be rescinded if a non socialist/communist government is in power!§!;;;;;;;;;;;;x
 good_subsidies;Advanced UBI;;;;;;;;;;;;x
-good_subsidies_desc;A large sum of money is provided to each citizen monthly. This is an unconditional payment and funded by the government budget. §YMust have admin spending at 100% to gain the full effects. This reform will be rescinded if a non socialist/communist government is in power!§!;;;;;;;;;;;;x
+good_subsidies_desc;A large sum of money is provided to each citizen monthly. This is an unconditional payment and funded by the government budget. \n§YMust have admin spending at 100% to gain the full effects.\n§RThis reform will be rescinded if a non socialist/communist government is in power!§!;;;;;;;;;;;;x
 EVTNAME7777907;Change in Welfare Policy;;;;;;;;;;;;x
 EVTDESC7777907;The party of large tax and large spend is no longer in power, we will now readjust our social spending levels.;;;;;;;;;;;;x
 eic_trigger_the_decision_title;Our Future;;;;;;;;;;;;x

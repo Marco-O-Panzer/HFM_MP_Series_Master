@@ -4,7 +4,13 @@ country_event = {
 
 	trigger = {
 		citizens_rights = all_voting_pops
-		NOT = { citizenship_policy = full_citizenship }
+		OR = {
+			colonial_nation = yes
+			NOT = { vote_franschise = universal_voting }
+			NOT = { press_rights = free_press }
+			NOT = { public_meetings = yes_meeting }
+			NOT = { citizenship_policy = full_citizenship }
+		}
 	}
  
 	mean_time_to_happen =  {

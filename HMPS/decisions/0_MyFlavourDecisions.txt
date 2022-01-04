@@ -465,24 +465,6 @@ political_decisions = {
 #		}
 #	}
 	
-	the_white_tzar = {
-		picture = tibet_capital
-		potential = {
-			tag = RUS
-			NOT = { has_country_flag = stolen_tibet }
-			TIB = { exists = yes vassal_of = QNG }
-		}
-		allow = {
-			TIB = { in_sphere = THIS }
-			war = no
-		}
-		effect = {
-			QNG = { release_vassal = TIB }
-			TIB = { all_core = { add_core = CHI } }
-			ENG = { country_event = { id = 7777909 days = 7 } }
-		}
-	}
-	
 	#usa_claim_canada = {	#Messes with HFM More Stuff Crusade for Canada chain
 	#	picture = canada_1812
 	#	potential = {

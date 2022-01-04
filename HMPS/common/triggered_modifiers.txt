@@ -716,7 +716,16 @@ trinket_health_care_fully_funded = {
 	trigger = {
 		exists = yes
 		health_care = trinket_health_care
-		administration_spending = 0.2
+		OR = {
+			AND = {
+				ai = yes
+				administration_spending = 0.15
+			}
+			AND = {
+				ai = no
+				administration_spending = 0.2
+			}
+		}
 	}
 	poor_luxury_needs = -0.05
 	poor_everyday_needs = -0.02
@@ -899,31 +908,31 @@ education_fully_funded = {
 	icon = 19
 }
 
-neglected_education = {
-	trigger = {
-		exists = yes
-		civilized = yes
-		ai = no
-		number_of_states = 2
-		total_pops = 1000000
-		OR = {
-			AND = {
-				literacy = 0.75
-				NOT = { education_spending = 0.3 }
-			}
-			AND = {
-				literacy = 0.5
-				NOT = { education_spending = 0.2 }
-			}
-			AND = {
-				literacy = 0.25
-				NOT = { education_spending = 0.1 }
-			}
-		}
-	}
-	education_efficiency_modifier = -2
-	icon = 19
-}
+#neglected_education = {	#literacy decay now used (in cleanup)
+#	trigger = {
+#		exists = yes
+#		civilized = yes
+#		ai = no
+#		number_of_states = 2
+#		total_pops = 1000000
+#		OR = {
+#			AND = {
+#				literacy = 0.75
+#				NOT = { education_spending = 0.3 }
+#			}
+#			AND = {
+#				literacy = 0.5
+#				NOT = { education_spending = 0.2 }
+#			}
+#			AND = {
+#				literacy = 0.25
+#				NOT = { education_spending = 0.1 }
+#			}
+#		}
+#	}
+#	education_efficiency_modifier = -2
+#	icon = 19
+#}
 
 islamic_law_triggered = {
 	trigger = {

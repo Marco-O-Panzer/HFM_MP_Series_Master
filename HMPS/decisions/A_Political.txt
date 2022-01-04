@@ -12,6 +12,7 @@ political_decisions = {
 					has_country_flag = prohibition_repealed
 				}
 			}
+			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		allow = {
 			OR = {
@@ -46,6 +47,7 @@ political_decisions = {
 		picture = abolish_prohibition
 		potential = {
 			has_country_modifier = liquor_prohibition
+			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		allow = {
 				OR = {
@@ -156,6 +158,7 @@ political_decisions = {
 				NOT = { has_global_flag = mp_setup }
 				ai = no
 			}
+			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		
 		allow = {
@@ -245,99 +248,11 @@ political_decisions = {
 					}
 				}
 			}
+			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		
 		effect = {
 			nationalize = yes
-		}
-		
-		ai_will_do = { factor = 1 }
-	}
-	
-	renaming_act_lushun = {
-		picture = port_arthur
-			
-		potential = {
-			owns = 1481
-			OR = {
-				AND = {
-					NOT = { has_global_flag = lushun }
-					OR = {
-						is_culture_group = east_asian
-						primary_culture = korean
-						primary_culture = ainu
-					}
-					OR = {
-						has_global_flag = renamed_port_arthur
-						has_global_flag = renamed_ryojun
-					}
-				}
-				AND = {
-					primary_culture = japanese
-					NOT = { has_global_flag = renamed_ryojun }
-				}
-				AND = {
-					NOT = { is_culture_group = east_asian }
-					NOT = { primary_culture = korean }
-					NOT = { primary_culture = ainu }
-					NOT = { primary_culture = japanese }
-					NOT = { has_global_flag = renamed_port_arthur }
-				}
-			}
-		}
-		
-		allow = { war = no }
-		
-		effect = {
-			prestige = 2
-			random_owned = {
-				limit = {
-					owner = {
-						NOT = { is_culture_group = east_asian }
-						NOT = { primary_culture = korean }
-						NOT = { primary_culture = ainu }
-						NOT = { primary_culture = japanese }
-					}
-				}
-				owner = {
-					1481 = { change_province_name = "Port Arthur" }
-					set_global_flag = renamed_port_arthur
-					clr_global_flag = lushun
-					clr_global_flag = renamed_ryojun 
-				}
-			}
-			
-			random_owned = {
-				limit = { owner = { primary_culture = japanese } }
-				owner = {
-					1481 = { change_province_name = "Ryojun" }
-					clr_global_flag = renamed_port_arthur
-					clr_global_flag = lushun
-					set_global_flag = renamed_ryojun
-				}
-			}
-			
-			random_owned = {
-				limit = { 
-					owner = {
-						OR = {
-							is_culture_group = east_asian
-							primary_culture = korean
-							primary_culture = ainu
-						}
-						OR = {
-							has_global_flag = renamed_ryojun
-							has_global_flag = renamed_port_arthur
-						}
-					}
-				}
-				owner = {
-					1481 = { change_province_name = "Lüshun" }
-					set_global_flag = lushun
-					clr_global_flag = renamed_port_arthur
-					clr_global_flag = renamed_ryojun
-				}
-			}
 		}
 		
 		ai_will_do = { factor = 1 }
@@ -502,6 +417,7 @@ political_decisions = {
 				government = prussian_constitutionalism
 			}
 			debt_law = serfdom
+			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		
 		allow = {
@@ -929,6 +845,7 @@ political_decisions = {
 			}
 			NOT = { any_pop = { type = slaves } }
 			year = 1886
+			ai = yes
 		}
 		
 		allow = {
@@ -1976,6 +1893,7 @@ political_decisions = {
 					NOT = { life_rating = 38 }
 				}
 			}
+			NOT = { has_country_flag = renovated_capital }
 		}
 		
 		allow = {
@@ -2020,6 +1938,7 @@ political_decisions = {
 				life_rating = 5
 				add_province_modifier = { name = recently_built_city duration = 1825 }
 			}
+			set_country_flag = renovated_capital
 		}
 		
 		ai_will_do = { factor = 1 }

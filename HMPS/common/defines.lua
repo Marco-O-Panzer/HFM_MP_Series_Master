@@ -32,7 +32,7 @@ country = {
 	BASE_MONTHLY_DIPLOPOINTS = 0.3, -- Base value gain for diplomatic actions each month
 	DIPLOMAT_TRAVEL_TIME = 0,
 	PROVINCE_OVERSEAS_PENALTY = 0.03, -- Each province req. this many goods flagged as overseas penalty 
-	NONCORE_TAX_PENALTY = -0.075, -- -5% for each non-core in state
+	NONCORE_TAX_PENALTY = -0.075, -- for each non-core in state
 	BASE_TARIFF_EFFICIENCY = 0.1, -- baseline tariff efficiency
 	COLONY_FORMED_PRESTIGE = 1, -- prestige from founding a colony.
 	CREATED_CB_VALID_TIME = 30,  -- how many months 
@@ -620,7 +620,7 @@ diplomacy = {
 pops = {
 	BASE_CLERGY_FOR_LITERACY = 0.005, 
 	MAX_CLERGY_FOR_LITERACY = 0.04, 
-	LITERACY_CHANGE_SPEED = 0.060,
+	LITERACY_CHANGE_SPEED = 0.075,
 
 
 	ASSIMILATION_SCALE = 0.004,
