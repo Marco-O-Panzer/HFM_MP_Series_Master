@@ -5,7 +5,7 @@ country_event = {
 
 	trigger = {
 		tag = HAI
-		year = 1860
+		year = 1840
 		exists = PAP
 		NOT = { year = 1863 }
 	}
@@ -13,15 +13,15 @@ country_event = {
 	fire_only_once = yes
  
 	mean_time_to_happen =  {
-		months = 5
+		months = 12
 
 		modifier = {
-			factor = 0.75 #increase likelihood to happen
+			factor = 1.75 #increase likelihood to happen
 			year = 1861
 		}
 		
 		modifier = {
-			factor = 0.95 #increase likelihood to happen
+			factor = 2.95 #increase likelihood to happen
 			year = 1862
 		}
 	}
@@ -32,9 +32,22 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA45100" 
-		prestige = 25
+		prestige = 5
+		any_owned = {
+			limit = {
+				is_core = HAI
+			}
+			add_province_modifier = {
+				name = reading
+				duration = -1
+			}
+			add_country_modifier = {
+				name = educational_reform
+				duration = 3650
+			}
+		}
 		relation = { who = PAP value = 150 }
-		any_pop = { limit = { is_state_religion = yes } scaled_militancy = { factor = -3 issue = moralism } }
+		any_pop = { limit = { is_state_religion = yes } scaled_militancy = { factor = -5 issue = moralism } }
 	}
 }
 
@@ -82,6 +95,12 @@ country_event = {
 				pop_majority_ideology = reactionary
 			}
 			militancy = 9
+		}
+		any_pop = {
+			limit = {
+				pop_majority_ideology = conservative
+			}
+			militancy = 5
 		}
 		any_pop = {
 			limit = {
@@ -204,7 +223,11 @@ country_event = {
 	mean_time_to_happen = { months = 8 }
 		
 	option = {
-		name = "EVT45104OPTA"
+		name = "EVT45104OPTA" liberal_agitation
+		add_country_modifier = {
+			name = liberal_agitation
+			duration = 2190
+		}
 		remove_accepted_culture = caribeno
 		remove_accepted_culture = afro_caribeno	
 		any_owned = {
@@ -213,45 +236,12 @@ country_event = {
 			remove_province_modifier = nationalist_agitation
 			secede_province = DOM
 		}
-		DOM = {
-			define_general = { name = "Pedro Santana" personality = implacable background = nationalist } 
-			add_country_modifier = { name = unrecognized_country duration = 3650 }
-		}
-		relation = { who = DOM value = -400 }
-		war = {
-			target = DOM
-			attacker_goal = { casus_belli = conquest_any }
-			defender_goal = { casus_belli = status_quo }
-		}
-		ai_chance = { factor = 100 }
-	}
-
-	option = {
-		name = "EVT45104OPTB"
-		remove_accepted_culture = caribeno
-		remove_accepted_culture = afro_caribeno
-		any_owned = {
-			limit = { is_core = DOM }
-			any_pop = { militancy = -9 consciousness = -9 }
-			remove_province_modifier = nationalist_agitation
-			secede_province = DOM
-		}
 		USA = {
-        	diplomatic_influence = { who = DOM value = 400 }
+        	diplomatic_influence = { who = DOM value = 200 }
         }
 		DOM = {
 			define_general = { name = "Pedro Santana" personality = implacable background = nationalist }
 			
-			any_pop = {
-				limit  = {
-					OR = {
-						has_pop_culture = afro_caribeno
-						has_pop_culture = caribeno
-					}
-					pop_type = soldiers
-				}
-				reduce_pop = 2.0
-			}
 			capital_scope = {
 				sub_unit = { type = infantry value = current }
 				sub_unit = { type = infantry value = current }
@@ -268,7 +258,49 @@ country_event = {
 		relation = { who = DOM value = -400 }
 		war = {
 			target = DOM
-			attacker_goal = { casus_belli = conquest_any }
+			attacker_goal = { casus_belli = civil_war }
+			defender_goal = { casus_belli = status_quo }
+		}
+		ai_chance = { factor = 100 }
+	}
+
+	option = {
+		name = "EVT45104OPTB"
+		add_country_modifier = {
+			name = liberal_agitation
+			duration = 2190
+		}
+		remove_accepted_culture = caribeno
+		remove_accepted_culture = afro_caribeno
+		any_owned = {
+			limit = { is_core = DOM }
+			any_pop = { militancy = -9 consciousness = -9 }
+			remove_province_modifier = nationalist_agitation
+			secede_province = DOM
+		}
+		USA = {
+        	diplomatic_influence = { who = DOM value = 200 }
+        }
+		DOM = {
+			define_general = { name = "Pedro Santana" personality = implacable background = nationalist }
+			
+			capital_scope = {
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = infantry value = current }
+				sub_unit = { type = cavalry value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+				sub_unit = { type = artillery value = current }
+			}
+		}
+		relation = { who = DOM value = -400 }
+		war = {
+			target = DOM
+			attacker_goal = { casus_belli = civil_war }
 			defender_goal = { casus_belli = status_quo }
 		}
 		change_tag_no_core_switch = DOM
@@ -343,6 +375,18 @@ country_event = {
 
     option = {
         name = "EVT45106OPTA"
+        FRA = {
+        	diplomatic_influence = { who = HAI value = 100 }
+        }
+        random_owned = {
+            limit = {
+                owner = {
+                    NOT = { money = 500000 }
+                    NOT = { check_variable = { which = owed_cash_money value = 1 } }
+                }
+            }
+            owner = { set_variable = { which = owed_cash_money value = 500 } }
+        }
         prestige = -10
         FRA = { 
         	treasury = 500000
@@ -463,191 +507,165 @@ country_event = {
 }
 province_event = {
 	id = 1740010
-	title = "A fine Soldier"
-	desc = "Conscript Unemployed citizens."
+	title = "Slave Ship Caputured"
+	desc = "Ever since the foundation of Haiti we have captured many slave ship and another has been caputured."
 	
 	trigger = {
 		owner = {
 			tag = HAI
 		}
-		OR = {
-			country_units_in_province = THIS
-			any_pop = {
-				unemployment = 0.08
-			}
-		}
 		controlled_by_rebels = no
+		NOT = {
+			year = 1880
+		}
 	}
 	
 	mean_time_to_happen = {
 		months = 400
 		modifier = {
-			factor = 0.2
-			owner = {
-				NOT = { military_score = 10 }
+			factor = 1
+			USA = {
+				OR = {
+					slavery = yes_slavery
+					slavery = freedom_of_womb
+				}
 			}
 		}
 		modifier = {
-			factor = 0.4
-			owner = {
-				NOT = { military_score = 20 }
-			}
-		}
-		modifier = {
-			factor = 0.6
-			owner = {
-				NOT = { military_score = 30 }
-			}
-		}
-		modifier = {
-			factor = 0.8
-			owner = {
-				NOT = { military_score = 40 }
-			}
-		}
-		modifier = {
-			factor = 0.9
-			owner = {
-				NOT = { military_score = 50 }
+			factor = 1
+			SPA = {
+				OR = {
+					slavery = yes_slavery
+					slavery = freedom_of_womb
+				}
 			}
 		}
 	}
 	
 	option = {
-		name = "Abduct and force him into army service!"
+		name = "We have liberated them from slavery!"
 		owner = {
-			leadership = 10
-			ammunition = 10
-			small_arms = 10
-			artillery = 2
-			canned_food = 10
-			wine = 10
-			luxury_clothes = 3
-			machine_parts = 50
-			clipper_convoy = 5
-			wool = 5
+			treasury = 250
+        	leadership = 5
+        	small_arms = 10
+        	artillery = 5
+        	grain = 25
+        	wine = 5
+        	clipper_convoy = 1.5
 		}
-		random_pop = {
-			limit = {
-				OR = {
-					pop_type = labourers
-					pop_type = farmers
-					pop_type = artisans
-				}
-			}
-			pop_type = soldiers
-		}
-		random_pop = {
-			consciousness = 2
-			militancy = 1
-		}
+		any_pop = {
+        	limit = {
+        		has_pop_culture = afro_antillean
+        	}
+        	reduce_pop = 1.025
+        }
 	}
 	
 	option = {
 		name = "Leave him alone"
 		owner = {
-			badboy = -2
+			badboy = -0.5
 		}
 	}
 }
-province_event = {
-	id = 1740011
-	title = "Haiti Burns"
-	desc = "The Haitians are burning down their own nation."
-	
-	trigger = {
-		owner = {
-			OR = {
-				tag = FRA 
-				tag = USA
-			}
-			OR = {
-				2213 = {
-					controlled_by = THIS
-				}
-				2214 = {
-					controlled_by = THIS
-				}
-				2215 = {
-					controlled_by = THIS
-				}
-				2216 = {
-					controlled_by = THIS
-				}
-			}
-		}
-	}
-	
-	fire_only_once = yes
-
-	mean_time_to_happen = {
-		months = 1
-		modifier = {
-			factor = 0.2
-			owner = {
-				NOT = { military_score = 10 }
-			}
-		}
-		modifier = {
-			factor = 0.4
-			owner = {
-				NOT = { military_score = 20 }
-			}
-		}
-		modifier = {
-			factor = 0.6
-			owner = {
-				NOT = { military_score = 30 }
-			}
-		}
-		modifier = {
-			factor = 0.8
-			owner = {
-				NOT = { military_score = 40 }
-			}
-		}
-		modifier = {
-			factor = 0.9
-			owner = {
-				NOT = { military_score = 50 }
-			}
-		}
-	}
-	option = {
-		name = "Damn the Haitians!"
-		HAI = {
-			ammunition = 10
-			small_arms = 10
-			artillery = 2
-			canned_food = 10
-			wine = 10
-			luxury_clothes = 3
-			machine_parts = 50
-			clipper_convoy = 5
-			wool = 5
-			any_pop = {
-				limit = {
-					OR = {
-						pop_type = labourers
-						pop_type = farmers
-						pop_type = artisans
-					}
-				}
-				reduce_pop = 0.75
-			}
-			any_owned = {
-				add_province_modifier = {
-					name = scorched_earth
-					duration = 2190
-				}
-			}
-		}
-		random_pop = {
-			consciousness = 2
-			militancy = 1
-		}
-	}
-}
+#province_event = {
+#	id = 1740011
+#	title = "Haiti Burns"
+#	desc = "The Haitians are burning down their own nation."
+#	
+#	trigger = {
+#		owner = {
+#			OR = {
+#				tag = FRA 
+#				tag = USA
+#			}
+#			OR = {
+#				2213 = {
+#					controlled_by = THIS
+#				}
+#				2214 = {
+#					controlled_by = THIS
+#				}
+#				2215 = {
+#					controlled_by = THIS
+#				}
+#				2216 = {
+#					controlled_by = THIS
+#				}
+#			}
+#		}
+#	}
+#	
+#	fire_only_once = yes
+#
+#	mean_time_to_happen = {
+#		months = 1
+#		modifier = {
+#			factor = 0.2
+#			owner = {
+#				NOT = { military_score = 10 }
+#			}
+#		}
+#		modifier = {
+#			factor = 0.4
+#			owner = {
+#				NOT = { military_score = 20 }
+#			}
+#		}
+#		modifier = {
+#			factor = 0.6
+#			owner = {
+#				NOT = { military_score = 30 }
+#			}
+#		}
+#		modifier = {
+#			factor = 0.8
+#			owner = {
+#				NOT = { military_score = 40 }
+#			}
+#		}
+#		modifier = {
+#			factor = 0.9
+#			owner = {
+#				NOT = { military_score = 50 }
+#			}
+#		}
+#	}
+#	option = {
+#		name = "Damn the Haitians!"
+#		HAI = {
+#			ammunition = 10
+#			small_arms = 10
+#			artillery = 2
+#			canned_food = 10
+#			wine = 10
+#			luxury_clothes = 3
+#			machine_parts = 50
+#			clipper_convoy = 5
+#			wool = 5
+#			any_pop = {
+#				limit = {
+#					OR = {
+#						pop_type = labourers
+#						pop_type = farmers
+#						pop_type = artisans
+#					}
+#				}
+#				reduce_pop = 0.75
+#			}
+#			any_owned = {
+#				add_province_modifier = {
+#					name = scorched_earth
+#					duration = 2190
+#				}
+#			}
+#		}
+#		random_pop = {
+#			consciousness = 2
+#			militancy = 1
+#		}
+#	}
+#}
 
 #Diplo end blockade
 country_event = {
@@ -658,11 +676,11 @@ country_event = {
  
 	
 	title = "The Blockade on Haiti"
-	desc = "Should we end our long standing blockade on Haiti"
+	desc = "Should we end our long standing blockade on Haiti, and establish diplomactic relations with them."
 	picture = "haiti_debts"
 
 	option = {
-		name = "Yes" 
+		name = "Yes (removes blockade modifier on Haiti) " 
 		prestige = 25
 		badboy = -2
 		relation = { who = HAI value = 200 }

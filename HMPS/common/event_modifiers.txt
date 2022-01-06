@@ -247,8 +247,8 @@ USA_blockade = {
 }
 
 HAI_mass_reforms = {
-	core_pop_militancy_modifier = 0.25
-	tax_efficiency = -0.25
+	core_pop_militancy_modifier = 0.1
+	tax_efficiency = -0.05
 	assimilation_rate = -0.1
 	icon = 3
 }
@@ -274,32 +274,30 @@ equal_rule = {
 	middle_vote = 0.02
 	rich_vote = -0.01
 	core_pop_militancy_modifier = -0.02
-	global_immigrant_attract = 0.25
-	tax_efficiency = 0.05
+	global_immigrant_attract = 0.05
+	tax_efficiency = 0.01
 	icon = 7
 }
 
 death_war = {
-	population_growth = -0.05
-	land_defense_modifier = 0.3
-    	land_attack_modifier = 0.3
+	population_growth = -0.1
    	land_organisation = 0.3
-    	mobilisation_size = 0.50
-    	mobilisation_economy_impact = -0.7
-    	core_pop_militancy_modifier = -0.1
-    	war_exhaustion = -0.03
-    	org_regain = 1
-    	supply_consumption = -0.75
-    	import_cost = 2.5
-    	icon = 7
+    mobilisation_size = 0.50
+    mobilisation_economy_impact = -0.7
+    core_pop_militancy_modifier = -0.1
+    war_exhaustion = -0.03
+    org_regain = 1
+    supply_consumption = -0.95
+    import_cost = 2.5
+    icon = 7
 }
 
 scorched_earth = {
 	population_growth = -0.1
-	supply_limit = -0.75
+	supply_limit = -0.95
 	immigrant_attract = -1
-	immigrant_push = -1
-	pop_militancy_modifier = 0.5
+	immigrant_push = 10
+	pop_militancy_modifier = 0.75
 	icon = 7
 }
 

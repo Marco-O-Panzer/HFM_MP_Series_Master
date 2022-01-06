@@ -1,32 +1,53 @@
 3275 = {
+
 	aristocrats = {
-		culture = inuit
+		culture = mulatto
 		religion = catholic
-		size = 1
+		size = 550
 	}
 
 	clergymen = {
-		culture = inuit
+		culture = mulatto
 		religion = catholic
-		size = 1
+		size = 750
 	}
 
 	artisans = {
-		culture = inuit
+		culture = mulatto
 		religion = catholic
-		size = 1
+		size = 9550
 	}
-
 	soldiers = {
-		culture = inuit
+		culture = polish
 		religion = catholic
-		size = 1
+		size = 1000
+	}
+	artisans = {
+		culture = french_canadian
+		religion = catholic
+		size = 4050
+	}
+	soldiers = {
+		culture = afro_antillean
+		religion = catholic
+		size = 4000
 	}
 
 	farmers = {
-		culture = inuit
+		culture = afro_antillean
 		religion = catholic
-		size = 1
+		size = 76825
+	}
+
+	craftsmen = {
+		culture = afro_antillean
+		religion = catholic
+		size = 100
+	}
+	artisans = {
+		culture = mashriqi
+		religion = catholic
+		size = 100
 	}
 
 }

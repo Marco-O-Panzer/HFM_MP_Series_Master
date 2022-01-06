@@ -61,6 +61,16 @@
 		religion = catholic
 		size = 45350
 	}
+	farmers = {
+		culture = afro_antillean
+		religion = catholic
+		size = 6800
+	}
+	farmers = {
+		culture = afro_american
+		religion = protestant
+		size = 5875
+	}
 }
 #La Vega (56000/15000 POPS) #now part of Dominican Republic
 2216 = {
@@ -117,5 +127,9 @@
 		religion = catholic
 		size = 19575
 	}
-
+	farmers = {
+		culture = afro_antillean
+		religion = catholic
+		size = 6800
+	}
 }

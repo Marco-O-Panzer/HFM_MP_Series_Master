@@ -1,4 +1,4 @@
-JAN_1 = { 3275 }
+#JAN_1 = { 3275 } Nord FC
 
 ### Canada & the Far North
 
@@ -1158,7 +1158,7 @@ CLM_1723 = { 2204 1723 2205 2206 2208 } #Panama
 
 SPA_2209 = { 2209 2210 2211 44 2212 } #Cuba
 
-HAI_2213 = { 2213 2214 2215 2216 } #Hispanola
+HAI_2213 = { 2213 2214 2215 2216 3275 } #Hispanola
 
 ENG_203 = { 2217 203 2219 2218 2220 } #Caribbean Islands
 
