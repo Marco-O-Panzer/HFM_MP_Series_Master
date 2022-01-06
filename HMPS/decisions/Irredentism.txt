@@ -678,7 +678,10 @@ political_decisions = {
 	provincia_cisplatina = {
 		picture = banda_oriental
 		potential = {
-			tag = BRZ
+			OR = {
+				tag = BRZ
+				tag = UPB
+			}
 			NOT = { has_country_flag = cisplatina_is_ours  }
 		}
 		
@@ -706,7 +709,24 @@ political_decisions = {
 			2347 = {
 				add_core = BRZ
 			}
-
+			any_country = {
+				limit = {
+					tag = BRZ
+					exists = no
+				}
+				2344 = {
+					add_core = UPB
+				}              
+				2345 = {       
+					add_core = UPB
+				}              
+				2346 = {       
+					add_core = UPB
+				}              
+				2347 = {       
+					add_core = UPB
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -717,7 +737,10 @@ political_decisions = {
 	rio_da_prata = {
 		picture = rhodesia_charter
 		potential = {
-			tag = BRZ
+			OR = {
+				tag = BRZ
+				tag = UPB
+			}
 			NOT = { has_country_flag = prata_is_ours }
 		}
 		
@@ -751,7 +774,30 @@ political_decisions = {
 			2360 = { #parana
 				add_core = BRZ
 			}
-
+			any_country = {
+				limit = {
+					tag = BRZ
+					exists = no
+				}
+				2554 = {
+					add_core = UPB
+				}              
+				2358 = {       
+					add_core = UPB
+				}              
+				2357 = {       
+					add_core = UPB
+				}              
+				2356 = {       
+					add_core = UPB
+				}
+				2359 = {       
+					add_core = UPB
+				}
+				2360 = {       
+					add_core = UPB
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -762,7 +808,10 @@ political_decisions = {
 	rename_uruguay = {
 		picture = banda_oriental
 		potential = {
-			tag = BRZ
+			OR = {
+				tag = BRZ
+				tag = UPB
+			}
 			owns = 2344
 			owns = 2345
 			owns = 2346
@@ -822,6 +871,7 @@ political_decisions = {
 			}
 			prestige = 5
 			BRZ = { prestige = -10 }
+			UPB = { prestige = -10 }
 			clr_global_flag = brazil_has_renamed_cisplatina
 		}
 		
@@ -840,7 +890,10 @@ political_decisions = {
 		}
 		
 		allow = {
-			war_with = BRZ
+			OR = {
+				war_with = BRZ
+				war_with = UPB
+			}
 		}
 		
 		effect = {

@@ -174,7 +174,7 @@ political_decisions = {
 							is_core = MEX
 							is_core = THIS
 						}
-				remove_core = MEX
+						remove_core = MEX
 					}
 				}
 			}
@@ -187,7 +187,7 @@ political_decisions = {
 							is_core = MEX
 							is_core = THIS
 						}
-				remove_core = MEX
+						remove_core = MEX
 					}
 				}
 			}
@@ -202,6 +202,59 @@ political_decisions = {
 					108 = { add_core = MEX }
 					109 = { add_core = MEX }
 					110 = { add_core = MEX }
+				}
+			}
+		}
+	}
+	
+	mexican_central_america = {
+		picture = mexican_central_america
+		potential = {
+			tag = MEX
+			NOT = { is_core = 2191 }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			government = democracy
+			UCA = {
+				OR = {
+					exists = no
+					in_sphere = THIS
+					vassal_of = THIS
+					all_core = {
+						owned_by = THIS
+					}
+				}
+			}
+		}
+		effect = {
+			add_accepted_culture = central_american
+			UCA = {
+				all_core = { add_core = MEX }
+			}
+			any_country = {
+				limit = {
+					OR = {
+						tag = ELS
+						tag = GUA
+						tag = COS
+						tag = HON
+						tag = NIC
+					}
+				}
+				all_core = { add_core = MEX }
+			}
+			any_country = {
+				limit = {
+					ai = yes
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				any_owned = {
+					limit = { is_core = MEX }
+					secede_province = THIS
 				}
 			}
 		}

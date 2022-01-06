@@ -1026,8 +1026,8 @@ bigben_construction = {
 	icon = 11
 }
 
-small_immigration_boom = {
-	global_immigrant_attract = 1
+small_immigration_boom_global = {
+	global_immigrant_attract = 0.5
 	icon = 17
 }
 
@@ -2583,7 +2583,7 @@ home_of_the_mormons = {
 }
 
 small_immigration_boom = {
-	immigrant_attract = 1.5
+	immigrant_attract = 1
 	icon = 9
 }
 

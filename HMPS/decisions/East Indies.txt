@@ -805,7 +805,10 @@ political_decisions = {
 		potential = {
 			war = no
 			NOT = { has_country_flag = flores_sale }
-			tag = POR
+			OR = {
+				tag = POR
+				tag = UPB
+			}
 			OR = {
 				owns = 1439
 				owns = 1444

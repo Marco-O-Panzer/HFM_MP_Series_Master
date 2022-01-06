@@ -504,8 +504,19 @@ country_event = {
 			who = POR
 			value = 20
 		}
+		relation = {
+			who = UPB
+			value = 20
+		}
 		money = -50000
-		POR = {
+		any_country = {
+			limit = {
+				OR = {
+					tag = POR
+					tag = UPB
+				}
+				exists = yes
+			}
 			money = 50000
 			any_owned = {
 				limit = {
