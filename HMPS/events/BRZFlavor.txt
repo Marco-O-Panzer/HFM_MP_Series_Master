@@ -160,7 +160,13 @@ country_event = {
 	picture = "vargas"
 
 	trigger = {
-		tag = BRZ
+		OR = {
+			tag = BRZ
+			AND = {
+				tag = UPB
+				primary_culture = brazilian
+			}
+		}
 		month = 3
 		year = 1930
 		NOT = {
@@ -244,7 +250,13 @@ country_event = {
 	picture = "DPII"
 
 	trigger = {
-		tag = BRZ 
+		OR = {
+			tag = BRZ
+			AND = {
+				tag = UPB
+				primary_culture = brazilian
+			}
+		}
 		month = 10
 		year = 1889
 		OR = {
@@ -269,7 +281,7 @@ country_event = {
 		clr_country_flag = coronation_of_pedro
 		2461 = { change_province_name = "Florianópolis" }
 		government = democracy
-		add_country_modifier = { name = small_immigration_boom duration = 1095 }
+		add_country_modifier = { name = small_immigration_boom_global duration = 1095 }
 		clr_country_flag = communist_gov
 		clr_country_flag = absolute_monarchy_gov
 		clr_country_flag = semi_constitutional_monarchy_gov
@@ -328,7 +340,13 @@ country_event = {
 	picture = "juiz_de_fora"
 
 	trigger = {
-		tag = BRZ 
+		OR = {
+			tag = BRZ
+			AND = {
+				tag = UPB
+				primary_culture = brazilian
+			}
+		}
 		year = 1860
 	}
 
@@ -350,7 +368,13 @@ country_event = {
 	picture = "BRZ_pedro_coronation"
 	
 	trigger = {
-		tag = BRZ
+		OR = {
+			tag = BRZ
+			AND = {
+				tag = UPB
+				primary_culture = brazilian
+			}
+		}
 		OR = {
 			government = absolute_monarchy
 			government = prussian_constitutionalism
@@ -379,7 +403,13 @@ country_event = {
 	picture = "BRZ_pedro_death"
 	
 	trigger = {
-		tag = BRZ
+		OR = {
+			tag = BRZ
+			AND = {
+				tag = UPB
+				primary_culture = brazilian
+			}
+		}
 		has_country_flag = coronation_of_pedro
 		year = 1889
 		OR = {
@@ -404,7 +434,7 @@ country_event = {
 		prestige = -10
 		2461 = { change_province_name = "Florianópolis" }
 		government = democracy
-		add_country_modifier = { name = small_immigration_boom duration = 1095 }
+		add_country_modifier = { name = small_immigration_boom_global duration = 1095 }
 		clr_country_flag = communist_gov
 		clr_country_flag = absolute_monarchy_gov
 		clr_country_flag = semi_constitutional_monarchy_gov

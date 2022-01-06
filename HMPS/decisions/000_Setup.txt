@@ -29,13 +29,45 @@ political_decisions = {
 		}
 	}
 	
-	france_life_ratings = {
+	literacy_adjustments = {
 		potential = {
 			tag = CLN
-			NOT = { has_global_flag = raised_french_liferatings }
+			NOT = { has_global_flag = literacy_increase }
 		}
 		allow = {}
 		effect = {
+			set_global_flag = literacy_increase
+			
+			#South American Literacy
+			any_country = {
+				limit = {
+					exists = yes
+				}
+				any_pop = {
+					limit = {
+						OR = {
+							has_pop_culture = north_andean
+							has_pop_culture = south_andean
+							has_pop_culture = platinean
+							has_pop_culture = brazilian
+						}
+					}
+					literacy = 0.1
+				}
+			}
+		}
+	}
+	
+	my_pre_setup = {
+		potential = {
+			tag = CLN
+			NOT = { has_global_flag = setting_up_the_setup }
+		}
+		allow = {}
+		effect = {
+			set_global_flag = setting_up_the_setup
+			
+			#France Life Ratings 
 			set_global_flag = raised_french_liferatings
 			FRA = {
 				any_owned = {
@@ -46,20 +78,8 @@ political_decisions = {
 					life_rating = 2
 				}
 			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	usa_life_ratings = {
-		potential = {
-			tag = CLN
-			NOT = { has_global_flag = raised_american_liferatings }
-		}
-		allow = {}
-		effect = {
-			set_global_flag = raised_american_liferatings
+			
+			#USA Life Ratings
 			USA = {
 				any_owned = {
 					limit = {

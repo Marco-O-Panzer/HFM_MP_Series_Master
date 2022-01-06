@@ -26,9 +26,11 @@ political_decisions = {
 						capital_scope = { continent = north_america }
 					}
 					NOT = { 
+						tag = CAN
 						tag = USA
 						tag = TEX
 						tag = BRZ
+						tag = UPB
 					}
 				}
 				country_event = {

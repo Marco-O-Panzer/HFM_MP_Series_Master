@@ -1075,9 +1075,9 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "Keep it in the Lisbon, the Metropolis of our nation!"
+		name = "Lisbon, the Metropolis of our nation!"
 		capital = 521
-		prestige = 15
+		prestige = 5
 		any_pop = {
 			limit = {
 				has_pop_culture = portuguese
@@ -1090,12 +1090,13 @@ country_event = {
 			}
 			militancy = 5
 		}
+		primary_culture = portuguese
+		add_accepted_culture = brazilian
 	}
 	option = {
 		name = "Relocate it to the North, the old and famous city of Porto!"
 		capital = 518
 		prestige = 5
-		research_points = 300
 		any_pop = {
 			limit = {
 				has_pop_culture = portuguese
@@ -1108,6 +1109,8 @@ country_event = {
 			}
 			militancy = 5
 		}
+		primary_culture = portuguese
+		add_accepted_culture = brazilian
 	}
 	option = {
 		name = "Move it to the great Rio de Janeiro, and adapt our traditions!"
@@ -1124,9 +1127,8 @@ country_event = {
 			}
 			militancy = -5
 		}
-		add_country_modifier = { name = small_immigration_boom duration = -1 }
 		prestige = 5
 		primary_culture = brazilian
 		add_accepted_culture = portuguese
 	}
-}	
+}

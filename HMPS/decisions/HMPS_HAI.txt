@@ -139,7 +139,7 @@ political_decisions = {
 			election = yes
 			random_owned = { limit = { owner = { border_policy = closed_borders } } owner = { political_reform = open_borders } }
 			random_owned = { limit = { owner = { centralization = totalitarianism } } owner = { political_reform = unitary } }
-			add_country_modifier = { name = small_immigration_boom duration = 3650 }
+			add_country_modifier = { name = small_immigration_boom_global duration = 3650 }
 			capital_scope = {
 					sub_unit = { type = guard value = current }
 					sub_unit = { type = guard value = current }

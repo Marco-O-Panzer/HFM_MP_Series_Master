@@ -3,7 +3,13 @@ political_decisions = {
 	portuguese_civil_code = {
 		picture = enact_the_homestead_act
 		potential = {
-			tag = POR
+			OR = {
+				tag = POR
+				AND = {
+					tag = UPB
+					primary_culture = portuguese
+				}
+			}
 			state_n_government = 1
 			NOT = { has_country_flag = portuguese_civil_code }
 		}

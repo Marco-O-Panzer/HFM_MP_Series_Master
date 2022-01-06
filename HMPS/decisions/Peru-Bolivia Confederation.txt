@@ -224,6 +224,7 @@ political_decisions = {
 				limit = {
 					OR = {
 						tag = BRZ
+						tag = UPB
 						tag = ARG
 						tag = ARC
 						tag = PEU

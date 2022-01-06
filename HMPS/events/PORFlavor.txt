@@ -242,7 +242,10 @@ country_event = {
 	picture = "scramble_for_africa"
 	
 	trigger = {
-		tag = POR
+		OR = {
+			tag = POR
+			tag = UPB
+		}
 		war = no
 		has_global_flag = berlin_conference
 		is_greater_power = no
@@ -381,7 +384,10 @@ country_event = {
 	picture = "scramble_for_africa"
 	
 	trigger = {
-		tag = POR
+		OR = {
+			tag = POR
+			tag = UPB
+		}
 		war = no
 		has_global_flag = berlin_conference
 		is_greater_power = no
@@ -896,7 +902,10 @@ country_event = {
 			owns = 2065
 			owns = 2063
 		}
-		tag = POR
+		OR = {
+			tag = POR
+			tag = UPB
+		}
 		2581 = { empty = yes }
 	}
 
@@ -928,7 +937,10 @@ country_event = {
 	picture = "portuguese_africa_company"
 	
 	trigger = {
-		tag = POR
+		OR = {
+			tag = POR
+			tag = UPB
+		}
 		year = 1850
 		2049 = { owner = { civilized = no ai = yes war = no } }
 		2050 = { owner = { civilized = no ai = yes war = no } }
