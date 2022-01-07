@@ -12,15 +12,15 @@
 - The Jay Animega - A comprehensive animeation of the flags of all played tags
 
 ### Recommended Launcher Mod
-Radsterman - Compact Launcher [https://www.moddb.com/mods/compact-launcher/downloads/compact-launcher]
+- Radsterman - Compact Launcher [https://www.moddb.com/mods/compact-launcher/downloads/compact-launcher]
 <br/>
+
 ## Reasons to play the mod:
 -
 
 ---
-
+<br/>
 **Bugs reports or suggestions?**<br/>
 Post in the mod's MP discord [https://discord.gg/8wC9QmHnx3] or modding server [https://discord.gg/EbY7qaA]
-
 
 **Mod Creators:** Townes, Abe, Gracchus, Atlas, Jmom, Dr
