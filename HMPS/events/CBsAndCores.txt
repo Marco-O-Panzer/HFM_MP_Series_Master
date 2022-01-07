@@ -2345,11 +2345,23 @@ country_event = {
 				}
 			}
 		}
-		ai_chance = { factor = 100 }
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				THIS = { is_vassal = yes }
+			}
+		}
 	}
 	
 	option = {
 		name = "EVT2660OPTB"
-		ai_chance = { factor = 0 }
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				THIS = { is_vassal = no }
+			}
+		}
 	}
 }

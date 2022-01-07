@@ -102,6 +102,7 @@ dismantle_forts
 china_acquire_state
 india_acquire_state
 acquire_state
+acquire_capital
 acquire_any_state
 acquire_substate_region
 acquire_substate_core_region
@@ -2664,94 +2665,6 @@ free_allied_cores = {
 	}
 }
 
-demand_for_allies = {
-	sprite_index = 25
-	is_triggered_only = yes
-	months = 12
-	
-	construction_speed = 0.75
-
-	badboy_factor = 1.0
-	prestige_factor = 2
-	peace_cost_factor = 0.8
-	penalty_factor = 1
-
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 1
-	break_truce_militancy_factor = 1
-	truce_months = 48
-	
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
-		NOT = { is_our_vassal = THIS }
-		#is_vassal = no
-		number_of_states = 2
-		THIS = { NOT = { has_country_modifier = neutrality } }
-		NOT = { has_country_modifier = neutrality }
-		OR = {
-			war_with = THIS
-			THIS = { NOT = { has_country_modifier = no_more_war } }
-		}
-		OR = {
-			THIS = { government = fascist_dictatorship }
-			THIS = { government = proletarian_dictatorship }
-			war_with = THIS
-			NOT = { relation = { who = THIS value = 0 } }
-			THIS = { ai = no }
-		}
-		OR = {
-			NOT = { has_country_flag = dismantle_declared }
-			THIS = { NOT = { has_country_flag = in_great_war } }
-			THIS = { ai = no }
-		}
-		NOT = { THIS = { has_country_modifier = our_home } }
-	}
-
-	# THIS - us
-	# FROM - country scope is possible match?
-	# war target country of goal is scope
-	allowed_countries = {
-        NOT = {
-            tag = FROM
-        }
-        from = {
-            alliance_with = THIS
-        }
-        from = {
-			exists = yes
-        }
-    }
-
-	# THIS - us
-	# FROM - country scope is possible match?
-	# war target country of goal's state
-	allowed_states = {
-		any_owned_province = {
-            is_colonial = no
-		}
-		not = { any_owned_province = { is_capital = yes } }
-	}
-
-	po_transfer_provinces = yes
-
-	war_name = WAR_FREE_ALLIED_CORE_NAME
-
-	on_add = {
-		move_issue_percentage = { 
-			from = jingoism 
-			to = pro_military
-			value = 0.25
-		}
-	}
-	
-	on_po_accepted = {
-		country_event =	2651	# Territorial Loss event
-	}
-}
-
 free_balkans = {
 	sprite_index = 25
 	is_triggered_only = yes
@@ -4135,6 +4048,79 @@ place_in_the_sun = {
 	}
 }
 
+demand_colony_for_allies = {
+	sprite_index = 40
+	is_triggered_only = yes
+	months = 12
+	
+	badboy_factor = 1
+	prestige_factor = 2
+	peace_cost_factor = 0.5
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 48
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		#is_vassal = no
+		number_of_states = 2
+		THIS = { civilized = yes }
+		THIS = { NOT = { has_country_modifier = neutrality } }
+		NOT = { has_country_modifier = neutrality }
+		THIS = { has_country_flag = begin_land_transfer }
+		OR = {
+			war_with = THIS
+			THIS = { NOT = { has_country_modifier = no_more_war } }
+		}
+		THIS = { ai = no }
+		NOT = { THIS = { has_country_modifier = our_home } }
+	}
+
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal is scope
+	allowed_countries = {
+        NOT = {
+            tag = FROM
+        }
+        FROM = {
+			exists = yes
+            alliance_with = THIS
+			OR = {
+				has_country_flag = begin_land_transfer
+				vassal_of = THIS
+				substate_of = THIS
+			}
+        }
+    }
+
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal's state
+	allowed_states = {
+		any_owned_province = { is_colonial = yes }
+	}
+
+	po_transfer_provinces = yes
+
+	war_name = WAR_DEMAND_COLONY_ALLY_NAME
+
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+
 # Gain control of State
 acquire_state = {
 	sprite_index = 6
@@ -4348,6 +4334,85 @@ acquire_state = {
 	
 	war_name = WAR_TAKE_NAME
 	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+
+demand_state_for_allies = {
+	sprite_index = 39
+	is_triggered_only = yes
+	months = 12
+	
+	construction_speed = 0.5
+
+	badboy_factor = 2
+	prestige_factor = 2
+	peace_cost_factor = 1
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 48
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		#is_vassal = no
+		number_of_states = 2
+		civilized = yes
+		THIS = { civilized = yes }
+		THIS = { NOT = { has_country_modifier = neutrality } }
+		NOT = { has_country_modifier = neutrality }
+		THIS = { has_country_flag = begin_land_transfer }
+		OR = {
+			war_with = THIS
+			THIS = { NOT = { has_country_modifier = no_more_war } }
+		}
+		THIS = { ai = no }
+		NOT = { THIS = { has_country_modifier = our_home } }
+	}
+
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal is scope
+	allowed_countries = {
+        NOT = {
+            tag = FROM
+        }
+        FROM = {
+			exists = yes
+            alliance_with = THIS
+			OR = {
+				has_country_flag = begin_land_transfer
+				vassal_of = THIS
+				substate_of = THIS
+			}
+        }
+    }
+
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal's state
+	allowed_states = {
+		any_owned_province = {
+            is_colonial = no
+		}
+		NOT = { any_owned_province = { is_capital = yes } }
+	}
+
+	po_transfer_provinces = yes
+
+	war_name = WAR_DEMAND_STATE_ALLY_NAME
+
 	on_add = {
 		move_issue_percentage = { 
 			from = jingoism 
@@ -4586,6 +4651,95 @@ acquire_capital = {
 			from = jingoism 
 			to = pro_military
 			value = 0.40
+		}
+	}
+}
+
+demand_capital_for_allies = {
+	sprite_index = 41
+	is_triggered_only = yes
+	months = 12
+ 
+	construction_speed = 0.5
+ 
+	badboy_factor = 3
+	prestige_factor = 2
+	peace_cost_factor = 1.2
+	penalty_factor = 1
+ 
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 48
+ 
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		#is_vassal = no
+		number_of_states = 2
+		civilized = yes
+		THIS = { civilized = yes }
+		THIS = { NOT = { has_country_modifier = neutrality } }
+		NOT = { has_country_modifier = neutrality }
+		THIS = { has_country_flag = begin_land_transfer }
+		OR = {
+			war_with = THIS
+			THIS = { NOT = { has_country_modifier = no_more_war } }
+		}
+		THIS = { ai = no }
+		NOT = { THIS = { has_country_modifier = our_home } }
+	}
+
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal is scope
+	allowed_countries = {
+        NOT = {
+            tag = FROM
+        }
+        FROM = {
+			exists = yes
+            alliance_with = THIS
+			OR = {
+				has_country_flag = begin_land_transfer
+				vassal_of = THIS
+				substate_of = THIS
+			}
+        }
+    }
+
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal's state
+	allowed_states = {
+		any_owned_province = {
+            is_colonial = no
+		}
+		any_owned_province = { is_capital = yes }
+		
+		OR = {
+			any_owned_province = { any_neighbor_province = { owned_by = THIS } }
+			AND = {
+				any_owned_province = { port = yes }
+				THIS = {
+					any_owned_province = { port = yes }
+				}
+			}
+		}
+	}
+
+	po_transfer_provinces = yes
+
+	war_name = WAR_DEMAND_CAPITAL_ALLY_NAME
+
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
 		}
 	}
 }
@@ -5460,6 +5614,8 @@ conquest = {
 	is_triggered_only = yes
 	months = 12
 	crisis = no
+	
+	construction_speed = 0.5
 		
 	can_use = {
 		NOT = { is_our_vassal = THIS }
@@ -5680,6 +5836,8 @@ conquest_low = {
 	is_triggered_only = yes
 	months = 12
 	crisis = no
+	
+	construction_speed = 0.5
 	
 	can_use = {
 		NOT = { has_country_modifier = neutrality }
@@ -8450,7 +8608,7 @@ negotiated_state_transfer = {
 	}
 	
 	allowed_states = {
-		not = { any_owned_province = { is_capital = yes } }
+		NOT = { any_owned_province = { is_capital = yes } }
 	}
 
 	po_demand_state = yes
@@ -8462,6 +8620,85 @@ negotiated_state_transfer = {
 			from = jingoism 
 			to = pro_military
 			value = 0.00
+		}
+	}
+}
+
+third_party_transfer = {
+	sprite_index = 42
+	is_triggered_only = yes
+	months = 1
+	crisis = no
+	
+	construction_speed = 5
+
+	badboy_factor = 0
+	prestige_factor = 0
+	peace_cost_factor = 1
+	penalty_factor = 0
+
+	break_truce_prestige_factor = 0
+	break_truce_infamy_factor = 0
+	break_truce_militancy_factor = 0
+	truce_months = 1
+	
+	good_relation_prestige_factor = 0
+	good_relation_infamy_factor = 0
+	good_relation_militancy_factor = 0
+
+	can_use = {
+		number_of_states = 2 # annex if you want their last state
+		OR = {
+			AND = {
+				ai = no
+				has_country_flag = begin_land_transfer
+				#war = no	#can now stack multiple whilst at war
+				#THIS = { war = no }
+				is_independant = yes
+			}
+			AND = {
+				is_vassal = yes
+				overlord = { 
+					ai = no
+					has_country_flag = begin_land_transfer
+				}
+			}
+		}
+		THIS = { ai = no }
+		has_country_flag = begin_land_transfer
+	}
+
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal is scope
+	allowed_countries = {
+        NOT = {
+            tag = FROM
+        }
+        FROM = {
+			exists = yes
+            alliance_with = THIS
+			has_country_flag = begin_land_transfer
+			ai = no
+        }
+    }
+
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal's state
+	allowed_states = {
+		NOT = { any_owned_province = { is_capital = yes } }
+	}
+
+	po_transfer_provinces = yes
+
+	war_name = WAR_THIRD_TRANSFER_NAME
+
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
 		}
 	}
 }

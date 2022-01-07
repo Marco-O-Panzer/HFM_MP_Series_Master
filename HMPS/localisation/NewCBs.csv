@@ -1,13 +1,13 @@
 #############################################;;;;;;;;;;;;;;x
 negotiated_state_transfer;Negotiated State Transfer;;;;;;;;;;;;;x
 negotiated_state_transfer_desc;Transfer a state or colonial region to another country with no effect on infamy, prestige, or jingoism and without a truce at the end;;;;;;;;;;;;x
-negotiated_state_transfer_short;Transfer $STATE$ from $RECIPIENT$;;;;;;;;;;;;;x
+negotiated_state_transfer_short;Transfer $STATE$;;;;;;;;;;;;;x
 negotiated_state_transfer_setup;Transfer $STATE$ from $RECIPIENT$;;;;;;;;;;;;x
 NORMAL_WAR_NEGOTIATE_STATE_NAME;$ORDER$$SECOND$ Transfer of $STATE$ to $FIRST_COUNTRY$;;;;;;;;;;;;x
 AGRESSION_WAR_NEGOTIATE_STATE_NAME;$ORDER$$SECOND$ Transfer of $STATE$ to $FIRST_COUNTRY$;;;;;;;;;;;;x
 negotiated_substate_transfer;Negotiated Substate Transfer;;;;;;;;;;;;;x
 negotiated_substate_transfer_desc;Transfer a substate with no effect on infamy, prestige, or jingoism and with a 1 month truce at the end;;;;;;;;;;;;x
-negotiated_substate_transfer_short;Transfer $STATE$ from $RECIPIENT$;;;;;;;;;;;;;x
+negotiated_substate_transfer_short;Transfer $STATE$;;;;;;;;;;;;;x
 negotiated_substate_transfer_setup;Transfer $STATE$ from $RECIPIENT$;;;;;;;;;;;;x
 NORMAL_WAR_NEGOTIATE_SUBSTATE_NAME;$ORDER$$SECOND$ Transfer of $STATE$ to $FIRST_COUNTRY$;;;;;;;;;;;;x
 AGRESSION_WAR_NEGOTIATE_SUBSTATE_NAME;$ORDER$$SECOND$ Transfer of $STATE$ to $FIRST_COUNTRY$;;;;;;;;;;;;x
@@ -78,3 +78,27 @@ stop_med_tolls_desc;Prevent the offending nation from levying tolls across the M
 stop_med_tolls_setup;Break the Mediterranean tolls;x
 NORMAL_WAR_REVOKE_TOLLS_NAME;$ORDER$$FIRST$ Revocation of $SECOND$ Tolls;x
 AGRESSION_WAR_REVOKE_TOLLS_NAME;$ORDER$$FIRST$ Revocation of $SECOND$ Tolls;x
+demand_colony_for_allies;Demand Colony for Ally;x
+demand_colony_for_allies_short;Acquire and transfer $STATE$;x
+demand_colony_for_allies_desc;Conquer and transfer an enemy §Ycolonial state§! to an ally;x
+demand_colony_for_allies_setup;Acquire colony $STATE$ from $RECIPIENT$ and transfer to an ally;x
+NORMAL_WAR_DEMAND_COLONY_ALLY_NAME;$ORDER$$FIRST$ - $COUNTRY_ADJ$ Colonial Conquest of $STATE$;x
+AGRESSION_WAR_DEMAND_COLONY_ALLY_NAME;$ORDER$$FIRST$ Conquest on behalf of $THIRD$;x
+demand_state_for_allies;Demand State for Ally;x
+demand_state_for_allies_short;Acquire and transfer $STATE$;x
+demand_state_for_allies_desc;Conquer and transfer an enemy §Ystate§! to an ally;x 
+demand_state_for_allies_setup;Acquire $STATE$ from $RECIPIENT$ and transfer to an ally;x
+NORMAL_WAR_DEMAND_STATE_ALLY_NAME;$ORDER$$FIRST$ - $COUNTRY_ADJ$ Conquest of $STATE$;x
+AGRESSION_WAR_DEMAND_STATE_ALLY_NAME$ORDER$$FIRST$ - $COUNTRY_ADJ$ Conquest of $STATE$;x
+demand_capital_for_allies;Demand Capital for Ally;x
+demand_capital_for_allies_short;Acquire and transfer capital $STATE$;x
+demand_capital_for_allies_desc;Conquer and transfer an enemy §Ycapital§! to an ally;x
+demand_capital_for_allies_setup;Acquire capital $STATE$ from $RECIPIENT$ and transfer to an ally;x
+NORMAL_WAR_DEMAND_CAPITAL_ALLY_NAME;$ORDER$$FIRST$ - $COUNTRY_ADJ$ Capital Conquest of $STATE$;x
+AGRESSION_WAR_DEMAND_CAPITAL_ALLY_NAME;$ORDER$$FIRST$ - $COUNTRY_ADJ$ Capital Conquest of $STATE$;x
+third_party_transfer;Negotiated State Transfer (3rd Party);x
+third_party_transfer_desc;Transfer a state or colonial region from the 1st country to the 2nd country with no effect on infamy, prestige, or jingoism and without a truce at the end;x
+third_party_transfer_short;Transfer $STATE$ to an ally;x
+third_party_transfer_setup;Transfer $STATE$ from $RECIPIENT$ to an ally;x
+NORMAL_WAR_THIRD_TRANSFER_NAME;$ORDER$$SECOND$ - $COUNTRY_ADJ$ Transfer of $STATE$;x
+AGRESSION_WAR_THIRD_TRANSFER_NAME;$ORDER$$SECOND$ - $COUNTRY_ADJ$ Transfer of $STATE$;x
