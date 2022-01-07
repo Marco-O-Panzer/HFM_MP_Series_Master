@@ -8,8 +8,8 @@
 4. Enable only this mod when using it, it is standalone
 
 ### Recommended Map Mods
-1. The Jman Belle - Darker seas, solid province names, clear borders
-2. The Jay Animega - A comprehensive animeation of the flags of all played tags
+- The Jman Belle - Darker seas, solid province names, clear borders
+- The Jay Animega - A comprehensive animeation of the flags of all played tags
 
 ### Recommended Launcher Mod
 Radsterman - Compact Launcher [https://www.moddb.com/mods/compact-launcher/downloads/compact-launcher]
@@ -19,7 +19,8 @@ Radsterman - Compact Launcher [https://www.moddb.com/mods/compact-launcher/downl
 
 ---
 
-#### Bugs reports or suggestions?
+**Bugs reports or suggestions?**
 Post in the mod's MP discord [https://discord.gg/8wC9QmHnx3] or modding server [https://discord.gg/EbY7qaA]
 
-Mod Creators: Townes, Abe, Gracchus, Atlas, Jmom, Dr
+
+**Mod Creators:** Townes, Abe, Gracchus, Atlas, Jmom, Dr
