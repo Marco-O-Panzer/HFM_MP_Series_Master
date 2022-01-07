@@ -7,7 +7,11 @@
 3. Should then have the .mod file and one HFM MP Series folder in your mod directory
 4. Enable only this mod when using it, it is standalone
 
-## Recommended Launcher Mod
+### Recommended Map Mods
+1. The Jman Belle - Darker seas, solid province names, clear borders
+2. The Jay Animega - A comprehensive animeation of the flags of all played tags
+
+### Recommended Launcher Mod
 Radsterman - Compact Launcher [https://www.moddb.com/mods/compact-launcher/downloads/compact-launcher]
 
 ## Reasons to play the mod:
@@ -15,6 +19,7 @@ Radsterman - Compact Launcher [https://www.moddb.com/mods/compact-launcher/downl
 
 ---
 
-Bugs reports or suggestions? Post in the mod's [https://discord.gg/543cVHQGWY] (Discord Channel)
+#####Bugs reports or suggestions?
+Post in the mod's MP discord [https://discord.gg/8wC9QmHnx3] or modding server [https://discord.gg/EbY7qaA]
 
 Mod Creators: Townes, Abe, Gracchus, Atlas, Jmom, Dr
