@@ -63,13 +63,20 @@ MTQ_fascist_dictatorship;Martinique;;;;;;;;;;;;;;;;;;;;x
 MTQ_absolute_monarchy;Royaume de Martinique;;;;;;;;;;;;;x
 MTQ_prussian_constitutionalism;Royaume de Martinique;;;;;;;;;;;;;x
 reps_haiti;Haitian Reparations;;;;;;;;;;;;;x
+reps_haiti_desc;Compensation for lost plantations.;x
 USA_blockade;US Blockade;;;;;;;;;;;;;x
+USA_blockade_desc;The US Navy sent ships to Haiti 19 times between 1857 and 1913.;x
 HAI_mass_reforms;Haitian Mass Reforms;;;;;;;;;;;;;x
-toussaints_legacy;Toussaint's Legcay;;;;;;;;;;;;;x
+HAI_mass_reforms_desc;Toussaint's Legacy;x
+toussaints_legacy;Toussaint's Legacy;;;;;;;;;;;;;x
+toussaints_legacy_desc;Toussaint Louverture led a successful slave revolt and emancipated the slaves in the French colony of Saint-Domingue (Haiti).;x
 equal_rule;Equal Rule;;;;;;;;;;;;;x
+equal_rule_desc;Equality under the Law;x
 scorched_earth;Scorched Earth;;;;;;;;;;;;;x
+scorched_earth_desc;When Napoleon's troops arrived in Saint-Domingue, the Haitians adopted a scorched-earth policy.;x
 death_war;Last Stand;;;;;;;;;;;;;x
+death_war_desc;Our Finest Hour;x
 full_siege_me_down_title;Haiti Shall not fall;;;;;;;;;;;;;x
 full_siege_me_down_desc;Haiti will not be enslaved once again;;;;;;;;;;;;;x
 diplo_end_blockade_title;Diplomatically end US blockade;;;;;;;;;;;;;x
-diplo_end_blockade_decs;We must peacfully end the the US Blockade on us;;;;;;;;;;;;;x
+diplo_end_blockade_desc;We must peacfully end the the US Blockade on us;;;;;;;;;;;;;x
