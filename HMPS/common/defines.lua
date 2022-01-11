@@ -14,7 +14,7 @@ country = {
 	GREAT_NATIONS_COUNT = 8,
 	GREATNESS_DAYS = 365, 	   -- how many days until country risks losing status as great nation
 	BADBOY_LIMIT = 25,
-	MAX_BUREAUCRACY_PERCENTAGE = 0.02, -- More than max percent bureaucrats of population will give no additional benefits
+	MAX_BUREAUCRACY_PERCENTAGE = 0.015, -- More than max percent bureaucrats of population will give no additional benefits
 	BUREAUCRACY_PERCENTAGE_INCREMENT = 0.001, -- For each social administrative reform level, this is added to MAX_BUREAUCRACY_PERCENTAGE
 	MIN_CRIMEFIGHT_PERCENT = 0.1,
 	MAX_CRIMEFIGHT_PERCENT = 0.99,
@@ -620,7 +620,7 @@ diplomacy = {
 pops = {
 	BASE_CLERGY_FOR_LITERACY = 0.005, 
 	MAX_CLERGY_FOR_LITERACY = 0.04, 
-	LITERACY_CHANGE_SPEED = 0.075,
+	LITERACY_CHANGE_SPEED = 0.1,
 
 
 	ASSIMILATION_SCALE = 0.004,
