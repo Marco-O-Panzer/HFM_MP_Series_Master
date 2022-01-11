@@ -404,6 +404,7 @@ political_decisions = {
 			is_culture_group = iberian
 			NOT = {
 				exists = IBR
+				tag = UPB
 				has_global_flag = created_iberia
 			}
 		}

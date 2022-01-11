@@ -857,7 +857,7 @@ colonialmigration_chance = {
 
 #general emigration chance
 emigration_chance = {
-	factor = 0.2
+	factor = 0.6
 	
 	modifier = {
 		factor = -3
@@ -913,7 +913,7 @@ emigration_chance = {
 			militancy = 6
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.05
 			militancy = 7
 		}
 		modifier = {
@@ -928,7 +928,7 @@ emigration_chance = {
 	
 	group = {
 		modifier = {
-			factor = 0.025
+			factor = 0.05
 			literacy = 0.1
 		}
 		modifier = {
@@ -944,21 +944,21 @@ emigration_chance = {
 			literacy = 0.4
 		}
 		modifier = {
-			factor = 0.075
+			factor = 0.025
 			literacy = 0.5
 		}
 		modifier = {
-			factor = 0.075
+			factor = 0.025
 			literacy = 0.6
 		}
 		modifier = {
-			factor = 0.075
+			factor = 0.025
 			literacy = 0.7
 		}
-		#modifier = {
-		#	factor = 0.025
-		#	literacy = 0.8
-		#}
+		modifier = {
+			factor = 0.025
+			literacy = 0.8
+		}
 		#modifier = {
 		#	factor = 0.025
 		#	literacy = 0.9
@@ -967,17 +967,17 @@ emigration_chance = {
 
 	group = {
 		modifier = {
-			factor = -0.05
+			factor = -0.025
 			not = { consciousness = 8 }
 			country = { NOT = { has_country_flag = preparations_to_kill } }
 		}
 		modifier = {
-			factor = -0.05
+			factor = -0.025
 			not = { consciousness = 7 }
 			country = { NOT = { has_country_flag = preparations_to_kill } }
 		}
 		modifier = {
-			factor = -0.05
+			factor = -0.025
 			not = { consciousness = 6 } 
 			country = { NOT = { has_country_flag = preparations_to_kill } }
 		}
@@ -1005,7 +1005,7 @@ emigration_chance = {
 	}
 	
 	modifier = {
-		factor = 1
+		factor = 0.5
 		THIS = { has_pop_culture = irish }
 		NOT = { year = 1852 }
 		country = {

@@ -35,7 +35,7 @@
 	soldiers = {
 		culture = slovak
 		religion = catholic
-		size = 1250 
+		size = 6250 
 	}
 
 	farmers = {
@@ -47,7 +47,7 @@
 	serfs = {
 		culture = slovak
 		religion = catholic
-		size = 70000
+		size = 65000
 	}
 	
 	serfs = {

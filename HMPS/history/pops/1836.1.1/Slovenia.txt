@@ -35,7 +35,7 @@
 	farmers = {
 		culture = south_german
 		religion = catholic
-		size = 10150
+		size = 10000
 	}
 
 	clergymen = {
@@ -53,13 +53,13 @@
 	soldiers = {
 		culture = slovene
 		religion = catholic
-		size = 450 
+		size = 3100 
 	}
 
 	farmers = {
 		culture = slovene
 		religion = catholic
-		size = 12500
+		size = 10000
 	}
 	
 	serfs = {
@@ -112,13 +112,13 @@
 	soldiers = {
 		culture = slovene
 		religion = catholic
-		size = 1100
+		size = 4100
 	}
 
 	farmers = {
 		culture = slovene
 		religion = catholic
-		size = 53150
+		size = 50150
 	}
 	
 	serfs = {

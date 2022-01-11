@@ -313,13 +313,13 @@
 	soldiers = {
 		culture = ukrainian
 		religion = orthodox
-		size = 900
+		size = 4900
 	}
 
 	serfs = {
 		culture = ukrainian
 		religion = orthodox
-		size = 85650  
+		size = 81650  
 	}
 
 	clergymen = {
@@ -367,13 +367,13 @@
 	soldiers = {
 		culture = hungarian
 		religion = catholic
-		size = 450
+		size = 4450
 	}
 
 	farmers = {
 		culture = hungarian
 		religion = catholic
-		size = 35725  
+		size = 31725  
 	}
 
 	clergymen = {
