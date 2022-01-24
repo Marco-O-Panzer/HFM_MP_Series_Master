@@ -9,7 +9,7 @@
 
 ### Recommended Map Mods
 - The Jman Belle - Darker seas, solid province names, clear borders
-- The Jay Animega - A comprehensive animeation of the flags of all played tags
+- The Jay Animega - A comprehensive animeation of the flags of all played tags [https://github.com/LePetitJayJay/Victoria-2-Anime-Mod]
 
 ### Recommended Launcher Mod
 - Radsterman - Compact Launcher [https://www.moddb.com/mods/compact-launcher/downloads/compact-launcher]
