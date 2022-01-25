@@ -5106,12 +5106,6 @@ demand_concession_CHI_casus_belli = {
 			NOT = { relation = { who = THIS value = 0 } }
 			THIS = { ai = no }
 		}
-		NOT = { THIS = { has_country_modifier = our_home } }
-		NOT = { THIS = { has_country_modifier = come_all } }
-	}
-	
-	allowed_states = {
-		any_owned_province = { is_colonial = no }
 		
 		#Restrictions to Chinese State conquering
 		OR = {
@@ -5121,6 +5115,16 @@ demand_concession_CHI_casus_belli = {
 			#Japan limits
 			THIS = { ai = no capital_scope = { continent = asia } naval_statistics = 1 breech_loaded_rifles = 1 num_of_ports = 1 }
 		}
+		
+		NOT = { THIS = { has_country_modifier = our_home } }
+		NOT = { THIS = { has_country_modifier = come_all } }
+	}
+	
+	allowed_states = {
+		any_owned_province = { is_colonial = no }
+		
+		any_owned_province = { is_core = CHI }
+		
 		#NOT = { any_owned_province = { is_capital = yes } }
 		OR = {
 			any_owned_province = { any_neighbor_province = { owned_by = THIS } }
@@ -6219,11 +6223,13 @@ establish_protectorate_casus_belli = {
 			THIS = { NOT = { nationalism_n_imperialism = 1 } }
 			NOT = { has_global_flag = berlin_conference }
 			civilization_progress = 0.6
+			is_culture_group = east_asian
 			has_country_flag = post_colonial_country
 		}
 		OR = {
 			THIS = { NOT = { nationalism_n_imperialism = 1 } }
 			civilization_progress = 0.6
+			is_culture_group = east_asian
 			has_country_flag = post_colonial_country
 			AND = {
 				THIS = { nationalism_n_imperialism = 1 }
@@ -6238,6 +6244,8 @@ establish_protectorate_casus_belli = {
 		}
 		#Restrictions to Chinese State conquering
 		OR = {
+			NOT = { is_culture_group = east_asian }
+		
 			#Non-Japan limits
 			THIS = { ai = no NOT = { capital_scope = { continent = asia } } naval_logistics = 1 machine_guns = 1  num_of_ports = 1 }
 			
@@ -6346,13 +6354,8 @@ establish_protectorate_NI_casus_belli = {
 			}
 		}
 		#Restrictions to Chinese State conquering
-		OR = {
-			#Non-Japan limits
-			THIS = { ai = no NOT = { capital_scope = { continent = asia } } naval_logistics = 1 machine_guns = 1  num_of_ports = 1 }
-			
-			#Japan limits
-			THIS = { ai = no capital_scope = { continent = asia } naval_statistics = 1 breech_loaded_rifles = 1 num_of_ports = 1 }
-		}
+		NOT = { is_culture_group = east_asian }
+		
 		NOT = { THIS = { has_country_modifier = our_home } }
 		NOT = { THIS = { has_country_modifier = come_all } }
 	}
@@ -6451,13 +6454,8 @@ establish_protectorate_BC_casus_belli = {
 			}
 		}
 		#Restrictions to Chinese State conquering
-		OR = {
-			#Non-Japan limits
-			THIS = { ai = no NOT = { capital_scope = { continent = asia } } naval_logistics = 1 machine_guns = 1  num_of_ports = 1 }
-			
-			#Japan limits
-			THIS = { ai = no capital_scope = { continent = asia } naval_statistics = 1 breech_loaded_rifles = 1 num_of_ports = 1 }
-		}
+		NOT = { is_culture_group = east_asian }
+		
 		NOT = { THIS = { has_country_modifier = our_home } }
 		NOT = { THIS = { has_country_modifier = come_all } }
 	}

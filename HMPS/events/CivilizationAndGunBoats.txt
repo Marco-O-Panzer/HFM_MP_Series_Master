@@ -4664,7 +4664,7 @@ country_event = {
 		}
 		random_owned = { 
 			limit = { owner = { has_country_flag = indc2_flag } NOT = { positivism = 1 } }
-			owner = { activate_technology = positivism activate_technology = enlightenment_thought  clr_country_flag = indc2_flag }
+			owner = { activate_technology = positivism activate_technology = malthusian_thought clr_country_flag = indc2_flag }
 		}
 		
 		# machinery

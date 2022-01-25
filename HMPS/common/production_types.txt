@@ -479,7 +479,7 @@ luxury_clothes_factory = {
 	template = factory_template
 	input_goods = {   
 		regular_clothes = 1
-		silk = 1
+		silk = 2
 	}
 	output_goods = luxury_clothes
 	value = 1.25

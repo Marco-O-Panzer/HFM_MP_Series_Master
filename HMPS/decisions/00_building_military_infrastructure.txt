@@ -583,6 +583,7 @@ political_decisions = {
 		picture = fortress_singapore
 		potential = {
 			NOT = { has_country_flag = hiding_the_decisions }
+			NOT = { has_global_flag = mp_setup }
 			post_napoleonic_thought = 1
 			NOT = { strategic_mobility = 1 }
 			any_state = {
@@ -629,6 +630,7 @@ political_decisions = {
 		picture = fortress_singapore
 		potential = {
 			NOT = { has_country_flag = hiding_the_decisions }
+			NOT = { has_global_flag = mp_setup }
 			NOT = { has_country_flag = lvl_2_fort }
 			strategic_mobility = 1
 			NOT = { point_defense_system = 1 }
@@ -692,6 +694,7 @@ political_decisions = {
 		picture = fortress_singapore
 		potential = {
 			NOT = { has_country_flag = hiding_the_decisions }
+			NOT = { has_global_flag = mp_setup }
 			NOT = { has_country_flag = lvl_3_fort }
 			point_defense_system = 1
 			NOT = { deep_defense_system = 1 }
@@ -764,6 +767,7 @@ political_decisions = {
 		picture = fortress_singapore
 		potential = {
 			NOT = { has_country_flag = hiding_the_decisions }
+			NOT = { has_global_flag = mp_setup }
 			NOT = { has_country_flag = lvl_4_fort }
 			deep_defense_system = 1
 			NOT = { infiltration = 1 } 
@@ -836,6 +840,7 @@ political_decisions = {
 		picture = fortress_singapore
 		potential = {
 			NOT = { has_country_flag = hiding_the_decisions }
+			NOT = { has_global_flag = mp_setup }
 			NOT = { has_country_flag = lvl_5_fort }
 			infiltration = 1
 			NOT = { modern_army_doctrine = 1 } 
@@ -908,6 +913,7 @@ political_decisions = {
 		picture = fortress_singapore
 		potential = {
 			NOT = { has_country_flag = hiding_the_decisions }
+			NOT = { has_global_flag = mp_setup }
 			NOT = { has_country_flag = lvl_6_fort }
 			modern_army_doctrine = 1
 		}
