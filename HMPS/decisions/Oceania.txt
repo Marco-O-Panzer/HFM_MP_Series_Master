@@ -57,7 +57,7 @@ political_decisions = {
 			state_n_government = 1
 		}
 		effect = {
-			ENG = { release_vassal = OCE }
+			ENG = { release_vassal = AST }
 		}
 	}
 	claim_papua_new_guinea = {

@@ -48,6 +48,25 @@ political_decisions = {
 		}
 	}
 	
+	
+	dutch_accept_walloon = {
+		picture = NET_claim_artois
+		potential = {
+			tag = NET
+			NOT = { accepted_culture = wallonian }
+		}
+	
+		allow = {
+			revolution_n_counterrevolution = 1
+			citizenship_policy = full_citizenship
+			NOT = { citizens_rights = primary_culture_only }
+		}
+	
+		effect = {
+			add_accepted_culture = wallonian 
+		}
+	}
+	
 	end_the_javanese_sultanates = {
 		picture = java_map
 		potential = {

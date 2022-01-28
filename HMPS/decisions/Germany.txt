@@ -552,7 +552,7 @@ political_decisions = {
 		potential = {
 			OR = {
 				tag = PRU
-				tag = GER
+				#tag = GER
 				tag = NGF
 			}
 			NOT = {

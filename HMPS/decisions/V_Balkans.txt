@@ -740,6 +740,7 @@ political_decisions = {
 						owner = {
 							in_sphere = THIS
 							war = no
+							ai = yes
 						}
 					}
 				}
@@ -751,6 +752,7 @@ political_decisions = {
 						owner = {
 							in_sphere = THIS
 							war = no
+							ai = yes
 						}
 					}
 				}
@@ -762,6 +764,7 @@ political_decisions = {
 						owner = {
 							in_sphere = THIS
 							war = no
+							ai = yes
 						}
 					}
 				}

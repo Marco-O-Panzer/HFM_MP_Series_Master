@@ -339,15 +339,15 @@ political_decisions = {
 			}
 			OR = {
 				any_owned_province = { is_core = ITA }
-				SAR = { in_sphere = THIS }
-				SIC = { in_sphere = THIS }
-				PAP = { in_sphere = THIS }
-				TUS = { in_sphere = THIS }
-				MOD = { in_sphere = THIS }
-				PAR = { in_sphere = THIS }
-				LUC = { in_sphere = THIS }
-				LOM = { in_sphere = THIS }
-				VEN = { in_sphere = THIS }
+				SAR = { in_sphere = THIS ai = yes }
+				SIC = { in_sphere = THIS ai = yes }
+				PAP = { in_sphere = THIS ai = yes }
+				TUS = { in_sphere = THIS ai = yes }
+				MOD = { in_sphere = THIS ai = yes }
+				PAR = { in_sphere = THIS ai = yes }
+				LUC = { in_sphere = THIS ai = yes }
+				LOM = { in_sphere = THIS ai = yes }
+				VEN = { in_sphere = THIS ai = yes }
 			}
 		}
 		allow = {
@@ -358,7 +358,7 @@ political_decisions = {
 					OR = {
 						OR = {
 							owned_by = THIS
-							owner = { in_sphere = THIS }
+							owner = { in_sphere = THIS ai = yes }
 						}
 						NOT = {
 							OR = {
@@ -375,7 +375,7 @@ political_decisions = {
 					OR = {
 						OR = {
 							owned_by = THIS
-							owner = { in_sphere = THIS }
+							owner = { in_sphere = THIS ai = yes }
 						}
 						NOT = {
 							OR = {

@@ -52,7 +52,7 @@ home_focus_trial;§EDomestic Focus Trial§!;x
 home_focus_trial_desc;Can remove Domestic Focus modifier during the first 70 days;x
 changing_militarisation;Changing Militarisation;x
 EVTNAME7777929;Militarisation;x
-EVTDESC7777929;Instutions take time to have change affected in them, and the policies of the parties in power is what initiates these gradual shifts. Jingoism is locked to the two highest levels, pro-military to the top three, anti-military to the bottom three, and pacifism to the bottom two. The level can be raised or lowered by the executive anyway to a certain degree, as long as it doesnt violate these war policies.;x
+EVTDESC7777929;Instutions take time to have change affected in them, and the policies of the parties in power is what initiates these gradual shifts. Jingoism is locked to the two highest levels, pro-military to the top three, anti-military to the bottom three, and pacifism to the bottom two. The level can be raised or lowered by the executive anyway to a certain degree, as long as it doesnt violate these war policies. \n\n §BCheck the military policy descriptions to view allowed institutional changes§!;x
 EVT7777929OPTA;Raise militarisation;x
 EVT7777929OPTB;Maintain militarisation;x
 EVT7777929OPTC;Lower militarisation;x
@@ -115,3 +115,5 @@ colombian_dominica_desc;At the time of its creation, this Colombia was the most 
 colombian_southwards_title;South Andean Expansion;x
 colombian_southwards_desc;Bolívar participated in the foundation of the first union of independent nations in Latin America, Gran Colombia, of which he was president from 1819 to 1830. Through further military campaigns, he ousted Spanish rulers from Ecuador, Peru, and Bolivia, the last of which was named after him. He was simultaneously president of Gran Colombia, Peru, and Bolivia, but soon after, his second-in-command, Antonio José de Sucre, was appointed president of Bolivia. Bolívar aimed at a strong and united Spanish America able to cope not only with the threats emanating from Spain and the European Holy Alliance but also with the emerging power of the United States. At the peak of his power, Bolívar ruled over a vast territory from the Argentine border to the Caribbean Sea.;x
 EVTDESC60090;Lately a new communal order of life in $COUNTRY$ has been established. Old political orders have been torn down, and a new founding of our communties has taken place.;x
+reassert_polish_claims_title;Reassert control on Congress Poland;x
+reassert_polish_claims_desc;Our claims on Congress Poland will be respected, the Congress of Vienna will be respected, and our soverienty maintained.;x

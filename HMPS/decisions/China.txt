@@ -1825,4 +1825,218 @@ political_decisions = {
 		
 		ai_will_do = { factor = 1 }
 	}
+	
+	CHI_accept_mongols = {
+		picture = tibet_capital
+		potential = {
+			tag = CHI
+			NOT = { accepted_culture = mongol }
+			ai = no
+		}
+		
+		allow = {
+			war = no
+			revolution_n_counterrevolution = 1
+			MGL = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			government = democracy
+			NOT = { citizens_rights = primary_culture_only }
+			centralization = federalism
+		}
+		
+		effect = {
+			add_accepted_culture = mongol
+			MGL = {
+				all_core = {
+					remove_core = MGL
+				}
+			}
+			IMG = {
+				all_core = {
+					remove_core = IMG
+				}
+			}
+			KML = {
+				all_core = {
+					remove_core = KML
+				}
+			}
+		}
+	}
+	
+	CHI_accept_tibetans = {
+		picture = tibet_capital
+		potential = {
+			tag = CHI
+			NOT = { accepted_culture = tibetan }
+			ai = no
+		}
+		
+		allow = {
+			war = no
+			revolution_n_counterrevolution = 1
+			TIB = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			government = democracy
+			NOT = { citizens_rights = primary_culture_only }
+			centralization = federalism
+		}
+		
+		effect = {
+			add_accepted_culture = tibetan
+			TIB = {
+				all_core = {
+					remove_core = TIB
+				}
+			}
+		}
+	}
+	
+	CHI_accept_vietnamese = {
+		picture = tibet_capital
+		potential = {
+			tag = CHI
+			NOT = { accepted_culture = vietnamese }
+			ai = no
+			NOT = { has_global_flag = mp_setup }
+		}
+		
+		allow = {
+			war = no
+			revolution_n_counterrevolution = 1
+			government = democracy
+			NOT = { citizens_rights = primary_culture_only }
+			centralization = federalism
+		}
+		
+		effect = {
+			add_accepted_culture = vietnamese
+		}
+	}
+	
+	CHI_accept_uighurs = {
+		picture = xiang_army
+		potential = {
+			tag = CHI
+			NOT = { accepted_culture = uighur }
+			ai = no
+		}
+		
+		allow = {
+			war = no
+			accepted_culture = mongol
+			accepted_culture = tibetan
+			government = democracy
+			NOT = { citizens_rights = primary_culture_only }
+			centralization = federalism
+			mass_politics = 1
+		}
+		
+		effect = {
+			add_accepted_culture = uighur
+			KMT = {
+				all_core = {
+					remove_core = KMT
+				}
+			}
+			FJN = {
+				all_core = {
+					remove_core = FJN
+				}
+			}
+			GMJ = {
+				all_core = {
+					remove_core = GMJ
+				}
+			}
+			GNG = {
+				all_core = {
+					remove_core = GNG
+				}
+			}
+			GXI = {
+				all_core = {
+					remove_core = GXI
+				}
+			}
+			HNN = {
+				all_core = {
+					remove_core = HNN
+				}
+			}
+			HUI = {
+				all_core = {
+					remove_core = HUI
+				}
+			}
+			MCK = {
+				all_core = {
+					remove_core = MCK
+				}
+			}
+			SXI = {
+				all_core = {
+					remove_core = SXI
+				}
+			}
+			SZC = {
+				all_core = {
+					remove_core = SZC
+				}
+			}
+			TAI = {
+				all_core = {
+					remove_core = TAI
+				}
+			}
+			XBI = {
+				all_core = {
+					remove_core = XBI
+				}
+			}
+			XIN = {
+				all_core = {
+					remove_core = XIN
+				}
+			}
+			YNN = {
+				all_core = {
+					remove_core = YNN
+				}
+			}
+			PGG = {
+				all_core = {
+					remove_core = PGG
+				}
+			}
+			UYG = {
+				all_core = {
+					remove_core = UYG
+				}
+			}
+			NIA = {
+				all_core = {
+					remove_core = NIA
+				}
+			}
+			CHI = {
+				all_core = {
+					remove_core = ENG
+					remove_core = POR
+					remove_core = JAP
+					remove_core = RUS
+					remove_core = FRA
+					remove_core = GER
+					remove_core = ITA
+					remove_core = SPA
+				}
+			}
+		}
+	}
 }

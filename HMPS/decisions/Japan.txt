@@ -1081,7 +1081,7 @@ political_decisions = {
 				life_rating = 10
 				add_province_modifier = {
 					name = gateway_to_harbor
-					duration = 3650
+					duration = 365
 				}
 				change_province_name = "Tokyo"
 			}
