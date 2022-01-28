@@ -964,6 +964,8 @@ political_decisions = {
 			}
 			enable_canal = 4
 			enable_canal = 5
+			enable_canal = 6	#Copenhagen Strait
+			enable_canal = 7	#Copenhagen Strait
 			860 = { any_pop = { literacy = 0.05 } }
 			860 = { any_pop = { limit = { has_pop_culture = turkish } literacy = 0.1 } }
 			any_pop = { 
