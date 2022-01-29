@@ -414,6 +414,56 @@ province_event = {
 	}
 }
 
+##Easter Rising-like event
+country_event = {
+	id = 1010018
+	title = "EVTNAME1010018"
+	desc = "EVTDESC1010018"
+	picture = "irish_rising"
+	
+	trigger = {
+		any_owned_province = {
+			is_core = IRE
+			controlled_by = THIS
+		}
+		revolution_n_counterrevolution = 1
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+		modifier = {
+			factor = 0.5
+			owner = { has_country_flag = in_great_war }
+		}
+	}
+	
+	option = {
+		name = "EVT1010018OPTA"
+		set_country_flag = rejected_the_irish
+		any_pop = {
+			limit = { has_pop_culture = irish }
+			militancy = 4
+		}
+		any_pop = {
+			limit = { NOT = { has_pop_culture = irish } }
+			militancy = -2
+		}
+	}
+	
+	option = {
+		name = "EVT1010018OPTB"
+		set_country_flag = accepted_the_irish
+		any_pop = {
+			limit = { has_pop_culture = irish }
+			militancy = -2
+		}
+		any_pop = {
+			limit = { NOT = { has_pop_culture = irish } }
+			militancy = 2
+		}
+	}
+}
+
 country_event = {
 	id = 1010020
 	title = "EVTNAME1010020" #The Irish Republican Brotherhood
@@ -437,11 +487,15 @@ country_event = {
 				invention = separatism
 				has_country_flag = young_irish
 			}
-			invention = terrorism
+			year = 1890
 		}
 		NOT = {
 			has_country_flag = irish_republican_brotherhood
 			tag = IRE
+		}
+		OR = {
+			has_country_flag = rejected_the_irish
+			NOT = { has_country_flag = invest_in_irish }
 		}
 	}
 	
@@ -473,14 +527,14 @@ country_event = {
 			which = irish_republican_provinces
 			value = 1
 		}
-		random_owned = {
+		any_owned = {
 			limit = {
 				is_core = IRE
 				culture = irish
 				NOT = { has_province_modifier = irish_republicans }
 				NOT = { has_province_modifier = irish_unionists }
 			}
-			remove_core = ENG
+			#remove_core = ENG
 			any_pop = {
 				limit = { has_pop_culture = irish }
 				consciousness = 3
@@ -581,7 +635,7 @@ province_event = {
 	
 	option = {
 		name = "EVT1010021OPTA"
-		remove_core = ENG
+		#remove_core = ENG
 		owner = {
 			change_variable = {
 				which = irish_republican_provinces
