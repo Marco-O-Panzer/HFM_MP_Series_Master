@@ -1291,4 +1291,22 @@ political_decisions = {
 #			629 = { secede_province = THIS }
 #		}
 #	}
+
+	change_german_capital = {
+		picture = greater_germany
+		potential = {
+			OR = {
+				tag = GER
+				tag = GCF
+			}
+			NOT = { has_country_flag = german_capital_change }
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			set_country_flag = german_capital_change
+			country_event = 33042
+		}
+	}
 }

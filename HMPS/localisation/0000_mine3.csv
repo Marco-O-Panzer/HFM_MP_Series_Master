@@ -121,3 +121,5 @@ EVTNAME1010018;The Easter Rising;x
 EVTDESC1010018;The Easter Rising, also known as the Easter Rebellion, was an armed insurrection in Ireland during Easter Week in April 1916. The Rising was launched by Irish republicans against British rule in Ireland with the aim of establishing an independent Irish Republic while the United Kingdom was fighting the First World War. It was the most significant uprising in Ireland since the rebellion of 1798 and the first armed conflict of the Irish revolutionary period. Sixteen of the Rising's leaders were executed from May 1916, but the insurrection, the nature of the executions, and subsequent political developments ultimately contributed to an increase in popular support for Irish independence.;x
 EVT1010018OPTA;Execute the traitors;x
 EVT1010018OPTB;Fair trial & rule of law;x
+change_german_capital_title;Move the Capital;x
+change_german_capital_desc;Since the unification of Germany, considerations have been underway for a new capital. Cities have been nominated and we are ready to make a decision.;x
