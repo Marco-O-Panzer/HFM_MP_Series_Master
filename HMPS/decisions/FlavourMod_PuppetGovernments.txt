@@ -7,6 +7,7 @@ political_decisions = {
 				AND = {
 					civilized = no
 					is_vassal = yes
+					overlord = { government = absolute_monarchy }
 				}
 				AND = {
 					tag = UBD
@@ -22,11 +23,7 @@ political_decisions = {
 				}
 				tag = ARA
 			}
-			OR = {
-				government = democracy
-				government = prussian_constitutionalism
-				government = hms_government
-			}
+			NOT = { government = absolute_monarchy }
 			NOT = { tag = LAN }
 			NOT = { tag = PHL }
 			NOT = { tag = LEG }
