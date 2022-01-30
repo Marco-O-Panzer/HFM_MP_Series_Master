@@ -1,6 +1,6 @@
-#The HFM Enhanced Series (MP) - Changelog
+# The HFM Enhanced Series (MP) - Changelog
 
-##This mod is built on HFM V1.27I (SighPie) and HFM More Stuff V3.5 (u/louisky58) submod.
+## This mod is built on HFM V1.27I (SighPie) and HFM More Stuff V3.5 (u/louisky58) submod.
 **Credit:**
 - Infamy reduction depending on rank & healthcare changes inspired by Heirs to Aquitania (Savs).
 - Population size effects, final tech row, and LGLC tax moddifiers inspired by PDM Divide by Zero (GAGA Extrem).
@@ -26,4 +26,44 @@ Note that 'global' on a modifier means just across your country.
 **Any problems or changes to suggest can talk to the mod creators: Townes, Abe, Gracchus, Atlas, Jmon**
 ---
 <br/>
-##Political
+## Political
+#### Government Forms
+#### National Values
+#### Reforms
+#### Parties
+#### National Focuses
+#### CBs
+
+## Population
+#### Liferating
+#### Demotion & Promotion
+#### Assimilation
+#### Emigration
+
+## Economic
+#### Factories
+#### Tech
+#### Infrastructure
+
+## Military
+#### Units
+#### Tech
+#### Combat Width & Supply
+
+## Flava
+#### Europe
+#### Americas
+#### India
+#### China
+#### West Africa
+#### East Africa
+
+## Map
+
+## MP Support
+#### Grants
+#### Infamy Transfers
+#### Land Transfers
+- State
+- State (3rd party)
+- Substate
