@@ -166,6 +166,7 @@ political_decisions = {
 			civilized = yes
 			has_global_flag = geneva_convention_held
 			NOT = { has_country_modifier = signed_the_geneva_convention }
+			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		
 		allow = {
@@ -230,6 +231,7 @@ political_decisions = {
 				government = presidential_dictatorship
 				government = proletarian_dictatorship
 			}
+			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		allow = {
 			has_country_modifier = signed_the_geneva_convention

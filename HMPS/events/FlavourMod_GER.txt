@@ -1045,6 +1045,7 @@ country_event = {
 			#tag = GCF
 		}
 		NOT = { capital = 599 }
+		NOT = { has_global_flag = mp_setup }
 		is_disarmed = no
 		war = no
 		is_greater_power = yes

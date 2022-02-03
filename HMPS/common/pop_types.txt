@@ -1355,7 +1355,10 @@ assimilation_chance = {
 
 	modifier = {
 		factor = -0.2
-		not = { is_state_religion = yes }
+		NOT = {
+			is_state_religion = yes
+			religious_policy = moralism
+		}
 	}
 
 	group = {
@@ -1426,11 +1429,6 @@ assimilation_chance = {
 		}
 	}
 	
-	#modifier = {
-	#	factor = -1
-	#	is_accepted_culture = yes
-	#}
-	
 	modifier = {
 		factor = -0.9
 		has_pop_religion = jewish
@@ -1445,26 +1443,6 @@ assimilation_chance = {
 			has_pop_culture = asian_minor
 		}
 	}
-	
-	modifier = {
-		factor = -20
-		OR = {
-			is_culture_group = east_asian
-			is_culture_group = south_asian
-		}
-		OR = {
-			location = { any_core = { is_accepted_culture = THIS is_cultural_union = yes } }
-			location = { is_overseas = yes any_core = { is_accepted_culture = THIS } }
-		}
-	}
-	
-	#modifier = {
-	#	factor = -20
-	#	OR = {
-	#		location = { any_core = { is_accepted_culture = THIS is_cultural_union = yes } }
-	#		location = { is_overseas = yes any_core = { is_accepted_culture = THIS } }
-	#	}
-	#}
 	
 	modifier = {
 		factor = -0.35
@@ -1505,20 +1483,15 @@ assimilation_chance = {
 			location = { continent = australia_new_zealand }
 		}
 	}
-
-	modifier = {
-		factor = -80
-		country = { NOT = { has_country_flag = african_integration_policy } }
-		is_culture_group = african_diaspora_cultures
-		OR = {
-			location = { continent = north_america }
-			location = { continent = south_america }
-		}
-	}
 	
 	modifier = {
 		factor = -80
 		country = { NOT = { has_country_flag = african_integration_policy } }
+		NOT = { capital_scope = { location = { continent = africa } } }
+		NOT = { capital_scope = { location = { continent = central_africa } } }
+		NOT = { capital_scope = { location = { continent = west_africa } } }
+		NOT = { capital_scope = { location = { continent = east_africa } } }
+		NOT = { capital_scope = { location = { continent = south_west_africa } } }
 		OR = { 
 			location = { continent = africa }
 			location = { continent = central_africa }
@@ -1542,7 +1515,6 @@ assimilation_chance = {
 			NOT = { country = { is_culture_group = arab } }
 		}
 	}
-	
 }
 
 #general conversion mtth, same for all pops

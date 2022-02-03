@@ -10,7 +10,7 @@ political_decisions = {
 					overlord = { government = absolute_monarchy }
 				}
 				AND = {
-					tag = UBD
+					#tag = UBD
 					NOT = { vassal_of = RUS }
 					OR = {
 						in_sphere = GER

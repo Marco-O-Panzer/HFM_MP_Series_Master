@@ -113,6 +113,7 @@ country_event = {
 						duration = -1
 					}
 				}
+				badboy = -8
 				country_event = 500061
 			}
 			owner = { add_accepted_culture = swiss_french }
@@ -134,6 +135,7 @@ country_event = {
 						duration = -1
 					}
 				}
+				badboy = -8
 				country_event = 500061
 			}
 			owner = { 
@@ -158,6 +160,7 @@ country_event = {
 						duration = -1
 					}
 				}
+				badboy = -8
 				country_event = 500061
 			}
 			owner = { 
@@ -200,6 +203,7 @@ country_event = {
 						duration = 1095
 					}
 				}
+				badboy = 1
 				country_event = 500062
 			}
 		}
@@ -219,6 +223,7 @@ country_event = {
 						duration = 1095
 					}
 				}
+				badboy = 1
 				country_event = 500062
 			}
 		}
@@ -238,6 +243,7 @@ country_event = {
 						duration = 1095
 					}
 				}
+				badboy = 1
 				country_event = 500062
 			}
 		}
@@ -272,7 +278,7 @@ country_event = {
 			who = FROM
 			value = 100
 		}
-		badboy = -8
+		#badboy = -8
 	}
 }
 
@@ -291,6 +297,6 @@ country_event = {
 			who = FROM
 			value = -100
 		}
-		badboy = 1
+		#badboy = 1
 	}
 }

@@ -23,9 +23,13 @@ Everything else is my own (as far as I remember).
 Note that 'global' on a modifier means just across your country.
 ---
 <br/>
+
 **Any problems or changes to suggest can talk to the mod creators: Townes, Abe, Gracchus, Atlas, Jmon**
+
+<br/>
 ---
 <br/>
+
 ## Political
 #### Government Forms
 #### National Values

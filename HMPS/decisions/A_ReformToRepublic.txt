@@ -32,6 +32,7 @@ political_decisions = {
 				government = bourgeois_dictatorship
 			}
 			civilized = yes
+			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		allow = {
 			war = no

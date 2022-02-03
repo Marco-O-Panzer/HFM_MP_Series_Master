@@ -74,7 +74,10 @@ political_decisions = {
 		
 		allow = {
 			SWI = { has_country_modifier = neutrality }
-			war_policy = jingoism
+			OR = {
+				nationalism_n_imperialism = 1
+				war_policy = jingoism
+			}
 			NOT = {
 				is_sphere_leader_of = SWI
 				truce_with = SWI
@@ -234,7 +237,7 @@ political_decisions = {
 		
 		allow = {
 			war = no
-			NOT = { badboy = 25 }
+			NOT = { badboy = 1 }
 		}
 		
 		effect = {

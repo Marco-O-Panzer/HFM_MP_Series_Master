@@ -853,6 +853,7 @@ political_decisions = {
 		picture = wilhelmshaven_imperial_shipyard
 		potential = {
 			NOT = { has_global_flag = wilhelmshaven_imperial_shipyard_built }
+			NOT = { has_global_flag = mp_setup }
 			tag = GER
 			owns = 3259
 			NOT = { capital = 599 }
@@ -935,6 +936,7 @@ political_decisions = {
 				tag = NGF
 			}
 			NOT = { capital = 599 }
+			NOT = { has_global_flag = mp_setup }
 			year = 1870
 			owns = 690
 			battleship_column_doctrine = 1

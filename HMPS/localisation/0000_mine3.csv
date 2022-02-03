@@ -96,7 +96,7 @@ EVTDESC7777932;Full citizenship will no longer be available to all equally. We s
 residency_party;Residency Policy;x
 remove_csa_cores_title;Solidifying the South;x
 remove_csa_cores_desc;After the years or regional differences, Dixies and Texans have accepted the USA as their home country, letting the memories of the CSA fade into history.;x
-debate_me_title;The Great Debate;x
+debate_me_title;§EThe Great Debate§!;x
 debate_me_desc;An ongoing debate is occuring in the Republic about the cultural direction and political principles of the government. The citizens are reconsidering their political priorities.;x
 nv_cooldown;§CNational Value Cooldown§!;x
 nv_cooldown_desc;We have recently concluded the great debate.;x
@@ -123,3 +123,9 @@ EVT1010018OPTA;Execute the traitors;x
 EVT1010018OPTB;Fair trial & rule of law;x
 change_german_capital_title;Move the Capital;x
 change_german_capital_desc;Since the unification of Germany, considerations have been underway for a new capital. Cities have been nominated and we are ready to make a decision.;x
+sign_the_geneva_convention_title;§ESign the Geneva Convention§!;Signer la convention de Genève;Genfer Konvention unterschreiben.;;Firmar la Convención de Ginebra;;;;;;;;;x
+communist;Vanguardist;Communiste;Kommunistisch;;Comunista;;;;;;;;;x;;;;
+communist_uh;Vanguardists want to enact social reforms, but want to see political reforms rolled back.;Les communistes veulent davantage de réformes sociales et le retrait des réformes politiques.;Kommunisten sind an zusätzlichen Sozialreformen interessiert, setzen sich aber für die Außerkraftsetzung von Politikreformen ein.;;Los comunistas quieren promulgar reformas sociales, pero rechazan las reformas políticas.;;;;;;;;;x;
+communist_focus;Party loyalty towards §Yvanguardists§! ;Loyauté envers le parti §Ycommuniste§! ;Parteiloyalität gegenüber §Ycommunist§! ;;;;;;;;;;;x
+proletarian_dictatorship;Vanguard Dictatorship;Dictature prolétaire;Proletarische Diktatur;;Dictadura del proletariado;;;;;;;;;x;;;;
+planned_economy_desc;The government makes all decisions on the production and consumption of goods and services. \n§YTo prevent economic failure, administrative spending must be 60%+. §RBelow 20% is catastrophic.§!;;;;;;;;;;;;;x;;;;
