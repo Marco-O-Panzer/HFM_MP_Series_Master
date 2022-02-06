@@ -247,6 +247,7 @@ political_decisions = {
 		effect = {
 			set_global_flag = suppress_army_rebels
 		}
+	}
 	
 	option_enable_fantasy_countries = {
 		picture = starting_options 
@@ -639,11 +640,6 @@ political_decisions = {
 			any_pop = {
 				limit = { has_pop_culture = australian }
 				literacy = -0.20
-			}
-			
-			any_pop = {
-				limit = { has_pop_culture = maltese }
-				literacy = 0.20
 			}
 			
 			any_pop = {
@@ -1408,8 +1404,6 @@ political_decisions = {
 			
 			AUS_612 = { any_pop = { literacy = 0.1 } }
 			AUS_734 = { any_pop = { limit = { has_pop_culture = south_german } literacy = 0.1 } }
-			any_pop = { limit = { has_pop_culture = siebenburger } literacy = 0.5 }
-			any_pop = { limit = { has_pop_religion = protestant NOT = { has_pop_culture = siebenburger } literacy = 0.05 } }
 			any_pop = { limit = { has_pop_culture = czech } literacy = 0.37 }
 			any_pop = { limit = { location = { OR = { province_id = 628 province_id = 619 } } literacy = 0.08 } }
 			any_pop = { limit = { OR = { has_pop_culture = ashkenazi has_pop_culture = sephardic } } literacy = 0.40 }

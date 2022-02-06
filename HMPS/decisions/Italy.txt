@@ -1397,7 +1397,6 @@ political_decisions = {
 		effect = {
 			badboy = 10
 			set_country_flag = reclaim_italian_lands
-			add_accepted_culture = maltese
 			SAR_466 = { add_core = THIS }
 			826	= { add_core = THIS }
 			852 = { add_core = THIS }

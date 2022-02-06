@@ -172,7 +172,6 @@ country_event = {
 				province_id = 647
 			}
 			SIE = {
-				primary_culture = siebenburger
 				add_accepted_culture = romanian
 				add_accepted_culture = south_german
 			}

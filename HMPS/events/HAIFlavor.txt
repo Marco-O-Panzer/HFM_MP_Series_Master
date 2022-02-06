@@ -223,7 +223,7 @@ country_event = {
 	mean_time_to_happen = { months = 8 }
 		
 	option = {
-		name = "EVT45104OPTA" liberal_agitation
+		name = "EVT45104OPTA"
 		add_country_modifier = {
 			name = liberal_agitation
 			duration = 2190
