@@ -32,16 +32,30 @@ Note that 'global' on a modifier means just across your country.
 
 ## Political
 #### Government Forms
+- Anarchist: Similar to republic, locked into anarchist 'party'
 #### National Values
+- Can change via decision if republic or anarchist
 #### Reforms
+- Executive: Can allow executive power, options restricted via government form
+- Militarization: Raises or lowers the max soldier pops per state
+- UBI option for socialists & vanguardists (very high pension level)
+- R&D Policy: More RP, increase via decision conditions
 #### Parties
+- Anarchists: Rare, similar to socialists, successful rebels will enforce Anarchism
 #### National Focuses
+- Party support increased to 0.010 daily
+- Assimilation NF
 #### CBs
 
 ## Population
 #### Liferating
+- France average life rating increase to 33
+- USA starts at 40
+- Westernised China, India and Korea can increase to 40 with tech, will decrease in ~50 years
+- ~1900+, Decrease to ~31 for Germany, Benelulx, Italy, Britain, Austria-Hungary, USA
 #### Demotion & Promotion
 #### Assimilation
+#### Immigration
 #### Emigration
 
 ## Economic

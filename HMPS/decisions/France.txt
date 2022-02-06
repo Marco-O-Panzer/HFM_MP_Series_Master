@@ -368,6 +368,7 @@ political_decisions = {
 			primary_culture = french
 			is_greater_power = yes
 			capital = 425
+			NOT = { has_global_flag = mp_setup } #as it allows France to claim all of Piemonte, and I dont want to change Aosta's state
 			OR = { 
 				owns = 412 #Metz
 				owns = 720 #Turin

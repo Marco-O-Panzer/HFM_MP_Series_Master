@@ -165,6 +165,38 @@ country_event = {
 	option = {
 		name = "Checking..."
 		
+		#applying river province notifications
+		any_country = {
+			limit = {
+				exists = yes
+			}
+			any_owned = {
+				limit = {
+					OR = {
+						### River Siene
+						province_id = 415
+						province_id = 416
+						province_id = 2570
+						province_id = 41
+						province_id = 42
+						province_id = 403
+						province_id = 425
+						province_id = 427
+						province_id = 429
+						province_id = 406
+						province_id = 408
+						
+						### The Rhine
+						province_id = 575
+					}
+				}
+				add_province_modifier = {
+					name = river_notification
+					duration = -1
+				}
+			}
+		}
+		
 		#surpressing militancy
 		any_country = {
             limit = {

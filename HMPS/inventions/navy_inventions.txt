@@ -248,7 +248,7 @@ defensive_attitude = {
 			hull = 5
 		}
 		dreadnought = {
-			hull = 5
+			hull = 10
 		}
 	
 	}
@@ -822,12 +822,12 @@ advanced_battleships = {
 	}
 	effect = {
 		battleship = {
-			hull = 1
-			gun_power = 1
+			hull = 5
+			gun_power = 5
 		}
 		dreadnought = {
-			hull = 1
-			gun_power = 1
+			hull = 2
+			gun_power = 2
 		} 
 	}
 }
@@ -1207,10 +1207,10 @@ armoured_citadels = {
 	}
 	effect = {
 		battleship = {
-			hull = 2
+			hull = 5
 		}
 		dreadnought = {
-			hull = 2
+			hull = 10
 		}
 	
 	}
@@ -1230,10 +1230,10 @@ heavy_caliber_guns = {
 	}
 	effect = {
 		battleship = {
-			gun_power = 2
+			gun_power = 3
 		}
 		dreadnought = {
-			gun_power = 2
+			gun_power = 5
 		}
 	}
 }
@@ -1275,7 +1275,7 @@ gun_hydraulics = {
 			gun_power = 2
 		}
 		dreadnought = {
-			gun_power = 2
+			gun_power = 5
 		}
 	}
 }
@@ -1298,7 +1298,7 @@ heavy_armour_plates = {
 	}
 	effect = {
 		dreadnought = {
-			hull = 2
+			hull = 10
 		} 
 	}
 }
@@ -1356,7 +1356,7 @@ advanced_fire_control = {
 	}
 	effect = {
 		dreadnought = {
-			gun_power = 2
+			gun_power = 5
 		}
 		cruiser = {
 			gun_power = 2
@@ -1383,7 +1383,7 @@ advanced_fire_control = {
 	}
 	effect = {
 		dreadnought = {
-			gun_power = 2
+			gun_power = 5
 		}
 	}
 }
@@ -1682,7 +1682,7 @@ combined_arms_planning = {
 	}
 	effect = {
 		navy_base = {
-			default_organisation = 4
+			default_organisation = 5
 		}
 	}
 }

@@ -41,7 +41,7 @@ manowar = {
 	#Naval Abilties
 	hull = 3
 	gun_power = 6
-	fire_range = 0.60
+	fire_range = 0.25
 	evasion = 0
 }
 

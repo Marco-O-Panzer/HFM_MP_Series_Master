@@ -158,9 +158,19 @@ political_decisions = {
 			303 = {
 				secede_province = GBR
 			}
-			capital = 289	#to make it new world to get european immigration
+			capital = 289
 			money = 1000000
 			set_country_flag = revolution_spread
+			
+			### starting the civil_war
+			ENG = {
+				war = {
+					target = GBR
+						attacker_goal = { casus_belli = civil_war }
+						defender_goal = { casus_belli = acquire_all_cores country = GBR }
+					call_ally = yes
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 0

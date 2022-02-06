@@ -1,4 +1,16 @@
 From;To;Type;Through;Data;Comment
+
+#
+# European River Crossings (-2)
+#
+415;416;sea;;0;The Seine River
+2570;416;sea;;0;The Seine River
+2570;425;sea;;0;The Seine River
+403;425;sea;;0;The Seine River
+403;427;sea;;0;The Seine River
+429;427;sea;;0;The Seine River
+406;408;sea;;0;The Seine River
+
 #
 # American Straits
 #

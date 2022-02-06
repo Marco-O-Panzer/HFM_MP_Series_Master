@@ -423,13 +423,13 @@ steamer_shipyard = {
 	template = factory_template
 	input_goods = {
 		lumber = 10
-		steel = 22		#94
-		coal = 25		#69
+		steel = 20		#94
+		coal = 20		#69
 		machine_parts = 0.25 #9.125 total input+maint = 191.125
 	}
 	output_goods = steamer_convoy 
 	is_coastal = yes
-	value = 3.2			#208, base profitability 16.875 up from 13
+	value = 3.5			#208, base profitability 16.875 up from 13
 	bonus = {
 		trigger = { has_building = lumber_mill }
 		value = 0.125
@@ -447,14 +447,14 @@ steamer_shipyard = {
 interwar_hull_shipyard = {
 	template = factory_template
 	input_goods = {
-		steel = 125		
-		coal = 100		
+		steel = 50		
+		coal = 50
 		machine_parts = 2
-		bronze = 30
+		bronze = 5
 	}
 	output_goods = interwar_hull 
 	is_coastal = yes
-	value = 2
+	value = 4
 	bonus = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.125
@@ -1281,8 +1281,8 @@ artisan_fuel = {
 artisan_steamer = {       
 	input_goods = {
 		lumber = 10
-		steel = 22		#94
-		coal = 25		#69
+		steel = 20		#94
+		coal = 20		#69
 		machine_parts = 0.25 #9.125 total input+maint = 191.125
 	}
 	output_goods = steamer_convoy 

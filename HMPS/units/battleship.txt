@@ -28,7 +28,7 @@ battleship = {
 		artillery = 20
 		canned_food = 10
 		regular_clothes = 15
-		coal = 25
+		coal = 50
 	}
 	min_port_level = 4
 	limit_per_port = 6
@@ -36,13 +36,10 @@ battleship = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 3
+		steamer_convoy = 2.4
 		artillery = 1.2
-		canned_food = 1.6
-		coal = 5
-		ammunition = 1.2
-		tobacco = 0.5
-		pharmaceuticals = 1.6
+		coal = 8
+		explosives = 1.2
 	}
 	
 	#Naval Abilties

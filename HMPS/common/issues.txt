@@ -2272,7 +2272,6 @@ military_reforms = {
 			
 			allow = {
 				any_owned_province = { port = yes }
-				ai = no
 			}
 			
 			on_execute = {

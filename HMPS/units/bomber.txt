@@ -34,7 +34,7 @@ bomber = {
 		canned_food = 0.2
 		fuel = 0.37
 		regular_clothes = 0.067 #0
-		ammunition = 0.17
+		explosives = 0.17
 		pharmaceuticals = 0.033
 		shoes = 0.067
 	}
