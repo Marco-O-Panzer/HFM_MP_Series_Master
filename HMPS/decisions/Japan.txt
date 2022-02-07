@@ -800,7 +800,7 @@ political_decisions = {
 				}
 			}
 			has_country_modifier = fukoku_kyohei
-			KOR = { exists = no }
+			#KOR = { exists = no }
 			NOT = { owns = 1624 }
 			NOT = { has_country_flag = claimed_korea }
 		}
@@ -814,8 +814,13 @@ political_decisions = {
 		effect = {
 			set_country_flag = claimed_korea
 			badboy = 5
-			add_country_modifier = { name = foreign_claims duration = 3650 }
-			KOR = { all_core = { add_core = THIS } }
+			#add_country_modifier = { name = foreign_claims duration = 3650 }
+			#KOR = { all_core = { add_core = THIS } }
+			add_casus_belli = {
+				target = KOR
+				type = conquest_any
+				months = 120
+			}
 			1624 = {
 				owner = {
 					relation = { who = THIS value = -100 }
