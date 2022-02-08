@@ -22,4 +22,4 @@
 **Bugs reports or suggestions?**<br/>
 Post in the mod's MP discord [https://discord.gg/8wC9QmHnx3] or modding server [https://discord.gg/EbY7qaA]
 
-**Mod Creators:** Townes, Abe, Gracchus, Atlas, Jmom, Dr
+**Mod Creators:** Townes, Abe, Gracchus, Atlas, Jman, Dr, Zoomer
