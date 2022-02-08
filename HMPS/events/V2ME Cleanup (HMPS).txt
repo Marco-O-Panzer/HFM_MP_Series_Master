@@ -188,6 +188,30 @@ country_event = {
 						
 						### The Rhine
 						province_id = 575
+						
+						### The Dnieper and The Daugava
+						province_id = 970
+						province_id = 971
+						province_id = 972
+						province_id = 961
+						province_id = 958
+						province_id = 959
+						province_id = 942
+						province_id = 948
+						province_id = 946
+						province_id = 947
+						province_id = 357
+						province_id = 354
+						province_id = 355
+						province_id = 356
+						province_id = 949
+						province_id = 962
+						province_id = 963
+						province_id = 974
+						province_id = 973
+						province_id = 965
+						province_id = 941
+						province_id = 718
 					}
 				}
 				add_province_modifier = {
