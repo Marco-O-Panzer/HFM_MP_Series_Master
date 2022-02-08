@@ -28,6 +28,7 @@ political_decisions = {
 		picture = map_caribbean
 		potential = {
 			tag = FRA 
+			HAI = { exists = yes }
 			NOT = { has_global_flag = no_haiti_reps }
 			NOT = { has_country_modifier = reps_haiti }
 			NOT = { year = 1900 }
