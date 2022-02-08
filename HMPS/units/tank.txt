@@ -24,18 +24,15 @@ tank = {
 		canned_food = 10
 		regular_clothes = 10
 		fuel = 10
+		ammunition = 10
 	}
 	
 	supply_consumption = 1.0
 	supply_cost = {
 		barrels = 0.28
 		artillery = 0.17
-		canned_food = 0.17 #0.04
 		fuel = 0.5
-		regular_clothes = 0.067 #0
-		ammunition = 0.17
-		pharmaceuticals = 0.06
-		shoes = 0.067
+		explosives = 0.17
 	}
 	
 

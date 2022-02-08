@@ -1106,7 +1106,7 @@ anti_aircraft_artillery = {
 	}
 	effect = {
 		artillery = {
-			defence = 1
+			defence = 0.5
 			support = 0.1
 			supply_consumption = 0.25
 		}
@@ -1127,7 +1127,7 @@ improved_anti_aircraft_artillery = {
 	}
 	effect = {
 		artillery = {
-			defence = 1
+			defence = 0.5
 			support = 0.1
 			supply_consumption = 0.25
 		}

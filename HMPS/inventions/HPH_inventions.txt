@@ -13,7 +13,7 @@ schrapnel_standard_design = {
 	}
 	effect = {
 		artillery = {
-			attack = 1
+			attack = 2
 		}
 	}
 }

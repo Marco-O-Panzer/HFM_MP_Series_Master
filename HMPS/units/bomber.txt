@@ -19,7 +19,7 @@ bomber = {
 	#Building Costs
 	build_time = 125
 	build_cost = {
-		aeroplanes = 10
+		aeroplanes = 15
 		small_arms = 10
 		canned_food = 10
 		regular_clothes = 10
@@ -29,22 +29,17 @@ bomber = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		aeroplanes = 0.2
-		small_arms = 0.17
-		canned_food = 0.2
+		aeroplanes = 0.3
 		fuel = 0.37
-		regular_clothes = 0.067 #0
 		explosives = 0.17
-		pharmaceuticals = 0.033
-		shoes = 0.067
 	}
 	
 
 	#Land Abilties
 	reconnaissance = 0
-	attack = 9
+	attack = 8
 	defence = 2
 	discipline = 0.1
-	support = 2
+	support = 1
 	maneuver = 3
 }

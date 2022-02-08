@@ -30,13 +30,8 @@ plane = {
 	supply_consumption = 1.0
 	supply_cost = {
 		aeroplanes = 0.2
-		small_arms = 0.17
-		canned_food = 0.067
 		fuel = 0.37
-		regular_clothes = 0.067 #0
 		ammunition = 0.17
-		pharmaceuticals = 0.033
-		shoes = 0.067
 	}
 	
 
@@ -45,6 +40,6 @@ plane = {
 	attack = 0
 	defence = 0
 	discipline = 0.1
-	support = 2.5
+	support = 1.5
 	maneuver = 3
 }
