@@ -212,6 +212,27 @@ country_event = {
 						province_id = 965
 						province_id = 941
 						province_id = 718
+						
+						### The Vistula
+						province_id = 690
+						province_id = 693
+						province_id = 691
+						province_id = 694
+						province_id = 700
+						province_id = 710
+						province_id = 708
+						province_id = 706
+						province_id = 709
+						province_id = 711
+						province_id = 713
+						province_id = 715
+						province_id = 716
+						province_id = 705
+						province_id = 714
+						province_id = 716
+						province_id = 703
+						province_id = 714
+						province_id = 2584
 					}
 				}
 				add_province_modifier = {
