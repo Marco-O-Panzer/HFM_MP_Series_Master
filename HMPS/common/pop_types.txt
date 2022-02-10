@@ -1191,7 +1191,7 @@ assimilation_chance = {
 	}
 	
 	modifier = {
-		factor = 1.5
+		factor = 0.5
 		OR = {
 			is_state_religion = yes
 			AND = {

@@ -526,7 +526,7 @@ political_reforms = {
 			allow = {
 				#NOT = { has_country_flag = residency_party }
 				has_country_flag = revolution_n_counter_researched
-				NOT = { colonial_nation = yes }
+				NOT = { any_state = { is_colonial = yes } }
 				vote_franschise = universal_voting
 				press_rights = free_press
 				public_meetings = yes_meeting

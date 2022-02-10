@@ -5,7 +5,7 @@ country_event = {
 	trigger = {
 		citizens_rights = all_voting_pops
 		OR = {
-			colonial_nation = yes
+			any_state = { is_colonial = yes }
 			NOT = { vote_franschise = universal_voting }
 			NOT = { press_rights = free_press }
 			NOT = { public_meetings = yes_meeting }
