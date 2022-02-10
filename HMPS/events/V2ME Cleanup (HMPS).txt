@@ -276,6 +276,32 @@ country_event = {
 						province_id = 613
 						province_id = 617
 						
+						### The Rhone
+						province_id = 461
+						province_id = 449
+						province_id = 453
+						province_id = 452
+						province_id = 431
+						province_id = 451
+						province_id = 454
+						province_id = 469
+						province_id = 468
+						province_id = 467
+						
+						### The Loire
+						province_id = 423
+						province_id = 435
+						province_id = 441
+						province_id = 440
+						province_id = 438
+						province_id = 439
+						province_id = 430
+						province_id = 422
+						province_id = 424
+						province_id = 417 
+						province_id = 436
+						province_id = 426
+						province_id = 428
 					}
 				}
 				add_province_modifier = {
