@@ -203,6 +203,36 @@ From;To;Type;Through;Data;Comment
 428;439;sea;;0;The Loire River
 430;428;sea;;0;The Loire River
 428;430;sea;;0;The Loire River
+1083;1084;sea;;0;The Amur River
+1084;1083;sea;;0;The Amur River
+1083;2617;sea;;0;The Amur River
+2617;1083;sea;;0;The Amur River
+1554;2617;sea;;0;The Amur River
+2617;1554;sea;;0;The Amur River
+1552;2617;sea;;0;The Amur River
+2617;1552;sea;;0;The Amur River
+1553;2617;sea;;0;The Amur River
+2617;1553;sea;;0;The Amur River
+1553;1085;sea;;0;The Amur River
+1085;1553;sea;;0;The Amur River
+1553;1081;sea;;0;The Amur River
+1081;1553;sea;;0;The Amur River
+1553;1079;sea;;0;The Amur River
+1079;1553;sea;;0;The Amur River
+1002;1079;sea;;0;The Amur River
+1079;1002;sea;;0;The Amur River
+1620;1479;sea;;0;The Yalu River
+1479;1620;sea;;0;The Yalu River
+1620;1555;sea;;0;The Yalu River
+1555;1620;sea;;0;The Yalu River
+1623;1555;sea;;0;The Yalu River
+1555;1623;sea;;0;The Yalu River
+1622;1555;sea;;0;The Tumen River
+1555;1622;sea;;0;The Tumen River
+1622;1554;sea;;0;The Tumen River
+1554;1622;sea;;0;The Tumen River
+1622;1082;sea;;0;The Tumen River
+1082;1622;sea;;0;The Tumen River
 
 
 #
