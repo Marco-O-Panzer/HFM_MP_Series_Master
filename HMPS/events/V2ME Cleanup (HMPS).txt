@@ -233,6 +233,49 @@ country_event = {
 						province_id = 703
 						province_id = 714
 						province_id = 2584
+						
+						### The Danube
+						province_id = 675
+						province_id = 674
+						province_id = 818
+						province_id = 811
+						province_id = 810
+						province_id = 795
+						province_id = 794
+						province_id = 791
+						province_id = 793
+						province_id = 779
+						province_id = 792
+						province_id = 640
+						province_id = 644
+						province_id = 643
+						province_id = 642
+						province_id = 623
+						province_id = 624
+						province_id = 620
+						province_id = 622
+						province_id = 599
+						province_id = 600
+						province_id = 621
+						province_id = 619
+						province_id = 633
+						province_id = 635
+						province_id = 646
+						province_id = 641
+						province_id = 645
+						province_id = 2538
+						province_id = 792
+						province_id = 653
+						province_id = 665
+						province_id = 666
+						province_id = 664
+						province_id = 669
+						province_id = 668
+						province_id = 673
+						province_id = 678
+						province_id = 613
+						province_id = 617
+						
 					}
 				}
 				add_province_modifier = {
