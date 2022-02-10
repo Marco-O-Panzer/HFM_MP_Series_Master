@@ -7,6 +7,7 @@ political_decisions = {
 			nationalvalue = nv_tradition
 			NOT = {	has_country_flag = nv_change }
 			civilized = no
+			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		
 		allow = {

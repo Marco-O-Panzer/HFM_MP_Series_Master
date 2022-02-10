@@ -902,7 +902,7 @@ country_event = {
 	trigger = {
 		vassal_of = RUS
 		ai = yes
-		civilized = no
+		#civilized = no
 		OR = {
 			primary_culture = uzbek
 			primary_culture = kirgiz
@@ -914,7 +914,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 200
+		months = 120
 		modifier = {
 			factor = 1.5
 			NOT = { average_militancy = 2 }

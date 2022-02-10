@@ -1103,7 +1103,6 @@ ideologies = {
 			factor = 1.2
 			NOT = { country = { government = fascist_dictatorship } }
 			NOT = { country = { government = proletarian_dictatorship } }
-			NOT = { country = { government = bourgeois_dictatorship } }
 			OR = { is_accepted_culture = yes is_primary_culture = yes }
 			OR = {
 				nationalvalue = nv_autocracy
@@ -1324,7 +1323,6 @@ ideologies = {
 			factor = 1.5
 			NOT = { country = { government = fascist_dictatorship } }
 			NOT = { country = { government = proletarian_dictatorship } }
-			NOT = { country = { government = bourgeois_dictatorship } }
 			OR = { is_accepted_culture = yes is_primary_culture = yes }
 			OR = {
 				nationalvalue = nv_autocracy
