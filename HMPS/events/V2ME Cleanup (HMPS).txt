@@ -37,6 +37,14 @@ country_event = {
 	option = {
 		name = "Checking..."
 		
+		any_country = {
+			limit = {
+				exists = no
+				war = yes
+			}
+			annex_to = FROM
+		}
+		
 		#abolishing serfdom
 		any_country = {
             limit = {
