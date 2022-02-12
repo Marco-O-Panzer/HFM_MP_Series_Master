@@ -129,7 +129,7 @@ Many nations no longer need (only) GP for flava, or high prestige. War policy re
 - FRA: Can take empire flava as the Republic
 - AUS: Can form SGF (and release its non German land)
 - DNB: RnG removed & cultures now accepted via decisions
-- RUS: Only cores Poland late-campaign, option to take all of Manchuria
+- RUS: Only cores Poland late-campaign, option to take all of Manchuria, decision to core CPL land
 - Ottos: Tanzimat reforms can be completed as a republic, Arab revolt won't fire as long as a con-mon or republic
 - POR: Can unite with Brazil to form the UPB
 #### Americas

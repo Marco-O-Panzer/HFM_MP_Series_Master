@@ -35,6 +35,7 @@ political_decisions = {
 			}
 			NOT = { has_country_flag = lacking_writing_system }
 			NOT = { has_country_flag = warship_commissioned }
+			NOT = { has_global_flag = mp_setup }
 		}
 		
 		allow = {

@@ -1207,13 +1207,13 @@ political_decisions = {
 			tag = RUS
 			year = 1859
 			USA = { NOT = { war_with = CSA } }
+			any_owned_province = {
+				region = USA_1
+			}
 		}
 		
 		allow = {
 			war = no
-			any_owned_province = {
-				region = USA_1
-			}
 		}
 		
 		effect = {

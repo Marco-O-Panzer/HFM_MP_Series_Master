@@ -3,17 +3,22 @@ political_decisions = {
 		picture = unite_with_poland
 		potential = { 
 			tag = RUS
-			706 = { NOT = { is_core = RUS } }
+			706 = {
+				is_core = CPL
+				NOT = { is_core = RUS }
+			}
 		}
 		allow = {
 			war = no
 			revolution_n_counterrevolution = 1
 		}
 		effect = {
-			infamy = 20
-			RUS_707 = { add_core = RUS }
-			RUS_706 = { add_core = RUS }
-			RUS_715 = { add_core = RUS }
+			badboy = 20
+			CPL = {
+				all_core = {
+					add_core = THIS
+				}
+			}
 		}
 		ai_will_do = { factor = 0 }
 	}

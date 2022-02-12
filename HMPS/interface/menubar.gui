@@ -1334,7 +1334,7 @@ guiTypes = {
 			Orientation = "LOWER_RIGHT"
 			clicksound = click
 	
-			shortcut = "l"
+			shortcut = "\"
 		}
 			
 		guiButtonType = {
@@ -1349,6 +1349,8 @@ guiTypes = {
 
 			Orientation = "LOWER_RIGHT"
 			clicksound = click
+			
+			shortcut = "z"
 		}
 		
 		guiButtonType = {
