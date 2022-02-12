@@ -14,6 +14,9 @@
 ### Recommended Launcher Mod
 - Radsterman - Compact Launcher [https://www.moddb.com/mods/compact-launcher/downloads/compact-launcher]
 
+### Modding Github Site
+- https://jmanthunder.github.io/Victoria-2-Modding-Tools-and-Guides/
+
 ## Reasons to play the mod:
 -
 

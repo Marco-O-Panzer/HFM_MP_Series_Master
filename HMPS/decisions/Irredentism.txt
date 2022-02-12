@@ -680,7 +680,7 @@ political_decisions = {
 		potential = {
 			OR = {
 				tag = BRZ
-				tag = UPB
+				tag = 
 			}
 			NOT = { has_country_flag = cisplatina_is_ours  }
 		}

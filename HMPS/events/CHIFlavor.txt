@@ -126,14 +126,6 @@ country_event = {
 						QNG = { exists = no }
 					}
 				}
-
-				
-				capital_scope = {
-					OR = {
-						controlled_by = THIS
-						controlled_by_rebels = yes
-					}
-				}
 				
 				OR = {
 					revolt_percentage = 0.30
@@ -148,7 +140,9 @@ country_event = {
 					has_country_modifier = totalitarian_system
 					has_country_modifier = political_education
 					has_country_modifier = cult_of_personality
+					AND = { ruling_party_ideology = liberal average_militancy = 2 }
 					AND = { ruling_party_ideology = fascist average_militancy = 2 }
+					AND = { ruling_party_ideology = socialist average_militancy = 2 }
 					AND = { ruling_party_ideology = communist average_militancy = 2 }
 					AND = { ruling_party_ideology = anarcho_liberal average_militancy = 2 }
 					AND = {
@@ -161,7 +155,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 30
+		months = 12
 		modifier = {
 			factor = 0.025
 			AND = {
@@ -218,8 +212,6 @@ country_event = {
 	
 	immediate = { 
 		set_country_flag = xinhai_revolution
-		2632 = { add_core = CHI }
-		1566 = { add_core = CHI }
 	}
 
 	option = {

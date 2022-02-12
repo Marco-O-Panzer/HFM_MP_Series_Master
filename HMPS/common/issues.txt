@@ -1165,7 +1165,7 @@ economic_reforms = {
 		}
 		education_reform_two = { #new
 			technology_cost = 5000
-			education_efficiency_modifier = 0.10
+			civilization_progress_modifier = 0.1
 			research_points = 0.1
 			
 			on_execute = {
