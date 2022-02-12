@@ -203,6 +203,7 @@ political_decisions = {
 		potential = {
 			can_nationalize = yes
 			civilized = yes
+			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		
 		allow = {
