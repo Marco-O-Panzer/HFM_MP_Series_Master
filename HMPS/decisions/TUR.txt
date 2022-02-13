@@ -265,7 +265,10 @@ political_decisions = {
 		
 		allow = {
 			state_n_government = 1
-			war_policy = jingoism
+			OR = {
+				war_policy = jingoism
+				war_policy = pro_military
+			}
 			NOT = { year = 1860 }
 		}
 		
@@ -508,8 +511,7 @@ political_decisions = {
 				}
 			}
 			war = no
-			TUN = { 
-				in_sphere = THIS
+			TUN = {
 				vassal_of = THIS
 				neighbour = THIS
 			}
@@ -555,8 +557,7 @@ political_decisions = {
 				war_policy = jingoism
 				war_policy = pro_military
 			}
-			WAL = { 
-				in_sphere = THIS
+			WAL = {
 				vassal_of = THIS
 				neighbour = THIS
 			}
@@ -610,7 +611,6 @@ political_decisions = {
 				war_policy = pro_military
 			}
 			MOL = {
-				in_sphere = THIS
 				vassal_of = THIS
 				neighbour = THIS
 			}
@@ -1169,41 +1169,6 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
-	claim_bahrain = {
-		picture = bahrain_trade
-		potential = {
-			tag = TUR
-			has_country_flag = qatar_protection
-			year = 1880
-			NOT = { has_country_flag = claimed_the_persian_gulf }
-			NOT = { owns = 1165 }
-			NOT = { owns = 1162 }
-			1165 = { is_core = THIS }
-			NOT = { 1162 = { is_core = THIS } }
-		}
-
-		allow = {
-			war = no
-			revolution_n_counterrevolution = 1
-			OR = {
-				is_greater_power = yes
-				is_secondary_power = yes
-			}
-			OR = {
-				owns = 1164
-				owns = 1071
-				owns = 1167
-			}
-		}
-
-		effect = {
-			set_country_flag = claimed_the_persian_gulf
-			badboy = 2
-			1162 = { add_core = THIS }
-			}
-		ai_will_do = { factor = 1 }
-	}
-	
 	claim_arab_coast = {
 		picture = nejd_sanjak
 		potential = {
@@ -1226,10 +1191,10 @@ political_decisions = {
 
 		effect = {
 			set_country_flag = claimed_arab_coast
-			badboy = 5
+			badboy = 4
 			1163 = { add_core = THIS }
 			1164 = { add_core = THIS }
-			}
+		}
 		ai_will_do = { factor = 1 }
 	}
 	
@@ -1253,10 +1218,12 @@ political_decisions = {
 			}
 			war = no
 			has_recently_lost_war = no
-			is_greater_power = yes
+			OR = {
+				is_greater_power = yes
+				is_secondary_power = yes
+			}
 			mass_politics = 1
-			KWT = { 
-				in_sphere = THIS
+			KWT = {
 				vassal_of = THIS
 				neighbour = THIS
 			}
@@ -1311,11 +1278,12 @@ political_decisions = {
 			}
 			war = no
 			has_recently_lost_war = no
-			is_greater_power = yes
+			OR = {
+				is_greater_power = yes
+				is_secondary_power = yes
+			}
 			mass_politics = 1
-			war_policy = jingoism
-			SAM = { 
-				in_sphere = THIS
+			SAM = {
 				OR = {
 					vassal_of = THIS
 					substate_of = THIS

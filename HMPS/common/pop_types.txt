@@ -530,13 +530,13 @@ migration_chance = {
 		}
 		modifier = {
 			factor = 0.1
-			not = { life_needs = 0.8 }
+			not = { life_needs = 0.7 }
 			not = { everyday_needs = 0.1 }
 			not = { luxury_needs = 0.1 }
 		}
 		modifier = {
 			factor = 0.1
-			not = { life_needs = 0.7 }
+			not = { life_needs = 0.5 }
 			not = { everyday_needs = 0.1 }
 			not = { luxury_needs = 0.1 }
 		}
@@ -576,7 +576,7 @@ migration_chance = {
 		}
 		
 		modifier = {
-			factor = 0.25
+			factor = 0.2
 			location = { controlled_by = owner }
 			unemployment = 0.5
 			#NOT = { unemployment = 1 }
@@ -795,27 +795,27 @@ emigration_chance = {
 	
 	group = {
 		modifier = {
-			factor = 0.05
+			factor = 0.025
 			militancy = 4
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0.025
 			militancy = 5
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0.025
 			militancy = 6
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0.025
 			militancy = 7
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.025
 			militancy = 8
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.025
 			militancy = 9
 		}
 	}
@@ -849,47 +849,39 @@ emigration_chance = {
 			factor = 0.025
 			literacy = 0.7
 		}
-		modifier = {
-			factor = 0.025
-			literacy = 0.8
-		}
-		#modifier = {
-		#	factor = 0.025
-		#	literacy = 0.9
-		#}
 	}
 
 	group = {
 		modifier = {
-			factor = -0.025
+			factor = -0.01
 			not = { consciousness = 8 }
 		}
 		modifier = {
-			factor = -0.025
+			factor = -0.01
 			not = { consciousness = 7 }
 		}
 		modifier = {
-			factor = -0.025
+			factor = -0.01
 			not = { consciousness = 6 } 
 		}
 	}
 
 	group = {
 		modifier = {
-			factor = 0.05
+			factor = 0.02
 			not = { life_needs = 0.9 }
 			not = { everyday_needs = 0.1 }
 			not = { luxury_needs = 0.1 }
 		}
 		modifier = {
-			factor = 0.075
-			not = { life_needs = 0.8 }
+			factor = 0.02
+			not = { life_needs = 0.7 }
 			not = { everyday_needs = 0.1 }
 			not = { luxury_needs = 0.1 }
 		}
 		modifier = {
-			factor = 0.1
-			not = { life_needs = 0.7 }
+			factor = 0.02
+			not = { life_needs = 0.5 }
 			not = { everyday_needs = 0.1 }
 			not = { luxury_needs = 0.1 }
 		}
@@ -907,7 +899,6 @@ emigration_chance = {
 	modifier = {
 		factor = -0.1
 		state_scope = { has_factories = yes }
-		not = { unemployment = 0.2 }
 		OR = {
 			country = { NOT = { has_country_flag = great_irish_famine } }
 			location = {
@@ -923,32 +914,32 @@ emigration_chance = {
 
 	group = {
 		modifier = {
-			factor = 0.075
+			factor = 0.01
 			unemployment = 0.1
 			NOT = { unemployment = 1 }
 		}
 		
 		modifier = {
-			factor = 0.075
+			factor = 0.01
 			unemployment = 0.2
 			NOT = { unemployment = 1 }
 		}
 		
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			unemployment = 0.3
 			NOT = { unemployment = 1 }
 		}
 		
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			location = { controlled_by = owner }
 			NOT = { unemployment = 1 }
 			unemployment = 0.4
 		}
 		
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			location = { controlled_by = owner }
 			NOT = { unemployment = 1 }
 			unemployment = 0.5
@@ -1142,7 +1133,14 @@ emigration_chance = {
 	}
 	
 	modifier = {
-		factor = -0.05
+		factor = -0.03
+		country = {
+			government = hms_government
+		}
+	}
+	
+	modifier = {
+		factor = -0.025
 		country = { 
 			administration_spending = 0.75
 			OR = {
@@ -1153,8 +1151,11 @@ emigration_chance = {
 	}
 		
 	modifier = {
-		factor = -0.05
-		country = { administration_spending = 0.99 unemployment_subsidies = good_subsidies }
+		factor = -0.025
+		country = { 
+			administration_spending = 0.99
+			unemployment_subsidies = good_subsidies
+		}
 	}
 	
 	modifier = {

@@ -11,9 +11,10 @@ political_decisions = {
 		allow = {
 			war = no
 			revolution_n_counterrevolution = 1
+			CPL = { all_core = { owned_by = THIS } }
 		}
 		effect = {
-			badboy = 20
+			badboy = 10
 			CPL = {
 				all_core = {
 					add_core = THIS

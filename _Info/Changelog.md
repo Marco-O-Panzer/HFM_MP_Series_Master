@@ -45,6 +45,7 @@ Everything else is our own (as far as I remember).
 - Party support increased to 0.010 daily
 - Assimilation NF
 #### CBs
+- Great Wars locked until 1900
 - Can add war goals on puppets
 - Justify 'fake' overlord war in order to add CBs on puppets
 - Take capital & minor conquest added
@@ -100,6 +101,7 @@ Everything else is our own (as far as I remember).
 - Power: Grants RGO size increases
 - Metallurgy: Huge output buffs
 - Transport: Later techs increase max railroad to lvl 10
+- Farm RGOs stop scaling with late-campaign Power and Transport tech
 #### Infrastructure
 - Railroad: Max lvl increased to 10, effects per railroad lvl buffed (RGO output & factory throughput)
 - Naval Bases: No longer give navy cap, max lvl increased to 8
@@ -130,7 +132,7 @@ Many nations no longer need (only) GP for flava, or high prestige. War policy re
 - AUS: Can form SGF (and release its non German land)
 - DNB: RnG removed & cultures now accepted via decisions
 - RUS: Only cores Poland late-campaign, option to take all of Manchuria, decision to core CPL land
-- Ottos: Tanzimat reforms can be completed as a republic, Arab revolt won't fire as long as a con-mon or republic
+- Ottos: Tanzimat reforms can be completed as a republic (must be completed pre-1900 to avoid risk of collapse), Arab revolt won't fire as long as a con-mon or republic
 - POR: Can unite with Brazil to form the UPB
 #### Americas
 - USA: Can claim all of Mexico (with only standard MD cores)

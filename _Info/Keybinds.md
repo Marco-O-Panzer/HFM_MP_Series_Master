@@ -6,7 +6,7 @@
 - Search Province: z
 
 
-- ## Mapmodes
+## Mapmodes
 - Naval mapmode: \[
 - Relations Mapmode: ;
 - Westernisation mapmode: '
@@ -39,7 +39,7 @@
 - Tabs are F1-4
 - Open & Close parties: \
 
-- #### Population
+#### Population
 - shortcut = "5"
 - De-select national focus: \
 - Filter all pops in poptab: z
@@ -61,7 +61,7 @@
 - Auto Create leaders: x
 - Auto Assign leaders: c
 - Sort by general type in army tab: v
-- 
+
 - Build army: a    # Couldnt add in
 - Build navy: s    # Couldnt add in
 - Mobilize: d

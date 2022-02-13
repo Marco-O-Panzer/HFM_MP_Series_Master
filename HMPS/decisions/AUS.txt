@@ -1071,11 +1071,15 @@ political_decisions = {
 		allow = {
 			invention = political_science
 			money = 2000000
+			GLM = { all_core = { owned_by = THIS } }
 		}
 		effect = {
 			money = -2000000
-			AUS_702 = { add_core = THIS }
-			AUS_662 = { add_core = THIS }
+			GLM = {
+				all_core = {
+					add_core = THIS
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 1

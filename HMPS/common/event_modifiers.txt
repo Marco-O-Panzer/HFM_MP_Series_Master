@@ -763,10 +763,10 @@ trade_city = {
 }
 
 peacetime_mobilization = {
-	ruling_party_support = -0.40
-	loan_interest = 1
-	cb_generation_speed_modifier = -0.2
-	war_exhaustion = 0.05
+	#ruling_party_support = -0.40
+	#loan_interest = 1
+	#cb_generation_speed_modifier = -0.2
+	#war_exhaustion = 0.25
 	prestige = -0.05
 	icon = 6
 }
