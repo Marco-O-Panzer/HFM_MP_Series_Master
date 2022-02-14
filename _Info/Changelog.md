@@ -18,11 +18,13 @@
 - Thanks to Nurse_Reno for the craftsmen & bureaucrats fix, and immigration code.
 - Thanks to Zombie for the keybinds help
 - Thankyou to Jman for the batch file to add in parties
+- Settings file from ZombieDoD (Zombie_Freak)
+Thankyou to Zombie_Freak for the advice over the past months
 Everything else is our own (as far as I remember).
 ---
 <br/>
 
-**Any problems or changes to suggest can talk to the mod creators: Townes, Abe, Gracchus, Atlas, Jmon**
+**Any problems or changes to suggest can talk to lead dev: Townes**
 
 <br/>
 ---
@@ -65,6 +67,7 @@ Everything else is our own (as far as I remember).
 #### Demotion & Promotion#
 - Reduced (~33% decrease) rate of promotion
 - Greatly (+100%) increased rate of promotion
+- Non-accepted overseas colonials limited to 1% soldiers, until Colonial Reform (then limited to 2.5%)
 #### Assimilation
 - Republics have a slight increase
 - Equality NV: slight increase

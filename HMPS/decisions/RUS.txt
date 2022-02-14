@@ -36,7 +36,7 @@ political_decisions = {
 			badboy = -4
 			political_reform = peonage
 			clr_country_flag = serfdom_not_abolished
-			add_country_modifier = { name = total_reform duration = 1095 }
+			add_country_modifier = { name = total_reform duration = 1825 }
 			any_country = {
 				limit = {
 					OR = {

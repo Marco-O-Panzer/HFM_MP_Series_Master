@@ -1343,9 +1343,13 @@ serfs = {
 				state_scope = { soldiers = 0.045 }
 			}
 		}
+		
 		modifier = {
 			factor = -100
-			state_scope = { soldiers = 0.008 }
+			OR = {
+				state_scope = { soldiers = 0.01 }
+				has_pop_religion = animist
+			}
 			OR = {
 				location = { is_colonial = yes is_overseas = yes }
 				AND = { 
@@ -1360,15 +1364,15 @@ serfs = {
 			}
 			is_primary_culture = no
 			is_accepted_culture = no
-			OR = {
-				has_pop_religion = animist
-				NOT = { country = { has_country_flag = colonial_armies } }
-			}
+			NOT = { country = { has_country_flag = colonial_armies } }
 		}
 		
 		modifier = {
 			factor = -100
-			state_scope = { soldiers = 0.015 }
+			OR = {
+				state_scope = { soldiers = 0.025 }
+				has_pop_religion = animist
+			}
 			OR = {
 				location = { is_colonial = yes is_overseas = yes }
 				AND = { 
@@ -1383,8 +1387,7 @@ serfs = {
 			}
 			is_primary_culture = no
 			is_accepted_culture = no
-			NOT = { has_pop_religion = animist }
-			NOT = { country = { has_country_flag = colonial_armies } }
+			country = { has_country_flag = colonial_armies }
 		}
 	}
 
