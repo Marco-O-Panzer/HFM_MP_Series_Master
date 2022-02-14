@@ -136,7 +136,6 @@ political_decisions = {
 				government = hms_government
 			}
 			NOT = { has_global_flag = ioan_cuzas_reforms }
-			year = 1860
 		}
 			
 		allow = {
