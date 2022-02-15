@@ -196,6 +196,34 @@ country_event = {
 						
 						### The Rhine
 						province_id = 575
+						province_id = 581
+						province_id = 577
+						province_id = 3265
+						province_id = 578
+						province_id = 575
+						province_id = 574
+						province_id = 570
+						province_id = 571
+						province_id = 409
+						province_id = 410
+						province_id = 587
+						province_id = 586
+						province_id = 604
+						province_id = 603
+						province_id = 569
+						province_id = 2560
+						province_id = 565
+						province_id = 579
+						province_id = 2561
+						province_id = 578
+						province_id = 3625
+						province_id = 378
+						province_id = 380
+						province_id = 379
+						province_id = 382
+						province_id = 377
+						province_id = 376
+						
 						
 						### The Dnieper and The Daugava
 						province_id = 970
@@ -330,6 +358,16 @@ country_event = {
 						province_id = 1620
 						province_id = 1623
 						province_id = 1622
+						
+						### The Po River
+						province = 731
+						province = 730
+						province = 728
+						province = 726
+						province = 723
+						province = 738
+						province = 739
+						province = 742
 					}
 				}
 				add_province_modifier = {
