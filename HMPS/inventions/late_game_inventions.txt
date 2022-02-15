@@ -23,7 +23,6 @@ advanced_roads = {
 	}
 	effect = {
 		max_railroad = 1
-		farm_rgo_eff = -0.25
 	}
 }
 
@@ -42,7 +41,6 @@ advanced_roads_2 = {
 	}
 	effect = {
 		max_railroad = 1
-		farm_rgo_eff = -0.25
 	}
 }
 
@@ -61,6 +59,5 @@ advanced_roads_3 = {
 	}
 	effect = {
 		max_railroad = 1
-		farm_rgo_eff = -0.25
 	}
 }

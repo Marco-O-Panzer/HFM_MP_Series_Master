@@ -148,7 +148,7 @@ sharp_n_roberts_power_loom = {
 			cotton = 0.2
 		}
 		rgo_goods_output = {
-			wool = 0.2
+			wool = 0.05
 		}
 	}
 }
@@ -167,14 +167,11 @@ jacquard_power_loom = {
 	}
 	effect = {
 		rgo_goods_output = {
-			wool = 0.2
+			wool = 0.05
 		}
 		rgo_goods_output = {
 			silk = 0.2
 		}
-		#factory_goods_output = {
-		#	fabric = 0.05 
-		#}
 	}
 }
 northrop_power_loom = {
@@ -195,7 +192,7 @@ northrop_power_loom = {
 			cotton = 0.2
 		}
 		rgo_goods_output = {
-			wool = 0.2
+			wool = 0.05
 		}
 		rgo_goods_output = {
 			silk = 0.2
@@ -264,7 +261,7 @@ hussey_n_mccormicks_reaping_machine = {
 			grain = 0.2
 		}
 		rgo_goods_output = {
-			fruit = 0.2
+			fruit = 0.05
 		}
 		rgo_goods_output = {
 			tea = 0.1
@@ -289,7 +286,7 @@ pitts_threshing_machine = {
 			grain = 0.2
 		}
 		rgo_goods_output = {
-			fruit = 0.2
+			fruit = 0.05
 		}
 		rgo_goods_output = {
 			tea = 0.2
@@ -314,7 +311,7 @@ mechanized_slaughtering_block = {
 			cattle = 0.45
 		}
 		rgo_goods_output = {
-			wool = 0.2
+			wool = 0.05
 		}
 	}
 }
@@ -671,10 +668,10 @@ refrigerator_technology = {
 	}
 	effect = {
 		rgo_goods_output = {
-			cattle = 0.3
+			cattle = 0.2
 		}
 		rgo_goods_output = {
-			fruit = 0.2
+			fruit = 0.05
 		}
 		rgo_goods_output = {
 			fish = 0.2
@@ -1548,7 +1545,7 @@ tulls_seed_drill = {
 			grain = 0.1
 		}
 		rgo_goods_output = {
-			fruit = 0.1
+			fruit = 0.05
 		}
 		rgo_goods_output = {
 			coffee = 0.1

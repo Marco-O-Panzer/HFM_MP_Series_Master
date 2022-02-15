@@ -779,7 +779,7 @@ liquor_distillery = {
 	template = cheap_factory_template
 	input_goods = {        
 		grain = 10		#22
-		#fruit = 5		#9
+		fruit = 2		#9
 		glass = 13		#37.7	total input+maint = 72.7
 	}
 	output_goods = liquor 
@@ -968,7 +968,7 @@ RGO_template_labourers = {
 cattle_ranch = {
 	template = RGO_template_farmers
 	output_goods = cattle 
-	value = 3.5
+	value = 3.8
 	farm = yes
 }
 
@@ -1003,7 +1003,7 @@ dye_plantation = {
 fishing_wharf = {
 	template = RGO_template_farmers
 	output_goods = fish 
-	value = 4.5 #2.2
+	value = 4.2 #2.2
 	farm = yes
 }
 
@@ -1554,6 +1554,7 @@ artisan_canned_food = {
 artisan_liquor = {     
 	input_goods = {        
 		grain = 10		#22
+		fruit = 2
 		glass = 8		#23.2	total input+maint = 55
 	}
 	output_goods = liquor 

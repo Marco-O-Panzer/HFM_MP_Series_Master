@@ -182,58 +182,6 @@ promotion_chance = {
 		factor = -100
 		location = { NOT = { controlled_by = owner } }
 	}
-	
-	modifier = {
-		factor = 0.5
-		state_scope = { is_colonial = yes }
-		country = {
-			colonial_policy = settlement
-			primary_culture = russian
-		}
-		location = { 
-			is_colonial = yes 
-			is_overseas = no
-			NOT = { is_core = THIS }
-			NOT = { is_core = CRI }
-		}
-	}
-	
-	modifier = {
-		factor = 0.5
-		strata = poor
-		OR = {
-			is_primary_culture = yes
-			is_accepted_culture = yes
-		}
-		location = { 
-			OR = { 
-				state_id = 1086
-				state_id = 1643
-			}
-		}
-		state_scope = { 
-			is_colonial = yes 
-			total_pops = 155000
-		}
-		country = { colonial_policy = settlement }
-	}
-	
-	modifier = {
-		factor = 0.2
-		OR = {
-			is_accepted_culture = yes
-			is_primary_culture = yes
-		}
-		location = {
-			is_colonial = yes
-			is_core = ALD
-			OR = { 
-				is_core = FRA
-				is_core = BOR
-			}
-		}
-		country = { primary_culture = french }
-	}
 }
 
 demotion_chance = {
@@ -446,14 +394,8 @@ migration_chance = {
 	factor = 1
 	
 	modifier = {
-		factor = -3
+		factor = -100
 		NOT = { year = 1837 }
-	}
-	
-	modifier = {
-		factor = 1
-		country = { has_country_flag = promoted_european_culture }
-		location = { continent = europe }
 	}
 	
 	group = {
@@ -525,20 +467,22 @@ migration_chance = {
 		modifier = {
 			factor = 0.1
 			not = { life_needs = 0.9 }
-			not = { everyday_needs = 0.1 }
-			not = { luxury_needs = 0.1 }
+		}
+		modifier = {
+			factor = 0.1
+			not = { life_needs = 0.8 }
 		}
 		modifier = {
 			factor = 0.1
 			not = { life_needs = 0.7 }
-			not = { everyday_needs = 0.1 }
-			not = { luxury_needs = 0.1 }
+		}
+		modifier = {
+			factor = 0.1
+			not = { life_needs = 0.6 }
 		}
 		modifier = {
 			factor = 0.1
 			not = { life_needs = 0.5 }
-			not = { everyday_needs = 0.1 }
-			not = { luxury_needs = 0.1 }
 		}
 	}
 
@@ -549,20 +493,20 @@ migration_chance = {
 
 	group = {
 		modifier = {
-			factor = 0.05
+			factor = 0.2
 			unemployment = 0.1
 			#NOT = { unemployment = 1 }
 		}
 		
 		modifier = {
-			factor = 0.1
+			factor = 0.2
 			location = { controlled_by = owner }
 			unemployment = 0.2
 			#NOT = { unemployment = 1 }
 		}
 		
 		modifier = {
-			factor = 0.15
+			factor = 0.2
 			location = { controlled_by = owner }
 			unemployment = 0.3
 			#NOT = { unemployment = 1 }
@@ -581,6 +525,12 @@ migration_chance = {
 			unemployment = 0.5
 			#NOT = { unemployment = 1 }
 		}
+	}
+	
+	modifier = {
+		factor = 1
+		country = { has_country_flag = promoted_european_culture }
+		location = { continent = europe }
 	}
 }
 
@@ -764,7 +714,7 @@ emigration_chance = {
 	factor = 0.6
 	
 	modifier = {
-		factor = -3
+		factor = -100
 		NOT = { year = 1837 }
 	}
 	
@@ -978,18 +928,6 @@ emigration_chance = {
 		country = { is_culture_group = south_asian civilized = yes }
 	}
 	
-	modifier = {
-		factor = -0.05
-		THIS = { NOT = { is_culture_group = polish_culture_group } }
-		country = { debt_law = serfdom }
-	}
-	
-	modifier = {
-		factor = -0.05
-		THIS = { NOT = { is_culture_group = polish_culture_group } }
-		country = { debt_law = peonage }
-	}
-	
 	group = {
 		modifier = {
 			factor = -0.075
@@ -1076,31 +1014,6 @@ emigration_chance = {
 		}
 	}
 	
-	
-	modifier = {
-		factor = -0.05
-		THIS = { 
-			is_culture_group = germanic
-		}
-		location = { 
-			AND = {
-				controlled_by = owner
-				OR = {
-					state_id = 701
-					state_id = 682
-					state_id = 690
-					state_id = 695
-				}
-			}
-		}
-		country = { 
-			AND = { 
-				is_greater_power = yes
-				is_culture_group = germanic
-			}
-		}
-	}
-	
 	modifier = {
 		factor = -2.0
 		OR = {
@@ -1175,12 +1088,9 @@ assimilation_chance = {
 	
 	modifier = {
 		factor = -20
-		has_culture_core = yes
-		NOT = {
-			AND = {
-				country = { has_country_flag = promoted_european_culture }
-				location = { continent = europe }
-			}
+		OR = {
+			has_culture_core = yes
+			location = { any_core = { is_cultural_union = yes } }
 		}
 		OR = {
 			country = { citizens_rights = primary_culture_only }

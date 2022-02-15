@@ -785,3 +785,7 @@ planned_economy_desc;The government makes all decisions on the production and co
 river_notification;§CMajor River§!\nCrossing Penalty: §Y-2§!;x
 assert_control_over_gl_title;Assert Control over Galicia-Lodomeria;x
 assert_control_over_gl_desc;Since 1775 we have controlled Galicia-Lodomeria, and yet we have neglected to invest in it. Now we shall, and its shall become a full part of our administration.;x
+TECH_MINE_OUTPUT;Mining efficiency;x
+TECH_FARM_OUTPUT;Farming efficiency;x
+MODIFIER_FARM_EFFICIENCY;Farming Output;x
+MODIFIER_MINE_EFFICIENCY;Mining Output;x

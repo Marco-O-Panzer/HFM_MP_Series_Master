@@ -1891,20 +1891,20 @@ local_tractors = {
 }
 
 local_nitroglycerin_and_machine_tools = {
-	mine_RGO_eff = 0.5
+	mine_RGO_eff = 0.75
 	mine_RGO_size = 0.5
 	icon = 13
 }
 
 local_distribution_channels_und_electricity = {
-	farm_RGO_eff = 0.5
-	mine_RGO_eff = 0.5
+	farm_RGO_eff = 0.75
+	mine_RGO_eff = 0.75
 	local_factory_throughput = 0.05
 	icon = 11
 }
 
 local_electricity = {
-	mine_RGO_eff = 0.5
+	mine_RGO_eff = 0.75
 	local_factory_throughput = 0.05
 	icon = 13
 }
@@ -3104,7 +3104,7 @@ recent_crisis = {
 
 ### French Events ###
 french_cultural_unity = {
-	assimilation_rate = 3.5
+	assimilation_rate = 2
 	icon = 19
 }
 
