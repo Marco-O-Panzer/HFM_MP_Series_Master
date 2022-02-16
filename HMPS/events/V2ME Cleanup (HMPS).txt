@@ -360,14 +360,75 @@ country_event = {
 						province_id = 1622
 						
 						### The Po River
-						province = 731
-						province = 730
-						province = 728
-						province = 726
-						province = 723
-						province = 738
-						province = 739
-						province = 742
+						province_id = 731
+						province_id = 730
+						province_id = 728
+						province_id = 726
+						province_id = 723
+						province_id = 738
+						province_id = 739
+						province_id = 742
+						
+						### The Saint Lawrence
+						province_id = 56
+						province_id = 239
+						province_id = 66
+						province_id = 67
+						province_id = 65
+						province_id = 64
+						province_id = 58
+						
+						### The Indus River
+						province_id = 1288
+						province_id = 1289
+						province_id = 1228
+						province_id = 1218
+						province_id = 1223
+						province_id = 1225
+						province_id = 1226
+						province_id = 1235
+						province_id = 1224
+						province_id = 1222
+						province_id = 1221
+						province_id = 1219
+						province_id = 1217
+						province_id = 1216
+						province_id = 1210
+						
+						### The Yellow River
+						province_id = 1567
+						province_id = 1568
+						province_id = 1564
+						province_id = 1508
+						province_id = 1510
+						province_id = 1562
+						province_id = 1559
+						province_id = 2062
+						province_id = 1575
+						province_id = 1511
+						province_id = 1515
+						province_id = 1563
+						province_id = 1570
+						
+						### The Yangtze River
+						province_id = 1537
+						province_id = 1544
+						province_id = 2221
+						province_id = 1475
+						province_id = 1471
+						province_id = 1549
+						province_id = 1522
+						province_id = 1528
+						province_id = 1525
+						province_id = 1521
+						province_id = 1520
+						province_id = 1516
+						province_id = 1518
+						province_id = 1470
+						province_id = 1474
+						province_id = 1477
+						province_id = 1543
+						province_id = 1541
 					}
 				}
 				add_province_modifier = {
