@@ -324,21 +324,6 @@ country_event = {
 						province_id = 468
 						province_id = 467
 						
-						### The Loire
-						province_id = 423
-						province_id = 435
-						province_id = 441
-						province_id = 440
-						province_id = 438
-						province_id = 439
-						province_id = 430
-						province_id = 422
-						province_id = 424
-						province_id = 417 
-						province_id = 436
-						province_id = 426
-						province_id = 428
-						
 						### The Amur
 						province_id = 1084
 						province_id = 2617
