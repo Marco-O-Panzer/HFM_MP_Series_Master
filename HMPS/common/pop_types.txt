@@ -1090,7 +1090,7 @@ assimilation_chance = {
 		factor = -20
 		OR = {
 			has_culture_core = yes
-			location = { any_core = { is_cultural_union = yes } }
+			location = { any_core = { is_cultural_union = yes is_accepted_culture = THIS } }
 		}
 		OR = {
 			country = { citizens_rights = primary_culture_only }

@@ -232,7 +232,7 @@ med_getting_trolled = {
 	tariff_efficiency_modifier = -0.1
 	import_cost = 0.1
 	prestige = -0.05
-	icon = 9
+	icon = 10
 }
 
 ### Haiti stuff ###

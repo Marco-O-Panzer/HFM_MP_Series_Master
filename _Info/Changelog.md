@@ -55,6 +55,8 @@ Everything else is our own (as far as I remember).
 - Military access CB (~week justification), the war is the access
 - Mass conquest if a dictatorship form with Mass Politics
 - 10 infamy demand chinese concession
+#### Revanchism
+- Army & mob buff modifiers scale with % of revanchism (capped at 50%)
 
 ## Population
 #### Liferating & Growth
