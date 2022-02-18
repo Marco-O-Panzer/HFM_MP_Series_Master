@@ -15,8 +15,8 @@ political_decisions = {
 		}
 		
 		allow = {
-			nationalism_n_imperialism = 1
-			is_greater_power = yes
+			state_n_government = 1
+			#is_greater_power = yes
 			war_policy = jingoism
 			war = no
 		}
@@ -47,7 +47,7 @@ political_decisions = {
 		
 		allow = {
 			war = no
-			nationalism_n_imperialism = 1
+			state_n_government = 1
 			CLM = {
 				OR = {
 					in_sphere = THIS
@@ -152,7 +152,70 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	
+	colombia_afro_latino = {
+		picture = accept_afro_latino
+		potential = {
+			OR = {
+				tag = GCO 
+				tag = CLM
+			}
+			NOT = { has_country_flag = colombia_afro_latino }
+		}
+		allow = {
+			invention = national_fraternity
+			slavery = no_slavery
+		}
+		effect = {
+			prestige = 5
+			set_country_flag = colombia_afro_latino
+			add_accepted_culture = afro_caribeno
+			any_pop = {
+				limit = {
+					has_pop_culture = afro_caribeno
+					NOT = { literacy = 0.1 }
+				}
+				consciousness = 2.5
+				literacy = 0.05
+			}
+		}
+	}
+
+	claim_the_andes = {
+		picture = bolivars_dream
+		potential = {
+			tag = GCO 
+			NOT = {
+				has_country_flag = federation_andes
+			}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			OR = {
+				is_greater_power = yes
+				is_secondary_power = yes
+			}
+			NOT = {
+				badboy = 10
+			}
+		}
+		effect = {
+			set_country_flag = federation_andes
+			badboy = 15
+			PBC = {
+				all_core = { add_core = GCO }
+			}
+			SPU = {
+				all_core = { add_core = GCO }
+			}
+			PEU = {
+				all_core = { add_core = GCO }
+			}
+			BOL = {
+				all_core = { add_core = GCO }
+			}
+		}
+	}
+
 	mexican_colombian_cuba = {
 		picture = spanish_cuba
 		potential = {
@@ -184,7 +247,7 @@ political_decisions = {
 				limit = { owner = { tag = GCO }  }
 				
 				owner = {
-					add_accepted_culture = afro_caribeno
+					add_accepted_culture = caribeno
 				}
 			}
 		}

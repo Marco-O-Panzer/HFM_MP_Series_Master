@@ -3,6 +3,7 @@ mulatto;Mulâtres;;;;;;;;;;;;;;;;;;;;;;;;x
 afro_antillean;Afro-Français;;;;;;;;;;;;;;;;;;;;;;;;x
 afro_caribeno;Afro-Latino;;;;;;;;;;;;;;;;;;;;;;;;x
 afro_caribbean;Afro-Caribbean;;;;;;;;;;;;;;;;;;;;;;;;x
+french_canadian;Canadiens-Français;;;;;;;;;;;;;;;;;;;;;;;;x
 EVTNAME45107;Haiti Fails to Honour its Debts;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 EVTDESC45107;Haitian legacy of debt began shortly after gaining independence from France in 1804. In 1825, France, with warships at the ready, demanded Haiti compensate France for its loss of slaves and its slave colony. In exchange for French recognition of Haiti as a sovereign republic, France demanded payment of 150 million francs. In addition to the payment, France required that Haiti discount its exported goods to them by 50%. In $YEAR$, France agreed to reduce the debt to 90 million francs (500,000Â¤) to be paid over a period of 30 years to compensate former plantation owners who had lost their property. Haiti, however, still refuses to pay what is owed to us and will not do so unless we use force.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 EVT45107OPTA;We will take what is owed to us.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -80,3 +81,7 @@ full_siege_me_down_title;Haiti Shall not fall;;;;;;;;;;;;;x
 full_siege_me_down_desc;Haiti will not be enslaved once again;;;;;;;;;;;;;x
 diplo_end_blockade_title;Diplomatically end US blockade;;;;;;;;;;;;;x
 diplo_end_blockade_desc;We must peacfully end the the US Blockade on us;;;;;;;;;;;;;x
+colombia_afro_latino_title;Intergrate Our Afro-Latino Population into the General Population;;;;;;;;;;;;;x
+colombia_afro_latino_desc;In an agreement in Alexandre Petion, then President of Haiti, and El Liberator, Simon Bolivar, agreed to that Haiti would support Bolivar until all of the Americas are free, but Bolivar would have to end slavery and give equal rights to all slaves in liberated territories, though Bolivar reduced the power of slavery in all countries he freed slavery and discrimination still existed well after Bolivar. But there is always room for change and in our new consistution we have given equal rights to the rest of the population.;;;;;;;;;;;;;x
+claim_the_andes_title;Claim the Andean states;;;;;;;;;;;;;x
+claim_the_andes_desc;Years ago the Andes were controlled by Simon Bolivar and was on the path towards unification before divisions broke it all appart but we now again have the opportunity to reunite;;;;;;;;;;;;;x
