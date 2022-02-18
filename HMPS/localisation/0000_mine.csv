@@ -142,27 +142,6 @@ to_priority_funded_title;§EAdvance Research Funding§!;;;;;;;;;;;;;x,,
 to_priority_funded_desc;Advances in our nations education and research allow the government to increase funding for research projects, and put more political focus into R&D.;;;;;;;;;;;;;x,,
 secret_police;Secret Police;;;;;;;;;;;;;x,,
 encourage_assimilation;Encourage Assimilation;;;;;;;;;;;;;x,,
-EUR;The United States of Europe;;;;;;;;;;;;;x,,
-EUR_democracy;The United States of Europe;;;;;;;;;;;;x
-EUR_absolute_monarchy;The Empire;;;;;;;;;;;;x
-EUR_prussian_constitutionalism;The European Empire;;;;;;;;;;;;x
-EUR_hms_government;The European Empire;;;;;;;;;;;;x
-EUR_presidential_dictatorship;The Regime;;;;;;;;;;;;x
-EUR_bourgeois_dictatorship;The Free State of Europe;;;;;;;;;;;;x
-EUR_proletarian_dictatorship;The Socialist Republic of Europe;;;;;;;;;;;;x
-EUR_fascist_dictatorship;The Union of Europe;;;;;;;;;;;;x
-EUR_ADJ;European;;;;;;;;;;;;;x,,
-pan_european;European;;;;;;;;;;;;;x,,
-EVTNAME7777901;The United States Of Europe;;;;;;;;;;;;;x,,
-EVTDESC7777901;During a speech in 1849 in the wake of the French revolution, prominent novelist and politician Victor Hugo called for the United States of Europe. France did not follow through on this, but the potential is there to take. It could lead to the uniting of Europe, but will cause all the Old Powers to unite against us.;;;;;;;;;;;;;x,,
-claim_europe_title;For Europe!;x
-claim_europe_desc;We have laid claim to all of Europe, now we shall act on our claim. Europe shall be united, with liberty for all!;x
-our_europe_title;Our Europe;;;;;;;;;;;;;x,,
-our_europe_desc;We must seek to promote our values and our liberties. Our continental identity will shine!;;;;;;;;;;;;;x,,
-european_culture;European Culture;;;;;;;;;;;;;x,,
-european_culture_desc;Our continental identity will shine!;;;;;;;;;;;;;x,,
-form_the_EU_title;To a United Europe!;;;;;;;;;;;;;x,,
-form_the_EU_desc;As a great power, we can claim the right to establish a free, united, Europe.;;;;;;;;;;;;;x,,
 infamy_for_immigration_selector_title;§ECommence a Pro-immigration Campaign§!;;;;;;;;;;;;;x,,
 infamy_for_immigration_selector_desc;Strongly encourage immigrants to choose us as their destination, this is accomplished via a heavy propaganda campaign, and finanacial incentives such as a free journey.;;;;;;;;;;;;;x,,
 infamy_for_immigration_modifier_removal_title;§EEnd the Pro-immigration Campaign§!;;;;;;;;;;;;;x,,
@@ -731,8 +710,8 @@ california_population_boom_desc;The population of the state is growing rapidly d
 EVTNAME7777931;The End of California's Boom;x
 EVTDESC7777931;With the collapse of the Republic, the immigration wave that California once experienced is no more.;x
 EVTOPTA7777931;California's golden days are behind it;x
-establish_danube_federation_title;Found the Danubian Federation;x
-establish_danube_federation_desc;The time has come for the new government to be implemented. Long live the Danubian Federation!\n§YMust accept the cultures via decisions§!;x
+establish_danube_federation_title;The Danubian Federation;x
+establish_danube_federation_desc;The time has come for the new government to be implemented, one that can cooperate with and administer the various ethnicities inside our borders. Long live the Danubian Federation!\n§YMust accept the cultures via decisions§!;x
 embrace_slovak_minority;Embrace the Slovak Minority;x
 embrace_slovak_minority;We shall embrace our Slovak citizens, and elevate them to the status shared by that of the Hungarians.;x
 embrace_romanian_minority;Embrace the Romanian Minority;x

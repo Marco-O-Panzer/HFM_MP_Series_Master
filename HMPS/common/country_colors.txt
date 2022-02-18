@@ -5,13 +5,6 @@ GBR = {
     color3= { 83 149 105  }
 }
 
-
-EUR = {
-    color1= { 200 200 200 }
-    color2= { 99 137 153  }
-    color3= { 83 149 105  }
-}
-
 NGE = { #same as sokoto
     color1= { 49 244 76  }
     color2= { 94 117 55  }

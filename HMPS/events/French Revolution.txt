@@ -1,51 +1,9 @@
 #############################################################
-#							    #
-#                French Revolution Events		    #
-#							    #
+#							    #							#
+#                French Revolution Events		    #		#
+#							    #							#
 #############################################################
 
-
-country_event = {
-	id = 7777901
-	title = "EVTNAME7777901"
-	desc = "EVTDESC7777901"
-	picture = "victor_hugo"
-
-	trigger = {
-		has_country_flag = ready_for_hugo
-		NOT = { has_global_flag = mp_setup }
-	}
-	major = yes
-		
-	mean_time_to_happen = { months = 6 }
-	fire_only_once = yes
-
-	option = {
-		name = "The peoples of all of Europe are not our concern"
-		clr_country_flag = ready_for_hugo
-		ai_chance = { factor = 100 }
-	}
-
-	option = {
-		name = "For Europe!"
-		FRA = { all_core = { add_core = EUR } }
-		change_tag = EUR
-		primary_culture = pan_european
-		remove_accepted_culture = occitan
-		remove_accepted_culture = picard
-		remove_accepted_culture = breton
-		remove_accepted_culture = arpitan
-		remove_accepted_culture = cajun
-		remove_accepted_culture = french_canadian
-		remove_accepted_culture = neo_zelandais
-		425 = { assimilate = yes }
-		FRA = {
-			primary_culture = french
-		}
-		clr_country_flag = ready_for_hugo
-		ai_chance = { factor = 0 }
-	}
-}
 
 country_event = {
 	id = 10400

@@ -154,10 +154,7 @@ political_decisions = {
 		potential = {
 			part_of_sphere = yes
 			is_vassal = no
-			OR = {
-				NOT = { has_global_flag = mp_setup }
-				ai = no
-			}
+			ai = no
 			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		

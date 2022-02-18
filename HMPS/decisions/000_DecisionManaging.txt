@@ -35,7 +35,6 @@ political_decisions = {
 			NOT = { has_global_flag = looking_through_options }
 			NOT = { year = 1837 }
 			NOT = { has_country_flag = test_dec }
-			NOT = { has_global_flag = mp_setup }
 		}
 		
 		allow = {

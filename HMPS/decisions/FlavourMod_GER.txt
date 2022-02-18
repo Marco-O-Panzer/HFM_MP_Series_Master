@@ -853,12 +853,8 @@ political_decisions = {
 		picture = wilhelmshaven_imperial_shipyard
 		potential = {
 			NOT = { has_global_flag = wilhelmshaven_imperial_shipyard_built }
-			NOT = { has_global_flag = mp_setup }
 			tag = GER
 			owns = 3259
-			NOT = { capital = 599 }
-			year = 1870
-			NOT = { 3259 = { state_scope = { has_building = steamer_shipyard } } }
 		}
 		
 		allow = {
@@ -873,54 +869,7 @@ political_decisions = {
 			treasury = -50000
 			3259 = { state_scope = {  any_owned = { naval_base = -6 } } }
 			3259 = { naval_base = 3 }
-			random_owned = {
-				limit = {
-					province_id = 3259 #Wilhelmshaven
-					state_scope = { NOT = { has_building = steamer_shipyard } }
-				}
-				
-				owner = { 
-					capital = 3259
-					build_factory_in_capital_state = steamer_shipyard
-				}
-			}
-			random_owned = {
-				limit = {
-					province_id = 549 #Berlin
-					owned_by = PRU
-				}
-				PRU = { capital = 549 }
-			}
-			random_owned = {
-				limit = {
-					province_id = 549 #Berlin
-					owned_by = NGF
-				}
-				NGF = { capital = 549 }
-			}
-			random_owned = {
-				limit = {
-					province_id = 599 #Munich
-					owned_by = GCF
-					owner = { NOT = { has_global_flag = german_confederation_austrian } }
-				}
-				owner = { capital = 599 }
-			}
-			random_owned = {
-				limit = {
-					province_id = 549 #Berlin
-					owned_by = GER
-					owner = { primary_culture = north_german }
-				}
-				GER = { capital = 549 }
-			}
-			random_owned = {
-				limit = {
-					province_id = 619 #Vienna
-					owned_by = GCF
-				}
-				GCF = { capital = 619 }
-			}
+			steamer_convoy = 400
 		}
 		
 		ai_will_do = { factor = 1 }
@@ -935,12 +884,9 @@ political_decisions = {
 				tag = GER
 				tag = NGF
 			}
-			NOT = { capital = 599 }
-			NOT = { has_global_flag = mp_setup }
 			year = 1870
 			owns = 690
 			battleship_column_doctrine = 1
-			NOT = { 690 = { state_scope = { has_building = steamer_shipyard } } }
 		}
 		
 		allow = {
@@ -954,56 +900,7 @@ political_decisions = {
 			treasury = -50000
 			690 = { state_scope = {  any_owned = { naval_base = -6 } } }
 			690 = { naval_base = 3 }
-			random_owned = {
-				limit = {
-					province_id = 690 #Westpreußen
-					state_scope = {
-						NOT = { has_building = steamer_shipyard }
-					}
-				}
-				
-				owner = { 
-					capital = 690
-					build_factory_in_capital_state = steamer_shipyard
-				}
-			}
-			random_owned = {
-				limit = {
-					province_id = 549 #Berlin
-					owned_by = PRU
-				}
-				owner = { capital = 549 }
-			}
-			random_owned = {
-				limit = {
-					province_id = 549 #Berlin
-					owned_by = NGF
-				}
-				owner = { capital = 549 }
-			}
-			random_owned = {
-				limit = {
-					province_id = 549 #Berlin
-					owned_by = GER
-					owner = { primary_culture = north_german }
-				}
-				owner = { capital = 549 }
-			}
-			random_owned = {
-				limit = {
-					province_id = 599 #Munich
-					owned_by = GCF
-					owner = { NOT = { has_global_flag = german_confederation_austrian } }
-				}
-				owner = { capital = 599 }
-			}
-			random_owned = {
-				limit = {
-					province_id = 619 #Vienna
-					owned_by = GCF
-				}
-				owner = { capital = 619 }
-			}
+			steamer_convoy = 400
 		}
 		
 		ai_will_do = { factor = 1 }
@@ -1077,5 +974,34 @@ political_decisions = {
 		}
 		
 		ai_will_do = { factor = 1 }
+	}
+	
+	to_warsaw = {
+		picture = form_germany
+		potential = {
+			tag = GER
+			NOT = { 706 = { is_core = GER } }
+		}
+		allow = {
+			549 = {
+				owned_by = THIS
+			}
+			619 = {
+				owned_by = THIS
+			}
+			369 = {
+				owned_by = THIS
+			}
+			599 = {
+				owned_by = THIS
+			}
+		}
+		effect = { 
+			POL = { all_core = { add_core = GER } }
+			badboy = 30
+		}
+		ai_will_do = {
+			factor = 0
+		}
 	}
 }

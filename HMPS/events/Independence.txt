@@ -13,6 +13,7 @@ country_event = {
 	trigger = {
 		war = no
 		NOT = { tag = KUK }
+		NOT = { tag = DNB )
 		NOT = {
 			exists = HUN
 			has_country_flag = no_hungary_independence
@@ -543,12 +544,12 @@ country_event = {
 
 	trigger = {
 		war = no
-		NOT = { has_global_flag = mp_setup }
 		NOT = {
 			exists = CRO
 			has_country_flag = no_croatia_independence
 			primary_culture = croat
 		}
+		NOT = { tag = DNB )
 		is_possible_vassal = CRO
 		revolution_n_counterrevolution = 1
 		OR = {
@@ -806,12 +807,12 @@ country_event = {
 
 	trigger = {
 		war = no
-		NOT = { has_global_flag = mp_setup }
 		NOT = {
 			exists = SLO
 			has_country_flag = no_slovene_independence
 			primary_culture = slovene
 		}
+		NOT = { tag = DNB )
 		is_possible_vassal = SLO
 		revolution_n_counterrevolution = 1
 		OR = {
@@ -1066,13 +1067,13 @@ country_event = {
 	picture = "Budapest"
 
 	trigger = {
-		NOT = { has_global_flag = mp_setup }
 		war = no
 		NOT = {
 			exists = BOH
 			has_country_flag = no_bohemia_independence
 			primary_culture = czech
 		}
+		NOT = { tag = DNB )
 		is_possible_vassal = BOH
 		revolution_n_counterrevolution = 1
 		OR = {
@@ -1318,13 +1319,13 @@ country_event = {
 	picture = "Budapest"
 
 	trigger = {
-		NOT = { has_global_flag = mp_setup }
 		war = no
 		NOT = {
 			exists = SLV
 			has_country_flag = no_slovakia_independence
 			primary_culture = slovak
 		}
+		NOT = { tag = DNB )
 		is_possible_vassal = SLV
 		revolution_n_counterrevolution = 1
 		OR = {
@@ -1945,8 +1946,8 @@ country_event = {
 						culture = albanian
 						literacy = 0.5
 					}
-					average_militancy = 6
-					average_consciousness = 6
+					average_militancy = 8
+					average_consciousness = 8
 				}
 			}
 		}
@@ -2182,8 +2183,8 @@ country_event = {
 						culture = bosniak
 						literacy = 0.5
 					}
-					average_militancy = 7
-					average_consciousness = 7
+					average_militancy = 8
+					average_consciousness = 8
 				}
 			}
 		}
@@ -2422,8 +2423,8 @@ country_event = {
 						culture = mashriqi
 						literacy = 0.5
 					}
-					average_militancy = 7
-					average_consciousness = 7
+					average_militancy = 8
+					average_consciousness = 8
 				}
 			}
 		}
@@ -2651,8 +2652,8 @@ country_event = {
 						culture = greek
 						literacy = 0.5
 					}
-					average_militancy = 7
-					average_consciousness = 7
+					average_militancy = 8
+					average_consciousness = 8
 				}
 			}
 		}
@@ -3108,8 +3109,8 @@ country_event = {
 						culture = finnish
 						literacy = 0.5
 					}
-					average_militancy = 6
-					average_consciousness = 6
+					average_militancy = 8
+					average_consciousness = 8
 				}
 			}
 		}

@@ -6,7 +6,6 @@ REB 	= 	"countries/rebels.txt"
 
 #Townes' New Tags:
 GBR		= "countries/Great Britain.txt"
-EUR		= "countries/Europe.txt"
 NGE		= "countries/Niger Federation.txt"
 OCE		= "countries/Oceania.txt"
 EAF		= "countries/East Africa Federation.txt"
@@ -644,8 +643,6 @@ KUK		= "countries/Austria-Hungary.txt"
 #new for 1.2
 ISR		="countries/Israel.txt"
 ICL		="countries/Iceland.txt"
-BYZ		="countries/Byzantium.txt"
-BAB		="countries/Babylonia.txt"
 
 #new for AHD
 TPG		="countries/Taiping.txt"

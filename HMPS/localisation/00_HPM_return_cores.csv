@@ -953,10 +953,6 @@ return_cores_ICL_title;Return cores to Iceland;;;;;;;;;;;;;;;;;;;;x,,
 return_cores_ICL_desc;We hold provinces that Iceland has claims on. Returning these provinces, as an act of good faith, would surely bolster our relations.;;;;;;;;;;;;x
 return_cores_IBR_title;Return cores to Iberia;;;;;;;;;;;;;;;;;;;;x,,
 return_cores_IBR_desc;We hold provinces that Iberia has claims on. Returning these provinces, as an act of good faith, would surely bolster our relations.;;;;;;;;;;;;x
-return_cores_BYZ_title;Return cores to Byzantium;;;;;;;;;;;;;;;;;;;;x,,
-return_cores_BYZ_desc;We hold provinces that Byzantium has claims on. Returning these provinces, as an act of good faith, would surely bolster our relations.;;;;;;;;;;;;x
-return_cores_BAB_title;Return cores to Babylonia;;;;;;;;;;;;;;;;;;;;x,,
-return_cores_BAB_desc;We hold provinces that Babylonia has claims on. Returning these provinces, as an act of good faith, would surely bolster our relations.;;;;;;;;;;;;x
 return_cores_TPG_title;Return cores to Taiping;;;;;;;;;;;;;;;;;;;;x,,
 return_cores_TPG_desc;We hold provinces that Taiping has claims on. Returning these provinces, as an act of good faith, would surely bolster our relations.;;;;;;;;;;;;x
 return_cores_D01_title;Return cores to D01;;;;;;;;;;;;;;;;;;;;x,,

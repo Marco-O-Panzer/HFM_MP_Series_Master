@@ -333,16 +333,6 @@ political_decisions = {
 				consciousness = -4
 				militancy = -4
 			}
-			random_owned = {
-				limit = { owner = { NOT = { has_global_flag = mp_setup } } }
-				owner = {
-					DOM = { all_core = { remove_core = HAI } }
-					any_owned = {
-						limit = { is_core = DOM }
-						secede_province = DOM
-					}
-				}
-			}
 			HAI = {
 				all_core = {
 					add_province_modifier = {

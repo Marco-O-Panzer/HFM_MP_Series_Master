@@ -183,29 +183,6 @@ angry_chinese_reform = {
 }
 ##############################
 
-european_culture = {
-	global_pop_consciousness_modifier = 0.03
-	assimilation_rate = 1
-	icon = 17
-}
-
-german_culture = {
-	global_pop_consciousness_modifier = 0.02
-	non_accepted_pop_militancy_modifier = 0.05
-	assimilation_rate = 2
-	icon = 17
-}
-
-european_unity = {
-	core_pop_militancy_modifier = -0.1
-	icon = 9
-}
-
-burst_of_european_unity = {
-	assimilation_rate = 8
-	icon = 1
-}
-
 niger_research = {
 	research_points = 1
 	research_points_modifier = 0.4

@@ -53,7 +53,7 @@ political_decisions = {
 		alert = no
 		potential = {
 			ai = no
-			has_global_flag = looking_through_options
+			has_country_flag = country_looking_through_options
 			NOT = { has_country_flag = enable_debug_decision }
 			NOT = { year = 1837 }
 		}
@@ -68,7 +68,7 @@ political_decisions = {
 		alert = no
 		potential = {
 			ai = no
-			has_global_flag = looking_through_options
+			has_country_flag = country_looking_through_options
 			NOT = { has_global_flag = disable_microstates }
 			NOT = { year = 1837 }
 		}

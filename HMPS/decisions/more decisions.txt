@@ -25,7 +25,6 @@ political_decisions = {
 					SPA = { ai = yes }
 					SPC = { ai = yes }
 					POR = { ai = yes }
-					#has_global_flag = fantasy_countries_enabled
 				}
 		}
 		allow = {
@@ -83,18 +82,12 @@ political_decisions = {
 						}
 					}
 				}
-				#517 = {
-				#	OR = {
-				#		owned_by = THIS
-				#		owner = { in_sphere = THIS }
-				#		owner = { vassal_of = THIS }
-				#	}
-				#}
 			}
 		effect = {
 			set_global_flag = created_iberia
 			prestige = 20
-			badboy = 10	
+			badboy = 10
+			517 = { add_core = IBR }
 			any_country = {
 				limit = {
 					OR = {

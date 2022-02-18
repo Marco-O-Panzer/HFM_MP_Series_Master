@@ -113,10 +113,9 @@ political_decisions = {
 			OR = {
 				tag = PRU
 				tag = GER
-				#tag = GCF
+				tag = GCF
 				tag = NGF
 			}
-			NOT = { has_global_flag = mp_setup }
 			owns = 369
 		}
 		
@@ -129,62 +128,14 @@ political_decisions = {
 			set_global_flag = germania_werft_has_been_built
 			prestige = 10
 			treasury = -50000
-			random_owned = {
-				limit = {
-					province_id = 369
-					state_scope = {
-						NOT = { has_building = aeroplane_factory }
-					}
-				}
-				owner = { 
-					capital = 369
-					build_factory_in_capital_state = steamer_shipyard
-				}
-				369 = {
-					naval_base = 5
-					add_province_modifier = {
-						name = germania_werft
-						duration = -1
-					}
+			369 = {
+				naval_base = 5
+				add_province_modifier = {
+					name = germania_werft
+					duration = -1
 				}
 			}
-			random_owned = {
-				limit = {
-					province_id = 549 #Berlin
-					owned_by = PRU
-				}
-				PRU = { capital = 549 }
-			}
-			random_owned = {
-				limit = {
-					province_id = 549 #Berlin
-					owned_by = NGF
-				}
-				NGF = { capital = 549 }
-			}
-			random_owned = {
-				limit = {
-					province_id = 549 #Berlin
-					owned_by = GER
-					owner = { primary_culture = north_german }
-				}
-				GER = { capital = 549 }
-			}
-			random_owned = {
-				limit = {
-					province_id = 599 #Munich
-					owned_by = GCF
-					owner = { NOT = { has_global_flag = german_confederation_austrian } }
-				}
-				owner = { capital = 599 }
-			}
-			random_owned = {
-				limit = {
-					province_id = 619 #Vienna
-					owned_by = GCF
-				}
-				owner = { capital = 619 }
-			}
+			steamer_convoy = 400
 		}
 	}
 	

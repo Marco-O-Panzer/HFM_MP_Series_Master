@@ -7,7 +7,6 @@ political_decisions = {
 			ai = no
 			NOT = { has_country_flag = no_trade_deals }
 			NOT = { has_country_flag = hiding_the_decisions }
-			has_global_flag = mp_setup
 		}
 		
 		allow = {
@@ -25,7 +24,6 @@ political_decisions = {
 			ai = no
 			has_country_flag = no_trade_deals
 			NOT = { has_country_flag = hiding_the_decisions }
-			has_global_flag = mp_setup
 		}
 		
 		allow = {
@@ -282,7 +280,6 @@ political_decisions = {
 			}
 			NOT = { has_country_flag = no_trade_deals }
 			NOT = { has_country_flag = hiding_the_decisions }
-			has_global_flag = mp_setup
 			NOT = {
 				OR = {
 					has_country_flag = supplier_1

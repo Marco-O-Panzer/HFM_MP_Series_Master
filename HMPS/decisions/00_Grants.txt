@@ -7,7 +7,6 @@ political_decisions = {
 			ai = no
 			NOT = { has_country_flag = will_receive_grants }
 			NOT = { has_country_flag = hiding_the_decisions }
-			has_global_flag = mp_setup
 		}
 		
 		allow = { 
@@ -49,7 +48,6 @@ political_decisions = {
 			ai = no
 			NOT = { has_country_flag = will_give_grants }
 			NOT = { has_country_flag = hiding_the_decisions }
-			has_global_flag = mp_setup
 		}
 
 		allow = { NOT = { has_country_flag = will_give_grants } }
@@ -66,7 +64,6 @@ political_decisions = {
 			ai = no
 			has_country_flag = will_give_grants
 			NOT = { has_country_flag = hiding_the_decisions }
-			has_global_flag = mp_setup
 		}
 		
 		allow = { 

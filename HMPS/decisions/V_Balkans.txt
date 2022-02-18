@@ -204,11 +204,8 @@ political_decisions = {
 					tag = TUR
 					tag = AUS
 					tag = KUK
+					tag = DNB
 				}
-			}
-			modifier = {
-				factor = 0
-				has_global_flag = mp_setup 
 			}
 		}
 	}
@@ -860,11 +857,8 @@ political_decisions = {
 					tag = TUR
 					tag = AUS
 					tag = KUK
+					tag = DNB
 				}
-			}
-			modifier = {
-				factor = 0
-				has_global_flag = mp_setup 
 			}
 		}
 	}
