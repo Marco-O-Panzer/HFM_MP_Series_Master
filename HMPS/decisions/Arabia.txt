@@ -808,23 +808,23 @@ political_decisions = {
 	
 	yemeni_sultanates_conquest = {
 		picture = map_arabia
-		alert = no
+		alert = yes
 		potential = {
-			NOT = { has_global_flag = claimed_yemen }
+			NOT = { has_country_flag = claimed_yemen }
 			civilized = yes
 			OR = {
-			any_neighbor_country = {
-				OR = {
-					tag = LHJ
-					tag = FDL
-					tag = KTH
-					tag = MHR
+				any_neighbor_country = {
+					OR = {
+						tag = LHJ
+						tag = FDL
+						tag = KTH
+						tag = MHR
+					}
 				}
-			}
-			is_sphere_leader_of = LHJ
-			is_sphere_leader_of = FDL
-			is_sphere_leader_of = KTH
-			is_sphere_leader_of = MHR
+				is_sphere_leader_of = LHJ
+				is_sphere_leader_of = FDL
+				is_sphere_leader_of = KTH
+				is_sphere_leader_of = MHR
 			}
 		}
 		
@@ -855,7 +855,7 @@ political_decisions = {
 			end_military_access = THIS
 			add_casus_belli = {
 				target = THIS
-				type = establish_protectorate_NI_casus_belli
+				type = conquest_any
 				months = 120
 				}
 			}
@@ -870,7 +870,7 @@ political_decisions = {
 			end_military_access = THIS
 			add_casus_belli = {
 				target = THIS
-				type = establish_protectorate_BC_casus_belli
+				type = conquest_any
 				months = 120
 				}
 			}
@@ -885,7 +885,7 @@ political_decisions = {
 			end_military_access = THIS
 			add_casus_belli = {
 				target = THIS
-				type = establish_protectorate_NI_casus_belli
+				type = conquest_any
 				months = 120
 				}
 			}
@@ -900,7 +900,7 @@ political_decisions = {
 			end_military_access = THIS
 			add_casus_belli = {
 				target = THIS
-				type = establish_protectorate_BC_casus_belli
+				type = conquest_any
 				months = 120
 				}
 			}
@@ -915,7 +915,7 @@ political_decisions = {
 			end_military_access = THIS
 			add_casus_belli = {
 				target = THIS
-				type = establish_protectorate_NI_casus_belli
+				type = conquest_any
 				months = 120
 				}
 			}
@@ -930,7 +930,7 @@ political_decisions = {
 			end_military_access = THIS
 			add_casus_belli = {
 				target = THIS
-				type = establish_protectorate_BC_casus_belli
+				type = conquest_any
 				months = 120
 				}
 			}
@@ -945,7 +945,7 @@ political_decisions = {
 			end_military_access = THIS
 			add_casus_belli = {
 				target = THIS
-				type = establish_protectorate_NI_casus_belli
+				type = conquest_any
 				months = 120
 				}
 			}
@@ -960,22 +960,7 @@ political_decisions = {
 			end_military_access = THIS
 			add_casus_belli = {
 				target = THIS
-				type = establish_protectorate_BC_casus_belli
-				months = 120
-				}
-			}
-			
-		random_country = {
-				limit = {
-					exists = yes
-					tag = YEM
-				}
-			relation = { who = THIS value = -400 }
-			leave_alliance = THIS
-			end_military_access = THIS
-			add_casus_belli = {
-				target = THIS
-				type = establish_protectorate_NI_casus_belli
+				type = conquest_any
 				months = 120
 				}
 			}
@@ -990,7 +975,22 @@ political_decisions = {
 			end_military_access = THIS
 			add_casus_belli = {
 				target = THIS
-				type = establish_protectorate_BC_casus_belli
+				type = conquest_any
+				months = 120
+				}
+			}
+			
+			random_country = {
+				limit = {
+					exists = yes
+					tag = NYE
+				}
+			relation = { who = THIS value = -400 }
+			leave_alliance = THIS
+			end_military_access = THIS
+			add_casus_belli = {
+				target = THIS
+				type = conquest_any
 				months = 120
 				}
 			}
@@ -1003,11 +1003,11 @@ political_decisions = {
 			random_owned = { limit = { exists = KWT } owner = { diplomatic_influence = { who = KWT value = 25 } } }
 		}
 		
-			ai_will_do = { 
-				factor = 1 
-				modifier = { factor = 0 badboy = 0.8 }
-			}
+		ai_will_do = { 
+			factor = 1 
+			modifier = { factor = 0 badboy = 0.8 }
 		}
+	}
 		
 	found_dar_es_salaam = {
 		picture = tanzania_shop

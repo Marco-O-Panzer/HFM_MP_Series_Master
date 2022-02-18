@@ -789,3 +789,4 @@ TECH_MINE_OUTPUT;Mining efficiency;x
 TECH_FARM_OUTPUT;Farming efficiency;x
 MODIFIER_FARM_EFFICIENCY;Farming Output;x
 MODIFIER_MINE_EFFICIENCY;Mining Output;x
+MODIFIER_MOBILISATION_ECONOMY_IMPACT;Production Impact;Impact de la mobilisation;Mobilisierungseffekt;;Efecto de movilización;;;;;;;;;x;;;;

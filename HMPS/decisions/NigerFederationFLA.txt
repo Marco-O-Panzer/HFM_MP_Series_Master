@@ -228,7 +228,7 @@ political_decisions = {
 					}
 				militancy = 1
 			}
-			set_country_flag = accepted_cwc
+			set_country_flag = accepted_kongo
 		}
 	}
 	nge_resources = {
