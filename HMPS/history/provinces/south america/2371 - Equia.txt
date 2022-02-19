@@ -1,6 +1,5 @@
-owner = ARC
-
-controller = ARC
+owner = PBC
+controller = PBC
 
 add_core = ARC
 add_core = BOL

@@ -4367,3 +4367,58 @@
 	}
 
 }
+3297 = {
+	clergymen = {
+		culture = brazilian
+		religion = catholic
+		size = 5
+	}
+
+	artisans = {
+		culture = amazonian
+		religion = catholic
+		size = 10
+	}
+
+	soldiers = {
+		culture = amazonian
+		religion = catholic
+		size = 5
+	}
+
+	farmers = {
+		culture = brazilian
+		religion = catholic
+		size = 200
+	}
+
+	aristocrats = {
+		culture = amazonian
+		religion = animist
+		size = 5
+	}
+
+	clergymen = {
+		culture = amazonian
+		religion = animist
+		size = 5
+	}
+
+	artisans = {
+		culture = amazonian
+		religion = animist
+		size = 25
+	}
+
+	soldiers = {
+		culture = amazonian
+		religion = animist
+		size = 5
+	}
+
+	farmers = {
+		culture = amazonian
+		religion = animist
+		size = 450
+	}
+}

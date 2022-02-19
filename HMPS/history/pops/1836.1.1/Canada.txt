@@ -2997,3 +2997,77 @@
 	}
 
 }
+
+3298 = {
+	labourers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 10
+	}
+	aristocrats = {
+		culture = native_american_minor
+		religion = animist
+		size = 15
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = animist
+		size = 35
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = animist
+		size = 70
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = animist
+		size = 20
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = animist
+		size = 1260
+	}
+}
+
+3299 = {
+	labourers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 10
+	}
+	aristocrats = {
+		culture = native_american_minor
+		religion = animist
+		size = 15
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = animist
+		size = 35
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = animist
+		size = 70
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = animist
+		size = 20
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = animist
+		size = 1260
+	}
+}

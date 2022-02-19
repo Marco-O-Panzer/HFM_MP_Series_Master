@@ -436,56 +436,6 @@
 		size = 5000
 	}
 }
-#Kech (124000/31000 POPS)
-3258 = {
-	aristocrats = {
-		culture = baluchi
-		religion = sunni
-		size = 150
-	}
-
-	bureaucrats = {
-		culture = baluchi
-		religion = sunni
-		size = 25
-	}
-
-	officers = {
-		culture = baluchi
-		religion = sunni
-		size = 25
-	}
-
-	clergymen = {
-		culture = baluchi
-		religion = sunni
-		size = 200
-	}
-
-	artisans = {
-		culture = baluchi
-		religion = sunni
-		size = 1000
-	}
-
-	soldiers = {
-		culture = baluchi
-		religion = sunni
-		size = 1000
-	}
-
-	farmers = {
-		culture = baluchi
-		religion = sunni
-		size = 25800
-	}
-
-	slaves = {
-		culture = lacustrine_bantu #african_minor
-		religion = animist
-		size = 2000
-	}
-}
 #Kashmir Region (1208000)
 #under rule of Panjab in 1836
 #Srinagar (748000/187000 POPS)

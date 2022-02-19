@@ -3249,9 +3249,9 @@
 3248;53;14;240;West Magellan Strait;x 
 3249;54;14;244;Old Tianjin;x
 3250;55;14;248;Fribourg;x
-3251;56;14;232;Monaco;x
-3252;57;14;236;Andorra;x
-3253;58;14;240;Liechtenstein;x
+3251;56;14;232;Monaco(Bardonecchia);x
+3252;57;14;236;Andorra(Longville);x
+3253;58;14;240;Liechtenstein(Boca do Acre);x
 3254;59;14;244;Buckeburg;x
 3255;62;14;236;Reuss;x
 3256;61;14;232;Schwarzburg;x
@@ -3264,7 +3264,7 @@
 3263;69;14;244;Fort William;x
 3264;70;14;248;Nicobar Islands;x
 3265;71;16;232;Essen;x
-3266;72;16;236;San Marino;x
+3266;72;16;236;San Marino(Birmingham);x
 3267;73;16;240;Bielefeld;x
 3268;74;16;244;Exeter;x
 3269;75;16;248;Portsmouth;x
@@ -3295,6 +3295,9 @@
 3294;116;16;254;Maymana;x
 3295;118;16;254;Ghor;x
 3296;120;16;254;Shela;x
+3297;161;161;161;Corumba;x
+3298;113;61;204;Milk River;x
+3299;204;63;67;Big Muddy Creek;x
 ;81;16;232;x
 ;82;16;236;x
 ;83;16;240;x

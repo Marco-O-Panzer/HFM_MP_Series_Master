@@ -3,49 +3,43 @@
 	aristocrats = {
 		culture = north_italian
 		religion = catholic
-		size = 250
+		size = 175
+	}
+
+	soldiers = {
+		culture = north_italian
+		religion = catholic
+		size = 150
+	}
+
+	aristocrats = {
+		culture = occitan
+		religion = catholic
+		size = 55
 	}
 
 	clergymen = {
-		culture = north_italian
+		culture = occitan
 		religion = catholic
-		size = 25
+		size = 75
 	}
 
 	artisans = {
-		culture = north_italian
+		culture = occitan
 		religion = catholic
-		size = 250
+		size = 575
 	}
 
 	soldiers = {
 		culture = occitan
 		religion = catholic
-		size= 100
-
-	}
-
-	farmers = {
-		culture = north_italian
-		religion = catholic
-		size = 1225
-	}
-	artisans = {
-		culture = north_italian
-		religion = catholic
-		size = 250
+		size = 75
 	}
 
 	farmers = {
 		culture = occitan
 		religion = catholic
-		size = 2850
-	}
-
-	bureaucrats = {
-		culture = occitan
-		religion = catholic
-		size = 10
+		size = 10600
 	}
 
 }
@@ -53,156 +47,126 @@
 #Andorra (228000/37000 POPS)
 3252 = {
 	aristocrats = {
-		culture = french
-		religion = catholic
-		size = 5
+		culture = dixie
+		religion = protestant
+		size = 150
 	}
-	bureaucrats = {
-		culture = french
+
+	clergymen = {
+		culture = dixie
+		religion = protestant
+		size = 75
+	}
+
+	artisans = {
+		culture = dixie
+		religion = protestant
+		size = 200
+	}
+
+	soldiers = {
+		culture = dixie
+		religion = protestant
+		size = 125
+	}
+
+	farmers = {
+		culture = dixie
+		religion = protestant
+		size = 3050
+	}
+	
+	clergymen = {
+		culture = cajun
 		religion = catholic
+		size = 75
+	}
+	
+	farmers = {
+		culture = cajun
+		religion = catholic
+		size = 1550
+	}
+
+	clergymen = {
+		culture = afro_american
+		religion = protestant
+		size = 15
+	}
+
+	artisans = {
+		culture = afro_american
+		religion = protestant
+		size = 100
+	}
+
+	farmers = {
+		culture = afro_american
+		religion = protestant
 		size = 10
 	}
-	
-	artisans = {
-		culture = french
-		religion = catholic
-		size = 150
-	}
-	
-	farmers = {
-		culture = french
-		religion = catholic
-		size = 150
-	}
-	
-	aristocrats = {
-		culture = catalan
-		religion = catholic
-		size = 150
-	}
-	clergymen = {
-		culture = catalan
-		religion = catholic
-		size = 50
-	}
 
-	artisans = {
-		culture = catalan
-		religion = catholic
-		size = 350
-	}
-
-	soldiers = {
-		culture = catalan
-		religion = catholic
-		size= 50
-
-	}
-
-	farmers = {
-		culture = catalan
-		religion = catholic
-		size = 450
-	}
-
-	aristocrats = {
-		culture = catalan
-		religion = catholic
-		size = 25
-	}
-
-	clergymen = {
-		culture = french
-		religion = catholic
-		size = 50
-	}
-
-	artisans = {
-		culture = catalan
-		religion = catholic
-		size = 50
-	}
-
-	soldiers = {
-		culture = catalan
-		religion = catholic
-		size= 50
-
-	}
-
-	farmers = {
-		culture = catalan
-		religion = catholic
-		size = 400
+	slaves = {
+		culture = afro_american
+		religion = protestant
+		size = 5875
 	}
 }
 
 #Liechtenstein
 3253 = {
-	aristocrats = {
-		culture = south_german
+	clergymen = {
+		culture = brazilian
 		religion = catholic
-		size = 100
+		size = 5
 	}
-	bureaucrats = {
-		culture = south_german
+
+	artisans = {
+		culture = amazonian
 		religion = catholic
 		size = 10
 	}
-	clergymen = {
-		culture = south_german
-		religion = catholic
-		size = 30
-	}
-
-	artisans = {
-		culture = south_german
-		religion = catholic
-		size = 450
-	}
 
 	soldiers = {
-		culture = south_german
+		culture = amazonian
 		religion = catholic
-		size= 100
-
+		size = 5
 	}
 
 	farmers = {
-		culture = south_german
+		culture = brazilian
 		religion = catholic
-		size = 875
+		size = 200
 	}
 
 	aristocrats = {
-		culture = south_german
-		religion = catholic
-		size = 100
+		culture = amazonian
+		religion = animist
+		size = 5
 	}
 
 	clergymen = {
-		culture = south_german
-		religion = catholic
-		size = 30
+		culture = amazonian
+		religion = animist
+		size = 5
 	}
 
 	artisans = {
-		culture = south_german
-		religion = catholic
-		size = 350
+		culture = amazonian
+		religion = animist
+		size = 25
 	}
 
 	soldiers = {
-		culture = south_german
-		religion = catholic
-		size= 75
-
+		culture = amazonian
+		religion = animist
+		size = 5
 	}
 
 	farmers = {
-		culture = south_german
-		religion = catholic
-		size = 1075
+		culture = amazonian
+		religion = animist
+		size = 750
 	}
 }
 
@@ -210,61 +174,98 @@
 #San Marino
 3266 = {
 	aristocrats = {
-		culture = north_italian
-		religion = catholic
-		size = 100
+		culture = dixie
+		religion = protestant
+		size = 750
 	}
+
 	bureaucrats = {
-		culture = north_italian
-		religion = catholic
-		size = 10
+		culture = dixie
+		religion = protestant
+		size = 250
 	}
+
+	officers = {
+		culture = dixie
+		religion = protestant
+		size = 175
+	}
+
 	clergymen = {
-		culture = north_italian
-		religion = catholic
-		size = 30
+		culture = dixie
+		religion = protestant
+		size = 275
 	}
 
 	artisans = {
-		culture = north_italian
-		religion = catholic
-		size = 450
+		culture = dixie
+		religion = protestant
+		size = 1650
 	}
 
 	soldiers = {
-		culture = north_italian
-		religion = catholic
-		size= 100
-
+		culture = dixie
+		religion = protestant
+		size = 2000
 	}
 
 	farmers = {
-		culture = north_italian
-		religion = catholic
-		size = 1875
+		culture = dixie
+		religion = protestant
+		size = 35950
 	}
 
 	aristocrats = {
-		culture = north_italian
+		culture = dixie
+		religion = catholic
+		size = 15
+	}
+
+	clergymen = {
+		culture = dixie
+		religion = catholic
+		size = 35
+	}
+
+	artisans = {
+		culture = dixie
 		religion = catholic
 		size = 100
 	}
 
-	clergymen = {
-		culture = north_italian
+	soldiers = {
+		culture = dixie
 		religion = catholic
-		size = 30
-	}
-
-	artisans = {
-		culture = north_italian
-		religion = catholic
-		size = 350
+		size = 25
 	}
 
 	farmers = {
-		culture = north_italian
+		culture = dixie
 		religion = catholic
-		size = 1075
+		size = 1825
+	}
+
+	clergymen = {
+		culture = afro_american
+		religion = protestant
+		size = 25
+	}
+
+	artisans = {
+		culture = afro_american
+		religion = protestant
+		size = 450
+	}
+
+	farmers = {
+		culture = afro_american
+		religion = protestant
+		size = 25
+	}
+
+	slaves = {
+		culture = afro_american
+		religion = protestant
+		size = 23500
 	}
 }

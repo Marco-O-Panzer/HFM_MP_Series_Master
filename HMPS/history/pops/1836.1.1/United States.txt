@@ -3502,7 +3502,7 @@
 	farmers = {
 		culture = dixie
 		religion = protestant
-		size = 8250
+		size = 18250
 	}
 
 	aristocrats = {
@@ -3532,37 +3532,37 @@
 	farmers = {
 		culture = cajun
 		religion = catholic
-		size = 8550
+		size = 98550
 	}
 
 	artisans = {
 		culture = dixie
 		religion = jewish
-		size = 50
+		size = 500
 	}
 
 	clergymen = {
 		culture = afro_antillean
 		religion = catholic
-		size = 25
+		size = 1250
 	}
 
 	artisans = {
 		culture = afro_antillean
 		religion = catholic
-		size = 1650
+		size = 11650
 	}
 
 	farmers = {
 		culture = afro_antillean
 		religion = catholic
-		size = 1325
+		size = 11325
 	}
 
 	slaves = {
 		culture = afro_american
 		religion = protestant
-		size = 10000
+		size = 25000
 	}
 }
 #Baton Rouge (72000/18000 POPS)

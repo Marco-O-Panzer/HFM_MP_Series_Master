@@ -1,5 +1,6 @@
-owner = LIE
-controller = LIE
-add_core = LIE
-trade_goods = cattle
-life_rating = 30
+add_core = BOL
+add_core = BRZ
+add_core = PEU
+trade_goods = tropical_wood
+life_rating = 15
+
