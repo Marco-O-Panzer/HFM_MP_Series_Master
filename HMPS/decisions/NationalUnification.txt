@@ -1238,12 +1238,10 @@ political_decisions = {
 				}
 				country_event = 11101
 			}
-			add_accepted_culture = avadhi
+			add_accepted_culture = hindustani
 			add_accepted_culture = marathi
 			add_accepted_culture = rajput
-			add_accepted_culture = bihari
 			add_accepted_culture = bengali
-			add_accepted_culture = kanauji
 			add_accepted_culture = panjabi
 			add_accepted_culture = kashmiri
 			add_accepted_culture = manipuri

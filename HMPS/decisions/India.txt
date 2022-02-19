@@ -1085,9 +1085,7 @@ political_decisions = {
 			set_country_flag = mughal_reborn
 			add_accepted_culture = kannada
 			add_accepted_culture = telegu
-			add_accepted_culture = kanauji
 			add_accepted_culture = bengali
-			add_accepted_culture = bihari
 			add_accepted_culture = kashmiri
 			add_accepted_culture = sindi
 			HND = { all_core = { add_core = MUG } }

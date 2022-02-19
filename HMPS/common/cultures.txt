@@ -1428,6 +1428,18 @@ south_asian = {
                
 		}
 	}
+
+	hindustani = {
+        color = {255 140 0}
+        first_names = { Maharshi Mahavira Ashtravakra Chanakya Ashoka Samudragupta Vachaspati Vatsyayana Asvaghosa Udayanacharaya
+
+        }
+
+        last_names = { Singh Valmiki Janak Jarasandh Mishra
+
+        }
+    }
+
 	kanauji = {
 		color = {90 190 41}
 		first_names = { Lokendra Raghuraj Vijay Vishvanath Pheran Jugal Parbhu Narayan Ishvari Udit Prasan Mahip

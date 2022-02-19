@@ -2488,19 +2488,19 @@
 #Chaozhou (3600000/900000 POPS)
 1494 = {
 	aristocrats = {
-		culture = nanfaren
+		culture = min
 		religion = mahayana
 		size = 7400
 	}
 
 	clergymen = {
-		culture = nanfaren
+		culture = min
 		religion = mahayana
 		size = 3725
 	}
 
 	artisans = {
-		culture = nanfaren
+		culture = min
 		religion = mahayana
 		size = 11000
 	}
@@ -2512,7 +2512,7 @@
 	}
 
 	soldiers = {
-		culture = nanfaren
+		culture = min
 		religion = mahayana
 		size = 3000
 	}
@@ -2524,9 +2524,15 @@
 	}
 
 	farmers = {
+		culture = min
+		religion = mahayana
+		size = 440000
+	}
+	
+	farmers = {
 		culture = nanfaren
 		religion = mahayana
-		size = 339475
+		size = 39475
 	}
 
 	aristocrats = {
@@ -2578,7 +2584,7 @@
 	}
 	
 	artisans = {
-		culture = yue
+		culture = min
 		religion = mahayana
 		size = 11000
 	}
@@ -2598,7 +2604,7 @@
 	farmers = {
 		culture = yue
 		religion = mahayana
-		size = 449750
+		size = 309750
 	}
 }
 #Gaozhou (3788000/947000 POPS)
@@ -11957,37 +11963,37 @@
 	}
 
 	aristocrats = {
-		culture = asian_minor
-		religion = animist
+		culture = tibetan
+		religion = gelugpa
 		size = 5400
 	}
 
 	clergymen = {
-		culture = asian_minor
-		religion = animist
+		culture = tibetan
+		religion = gelugpa
 		size = 2750
 	}
 
 	artisans = {
-		culture = asian_minor
-		religion = animist
+		culture = tibetan
+		religion = gelugpa
 		size = 11000
 	}
 	
 	artisans = {
-		culture = asian_minor
-		religion = animist
+		culture = tibetan
+		religion = gelugpa
 		size = 3500
 	}
 
 	soldiers = {
-		culture = asian_minor
-		religion = animist
+		culture = tibetan
+		religion = gelugpa
 		size = 2700
 	}
 
 	farmers = {
-		culture = asian_minor
+		culture = yi
 		religion = animist
 		size = 220650
 	}
@@ -12017,8 +12023,8 @@
 	}
 	
 	farmers = {
-		culture = yi
-		religion = animist
+		culture = tibetan
+		religion = gelugpa
 		size = 24575
 	}
 
