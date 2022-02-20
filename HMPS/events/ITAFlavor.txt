@@ -732,7 +732,6 @@ country_event = {
 		NOT = {
 			tag = SAR
 			tag = SVY
-			tag = SMR
 			OR = {
 				exists = ITA
 				exists = ITS
@@ -1160,7 +1159,6 @@ country_event = {
 				NOT = {
 					tag = THIS
 					tag = PAP
-					tag = SMR
 				}
 				is_culture_group = THIS
 				capital_scope = { continent = europe }
