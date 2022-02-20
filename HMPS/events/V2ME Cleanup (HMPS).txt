@@ -414,6 +414,92 @@ country_event = {
 						province_id = 1477
 						province_id = 1543
 						province_id = 1541
+						
+						### The Nile River
+						province_id = 1751
+						province_id = 1746
+						province_id = 1755
+						province_id = 1759
+						province_id = 1760
+						province_id = 1761
+						province_id = 2564
+						province_id = 1806
+						province_id = 1838
+						province_id = 1840
+						province_id = 1843
+						province_id = 1845
+						province_id = 1998
+						province_id = 1997
+						province_id = 2020
+						province_id = 2021
+						province_id = 2022
+						province_id = 1752
+						province_id = 1749
+						province_id = 1745
+						province_id = 1765
+						province_id = 1772
+						province_id = 1770
+						province_id = 1771
+						province_id = 1836
+						province_id = 1829
+						province_id = 1828
+						province_id = 1831
+						province_id = 1844
+						province_id = 1846
+						province_id = 2019
+						province_id = 2023	
+						province_id = 1847
+						province_id = 1830
+						province_id = 1827
+						province_id = 1837
+						province_id = 1832
+						province_id = 1835
+						province_id = 1766
+						province_id = 1768
+						province_id = 1767
+						province_id = 1769
+						province_id = 2559
+						province_id = 1762
+						province_id = 1764
+						province_id = 1763
+						province_id = 1750
+
+						### The Lake Erie
+						province_id = 236
+						province_id = 55
+						province_id = 54
+						province_id = 173
+						
+						### The Rio Grande
+						province_id = 138
+						province_id = 136
+						province_id = 105
+						province_id = 103
+						province_id = 2149
+						province_id = 2147
+						province_id = 2144
+						province_id = 2143
+						province_id = 2662
+						province_id = 2148
+						province_id = 108
+						province_id = 109
+						
+						### The Mississippi River
+						province_id = 139
+						province_id = 140
+						province_id = 192
+						province_id = 193
+						province_id = 189
+						province_id = 187
+						province_id = 168
+						province_id = 167
+						province_id = 141
+						province_id = 3252
+						province_id = 142
+						province_id = 144
+						province_id = 143
+						province_id = 148
+						province_id = 146
 					}
 				}
 				add_province_modifier = {
