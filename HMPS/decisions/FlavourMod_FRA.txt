@@ -254,7 +254,7 @@ political_decisions = {
 	}
 	
 	haitian_integration = {
-		picture = map_caribbean
+		picture = golden_haiti
 		potential = {
 			primary_culture = french
 			is_greater_power = yes
@@ -264,11 +264,15 @@ political_decisions = {
 				government = democracy
 			}
 			slavery = no_slavery
-			HAI = { all_core = { owned_by = THIS } }
+			owns = 2213
+			owns = 2215
+			owns = 3275
 			NOT = { has_country_flag = integrated_haiti }
 		}
 		allow = {
 			biologism = 1
+			vote_franschise = universal_voting
+			citizens_rights = culture_voting_only
 			NOT = { average_militancy = 3 }	
 		}
 		effect = {
@@ -277,13 +281,25 @@ political_decisions = {
 				consciousness = -4
 				militancy = -4
 			}
-			HAI = {
-				all_core = {
-					add_province_modifier = {
-						name = core_integration
-						duration = -1
-					}
+			GLP = {
+				any_core = {
+					add_core = THIS
 				}
+			}
+			MTQ = {
+				any_core = {
+					add_core = THIS
+				}
+			}
+			HAI = {
+				any_core = {
+					limit = {
+						NOT = {
+							is_core = DOM
+						}
+					}
+					add_core = THIS 
+				} 
 			}
 			add_accepted_culture = afro_antillean
 			FRA = { set_country_flag = integrated_haiti }
