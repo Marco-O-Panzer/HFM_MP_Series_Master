@@ -272,7 +272,10 @@ political_decisions = {
 		allow = {
 			biologism = 1
 			vote_franschise = universal_voting
-			citizens_rights = culture_voting_only
+			OR = {
+				citizens_rights = culture_voting_only
+				citizens_rights = all_voting_pops
+			}
 			NOT = { average_militancy = 3 }	
 		}
 		effect = {
