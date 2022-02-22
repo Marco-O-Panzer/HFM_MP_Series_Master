@@ -482,7 +482,6 @@ country_event = {
 						province_id = 2662
 						province_id = 2148
 						province_id = 108
-						province_id = 109
 						
 						### The Mississippi River
 						province_id = 139
