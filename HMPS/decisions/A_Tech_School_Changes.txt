@@ -114,10 +114,7 @@ political_decisions = {
 		}
 		allow = {
 			NOT = { has_country_modifier = academic_confusion }
-			OR = {
-				ruling_party_ideology = liberal
-				ruling_party_ideology = anarcho_liberal
-			}
+			ruling_party_ideology = liberal
 			OR = {
 				laissez_faire = 3
 				free_trade = 3

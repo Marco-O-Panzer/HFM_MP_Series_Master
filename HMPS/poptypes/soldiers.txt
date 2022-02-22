@@ -606,36 +606,6 @@ promote_to = {
 				}
 			}
 		}
-		
-		modifier = {
-			factor = 100
-			state_scope = { soldiers = 0.008 }
-			OR = {
-				location = { is_colonial = yes is_overseas = yes }
-				AND = { 
-					location = { 
-						is_colonial = yes 
-						OR = { 
-							continent = central_africa
-							continent = west_africa 
-							continent = east_africa
-							continent = asia
-							continent = africa
-						}
-					}
-					country = {
-						OR = {
-							government = colonial_company 
-							government = dominion
-						}
-					}
-				}
-			}
-			is_primary_culture = no
-			is_accepted_culture = no
-			NOT = { has_pop_religion = animist }
-			NOT = { country = { has_country_flag = colonial_armies } }
-		}
 	}
 #	labourers = 
 #	{

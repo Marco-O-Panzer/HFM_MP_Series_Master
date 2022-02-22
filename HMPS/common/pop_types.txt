@@ -536,7 +536,7 @@ migration_chance = {
 
 #general colonial migration mtth, same for all pops
 colonialmigration_chance = {
-	factor = 0.25
+	factor = 0.30
 	
 	modifier = {
 		factor = -100
@@ -638,7 +638,7 @@ colonialmigration_chance = {
 		}
 	}
 
-	#If pop group has 99%/90%/80%/70%/60%/50%/40%/30%/20%/10% unemployment, then 0.05% chance to migrate to a colony for each threshold unless employment is 99% or more. (0.20% total) (10% if unemployed 99% or more)
+	#If pop group has 99%/90%/80%/70%/60%/50%/40%/30%/20%/10% unemployment, then 0.05% chance to migrate to a colony for each threshold unless employment is 99% or more. (0.25% total)
 	group = {
 		modifier = {
 			factor = 0.05
@@ -657,7 +657,7 @@ colonialmigration_chance = {
 			unemployment = 0.9
 		}
 		modifier = {
-			factor = 10
+			factor = 0.05
 			unemployment = 0.99
 			NOT = { war = yes }
 		}
@@ -711,7 +711,7 @@ colonialmigration_chance = {
 
 #general emigration chance
 emigration_chance = {
-	factor = 0.6
+	factor = 0.5
 	
 	modifier = {
 		factor = -100
@@ -780,11 +780,11 @@ emigration_chance = {
 			literacy = 0.2
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0.025
 			literacy = 0.3
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0.025
 			literacy = 0.4
 		}
 		modifier = {

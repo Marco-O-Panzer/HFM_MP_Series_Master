@@ -400,6 +400,7 @@ political_decisions = {
 				NOT = { nationalvalue = nv_liberty }
 				NOT = { nationalvalue = nv_equality }
 				NOT = { government = hms_government }
+				NOT = { government = democracy }
 				any_owned_province = {
 					any_core = {
 						OR = {

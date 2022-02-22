@@ -3,6 +3,7 @@ piston_steam_engine = {
 	area = tech_power
 	year = 1836
 	cost = 5000
+	activate_building =  fabric_factory
 
 	farm_rgo_eff = 0.1
 	farm_rgo_size = 0.1

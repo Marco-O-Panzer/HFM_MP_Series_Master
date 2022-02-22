@@ -6714,6 +6714,7 @@ country_event = {
 		
 	option = {
 		name = "EVT443027OPTC"
+		badboy = -5
 		ai_chance = { factor = 10 }
 	}
 	

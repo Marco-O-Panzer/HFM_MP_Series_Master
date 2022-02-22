@@ -62,6 +62,10 @@ nv_cooldown = {
 	icon = 6
 }
 
+decided_colonial_policy = {
+	icon = 6
+}
+
 internally_reforming = {
 	political_reform_desire = 0.25
 	social_reform_desire = 0.25
@@ -2696,7 +2700,6 @@ ottoman_oppression = {
 ottomanism_reform = {
 	non_accepted_pop_militancy_modifier = -0.05
 	core_pop_consciousness_modifier = 0.05
-	research_points_modifier = 0.05
 	icon = 15
 }
 

@@ -98,11 +98,14 @@ cb_sykes_picot
 cut_down_to_size_ottoman
 humiliate
 place_in_the_sun
+demand_colony_for_allies
 dismantle_forts
 china_acquire_state
 india_acquire_state
 acquire_state
+demand_state_for_allies
 acquire_capital
+demand_capital_for_allies
 acquire_any_state
 acquire_substate_region
 acquire_substate_core_region

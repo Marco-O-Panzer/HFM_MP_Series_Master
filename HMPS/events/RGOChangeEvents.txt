@@ -447,9 +447,9 @@ province_event = {
 }
 
 province_event = {
-	id = 199011
-	title = "EVTNAME199011" #Prospector Strikes Copper!
-	desc = "EVTDESC199011"
+	id = 1990011
+	title = "EVTNAME1990011" #Prospector Strikes Copper!
+	desc = "EVTDESC1990011"
 	
 	trigger = {
 		owned_by = THIS
@@ -595,9 +595,9 @@ province_event = {
 }
 
 province_event = {
-	id = 199013
-	title = "EVTNAME199013" #Prospector Strikes Tin!
-	desc = "EVTDESC199013"
+	id = 1990013
+	title = "EVTNAME1990013" #Prospector Strikes Tin!
+	desc = "EVTDESC1990013"
 	
 	trigger = {
 		owned_by = THIS

@@ -256,6 +256,27 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
+	change_colonial_policy = {
+		picture = german_west_africa
+		
+		potential = {
+			any_state = { is_colonial = yes }
+			NOT = { has_country_flag = hiding_the_decisions }
+		}
+		
+		allow = {
+			NOT = { has_country_modifier = decided_colonial_policy }
+		}
+		
+		effect = {
+			country_event = 7777933
+			add_country_modifier = {
+				name = decided_colonial_policy
+				duration = 7300
+			}
+		}
+	}
+	
 	genocide_minorities = {
 		picture = genocide_minorities
 		potential = {
