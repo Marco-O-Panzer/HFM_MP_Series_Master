@@ -54,7 +54,7 @@ party = {
 	ideology = socialist
 
 	social_policy = welfare_state
-	economic_policy = state_capitalism
+	economic_policy = planned_economy
 	trade_policy = protectionism
 	religious_policy = pluralism
 	citizenship_policy = full_citizenship

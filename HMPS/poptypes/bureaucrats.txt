@@ -657,16 +657,11 @@ promote_to =
 
 		modifier = {
 			factor = -100
-				OR = {
-					AND = {
-						state_scope = { has_factories = no }
-						location = {
-							owner = { economic_policy = planned_economy }
-						}
-					}
+			OR = {
 				state_scope = { is_colonial = yes }
 				country = { civilized = no }
 				country = { government = proletarian_dictatorship }
+				country = { economic_policy = planned_economy }
 			}
 		}
 		
@@ -1108,6 +1103,7 @@ promote_to =
 			OR = {
 				state_scope = { aristocrats = 0.02 }
 				country = { government = proletarian_dictatorship }
+				country = { economic_policy = planned_economy }
 			}
 		}
 

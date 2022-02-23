@@ -100,7 +100,7 @@ party = {
 	ideology = socialist
 
 	social_policy = welfare_state
-	economic_policy = interventionism
+	economic_policy = planned_economy
 	trade_policy = free_trade
 	religious_policy = pro_atheism
 	citizenship_policy = full_citizenship
@@ -115,7 +115,7 @@ party = {
 	ideology = socialist
 
 	social_policy = welfare_state
-	economic_policy = interventionism
+	economic_policy = planned_economy
 	trade_policy = free_trade
 	religious_policy = pro_atheism
 	citizenship_policy = full_citizenship

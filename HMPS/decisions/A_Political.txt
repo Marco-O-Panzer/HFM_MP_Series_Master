@@ -1,5 +1,48 @@
 political_decisions = {
 
+	a_socialist_republic = {
+		picture = karl_marx
+		potential = {
+			OR = {
+				government = democracy
+				government = bourgeois_dictatorship
+			}
+			OR = {
+				ruling_party_ideology = socialist
+				ruling_party_ideology = anarcho_liberal
+			}
+			OR = {
+				any_owned_province = { has_pop_type = capitalists }
+				any_owned_province = { has_pop_type = aristocrats }
+			}
+		}
+		
+		allow = {
+			OR = {
+				upper_house = {
+					ideology = socialist
+					value = 0.25
+				}
+				socialist = 25
+			}
+		}
+		
+		effect = {
+			any_pop = {
+				limit = { type = aristocrats }
+				militancy = 9
+				consciousness = 9
+				pop_type = artisans
+			}
+			any_pop = {
+				limit = { type = capitalists }
+				militancy = 9
+				consciousness = 9
+				pop_type = clerks
+			}
+			nationalize = yes
+		}
+	}
 
 	enact_liquor_prohibition = {
 		picture = enact_liquor_prohibition
