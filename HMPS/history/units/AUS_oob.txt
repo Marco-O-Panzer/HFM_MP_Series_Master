@@ -5,6 +5,18 @@ HUN = {
 	influence_value = 25
 }
 
+REU = {
+
+	value = 125
+
+	level = 5
+
+	influence_value = 25
+
+	military_access = yes
+
+}
+
 BAD = {	
 	value = 125
 	level = 5
