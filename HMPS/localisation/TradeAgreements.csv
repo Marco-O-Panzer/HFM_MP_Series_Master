@@ -1,333 +1,333 @@
-;;;;;;;;;;;;;x,,
-trade_deal_cleanup_title;Tradedeal Cleanup;x
-trade_deal_cleanup_desc;Clean up the tradedeals;x
-oil_1_settlement_title;Oil Settlement;x
-oil_2_settlement_title;Oil Settlement;x
-oil_3_settlement_title;Oil Settlement;x
-oil_4_settlement_title;Oil Settlement;x
-oil_5_settlement_title;Oil Settlement;x
-oil_6_settlement_title;Oil Settlement;x
-oil_7_settlement_title;Oil Settlement;x
-oil_8_settlement_title;Oil Settlement;x
-oil_9_settlement_title;Oil Settlement;x
-oil_10_settlement_title;Oil Settlement;x
-oil_11_settlement_title;Oil Settlement;x
-oil_12_settlement_title;Oil Settlement;x
-oil_13_settlement_title;Oil Settlement;x
-oil_14_settlement_title;Oil Settlement;x
-oil_15_settlement_title;Oil Settlement;x
-oil_1_settlement_desc;Settle the oil.;x
-oil_2_settlement_desc;Settle the oil.;x
-oil_3_settlement_desc;Settle the oil.;x
-oil_4_settlement_desc;Settle the oil.;x
-oil_5_settlement_desc;Settle the oil.;x
-oil_6_settlement_desc;Settle the oil.;x
-oil_7_settlement_desc;Settle the oil.;x
-oil_8_settlement_desc;Settle the oil.;x
-oil_9_settlement_desc;Settle the oil.;x
-oil_10_settlement_desc;Settle the oil.;x
-oil_11_settlement_desc;Settle the oil.;x
-oil_12_settlement_desc;Settle the oil.;x
-oil_13_settlement_desc;Settle the oil.;x
-oil_14_settlement_desc;Settle the oil.;x
-oil_15_settlement_desc;Settle the oil.;x
-coal_1_settlement_title;coal Settlement;x
-coal_2_settlement_title;coal Settlement;x
-coal_3_settlement_title;coal Settlement;x
-coal_4_settlement_title;coal Settlement;x
-coal_5_settlement_title;coal Settlement;x
-coal_6_settlement_title;coal Settlement;x
-coal_7_settlement_title;coal Settlement;x
-coal_8_settlement_title;coal Settlement;x
-coal_9_settlement_title;coal Settlement;x
-coal_10_settlement_title;coal Settlement;x
-coal_11_settlement_title;coal Settlement;x
-coal_12_settlement_title;coal Settlement;x
-coal_13_settlement_title;coal Settlement;x
-coal_14_settlement_title;coal Settlement;x
-coal_15_settlement_title;coal Settlement;x
-coal_1_settlement_desc;Settle the coal.;x
-coal_2_settlement_desc;Settle the coal.;x
-coal_3_settlement_desc;Settle the coal.;x
-coal_4_settlement_desc;Settle the coal.;x
-coal_5_settlement_desc;Settle the coal.;x
-coal_6_settlement_desc;Settle the coal.;x
-coal_7_settlement_desc;Settle the coal.;x
-coal_8_settlement_desc;Settle the coal.;x
-coal_9_settlement_desc;Settle the coal.;x
-coal_10_settlement_desc;Settle the coal.;x
-coal_11_settlement_desc;Settle the coal.;x
-coal_12_settlement_desc;Settle the coal.;x
-coal_13_settlement_desc;Settle the coal.;x
-coal_14_settlement_desc;Settle the coal.;x
-coal_15_settlement_desc;Settle the coal.;x
-iron_1_settlement_title;iron Settlement;x
-iron_2_settlement_title;iron Settlement;x
-iron_3_settlement_title;iron Settlement;x
-iron_4_settlement_title;iron Settlement;x
-iron_5_settlement_title;iron Settlement;x
-iron_6_settlement_title;iron Settlement;x
-iron_7_settlement_title;iron Settlement;x
-iron_8_settlement_title;iron Settlement;x
-iron_9_settlement_title;iron Settlement;x
-iron_10_settlement_title;iron Settlement;x
-iron_11_settlement_title;iron Settlement;x
-iron_12_settlement_title;iron Settlement;x
-iron_13_settlement_title;iron Settlement;x
-iron_14_settlement_title;iron Settlement;x
-iron_15_settlement_title;iron Settlement;x
-iron_1_settlement_desc;Settle the iron.;x
-iron_2_settlement_desc;Settle the iron.;x
-iron_3_settlement_desc;Settle the iron.;x
-iron_4_settlement_desc;Settle the iron.;x
-iron_5_settlement_desc;Settle the iron.;x
-iron_6_settlement_desc;Settle the iron.;x
-iron_7_settlement_desc;Settle the iron.;x
-iron_8_settlement_desc;Settle the iron.;x
-iron_9_settlement_desc;Settle the iron.;x
-iron_10_settlement_desc;Settle the iron.;x
-iron_11_settlement_desc;Settle the iron.;x
-iron_12_settlement_desc;Settle the iron.;x
-iron_13_settlement_desc;Settle the iron.;x
-iron_14_settlement_desc;Settle the iron.;x
-iron_15_settlement_desc;Settle the iron.;x
-sulphur_1_settlement_title;sulphur Settlement;x
-sulphur_2_settlement_title;sulphur Settlement;x
-sulphur_3_settlement_title;sulphur Settlement;x
-sulphur_4_settlement_title;sulphur Settlement;x
-sulphur_5_settlement_title;sulphur Settlement;x
-sulphur_6_settlement_title;sulphur Settlement;x
-sulphur_7_settlement_title;sulphur Settlement;x
-sulphur_8_settlement_title;sulphur Settlement;x
-sulphur_9_settlement_title;sulphur Settlement;x
-sulphur_10_settlement_title;sulphur Settlement;x
-sulphur_11_settlement_title;sulphur Settlement;x
-sulphur_12_settlement_title;sulphur Settlement;x
-sulphur_13_settlement_title;sulphur Settlement;x
-sulphur_14_settlement_title;sulphur Settlement;x
-sulphur_15_settlement_title;sulphur Settlement;x
-sulphur_1_settlement_desc;Settle the sulphur.;x
-sulphur_2_settlement_desc;Settle the sulphur.;x
-sulphur_3_settlement_desc;Settle the sulphur.;x
-sulphur_4_settlement_desc;Settle the sulphur.;x
-sulphur_5_settlement_desc;Settle the sulphur.;x
-sulphur_6_settlement_desc;Settle the sulphur.;x
-sulphur_7_settlement_desc;Settle the sulphur.;x
-sulphur_8_settlement_desc;Settle the sulphur.;x
-sulphur_9_settlement_desc;Settle the sulphur.;x
-sulphur_10_settlement_desc;Settle the sulphur.;x
-sulphur_11_settlement_desc;Settle the sulphur.;x
-sulphur_12_settlement_desc;Settle the sulphur.;x
-sulphur_13_settlement_desc;Settle the sulphur.;x
-sulphur_14_settlement_desc;Settle the sulphur.;x
-sulphur_15_settlement_desc;Settle the sulphur.;x
-timber_1_settlement_title;timber Settlement;x
-timber_2_settlement_title;timber Settlement;x
-timber_3_settlement_title;timber Settlement;x
-timber_4_settlement_title;timber Settlement;x
-timber_5_settlement_title;timber Settlement;x
-timber_6_settlement_title;timber Settlement;x
-timber_7_settlement_title;timber Settlement;x
-timber_8_settlement_title;timber Settlement;x
-timber_9_settlement_title;timber Settlement;x
-timber_10_settlement_title;timber Settlement;x
-timber_11_settlement_title;timber Settlement;x
-timber_12_settlement_title;timber Settlement;x
-timber_13_settlement_title;timber Settlement;x
-timber_14_settlement_title;timber Settlement;x
-timber_15_settlement_title;timber Settlement;x
-timber_1_settlement_desc;Settle the timber.;x
-timber_2_settlement_desc;Settle the timber.;x
-timber_3_settlement_desc;Settle the timber.;x
-timber_4_settlement_desc;Settle the timber.;x
-timber_5_settlement_desc;Settle the timber.;x
-timber_6_settlement_desc;Settle the timber.;x
-timber_7_settlement_desc;Settle the timber.;x
-timber_8_settlement_desc;Settle the timber.;x
-timber_9_settlement_desc;Settle the timber.;x
-timber_10_settlement_desc;Settle the timber.;x
-timber_11_settlement_desc;Settle the timber.;x
-timber_12_settlement_desc;Settle the timber.;x
-timber_13_settlement_desc;Settle the timber.;x
-timber_14_settlement_desc;Settle the timber.;x
-timber_15_settlement_desc;Settle the timber.;x
-cotton_1_settlement_title;cotton Settlement;x
-cotton_2_settlement_title;cotton Settlement;x
-cotton_3_settlement_title;cotton Settlement;x
-cotton_4_settlement_title;cotton Settlement;x
-cotton_5_settlement_title;cotton Settlement;x
-cotton_6_settlement_title;cotton Settlement;x
-cotton_7_settlement_title;cotton Settlement;x
-cotton_8_settlement_title;cotton Settlement;x
-cotton_9_settlement_title;cotton Settlement;x
-cotton_10_settlement_title;cotton Settlement;x
-cotton_11_settlement_title;cotton Settlement;x
-cotton_12_settlement_title;cotton Settlement;x
-cotton_13_settlement_title;cotton Settlement;x
-cotton_14_settlement_title;cotton Settlement;x
-cotton_15_settlement_title;cotton Settlement;x
-cotton_1_settlement_desc;Settle the cotton.;x
-cotton_2_settlement_desc;Settle the cotton.;x
-cotton_3_settlement_desc;Settle the cotton.;x
-cotton_4_settlement_desc;Settle the cotton.;x
-cotton_5_settlement_desc;Settle the cotton.;x
-cotton_6_settlement_desc;Settle the cotton.;x
-cotton_7_settlement_desc;Settle the cotton.;x
-cotton_8_settlement_desc;Settle the cotton.;x
-cotton_9_settlement_desc;Settle the cotton.;x
-cotton_10_settlement_desc;Settle the cotton.;x
-cotton_11_settlement_desc;Settle the cotton.;x
-cotton_12_settlement_desc;Settle the cotton.;x
-cotton_13_settlement_desc;Settle the cotton.;x
-cotton_14_settlement_desc;Settle the cotton.;x
-cotton_15_settlement_desc;Settle the cotton.;x
-dye_1_settlement_title;dye Settlement;x
-dye_2_settlement_title;dye Settlement;x
-dye_3_settlement_title;dye Settlement;x
-dye_4_settlement_title;dye Settlement;x
-dye_5_settlement_title;dye Settlement;x
-dye_6_settlement_title;dye Settlement;x
-dye_7_settlement_title;dye Settlement;x
-dye_8_settlement_title;dye Settlement;x
-dye_9_settlement_title;dye Settlement;x
-dye_10_settlement_title;dye Settlement;x
-dye_11_settlement_title;dye Settlement;x
-dye_12_settlement_title;dye Settlement;x
-dye_13_settlement_title;dye Settlement;x
-dye_14_settlement_title;dye Settlement;x
-dye_15_settlement_title;dye Settlement;x
-dye_1_settlement_desc;Settle the dye.;x
-dye_2_settlement_desc;Settle the dye.;x
-dye_3_settlement_desc;Settle the dye.;x
-dye_4_settlement_desc;Settle the dye.;x
-dye_5_settlement_desc;Settle the dye.;x
-dye_6_settlement_desc;Settle the dye.;x
-dye_7_settlement_desc;Settle the dye.;x
-dye_8_settlement_desc;Settle the dye.;x
-dye_9_settlement_desc;Settle the dye.;x
-dye_10_settlement_desc;Settle the dye.;x
-dye_11_settlement_desc;Settle the dye.;x
-dye_12_settlement_desc;Settle the dye.;x
-dye_13_settlement_desc;Settle the dye.;x
-dye_14_settlement_desc;Settle the dye.;x
-dye_15_settlement_desc;Settle the dye.;x
-silk_1_settlement_title;silk Settlement;x
-silk_2_settlement_title;silk Settlement;x
-silk_3_settlement_title;silk Settlement;x
-silk_4_settlement_title;silk Settlement;x
-silk_5_settlement_title;silk Settlement;x
-silk_6_settlement_title;silk Settlement;x
-silk_7_settlement_title;silk Settlement;x
-silk_8_settlement_title;silk Settlement;x
-silk_9_settlement_title;silk Settlement;x
-silk_10_settlement_title;silk Settlement;x
-silk_11_settlement_title;silk Settlement;x
-silk_12_settlement_title;silk Settlement;x
-silk_13_settlement_title;silk Settlement;x
-silk_14_settlement_title;silk Settlement;x
-silk_15_settlement_title;silk Settlement;x
-silk_1_settlement_desc;Settle the silk.;x
-silk_2_settlement_desc;Settle the silk.;x
-silk_3_settlement_desc;Settle the silk.;x
-silk_4_settlement_desc;Settle the silk.;x
-silk_5_settlement_desc;Settle the silk.;x
-silk_6_settlement_desc;Settle the silk.;x
-silk_7_settlement_desc;Settle the silk.;x
-silk_8_settlement_desc;Settle the silk.;x
-silk_9_settlement_desc;Settle the silk.;x
-silk_10_settlement_desc;Settle the silk.;x
-silk_11_settlement_desc;Settle the silk.;x
-silk_12_settlement_desc;Settle the silk.;x
-silk_13_settlement_desc;Settle the silk.;x
-silk_14_settlement_desc;Settle the silk.;x
-silk_15_settlement_desc;Settle the silk.;x
-tropical_wood_1_settlement_title;tropical_wood Settlement;x
-tropical_wood_2_settlement_title;tropical_wood Settlement;x
-tropical_wood_3_settlement_title;tropical_wood Settlement;x
-tropical_wood_4_settlement_title;tropical_wood Settlement;x
-tropical_wood_5_settlement_title;tropical_wood Settlement;x
-tropical_wood_6_settlement_title;tropical_wood Settlement;x
-tropical_wood_7_settlement_title;tropical_wood Settlement;x
-tropical_wood_8_settlement_title;tropical_wood Settlement;x
-tropical_wood_9_settlement_title;tropical_wood Settlement;x
-tropical_wood_10_settlement_title;tropical_wood Settlement;x
-tropical_wood_11_settlement_title;tropical_wood Settlement;x
-tropical_wood_12_settlement_title;tropical_wood Settlement;x
-tropical_wood_13_settlement_title;tropical_wood Settlement;x
-tropical_wood_14_settlement_title;tropical_wood Settlement;x
-tropical_wood_15_settlement_title;tropical_wood Settlement;x
-tropical_wood_1_settlement_desc;Settle the tropical_wood.;x
-tropical_wood_2_settlement_desc;Settle the tropical_wood.;x
-tropical_wood_3_settlement_desc;Settle the tropical_wood.;x
-tropical_wood_4_settlement_desc;Settle the tropical_wood.;x
-tropical_wood_5_settlement_desc;Settle the tropical_wood.;x
-tropical_wood_6_settlement_desc;Settle the tropical_wood.;x
-tropical_wood_7_settlement_desc;Settle the tropical_wood.;x
-tropical_wood_8_settlement_desc;Settle the tropical_wood.;x
-tropical_wood_9_settlement_desc;Settle the tropical_wood.;x
-tropical_wood_10_settlement_desc;Settle the tropical_wood.;x
-tropical_wood_11_settlement_desc;Settle the tropical_wood.;x
-tropical_wood_12_settlement_desc;Settle the tropical_wood.;x
-tropical_wood_13_settlement_desc;Settle the tropical_wood.;x
-tropical_wood_14_settlement_desc;Settle the tropical_wood.;x
-tropical_wood_15_settlement_desc;Settle the tropical_wood.;x
-opium_1_settlement_title;opium Settlement;x
-opium_2_settlement_title;opium Settlement;x
-opium_3_settlement_title;opium Settlement;x
-opium_4_settlement_title;opium Settlement;x
-opium_5_settlement_title;opium Settlement;x
-opium_6_settlement_title;opium Settlement;x
-opium_7_settlement_title;opium Settlement;x
-opium_8_settlement_title;opium Settlement;x
-opium_9_settlement_title;opium Settlement;x
-opium_10_settlement_title;opium Settlement;x
-opium_11_settlement_title;opium Settlement;x
-opium_12_settlement_title;opium Settlement;x
-opium_13_settlement_title;opium Settlement;x
-opium_14_settlement_title;opium Settlement;x
-opium_15_settlement_title;opium Settlement;x
-opium_1_settlement_desc;Settle the opium.;x
-opium_2_settlement_desc;Settle the opium.;x
-opium_3_settlement_desc;Settle the opium.;x
-opium_4_settlement_desc;Settle the opium.;x
-opium_5_settlement_desc;Settle the opium.;x
-opium_6_settlement_desc;Settle the opium.;x
-opium_7_settlement_desc;Settle the opium.;x
-opium_8_settlement_desc;Settle the opium.;x
-opium_9_settlement_desc;Settle the opium.;x
-opium_10_settlement_desc;Settle the opium.;x
-opium_11_settlement_desc;Settle the opium.;x
-opium_12_settlement_desc;Settle the opium.;x
-opium_13_settlement_desc;Settle the opium.;x
-opium_14_settlement_desc;Settle the opium.;x
-opium_15_settlement_desc;Settle the opium.;x
-rubber_1_settlement_title;rubber Settlement;x
-rubber_2_settlement_title;rubber Settlement;x
-rubber_3_settlement_title;rubber Settlement;x
-rubber_4_settlement_title;rubber Settlement;x
-rubber_5_settlement_title;rubber Settlement;x
-rubber_6_settlement_title;rubber Settlement;x
-rubber_7_settlement_title;rubber Settlement;x
-rubber_8_settlement_title;rubber Settlement;x
-rubber_9_settlement_title;rubber Settlement;x
-rubber_10_settlement_title;rubber Settlement;x
-rubber_11_settlement_title;rubber Settlement;x
-rubber_12_settlement_title;rubber Settlement;x
-rubber_13_settlement_title;rubber Settlement;x
-rubber_14_settlement_title;rubber Settlement;x
-rubber_15_settlement_title;rubber Settlement;x
-rubber_1_settlement_desc;Settle the rubber.;x
-rubber_2_settlement_desc;Settle the rubber.;x
-rubber_3_settlement_desc;Settle the rubber.;x
-rubber_4_settlement_desc;Settle the rubber.;x
-rubber_5_settlement_desc;Settle the rubber.;x
-rubber_6_settlement_desc;Settle the rubber.;x
-rubber_7_settlement_desc;Settle the rubber.;x
-rubber_8_settlement_desc;Settle the rubber.;x
-rubber_9_settlement_desc;Settle the rubber.;x
-rubber_10_settlement_desc;Settle the rubber.;x
-rubber_11_settlement_desc;Settle the rubber.;x
-rubber_12_settlement_desc;Settle the rubber.;x
-rubber_13_settlement_desc;Settle the rubber.;x
-rubber_14_settlement_desc;Settle the rubber.;x
-rubber_15_settlement_desc;Settle the rubber.;x
+Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+trade_deal_cleanup_title;Tradedeal Cleanup;;;;;;;;;;;;;
+trade_deal_cleanup_desc;Clean up the tradedeals;;;;;;;;;;;;;
+oil_1_settlement_title;Oil Settlement;;;;;;;;;;;;;
+oil_2_settlement_title;Oil Settlement;;;;;;;;;;;;;
+oil_3_settlement_title;Oil Settlement;;;;;;;;;;;;;
+oil_4_settlement_title;Oil Settlement;;;;;;;;;;;;;
+oil_5_settlement_title;Oil Settlement;;;;;;;;;;;;;
+oil_6_settlement_title;Oil Settlement;;;;;;;;;;;;;
+oil_7_settlement_title;Oil Settlement;;;;;;;;;;;;;
+oil_8_settlement_title;Oil Settlement;;;;;;;;;;;;;
+oil_9_settlement_title;Oil Settlement;;;;;;;;;;;;;
+oil_10_settlement_title;Oil Settlement;;;;;;;;;;;;;
+oil_11_settlement_title;Oil Settlement;;;;;;;;;;;;;
+oil_12_settlement_title;Oil Settlement;;;;;;;;;;;;;
+oil_13_settlement_title;Oil Settlement;;;;;;;;;;;;;
+oil_14_settlement_title;Oil Settlement;;;;;;;;;;;;;
+oil_15_settlement_title;Oil Settlement;;;;;;;;;;;;;
+oil_1_settlement_desc;Settle the oil.;;;;;;;;;;;;;
+oil_2_settlement_desc;Settle the oil.;;;;;;;;;;;;;
+oil_3_settlement_desc;Settle the oil.;;;;;;;;;;;;;
+oil_4_settlement_desc;Settle the oil.;;;;;;;;;;;;;
+oil_5_settlement_desc;Settle the oil.;;;;;;;;;;;;;
+oil_6_settlement_desc;Settle the oil.;;;;;;;;;;;;;
+oil_7_settlement_desc;Settle the oil.;;;;;;;;;;;;;
+oil_8_settlement_desc;Settle the oil.;;;;;;;;;;;;;
+oil_9_settlement_desc;Settle the oil.;;;;;;;;;;;;;
+oil_10_settlement_desc;Settle the oil.;;;;;;;;;;;;;
+oil_11_settlement_desc;Settle the oil.;;;;;;;;;;;;;
+oil_12_settlement_desc;Settle the oil.;;;;;;;;;;;;;
+oil_13_settlement_desc;Settle the oil.;;;;;;;;;;;;;
+oil_14_settlement_desc;Settle the oil.;;;;;;;;;;;;;
+oil_15_settlement_desc;Settle the oil.;;;;;;;;;;;;;
+coal_1_settlement_title;coal Settlement;;;;;;;;;;;;;
+coal_2_settlement_title;coal Settlement;;;;;;;;;;;;;
+coal_3_settlement_title;coal Settlement;;;;;;;;;;;;;
+coal_4_settlement_title;coal Settlement;;;;;;;;;;;;;
+coal_5_settlement_title;coal Settlement;;;;;;;;;;;;;
+coal_6_settlement_title;coal Settlement;;;;;;;;;;;;;
+coal_7_settlement_title;coal Settlement;;;;;;;;;;;;;
+coal_8_settlement_title;coal Settlement;;;;;;;;;;;;;
+coal_9_settlement_title;coal Settlement;;;;;;;;;;;;;
+coal_10_settlement_title;coal Settlement;;;;;;;;;;;;;
+coal_11_settlement_title;coal Settlement;;;;;;;;;;;;;
+coal_12_settlement_title;coal Settlement;;;;;;;;;;;;;
+coal_13_settlement_title;coal Settlement;;;;;;;;;;;;;
+coal_14_settlement_title;coal Settlement;;;;;;;;;;;;;
+coal_15_settlement_title;coal Settlement;;;;;;;;;;;;;
+coal_1_settlement_desc;Settle the coal.;;;;;;;;;;;;;
+coal_2_settlement_desc;Settle the coal.;;;;;;;;;;;;;
+coal_3_settlement_desc;Settle the coal.;;;;;;;;;;;;;
+coal_4_settlement_desc;Settle the coal.;;;;;;;;;;;;;
+coal_5_settlement_desc;Settle the coal.;;;;;;;;;;;;;
+coal_6_settlement_desc;Settle the coal.;;;;;;;;;;;;;
+coal_7_settlement_desc;Settle the coal.;;;;;;;;;;;;;
+coal_8_settlement_desc;Settle the coal.;;;;;;;;;;;;;
+coal_9_settlement_desc;Settle the coal.;;;;;;;;;;;;;
+coal_10_settlement_desc;Settle the coal.;;;;;;;;;;;;;
+coal_11_settlement_desc;Settle the coal.;;;;;;;;;;;;;
+coal_12_settlement_desc;Settle the coal.;;;;;;;;;;;;;
+coal_13_settlement_desc;Settle the coal.;;;;;;;;;;;;;
+coal_14_settlement_desc;Settle the coal.;;;;;;;;;;;;;
+coal_15_settlement_desc;Settle the coal.;;;;;;;;;;;;;
+iron_1_settlement_title;iron Settlement;;;;;;;;;;;;;
+iron_2_settlement_title;iron Settlement;;;;;;;;;;;;;
+iron_3_settlement_title;iron Settlement;;;;;;;;;;;;;
+iron_4_settlement_title;iron Settlement;;;;;;;;;;;;;
+iron_5_settlement_title;iron Settlement;;;;;;;;;;;;;
+iron_6_settlement_title;iron Settlement;;;;;;;;;;;;;
+iron_7_settlement_title;iron Settlement;;;;;;;;;;;;;
+iron_8_settlement_title;iron Settlement;;;;;;;;;;;;;
+iron_9_settlement_title;iron Settlement;;;;;;;;;;;;;
+iron_10_settlement_title;iron Settlement;;;;;;;;;;;;;
+iron_11_settlement_title;iron Settlement;;;;;;;;;;;;;
+iron_12_settlement_title;iron Settlement;;;;;;;;;;;;;
+iron_13_settlement_title;iron Settlement;;;;;;;;;;;;;
+iron_14_settlement_title;iron Settlement;;;;;;;;;;;;;
+iron_15_settlement_title;iron Settlement;;;;;;;;;;;;;
+iron_1_settlement_desc;Settle the iron.;;;;;;;;;;;;;
+iron_2_settlement_desc;Settle the iron.;;;;;;;;;;;;;
+iron_3_settlement_desc;Settle the iron.;;;;;;;;;;;;;
+iron_4_settlement_desc;Settle the iron.;;;;;;;;;;;;;
+iron_5_settlement_desc;Settle the iron.;;;;;;;;;;;;;
+iron_6_settlement_desc;Settle the iron.;;;;;;;;;;;;;
+iron_7_settlement_desc;Settle the iron.;;;;;;;;;;;;;
+iron_8_settlement_desc;Settle the iron.;;;;;;;;;;;;;
+iron_9_settlement_desc;Settle the iron.;;;;;;;;;;;;;
+iron_10_settlement_desc;Settle the iron.;;;;;;;;;;;;;
+iron_11_settlement_desc;Settle the iron.;;;;;;;;;;;;;
+iron_12_settlement_desc;Settle the iron.;;;;;;;;;;;;;
+iron_13_settlement_desc;Settle the iron.;;;;;;;;;;;;;
+iron_14_settlement_desc;Settle the iron.;;;;;;;;;;;;;
+iron_15_settlement_desc;Settle the iron.;;;;;;;;;;;;;
+sulphur_1_settlement_title;sulphur Settlement;;;;;;;;;;;;;
+sulphur_2_settlement_title;sulphur Settlement;;;;;;;;;;;;;
+sulphur_3_settlement_title;sulphur Settlement;;;;;;;;;;;;;
+sulphur_4_settlement_title;sulphur Settlement;;;;;;;;;;;;;
+sulphur_5_settlement_title;sulphur Settlement;;;;;;;;;;;;;
+sulphur_6_settlement_title;sulphur Settlement;;;;;;;;;;;;;
+sulphur_7_settlement_title;sulphur Settlement;;;;;;;;;;;;;
+sulphur_8_settlement_title;sulphur Settlement;;;;;;;;;;;;;
+sulphur_9_settlement_title;sulphur Settlement;;;;;;;;;;;;;
+sulphur_10_settlement_title;sulphur Settlement;;;;;;;;;;;;;
+sulphur_11_settlement_title;sulphur Settlement;;;;;;;;;;;;;
+sulphur_12_settlement_title;sulphur Settlement;;;;;;;;;;;;;
+sulphur_13_settlement_title;sulphur Settlement;;;;;;;;;;;;;
+sulphur_14_settlement_title;sulphur Settlement;;;;;;;;;;;;;
+sulphur_15_settlement_title;sulphur Settlement;;;;;;;;;;;;;
+sulphur_1_settlement_desc;Settle the sulphur.;;;;;;;;;;;;;
+sulphur_2_settlement_desc;Settle the sulphur.;;;;;;;;;;;;;
+sulphur_3_settlement_desc;Settle the sulphur.;;;;;;;;;;;;;
+sulphur_4_settlement_desc;Settle the sulphur.;;;;;;;;;;;;;
+sulphur_5_settlement_desc;Settle the sulphur.;;;;;;;;;;;;;
+sulphur_6_settlement_desc;Settle the sulphur.;;;;;;;;;;;;;
+sulphur_7_settlement_desc;Settle the sulphur.;;;;;;;;;;;;;
+sulphur_8_settlement_desc;Settle the sulphur.;;;;;;;;;;;;;
+sulphur_9_settlement_desc;Settle the sulphur.;;;;;;;;;;;;;
+sulphur_10_settlement_desc;Settle the sulphur.;;;;;;;;;;;;;
+sulphur_11_settlement_desc;Settle the sulphur.;;;;;;;;;;;;;
+sulphur_12_settlement_desc;Settle the sulphur.;;;;;;;;;;;;;
+sulphur_13_settlement_desc;Settle the sulphur.;;;;;;;;;;;;;
+sulphur_14_settlement_desc;Settle the sulphur.;;;;;;;;;;;;;
+sulphur_15_settlement_desc;Settle the sulphur.;;;;;;;;;;;;;
+timber_1_settlement_title;timber Settlement;;;;;;;;;;;;;
+timber_2_settlement_title;timber Settlement;;;;;;;;;;;;;
+timber_3_settlement_title;timber Settlement;;;;;;;;;;;;;
+timber_4_settlement_title;timber Settlement;;;;;;;;;;;;;
+timber_5_settlement_title;timber Settlement;;;;;;;;;;;;;
+timber_6_settlement_title;timber Settlement;;;;;;;;;;;;;
+timber_7_settlement_title;timber Settlement;;;;;;;;;;;;;
+timber_8_settlement_title;timber Settlement;;;;;;;;;;;;;
+timber_9_settlement_title;timber Settlement;;;;;;;;;;;;;
+timber_10_settlement_title;timber Settlement;;;;;;;;;;;;;
+timber_11_settlement_title;timber Settlement;;;;;;;;;;;;;
+timber_12_settlement_title;timber Settlement;;;;;;;;;;;;;
+timber_13_settlement_title;timber Settlement;;;;;;;;;;;;;
+timber_14_settlement_title;timber Settlement;;;;;;;;;;;;;
+timber_15_settlement_title;timber Settlement;;;;;;;;;;;;;
+timber_1_settlement_desc;Settle the timber.;;;;;;;;;;;;;
+timber_2_settlement_desc;Settle the timber.;;;;;;;;;;;;;
+timber_3_settlement_desc;Settle the timber.;;;;;;;;;;;;;
+timber_4_settlement_desc;Settle the timber.;;;;;;;;;;;;;
+timber_5_settlement_desc;Settle the timber.;;;;;;;;;;;;;
+timber_6_settlement_desc;Settle the timber.;;;;;;;;;;;;;
+timber_7_settlement_desc;Settle the timber.;;;;;;;;;;;;;
+timber_8_settlement_desc;Settle the timber.;;;;;;;;;;;;;
+timber_9_settlement_desc;Settle the timber.;;;;;;;;;;;;;
+timber_10_settlement_desc;Settle the timber.;;;;;;;;;;;;;
+timber_11_settlement_desc;Settle the timber.;;;;;;;;;;;;;
+timber_12_settlement_desc;Settle the timber.;;;;;;;;;;;;;
+timber_13_settlement_desc;Settle the timber.;;;;;;;;;;;;;
+timber_14_settlement_desc;Settle the timber.;;;;;;;;;;;;;
+timber_15_settlement_desc;Settle the timber.;;;;;;;;;;;;;
+cotton_1_settlement_title;cotton Settlement;;;;;;;;;;;;;
+cotton_2_settlement_title;cotton Settlement;;;;;;;;;;;;;
+cotton_3_settlement_title;cotton Settlement;;;;;;;;;;;;;
+cotton_4_settlement_title;cotton Settlement;;;;;;;;;;;;;
+cotton_5_settlement_title;cotton Settlement;;;;;;;;;;;;;
+cotton_6_settlement_title;cotton Settlement;;;;;;;;;;;;;
+cotton_7_settlement_title;cotton Settlement;;;;;;;;;;;;;
+cotton_8_settlement_title;cotton Settlement;;;;;;;;;;;;;
+cotton_9_settlement_title;cotton Settlement;;;;;;;;;;;;;
+cotton_10_settlement_title;cotton Settlement;;;;;;;;;;;;;
+cotton_11_settlement_title;cotton Settlement;;;;;;;;;;;;;
+cotton_12_settlement_title;cotton Settlement;;;;;;;;;;;;;
+cotton_13_settlement_title;cotton Settlement;;;;;;;;;;;;;
+cotton_14_settlement_title;cotton Settlement;;;;;;;;;;;;;
+cotton_15_settlement_title;cotton Settlement;;;;;;;;;;;;;
+cotton_1_settlement_desc;Settle the cotton.;;;;;;;;;;;;;
+cotton_2_settlement_desc;Settle the cotton.;;;;;;;;;;;;;
+cotton_3_settlement_desc;Settle the cotton.;;;;;;;;;;;;;
+cotton_4_settlement_desc;Settle the cotton.;;;;;;;;;;;;;
+cotton_5_settlement_desc;Settle the cotton.;;;;;;;;;;;;;
+cotton_6_settlement_desc;Settle the cotton.;;;;;;;;;;;;;
+cotton_7_settlement_desc;Settle the cotton.;;;;;;;;;;;;;
+cotton_8_settlement_desc;Settle the cotton.;;;;;;;;;;;;;
+cotton_9_settlement_desc;Settle the cotton.;;;;;;;;;;;;;
+cotton_10_settlement_desc;Settle the cotton.;;;;;;;;;;;;;
+cotton_11_settlement_desc;Settle the cotton.;;;;;;;;;;;;;
+cotton_12_settlement_desc;Settle the cotton.;;;;;;;;;;;;;
+cotton_13_settlement_desc;Settle the cotton.;;;;;;;;;;;;;
+cotton_14_settlement_desc;Settle the cotton.;;;;;;;;;;;;;
+cotton_15_settlement_desc;Settle the cotton.;;;;;;;;;;;;;
+dye_1_settlement_title;dye Settlement;;;;;;;;;;;;;
+dye_2_settlement_title;dye Settlement;;;;;;;;;;;;;
+dye_3_settlement_title;dye Settlement;;;;;;;;;;;;;
+dye_4_settlement_title;dye Settlement;;;;;;;;;;;;;
+dye_5_settlement_title;dye Settlement;;;;;;;;;;;;;
+dye_6_settlement_title;dye Settlement;;;;;;;;;;;;;
+dye_7_settlement_title;dye Settlement;;;;;;;;;;;;;
+dye_8_settlement_title;dye Settlement;;;;;;;;;;;;;
+dye_9_settlement_title;dye Settlement;;;;;;;;;;;;;
+dye_10_settlement_title;dye Settlement;;;;;;;;;;;;;
+dye_11_settlement_title;dye Settlement;;;;;;;;;;;;;
+dye_12_settlement_title;dye Settlement;;;;;;;;;;;;;
+dye_13_settlement_title;dye Settlement;;;;;;;;;;;;;
+dye_14_settlement_title;dye Settlement;;;;;;;;;;;;;
+dye_15_settlement_title;dye Settlement;;;;;;;;;;;;;
+dye_1_settlement_desc;Settle the dye.;;;;;;;;;;;;;
+dye_2_settlement_desc;Settle the dye.;;;;;;;;;;;;;
+dye_3_settlement_desc;Settle the dye.;;;;;;;;;;;;;
+dye_4_settlement_desc;Settle the dye.;;;;;;;;;;;;;
+dye_5_settlement_desc;Settle the dye.;;;;;;;;;;;;;
+dye_6_settlement_desc;Settle the dye.;;;;;;;;;;;;;
+dye_7_settlement_desc;Settle the dye.;;;;;;;;;;;;;
+dye_8_settlement_desc;Settle the dye.;;;;;;;;;;;;;
+dye_9_settlement_desc;Settle the dye.;;;;;;;;;;;;;
+dye_10_settlement_desc;Settle the dye.;;;;;;;;;;;;;
+dye_11_settlement_desc;Settle the dye.;;;;;;;;;;;;;
+dye_12_settlement_desc;Settle the dye.;;;;;;;;;;;;;
+dye_13_settlement_desc;Settle the dye.;;;;;;;;;;;;;
+dye_14_settlement_desc;Settle the dye.;;;;;;;;;;;;;
+dye_15_settlement_desc;Settle the dye.;;;;;;;;;;;;;
+silk_1_settlement_title;silk Settlement;;;;;;;;;;;;;
+silk_2_settlement_title;silk Settlement;;;;;;;;;;;;;
+silk_3_settlement_title;silk Settlement;;;;;;;;;;;;;
+silk_4_settlement_title;silk Settlement;;;;;;;;;;;;;
+silk_5_settlement_title;silk Settlement;;;;;;;;;;;;;
+silk_6_settlement_title;silk Settlement;;;;;;;;;;;;;
+silk_7_settlement_title;silk Settlement;;;;;;;;;;;;;
+silk_8_settlement_title;silk Settlement;;;;;;;;;;;;;
+silk_9_settlement_title;silk Settlement;;;;;;;;;;;;;
+silk_10_settlement_title;silk Settlement;;;;;;;;;;;;;
+silk_11_settlement_title;silk Settlement;;;;;;;;;;;;;
+silk_12_settlement_title;silk Settlement;;;;;;;;;;;;;
+silk_13_settlement_title;silk Settlement;;;;;;;;;;;;;
+silk_14_settlement_title;silk Settlement;;;;;;;;;;;;;
+silk_15_settlement_title;silk Settlement;;;;;;;;;;;;;
+silk_1_settlement_desc;Settle the silk.;;;;;;;;;;;;;
+silk_2_settlement_desc;Settle the silk.;;;;;;;;;;;;;
+silk_3_settlement_desc;Settle the silk.;;;;;;;;;;;;;
+silk_4_settlement_desc;Settle the silk.;;;;;;;;;;;;;
+silk_5_settlement_desc;Settle the silk.;;;;;;;;;;;;;
+silk_6_settlement_desc;Settle the silk.;;;;;;;;;;;;;
+silk_7_settlement_desc;Settle the silk.;;;;;;;;;;;;;
+silk_8_settlement_desc;Settle the silk.;;;;;;;;;;;;;
+silk_9_settlement_desc;Settle the silk.;;;;;;;;;;;;;
+silk_10_settlement_desc;Settle the silk.;;;;;;;;;;;;;
+silk_11_settlement_desc;Settle the silk.;;;;;;;;;;;;;
+silk_12_settlement_desc;Settle the silk.;;;;;;;;;;;;;
+silk_13_settlement_desc;Settle the silk.;;;;;;;;;;;;;
+silk_14_settlement_desc;Settle the silk.;;;;;;;;;;;;;
+silk_15_settlement_desc;Settle the silk.;;;;;;;;;;;;;
+tropical_wood_1_settlement_title;tropical_wood Settlement;;;;;;;;;;;;;
+tropical_wood_2_settlement_title;tropical_wood Settlement;;;;;;;;;;;;;
+tropical_wood_3_settlement_title;tropical_wood Settlement;;;;;;;;;;;;;
+tropical_wood_4_settlement_title;tropical_wood Settlement;;;;;;;;;;;;;
+tropical_wood_5_settlement_title;tropical_wood Settlement;;;;;;;;;;;;;
+tropical_wood_6_settlement_title;tropical_wood Settlement;;;;;;;;;;;;;
+tropical_wood_7_settlement_title;tropical_wood Settlement;;;;;;;;;;;;;
+tropical_wood_8_settlement_title;tropical_wood Settlement;;;;;;;;;;;;;
+tropical_wood_9_settlement_title;tropical_wood Settlement;;;;;;;;;;;;;
+tropical_wood_10_settlement_title;tropical_wood Settlement;;;;;;;;;;;;;
+tropical_wood_11_settlement_title;tropical_wood Settlement;;;;;;;;;;;;;
+tropical_wood_12_settlement_title;tropical_wood Settlement;;;;;;;;;;;;;
+tropical_wood_13_settlement_title;tropical_wood Settlement;;;;;;;;;;;;;
+tropical_wood_14_settlement_title;tropical_wood Settlement;;;;;;;;;;;;;
+tropical_wood_15_settlement_title;tropical_wood Settlement;;;;;;;;;;;;;
+tropical_wood_1_settlement_desc;Settle the tropical_wood.;;;;;;;;;;;;;
+tropical_wood_2_settlement_desc;Settle the tropical_wood.;;;;;;;;;;;;;
+tropical_wood_3_settlement_desc;Settle the tropical_wood.;;;;;;;;;;;;;
+tropical_wood_4_settlement_desc;Settle the tropical_wood.;;;;;;;;;;;;;
+tropical_wood_5_settlement_desc;Settle the tropical_wood.;;;;;;;;;;;;;
+tropical_wood_6_settlement_desc;Settle the tropical_wood.;;;;;;;;;;;;;
+tropical_wood_7_settlement_desc;Settle the tropical_wood.;;;;;;;;;;;;;
+tropical_wood_8_settlement_desc;Settle the tropical_wood.;;;;;;;;;;;;;
+tropical_wood_9_settlement_desc;Settle the tropical_wood.;;;;;;;;;;;;;
+tropical_wood_10_settlement_desc;Settle the tropical_wood.;;;;;;;;;;;;;
+tropical_wood_11_settlement_desc;Settle the tropical_wood.;;;;;;;;;;;;;
+tropical_wood_12_settlement_desc;Settle the tropical_wood.;;;;;;;;;;;;;
+tropical_wood_13_settlement_desc;Settle the tropical_wood.;;;;;;;;;;;;;
+tropical_wood_14_settlement_desc;Settle the tropical_wood.;;;;;;;;;;;;;
+tropical_wood_15_settlement_desc;Settle the tropical_wood.;;;;;;;;;;;;;
+opium_1_settlement_title;opium Settlement;;;;;;;;;;;;;
+opium_2_settlement_title;opium Settlement;;;;;;;;;;;;;
+opium_3_settlement_title;opium Settlement;;;;;;;;;;;;;
+opium_4_settlement_title;opium Settlement;;;;;;;;;;;;;
+opium_5_settlement_title;opium Settlement;;;;;;;;;;;;;
+opium_6_settlement_title;opium Settlement;;;;;;;;;;;;;
+opium_7_settlement_title;opium Settlement;;;;;;;;;;;;;
+opium_8_settlement_title;opium Settlement;;;;;;;;;;;;;
+opium_9_settlement_title;opium Settlement;;;;;;;;;;;;;
+opium_10_settlement_title;opium Settlement;;;;;;;;;;;;;
+opium_11_settlement_title;opium Settlement;;;;;;;;;;;;;
+opium_12_settlement_title;opium Settlement;;;;;;;;;;;;;
+opium_13_settlement_title;opium Settlement;;;;;;;;;;;;;
+opium_14_settlement_title;opium Settlement;;;;;;;;;;;;;
+opium_15_settlement_title;opium Settlement;;;;;;;;;;;;;
+opium_1_settlement_desc;Settle the opium.;;;;;;;;;;;;;
+opium_2_settlement_desc;Settle the opium.;;;;;;;;;;;;;
+opium_3_settlement_desc;Settle the opium.;;;;;;;;;;;;;
+opium_4_settlement_desc;Settle the opium.;;;;;;;;;;;;;
+opium_5_settlement_desc;Settle the opium.;;;;;;;;;;;;;
+opium_6_settlement_desc;Settle the opium.;;;;;;;;;;;;;
+opium_7_settlement_desc;Settle the opium.;;;;;;;;;;;;;
+opium_8_settlement_desc;Settle the opium.;;;;;;;;;;;;;
+opium_9_settlement_desc;Settle the opium.;;;;;;;;;;;;;
+opium_10_settlement_desc;Settle the opium.;;;;;;;;;;;;;
+opium_11_settlement_desc;Settle the opium.;;;;;;;;;;;;;
+opium_12_settlement_desc;Settle the opium.;;;;;;;;;;;;;
+opium_13_settlement_desc;Settle the opium.;;;;;;;;;;;;;
+opium_14_settlement_desc;Settle the opium.;;;;;;;;;;;;;
+opium_15_settlement_desc;Settle the opium.;;;;;;;;;;;;;
+rubber_1_settlement_title;rubber Settlement;;;;;;;;;;;;;
+rubber_2_settlement_title;rubber Settlement;;;;;;;;;;;;;
+rubber_3_settlement_title;rubber Settlement;;;;;;;;;;;;;
+rubber_4_settlement_title;rubber Settlement;;;;;;;;;;;;;
+rubber_5_settlement_title;rubber Settlement;;;;;;;;;;;;;
+rubber_6_settlement_title;rubber Settlement;;;;;;;;;;;;;
+rubber_7_settlement_title;rubber Settlement;;;;;;;;;;;;;
+rubber_8_settlement_title;rubber Settlement;;;;;;;;;;;;;
+rubber_9_settlement_title;rubber Settlement;;;;;;;;;;;;;
+rubber_10_settlement_title;rubber Settlement;;;;;;;;;;;;;
+rubber_11_settlement_title;rubber Settlement;;;;;;;;;;;;;
+rubber_12_settlement_title;rubber Settlement;;;;;;;;;;;;;
+rubber_13_settlement_title;rubber Settlement;;;;;;;;;;;;;
+rubber_14_settlement_title;rubber Settlement;;;;;;;;;;;;;
+rubber_15_settlement_title;rubber Settlement;;;;;;;;;;;;;
+rubber_1_settlement_desc;Settle the rubber.;;;;;;;;;;;;;
+rubber_2_settlement_desc;Settle the rubber.;;;;;;;;;;;;;
+rubber_3_settlement_desc;Settle the rubber.;;;;;;;;;;;;;
+rubber_4_settlement_desc;Settle the rubber.;;;;;;;;;;;;;
+rubber_5_settlement_desc;Settle the rubber.;;;;;;;;;;;;;
+rubber_6_settlement_desc;Settle the rubber.;;;;;;;;;;;;;
+rubber_7_settlement_desc;Settle the rubber.;;;;;;;;;;;;;
+rubber_8_settlement_desc;Settle the rubber.;;;;;;;;;;;;;
+rubber_9_settlement_desc;Settle the rubber.;;;;;;;;;;;;;
+rubber_10_settlement_desc;Settle the rubber.;;;;;;;;;;;;;
+rubber_11_settlement_desc;Settle the rubber.;;;;;;;;;;;;;
+rubber_12_settlement_desc;Settle the rubber.;;;;;;;;;;;;;
+rubber_13_settlement_desc;Settle the rubber.;;;;;;;;;;;;;
+rubber_14_settlement_desc;Settle the rubber.;;;;;;;;;;;;;
+rubber_15_settlement_desc;Settle the rubber.;;;;;;;;;;;;;

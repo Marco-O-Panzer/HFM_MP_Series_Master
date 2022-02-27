@@ -1,14 +1,10 @@
-synthetic_rubber_factory;Synthetic Rubber Refinery;;;;;;;;;;;;;;;;;;;x;;;;
-synthetic_rubber_factory_desc;A synthetic rubber is any artificial elastomer. They are polymers synthesized from petroleum byproducts.;x
-synthetic_rubber_production;Synthetic Rubber Production;x
-synthetic_rubber_production_desc;A synthetic rubber is any artificial elastomer. They are polymers synthesized from petroleum byproducts.;x
-financial_services;Financial Services;x
-shares;Shares;x
-bank;Bank;x
-bank_desc;A bank is a financial institution that accepts deposits from the public and creates a demand deposit while simultaneously making loans.;x
-merchant_banking;Merchant Banking;x
-merchant_banking_desc;A financial institution that conducts underwriting, loan services, financial advising, and fundraising services for large corporations and high-net-worth individuals.;x
-stock_exchange;Stock Exchange;x
-stock_exchange_desc;An exchange where stockbrokers and traders can buy and sell securities, such as shares of stock, bonds, and other financial instruments. Stock exchanges may also provide facilities for the issue and redemption of such securities and instruments and capital events including the payment of income and dividends.;x
-stock_exchanges;Stock Exchanges;x
-stock_exchanges_desc;An exchange where stockbrokers and traders can buy and sell securities, such as shares of stock, bonds, and other financial instruments. Stock exchanges may also provide facilities for the issue and redemption of such securities and instruments and capital events including the payment of income and dividends.;x
+Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+synthetic_rubber_factory_desc;A synthetic rubber is any artificial elastomer. They are polymers synthesized from petroleum byproducts.;;;;;;;;;;;;;
+synthetic_rubber_production;Synthetic Rubber Production;;;;;;;;;;;;;
+synthetic_rubber_production_desc;A synthetic rubber is any artificial elastomer. They are polymers synthesized from petroleum byproducts.;;;;;;;;;;;;;
+financial_services;Financial Services;;;;;;;;;;;;;
+shares;Shares;;;;;;;;;;;;;
+bank;Bank;;;;;;;;;;;;;
+bank_desc;A bank is a financial institution that accepts deposits from the public and creates a demand deposit while simultaneously making loans.;;;;;;;;;;;;;
+stock_exchange;Stock Exchange;;;;;;;;;;;;;
+stock_exchange_desc;An exchange where stockbrokers and traders can buy and sell securities, such as shares of stock, bonds, and other financial instruments. Stock exchanges may also provide facilities for the issue and redemption of such securities and instruments and capital events including the payment of income and dividends.;;;;;;;;;;;;;
