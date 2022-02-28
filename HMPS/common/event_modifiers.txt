@@ -636,7 +636,8 @@ indian_territory = {
 
 reconstruction = {
 	assimilation_rate = 0.20
-	life_rating = -0.1
+	local_RGO_throughput = -0.25
+	local_factory_throughput = -0.1
 	immigrant_attract = 0.05
 	pop_consciousness_modifier = 0.05
 	pop_militancy_modifier = 0.02

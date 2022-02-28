@@ -1022,7 +1022,6 @@ emigration_chance = {
 			location = { continent = australia_new_zealand }
 		}
 		country = {
-			#has_country_flag = new_world_nation
 			government = democracy
 		}
 	}
@@ -1088,10 +1087,7 @@ assimilation_chance = {
 	
 	modifier = {
 		factor = -20
-		OR = {
-			has_culture_core = yes
-			location = { any_core = { is_cultural_union = yes is_accepted_culture = THIS } }
-		}
+		has_culture_core = yes
 		OR = {
 			country = { citizens_rights = primary_culture_only }
 			AND = {
@@ -1222,7 +1218,6 @@ assimilation_chance = {
 	modifier = {
 		factor = -0.35
 		country = {
-			#has_country_flag = new_world_nation
 			has_country_flag = native_assimilation_enacted
 		}
 		OR = {
@@ -1245,7 +1240,6 @@ assimilation_chance = {
 	modifier = {
 		factor = -80
 		country = {
-			#has_country_flag = new_world_nation
 			NOT = { has_country_flag = native_assimilation_enacted }
 		}
 		OR = {
@@ -1261,33 +1255,10 @@ assimilation_chance = {
 	
 	modifier = {
 		factor = -80
-		country = { NOT = { has_country_flag = african_integration_policy } }
-		NOT = { capital_scope = { location = { continent = africa } } }
-		NOT = { capital_scope = { location = { continent = central_africa } } }
-		NOT = { capital_scope = { location = { continent = west_africa } } }
-		NOT = { capital_scope = { location = { continent = east_africa } } }
-		NOT = { capital_scope = { location = { continent = south_west_africa } } }
-		OR = { 
-			location = { continent = africa }
-			location = { continent = central_africa }
-			location = { continent = west_africa }
-			location = { continent = east_africa }
-			location = { continent = south_west_africa }
-		}
+		is_culture_group = african_diaspora_cultures
 		OR = {
-			is_culture_group = african_diaspora_cultures
-			is_culture_group = west_african
-			is_culture_group = central_african
-			is_culture_group = east_african
-			is_culture_group = southern_african
-		}
-		OR = {
-			NOT = { country = { is_culture_group = african_diaspora_cultures } }
-			NOT = { country = { is_culture_group = west_african } }
-			NOT = { country = { is_culture_group = central_african } }
-			NOT = { country = { is_culture_group = east_african } }
-			NOT = { country = { is_culture_group = southern_african } }
-			NOT = { country = { is_culture_group = arab } }
+			location = { continent = north_america }
+			location = { continent = south_america }
 		}
 	}
 }

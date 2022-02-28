@@ -173,6 +173,25 @@ country_event = {
 	option = {
 		name = "Checking..."
 		
+		#cleanup vassals with nonexistent overlords
+		any_country = {
+			limit = {
+				is_vassal = yes
+				exists = yes
+				overlord = { exists = no }
+			}
+			country_event = 477877788
+		}
+		
+		#cleanup overlords with nonexistent vassals - doesn't appear to work
+		any_country = {
+			limit = {
+				is_vassal = yes
+				exists = no
+			}
+			country_event = 4778777881
+		}
+		
 		#applying river province notifications
 		any_country = {
 			limit = {
@@ -561,37 +580,6 @@ country_event = {
 			relation = { who = THIS value = -400 }
 		}
 		
-		#silver mine modifiers		#no silver in HMPS
-		#any_country = {
-		#	limit = {
-		#		any_owned_province = {
-		#			OR = {
-		#				province_id = 2293
-		#				province_id = 2296
-		#				province_id = 312
-		#				province_id = 2322
-		#				province_id = 2323
-		#			}
-		#			trade_goods = precious_metal
-		#			NOT = { has_province_modifier = silver_mine }
-		#		}
-		#	}
-		#	any_owned = {
-		#		limit = {
-		#			OR = {
-		#				province_id = 2293
-		#				province_id = 2296
-		#				province_id = 312
-		#				province_id = 2322
-		#				province_id = 2323
-		#			}
-		#			trade_goods = precious_metal
-		#			NOT = { has_province_modifier = silver_mine }
-		#		}
-		#		add_province_modifier = { name = silver_mine duration = -1 }
-		#	}
-		#}
-		
 		#stop vassal payments
 		any_country = {
 			limit = {
@@ -658,26 +646,6 @@ country_event = {
 				is_slave = no
 			}
 		}
-		
-		#cleanup vassals with nonexistent overlords
-		any_country = {
-			limit = {
-				is_vassal = yes
-				exists = yes
-				overlord = { exists = no }
-			}
-			country_event = 477877788
-		}
-		
-		#cleanup overlords with nonexistent vassals - disabled by default
-		#any_country = {
-		#	limit = {
-		#		is_vassal = yes
-		#		exists = no
-		#		overlord = { exists = yes }
-		#	}
-		#	country_event = 477877788
-		#}
 		
 		#cleanup bad govflags
 		any_country = {
@@ -1327,6 +1295,24 @@ country_event = {
 	option = {
 		name = "Nice."
 		overlord = { release_vassal = THIS }
+	}
+}
+
+country_event = {
+	id = 4778777881
+	title = "Freedom!"
+	desc = "We have acquired independence!"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Nice."
+		overlord = {
+			diplomatic_influence = {
+				who = THIS
+				value = -400
+			}
+		}
 	}
 }
 

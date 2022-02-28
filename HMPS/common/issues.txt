@@ -626,7 +626,7 @@ political_reforms = {
 			core_pop_consciousness_modifier = -0.03
 			administrative_multiplier = 1
 			#on_execute = { effect = { country_event = 6016804 } }
-			allow = { colonial_nation = yes }
+			allow = { any_state = { is_colonial = yes } }
 		}
 		
 		exploitation = {
@@ -637,7 +637,7 @@ political_reforms = {
 			navy_tech_research_bonus = 0.05
 			suppression_points_modifier = 0.25
 			administrative_multiplier = 1
-			allow = { colonial_nation = yes }
+			allow = { any_state = { is_colonial = yes } }
 		}
 				
 		civilizing = {
@@ -647,7 +647,7 @@ political_reforms = {
 			culture_tech_research_bonus = 0.05
 			administrative_multiplier = 1
 			allow = {
-				colonial_nation = yes 
+				any_state = { is_colonial = yes }
 				OR = {
 					has_global_flag = berlin_conference
 					has_country_flag = theocratic_government
@@ -657,7 +657,7 @@ political_reforms = {
 		}
 		
 		no_colonies = {
-			allow = { colonial_nation = no }
+			allow = { NOT = { any_state = { is_colonial = yes } } }
 			supply_consumption = -0.05
 			navy_tech_research_bonus = -0.05
 			army_tech_research_bonus = 0.05

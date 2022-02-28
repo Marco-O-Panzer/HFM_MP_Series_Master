@@ -764,7 +764,6 @@ TECH_FARM_OUTPUT;Farming efficiency;;;;;;;;;;;;;
 MODIFIER_FARM_EFFICIENCY;Farming Output;;;;;;;;;;;;;
 MODIFIER_MINE_EFFICIENCY;Mining Output;;;;;;;;;;;;;
 MODIFIER_MOBILISATION_ECONOMY_IMPACT;Production Impact;Impact de la mobilisation;Mobilisierungseffekt;;Efecto de movilización;;;;;;;;;
-EVTDESC998011;It is time to reassess our policy of how $COUNTRY_ADJ$ colonial lands will be administered.;;;;;;;;;;;;;
 change_colonial_policy_title;§EChange Colonial Policy§!;;;;;;;;;;;;;
 change_colonial_policy_desc;We can reassess our colonial policy, and set new policy regarding our colonial posessions.;;;;;;;;;;;;;
 decided_colonial_policy;§CColonial Policy Set§!;;;;;;;;;;;;;

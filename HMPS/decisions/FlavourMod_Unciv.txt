@@ -129,6 +129,7 @@ political_decisions = {
 					military_reform = yes_army_schools
 					treasury = -25000
 					
+					activate_technology = army_command_principle
 					random_owned = {
 						limit = { owner = { has_country_modifier = corrupt_army } }
 						owner = { remove_country_modifier = corrupt_army } 
@@ -218,7 +219,6 @@ political_decisions = {
 					military_reform = yes_foreign_weapons
 					treasury = -35000
 					activate_technology = flintlock_rifles
-					activate_technology = muzzle_loaded_rifles
 					set_country_flag = using_foreign_weapons
 					any_pop = {
 						scaled_militancy = {
@@ -252,7 +252,6 @@ political_decisions = {
 					treasury = -75000
 					
 					activate_technology = bronze_muzzle_loaded_artillery
-					activate_technology = iron_muzzle_loaded_artillery
 					set_country_flag = using_foreign_artillery
 					
 					any_pop = {
@@ -380,7 +379,6 @@ political_decisions = {
 					treasury = -65000
 					
 					activate_technology = clipper_design
-					activate_technology = steamers
 					set_country_flag = using_foreign_ships
 					
 					any_pop = {
@@ -448,6 +446,7 @@ political_decisions = {
 					military_reform = yes_foreign_naval_officers
 					treasury = -10000
 					
+					activate_technology = alphabetic_flag_signaling
 					country_event = 90959
 					any_pop = {
 						scaled_militancy = {

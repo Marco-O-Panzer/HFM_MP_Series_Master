@@ -4591,7 +4591,7 @@ country_event = {
 		}
 		random_owned = { 
 			limit = { owner = { has_country_flag = nsch_flag_two } NOT = { naval_professionalism = 1 } }
-			owner = { activate_technology = naval_professionalism  clr_country_flag = nsch_flag_two }
+			owner = { activate_technology = the_command_principle activate_technology = naval_professionalism  clr_country_flag = nsch_flag_two }
 		}
 		
 		### econ reforms ###

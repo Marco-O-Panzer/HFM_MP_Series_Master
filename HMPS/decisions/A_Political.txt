@@ -312,7 +312,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			country_event = 7777933
+			country_event = 99801
 			add_country_modifier = {
 				name = decided_colonial_policy
 				duration = 7300

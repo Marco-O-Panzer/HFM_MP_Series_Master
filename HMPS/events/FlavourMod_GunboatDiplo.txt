@@ -17,6 +17,7 @@ country_event = {
 	
 	trigger = {
 		tag = ENG
+		GRE = { exists = yes }
 		year = 1847
 		month = 4
 		NOT = { has_country_flag = don_pacifico }

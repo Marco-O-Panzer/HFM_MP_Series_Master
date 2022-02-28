@@ -66,14 +66,8 @@ country_event = {
 
 	trigger = {
 		civilized = yes
-		#money = 55000
 		colonial_policy = no_colonies
-		colonial_nation = yes
-		#NOT = { has_country_flag = is_now_colonial }
-		NOT = {
-			tag = TUR
-			#ai = yes
-		}
+		any_state = { is_colonial = yes }
 	}
 	
 	mean_time_to_happen = {
@@ -83,7 +77,6 @@ country_event = {
 	option = {
 		name = "EVT99801OPTA"
 		prestige = 10
-		#treasury = -55000
 		political_reform = settlement
 		any_pop = { 
 			limit = {
@@ -93,9 +86,8 @@ country_event = {
 					is_colonial = yes
 				}
 			}
-			militancy = 10
+			militancy = 2
 		}
-		set_country_flag = is_now_colonial 
 		
 		ai_chance = {
 			factor = 20
@@ -153,9 +145,8 @@ country_event = {
 					is_colonial = yes
 				}
 			}
-			militancy = 5
+			militancy = 2
 		}
-		set_country_flag = is_now_colonial 
 		
 		ai_chance = {
 			factor = 40
@@ -193,18 +184,31 @@ country_event = {
 	
 	option = {
 		name = "EVT99801OPTC"
-		prestige = 15
-		political_reform = civilizing
-		any_pop = { 
+		random_owned = {
 			limit = {
-				is_state_religion = no
-				location = {
-					is_colonial = yes
+				owner = {
+					OR = {
+						has_global_flag = berlin_conference
+						has_country_flag = theocratic_government
+					}
+					NOT = { has_country_flag = islamic_law }
 				}
 			}
-			militancy = 5
+			owner = {
+				prestige = 15
+				political_reform = civilizing
+				any_pop = { 
+					limit = {
+						is_state_religion = no
+						location = {
+							is_colonial = yes
+						}
+					}
+					militancy = 2
+				}
+			
+			}
 		}
-		set_country_flag = is_now_colonial 
 		
 		ai_chance = {
 			factor = 40
