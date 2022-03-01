@@ -41,10 +41,10 @@ country_event = {
 				name = reading
 				duration = -1
 			}
-			add_country_modifier = {
-				name = educational_reform
-				duration = 3650
-			}
+		}
+		add_country_modifier = {
+			name = educational_reform
+			duration = 3650
 		}
 		relation = { who = PAP value = 150 }
 		any_pop = { limit = { is_state_religion = yes } scaled_militancy = { factor = -5 issue = moralism } }

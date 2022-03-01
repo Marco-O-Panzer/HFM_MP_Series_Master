@@ -11,11 +11,9 @@ country_event = {
 		name = "Force them into Artisans!"
 		any_owned = {
 			any_pop = {
-				limit = { 
-					AND = {
-						is_primary_culture = no
-						is_accepted_culture = no
-					}
+				limit = {
+					is_primary_culture = no
+					is_accepted_culture = no
 					type = bureaucrats
 				}
 				pop_type = artisans

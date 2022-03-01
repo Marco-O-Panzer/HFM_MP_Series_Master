@@ -1795,9 +1795,9 @@ political_decisions = {
 			add_accepted_culture = catalan
 			add_accepted_culture = basque
 			set_global_flag = created_iberia
-			POR = { all_core = { add_core = IBR } remove_core = POR }
-			SPA = { all_core = { add_core = IBR } remove_core = SPA }
-			SPC = { all_core = { add_core = IBR } remove_core = SPC }
+			POR = { all_core = { add_core = IBR remove_core = POR } }
+			SPA = { all_core = { add_core = IBR remove_core = SPA } }
+			SPC = { all_core = { add_core = IBR remove_core = SPC } }
 		}
 	}
 }

@@ -174,8 +174,8 @@ country_event = {
 				owner = {
 					conscription = four_year_draft
 					war_policy = pacifism
+					war = no
 				}
-				war = no
 			}
 			owner = {
 				political_reform = two_year_draft

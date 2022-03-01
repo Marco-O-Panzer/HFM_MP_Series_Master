@@ -189,7 +189,7 @@ country_event = {
 				is_vassal = yes
 				exists = no
 			}
-			country_event = 4778777881
+			country_event = 477877794
 		}
 		
 		#applying river province notifications
@@ -1039,6 +1039,17 @@ country_event = {
 			}
 		}
 		
+		#remove colonial policy from non colonial nations
+		any_country = {
+			limit = {
+				NOT = {
+					colonial_policy = no_colonies
+					any_state = { is_colonial = yes }
+				}
+			}
+			political_reform = no_colonies
+		}
+		
 		CLN = { country_event = { id = 477877790 days = 30 } }
 	}
 }
@@ -1069,15 +1080,6 @@ country_event = {
 				any_pop = { limit = { literacy = 0.80 } literacy = -0.001 }
 				any_pop = { limit = { literacy = 0.90 } literacy = -0.001 }
 			}
-		}
-		
-		#remove colonial policy from non colonial nations
-		any_country = {
-			limit = {
-				NOT = { colonial_policy = no_colonies }
-				colonial_nation = no
-			}
-			political_reform = no_colonies
 		}
 		
 		#updating mil gain for ottomans
@@ -1299,20 +1301,15 @@ country_event = {
 }
 
 country_event = {
-	id = 4778777881
-	title = "Freedom!"
+	id = 477877794
+	title = "Non-Existing Vassal Cleanup"
 	desc = "We have acquired independence!"
 	
 	is_triggered_only = yes
 	
 	option = {
 		name = "Nice."
-		overlord = {
-			diplomatic_influence = {
-				who = THIS
-				value = -400
-			}
-		}
+		THIS = { annex_to = THIS }
 	}
 }
 

@@ -997,7 +997,7 @@ country_event = {
 	option = {
 		name = "EVT7777921OPTB"
 		any_pop = {
-			ideology = { value = conservative }
+			ideology = { factor = 10 value = conservative }
 			militancy = -2
 		}
 		ai_chance = {

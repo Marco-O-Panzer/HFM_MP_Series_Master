@@ -285,17 +285,17 @@ political_decisions = {
 				militancy = -4
 			}
 			GLP = {
-				any_core = {
+				all_core = {
 					add_core = THIS
 				}
 			}
 			MTQ = {
-				any_core = {
+				all_core = {
 					add_core = THIS
 				}
 			}
 			HAI = {
-				any_core = {
+				all_core = {
 					limit = {
 						NOT = {
 							is_core = DOM

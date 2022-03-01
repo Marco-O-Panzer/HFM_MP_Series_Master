@@ -435,7 +435,7 @@ country_event = {
 		months = 24
 		modifier = {
 			factor = 0.5
-			owner = { has_country_flag = in_great_war }
+			has_country_flag = in_great_war
 		}
 	}
 	
