@@ -1,5 +1,5 @@
 #
-# V2ME Cleanup 1.0.3 by Bob Bobington and Dr, configured for HMPS
+# V2ME Cleanup 1.0.5 by Bob Bobington and Dr, configured for HMPS
 #
 #
 #
@@ -20,6 +20,7 @@
 #	-Prevent countries with slavery outlawed from having bugged slave states
 #	-Prevents existing countries from having non-existing overlords
 #	-Prevents existing countries from having non-existing vassals (disabled by default, this is intended in some mods)
+#	-Prevents non-existing countries from being at war
 #
 # Upcoming features (TBA):
 #	-Permanent fix to craftsmen exploit/bug, without player interaction
@@ -37,6 +38,8 @@ country_event = {
 	option = {
 		name = "Checking..."
 		
+		#prevents non-existing country from being at war
+		#NOTE: if this bug happens often in your mod, look at your code! you may be starting invalid wars
 		any_country = {
 			limit = {
 				exists = no

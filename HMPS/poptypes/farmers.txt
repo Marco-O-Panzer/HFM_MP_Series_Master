@@ -364,7 +364,7 @@ migration_target = {
 	
 	modifier = {
 		factor = 10
-		NOT  {
+		NOT = {
 			OR = { 
 				unemployment_by_type = { type = farmers value = 0.01  }
 				unemployment_by_type = { type = labourers value = 0.01  }
