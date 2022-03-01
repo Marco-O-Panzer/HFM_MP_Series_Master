@@ -24,8 +24,9 @@ monitor = {
 	build_cost = {
 		steamer_convoy = 25
 		artillery = 12
-		canned_food = 12
+		canned_food = 20
 		regular_clothes = 6
+		pharmaceuticals = 5
 	}
 	min_port_level = 3
 	limit_per_port = -1
@@ -33,11 +34,9 @@ monitor = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 0.7
+		steamer_convoy = 1.2
 		artillery = 0.6
-		canned_food = 1.6
 		ammunition = 0.6
-		pharmaceuticals = 1.6
 	}
 	
 	#Naval Abilties

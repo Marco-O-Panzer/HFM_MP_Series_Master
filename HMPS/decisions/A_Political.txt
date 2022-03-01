@@ -42,6 +42,10 @@ political_decisions = {
 			}
 			nationalize = yes
 		}
+		
+		ai_will_do = {
+			factor = 0	
+		}
 	}
 
 	enact_liquor_prohibition = {
