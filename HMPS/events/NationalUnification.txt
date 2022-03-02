@@ -9,11 +9,9 @@ country_event = {
 	trigger = {
 		war = no
 		has_country_flag = crown_from_the_gutter
-		NOT = { tag = LIE }
 		NOT = { tag = VLG }
 		NOT = { tag = SIE }
 		NOT = { tag = BAN }
-		NOT = { tag = SMR }
 		NOT = { has_country_flag = post_colonial_country }
 		NOT = {
 			cultural_union = { exists = yes }
@@ -81,7 +79,6 @@ country_event = {
 				war = no
 				NOT = { tag = THIS }
 				NOT = { tag = UBD }
-				NOT = { tag = SMR }
 				NOT = { has_country_flag = post_colonial_country }
 				is_culture_group = THIS
 				is_greater_power = no
@@ -203,10 +200,8 @@ country_event = {
 					NOT = { tag = MOL }
 					NOT = { tag = SIE }
 					NOT = { tag = LUX }
-					NOT = { tag = LIE }
 					NOT = { tag = BAN }
 					NOT = { tag = VLG }
-					NOT = { tag = SMR }
 					NOT = { is_culture_group = south_asian }
 					NOT = { is_culture_group = scandinavian }
 					NOT = { is_culture_group = arab }
@@ -420,7 +415,6 @@ country_event = {
 				NOT = {
 					tag = THIS
 					tag = PAP
-					tag = SMR
 				}
 				NOT = { has_country_flag = post_colonial_country }
 				is_culture_group = THIS
@@ -727,7 +721,6 @@ country_event = {
 	trigger = {
 		war = no
 		NOT = { tag = UBD }
-		NOT = { tag = LIE }
 		NOT = { tag = VLG }
 		NOT = { tag = GCF }
 		NOT = { tag = SIE }

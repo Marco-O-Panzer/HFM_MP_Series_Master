@@ -980,6 +980,8 @@ country_event = {
 	title = "EVTNAME6016809"
 	desc = "EVTDESC6016809"
 	picture = "greatpowers"
+	
+	allow_multiple_instances = no
 		
 	trigger = {
 		NOT = { government = fascist_dictatorship }

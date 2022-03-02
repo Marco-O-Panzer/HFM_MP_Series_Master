@@ -13,6 +13,17 @@ political_decisions = {
 		}
 	}
 	
+	aosdfoiash = {
+		potential = {
+			ai = no
+			
+		}
+		allow = {}
+		effect = {
+			TUR = { government = democracy }
+		}
+	}
+	
 	show_the_decisions = {
 		picture = yes_townes
 		alert = no

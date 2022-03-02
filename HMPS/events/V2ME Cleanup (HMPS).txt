@@ -186,7 +186,7 @@ country_event = {
 			country_event = 477877788
 		}
 		
-		#cleanup overlords with nonexistent vassals - doesn't appear to work
+		#cleanup overlords with nonexistent vassals - disabled by default
 		any_country = {
 			limit = {
 				is_vassal = yes

@@ -463,8 +463,10 @@ political_decisions = {
 				tag = CSA
 				tag = URP
 			}
-			any_owned_province  = { 
-				is_core = cultural_union
+			cultural_union = {
+				all_core = {
+					owned_by = THIS
+				}
 			}
 		}
 		

@@ -628,12 +628,14 @@ country_event = {
 	major = yes
 	picture = "young_turks"
 	
+	allow_multiple_instances = no
+	
 	trigger = {
 		tag = TUR
 		war = no
 		NOT = { has_country_flag = ottomans_to_turks }		
 		government = democracy
-		NOT = { has_country_flag - ottoman_federation }
+		NOT = { has_country_flag = ottoman_federation }
 	}
 	
 	mean_time_to_happen = {
