@@ -16,7 +16,7 @@ rebel = {
 
 #Total = 44
 life_needs = {
-	cattle = 3	#6
+	cattle = 4	#6
 	wool = 2.5	#2.8
 	fish = 4	#6
 	fruit = 4	#7.2
@@ -30,7 +30,7 @@ everyday_needs = {
 	luxury_clothes = 3
 	luxury_furniture = 3
 	wine = 10
-	tobacco = 10 
+	tobacco = 7
 	coffee = 5
 	tea = 5
 	radio = 2
@@ -39,16 +39,18 @@ everyday_needs = {
 	fertilizer = 0.5 #0
 	steamer_convoy = 1.5
 	shares = 4
-	shoes = 5
-	pharmaceuticals = 5
+	shoes = 4
+	pharmaceuticals = 2
 }
 
 #Total cash needed: 2618 - Vanilla value: 2121
 luxury_needs = {
+	grain = 3
+	cattle = 3
 	canned_food = 1.5
 	fruit = 5
 	wool = 10
-	opium = 10
+	opium = 2
 	telephones = 10
 	automobiles = 10
 	aeroplanes = 5
@@ -59,7 +61,7 @@ luxury_needs = {
 	clipper_convoy = 2
 	steamer_convoy = 2
 	shares = 6
-	pharmaceuticals = 10
+	pharmaceuticals = 7
 }
 
 
@@ -67,15 +69,20 @@ country_migration_target = {
 	factor = 1
 	
 	modifier = {
-        factor = 100
-        NOT = {
-            any_owned_province = {
-                any_core = {
-                    has_recent_imigration = 15
-                }
-            }
-        }
-    }
+		factor = 0.15
+		OR = {
+			government = proletarian_dictatorship
+			government = fascist_dictatorship
+		}
+	}
+	
+	modifier = {
+		factor = 0.5
+		OR = {
+			government = absolute_monarchy
+			government = theocracy
+		}
+	}
 	
 	modifier = {
 		factor = 1.35
@@ -93,40 +100,42 @@ country_migration_target = {
 		#Audax Validator "." Ignore_1001
 		THIS = { NOT = { literacy = 0.6 } }
 	}
-	
-	modifier = {
-		factor = 1.1
-		NOT = { unemployment = 0.025 }
-	}
 
 	modifier = {
-		factor = 0.9
-		unemployment = 0.05
-	}
-	modifier = {
-		factor = 0.9
-		unemployment = 0.1
-	}
-	modifier = {
-		factor = 0.9
-		unemployment = 0.15
-	}
-	modifier = {
-		factor = 0.9
-		unemployment = 0.2
-	}
-	modifier = {
-		factor = 0.9
-		unemployment = 0.25
-	}
-	modifier = {
-		factor = 0.9
-		unemployment = 0.3
-	}
-	modifier = {
-		factor = 0.9
-		unemployment = 0.35
-	}
+        factor = 0.9
+        unemployment = 0.05
+		NOT = { unemployment = 1 }
+    }
+    modifier = {
+        factor = 0.9
+        unemployment = 0.1
+		NOT = { unemployment = 1 }
+    }
+    modifier = {
+        factor = 0.9
+        unemployment = 0.15
+		NOT = { unemployment = 1 }
+    }
+    modifier = {
+        factor = 0.9
+        unemployment = 0.2
+		NOT = { unemployment = 1 }
+    }
+    modifier = {
+        factor = 0.9
+        unemployment = 0.25
+		NOT = { unemployment = 1 }
+    }
+    modifier = {
+        factor = 0.9
+        unemployment = 0.3
+		NOT = { unemployment = 1 }
+    }
+    modifier = {
+        factor = 0.9
+        unemployment = 0.35
+		NOT = { unemployment = 1 }
+    }
 	
 	modifier = {
 		factor = 2.0
@@ -158,7 +167,7 @@ country_migration_target = {
 	}
 	
 	modifier = {
-		factor = 2.81
+		factor = 1.3
 		OR = {
 			##is_culture_group = THIS
 			AND = {
@@ -212,29 +221,13 @@ country_migration_target = {
 	}
 	
 	modifier = {
-		factor = 0
-		OR = {
-			government = proletarian_dictatorship
-			government = fascist_dictatorship
-		}
-	}
-	
-	modifier = {
-		factor = 0.5
-		OR = {
-			government = absolute_monarchy
-			government = theocracy
-		}
-	}
-	
-	modifier = {
-		factor = 2.5
+		factor = 4.0
 		number_of_states = 2
-		#has_country_flag = new_world_nation
 		NOT = { year = 1905 }
 		OR = {
-			continent = north_america
-			continent = south_america
+			capital_scope = { continent = north_america }
+			capital_scope = { continent = south_america }
+			capital_scope = { continent = australia_new_zealand }
 			primary_culture = australian
 			primary_culture = neo_zelandais
 			primary_culture = french_australian
@@ -248,13 +241,14 @@ country_migration_target = {
 	}
 	
 	modifier = {
-		factor = 1.8
+		factor = 3.7
 		NOT = { number_of_states = 2 }
-		#has_country_flag = new_world_nation
+		NOT = { total_pops = 500000 }
 		NOT = { year = 1905 }
 		OR = {
-			continent = north_america
-			continent = south_america
+			capital_scope = { continent = north_america }
+			capital_scope = { continent = south_america }
+			capital_scope = { continent = australia_new_zealand }
 			primary_culture = australian
 			primary_culture = neo_zelandais
 			primary_culture = french_australian
@@ -270,11 +264,11 @@ country_migration_target = {
 	modifier = {
 		factor = 1.4
 		number_of_states = 2
-		#has_country_flag = new_world_nation
 		year = 1905
 		OR = {
-			continent = north_america
-			continent = south_america
+			capital_scope = { continent = north_america }
+			capital_scope = { continent = south_america }
+			capital_scope = { continent = australia_new_zealand }
 			primary_culture = australian
 			primary_culture = neo_zelandais
 			primary_culture = french_australian
@@ -290,11 +284,11 @@ country_migration_target = {
 	modifier = {
 		factor = 1.2
 		NOT = { number_of_states = 2 }
-		#has_country_flag = new_world_nation
 		year = 1905
 		OR = {
-			continent = north_america
-			continent = south_america
+			capital_scope = { continent = north_america }
+			capital_scope = { continent = south_america }
+			capital_scope = { continent = australia_new_zealand }
 			primary_culture = australian
 			primary_culture = neo_zelandais
 			primary_culture = french_australian
@@ -306,38 +300,20 @@ country_migration_target = {
 			government = colonial_company
 		}
 	}
-	
-	modifier = {
-		factor = 0.1
-		NOT = {
-			any_owned_province = {
-				life_rating = 30
-				OR = {
-					AND = {
-						has_pop_type = labourers
-						NOT = { unemployment_by_type = { value = 0.1 type = labourers } }
-					}
-					AND = {
-						has_pop_type = farmers
-						NOT = { unemployment_by_type = { value = 0.1 type = farmers } }
-					}
-					AND = {
-						state_scope = { has_factories = yes }
-						NOT = { unemployment_by_type = { value = 0.1 type = craftsmen } }
-					}
-				}
-			}
-		}
-	}
 }
 
 migration_target = {
 	factor = 0.01
 
+	modifier = {
+		factor = 2.0
+		NOT = { has_recent_imigration = 365 }
+	}
 	
 	modifier = {
-		factor = 5.0
-		NOT = { total_pops = 500 }
+		factor = 0.1
+		unemployment = 0.1
+		state_scope = { has_factories = no }
 	}
 	
 	modifier = {
@@ -358,62 +334,41 @@ migration_target = {
 	}
 	
 	modifier = {
+		factor = 1.3
+		NOT = { total_pops = 5000 }
+		year = 1850
+		OR = {
+			continent = north_america
+			continent = south_america
+		}
+	}
+	
+	modifier = {
+		factor = 5.0
+		NOT = { total_pops = 500 }
+	}
+	
+	modifier = {
 		factor = 0
 		is_overseas = yes
 		country = { border_policy = closed_borders }
 	}
 	
-	
-	##############################
-	### Unemployment Modifiers ###
-	##############################
-	
-	modifier = {
-		factor = 0
-		OR = { 
-			unemployment_by_type = { type = farmers value = 0.01  }
-			unemployment_by_type = { type = labourers value = 0.01  }
-		}
-	}
-	
-	modifier = {
-		factor = 10
-		NOT = {
-			OR = { 
-				unemployment_by_type = { type = farmers value = 0.01  }
-				unemployment_by_type = { type = labourers value = 0.01  }
-			}
-		}
-	}
-	
-	
-	###########################
-	### Political Modifiers ###
-	###########################
-	
-	modifier = {
-		factor = 2
-		is_state_capital = yes
-	}		
-	modifier = {
-		factor = 1.5
-		is_capital = yes
-	}
-	modifier = {
-		factor = 1.2
-		has_pop_religion = THIS
-	}
 	modifier = {
 		factor = 1.2
 		has_pop_culture = THIS
 	}
+	
 	modifier = {
-		factor = 2
-		OR = {
-			any_core = { is_primary_culture = yes }
-			any_core = { is_cultural_union = yes }
-		}
-	}	
+		factor = 1.2
+		has_pop_religion = THIS
+	}
+	
+	modifier = {
+		factor = 1.5
+		any_core = { is_primary_culture = THIS }
+	}
+	
 	modifier = {
 		factor = 0.75
 		OR = {
@@ -422,90 +377,19 @@ migration_target = {
 		}
 	}
 	
+	modifier = {
+		factor = 2
+		is_state_capital = yes
+	}
 	
-	#########################
-	### Terrain Modifiers ###
-	#########################
+	modifier = {
+		factor = 1.5
+		is_capital = yes
+	}
 	
 	modifier = {
 		factor = 1.05
 		is_coastal = yes
-	}
-	
-	modifier = {
-		factor = 0.8
-		terrain = steppe
-	}
-	
-	modifier = {
-		factor = 0.7
-		terrain = savanna
-	}
-	
-	modifier = {
-		factor = 0.8
-		terrain = dryhills
-	}
-	
-	modifier = {
-		factor = 0.5
-		terrain = jungle
-	}
-	
-	modifier = {
-		factor = 0.6
-		terrain = mountain
-	}
-	
-	modifier = {
-		factor = 0.6
-		terrain = montane_forest
-	}
-	
-	modifier = {
-		factor = 0.6
-		terrain = marsh
-	}
-	
-	modifier = {
-		factor = 0.5
-		terrain = semidesert
-	}
-	
-	modifier = {
-		factor = 0.5
-		terrain = boreal
-	}
-
-	modifier = {
-		factor = 0.1
-		terrain = small_island
-	}
-	
-	modifier = {
-		factor = 0.01
-		terrain = coral_island
-	}
-	
-	modifier = {
-		factor = 0.05
-		terrain = desert
-	}
-	
-	modifier = {
-		factor = 0.01
-		terrain = desert
-		continent = africa
-	}
-	
-	modifier = {
-		factor = 0.05
-		terrain = arctic
-	}
-	
-	modifier = {
-		factor = 0.05
-		terrain = montane_tundra
 	}
 	
 	modifier = {
@@ -514,8 +398,8 @@ migration_target = {
 			continent = west_africa
 			continent = east_africa
 			continent = central_africa
-			continent = africa
 			continent = south_west_africa
+			continent = africa
 		}
 	}
 	
@@ -535,9 +419,25 @@ migration_target = {
 	}
 	
 	modifier = {
+		factor = 0.1
+		NOT = { life_rating = 20 }
+	}
+	
+	modifier = {
+		factor = 0.5
+		NOT = { life_rating = 30 }
+	}
+	
+	modifier = {
+		factor = 1.1
+		life_rating = 30
+	}
+	
+	modifier = {
 		factor = 2
 		life_rating = 40
 	}
+	
 	modifier = {
 		factor = 2
 		life_rating = 50
