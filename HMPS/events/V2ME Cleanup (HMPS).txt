@@ -1450,3 +1450,49 @@ country_event = {
 		overlord = { country_event = 477877792 }
 	}
 }
+
+country_event = {
+	id = 477877795
+	title = "Colonizing a State"
+	desc = "This event will start the colonization of the any states you marked, and turn them into colonial states. This removes all factories in the states, along with costing money, giving militancy, and giving infamy. Are you sure you want to continue?"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "I live for the struggle"
+		badboy = 3
+		treasury = -300000
+		add_country_modifier = {
+			name = costs_of_colonization
+			duration = 365
+		}
+		any_owned = {
+			limit = {
+				has_province_modifier = marked_for_colonization
+			}
+			add_core = UTI
+			secede_province = UTI
+		}
+		inherit = UTI
+		any_owned = {
+			limit = {
+				is_core = UTI
+			}
+			remove_core = UTI
+			add_province_modifier = {
+				name = current_colonization
+				duration = -1
+			}
+		}
+	}
+	
+	option = {
+		name = "No, I'm too scared"
+		any_owned = {
+			limit = {
+				has_province_modifier = marked_for_colonization
+			}
+			remove_province_modifier = marked_for_colonization
+		}
+	}
+}

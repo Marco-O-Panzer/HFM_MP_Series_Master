@@ -11,6 +11,22 @@ jan_mayen_isolationism = {
 	icon = 12
 }
 
+marked_for_colonization = {
+	icon = 12
+}
+
+costs_of_colonization = {
+	badboy = 0.01
+	tax_efficiency = -0.02
+	icon = 18
+}
+
+current_colonization = {
+	pop_militancy_modifier = 0.1
+	pop_consciousness_modifier = 0.15
+	icon = 18
+}
+
 employing_the_labourers = {
     icon = 12
 }
