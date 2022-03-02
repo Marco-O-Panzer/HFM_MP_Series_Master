@@ -78,6 +78,40 @@ country_event = {
             }
         }
 		
+		#prevents craftsmen in colonial provs
+		any_country = {
+			any_owned = {
+				limit = {
+					state_scope = {
+						is_colonial = yes
+					}
+					has_pop_type = craftsmen
+					has_pop_type = farmers
+				}
+				any_pop = {
+					limit = {
+						type = craftsmen
+					}
+					pop_type = farmers
+				}
+			}
+			any_owned = {
+				limit = {
+					state_scope = {
+						is_colonial = yes
+					}
+					has_pop_type = craftsmen
+					has_pop_type = labourers
+				}
+				any_pop = {
+					limit = {
+						type = craftsmen
+					}
+					pop_type = labourers
+				}
+			}
+		}
+		
 		#updating existing country flags
 		any_country = {
 			limit = {
