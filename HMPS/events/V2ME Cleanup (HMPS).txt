@@ -176,6 +176,40 @@ country_event = {
 	option = {
 		name = "Checking..."
 		
+		#custom flags for HMPS assimilation monthly update
+		random_owned = {
+			limit = { owner = { GER = { accepted_culture = south_german } } }
+			owner = { GER = { set_country_flag = accepts_south_german } }
+		}
+		random_owned = {
+			limit = { owner = { GER = { NOT = { accepted_culture = south_german } } } }
+			owner = { GER = { clr_country_flag = accepts_south_german } }
+		}
+		random_owned = {
+			limit = { owner = { GER = { accepted_culture = north_german } } }
+			owner = { GER = { set_country_flag = accepts_north_german } }
+		}
+		random_owned = {
+			limit = { owner = { GER = { NOT = { accepted_culture = north_german } } } }
+			owner = { GER = { clr_country_flag = accepts_north_german } }
+		}
+		random_owned = {
+			limit = { owner = { ITA = { accepted_culture = south_italian } } }
+			owner = { ITA = { set_country_flag = accepts_south_italian } }
+		}
+		random_owned = {
+			limit = { owner = { ITA = { NOT = { accepted_culture = south_italian } } } }
+			owner = { ITA = { clr_country_flag = accepts_south_italian } }
+		}
+		random_owned = {
+			limit = { owner = { ITA = { accepted_culture = north_italian } } }
+			owner = { ITA = { set_country_flag = accepts_north_italian } }
+		}
+		random_owned = {
+			limit = { owner = { ITA = { NOT = { accepted_culture = north_italian } } } }
+			owner = { ITA = { clr_country_flag = accepts_north_italian } }
+		}
+		
 		#cleanup vassals with nonexistent overlords
 		any_country = {
 			limit = {
@@ -221,8 +255,6 @@ country_event = {
 						province_id = 581
 						province_id = 577
 						province_id = 3265
-						province_id = 578
-						province_id = 575
 						province_id = 574
 						province_id = 570
 						province_id = 571
@@ -238,7 +270,6 @@ country_event = {
 						province_id = 579
 						province_id = 2561
 						province_id = 578
-						province_id = 3625
 						province_id = 378
 						province_id = 380
 						province_id = 379
@@ -284,9 +315,7 @@ country_event = {
 						province_id = 711
 						province_id = 713
 						province_id = 715
-						province_id = 716
 						province_id = 705
-						province_id = 714
 						province_id = 716
 						province_id = 703
 						province_id = 714
@@ -303,7 +332,6 @@ country_event = {
 						province_id = 791
 						province_id = 793
 						province_id = 779
-						province_id = 792
 						province_id = 640
 						province_id = 644
 						province_id = 643
@@ -551,7 +579,7 @@ country_event = {
 		any_country = {
             limit = {
 				exists = yes
-				has_global_flag = { suppress_army_rebels }
+				has_global_flag = suppress_army_rebels
             }
             any_owned = {
 				any_pop = {

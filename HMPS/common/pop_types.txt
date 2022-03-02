@@ -1087,7 +1087,41 @@ assimilation_chance = {
 	
 	modifier = {
 		factor = -20
-		has_culture_core = yes
+		OR = {
+			has_culture_core = yes
+			AND = {
+				has_pop_culture = south_german
+				location = {
+					any_core = {
+						has_country_flag = accepts_south_german
+					}
+				}
+			}
+			AND = {
+				has_pop_culture = north_german
+				location = {
+					any_core = {
+						has_country_flag = accepts_north_german
+					}
+				}
+			}
+			AND = {
+				has_pop_culture = south_italian
+				location = {
+					any_core = {
+						has_country_flag = accepts_south_italian
+					}
+				}
+			}
+			AND = {
+				has_pop_culture = north_italian
+				location = {
+					any_core = {
+						has_country_flag = accepts_north_italian
+					}
+				}
+			}
+		}
 		OR = {
 			country = { citizens_rights = primary_culture_only }
 			AND = {
