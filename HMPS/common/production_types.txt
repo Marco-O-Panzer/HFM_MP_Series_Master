@@ -968,42 +968,42 @@ RGO_template_labourers = {
 cattle_ranch = {
 	template = RGO_template_farmers
 	output_goods = cattle 
-	value = 1.7
+	value = 3.8
 	farm = yes
 }
 
 coal_mine = {
 	template = RGO_template_labourers
 	output_goods = coal 
-	value = 2.4 #2.4
+	value = 3.2 #2.4
 	mine = yes
 }
 
 coffee_plantation = {
 	template = RGO_template_farmers
 	output_goods = coffee 
-	value = 1.5	#1.5
+	value = 3	#1.5
 	farm = yes
 }
 
 cotton_plantation = {
 	template = RGO_template_farmers
 	output_goods = cotton 
-	value = 1.8
+	value = 1.3
 	farm = yes
 }
 
 dye_plantation = {
 	template = RGO_template_farmers
 	output_goods = dye 
-	value = 0.22
+	value = 0.26
 	farm = yes
 }
 
 fishing_wharf = {
 	template = RGO_template_farmers
 	output_goods = fish 
-	value = 2.1 #2.2
+	value = 4.2 #2.2
 	farm = yes
 }
 
@@ -1017,7 +1017,7 @@ grain_farm = {
 iron_mine = {
 	template = RGO_template_labourers
 	output_goods = iron
-	value = 3.2
+	value = 3.5
 	mine = yes
 }
 
@@ -1052,28 +1052,28 @@ opium_plantation = {
 orchard = {
 	template = RGO_template_farmers
 	output_goods = fruit 
-	value = 2.7 #2.8
+	value = 5 #2.8
 	farm = yes
 }
 
 precious_goods_market = {
 	template = RGO_template_labourers
 	output_goods = precious_goods
-	value = 3
+	value = 2.5
 	mine = yes
 }
 
 rubber_lodge = {
 	template = RGO_template_labourers
 	output_goods = rubber 
-	value = 0.75
+	value = 0.65
 	farm = yes
 }
 
 sheep_ranch = {
 	template = RGO_template_farmers
 	output_goods = wool 
-	value = 4.8
+	value = 7.5
 	farm = yes
 }
 
@@ -1087,21 +1087,21 @@ silkworm_ranch = {
 sulphur_mine = {
 	template = RGO_template_labourers
 	output_goods = sulphur 
-	value = 5
+	value = 5.5
 	mine = yes
 }
 
 tea_plantation = {
 	template = RGO_template_farmers
 	output_goods = tea 
-	value = 2
+	value = 3
 	farm = yes
 }
 
 timber_lodge = {
 	template = RGO_template_labourers
 	output_goods = timber 
-	value = 8
+	value = 18
 	farm = yes
 }
 
@@ -1115,7 +1115,7 @@ tobacco_plantation = {
 tropical_wood_lodge = {
 	template = RGO_template_labourers
 	output_goods = tropical_wood 
-	value = 5
+	value = 7
 	farm = yes
 }
 

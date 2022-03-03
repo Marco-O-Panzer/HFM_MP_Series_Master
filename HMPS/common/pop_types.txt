@@ -393,6 +393,11 @@ demotion_chance = {
 migration_chance = {
 	factor = 1
 	
+	modifier = {
+		factor = -100
+		NOT = { year = 1837 }
+	}
+	
 	group = {
 		modifier = {
 			factor = -0.1
@@ -408,18 +413,34 @@ migration_chance = {
 		}
 	}
 	
+	#modifier = { ### cant have internal migration from colonial states - engine lock
+	#	factor = -2.2
+	#	state_scope = { is_colonial = yes }
+	#	country = { NOT = { has_country_flag = increased_migration_to_states } }
+	#}
+	#
+	#modifier = {
+	#	factor = -0.5
+	#	state_scope = { is_colonial = yes }
+	#	country = { has_country_flag = increased_migration_to_states }
+	#}
+	
 	modifier = {
 		factor = -100
 		OR = {
-			state_scope = { is_colonial = yes }
-			NOT = { location = { total_pops = 1000 } }
-			NOT = { location = { controlled_by = owner } }
+			not = { location = { total_pops = 1000 } }
+			not = { location = { controlled_by = owner } }
 		}
 	}
 	
 	modifier = {
-		factor = 0.1
+		factor = 0.15
 		country = { colonial_policy = settlement }
+	}
+	
+	modifier = {
+		factor = 0.05
+		country = { administration_spending = 0.75 colonial_policy = settlement }
 	}
 	
 	modifier = {
@@ -442,67 +463,69 @@ migration_chance = {
 		country = { has_country_flag = prussian_settlement_commission }
 	}
 
-	group = { #higher migration if needs < num, max +0.3
-        modifier = {
-            factor = 0.1
-            NOT = { life_needs = 0.9 }
-            NOT = { everyday_needs = 0.1 }
-            NOT = { luxury_needs = 0.1 }
-        }
-        modifier = {
-            factor = 0.1
-            NOT = { life_needs = 0.8 }
-            NOT = { everyday_needs = 0.1 }
-            NOT = { luxury_needs = 0.1 }
-        }
-        modifier = {
-            factor = 0.1
-            NOT = { life_needs = 0.7 }
-            NOT = { everyday_needs = 0.1 }
-            NOT = { luxury_needs = 0.1 }
-        }
-    }
+	group = {
+		modifier = {
+			factor = 0.1
+			not = { life_needs = 0.9 }
+		}
+		modifier = {
+			factor = 0.1
+			not = { life_needs = 0.8 }
+		}
+		modifier = {
+			factor = 0.1
+			not = { life_needs = 0.7 }
+		}
+		modifier = {
+			factor = 0.1
+			not = { life_needs = 0.6 }
+		}
+		modifier = {
+			factor = 0.1
+			not = { life_needs = 0.5 }
+		}
+	}
 
-    modifier = { #-0.3 if current state has factories
-        factor = -0.3
-        state_scope = { has_factories = yes }
-    }
+	modifier = {
+		factor = -0.3
+		state_scope = { has_factories = yes }
+	}
 
-    group = { #higher migration if unemployment > num, max +0.75
-        modifier = {
-            factor = 0.05
-            unemployment = 0.1
-            #NOT = { unemployment = 1 }
-        }
-
-        modifier = {
-            factor = 0.1
-            location = { controlled_by = owner }
-            unemployment = 0.2
-            #NOT = { unemployment = 1 }
-        }
-
-        modifier = {
-            factor = 0.15
-            location = { controlled_by = owner }
-            unemployment = 0.3
-            #NOT = { unemployment = 1 }
-        }
-
-        modifier = {
-            factor = 0.2
-            location = { controlled_by = owner }
-            unemployment = 0.4
-            #NOT = { unemployment = 1 }
-        }
-
-        modifier = {
-            factor = 0.25
-            location = { controlled_by = owner }
-            unemployment = 0.5
-            #NOT = { unemployment = 1 }
-        }
-    }
+	group = {
+		modifier = {
+			factor = 0.2
+			unemployment = 0.1
+			#NOT = { unemployment = 1 }
+		}
+		
+		modifier = {
+			factor = 0.2
+			location = { controlled_by = owner }
+			unemployment = 0.2
+			#NOT = { unemployment = 1 }
+		}
+		
+		modifier = {
+			factor = 0.2
+			location = { controlled_by = owner }
+			unemployment = 0.3
+			#NOT = { unemployment = 1 }
+		}
+		
+		modifier = {
+			factor = 0.2
+			location = { controlled_by = owner }
+			unemployment = 0.4
+			#NOT = { unemployment = 1 }
+		}
+		
+		modifier = {
+			factor = 0.2
+			location = { controlled_by = owner }
+			unemployment = 0.5
+			#NOT = { unemployment = 1 }
+		}
+	}
 	
 	modifier = {
 		factor = 1
@@ -513,7 +536,12 @@ migration_chance = {
 
 #general colonial migration mtth, same for all pops
 colonialmigration_chance = {
-	factor = 0.25
+	factor = 0.30
+	
+	modifier = {
+		factor = -100
+		NOT = { year = 1837 }
+	}
 	
 	modifier = {
         factor = -10.0
@@ -610,7 +638,7 @@ colonialmigration_chance = {
 		}
 	}
 
-	#If pop group has 99%/90%/80%/70%/60%/50%/40%/30%/20%/10% unemployment, then 0.05% chance to migrate to a colony for each threshold unless employment is 99% or more. (0.20% total) (10% if unemployed 99% or more)
+	#If pop group has 99%/90%/80%/70%/60%/50%/40%/30%/20%/10% unemployment, then 0.05% chance to migrate to a colony for each threshold unless employment is 99% or more. (0.25% total)
 	group = {
 		modifier = {
 			factor = 0.05
@@ -629,9 +657,9 @@ colonialmigration_chance = {
 			unemployment = 0.9
 		}
 		modifier = {
-			factor = 10
+			factor = 0.05
 			unemployment = 0.99
-			country = { war = no }
+			NOT = { war = yes }
 		}
 	}
 	
@@ -686,19 +714,12 @@ emigration_chance = {
 	factor = 0.5
 	
 	modifier = {
-		factor = -2.0
-		OR = {
-			location = { continent = north_america }
-			location = { continent = south_america }
-			location = { continent = australia_new_zealand }
-		}
-		country = {
-			government = democracy
-		}
+		factor = -100
+		NOT = { year = 1837 }
 	}
 	
 	modifier = {
-		factor = -1
+		factor = 0.4
 		unemployment = 1
 		OR = {
 			is_accepted_culture = no
@@ -710,14 +731,13 @@ emigration_chance = {
 		factor = -100
 		OR = {
 			state_scope = { is_colonial = yes }
-			NOT = { location = { total_pops = 1000 } }
-			NOT = { location = { controlled_by = owner } }
-			country = { border_policy = closed_borders }
+			not = { location = { total_pops = 1000 } }
+			not = { location = { total_pops = 100 } }
 		}
 	}
 		
 	modifier = {
-		factor = -0.1
+		factor = -0.05
 		country = { 
 			colonial_policy = settlement
 		}
@@ -725,143 +745,178 @@ emigration_chance = {
 	
 	group = {
 		modifier = {
-			factor = 0.05
-			militancy = 2
-		}
-		modifier = {
-			factor = 0.05
-			militancy = 3
-		}
-		modifier = {
-			factor = 0.1
+			factor = 0.025
 			militancy = 4
 		}
-        modifier = {
-            factor = 0.10
-            militancy = 5
-        }
-        modifier = {
-            factor = 0.10
-            militancy = 6
-        }
-        modifier = {
-            factor = 0.10
-            militancy = 7
-        }
-        modifier = {
-            factor = 0.10
-            militancy = 8
-        }
-        #modifier = {
-        #    factor = 0.15
-        #    militancy = 9
-        #}
-    }
+		modifier = {
+			factor = 0.025
+			militancy = 5
+		}
+		modifier = {
+			factor = 0.025
+			militancy = 6
+		}
+		modifier = {
+			factor = 0.025
+			militancy = 7
+		}
+		modifier = {
+			factor = 0.025
+			militancy = 8
+		}
+		modifier = {
+			factor = 0.025
+			militancy = 9
+		}
+	}
 	
 	group = {
-        modifier = {
-            factor = -0.1
-            NOT = { consciousness = 8 }
-        }
-        modifier = {
-            factor = -0.1
-            NOT = { consciousness = 7 }
-        }
-        modifier = {
-            factor = -0.1
-            NOT = { consciousness = 6 }
-        }
-    }
+		modifier = {
+			factor = 0.05
+			literacy = 0.1
+		}
+		modifier = {
+			factor = 0.05
+			literacy = 0.2
+		}
+		modifier = {
+			factor = 0.025
+			literacy = 0.3
+		}
+		modifier = {
+			factor = 0.025
+			literacy = 0.4
+		}
+		modifier = {
+			factor = 0.025
+			literacy = 0.5
+		}
+		modifier = {
+			factor = 0.025
+			literacy = 0.6
+		}
+		modifier = {
+			factor = 0.025
+			literacy = 0.7
+		}
+	}
 
 	group = {
-        modifier = {
-            factor = 0.1
-            NOT = { life_needs = 0.9 }
-            NOT = { everyday_needs = 0.1 }
-            NOT = { luxury_needs = 0.1 }
-        }
-        modifier = {
-            factor = 0.1
-            NOT = { life_needs = 0.8 }
-            NOT = { everyday_needs = 0.1 }
-            NOT = { luxury_needs = 0.1 }
-        }
-        modifier = {
-            factor = 0.1
-            NOT = { life_needs = 0.7 }
-            NOT = { everyday_needs = 0.1 }
-            NOT = { luxury_needs = 0.1 }
-        }
-    }
-
-	modifier = {
-        factor = -0.2
-        state_scope = { has_factories = yes }
-		NOT = { unemployment = 0.2 }
-        OR = {
-            country = { NOT = { has_country_flag = great_irish_famine } }
-            location = {
-                NOT = {
-                    state_id = 263
-                    state_id = 254
-                    state_id = 258
-                    state_id = 260
-                }
-            }
-        }
-    }
+		modifier = {
+			factor = -0.01
+			not = { consciousness = 8 }
+		}
+		modifier = {
+			factor = -0.01
+			not = { consciousness = 7 }
+		}
+		modifier = {
+			factor = -0.01
+			not = { consciousness = 6 } 
+		}
+	}
 
 	group = {
-        modifier = {
-            factor = 0.2
-            unemployment = 0.1
-            NOT = { unemployment = 1 }
-        }
-
-        modifier = {
-            factor = 0.2
-            unemployment = 0.2
-            NOT = { unemployment = 1 }
-        }
-
-        modifier = {
-            factor = 0.3
-            unemployment = 0.3
-            NOT = { unemployment = 1 }
-        }
-
-        modifier = {
-            factor = 0.4
-            NOT = { unemployment = 1 }
-            unemployment = 0.4
-        }
-
-        modifier = {
-            factor = 0.5
-            NOT = { unemployment = 1 }
-            unemployment = 0.5
-        }
-    }
+		modifier = {
+			factor = 0.02
+			not = { life_needs = 0.9 }
+			not = { everyday_needs = 0.1 }
+			not = { luxury_needs = 0.1 }
+		}
+		modifier = {
+			factor = 0.02
+			not = { life_needs = 0.7 }
+			not = { everyday_needs = 0.1 }
+			not = { luxury_needs = 0.1 }
+		}
+		modifier = {
+			factor = 0.02
+			not = { life_needs = 0.5 }
+			not = { everyday_needs = 0.1 }
+			not = { luxury_needs = 0.1 }
+		}
+	}
 	
 	modifier = {
-        factor = -0.2
-        agree_with_ruling_party = 0.25
-		culture = THIS
-    }
+		factor = 0.5
+		THIS = { has_pop_culture = irish }
+		NOT = { year = 1852 }
+		country = {
+			has_country_flag = great_irish_famine
+		}
+	}
 
-    modifier = {
-        factor = 0.1
-        country = { religious_policy = moralism }
-        is_state_religion = no
-    }
+	modifier = {
+		factor = -0.1
+		state_scope = { has_factories = yes }
+		OR = {
+			country = { NOT = { has_country_flag = great_irish_famine } }
+			location = {
+				NOT = {
+					state_id = 263
+					state_id = 254
+					state_id = 258
+					state_id = 260
+				}
+			}
+		}
+	}
 
-    modifier = {
-        factor = 0.05
-        NOT = { country = { citizens_rights = all_voting_pops } }
-        NOT = { culture = this }
-    }
+	group = {
+		modifier = {
+			factor = 0.01
+			unemployment = 0.1
+			NOT = { unemployment = 1 }
+		}
+		
+		modifier = {
+			factor = 0.01
+			unemployment = 0.2
+			NOT = { unemployment = 1 }
+		}
+		
+		modifier = {
+			factor = 0.01
+			unemployment = 0.3
+			NOT = { unemployment = 1 }
+		}
+		
+		modifier = {
+			factor = 0.01
+			location = { controlled_by = owner }
+			NOT = { unemployment = 1 }
+			unemployment = 0.4
+		}
+		
+		modifier = {
+			factor = 0.01
+			location = { controlled_by = owner }
+			NOT = { unemployment = 1 }
+			unemployment = 0.5
+		}
+	}
+	
+	group = {
+		modifier = {
+			factor = -0.15
+			agree_with_ruling_party = 0.51
+		}
+	}
+	
 
-    modifier = {
+	modifier = {
+		factor = 0.1
+		country = { religious_policy = moralism }
+		is_state_religion = no
+	}
+
+	modifier = {
+		factor = 0.1
+		country = { citizens_rights = primary_culture_only }
+		not = { culture = this }
+	}
+	
+	modifier = {
 		factor = -2.0
 		THIS = { is_culture_group = east_asian  }
 		country = { is_culture_group = east_asian civilized = yes }
@@ -872,22 +927,105 @@ emigration_chance = {
 		THIS = { is_culture_group = south_asian  }
 		country = { is_culture_group = south_asian civilized = yes }
 	}
-
-    modifier = {
-        factor = 0.1
-        country = { debt_law = serfdom }
-    }
-
-    modifier = {
-        factor = 0.05
-        country = { debt_law = peonage }
-    }
+	
+	group = {
+		modifier = {
+			factor = -0.075
+			country = { administration_spending = 0.1 border_policy = closed_borders }
+		}
+		modifier = {
+			factor = -0.075
+			country = { administration_spending = 0.2 border_policy = closed_borders }
+		}
+		modifier = {
+			factor = -0.075
+			country = { administration_spending = 0.3 border_policy = closed_borders }
+		}
+		modifier = {
+			factor = -0.075
+			country = { administration_spending = 0.4 border_policy = closed_borders }
+		}
+		modifier = {
+			factor = -0.075
+			country = { administration_spending = 0.5 border_policy = closed_borders }
+		}
+		modifier = {
+			factor = -0.075
+			country = { administration_spending = 0.6 border_policy = closed_borders }
+		}
+		modifier = {
+			factor = -0.075
+			country = { administration_spending = 0.7 border_policy = closed_borders }
+		}
+		modifier = {
+			factor = -0.075
+			country = { administration_spending = 0.8 border_policy = closed_borders }
+		}
+		modifier = {
+			factor = -0.075
+			country = { administration_spending = 0.9 border_policy = closed_borders }
+		}
+		modifier = {
+			factor = -0.075
+			country = { administration_spending = 0.99 border_policy = closed_borders }
+		}
+	}
+	
+	group = {
+		modifier = {
+			factor = -0.075
+			country = { military_spending = 0.1 border_policy = closed_borders }
+		}
+		modifier = {
+			factor = -0.075
+			country = { military_spending = 0.2 border_policy = closed_borders }
+		}
+		modifier = {
+			factor = -0.075
+			country = { military_spending = 0.3 border_policy = closed_borders }
+		}
+		modifier = {
+			factor = -0.075
+			country = { military_spending = 0.4 border_policy = closed_borders }
+		}
+		modifier = {
+			factor = -0.075
+			country = { military_spending = 0.5 border_policy = closed_borders }
+		}
+		modifier = {
+			factor = -0.075
+			country = { military_spending = 0.6 border_policy = closed_borders }
+		}
+		modifier = {
+			factor = -0.075
+			country = { military_spending = 0.7 border_policy = closed_borders }
+		}
+		modifier = {
+			factor = -0.075
+			country = { military_spending = 0.8 border_policy = closed_borders }
+		}
+		modifier = {
+			factor = -0.075
+			country = { military_spending = 0.9 border_policy = closed_borders }
+		}
+		modifier = {
+			factor = -0.075
+			country = { military_spending = 0.99 border_policy = closed_borders }
+		}
+	}
 	
 	modifier = {
-		factor = 0.1
-		country = { war = yes }
+		factor = -2.0
+		OR = {
+			location = { continent = north_america }
+			location = { continent = south_america }
+			location = { continent = australia_new_zealand }
+		}
+		country = {
+			government = democracy
+		}
 	}
-
+	
 	modifier = {
 		factor = -1
 		country = {
@@ -1024,7 +1162,7 @@ assimilation_chance = {
 		factor = -0.2
 		NOT = {
 			is_state_religion = yes
-			country = { religious_policy = moralism }
+			religious_policy = moralism
 		}
 	}
 
