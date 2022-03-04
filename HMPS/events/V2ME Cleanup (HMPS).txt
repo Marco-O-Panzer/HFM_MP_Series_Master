@@ -1494,8 +1494,7 @@ country_event = {
 	
 	option = {
 		name = "I live for the struggle"
-		badboy = 3
-		treasury = -300000
+		treasury = -500000
 		add_country_modifier = {
 			name = costs_of_colonization
 			duration = 365
@@ -1515,7 +1514,7 @@ country_event = {
 			remove_core = UTI
 			add_province_modifier = {
 				name = current_colonization
-				duration = -1
+				duration = 7300
 			}
 		}
 	}
