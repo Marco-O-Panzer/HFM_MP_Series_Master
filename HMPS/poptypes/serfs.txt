@@ -53,7 +53,7 @@ luxury_needs = {
 	fuel = 0.1
 	opium = 2
 	shoes = 2
-	pharmaceuticals = 0.5
+	pharmaceuticals = 2
 }
 
 country_migration_target = { factor = 0 }
