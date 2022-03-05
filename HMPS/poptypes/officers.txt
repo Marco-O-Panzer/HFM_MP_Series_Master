@@ -57,7 +57,7 @@ everyday_needs = {
 	radio = 0.5			#8
 	telephones = 0.5	#8
 	shoes = 5
-	pharmaceuticals = 4
+	pharmaceuticals = 2
 }
 
 #Total cash needed: 437.4 - Vanilla value: 383.4
@@ -77,7 +77,7 @@ luxury_needs = {
 	fuel = 0.2
 	shares = 0.5
 	shoes = 5
-	pharmaceuticals = 6
+	pharmaceuticals = 3
 }
 
 country_migration_target = {

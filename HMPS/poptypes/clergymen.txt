@@ -67,7 +67,7 @@ luxury_needs = {
 	fuel = 0.2
 	shares = 0.2
 	shoes = 5
-	pharmaceuticals = 8
+	pharmaceuticals = 4
 }
 
 country_migration_target = {

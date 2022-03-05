@@ -40,7 +40,7 @@ everyday_needs = {
 	steamer_convoy = 1.5
 	shares = 4
 	shoes = 5
-	pharmaceuticals = 5
+	pharmaceuticals = 3
 }
 
 #Total cash needed: 2618 - Vanilla value: 2121
@@ -59,7 +59,7 @@ luxury_needs = {
 	clipper_convoy = 2
 	steamer_convoy = 2
 	shares = 6
-	pharmaceuticals = 10
+	pharmaceuticals = 7
 }
 
 

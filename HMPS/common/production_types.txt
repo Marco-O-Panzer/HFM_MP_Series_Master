@@ -693,7 +693,7 @@ explosives_factory = {
 pharma_factory = {       
 	template = factory_template
 	input_goods = {        
-		opium = 17.5
+		opium = 15
 		glass = 10
 	}
 	output_goods = pharmaceuticals 
@@ -1715,7 +1715,7 @@ artisan_bronzeworker = {
 
 artisan_chemist = {       
 	input_goods = {        
-		opium = 17.5
+		opium = 15
 		glass = 10
 	}
 	output_goods = pharmaceuticals 

@@ -65,7 +65,7 @@ luxury_needs = {
 	fuel = 0.1
 	#dye = 0.5
 	shoes = 3
-	pharmaceuticals = 5
+	pharmaceuticals = 3
 }
 
 
