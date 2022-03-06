@@ -19,10 +19,7 @@ country_event = {
 		}
 		year = 1900
 		NOT = {
-			AND = {
-				has_country_modifier = ottomanism_reform
-				NOT = { citizens_rights = primary_culture_only }
-			}
+			has_country_modifier = ottomanism_reform
 			is_culture_group = arab
 			is_culture_group = iranian_turanian
 			has_country_flag = arab_revolt

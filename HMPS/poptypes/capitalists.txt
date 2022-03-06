@@ -111,7 +111,7 @@ country_migration_target = {
 		economic_policy = laissez_faire
 	}
 	modifier = {
-		factor = 0.5
+		factor = 0.1
 		economic_policy = planned_economy
 	}
 	modifier = {

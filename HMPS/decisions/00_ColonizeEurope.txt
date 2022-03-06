@@ -1,6 +1,7 @@
 political_decisions = {
 	
 	colonize_deez_nuts = {
+		picture = rhodesia_renaminc_act
 		potential = {
 			ai = no
 			NOT = { has_country_flag = hiding_the_decisions }

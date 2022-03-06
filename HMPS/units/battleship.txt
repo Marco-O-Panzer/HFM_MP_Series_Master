@@ -38,7 +38,6 @@ battleship = {
 	supply_cost = {
 		steamer_convoy = 2.4
 		artillery = 1.2
-		coal = 8
 		explosives = 1.2
 	}
 	

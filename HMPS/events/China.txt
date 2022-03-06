@@ -311,7 +311,7 @@ country_event = {
 		}
 		random_owned = { 
 			limit = { owner = { has_country_flag = foreign_artillery2_flag } NOT = { iron_muzzle_loaded_artillery = 1 } }
-			owner = { activate_technology = iron_muzzle_loaded_artillery  clr_country_flag = foreign_artillery2_flag }
+			owner = { activate_technology = bronze_muzzle_loaded_artillery activate_technology = iron_muzzle_loaded_artillery  clr_country_flag = foreign_artillery2_flag }
 		}
 		
 		# rifles
@@ -321,7 +321,7 @@ country_event = {
 		}
 		random_owned = { 
 			limit = { owner = { has_country_flag = foreign_weapons2_flag } NOT = { muzzle_loaded_rifles = 1 } }
-			owner = { activate_technology = muzzle_loaded_rifles  clr_country_flag = foreign_weapons2_flag }
+			owner = { activate_technology = flintlock_rifles activate_technology = muzzle_loaded_rifles  clr_country_flag = foreign_weapons2_flag }
 		}
 		
 		# forts
@@ -331,7 +331,7 @@ country_event = {
 		}
 		random_owned = { 
 			limit = { owner = { has_country_flag = mil_con2_flag } NOT = { strategic_mobility = 1 } }
-			owner = { activate_technology = strategic_mobility  clr_country_flag = mil_con2_flag }
+			owner = { activate_technology = post_napoleonic_thought activate_technology = strategic_mobility  clr_country_flag = mil_con2_flag }
 		}
 		
 		# officers
@@ -341,7 +341,7 @@ country_event = {
 		}
 		random_owned = { 
 			limit = { owner = { has_country_flag = fo2_flag } NOT = { military_plans = 1 } }
-			owner = { activate_technology = military_plans  clr_country_flag = fo2_flag }
+			owner = { activate_technology = military_staff_system activate_technology = military_plans  clr_country_flag = fo2_flag }
 		}
 		
 		# army schools
@@ -351,7 +351,7 @@ country_event = {
 		}
 		random_owned = { 
 			limit = { owner = { has_country_flag = at2_flag } NOT = { army_professionalism = 1 } }
-			owner = { activate_technology = army_professionalism  clr_country_flag = at2_flag }
+			owner = { activate_technology = army_command_principle activate_technology = army_professionalism  clr_country_flag = at2_flag }
 		}
 		
 		# naval officers
@@ -361,7 +361,7 @@ country_event = {
 		}
 		random_owned = { 
 			limit = { owner = { has_country_flag = no2_flag } NOT = { naval_design_bureaus = 1 } }
-			owner = { activate_technology = naval_design_bureaus  clr_country_flag = no2_flag }
+			owner = { activate_technology = alphabetic_flag_signaling activate_technology = naval_design_bureaus  clr_country_flag = no2_flag }
 		}
 		
 		# foreign ships
@@ -371,7 +371,7 @@ country_event = {
 		}
 		random_owned = { 
 			limit = { owner = { has_country_flag = nu2_flag } NOT = { steamers = 1 } }
-			owner = { activate_technology = steamers  clr_country_flag = nu2_flag }
+			owner = { activate_technology = clipper_design activate_technology = steamers  clr_country_flag = nu2_flag }
 		}
 		
 		# shipyards
@@ -381,7 +381,7 @@ country_event = {
 		}
 		random_owned = { 
 			limit = { owner = { has_country_flag = shipyards2_flag } NOT = { battleship_column_doctrine = 1 } }
-			owner = { activate_technology = battleship_column_doctrine  clr_country_flag = shipyards2_flag }
+			owner = { activate_technology = post_nelsonian_thought activate_technology = battleship_column_doctrine  clr_country_flag = shipyards2_flag }
 		}
 		
 		# naval training
@@ -391,7 +391,7 @@ country_event = {
 		}
 		random_owned = { 
 			limit = { owner = { has_country_flag = nsch_flag_two } NOT = { naval_professionalism = 1 } }
-			owner = { activate_technology = naval_professionalism  clr_country_flag = nsch_flag_two }
+			owner = { activate_technology = the_command_principle activate_technology = naval_professionalism  clr_country_flag = nsch_flag_two }
 		}
 		
 		### econ reforms ###
@@ -412,7 +412,7 @@ country_event = {
 		}
 		random_owned = { 
 			limit = { owner = { has_country_flag = adm2_flag } NOT = { ad_hoc_money_bill_printing = 1 } }
-			owner = { activate_technology = ad_hoc_money_bill_printing  clr_country_flag = adm2_flag }
+			owner = { activate_technology = no_standard activate_technology = ad_hoc_money_bill_printing  clr_country_flag = adm2_flag }
 		}
 		
 		# finance
@@ -422,7 +422,7 @@ country_event = {
 		}
 		random_owned = { 
 			limit = { owner = { has_country_flag = fref2_flag } NOT = { stock_exchange = 1 } }
-			owner = { activate_technology = stock_exchange  clr_country_flag = fref2_flag }
+			owner = { activate_technology = private_banks activate_technology = stock_exchange  clr_country_flag = fref2_flag }
 		}
 		
 		# education
@@ -432,7 +432,7 @@ country_event = {
 		}
 		random_owned = { 
 			limit = { owner = { has_country_flag = edu2_flag } NOT = { medicine = 1 } }
-			owner = { activate_technology = medicine  clr_country_flag = edu2_flag }
+			owner = { activate_technology = basic_chemistry activate_technology = medicine  clr_country_flag = edu2_flag }
 		}
 		
 		# transport
@@ -442,7 +442,7 @@ country_event = {
 		}
 		random_owned = { 
 			limit = { owner = { has_country_flag = tran2_flag } NOT = { early_railroad = 1 } }
-			owner = { activate_technology = early_railroad  clr_country_flag = tran2_flag }
+			owner = { activate_technology = experimental_railroad activate_technology = early_railroad  clr_country_flag = tran2_flag }
 		}
 		
 		# industrialization
@@ -452,7 +452,7 @@ country_event = {
 		}
 		random_owned = { 
 			limit = { owner = { has_country_flag = earlyid2_flag } NOT = { organized_factories = 1 } }
-			owner = { activate_technology = organized_factories  clr_country_flag = earlyid2_flag }
+			owner = { activate_technology = guild_based_production activate_technology = organized_factories  clr_country_flag = earlyid2_flag }
 		}
 		
 		# unis
@@ -462,7 +462,7 @@ country_event = {
 		}
 		random_owned = { 
 			limit = { owner = { has_country_flag = indc2_flag } NOT = { positivism = 1 } }
-			owner = { activate_technology = positivism activate_technology = enlightenment_thought  clr_country_flag = indc2_flag }
+			owner = { activate_technology = malthusian_thought activate_technology = positivism activate_technology = malthusian_thought clr_country_flag = indc2_flag }
 		}
 		
 		# machinery
@@ -472,7 +472,7 @@ country_event = {
 		}
 		random_owned = { 
 			limit = { owner = { has_country_flag = machinery2_flag } NOT = { interchangeable_parts = 1 } }
-			owner = { activate_technology = interchangeable_parts  clr_country_flag = machinery2_flag }
+			owner = { activate_technology = mechanical_production activate_technology = interchangeable_parts  clr_country_flag = machinery2_flag }
 		}
 		
 		# currency
@@ -482,7 +482,7 @@ country_event = {
 		}
 		random_owned = { 
 			limit = { owner = { has_country_flag = currency2_flag } NOT = { late_classical_theory = 1 } }
-			owner = { activate_technology = late_classical_theory clr_country_flag = currency2_flag }
+			owner = { activate_technology = early_classical_theory_and_critique activate_technology = late_classical_theory clr_country_flag = currency2_flag }
 		}
 		
 		# steam
@@ -492,7 +492,7 @@ country_event = {
 		}
 		random_owned = { 
 			limit = { owner = { has_country_flag = steampower2_flag } NOT = { high_pressure_steam_engine = 1 } }
-			owner = { activate_technology = high_pressure_steam_engine clr_country_flag = steampower2_flag }
+			owner = { activate_technology = piston_steam_engine activate_technology = high_pressure_steam_engine clr_country_flag = steampower2_flag }
 		}
 		
 		######

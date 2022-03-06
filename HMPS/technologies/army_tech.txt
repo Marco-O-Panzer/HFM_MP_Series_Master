@@ -2644,6 +2644,10 @@ military_staff_system = {
 	ai_chance = {
 		factor = 1.5
 		modifier = {
+			factor = 999999
+			year = 1880
+		}
+		modifier = {
 			factor = 2
 			OR = {
 				AND = {
@@ -2781,6 +2785,10 @@ military_plans = {
 	ai_chance = {
 		factor = 1.5
 		modifier = {
+			factor = 999999
+			year = 1885
+		}
+		modifier = {
 			factor = 2
 			OR = {
 				AND = {
@@ -2917,6 +2925,10 @@ military_statistics = {
 	
 	ai_chance = {
 		factor = 1.5
+		modifier = {
+			factor = 999999
+			year = 1890
+		}
 		modifier = {
 			factor = 2
 			OR = {
@@ -3056,6 +3068,10 @@ military_logistics = {
 	ai_chance = {
 		factor = 1.5
 		modifier = {
+			factor = 999999
+			year = 1895
+		}
+		modifier = {
 			factor = 2
 			OR = {
 				AND = {
@@ -3190,7 +3206,7 @@ military_directionism = {
 		supply_consumption = 0.20
 	}
 	ai_chance = {
-		factor = 8
+		factor = 999999
 		modifier = {
 			factor = 2
 			OR = {

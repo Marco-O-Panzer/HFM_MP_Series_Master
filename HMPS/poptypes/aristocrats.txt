@@ -127,7 +127,10 @@ country_migration_target = {
 		factor = 0.9
 		unemployment = 0.35
 	}
-	
+	modifier = {
+		factor = 0.1
+		economic_policy = planned_economy
+	}
 	modifier = {
 		factor = 2.0
 		OR = {

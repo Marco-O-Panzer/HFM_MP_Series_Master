@@ -86,6 +86,7 @@ Everything else is our own (as far as I remember).
 - Fully funded UBI has a very slightly reduced rate
 
 ## Economic
+Overseas penalty increase 3x, to 0.1 per provinces
 #### Goods
 - Copper (RGO): Used to make bronze and in electrical goods
 - Tin (RGO): Used to make bronze
@@ -114,6 +115,7 @@ Everything else is our own (as far as I remember).
 ## Military
 #### Units
 Soldier pops concentrate in state capitals, requires 3k soldier pops for 1st brigade (then 5k onwards)
+All coal supply requirements for ships removed, and strength loss occurs below 75% supply
 - Bombers: 'Attack version' of planes (fighters)
 - Guards: Have recon (less than hussars)
 - Aircraft Carriers: Long range, high attack, mid hull
@@ -137,7 +139,7 @@ Many nations no longer need (only) GP for flava, or high prestige. War policy re
 - AUS: Can form SGF (and release its non German land)
 - DNB: RnG removed & cultures now accepted via decisions
 - RUS: Only cores Poland late-campaign, option to take all of Manchuria, decision to core CPL land
-- Ottos: Tanzimat reforms can be completed as a republic (must be completed pre-1900 to avoid risk of collapse), Arab revolt won't fire as long as a con-mon or republic
+- Ottos: Tanzimat reforms can be completed as a republic (must be completed pre-1900 to avoid risk of collapse) & Arab revolt won't fire if Ottomanism completed
 - POR: Can unite with Brazil to form the UPB
 #### Americas
 - USA: Can claim all of Mexico (with only standard MD cores)
@@ -158,9 +160,15 @@ Many nations no longer need (only) GP for flava, or high prestige. War policy re
 ## Map
 - Vanilla straits added (Dover-Calais, Japan-Korea)
 - Hormuz & Carribean straits
-- Copenhagen Canal (controlled by Copenhagen)
+- Copenhagen Canal (controlled by Copenhagen) with straits access across the islands
 - Redrawn Trieste area & West Switzerland
 - Rivers with -2 crossing plenlty added (province modifier label)
+
+## AI
+- AI now weighted to build meta stacks
+- High priority to take key techs (Medicine & Military Directionism)
+- Enthusiasm for bad focuses set to 0
+- Aggressiveness massively increased
 
 ## MP Support
 #### Grants

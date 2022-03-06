@@ -1721,7 +1721,7 @@ basic_chemistry = {
 	
 	activate_building = fertilizer_factory 
 	ai_chance = {
-		factor = 10
+		factor = 999999
 		modifier = {
 			factor = 1.5
 			civilized = yes
@@ -1740,7 +1740,7 @@ medicine = {
 	supply_limit = 0.25
 	
 	ai_chance = {
-		factor = 10
+		factor = 999999
 		modifier = {
 			factor = 5
 			civilized = yes

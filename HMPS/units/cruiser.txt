@@ -38,7 +38,6 @@ cruiser = {
 	supply_cost = {
 		steamer_convoy = 1
 		artillery = 0.2
-		coal = 5
 		fuel = 0.5
 		explosives = 0.2
 	}

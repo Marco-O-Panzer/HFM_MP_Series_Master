@@ -816,7 +816,7 @@ political_decisions = {
 			badboy = 5
 			#add_country_modifier = { name = foreign_claims duration = 3650 }
 			#KOR = { all_core = { add_core = THIS } }
-			add_casus_belli = {
+			casus_belli = {
 				target = KOR
 				type = conquest_any
 				months = 120

@@ -136,6 +136,8 @@ country_event = {
 				political_reform = four_year_draft
 			}
 		}
+		
+		ai_chance = { factor = 1 }
 	}
 
 	option = {
