@@ -8,27 +8,12 @@ political_decisions = {
 			has_country_flag = serfdom_not_abolished
 		}
 		allow = {
+			consciousness = 3
+			NOT = { ruling_party_ideology = reactionary }
 			OR = {
 				government = hms_government
 				average_militancy = 4
-				AND = {
-					upper_house = { ideology = liberal value = 0.2 }
-					OR = {
-						average_consciousness = 3
-						has_recently_lost_war = yes
-					}
-				}
-				AND = {
-					ruling_party_ideology = liberal
-					OR = {
-						average_consciousness = 3
-						has_recently_lost_war = yes
-					}
-				}
-				AND = {
-					consciousness = 1
-					year = 1870
-				}
+				upper_house = { ideology = liberal value = 0.2 }
 			}
 		}
 		effect = {
@@ -57,20 +42,6 @@ political_decisions = {
 				}
 				militancy = -2
 				consciousness = 1
-			}
-			any_owned = {
-				limit = {
-					has_pop_type = serfs
-					has_pop_type = labourers
-				}
-				any_pop = { limit = { type = serfs } pop_type = labourers }
-			}
-			any_owned = {
-				limit = {
-					has_pop_type = serfs
-					has_pop_type = farmers
-				}
-				any_pop = { limit = { type = serfs } pop_type = farmers }
 			}
 		}
 		ai_will_do = { factor = 1 }
@@ -1244,7 +1215,6 @@ political_decisions = {
 				great_wars_enabled = yes
 				GER = { exists = yes }
 				GCF = { exists = yes }
-				NOT = { neighbour = TUR }
 			}
 			war = no
 		}
