@@ -13,6 +13,7 @@ country_event = {
 			}
 		}
 		slavery = yes_slavery
+		any_state = { is_slave = yes }
 	}
 	
 	mean_time_to_happen = {
@@ -30,10 +31,9 @@ country_event = {
 		name = "EVT670001OPTA"
 		random_state = {
 			limit = {
-				is_slave = no
+				is_slave = yes
 				is_colonial = no
 			}
-			is_slave = yes
 			any_pop = {
 				limit = {
 					AND = {

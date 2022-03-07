@@ -51,7 +51,7 @@ raw_material_goods = {
 		color = { 234 195 158 }
 	}
 	silk = { 
-		cost = 6.5
+		cost = 20
 		color = { 125 158 43 }
 	}
 	coal = { 
