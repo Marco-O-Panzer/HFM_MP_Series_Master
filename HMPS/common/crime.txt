@@ -140,75 +140,10 @@ terrorist_cells = {
 #	}
 #}
 
-
-low_healthcare_poorly_funded = {
-	active = yes
-	
-	poor_luxury_needs = 0.2
-	poor_everyday_needs = 0.1
-	middle_luxury_needs = 0.1
-	middle_everyday_needs = 0.04
-	icon = 12
-	
-	trigger = {
-		owner = {
-			OR = {
-				health_care = trinket_health_care
-				health_care = low_health_care
-			}
-		}
-		owner = {
-			OR = {
-				AND = {
-					ai = yes
-					NOT = { administration_spending = 0.25 }
-				}
-				AND = {
-					ai = no
-					NOT = { administration_spending = 0.3 }
-				}
-			}
-		}
-	}
-}
-
-good_healthcare_poorly_funded = {
-	active = yes
-	
-	poor_luxury_needs = 0.4
-	poor_everyday_needs = 0.3
-	middle_luxury_needs = 0.3
-	middle_everyday_needs = 0.2
-	icon = 12
-	
-	trigger = {
-		owner = {
-			OR = {
-				health_care = acceptable_health_care
-				health_care = good_health_care
-			}
-		}
-		owner = {
-			OR = {
-				AND = {
-					ai = yes
-					NOT = { administration_spending = 0.3 }
-				}
-				AND = {
-					ai = no
-					NOT = { administration_spending = 0.5 }
-				}
-			}
-		}
-	}
-}
-
-
 trusts = {
 	active = yes
 	
-	rich_everyday_needs = -0.1
-	poor_everyday_needs = 0.3
+	local_rgo_output = -0.1
 	icon = 10
 	
 	trigger = {
@@ -232,8 +167,8 @@ instigators = {
 kleptocrats = {
 	active = yes
 	
-	middle_everyday_needs = -0.05 
-	poor_everyday_needs = 0.1
+	local_factory_output = -0.1
+	local_artisan_output = -0.05
 	icon = 12
 	
 	trigger = {

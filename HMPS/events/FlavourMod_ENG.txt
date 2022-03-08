@@ -361,7 +361,7 @@ country_event = {
 	trigger = {
 		tag = ENG
 		war_with = ZUL
-		2113 = { country_units_in_province = ENG }
+		ZUL = { any_owned_province = { province_id = 2113 country_units_in_province = ENG } }
 	}
 	
 	fire_only_once = yes	

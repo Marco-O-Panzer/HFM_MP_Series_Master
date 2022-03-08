@@ -893,8 +893,8 @@ polish_spirit = {
 	local_RGO_output = -0.5
 	local_factory_output = -0.5
 	assimilation_rate = -0.25	
-	non_accepted_pop_consciousness_modifier = 0.1
-	non_accepted_pop_militancy_modifier = 0.05
+	pop_consciousness_modifier = 0.1
+	pop_militancy_modifier = 0.05
 	icon = 20
 }
 
@@ -1240,17 +1240,13 @@ western_presence = {
 }
 
 foreign_smugglers = {
-	poor_life_needs = -0.05
-	middle_life_needs = -0.05
-	rich_life_needs = -0.05
+	local_artisan_output = 0.05
 	pop_militancy_modifier = 0.05
 	icon = 12
 }
 
 foreign_trading_post = {
-	poor_life_needs = -0.1
-	middle_life_needs = -0.1
-	rich_life_needs = -0.1
+	local_artisan_output = 0.05
 	pop_militancy_modifier = 0.05
 	icon = 11
 }
@@ -1400,7 +1396,7 @@ militant_trade_union = {
 
 worker_union = {
 	pop_consciousness_modifier = 0.1
-	poor_everyday_needs = -0.1
+	pop_militancy_modifier = -0.02
 	farm_rgo_eff = -0.05
 	mine_rgo_eff = -0.05
 	icon = 4
@@ -1434,7 +1430,6 @@ may_day = {
 #worker_revolt = {
 #	farm_rgo_eff = -0.2
 #	mine_rgo_eff = -0.2
-#	poor_everyday_needs = -0.1
 #	icon = 20
 #}
 
@@ -1460,7 +1455,6 @@ the_massacre = {
 }
 
 fascist_welfare = {
-	poor_everyday_needs = -0.1
 	population_growth = 0.001
 	pop_militancy_modifier = -0.05
 	icon = 12
@@ -1720,7 +1714,6 @@ liquor_prohibition = {
 
 ##### NATIONALIST UPRISINGS #####
 minority_building_restrictions = {
-	non_accepted_pop_militancy_modifier = 0.05
 	assimilation_rate = 0.05
 	icon = 16
 }
@@ -2709,8 +2702,6 @@ ottoman_oppression = {
 	land_organisation = -0.05
 	global_assimilation_rate = -0.2
 	tax_efficiency = 0.15
-	#non_accepted_pop_militancy_modifier = 0.05
-	#non_accepted_pop_consciousness_modifier = 0.1
 	icon = 5
 }
 
@@ -2797,7 +2788,6 @@ core_integration = {
 	immigrant_push = -0.25
 	immigrant_attract = 1.0
 	pop_consciousness_modifier = 0.05
-	non_accepted_pop_consciousness_modifier = 0.01
 	icon = 7
 }
 
@@ -2811,13 +2801,11 @@ national_assimilation_rejection = {
 	assimilation_rate = -0.2
 	immigrant_attract = -0.1
 	pop_militancy_modifier = 0.1
-	non_accepted_pop_militancy_modifier = 0.01
 	icon = 18
 }
 
 national_assimilation_acceptance = {
 	pop_consciousness_modifier = 0.05
-	non_accepted_pop_consciousness_modifier = 0.01
 	icon = 17
 }
 
@@ -3308,7 +3296,6 @@ immigration_boom_baltic = {
 	assimilation_rate = 0.5
 	farm_rgo_size = 0.5
 	mine_RGO_size = 0.5
-	non_accepted_pop_militancy_modifier = 0.01
 	icon = 9
 }
 

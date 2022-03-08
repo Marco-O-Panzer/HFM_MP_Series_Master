@@ -1174,8 +1174,10 @@ political_decisions = {
 				war_with = MEX
 			}
 			NOT = {
-				2182 = {
-					country_units_in_province = MEX
+				MEX = {
+					any_owned_province = {
+						province_id = 2182 country_units_in_province = MEX
+					}
 				}
 			}
 		}
