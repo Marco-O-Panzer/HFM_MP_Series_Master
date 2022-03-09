@@ -775,5 +775,5 @@ PROV3301;Purnia;;;;;;;;;;;;;
 PROV3302;Cooch Behar;;;;;;;;;;;;;
 PROV3303;Cumilla;;;;;;;;;;;;;
 PROV3304;Sylhet;;;;;;;;;;;;;
-asia;Eastasia
+asia;Asia;;;;;;;;;;;;;
 no_minimum_wage_desc;No minimum level for wages.\n§YTo ensure unprofitable factories still pay a token amount to their employees, there is a token minimum wage.§!;;;;;;;;;;;;;
