@@ -3,8 +3,8 @@ political_decisions = {
 		picture = unite_with_poland
 		potential = { 
 			tag = RUS
+			POL = { exists = no }
 			706 = {
-				is_core = CPL
 				NOT = { is_core = RUS }
 			}
 		}
