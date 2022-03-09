@@ -54,7 +54,6 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 16
-		immigrant_attract = 0.5
 	}
 	vienna = {
 		movement_cost = 1.2
@@ -869,7 +868,6 @@ categories =  {
 		mine_rgo_size = 0.5
 		mine_rgo_eff = 0.0
 		supply_limit = 16
-		immigrant_attract = 0.25
 	}
 
 	nuremberg = {
@@ -1546,7 +1544,6 @@ categories =  {
 		defence = 1
 		color = { 22 44 66 }
 		
-		immigrant_attract = 1
 		farm_rgo_size = 0.0
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
@@ -1715,7 +1712,6 @@ categories =  {
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
-		immigrant_attract = 1
 		
 		supply_limit = 6
 		min_build_railroad = 1
@@ -1729,7 +1725,6 @@ categories =  {
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
-		immigrant_attract = 1
 		supply_limit = 16
 	}
 
@@ -1741,7 +1736,6 @@ categories =  {
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
-		immigrant_attract = 1
 		supply_limit = 6
 		combat_width = -0.20
 	}
@@ -1756,7 +1750,6 @@ categories =  {
 		mine_rgo_eff = 0.0
 		supply_limit = 6
 		combat_width = -0.20
-		immigrant_attract = 0.5
 	}
 
 	manila = {
@@ -1996,7 +1989,6 @@ categories =  {
 		mine_rgo_eff = 0.0
 		supply_limit = 3
 		combat_width = -0.3
-		immigrant_attract = -0.75
 	}
 
 	tunis = {
@@ -2144,7 +2136,6 @@ categories =  {
 		farm_rgo_eff = 0.0
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.1
-		immigrant_attract = -1.0
 		
 		supply_limit = 3
 		
@@ -2477,7 +2468,6 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 16
-		immigrant_attract = -1
 	}
 
 	gonder = {
@@ -2513,7 +2503,6 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 16
-		immigrant_attract = -0.4
 	}
 
 	monrovia = {
@@ -3063,7 +3052,6 @@ categories =  {
 		min_build_railroad = 3
 		min_build_fort = 1
 		combat_width = -0.25
-		immigrant_attract = -0.25
 	}
 	
 	boreal = {
@@ -3197,7 +3185,6 @@ categories =  {
 		mine_rgo_eff = -0.5
 		min_build_railroad = 6
 		min_build_fort = 1
-		immigrant_attract = -1.5
 		attrition = 2
 	}
 	
@@ -3210,7 +3197,6 @@ categories =  {
 		mine_rgo_eff = -0.1
 		supply_limit = 3
 		min_build_railroad = 2
-		immigrant_attract = -1.5
 		attrition = 1
 	}
 	
@@ -3238,7 +3224,6 @@ categories =  {
 		mine_rgo_eff = 0.0
 		supply_limit = 3
 		combat_width = -0.3
-		immigrant_attract = -0.25
 	}
 	
 	coral_island = {
@@ -3253,7 +3238,6 @@ categories =  {
 		min_build_railroad = 6
 		min_build_fort = 2
 		immigrant_push = -1.0
-		immigrant_attract = -0.25
 	}
 	
 	new_world_boreal = {
@@ -3267,7 +3251,6 @@ categories =  {
 		mine_rgo_size = -10.0
 		mine_rgo_eff = -0.2
 		
-		immigrant_attract = -0.6
 		min_build_naval_base = 4
 		min_build_railroad = 4
 		min_build_fort = 1
@@ -3287,7 +3270,6 @@ categories =  {
 		min_build_naval_base = 4
 		min_build_railroad = 4
 		min_build_fort = 1
-		immigrant_attract = -0.9
 		combat_width = -0.6
 		attrition = 2
 	}
@@ -3303,7 +3285,6 @@ categories =  {
 		min_build_railroad = 4
 		min_build_fort = 1
 		attrition = 2
-		immigrant_attract = -0.9
 	}
 
 	new_world_mountain = {
@@ -3317,7 +3298,6 @@ categories =  {
 		supply_limit = 3
 		combat_width = -0.6
 		min_build_railroad = 3
-		immigrant_attract = -0.4
 	}
 
 	new_world_jungle = {
@@ -3335,7 +3315,6 @@ categories =  {
 		min_build_railroad = 3
 		min_build_fort = 1
 		combat_width = -0.25
-		immigrant_attract = -0.4
 	}
 
 	new_world_plains = {
@@ -3362,7 +3341,6 @@ categories =  {
 		supply_limit = 3
 		combat_width = -0.3
 		assimilation_rate = -0.5
-		immigrant_attract = -0.75
 	}
 	
 	new_world_desert = {
@@ -3376,7 +3354,6 @@ categories =  {
 		min_build_railroad = 4
 		min_build_fort = 1
 		attrition = 2
-		immigrant_attract = -0.5
 	}
 	
 	new_world_semidesert = {
@@ -3389,7 +3366,6 @@ categories =  {
 		mine_rgo_eff = -0.1
 		supply_limit = 3
 		min_build_railroad = 2
-		immigrant_attract = -0.25
 		attrition = 1
 	}
 }

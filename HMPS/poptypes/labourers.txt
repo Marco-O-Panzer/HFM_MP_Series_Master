@@ -499,19 +499,13 @@ migration_target = {
 	}
 	
 	modifier = {
-		factor = 0.01
+		factor = 0.1
 		terrain = coral_island
 	}
 	
 	modifier = {
 		factor = 0.05
 		terrain = desert
-	}
-	
-	modifier = {
-		factor = 0.01
-		terrain = desert
-		continent = africa
 	}
 	
 	modifier = {
