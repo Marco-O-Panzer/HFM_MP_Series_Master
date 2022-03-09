@@ -15,8 +15,8 @@ political_decisions = {
 		allow = {
 			OR = {
 				AND = {
-					average_militancy = 5
-					average_consciousness = 6
+					average_militancy = 4
+					average_consciousness = 5
 				}
 				nationalism_n_imperialism = 1
 			}
