@@ -8,12 +8,21 @@ political_decisions = {
 			has_country_flag = serfdom_not_abolished
 		}
 		allow = {
-			consciousness = 3
-			NOT = { ruling_party_ideology = reactionary }
 			OR = {
-				government = hms_government
-				average_militancy = 4
-				upper_house = { ideology = liberal value = 0.2 }
+				AND = {
+					consciousness = 2
+					NOT = { ruling_party_ideology = reactionary }
+					OR = {
+						government = hms_government
+						average_militancy = 2.5
+						upper_house = { ideology = liberal value = 0.2 }
+					}
+				}
+				AND = {
+					year = 1860
+					consciousness = 1
+					militancy = 1
+				}
 			}
 		}
 		effect = {

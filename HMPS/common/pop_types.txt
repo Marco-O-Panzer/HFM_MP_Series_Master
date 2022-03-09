@@ -413,23 +413,12 @@ migration_chance = {
 		}
 	}
 	
-	#modifier = { ### cant have internal migration from colonial states - engine lock
-	#	factor = -2.2
-	#	state_scope = { is_colonial = yes }
-	#	country = { NOT = { has_country_flag = increased_migration_to_states } }
-	#}
-	#
-	#modifier = {
-	#	factor = -0.5
-	#	state_scope = { is_colonial = yes }
-	#	country = { has_country_flag = increased_migration_to_states }
-	#}
-	
 	modifier = {
 		factor = -100
 		OR = {
 			not = { location = { total_pops = 1000 } }
 			not = { location = { controlled_by = owner } }
+			state_scope = { is_colonial = yes }
 		}
 	}
 	
