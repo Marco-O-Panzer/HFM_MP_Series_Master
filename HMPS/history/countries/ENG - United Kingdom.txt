@@ -111,6 +111,7 @@ upper_house = {
 schools = naval_tech_school
 
 decision = literacy_ENG
+decision = phat_zombie_eic
 
 foreign_investment = {
 	BEL = 20000

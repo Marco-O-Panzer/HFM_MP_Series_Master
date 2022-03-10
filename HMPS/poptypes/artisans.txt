@@ -22,8 +22,7 @@ life_needs = {
 
 everyday_needs = {
 	coal = 1
-	liquor = 5
-	wine = 7
+	wine = 8
 	regular_clothes = 5
 	furniture = 4
 	paper = 5

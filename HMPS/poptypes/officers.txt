@@ -44,7 +44,6 @@ life_needs = {
 everyday_needs = {
 	canned_food = 0.75
 	coal = 2
-	liquor = 4
 	wine = 8
 	regular_clothes = 5
 	furniture = 4

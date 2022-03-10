@@ -36,35 +36,32 @@ life_needs = {
 }
 
 everyday_needs = {
-	grain = 0.01
-	#canned_food = 0.75
-	#coal = 2
-	#liquor = 4
-	#wine = 8
-	#regular_clothes = 5
-	#furniture = 4
-	#paper = 5
-	#glass = 1
-	#radio = 0.5
-	#telephones = 0.5
-	#shoes = 5
-	#pharmaceuticals = 4
+	canned_food = 0.75
+	coal = 2
+	wine = 8
+	regular_clothes = 5
+	furniture = 4
+	paper = 5
+	glass = 1
+	radio = 0.5
+	telephones = 0.5
+	shoes = 5
+	pharmaceuticals = 4
 }
 
 luxury_needs = {
-	grain = 1
-	#tobacco = 3
-	#tea = 5
-	#coffee = 2
-	#opium = 1
-	#luxury_clothes = 1
-	#luxury_furniture = 1
-	#telephones = 1.25
-	#automobiles = 1
-	#aeroplanes = 0.4
-	#radio = 1
-	#fuel = 0.2
-	#shares = 0.2
+	tobacco = 3
+	tea = 5
+	coffee = 2
+	opium = 1
+	luxury_clothes = 1
+	luxury_furniture = 1
+	telephones = 1.25
+	automobiles = 1
+	aeroplanes = 0.4
+	radio = 1
+	fuel = 0.2
+	shares = 0.2
 }
 
 

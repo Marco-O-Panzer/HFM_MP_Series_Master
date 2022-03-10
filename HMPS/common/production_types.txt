@@ -989,7 +989,7 @@ coffee_plantation = {
 cotton_plantation = {
 	template = RGO_template_farmers
 	output_goods = cotton 
-	value = 1
+	value = 2
 	farm = yes
 }
 
@@ -1101,7 +1101,7 @@ tea_plantation = {
 timber_lodge = {
 	template = RGO_template_labourers
 	output_goods = timber 
-	value = 18
+	value = 14
 	farm = yes
 }
 
@@ -1558,7 +1558,7 @@ artisan_liquor = {
 		glass = 8		#23.2	total input+maint = 55
 	}
 	output_goods = liquor 
-	value = 10			#64
+	value = 17			#64
 	
 	owner = {
 		poptype = artisans  
