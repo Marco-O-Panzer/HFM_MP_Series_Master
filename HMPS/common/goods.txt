@@ -47,7 +47,7 @@ raw_material_goods = {
 		color = { 69 0 182 }
 	}
 	wool = { 
-		cost = 1.8
+		cost = 1.9
 		color = { 234 195 158 }
 	}
 	silk = { 
@@ -189,15 +189,15 @@ consumer_goods = {
 		color = { 219 157 36 }
 	}
 	tobacco = {	
-		cost = 1.1
+		cost = 1.7
 		color = { 100 69 30 }
 	}
 	tea = {	
-		cost = 2.6
+		cost = 5
 		color = { 201 135 15 }
 	}
 	coffee = { 
-		cost = 2.0
+		cost = 3.5
 		color = { 27 19 7 }
 	}
 	opium = { 
