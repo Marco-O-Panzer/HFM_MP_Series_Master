@@ -234,11 +234,6 @@ country_migration_target = {
 	}
 	
 	modifier = {
-		factor = 1.5
-		government = democracy
-	}
-	
-	modifier = {
 		factor = 2.5
 		number_of_states = 2
 		#has_country_flag = new_world_nation
@@ -380,7 +375,7 @@ migration_target = {
 	##############################
 	
 	modifier = {
-		factor = 0
+		factor = 0.01
 		OR = { 
 			unemployment_by_type = { type = farmers value = 0.01  }
 			unemployment_by_type = { type = labourers value = 0.01  }

@@ -204,11 +204,6 @@ country_migration_target = {
 			government = theocracy
 		}
 	}
-	
-	modifier = {
-		factor = 1.5
-		government = democracy
-	}
 
 	modifier = {
 		factor = 2.5
@@ -352,7 +347,7 @@ migration_target = {
 	##############################
 	
 	modifier = {
-		factor = 0
+		factor = 0.01
 		OR = { 
 			unemployment_by_type = { type = farmers value = 0.01  }
 			unemployment_by_type = { type = labourers value = 0.01  }
