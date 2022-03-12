@@ -790,7 +790,7 @@ country_event = {
 	}
 }
 
-country_event = {	#outer or all of manchuria
+country_event = {	#outer manchuria or also mongolia
 	id = 7777913
 	title = "EVTNAME7777913"
 	desc = "EVTDESC7777913"
@@ -817,9 +817,7 @@ country_event = {	#outer or all of manchuria
 	
 	option = {
 		name = "EVT7777913OPTB"
-		CHI_1479 = { add_core = RUS }
-		CHI_1552 = { add_core = RUS }
-		badboy = 15
+		badboy = 10
 		any_country = {
 			limit = {
 				OR = {
@@ -829,11 +827,13 @@ country_event = {	#outer or all of manchuria
 				exists = yes
 			}
 			country_event = 80110
-			add_country_modifier = {
-				name = angry_chinese_reform
-				duration = 9125
-			}
+			#add_country_modifier = {
+			#	name = angry_chinese_reform
+			#	duration = 9125
+			#}
 		}
+		create_vassal = MGL
+		create_vassal = TNT
 		set_country_flag = all_of_manchuria
 		ai_chance = {
 			factor = 0
