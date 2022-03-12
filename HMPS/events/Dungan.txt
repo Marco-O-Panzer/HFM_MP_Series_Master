@@ -519,3 +519,64 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = 80129
+	title = "An Opportunity"
+	desc = "The Uighurs in Xinjiang province have risen up against Qing rule. Perhaps we should take advantage of this situation, and seize the border regions for ourselves?"
+	picture = "dungan_rebellion_qinghai"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+			tag = RUS
+			tag = SOV
+		}
+		has_global_flag = dungan_rebellion
+	}
+	
+	mean_time_to_happen = {
+		days = 7
+	}
+	
+	option = {
+		name = "Tell the troops to move in."
+		prestige = 5
+		badboy = 1
+		any_country = {
+			limit = {
+				OR = {
+					tag = XIN
+					tag = UYG
+				}
+			}
+			any_owned = {
+				limit = {
+					OR = {
+						province_id = 1190
+						province_id = 1186
+						province_id = 1188
+					}
+				}
+				secede_province = THIS
+			}
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "The Chinese are our friends!"
+		prestige = -30
+		badboy = -2
+		QNG = {
+			relation = { who = THIS value = 100 }
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+	
+}
+
