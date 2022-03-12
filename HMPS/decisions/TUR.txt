@@ -248,11 +248,8 @@ political_decisions = {
 				who = MON
 				value = -400
 			}
-			
-			casus_belli = {
-				target = MON
-				type = conquest_any
-				months = 120
+			2583 = {
+				add_core = THIS
 			}
 		}
 		ai_will_do = {
