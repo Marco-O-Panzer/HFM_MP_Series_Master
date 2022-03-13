@@ -832,20 +832,6 @@ country_event = {
 			}
 		}
 	}
-
-	option = {
-		name = "Viva San Marco!"
-			war = {
-					target = VEN
-					attacker_goal = {
-						casus_belli = annex_core_country
-                                        }
-			}
-		change_tag_no_core_switch = VEN
-		ai_chance = {
-			factor = 0
-		}
-	}
 }
 
 

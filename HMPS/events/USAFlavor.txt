@@ -1294,23 +1294,6 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPTC441266" 
-		1887 = { add_core = LIB }
-		1888 = { add_core = LIB }
-		LIB = { all_core = { remove_core = USA } }
-		release = LIB
-		relation = { who = LIB value = 400 }
-		diplomatic_influence = { who = LIB value = 400 }
-		LIB = {
-			capital = 1887 
-			election = yes
-			add_country_modifier = { name = unrecognized_country duration = 3650 }
-		}
-		change_tag_no_core_switch = LIB
-		ai_chance = { factor = 0 }
-	}
-	
-	option = {
 		name = "EVTOPTB441266" 
 		treasury = -200000
 		1887 = { add_core = LIB }

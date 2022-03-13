@@ -1422,46 +1422,6 @@ country_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = "EVT1010032OPTC"
-		clr_country_flag = IRE_independence_refused
-		prestige = -50
-		badboy = -3
-		any_pop = {
-			limit = {
-				has_pop_culture = irish
-				has_pop_religion = catholic
-				location = { is_core = IRE }
-			}
-			militancy = -10
-		}
-		IRE = {
-			all_core = { remove_core = THIS }
-		}
-		release_vassal = IRE
-		IRE = {
-			government = dominion
-			prestige = -80
-			any_owned = {
-				limit = { region = ENG_254 }
-				add_core = THIS
-				secede_province = THIS
-			}
-		}
-		relation = {
-			who = IRE
-			value = 200
-		}
-		diplomatic_influence = {
-			who = IRE
-			value = 200
-		}
-		change_tag_no_core_switch = IRE
-		ai_chance = {
-			factor = 0
-		}
-	}
 }
 	
 country_event = {

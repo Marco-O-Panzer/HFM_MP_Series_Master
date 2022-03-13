@@ -3648,47 +3648,6 @@ country_event = {
 			}
 		}
 	}
-
-	option = {
-		name = "EVT10225OPTC"
-		any_owned = {
-			limit = {
-				is_core = HUN
-				NOT = { is_core = CRO }
-			}
-			secede_province = HUN
-		}
-		relation = { who = HUN value = -100 }
-		any_owned = {
-			limit = { is_core = AUS }
-			remove_province_modifier = liberal_agitation
-		}
-		any_pop = {
-			limit = { is_primary_culture = yes }
-			militancy = -6
-		}
-		add_country_modifier = {
-				name = no_more_war
-				duration = 14
-		}
-		casus_belli = {
-			target = HUN
-			type = annex_core_country
-			months = 60
-		}
-		HUN = {
-			political_reform = mandatory_service 
-			capital = 641
-			add_country_modifier = {
-				name = no_more_war
-				duration = 14
-			}
-		}
-		change_tag_no_core_switch = HUN
-		ai_chance = {
-			factor = 0
-		}
-	}
 }
 
 country_event = {

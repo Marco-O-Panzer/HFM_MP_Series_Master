@@ -327,41 +327,6 @@ country_event = {
 			factor = 100
 		}
 	}
-	
-	option = {
-		name = "EVT80125OPTB"
-		set_global_flag = dungan_rebellion
-		release_vassal = XIN
-		XIN = { change_tag = UYG }
-		UYG = {
-			primary_culture = uighur
-			add_accepted_culture = tajik
-			add_accepted_culture = kazak
-			add_accepted_culture = kirgiz
-			capital = 1594
-			any_pop = {
-				consciousness = -5
-				militancy = -5
-			}
-			relation = { who = RUS value = 400 }
-		}
-		casus_belli = {
-			target = UYG
-			type = make_puppet
-			months = 30
-		}
-		war = {
-			target = UYG
-			attacker_goal = {
-				casus_belli = make_puppet
-			}		
-			defender_goal = {
-				casus_belli = status_quo
-			}
-		}
-		change_tag_no_core_switch = UYG
-		ai_chance = { factor = 0 }
-	}
 }
 
 country_event = {

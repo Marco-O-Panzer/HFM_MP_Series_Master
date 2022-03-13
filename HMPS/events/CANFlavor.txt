@@ -499,44 +499,6 @@ country_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = "EVT44315OPTC"
-		clr_country_flag = CAN_independence_refused
-		prestige = -25
-		badboy = -5
-		any_pop = {
-			limit = { location = { is_core = CAN } }
-			militancy = -10
-		}
-		CAN = {
-			all_core = {
-				change_controller = ENG
-				remove_core = ENG
-			}
-		}
-		release_vassal = CAN
-		CAN = {
-			prestige = -100
-			government = dominion
-			relation = { who = USA value = 200 }
-		}
-		relation = {
-			who = CAN
-			value = 200
-		}
-		diplomatic_influence = {
-			who = CAN
-			value = 200
-		}
-		any_pop = {
-			consciousness = 1
-		}
-		change_tag_no_core_switch = CAN
-		ai_chance = {
-			factor = 0
-		}
-	}
 }
 
 #The Dominion of Quebec
@@ -714,47 +676,6 @@ country_event = {
 				factor = 0.8
 				militancy = 5
 			}
-		}
-	}
-	
-	option = {
-		name = "EVT44316OPTC"
-		clr_country_flag = QUE_independence_refused
-		prestige = -10
-		badboy = -3
-		any_pop = {
-			limit = { location = { is_core = QUE } }
-			militancy = -10
-		}
-		CAN_60 = {
-			add_core = QUE
-			remove_core = RPL
-		}
-		QUE = {
-			all_core = {
-				change_controller = ENG
-				remove_core = ENG
-			}
-		}
-		release_vassal = QUE
-		QUE = {
-			prestige = -100
-			relation = { who = USA value = 200 }
-		}
-		relation = {
-			who = QUE
-			value = 200
-		}
-		diplomatic_influence = {
-			who = QUE
-			value = 200
-		}
-		any_pop = {
-			consciousness = 1
-		}
-		change_tag_no_core_switch = QUE
-		ai_chance = {
-			factor = 0
 		}
 	}
 }
@@ -939,44 +860,6 @@ country_event = {
 				factor = 0.8
 				militancy = 5
 			}
-		}
-	}
-	
-	option = {
-		name = "EVT44317OPTC"
-		clr_country_flag = MRU_independence_refused
-		prestige = -10
-		badboy = -3
-		any_pop = {
-			limit = { location = { is_core = MRU } }
-			militancy = -10
-		}
-		MRU = {
-			all_core = {
-				change_controller = ENG
-				remove_core = ENG
-			}
-		}
-		release_vassal = MRU
-		MRU = {
-			government = dominion
-			prestige = -100
-			relation = { who = USA value = 200 }
-		}
-		relation = {
-			who = MRU
-			value = 200
-		}
-		diplomatic_influence = {
-			who = MRU
-			value = 200
-		}
-		any_pop = {
-			consciousness = 1
-		}
-		change_tag_no_core_switch = MRU
-		ai_chance = {
-			factor = 0
 		}
 	}
 }
@@ -1190,44 +1073,6 @@ country_event = {
 				factor = 0.8
 				militancy = 5
 			}
-		}
-	}
-	
-	option = {
-		name = "EVT44318OPTA"
-		clr_country_flag = COL_independence_refused
-		prestige = -10
-		badboy = -3
-		any_pop = {
-			limit = { location = { is_core = COL } }
-			militancy = -10
-		}
-		COL = {
-			all_core = {
-				change_controller = ENG
-				remove_core = ENG
-			}
-		}
-		release_vassal = COL
-		COL = {
-			government = dominion
-			prestige = -100
-			relation = { who = USA value = 200 }
-		}
-		relation = {
-			who = COL
-			value = 200
-		}
-		diplomatic_influence = {
-			who = COL
-			value = 200
-		}
-		any_pop = {
-			consciousness = 1
-		}
-		change_tag_no_core_switch = COL
-		ai_chance = {
-			factor = 0
 		}
 	}
 }

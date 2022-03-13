@@ -178,38 +178,6 @@ country_event = {
 			}
 		}
 	}
-	option = {
-		name = "EVT44330OPTC"
-		clr_country_flag = NEW_independence_refused
-		prestige = -10
-		badboy = -3
-		any_pop = {
-			limit = { location = { is_core = NEW } }
-			militancy = -10
-		}
-		NEW = {
-			all_core = { remove_core = THIS remove_core = ENG }
-		}
-		release_vassal = NEW
-		NEW = {
-			prestige = -80
-		}
-		relation = {
-			who = NEW
-			value = 200
-		}
-		diplomatic_influence = {
-			who = NEW
-			value = 200
-		}
-		any_pop = {
-			consciousness = 1
-		}
-		change_tag_no_core_switch = NEW
-		ai_chance = {
-			factor = 0
-		}	
-	}
 }
 
 country_event = {
@@ -424,40 +392,6 @@ country_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = "EVT44332OPTC"
-		clr_country_flag = AST_independence_refused
-		prestige = -20
-		badboy = -5
-		any_pop = {
-			limit = { location = { is_core = AST } }
-			militancy = -10
-		}
-		AST = {
-			all_core = { remove_core = THIS remove_core = ENG }
-		}
-		release_vassal = AST
-		AST = { 
-			prestige = -80 
-			government = dominion
-		}
-		relation = {
-			who = AST
-			value = 200
-		}
-		diplomatic_influence = {
-			who = AST
-			value = 200
-		}
-		any_pop = {
-			consciousness = 1
-		}
-		change_tag_no_core_switch = AST
-		ai_chance = {
-			factor = 0
-		}
-	}
 }
 
 #The New Zealand Dominion - NZ asks for independence
@@ -637,40 +571,6 @@ country_event = {
 				factor = 0.8
 				militancy = 5
 			}
-		}
-	}
-	option = {
-		name = "EVT44333OPTC"
-		clr_country_flag = NZL_independence_refused
-		prestige = -15
-		badboy = -3
-		any_pop = {
-			limit = { location = { is_core = NZL } }
-			militancy = -10
-		}
-		NZL = {
-			all_core = { remove_core = THIS remove_core = ENG }
-		}
-		release_vassal = NZL
-		NZL = {
-			prestige = -80
-			capital = 2512
-			government = dominion
-		}
-		relation = {
-			who = NZL
-			value = 200
-		}
-		diplomatic_influence = {
-			who = NZL
-			value = 200
-		}
-		any_pop = {
-			consciousness = 1
-		}
-		change_tag_no_core_switch = NZL
-		ai_chance = {
-			factor = 0
 		}
 	}
 }
@@ -889,39 +789,6 @@ country_event = {
 				factor = 2.0
 				exists = AST
 			}
-		}
-	}
-	option = {
-		name = "EVT44334OPTC"
-		clr_country_flag = SAF_independence_refused
-		prestige = -20
-		badboy = -5
-		any_pop = {
-			limit = { location = { is_core = SAF } }
-			militancy = -10
-		}
-		SAF = {
-			all_core = { remove_core = THIS remove_core = ENG }
-		}
-		release_vassal = SAF
-		SAF = {
-			prestige = -80
-			capital = 2087
-		}
-		relation = {
-			who = SAF
-			value = 50
-		}
-		diplomatic_influence = {
-			who = SAF
-			value = 200
-		}
-		any_pop = {
-			consciousness = 1
-		}
-		change_tag_no_core_switch = SAF
-		ai_chance = {
-			factor = 0
 		}
 	}
 }
@@ -1421,35 +1288,6 @@ country_event = {
 			}
 		}
 		ai_chance = { factor = 5 }
-	}
-	
-	option = {
-		name = "EVT44340OPTD"
-		prestige = -10
-		badboy = -3
-		any_pop = {
-			limit = { location = { is_core = LSK } }
-			militancy = -10
-		}
-		LSK = {
-			all_core = { remove_core = ENG remove_core = THIS }
-		}
-		release_vassal = LSK
-		LSK = {
-			prestige = -100
-			add_accepted_culture = anglo_canadian
-			relation = { who = CAN value = 200 }
-		}
-		relation = {
-			who = LSK
-			value = 200
-		}
-		diplomatic_influence = {
-			who = LSK
-			value = 200
-		}
-		change_tag_no_core_switch = LSK
-		ai_chance = { factor = 0 }
 	}
 }
 

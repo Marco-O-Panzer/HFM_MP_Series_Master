@@ -233,33 +233,4 @@ country_event = {
 			factor = 100
 		}
 	}
-	
-	option = {
-		name = "EVT999700OPTB"
-		any_owned = {
-			limit = { is_core = CRE }
-			secede_province = CRE
-		}
-		diplomatic_influence = {
-			who = CRE
-			value = -400
-		}	
-		change_tag_no_core_switch = CRE
-		
-		TUR = {
-			casus_belli = {
-				target = CRE
-				type = conquest_any
-				months = 12
-			}
-			war = {
-				target = CRE
-				attacker_goal = { casus_belli = conquest_any }
-				defender_goal = { casus_belli = status_quo }
-			}
-		}
-		ai_chance = {
-			factor = 0
-		}
-	}
 }

@@ -156,38 +156,6 @@ country_event = {
 			}
 		}
 	}
-	option = {
-		name = "EVT99802OPTC"
-		clr_country_flag = FCA_independence_refused
-		prestige = -10
-		badboy = -3
-		any_pop = {
-			limit = { location = { is_core = FCA } }
-			militancy = -10
-		}
-		FCA = {
-			all_core = { remove_core = THIS }
-		}
-		release_vassal = FCA
-		FCA = {
-			prestige = -80
-		}
-		relation = {
-			who = FCA
-			value = 200
-		}
-		diplomatic_influence = {
-			who = FCA
-			value = 200
-		}
-		any_pop = {
-			consciousness = 1
-		}
-		change_tag_no_core_switch = FCA
-		ai_chance = {
-			factor = 0
-		}	
-	}
 }
 
 country_event = {
@@ -358,37 +326,6 @@ country_event = {
 				factor = 0.8
 				militancy = 5
 			}
-		}
-	}
-	
-	option = {
-		name = "EVT99803OPTC"
-		clr_country_flag = NZF_independence_refused
-		prestige = -20
-		badboy = -5
-		any_pop = {
-			limit = { location = { is_core = NZF } }
-			militancy = -10
-		}
-		NZF = {
-			all_core = { remove_core = THIS }
-		}
-		release_vassal = NZF
-		NZF = { prestige = -80 }
-		relation = {
-			who = NZF
-			value = 200
-		}
-		diplomatic_influence = {
-			who = NZF
-			value = 200
-		}
-		any_pop = {
-			consciousness = 1
-		}
-		change_tag_no_core_switch = NZF
-		ai_chance = {
-			factor = 0
 		}
 	}
 }
@@ -575,37 +512,6 @@ country_event = {
 				factor = 0.8
 				militancy = 5
 			}
-		}
-	}
-	
-	option = {
-		name = "EVT99804OPTC"
-		clr_country_flag = ULA_independence_refused
-		prestige = -20
-		badboy = -5
-		any_pop = {
-			limit = { location = { is_core = ULA } }
-			militancy = -10
-		}
-		ULA = {
-			all_core = { remove_core = THIS }
-		}
-		release_vassal = ULA
-		ULA = { prestige = -80 }
-		relation = {
-			who = ULA
-			value = 200
-		}
-		diplomatic_influence = {
-			who = ULA
-			value = 200
-		}
-		any_pop = {
-			consciousness = 1
-		}
-		change_tag_no_core_switch = ULA
-		ai_chance = {
-			factor = 0
 		}
 	}
 }
