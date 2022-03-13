@@ -88,6 +88,7 @@ overseas = {
 
 coastal = {
 	supply_limit = 5
+	local_repair = -0.5
 }
 
 non_coastal = {

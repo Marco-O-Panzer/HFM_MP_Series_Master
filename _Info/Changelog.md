@@ -66,7 +66,12 @@ Everything else is our own (as far as I remember).
 - ~1900-1910, Decrease to ~31 for Germany, Benelulx, Italy, Britain, Austria-Hungary, USA (in two stages)
 - Pop-growth techs nerfed
 - Healthcare only grants +0.01% pm at top level fully funded
-#### Demotion & Promotion#
+#### Pop Needs
+- Demand increase from inventions decreased to 1% per invention
+- Luxury manufactured goods in luxuries for lower and middle class
+- Tea & Coffee moved into luxuries
+- Removed basic food demand as luxuries (canned food instead)
+#### Demotion & Promotion
 - Reduced (~33% decrease) rate of promotion
 - Greatly (+100%) increased rate of promotion
 - Non-accepted overseas colonials limited to 1% soldiers, until Colonial Reform (then limited to 2.5%)
@@ -115,7 +120,6 @@ Overseas penalty increase 3x, to 0.1 per provinces
 ## Military
 #### Units
 Soldier pops concentrate in state capitals, requires 3k soldier pops for 1st brigade (then 5k onwards)
-All coal supply requirements for ships removed, and strength loss occurs below 75% supply
 - Bombers: 'Attack version' of planes (fighters)
 - Guards: Have recon (less than hussars)
 - Aircraft Carriers: Long range, high attack, mid hull
@@ -130,6 +134,12 @@ All coal supply requirements for ships removed, and strength loss occurs below 7
 - 5 combat width increase in 1920 & 1930
 - Base supply increased ~60%
 - Greater multiplier from tech
+#### Naval Supply
+- All coal supply requirements for ships removed
+- Strength loss occurs below 75% supply
+- Strenght min set to 0 (will not auto-delete)
+- Base repair rate halved
+- Ports give -5% build time & 5% repair speed per level
 
 ## Flava
 Many nations no longer need (only) GP for flava, or high prestige. War policy requirements relaxed, and can't form nations on players
@@ -139,7 +149,7 @@ Many nations no longer need (only) GP for flava, or high prestige. War policy re
 - AUS: Can form SGF (and release its non German land)
 - DNB: RnG removed & cultures now accepted via decisions
 - RUS: Only cores Poland late-campaign, option to take all of Manchuria, decision to core CPL land
-- Ottos: Tanzimat reforms can be completed as a republic (must be completed pre-1900 to avoid risk of collapse) & Arab revolt won't fire if Ottomanism completed
+- Ottos: Tanzimat reforms can be completed as a republic & Arab revolt won't remove accepted cultures
 - POR: Can unite with Brazil to form the UPB
 #### Americas
 - USA: Can claim all of Mexico (with only standard MD cores)

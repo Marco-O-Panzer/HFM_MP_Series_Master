@@ -659,24 +659,28 @@ political_decisions = {
 			OR = {
 				AND = {
 					owns = 1972
+					invention = colonial_negotiations
 					1976 = { empty = yes } #Gabon
 				}
 				AND = {
+					owns = 1977
+					invention = colonial_negotiations
 					OR = { 
 						has_global_flag = called_congo_conference
 						1962 = { empty = no }
 					}
-					owns = 1977 
 					1976 = { empty = no } #Gabon
 					1980 = { empty = yes } #Congo
 				}
 				AND = {
 					owns = 1981
+					invention = the_dark_continent
 					1966 = { empty = yes } #Ubangi-Shari
+					1962 = { empty = no } #Cameroon
 				}	
 				AND = {
-					invention = the_dark_continent
 					owns = 1967
+					invention = the_dark_continent
 					1819 = { empty = yes } #Waddai
 				}
 			}
@@ -688,7 +692,7 @@ political_decisions = {
 				limit = {
 					owner = {
 						owns = 1972 #Libreville
-						1974 = { empty = yes } #Gabon
+						1976 = { empty = yes } #Gabon
 						invention = colonial_negotiations
 					}
 				}
