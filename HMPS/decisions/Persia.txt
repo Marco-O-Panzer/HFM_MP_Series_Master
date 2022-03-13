@@ -73,7 +73,12 @@ greater_iran = {
 		   is_greater_power = yes
 		   is_secondary_power = yes
 		}
-		war_policy = jingoism
+		OR = {
+			war_policy = jingoism
+			war_policy = pro_military
+		}
+		owns = 1218
+		owns = 1221
 	}
 		
 	effect = {
@@ -81,8 +86,6 @@ greater_iran = {
 			any_country = { limit = { neighbour = THIS NOT = { vassal_of = THIS } } relation = { who = THIS value = -50 } }
 			3280 = { add_core = PER } #Khiva
 			1196 = { add_core = PER }
-			1191 = { add_core = PER }
-			1192 = { add_core = PER }
 			1206 = { add_core = PER }
 			1198 = { add_core = PER } #Uzbekistan+Tajikistan
 			1199 = { add_core = PER }
@@ -96,17 +99,17 @@ greater_iran = {
 			AFG_1213 = { add_core = PER } #Afghanistan+Peshwar+Balochistan
 			KAL_1221 = { add_core = PER }
 			AFG_1209 = { add_core = PER } 
-			TUR_935 = { add_core = PER } #Iraq and Eastern Anatolia
-			TUR_923 = { add_core = PER }
-			TUR_893 = { add_core = PER }
-			TUR_890 = { add_core = PER }
-			934 = { add_core = PER }
-			926 = { add_core = PER }
-			929 = { add_core = PER }
-			927 = { add_core = PER }
-			901 = { add_core = PER }
-			3276 = { add_core = PER }
-			888 = { add_core = PER }
+			#TUR_935 = { add_core = PER } #Iraq and Eastern Anatolia
+			#TUR_923 = { add_core = PER }
+			#TUR_893 = { add_core = PER }
+			#TUR_890 = { add_core = PER }
+			#934 = { add_core = PER }
+			#926 = { add_core = PER }
+			#929 = { add_core = PER }
+			#927 = { add_core = PER }
+			#901 = { add_core = PER }
+			#3276 = { add_core = PER }
+			#888 = { add_core = PER }
 		}
 	
 	
@@ -754,8 +757,13 @@ nullify_turkmanchay_gulistan = {
 		
 	allow = {
 		civilized = yes
-		war_policy = jingoism
+		OR = {
+			war_policy = jingoism
+			war_policy = pro_military
+		}
 		PER = { all_core = { owned_by = THIS } }
+		owns = 1102
+		owns = 1098
 	}
 		
 	effect = {
@@ -764,13 +772,13 @@ nullify_turkmanchay_gulistan = {
 			RUS_1102 = { add_core = PER } #North Azerbaijan
 			RUS_1098 = { add_core = PER } #Armenia
 			885 = { add_core = PER }
-			1090 = { add_core = PER } #Kakheti-Kartli
-			1091 = { add_core = PER }
-			1093 = { add_core = PER }
-			1052 = { add_core = PER } #Caucasus
-			1053 = { add_core = PER }
-			1054 = { add_core = PER }
-			3296 = { add_core = PER }
+			#1090 = { add_core = PER } #Kakheti-Kartli
+			#1091 = { add_core = PER }
+			#1093 = { add_core = PER }
+			#1052 = { add_core = PER } #Caucasus
+			#1053 = { add_core = PER }
+			#1054 = { add_core = PER }
+			#3296 = { add_core = PER }
 		}
 		
 	ai_will_do = { factor = 0 }
