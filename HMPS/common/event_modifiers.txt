@@ -1,6 +1,9 @@
 river_notification = {
 	icon = 21
 }
+canal_notification = {
+	icon = 22
+}
 
 grant_cooldown = {
     icon = 12

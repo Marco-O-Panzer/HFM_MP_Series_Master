@@ -79,11 +79,11 @@ Everything else is our own (as far as I remember).
 - Republics have a slight increase
 - Equality NV: slight increase
 - Full cultural rights reform: allows assimilation on cultural cores (still some engine locks)
+- Can manually core overseas
 #### Immigration
 - New World buff reduces 1900+
 - Attraction from reforms greatly increased
 - USA buffs nerfed slightly
-- Immigration will split across many nations (often with 'day ticks')
 #### Emigration
 - Life needs met effects rate
 - Removed almost all culture-specific modifiers
@@ -168,11 +168,16 @@ Many nations no longer need (only) GP for flava, or high prestige. War policy re
 - Ethiopian cultures can form the East African Federation, or Coptic Empire with expansion south and north respectively
 
 ## Map
+- Rivers with -2 crossing plenlty added (province modifier label)
+- Redrawn Trieste area & West Switzerland
+#### Straits
 - Vanilla straits added (Dover-Calais, Japan-Korea)
 - Hormuz & Carribean straits
+#### Canals
 - Copenhagen Canal (controlled by Copenhagen) with straits access across the islands
-- Redrawn Trieste area & West Switzerland
-- Rivers with -2 crossing plenlty added (province modifier label)
+- Gibraltar Straits operate as a canal with two control provinces: Gibraltar, Ceuta
+- Both Gallipoli and Golden Horn act as dual control canals, with provinces on either side as control provinces
+- Aden Strait acts as canal
 
 ## AI
 - AI now weighted to build meta stacks

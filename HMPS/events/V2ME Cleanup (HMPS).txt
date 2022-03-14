@@ -263,6 +263,40 @@ country_event = {
 			country_event = 477877794
 		}
 		
+		#applying canal control province notification
+		any_country = {
+			limit = {
+				exists = yes
+			}
+			any_owned = {
+				limit = {
+					OR = {
+						### Copenhagen Strait
+						province_id = 372
+						
+						### Gibraltar Strait
+						province_id = 517
+						province_id = 2590
+						
+						### Bosphorus Strait
+						province_id = 859
+						province_id = 860
+						province_id = 861
+						province_id = 865
+						
+						### Aden Strait
+						province_id = 1412
+						province_id = 1875
+					
+					}
+				}
+				add_province_modifier = {
+					name = canal_notification
+					duration = -1
+				}
+			}
+		}
+		
 		#applying river province notifications
 		any_country = {
 			limit = {

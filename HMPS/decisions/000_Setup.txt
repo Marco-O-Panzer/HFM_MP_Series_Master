@@ -845,8 +845,18 @@ political_decisions = {
 			}
 			enable_canal = 4
 			enable_canal = 5
-			enable_canal = 6	#Copenhagen Strait
-			enable_canal = 7	#Copenhagen Strait
+			enable_canal = 6
+			enable_canal = 7
+			enable_canal = 8	#Copenhagen Strait
+			enable_canal = 9	#Copenhagen Strait
+			enable_canal = 10	#Gibraltar Strait
+			enable_canal = 11	#Gibraltar Strait
+			enable_canal = 12	#Gibraltar Strait
+			enable_canal = 13	#Gibraltar Strait
+			enable_canal = 14	#Gibraltar Strait
+			enable_canal = 15	#Gibraltar Strait
+			enable_canal = 16	#Aden Strait
+			enable_canal = 17	#Aden Strait
 			860 = { any_pop = { literacy = 0.05 } }
 			860 = { any_pop = { limit = { has_pop_culture = turkish } literacy = 0.1 } }
 			any_pop = { 
