@@ -1,3 +1,9 @@
+land_crossing_notification = {
+	icon = 24
+}
+sea_crossing_notification = {
+	icon = 23
+}
 river_notification = {
 	icon = 21
 }

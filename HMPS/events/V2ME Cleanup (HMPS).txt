@@ -263,6 +263,175 @@ country_event = {
 			country_event = 477877794
 		}
 		
+		#applying land strait province notification
+		any_country = {
+			limit = {
+				exists = yes
+			}
+			any_owned = {
+				limit = {
+					OR = {
+						### Copenhagen Region
+						province_id = 372
+						province_id = 334
+						province_id = 373
+						province_id = 2557
+						province_id = 371
+						
+						### Golden Horn
+						province_id = 860
+						province_id = 861
+						
+						### Croatia
+						province_id = 780
+						province_id = 782
+					}
+				}
+				add_province_modifier = {
+					name = land_crossing_notification
+					duration = -1
+				}
+			}
+		}
+		
+		#applying sea strait province notification
+		any_country = {
+			limit = {
+				exists = yes
+			}
+			any_owned = {
+				limit = {
+					OR = {
+						### Dover-Calais
+						province_id = 301
+						province_id = 401
+						
+						### Gibraltar Straits
+						province_id = 512
+						province_id = 1687
+						
+						### Maritimes
+						province_id = 72
+						province_id = 73
+						province_id = 68
+						province_id = 70
+						
+						### Newfoundland
+						province_id = 62
+						province_id = 75
+						province_id = 74
+						province_id = 77
+						
+						### Vancouver Area
+						province_id = 14
+						province_id = 13
+						province_id = 78
+						
+						### Caribbean
+						province_id = 2237
+						province_id = 2269
+						province_id = 2334
+						province_id = 2335
+						province_id = 2399
+						province_id = 2400
+						province_id = 2212
+						province_id = 2215
+						province_id = 2214
+						province_id = 2222
+						province_id = 2237
+						province_id = 2238
+						province_id = 2233
+						province_id = 2409
+						province_id = 2229
+						province_id = 2231
+						province_id = 2228
+						province_id = 2232
+						province_id = 2230
+						province_id = 2225
+						province_id = 2224
+						province_id = 2227
+						province_id = 2236
+						province_id = 3246
+						province_id = 2223
+						province_id = 2226
+						province_id = 45
+						province_id = 2219
+						province_id = 2220
+						
+						### Zanzibar
+						province_id = 2036
+						province_id = 2048
+						
+						### Comoros-Mayotte
+						province_id = 2123
+						province_id = 2124
+						
+						### Aden Strait
+						province_id = 1412
+						province_id = 1875
+						
+						### GB & Ireland
+						province_id = 254
+						province_id = 271
+						province_id = 304
+						province_id = 254
+						province_id = 267
+						province_id = 1724
+						province_id = 274
+						province_id = 265
+						
+						### Scandinavia
+						province_id = 324
+						province_id = 348
+						province_id = 335
+						province_id = 374
+						province_id = 345
+						province_id = 353
+						province_id = 349
+						province_id = 358
+						province_id = 331
+						province_id = 332
+						
+						### Netherlands
+						province_id = 375
+						province_id = 385
+						
+						### Italy
+						province_id = 473
+						province_id = 766
+						province_id = 759
+						province_id = 763
+						
+						### Greece & Turkey
+						province_id = 826
+						province_id = 824
+						province_id = 853
+						province_id = 838
+						province_id = 834
+						province_id = 845
+						province_id = 843
+						province_id = 869
+						province_id = 859
+						province_id = 865
+						province_id = 837
+						province_id = 827
+						province_id = 846
+						province_id = 872
+						province_id = 844
+						
+						### Russia
+						province_id = 966
+						province_id = 1049
+					
+					}
+				}
+				add_province_modifier = {
+					name = sea_crossing_notification
+					duration = -1
+				}
+			}
+		}
+		
 		#applying canal control province notification
 		any_country = {
 			limit = {
