@@ -593,7 +593,7 @@ army = {
 }
 
 navy = {
-	name = "Königlich Preußische Marine"
+	name = "Transport Fleet"
 	location = 690
 	ship = {
 		name= "1. Klipperflottille"

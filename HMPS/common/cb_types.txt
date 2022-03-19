@@ -2595,7 +2595,7 @@ free_allied_cores = {
 	can_use = {
 		NOT = { is_our_vassal = THIS }
 		#is_vassal = no
-		number_of_states = 2
+		#number_of_states = 2
 		THIS = { NOT = { has_country_modifier = neutrality } }
 		NOT = { has_country_modifier = neutrality }
 		OR = {
@@ -2637,9 +2637,6 @@ free_allied_cores = {
 		FROM = {
 			exists = yes
 			in_sphere = THIS
-			NOT = {
-				any_core = { owned_by = THIS }
-			}
 		}
 	}
 
@@ -2648,7 +2645,7 @@ free_allied_cores = {
 	# war target country of goal's state
 	allowed_states = {
 		#NOT = { any_owned_province = { is_capital = yes } }
-		NOT = { any_owned_province = { is_core = THIS } }
+		#NOT = { any_owned_province = { is_core = THIS } }
 		any_owned_province = { is_core = FROM }
 	}
 

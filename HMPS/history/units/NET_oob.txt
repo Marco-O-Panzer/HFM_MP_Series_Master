@@ -177,7 +177,7 @@ army = {
 }
 
 navy = {
-	name = "Koninklijke Marine"
+	name = "1st Fleet"
 	location = 375 #Amsterdam
 	ship = {
 		name= "Doggersbank"
@@ -229,16 +229,6 @@ navy = {
 		type = frigate
 	}
 
-
-	ship = {
-		name= "1e Transport Eskader"
-		type = clipper_transport
-	}
-}
-
-navy = {
-	name = "Koninklijke NI Marine"
-	location = 1413 #Batavia
 	ship = {
 		name= "Admiraal de Ruyter"
 		type = manowar
@@ -268,17 +258,7 @@ navy = {
 		name= "Eendracht"
 		type = frigate
 	}
-
-	ship = {
-		name= "2e Transport Eskader"
-		type = clipper_transport
-	}
-}
-
-navy = {
-	name = "Koninklijke WI Marine"
-	location = 2234 #Curacao
-
+	
 	ship = {
 		name= "Admiraal Generaal"
 		type = manowar
@@ -294,9 +274,25 @@ navy = {
 		type = frigate
 	}
 
+	
+}
+
+navy = {
+	name = "Transport Fleet"
+	location = 384
+	
+	ship = {
+		name= "1e Transport Eskader"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2e Transport Eskader"
+		type = clipper_transport
+	}
+	
 	ship = {
 		name= "3e Transport Eskader"
 		type = clipper_transport
 	}
-
 }

@@ -379,7 +379,7 @@ army = {
 }
 
 navy = {
-	name = "Escadre du Nord"
+	name = "1st Fleet"
 	location = 420
 	ship = {
 		name= "Couronne"
@@ -438,21 +438,6 @@ navy = {
 
 	ship = {
 		name= "Conquérant"
-		type = manowar
-	}
-
-	ship = {
-		name= "Neptune"
-		type = manowar
-	}
-
-	ship = {
-		name= "Algerisas"
-		type = manowar
-	}
-
-	ship = {
-		name= "Nestor"
 		type = manowar
 	}
 
@@ -530,27 +515,7 @@ navy = {
 		name= "Sultane"
 		type = frigate
 	}
-
-	ship = {
-		name= "1ère Flotille de Transport"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "2ème Flotille de Transport"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "3ème Flotille de Transport"
-		type = clipper_transport
-	}
-
-}
-
-navy = {
-	name = "Escadre de Méditerranée"
-	location = 470
+	
 	ship = {
 		name= "Triton"
 		type = manowar
@@ -715,7 +680,27 @@ navy = {
 		name= "Reine Blanche"
 		type = frigate
 	}
+}
 
+navy = {
+	name = "Transport Fleet"
+	location = 422
+	
+	ship = {
+		name= "1ère Flotille de Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2ème Flotille de Transport"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3ème Flotille de Transport"
+		type = clipper_transport
+	}
+	
 	ship = {
 		name= "4ème Flotille de Transport"
 		type = clipper_transport
@@ -730,6 +715,4 @@ navy = {
 		name= "6ème Flotille de Transport"
 		type = clipper_transport
 	}
-
 }
-

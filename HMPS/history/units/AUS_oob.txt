@@ -443,7 +443,7 @@ army = {
 }
 
 navy = {
-	name = "Austrian Imperial Navy"
+	name = "Transport Fleet"
 	location = 729
 	ship = {
 		name= "1. Klipperflottille"

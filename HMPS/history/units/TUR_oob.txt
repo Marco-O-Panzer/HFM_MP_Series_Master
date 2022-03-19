@@ -249,7 +249,7 @@ regiment = {
 }
 
 navy = {
-	name = "Ottoman Navy"
+	name = "1st Fleet"
 	location = 860
 	ship = {
 		name= "Masudiya"

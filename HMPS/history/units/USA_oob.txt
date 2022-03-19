@@ -265,7 +265,7 @@ army = {
 }
 
 navy = {
-	name = "1st Squadron"
+	name = "1st Fleet"
 	location = 222
 	ship = {
 		name= "Franklin"
@@ -291,12 +291,7 @@ navy = {
 		name= "Constellation"
 		type = frigate
 	}
-
-}
-
-navy = {
-	name = "2nd Squadron"
-	location = 248
+	
 	ship = {
 		name= "Ohio"
 		type = manowar
@@ -307,11 +302,6 @@ navy = {
 		type = frigate
 	}
 
-}
-
-navy = {
-	name = "3rd Squadron"
-	location = 214
 	ship = {
 		name= "John Adams"
 		type = frigate
@@ -321,12 +311,7 @@ navy = {
 		name= "United States"
 		type = frigate
 	}
-
-}
-
-navy = {
-	name = "4th Squadron"
-	location = 219
+	
 	ship = {
 		name= "Independance"
 		type = frigate
@@ -346,17 +331,7 @@ navy = {
 		name= "Potomac"
 		type = frigate
 	}
-
-	ship = {
-		name= "'James McKay' Flotilla"
-		type = clipper_transport
-	}
-
-}
-
-navy = {
-	name = "1st Reserve Squadron"
-	location = 247
+	
 	ship = {
 		name= "Alabama"
 		type = manowar
@@ -371,17 +346,7 @@ navy = {
 		name= "Virginia"
 		type = manowar
 	}
-
-	ship = {
-		name= "1st Reserve Transport"
-		type = clipper_transport
-	}
-
-}
-
-navy = {
-	name = "2nd Reserve Squadron"
-	location = 214
+	
 	ship = {
 		name= "Columbus"
 		type = manowar
@@ -401,10 +366,24 @@ navy = {
 		name= "North Carolina"
 		type = manowar
 	}
+}
+
+navy = {
+	name = "Transport Fleet"
+	location = 139
+	
+	ship = {
+		name= "'James McKay' Flotilla"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "1st Reserve Transport"
+		type = clipper_transport
+	}
 
 	ship = {
 		name= "2nd Reserve Transport"
 		type = clipper_transport
 	}
-
 }

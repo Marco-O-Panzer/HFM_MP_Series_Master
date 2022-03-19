@@ -253,97 +253,7 @@ army = {
 }
 
 navy = {
-	name = "Armada de Cuba"
-	location = 2212
-	
-	ship = {
-		name = "Santiago"
-		type = manowar
-	}
-	
-	ship = {
-		name = "Hespérides"
-		type = manowar
-	}
-	
-	ship = {
-		name = "Centinela"
-		type = manowar
-	}
-	
-	ship = {
-		name = "Isla de Cuba"
-		type = frigate
-	}
-	
-	ship = {
-		name = "Cristóbal Colón"
-		type = frigate
-	}
-	
-	ship = {
-		name= "1a Flotilla de Transporte"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "2a Flotilla de Transporte"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "3a Flotilla de Transporte"
-		type = clipper_transport
-	}
-}
-
-navy = {
-	name = "Armada de Filipinas"
-	location = 1455
-	
-	ship = {
-		name = "Alerta"
-		type = manowar
-	}
-	
-	ship = {
-		name = "San Fernando"
-		type = manowar
-	}
-	
-	ship = {
-		name = "Legazpi"
-		type = manowar
-	}
-	
-	ship = {
-		name = "Victoria"
-		type = frigate
-	}
-	
-	ship = {
-		name = "Nuestra Señora del Patrocinio"
-		type = frigate
-	}
-	
-	ship = {
-		name= "1a Flotilla de Transporte"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "2a Flotilla de Transporte"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "3a Flotilla de Transporte"
-		type = clipper_transport
-	}
-}
-
-navy = {
-	name = "Armada Real Española"
+	name = "1st Fleet"
 	location = 506
 	ship = {
 		name= "San Raimundo"
@@ -385,6 +295,92 @@ navy = {
 		type = frigate
 	}
 
+	ship = {
+		name = "Santiago"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Hespérides"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Centinela"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Isla de Cuba"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Cristóbal Colón"
+		type = frigate
+	}
+	
+	
+	ship = {
+		name = "Alerta"
+		type = manowar
+	}
+	
+	ship = {
+		name = "San Fernando"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Legazpi"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Victoria"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Nuestra Señora del Patrocinio"
+		type = frigate
+	}
+}
+
+navy = {
+	name = "Transport Fleet"
+	location = 498
+	
+	ship = {
+		name= "1a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3a Flotilla de Transporte"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "1a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3a Flotilla de Transporte"
+		type = clipper_transport
+	}
+	
 	ship = {
 		name= "1a Flotilla de Transporte"
 		type = clipper_transport
