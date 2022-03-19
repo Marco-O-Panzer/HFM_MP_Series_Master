@@ -34,9 +34,6 @@ BOR		="countries/The Kingdom of France.txt"
 
 ##HFM New Nations
 #ATB	= "countries/Saxe-Altenburg.txt"
-#ADO		= "countries/Andorra.txt"
-#MNC		= "countries/Monaco.txt"
-#LIE		= "countries/Liechtenstein.txt"
 #MST	= "countries/Mecklenburg-Strelitz.txt"
 SCL		= "countries/Schaumburg-Lippe.txt"
 REU		= "countries/Reuss.txt"

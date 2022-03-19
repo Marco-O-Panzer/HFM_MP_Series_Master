@@ -1611,24 +1611,69 @@ political_decisions = {
 					}
 				}
 			}
-			CZH = {
+			704 = {
 				OR = {
-					is_vassal = no
-					vassal_of = THIS
-				}
-			}
-			POL = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+						war = no
+                    }
+                }
+            }
+			714 = {
 				OR = {
-					is_vassal = no
-					vassal_of = THIS
-				}
-			}
-			GLM = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+						war = no
+                    }
+                }
+            }
+			705 = {
 				OR = {
-					is_vassal = no
-					vassal_of = THIS
-				}
-			}
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+						war = no
+                    }
+                }
+            }
+			951 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+						war = no
+                    }
+                }
+            }
+			952 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+						war = no
+                    }
+                }
+            }
+			953 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+						war = no
+                    }
+                }
+            }
+			702 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+						war = no
+                    }
+                }
+            }
 		}
 		effect = {
 			set_global_flag = create_zapadoslavia
@@ -1640,7 +1685,32 @@ political_decisions = {
 			CZH = { all_core = { add_core = WSF } }
 			CPL = { all_core = { add_core = WSF } }
 			PML = { all_core = { add_core = WSF } }
-			GLM = { all_core = { add_core = WSF } }
+			952 = { add_core = WSF }
+            953 = { add_core = WSF }
+			951 = { add_core = WSF }
+			702 = { add_core = WSF }
+			705 = { add_core = WSF }
+			704 = { add_core = WSF }
+			714 = { add_core = WSF }
+			662 = { add_core = WSF }
+			663 = { add_core = WSF }
+			any_country = {
+				limit = {
+					OR = { 
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+					any_owned_province = { is_core = WSF }
+					war = no
+					NOT = { tag = WSF }
+				}
+				any_owned = {
+					limit = {
+						is_core = WSF
+					}
+					secede_province = THIS
+				}
+			}
 			any_country = {
 				limit = {
 					OR = {
@@ -1697,21 +1767,6 @@ political_decisions = {
 					value = -50
 				}
 			}
-			any_country = {
-				limit = {
-					OR = { 
-						in_sphere = THIS
-						vassal_of = THIS
-					}
-					any_owned_province = { is_core = WSF }
-					war = no
-					NOT = { tag = WSF }
-				}
-				country_event = {
-					id = 2159212
-					days = 0
-				}
-			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -1762,17 +1817,9 @@ political_decisions = {
 					}
 				}
 			}
-			GLM = {
-				all_core = {
-					OR = {
-						owned_by = THIS
-						owner = {
-							in_sphere = THIS
-							war = no
-						}
-					}
-				}
-			}	
+			703 = { OR = { owned_by = THIS owner = { in_sphere = THIS war = no } } }
+			952 = { OR = { owned_by = THIS owner = { in_sphere = THIS war = no } } }
+			705 = { OR = { owned_by = THIS owner = { in_sphere = THIS war = no } } }
 		}
 		effect = {
 			set_global_flag = create_zapadoslavia
@@ -1788,9 +1835,17 @@ political_decisions = {
 			PZN = { all_core = { add_core = WSF } }
 			POL = { all_core = { add_core = WSF } }
 			CZH = { all_core = { add_core = WSF } }
-			GLM = { all_core = { add_core = WSF } }
 			CPL = { all_core = { add_core = WSF } }
 			PML = { all_core = { add_core = WSF } }
+			952 = { add_core = WSF }
+            953 = { add_core = WSF }
+			951 = { add_core = WSF }
+			702 = { add_core = WSF }
+			705 = { add_core = WSF }
+			704 = { add_core = WSF }
+			714 = { add_core = WSF }
+			662 = { add_core = WSF }
+			663 = { add_core = WSF }
 			any_country = {
 				limit = {
 					OR = {
