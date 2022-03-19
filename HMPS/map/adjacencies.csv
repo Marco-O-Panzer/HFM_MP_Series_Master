@@ -293,7 +293,7 @@ From;To;Type;Through;Data;Comment
 2036;2048;sea;2901;0;Zanzibar Strait
 2123;2124;sea;2902;0;Comoros-Mayotte
 1772;1757;sea;2781;0;Suez strait
-1412;1875;sea;2782;0;Aden Strait
+1412;1875;sea;0;0;Aden Strait
 
 #
 # European Straits
@@ -320,7 +320,7 @@ From;To;Type;Through;Data;Comment
 759;763;sea;2760;0;Strait of Messina
 837;827;sea;2765;0;Ionian Islands Strait
 966;1049;sea;2776;0;Strait of Azov
-512;1687;sea;2746;0;Strait of Gibraltar - Cadiz to Tetouan
+512;1687;sea;0;0;Strait of Gibraltar - Cadiz to Tetouan
 331;332;sea;2710;0;Gotland Strait
 846;872;sea;2771;0;Dodecanese Strait
 844;865;sea;2772;0;Myteline Strait
@@ -403,7 +403,6 @@ From;To;Type;Through;Data;Comment
 # Oceanian Straits
 #
 2512;2516;sea;2876;0;Cook Strait #NZ
-2512;2516;sea;2881;0;Cook Strait #NZ
 2537;1531;sea;2858;0;Villan Strait #New Britain-New Ireland
 
 #

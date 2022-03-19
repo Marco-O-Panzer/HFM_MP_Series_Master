@@ -41,6 +41,9 @@ Everything else is our own (as far as I remember).
 - UBI option for socialists & vanguardists (very high pension level)
 - R&D Policy: More RP, increase via decision conditions
 - Westernisation: Reforms unlock tech up to lvl 2 (and nothing else)
+#### Administration
+- Base of 1.5% bureaucrats required for full admin efficiency from them
+- Require 2% bureaucrats to state colonies
 #### Parties
 - Anarchists: Rare, similar to socialists, successful rebels will enforce Anarchism
 #### National Focuses
