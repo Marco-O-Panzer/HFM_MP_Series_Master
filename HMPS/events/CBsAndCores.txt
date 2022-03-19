@@ -983,7 +983,7 @@ province_event = {
 			is_vassal = no
 		}
 		NOT = {
-			tag = ENG
+			owner = { tag = ENG }
 			NOT = { year = 1900 }
 			OR = {
 				is_core = AST
