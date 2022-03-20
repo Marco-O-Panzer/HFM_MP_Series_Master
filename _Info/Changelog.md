@@ -184,6 +184,7 @@ Many nations no longer need (only) GP for flava, or high prestige. War policy re
 - Gibraltar Straits operate as a canal with two control provinces: Gibraltar, Ceuta
 - Both Gallipoli and Golden Horn act as dual control canals, with provinces on either side as control provinces
 - Aden Strait acts as canal
+- Indonesian 'canal' system controlling access from internal (north) sea to external (southern) sea from Singapore to Dili
 
 ## AI
 - AI now weighted to build meta stacks

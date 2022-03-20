@@ -311,6 +311,19 @@ country_event = {
 						province_id = 2565
 						province_id = 1463
 						province_id = 1462
+						
+						### Indonesia
+						province_id = 1420
+						province_id = 1438
+						province_id = 1439
+						province_id = 1440
+						province_id = 1442
+						province_id = 1444
+						province_id = 1443
+						province_id = 1445
+						province_id = 1446
+						province_id = 1437
+						province_id = 1436
 					}
 				}
 				add_province_modifier = {
@@ -468,6 +481,14 @@ country_event = {
 						province_id = 1165
 						province_id = 1642
 						province_id = 1672
+						province_id = 1644
+						province_id = 1089
+						province_id = 1088
+						province_id = 1074
+						province_id = 1679
+						province_id = 1678
+						province_id = 1635
+						province_id = 1637
 						
 						### India
 						province_id = 1309
@@ -480,10 +501,6 @@ country_event = {
 						province_id = 1385
 						province_id = 1418
 						province_id = 1421
-						province_id = 1420
-						province_id = 1438
-						province_id = 1442
-						province_id = 1440
 						province_id = 1495
 						province_id = 1499
 						province_id = 1457
@@ -491,14 +508,12 @@ country_event = {
 						province_id = 1411
 						province_id = 1408
 						province_id = 1398
+						province_id = 1440
 						province_id = 1458
 						province_id = 1459
 						province_id = 1462
 						province_id = 1464
-						province_id = 1439
 						province_id = 1441
-						province_id = 1443
-						province_id = 1445
 						province_id = 1444
 						province_id = 1446
 						province_id = 1451
@@ -508,18 +523,8 @@ country_event = {
 						province_id = 1448
 						province_id = 1453
 						province_id = 1434
-						province_id = 1437
-						province_id = 1436
 						province_id = 1435
 						province_id = 1425
-						province_id = 1644
-						province_id = 1089
-						province_id = 1088
-						province_id = 1074
-						province_id = 1679
-						province_id = 1678
-						province_id = 1635
-						province_id = 1637
 						
 						### Arabia
 						province_id = 2664
@@ -563,7 +568,19 @@ country_event = {
 						### Aden Strait
 						province_id = 1412
 						province_id = 1875
-					
+						
+						### Indonesian Straits
+						province_id = 1384
+						province_id = 1402
+						province_id = 1403
+						province_id = 1413
+						province_id = 1420
+						province_id = 1438
+						province_id = 1442
+						province_id = 1440
+						province_id = 1439
+						province_id = 1444
+						province_id = 1446
 					}
 				}
 				add_province_modifier = {

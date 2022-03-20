@@ -9,6 +9,33 @@ political_decisions = {
 		}
 		effect = {
 			set_global_flag = global_1836_setup
+			
+			enable_canal = 4	#Bosphorus Strait
+			enable_canal = 5	#Bosphorus Strait
+			enable_canal = 6	#Dardanelles Strait
+			enable_canal = 7	#Dardanelles Strait
+			enable_canal = 8	#Copenhagen Strait
+			enable_canal = 9	#Copenhagen Strait
+			enable_canal = 10	#Gibraltar Strait
+			enable_canal = 11	#Gibraltar Strait
+			enable_canal = 12	#Gibraltar Strait
+			enable_canal = 13	#Gibraltar Strait
+			enable_canal = 14	#Gibraltar Strait
+			enable_canal = 15	#Gibraltar Strait
+			enable_canal = 16	#Aden Strait
+			enable_canal = 17	#Aden Strait
+			enable_canal = 18	#Malacca Strait
+			enable_canal = 19	#Malacca Strait
+			enable_canal = 20	#Batavia Strait
+			enable_canal = 21	#Batavia Strait
+			enable_canal = 22	#Javan Strait
+			enable_canal = 23	#Javan Strait
+			enable_canal = 24	#Lombok Strait
+			enable_canal = 25	#Lombok Strait
+			enable_canal = 26	#Flores Strait
+			enable_canal = 27	#Alor Strait
+			enable_canal = 28	#Alor Strait
+			
 			set_variable = {
 				which = trade_channel
 				value = 1
@@ -843,20 +870,7 @@ political_decisions = {
 				name = ottoman_oppression
 				duration = -1
 			}
-			enable_canal = 4
-			enable_canal = 5
-			enable_canal = 6
-			enable_canal = 7
-			enable_canal = 8	#Copenhagen Strait
-			enable_canal = 9	#Copenhagen Strait
-			enable_canal = 10	#Gibraltar Strait
-			enable_canal = 11	#Gibraltar Strait
-			enable_canal = 12	#Gibraltar Strait
-			enable_canal = 13	#Gibraltar Strait
-			enable_canal = 14	#Gibraltar Strait
-			enable_canal = 15	#Gibraltar Strait
-			enable_canal = 16	#Aden Strait
-			enable_canal = 17	#Aden Strait
+			
 			860 = { any_pop = { literacy = 0.05 } }
 			860 = { any_pop = { limit = { has_pop_culture = turkish } literacy = 0.1 } }
 			any_pop = { 
