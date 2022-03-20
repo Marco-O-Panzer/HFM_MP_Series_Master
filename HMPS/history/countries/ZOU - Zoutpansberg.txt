@@ -7,7 +7,6 @@ nationalvalue = nv_productivity
 literacy = 0.2
 non_state_culture_literacy = 0.05
 civilized = yes
-is_releasable_vassal = yes
 
 # Political reforms
 slavery = yes_slavery

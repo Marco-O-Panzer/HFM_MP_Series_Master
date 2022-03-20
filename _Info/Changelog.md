@@ -60,6 +60,9 @@ Everything else is our own (as far as I remember).
 - 10 infamy demand chinese concession
 #### Revanchism
 - Army & mob buff modifiers scale with % of revanchism (capped at 50%)
+#### Releasables
+- Allow almost all tags to be released from the politics tab - apart from formables with existing cores
+- Exceptions (non-releasables): China (& Nationalist China), DNB, Ethiopia, Ger & GCF, Gran Colombia, PLC, Scandi, Taiping, USSA
 
 ## Population
 #### Liferating & Growth

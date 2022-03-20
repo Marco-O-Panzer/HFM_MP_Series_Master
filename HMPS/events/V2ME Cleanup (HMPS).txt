@@ -297,8 +297,6 @@ country_event = {
 						### Japan & Korea
 						province_id = 1403
 						province_id = 1413
-						province_id = 1642
-						province_id = 1672
 						province_id = 1664
 						province_id = 1666
 						province_id = 1638

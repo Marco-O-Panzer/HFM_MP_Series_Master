@@ -49,12 +49,12 @@ state_building = {
 	upgrade = yes
 }
 state_building = {
-	level = 3
+	level = 4
 	building = bank
 	upgrade = yes
 }
 state_building = {
-	level = 3
+	level = 1
 	building = stock_exchange
 	upgrade = yes
 }
