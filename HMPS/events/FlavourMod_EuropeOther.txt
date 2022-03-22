@@ -63,6 +63,8 @@ country_event = {
 	title = "EVTNAME99801"
 	desc = "EVTDESC99801"
 	picture = "exemplar_colony"
+	
+	allow_multiple_instances = no
 
 	trigger = {
 		civilized = yes
