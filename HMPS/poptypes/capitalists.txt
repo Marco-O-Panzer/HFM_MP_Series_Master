@@ -19,11 +19,11 @@ rebel = {
 
 
 life_needs = {
-	cattle = 3
-	wool = 2
-	fish = 4
-	fruit = 4
-	grain = 10
+	cattle = 12
+	wool =  6
+	fish =  8
+	fruit =  12
+	grain =  20
 }
 
 everyday_needs = {

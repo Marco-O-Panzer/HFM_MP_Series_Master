@@ -18,11 +18,11 @@ rebel = {
 
 
 life_needs = {
-	cattle = 0.75
-	wool =  1
-	fish =  1
-	fruit =  1
-	grain =  2.5
+	cattle = 3
+	wool =  1.5
+	fish =  2
+	fruit =  2
+	grain =  5
 }
 
 everyday_needs = {

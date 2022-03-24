@@ -38,6 +38,12 @@ country_event = {
 	option = {
 		name = "Checking..."
 		
+		#stimulus payments
+		any_country = {
+			limit = { exists = yes }
+			any_pop = { money = 1 }
+		}
+		
 		#prevents non-existing country from being at war
 		#NOTE: if this bug happens often in your mod, look at your code! you may be starting invalid wars
 		any_country = {

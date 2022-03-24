@@ -419,62 +419,6 @@ populationsize_500M = {
 	war_exhaustion = -0.3
 }
 
-very_low_literacy = {
- 	trigger = {
-		exists = yes
-		NOT = { literacy = 0.35 }
-	}
-	global_population_growth = 0.001
-	issue_change_speed = -0.1
-	global_assimilation_rate = -0.1
-	icon = 19
-}
-
-low_literacy = {
- 	trigger = {
-		exists = yes
-		NOT = { literacy = 0.50 }
-	}
-	global_population_growth = 0.001
-	issue_change_speed = -0.1
-	global_assimilation_rate = -0.05
-	icon = 19
-}
-
-#medium_literacy = {
-#	trigger = {
-#		exists = yes
-#		literacy = 0.60
-#	}
-#	global_population_growth = -0.001
-#	issue_change_speed = 0.1
-#	global_assimilation_rate = 0.1
-#	icon = 19
-#}
-high_literacy = {
-	trigger = {
-		exists = yes
-		literacy = 0.70
-	}
-	global_population_growth = -0.001
-	issue_change_speed = 0.1
-	leadership_modifier = 0.1
-	global_assimilation_rate = 0.1
-	icon = 19
-}
-
-#very_high_literacy = {
-#	trigger = {
-#		exists = yes
-#		literacy = 0.80
-#	}
-#	global_population_growth = -0.001
-#	leadership_modifier = 0.1
-#	factory_owner_cost = -0.1
-#	global_assimilation_rate = 0.1
-#	icon = 19
-#}
-
 war_exhaustion_10_decay = {
 	trigger = {
 		NOT = { war_exhaustion = 10 }

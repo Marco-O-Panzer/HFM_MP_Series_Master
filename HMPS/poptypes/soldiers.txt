@@ -17,16 +17,16 @@ rebel = {
 
 life_needs_income = {
 	type = military
-	weight = 1.5
+	weight = 1
 }
 
 everyday_needs_income = {
 	type = military
-	weight = 1.5
+	weight = 1
 }
 
 luxury_needs_income = {
-	type = reforms
+	type = military
 	weight = 1
 }
 
@@ -35,7 +35,7 @@ life_needs = {
 	cattle = 0.75
 	wool =  1
 	fish =  1
-	fruit =  1
+	fruit =  1.5
 	grain =  2.5
 }
 

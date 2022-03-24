@@ -29,11 +29,11 @@ luxury_needs_income = {
 
 
 life_needs = {
-	cattle = 1.5
-	wool =  1.5
-	fish =  2
-	fruit =  2
-	grain =  5
+	cattle = 6
+	wool =  3
+	fish =  4
+	fruit =  6
+	grain =  10
 }
 
 everyday_needs = {
