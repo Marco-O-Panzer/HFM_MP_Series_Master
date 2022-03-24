@@ -516,7 +516,7 @@ luxury_furniture_factory = {
 steel_factory = {       
 	template = factory_template
 	input_goods = { 
-		iron = 15		
+		iron = 20		
 		coal = 5		
 	}
 
@@ -540,7 +540,7 @@ bronze_factory = {
 	}
 
 	output_goods = bronze 
-	value = 22
+	value = 20
 	bonus = {
 		trigger = { trade_goods_in_state = copper }
 		value = 0.25
@@ -658,7 +658,7 @@ shoe_factory = {
 	template = factory_template
 	input_goods = {   
 		cattle = 7
-		bronze = 4
+		bronze = 7
 	}
 	output_goods = shoes 
 	value = 20
@@ -975,7 +975,7 @@ cattle_ranch = {
 coal_mine = {
 	template = RGO_template_labourers
 	output_goods = coal 
-	value = 3.2
+	value = 2
 	mine = yes
 }
 
@@ -1017,21 +1017,21 @@ grain_farm = {
 iron_mine = {
 	template = RGO_template_labourers
 	output_goods = iron
-	value = 3.5
+	value = 2
 	mine = yes
 }
 
 copper_mine = {
 	template = RGO_template_labourers
 	output_goods = copper
-	value = 3.5
+	value = 1.8
 	mine = yes
 }
 
 tin_mine = {
 	template = RGO_template_labourers
 	output_goods = tin
-	value = 2.5
+	value = 1.1
 	mine = yes
 }
 
@@ -1087,7 +1087,7 @@ silkworm_ranch = {
 sulphur_mine = {
 	template = RGO_template_labourers
 	output_goods = sulphur 
-	value = 5.5
+	value = 1.6
 	mine = yes
 }
 
@@ -1101,14 +1101,14 @@ tea_plantation = {
 timber_lodge = {
 	template = RGO_template_labourers
 	output_goods = timber 
-	value = 14
+	value = 8
 	farm = yes
 }
 
 tobacco_plantation = {
 	template = RGO_template_farmers
 	output_goods = tobacco 
-	value = 2.5
+	value = 1
 	farm = yes
 }
 
@@ -1364,7 +1364,7 @@ artisan_luxury_furniture = {
 
 artisan_steel = {       
 	input_goods = { 
-		iron = 15		
+		iron = 20		
 		coal = 5		
 	}
 	
@@ -1680,7 +1680,7 @@ artisan_fertilizer = {
 artisan_cobbler = {
 	input_goods = {   
 		cattle = 7
-		bronze = 4
+		bronze = 7
 	}
 	output_goods = shoes 
 	value = 20
@@ -1701,7 +1701,7 @@ artisan_bronzeworker = {
 	}
 
 	output_goods = bronze 
-	value = 22
+	value = 20
 	
 	owner = {
 		poptype = artisans

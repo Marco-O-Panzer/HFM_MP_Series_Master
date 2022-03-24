@@ -8807,7 +8807,7 @@ negotiated_substate_transfer = {
 	}
 	
 	allowed_substate_regions = {
-		owner = { NOT = { in_sphere = THIS } }
+		owner = { ai = yes }
 	}
 	
 	po_demand_state = yes
