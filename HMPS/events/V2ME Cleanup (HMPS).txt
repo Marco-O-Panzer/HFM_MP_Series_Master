@@ -38,12 +38,6 @@ country_event = {
 	option = {
 		name = "Checking..."
 		
-		#stimulus payments
-		any_country = {
-			limit = { exists = yes }
-			any_pop = { money = 1 }
-		}
-		
 		#prevents non-existing country from being at war
 		#NOTE: if this bug happens often in your mod, look at your code! you may be starting invalid wars
 		any_country = {
@@ -200,6 +194,117 @@ country_event = {
 			}
 			money = -10000
 			change_variable = { which = owed_cash_money value = -10 }
+		}
+		
+		any_country = {
+			limit = {
+				exists = yes
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						NOT = { total_pops = 1000000 }
+					}
+				}
+				owner = { treasury = 0.1 }
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						total_pops = 1000000
+						NOT = { total_pops = 2000000 }
+					}
+				}
+				owner = { treasury = 0.2 }
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						total_pops = 2000000
+						NOT = { total_pops = 3000000 }
+					}
+				}
+				owner = { treasury = 0.3 }
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						total_pops = 3000000
+						NOT = { total_pops = 4000000 }
+					}
+				}
+				owner = { treasury = 0.4 }
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						total_pops = 4000000
+						NOT = { total_pops = 5000000 }
+					}
+				}
+				owner = { treasury = 0.5 }
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						total_pops = 5000000
+						NOT = { total_pops = 6000000 }
+					}
+				}
+				owner = { treasury = 0.6 }
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						total_pops = 6000000
+						NOT = { total_pops = 7000000 }
+					}
+				}
+				owner = { treasury = 0.7 }
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						total_pops = 7000000
+						NOT = { total_pops = 8000000 }
+					}
+				}
+				owner = { treasury = 0.8 }
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						total_pops = 8000000
+						NOT = { total_pops = 9000000 }
+					}
+				}
+				owner = { treasury = 0.9 }
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						total_pops = 9000000
+						NOT = { total_pops = 10000000 }
+					}
+				}
+				owner = { treasury = 1 }
+			}
+			random_owned = {
+				limit = {
+					owner = {
+						total_pops = 10000000
+					}
+				}
+				owner = { treasury = 2 }
+			}
+			any_pop = {
+				limit = { NOT = { cash_reserves = 0.1 } }
+				money = 0.6
+			}
+			any_pop = {
+				limit = { NOT = { cash_reserves = 0.5 } }
+				money = 0.3
+			}
 		}
 		
 		CLN = { country_event = { id = 477877787 days = 1 } }
@@ -379,7 +484,6 @@ country_event = {
 						province_id = 2215
 						province_id = 2214
 						province_id = 2222
-						province_id = 2237
 						province_id = 2238
 						province_id = 2233
 						province_id = 2409
@@ -411,7 +515,6 @@ country_event = {
 						province_id = 254
 						province_id = 271
 						province_id = 304
-						province_id = 254
 						province_id = 267
 						province_id = 1724
 						province_id = 274
@@ -476,7 +579,6 @@ country_event = {
 						province_id = 1662
 						province_id = 1679
 						province_id = 1678
-						province_id = 1071
 						province_id = 1142
 						province_id = 1141
 						province_id = 1083
@@ -491,8 +593,6 @@ country_event = {
 						province_id = 1089
 						province_id = 1088
 						province_id = 1074
-						province_id = 1679
-						province_id = 1678
 						province_id = 1635
 						province_id = 1637
 						
