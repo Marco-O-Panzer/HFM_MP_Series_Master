@@ -781,8 +781,12 @@ von_moltkes_staff_reforms_desc;In 1857 Helmuth von Moltke was appointed Chief of
 canal_notification;§CCanal Control§!;;;;;;;;;;;;;
 sea_crossing_notification;§CBlockadeable Strait§!;;;;;;;;;;;;;
 land_crossing_notification;§CNon-Blockadeable Strait§!;;;;;;;;;;;;;
-prevent_colonial_clergy_title;§EFire All Colonial Intellectuals§!;;;;;;;;;;;;;
-prevent_colonial_clergy_desc;In order to save on educational resources, we shall no longer provide funds for any intellectuals outside of the bounds of our incorporated states.;;;;;;;;;;;;;
+prevent_colonial_clergy_title;§ERestrict All Colonial Intellectuals§!;;;;;;;;;;;;;
+prevent_colonial_clergy_desc;In order to save on educational resources, we shall no longer provide funds for any intellectuals outside of the bounds of our incorporated states.\n§RBe aware of the consequences§!;;;;;;;;;;;;;
 no_colonial_clergy;Fired Colonial Intellectuals;;;;;;;;;;;;;
 fund_colonial_clergy_title;§EFund Colonial Intellectuals§!;;;;;;;;;;;;;
 fund_colonial_clergy_desc;We see it appropriate to educate those under our enlightening mission, in order to accomplish such task we shall provide for education in the protectorates.;;;;;;;;;;;;;
+EVTNAME7777933;Colonial Intellectuals;;;;;;;;;;;;;
+EVTDESC7777933;With the prevention of further promotion to intellectuals in the colonies, we must decide what is to be done of the current educators.;;;;;;;;;;;;;
+EVTOPTA7777933;Leave them as is;;;;;;;;;;;;;
+EVTOPTB7777933;§RFire them all§!;;;;;;;;;;;;;

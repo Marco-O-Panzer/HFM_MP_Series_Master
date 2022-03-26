@@ -7104,3 +7104,30 @@ country_event = {
         FROM = { create_vassal = THIS }
     }
 }
+
+country_event = {
+	id = 7777933
+	title = "EVTNAME7777933"
+	desc = "EVTDESC7777933"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA7777933"
+	}
+	
+	option = {
+		name = "EVTOPTB7777933"
+		any_state = {
+			limit = {
+				is_colonial = yes
+			}
+			any_pop = {
+				limit = { type = clergymen }
+				militancy = 7
+				consciousness = 7
+				pop_type = artisans
+			}
+		}
+	}
+}

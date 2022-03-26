@@ -16,17 +16,7 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = no_colonial_clergy
-			any_state = {
-				limit = {
-					is_colonial = yes
-				}
-				any_pop = {
-					limit = { type = clergymen }
-					militancy = 9
-					consciousness = 9
-					pop_type = artisans
-				}
-			}
+			country_event = { id=7777933 days = 0 }
 		}
 	}
 	
