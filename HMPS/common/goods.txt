@@ -39,7 +39,7 @@ military_goods = {
 
 raw_material_goods = {
 	cotton = { 
-		cost = 2.6
+		cost = 2.5
 		color = { 255 255 255 }
 	}
 	dye = {	
@@ -193,11 +193,11 @@ consumer_goods = {
 		color = { 100 69 30 }
 	}
 	tea = {	
-		cost = 5
+		cost = 9
 		color = { 201 135 15 }
 	}
 	coffee = { 
-		cost = 3.5
+		cost = 7
 		color = { 27 19 7 }
 	}
 	opium = { 
