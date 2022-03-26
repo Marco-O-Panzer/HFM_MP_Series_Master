@@ -1,5 +1,52 @@
 political_decisions = {
 
+	prevent_colonial_clergy = {
+		picture = native_assimilation_act
+		potential = {
+			ai = no
+			any_state = { is_colonial = yes }
+			NOT = { has_country_flag = no_colonial_clergy }
+			NOT = { has_country_flag = hiding_the_decisions }
+		}
+		allow = {
+			any_state = {
+				is_colonial = yes
+				any_owned_province = { has_pop_type = clergymen }
+			}
+		}
+		effect = {
+			set_country_flag = no_colonial_clergy
+			any_state = {
+				limit = {
+					is_colonial = yes
+				}
+				any_pop = {
+					limit = { type = clergymen }
+					militancy = 9
+					consciousness = 9
+					pop_type = artisans
+				}
+			}
+		}
+	}
+	
+	fund_colonial_clergy = {
+		picture = native_assimilation_act
+		potential = {
+			has_country_flag = no_colonial_clergy
+			NOT = { has_country_flag = hiding_the_decisions }
+		}
+		allow = {
+			any_state = {
+				is_colonial = yes
+			}
+		}
+		effect = {
+			clr_country_flag = no_colonial_clergy
+		}
+	}
+			
+
 	a_socialist_republic = {
 		picture = karl_marx
 		potential = {
@@ -15,6 +62,7 @@ political_decisions = {
 				any_owned_province = { has_pop_type = capitalists }
 				any_owned_province = { has_pop_type = aristocrats }
 			}
+			NOT = { has_country_flag = hiding_the_decisions }
 		}
 		
 		allow = {
