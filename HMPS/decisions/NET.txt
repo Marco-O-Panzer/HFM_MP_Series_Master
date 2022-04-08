@@ -147,15 +147,12 @@ political_decisions = {
 		picture = the_aceh
 		potential = {
 			tag = NET
-			colonial_nation = yes
-			is_canal_enabled = 2
 			ATJ = {
 				exists = yes
 				part_of_sphere = yes
 				civilized = no
 				NOT = { in_sphere = NET }
 			}
-			NOT = { has_global_flag = gold_coast_treaty }
 			NOT = { has_country_flag = made_aceh_proposal }
 			ATJ = { neighbour = NET }
 		}

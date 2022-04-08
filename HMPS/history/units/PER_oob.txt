@@ -12,206 +12,127 @@ leader = {
 }
 
 army = {
-	name = "Army of Iran"
 	location = 1121
-	regiment = {
-		name= "1. Bakhsh-i Piyadenizam"
-		type = guard
-		home = 1127
-	}
-
-	regiment = {
-		name= "2. Bakhsh-i Piyadenizam"
-		type = infantry
-		home = 1135
-	}
-
-	regiment = {
-		name= "3. Bakhsh-i Piyadenizam"
-		type = infantry
-		home = 1137
-	}
+	name = "1st Army"
 	
 	regiment = {
-		name= "1. Cavalry Brigade"
-		type = cavalry
-		home = 1121
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 1147
-	}
-}
-
-army = {
-	name = "Army of Khorasan"
-	location = 1147
-	regiment = {
-		name= "1. Bakhsh-i Piyadenizam"
-		type = infantry
-		home = 1147
-	}
-
-	regiment = {
-		name= "3. Bakhsh-i Piyadenizam"
-		type = infantry
-		home = 1147
-	}
-	
-	regiment = {
-		name= "1. Cavalry Brigade"
-		type = cavalry
-		home = 1149
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 1149
-	}
-}
-
-army = {
-	name = "Army of Kermanshah"
-	location = 1117
-	regiment = {
-		name= "1. Bakhsh-i Piyadenizam"
-		type = infantry
-		home = 1120
-	}
-
-	regiment = {
-		name= "2. Bakhsh-i Piyadenizam"
-		type = infantry
-		home = 1133
-	}
-	
-	regiment = {
-		name= "1. Cavalry Brigade"
-		type = cavalry
-		home = 1128
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 1131
-	}
-}
-
-army = {
-	location = 1140
-	name = "Eastern Army of Iran"
-	regiment = {
-		name= "4. Bakhsh-i Piyadenizam"
-		type = infantry
-		home = 1117
-	}
-
-	regiment = {
-		name= "5. Bakhsh-i Piyadenizam"
-		type = infantry
-		home = 1124
-	}
-
-	regiment = {
-		name= "Cavalry"
-		type = cavalry
-		home = 1122
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 1129
-	}
-}
-
-army = {
-	location = 1135
-	name = "Southern Army of Iran"
-	regiment = {
-		name= "4. Bakhsh-i Piyadenizam"
-		type = infantry
-		home = 1135
-	}
-
-	regiment = {
-		name= "5. Bakhsh-i Piyadenizam"
-		type = infantry
-		home = 3278
-	}
-
-	regiment = {
-		name= "Cavalry"
-		type = cavalry
-		home = 3278
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 1134
-	}
-}
-
-army = {
-	name = "Northern Army of Persia"
-	location = 1112
-	regiment = {
-		name= "10. Bakhsh-i Piyadenizam"
+		name= "1st Infantry"
 		type = infantry
 		home = 1108
 	}
-
+	
 	regiment = {
-		name= "11. Bakhsh-i Piyadenizam"
+		name= "2nd Infantry"
 		type = infantry
-		home = 1112
-	}
-
-	regiment = {
-		name= "Cavalry"
-		type = cavalry
-		home = 1111
-	}
-
-	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 1113
-	}
-
-}
-
-army = {
-	name = "Central Army of Persia"
-	location = 1127
-	regiment = {
-		name= "16. Bakhsh-i Piyadenizam"
-		type = infantry
-		home = 1130
-	}
-
-	regiment = {
-		name= "17. Bakhsh-i Piyadenizam"
-		type = infantry
-		home = 1140
-	}
-
-	regiment = {
-		name= "Cavalry"
-		type = cavalry
-		home = 1143
+		home = 1108
 	}
 	
 	regiment = {
-		name= "Artillery"
-		type = artillery
-		home = 1134
+		name= "3rd Infantry"
+		type = infantry
+		home = 1113
 	}
-
+	
+	regiment = {
+		name= "4th Infantry"
+		type = infantry
+		home = 1113
+	}
+	
+	regiment = {
+		name= "1st Calvry"
+		type = dragoon
+		home = 1113
+	}
+	
+	regiment = {
+		name= "1st Artillery"
+		type = artillery
+		home = 1117
+	}
+	
+	regiment = {
+		name= "2nd Artillery"
+		type = artillery
+		home = 1121
+	}
+	
+	regiment = {
+		name= "3rd Artillery"
+		type = artillery
+		home = 1127
+	}
+	
+	regiment = {
+		name= "4th Artillery"
+		type = artillery
+		home = 1127
+	}
+	
+	regiment = {
+		name= "5th Artillery"
+		type = artillery
+		home = 1128
+	}
+	
 }
 
+army = {
+	name = "2nd Army"
+	location = 1131
+	
+	regiment = {
+		name= "1st Infantry"
+		type = infantry
+		home = 1128
+	}
+	
+	regiment = {
+		name= "2nd Infantry"
+		type = infantry
+		home = 1128
+	}
+	
+	regiment = {
+		name= "3rd Infantry"
+		type = infantry
+		home = 1131
+	}
+	
+	regiment = {
+		name= "4th Infantry"
+		type = infantry
+		home = 1135
+	}
+	
+	regiment = {
+		name= "1st Calvry"
+		type = dragoon
+		home = 1139
+	}
+	
+	regiment = {
+		name= "1st Artillery"
+		type = artillery
+		home = 1148
+	}
+	
+	regiment = {
+		name= "2nd Artillery"
+		type = artillery
+		home = 1147
+	}
+	
+	regiment = {
+		name= "3rd Artillery"
+		type = artillery
+		home = 1147
+	}
+	
+	regiment = {
+		name= "4th Artillery"
+		type = artillery
+		home = 1148
+	}
+	
+}

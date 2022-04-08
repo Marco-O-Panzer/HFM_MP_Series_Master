@@ -512,8 +512,10 @@ country_event = {
 				}
 			}
 			owner = {
-				treasury = -3000000
-				FROM = { treasury = 3000000 }
+				treasury = -2000000					#stack overflow otherwise
+				FROM = { treasury = 2000000 }
+				treasury = -1000000
+				FROM = { treasury = 1000000 }
 			}
 		}
 	}  
@@ -526,8 +528,10 @@ country_event = {
 				}
 			}
 			owner = {
-				treasury = -4000000
-				FROM = { treasury = 4000000 }
+				treasury = -2000000
+				FROM = { treasury = 2000000 }
+				treasury = -2000000
+				FROM = { treasury = 2000000 }
 			}
 		}
 	}  
@@ -540,8 +544,12 @@ country_event = {
 				}
 			}
 			owner = {
-				treasury = -5000000
-				FROM = { treasury = 5000000 }
+				treasury = -2000000
+				FROM = { treasury = 2000000 }
+				treasury = -2000000
+				FROM = { treasury = 2000000 }
+				treasury = -1000000
+				FROM = { treasury = 1000000 }
 			}
 		}
 	}  
@@ -554,8 +562,12 @@ country_event = {
 				}
 			}
 			owner = {
-				treasury = -6000000
-				FROM = { treasury = 6000000 }
+				treasury = -2000000
+				FROM = { treasury = 2000000 }
+				treasury = -2000000
+				FROM = { treasury = 2000000 }
+				treasury = -2000000
+				FROM = { treasury = 2000000 }
 			}
 		}
 	}  
@@ -568,8 +580,14 @@ country_event = {
 				}
 			}
 			owner = {
-				treasury = -7000000
-				FROM = { treasury = 7000000 }
+				treasury = -2000000
+				FROM = { treasury = 2000000 }
+				treasury = -2000000
+				FROM = { treasury = 2000000 }
+				treasury = -2000000
+				FROM = { treasury = 2000000 }
+				treasury = -1000000
+				FROM = { treasury = 1000000 }
 			}
 		}
 	}  
@@ -582,8 +600,14 @@ country_event = {
 				}
 			}
 			owner = {
-				treasury = -8000000
-				FROM = { treasury = 8000000 }
+				treasury = -2000000
+				FROM = { treasury = 2000000 }
+				treasury = -2000000
+				FROM = { treasury = 2000000 }
+				treasury = -2000000
+				FROM = { treasury = 2000000 }
+				treasury = -2000000
+				FROM = { treasury = 2000000 }
 			}
 		}
 	}  
@@ -596,8 +620,16 @@ country_event = {
 				}
 			}
 			owner = {
-				treasury = -9000000
-				FROM = { treasury = 9000000 }
+				treasury = -2000000
+				FROM = { treasury = 2000000 }
+				treasury = -2000000
+				FROM = { treasury = 2000000 }
+				treasury = -2000000
+				FROM = { treasury = 2000000 }
+				treasury = -2000000
+				FROM = { treasury = 2000000 }
+				treasury = -1000000
+				FROM = { treasury = 1000000 }
 			}
 		}
 	}  

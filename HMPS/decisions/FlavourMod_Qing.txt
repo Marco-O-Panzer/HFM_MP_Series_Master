@@ -1255,7 +1255,6 @@ political_decisions = {
 				neighbour = THIS
 			}
 			has_global_flag = black_flag_army
-			has_country_flag = self_strengthening_movement
 			NOT = { has_country_flag = annexed_black_flag }
 		}
 		
@@ -1265,6 +1264,7 @@ political_decisions = {
 				war_policy = jingoism
 				war_policy = pro_military
 			}
+			has_country_flag = self_strengthening_movement
 		}
 		
 		effect = {

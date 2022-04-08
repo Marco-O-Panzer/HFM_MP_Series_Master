@@ -107,166 +107,54 @@ navy = {
 }
 
 army = {
-	name = "Army of Egypt"
+	name = "1st Army"
 	location = 1745
 	regiment = {
-		name= "1.1 Artillery"
-		type = artillery
-		home = 1745
+		name= "1st Infantry"
+		type = infantry
+		home = 894
+	}
+	
+	regiment = {
+		name= "2nd Infantry"
+		type = infantry
+		home = 1827
+	}
+	
+	regiment = {
+		name= "3rd Infantry"
+		type = infantry
+		home = 1763
+	}
+	
+	regiment = {
+		name= "4th Infantry"
+		type = infantry
+		home = 1751
 	}
 
 	regiment = {
-		name= "1.1 Sipahis"
+		name= "1st Calvary"
 		type = dragoon
-		home = 1745
-	}
-
-	regiment = {
-		name= "2.1 Sipahis"
-		type = hussar
-		home = 1745
-	}
-
-	regiment = {
-		name= "1.1 Infantry"
-		type = infantry
-		home = 1745
-	}
-
-	regiment = {
-		name= "2.1 Infantry"
-		type = infantry
-		home = 1745
-	}
-
-	regiment = {
-		name= "2.1 Artillery"
-		type = artillery
-		home = 1750
-	}
-
-	regiment = {
-		name= "3.1 Infantry"
-		type = infantry
-		home = 1751
-	}
-
-	regiment = {
-		name= "3.1 Artillery"
-		type = artillery
-		home = 1747
-	}
-	
-	regiment = {
-		name= "4.1 Artillery"
-		type = artillery
 		home = 1751
 	}
 	
 	regiment = {
-		name= "5.1 Artillery"
+		name= "1st Artillery"
 		type = artillery
-		home = 1751
-	}
-}
-
-army = {
-	name = "Army of Syria"
-	location = 902
-
-	regiment = {
-		name= "1.3 Infantry"
-		type = irregular
-		home = 1746
-	}
-
-	regiment = {
-		name= "2.3 Infantry"
-		type = irregular
-		home = 1752
-	}
-
-	regiment = {
-		name= "3.3 Infantry"
-		type = irregular
-		home = 1748
-	}
-
-	regiment = {
-		name= "1.4th Division"
-		type = irregular
-		home = 1749
-	}
-
-	regiment = {
-		name= "2.4th Division"
-		type = irregular
-		home = 1765
-	}
-
-	regiment = {
-		name= "3.4th Division"
-		type = irregular
-		home = 1764
-	}
-
-}
-
-army = {
-	name = "Army of the Upper Nile"
-	location = 916
-	regiment = {
-		name= "1.2 Sipahis"
-		type = cavalry
 		home = 1745
 	}
-
+	
 	regiment = {
-		name= "2.2 Sipahis"
-		type = cavalry
-		home = 1751
+		name= "2nd Artillery"
+		type = artillery
+		home = 1745
 	}
-
+	
 	regiment = {
-		name= "3.2 Sipahis"
-		type = cavalry
-		home = 1762
-	}
-
-	regiment = {
-		name= "1.5 Infantry"
-		type = irregular
-		home = 1827
-	}
-
-	regiment = {
-		name= "2.5 Infantry"
-		type = irregular
-		home = 1827
-	}
-
-	regiment = {
-		name= "3.5 Infantry"
-		type = irregular
-		home = 1828
-	}
-
-	regiment = {
-		name= "1.6 Infantry"
-		type = irregular
-		home = 1829
-	}
-
-	regiment = {
-		name= "2.6 Infantry"
-		type = irregular
-		home = 1830
-	}
-
-	regiment = {
-		name= "3.6 Infantry"
-		type = irregular
-		home = 1831
+		name= "3rd Artillery"
+		type = artillery
+		home = 1745
 	}
 
 }

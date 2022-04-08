@@ -78,6 +78,7 @@ country_event = {
 	
 	trigger = {
 		tag = ENG
+		ai = yes
 		AFG = {
 			vassal_of = ENG
 			ai = yes

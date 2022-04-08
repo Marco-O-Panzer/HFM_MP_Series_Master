@@ -33,67 +33,25 @@ leader = {
 }
 
 army = {
-	name = "Stratós Thessalías"
+	name = "1st Army"
 	location = 836
-	regiment = {
-		name= "1st Greek Infantry"
-		type = infantry
-		home = 834
-	}
-
-	regiment = {
-		name= "2nd Greek Infantry"
-		type = infantry
-		home = 834
-	}
-
-	regiment = {
-		name= "3rd Greek Infantry"
-		type = infantry
-		home = 834
-	}
-
-	regiment = {
-		name= "4th Greek Infantry"
-		type = infantry
-		home = 837
-	}
-	
 	regiment = {
 		name= "1st Greek Cavalry"
 		type = dragoon
-		home = 837
+		home = 842
 	}
 	
 	regiment = {
 		name= "1st Greek Artillery"
 		type = artillery
-		home = 845
+		home = 834
 	}
 	
 	regiment = {
 		name= "2nd Greek Artillery"
 		type = artillery
-		home = 842
+		home = 834
 	}
-	
-	regiment = {
-		name= "3rd Greek Artillery"
-		type = artillery
-		home = 841
-	}
-
-	regiment = {
-		name= "4th Greek Artillery"
-		type = artillery
-		home = 840
-	}
-
-	regiment = {
-		name= "5th Greek Artillery"
-		type = artillery
-		home = 836
-	}		
 }
 
 

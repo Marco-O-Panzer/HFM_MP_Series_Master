@@ -9,7 +9,6 @@ political_decisions = {
 				exists = CAN 
 				exists = QUE
 				exists = FCA
-				exists = ACA
 				QUE = { any_core = { controlled_by = THIS } }
 			}
 			has_country_flag = french_america

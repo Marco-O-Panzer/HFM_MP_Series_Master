@@ -97,7 +97,7 @@ Everything else is our own (as far as I remember).
 - Fully funded UBI has a very slightly reduced rate
 
 ## Economic
-Overseas penalty increase 3x, to 0.1 per provinces
+Overseas penalty increased to 0.025 per provinces
 #### Goods
 - Copper (RGO): Used to make bronze and in electrical goods
 - Tin (RGO): Used to make bronze
@@ -124,6 +124,7 @@ Overseas penalty increase 3x, to 0.1 per provinces
 - Naval Bases: No longer give navy cap, max lvl increased to 8
 
 ## Military
+War score from battles is capped at 25
 #### Units
 Soldier pops concentrate in state capitals, requires 3k soldier pops for 1st brigade (then 5k onwards)
 - Bombers: 'Attack version' of planes (fighters)
@@ -150,12 +151,13 @@ Soldier pops concentrate in state capitals, requires 3k soldier pops for 1st bri
 ## Flava
 Many nations no longer need (only) GP for flava, or high prestige. War policy requirements relaxed, and can't form nations on players
 #### Europe
-- UK: Can revolt to the UFB, can keep Irish accepted, can annex the EIC at the start 
+- UK: Can revolt to the UFB, can keep Irish accepted, annexes the EIC at the start 
 - FRA: Can take empire flava as the Republic
 - AUS: Can form SGF (and release its non German land)
 - DNB: RnG removed & cultures now accepted via decisions
 - RUS: Only cores Poland late-campaign, option to take all of Manchuria, decision to core CPL land
 - Ottos: Tanzimat reforms can be completed as a republic & Arab revolt won't remove accepted cultures
+- NET: Starts with Indonesian puppets annexed, and can quickly annex Aceh and Jambi
 - POR: Can unite with Brazil to form the UPB
 #### Americas
 - USA: Can claim all of Mexico (with only standard MD cores)

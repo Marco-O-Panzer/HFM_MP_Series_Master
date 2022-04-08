@@ -15,48 +15,31 @@ leader = {
 }
 
 army = {
-	name = "Danske Haeren"
+	name = "1st Army"
 	location = 372
+	
 	regiment = {
-		name= "1.1. Infanteridivision"
-		type = infantry
-		home = 372
+		name= "1st Cavalry"
+		type = hussar
+		home = 367
 	}
-
+	
 	regiment = {
-		name= "2.1. Infanteridivision"
-		type = infantry
-		home = 372
+		name= "1st Artillery"
+		type = artillery
+		home = 367
 	}
-
+	
 	regiment = {
-		name= "3.1. Infanteridivision"
-		type = infantry
+		name= "2nd Artillery"
+		type = artillery
 		home = 372
 	}
 	
 	regiment = {
-		name= "1.2. Infanteridivision"
-		type = infantry
-		home = 366
-	}
-
-	regiment = {
-		name= "2.2. Infanteridivision"
-		type = infantry
-		home = 366
-	}
-
-	regiment = {
-		name= "3.2. Infanteridivision"
-		type = infantry
-		home = 366
-	}
-
-	regiment = {
-		name= "1.1. Kavalleridivision"
-		type = dragoon
-		home = 373
+		name= "3rd Artillery"
+		type = artillery
+		home = 372
 	}
 
 }

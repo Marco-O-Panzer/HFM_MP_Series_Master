@@ -260,6 +260,7 @@ country_event = {
 		1371 = { add_core = HQJ }
 		1372 = { add_core = HQJ }
 		casus_belli = { target = QNG type = release_puppet months = 36 }
+		casus_belli = { target = HQJ type = conquest_any months = 36 }
 		release = HQJ
 		HQJ = {
 			define_general = {
@@ -317,7 +318,12 @@ country_event = {
 		casus_belli = {
 			target = QNG
 			type = release_puppet
-			months = 12
+			months = 36
+		}
+		casus_belli = {
+			target = HQJ
+			type = conquest_any
+			months = 36
 		}
 		war = {
 			target = QNG
