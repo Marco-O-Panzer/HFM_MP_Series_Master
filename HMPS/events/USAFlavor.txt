@@ -2533,3 +2533,119 @@ country_event = {
 		}
 	}
 }
+
+### If No USA
+country_event = {
+	id = 7777934
+	title = "EVTNAME33040"
+	desc = "EVTDESC33040"
+	picture = "migration_usa"
+
+	trigger = {
+		tag = CLN
+		NOT = { exists = USA }
+		year = 1900
+		NOT = { has_country_flag = lr_normalized_usa_2 }
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = { months = 1 }
+	
+	option = {
+		name = "EVT33040OPTA"
+		set_country_flag = lr_normalized_usa_2
+		USA = {
+			any_core = {
+				limit = {
+					life_rating = 41
+					OR = {
+						continent = north_america
+						continent = europe
+					}
+				}
+				life_rating = -1
+			}
+			any_core = {
+				limit = {
+					life_rating = 40
+					OR = {
+						continent = north_america
+						continent = europe
+					}
+				}
+				life_rating = -1
+			}
+			any_core = {
+				limit = {
+					life_rating = 39
+					OR = {
+						continent = north_america
+						continent = europe
+					}
+				}
+				life_rating = -1
+			}
+			any_core = {
+				limit = {
+					life_rating = 38
+					OR = {
+						continent = north_america
+						continent = europe
+					}
+				}
+				life_rating = -1
+			}
+			any_core = {
+				limit = {
+					life_rating = 37
+					OR = {
+						continent = north_america
+						continent = europe
+					}
+				}
+				life_rating = -1
+			}
+			any_core = {
+				limit = {
+					life_rating = 36
+					OR = {
+						continent = north_america
+						continent = europe
+					}
+				}
+				life_rating = -1
+			}
+			any_core = {
+				limit = {
+					life_rating = 35
+					OR = {
+						continent = north_america
+						continent = europe
+					}
+				}
+				life_rating = -1
+			}
+			any_core = {
+				limit = {
+					life_rating = 34
+					OR = {
+						continent = north_america
+						continent = europe
+					}
+				}
+				life_rating = -1
+			}
+			any_core = {
+				limit = {
+					life_rating = 33
+					OR = {
+						continent = north_america
+						continent = europe
+					}
+				}
+				life_rating = -1
+			}
+		}
+	}
+}

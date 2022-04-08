@@ -62,6 +62,11 @@ country_event = {
 			factor = 0.5
 			has_country_flag = in_great_war
 		}
+		
+		modifier = {
+			factor = 0.5
+			revanchism = 0.2
+		}
 	}
 
 	option = {

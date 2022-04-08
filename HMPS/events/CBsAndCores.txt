@@ -958,6 +958,7 @@ province_event = {
 	
 	trigger = {
 		owner = { is_substate = no }
+		owner = { is_vassal = no }
 		owner = { NOT = { has_country_modifier = preparations_to_kill } NOT = { any_owned_province = { has_province_modifier = genocide } } }
 		NOT = {
 			is_core = THIS
@@ -979,28 +980,27 @@ province_event = {
 				is_coastal = yes
 			}
 		}
-		owner = {
-			is_vassal = no
-		}
 		NOT = {
-			owner = { tag = ENG }
-			NOT = { year = 1900 }
-			OR = {
-				is_core = AST
-				is_core = NZL
-				is_core = CAN
-				is_core = RPL
-				is_core = NEW
-				is_core = QUE
-				is_core = MRU
-				is_core = ACA
-				is_core = COL
+			AND = {
+				owner = { tag = ENG }
+				NOT = { year = 1900 }
+				OR = {
+					is_core = AST
+					is_core = NZL
+					is_core = CAN
+					is_core = RPL
+					is_core = NEW
+					is_core = QUE
+					is_core = MRU
+					is_core = ACA
+					is_core = COL
+				}
 			}
 		}
 	}
 	
 	mean_time_to_happen = {
-		months = 100
+		months = 1 #quick to start the process
 		modifier = {
 			factor = 0.5
 			owner = { citizens_rights = all_voting_pops }

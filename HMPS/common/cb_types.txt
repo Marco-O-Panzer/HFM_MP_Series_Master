@@ -5106,15 +5106,6 @@ demand_concession_CHI_casus_belli = {
 			THIS = { ai = no }
 		}
 		
-		#Restrictions to Chinese State conquering
-		OR = {
-			#Non-Japan limits
-			THIS = { ai = no NOT = { capital_scope = { continent = asia } } naval_logistics = 1 machine_guns = 1  any_owned_province = { port = yes } }
-			
-			#Japan limits
-			THIS = { ai = no capital_scope = { continent = asia } naval_statistics = 1 breech_loaded_rifles = 1 any_owned_province = { port = yes } }
-		}
-		
 		NOT = { THIS = { has_country_modifier = our_home } }
 		NOT = { THIS = { has_country_modifier = come_all } }
 	}
@@ -5124,30 +5115,20 @@ demand_concession_CHI_casus_belli = {
 		
 		any_owned_province = { is_core = CHI }
 		
-		#NOT = { any_owned_province = { is_capital = yes } }
+		#Restrictions to Chinese State conquering
 		OR = {
-			any_owned_province = { any_neighbor_province = { owned_by = THIS } }
-			THIS = { ai = no war_with = THIS }
+			#Non-Japan limits
 			AND = {
-				any_owned_province = { port = yes }
-				THIS = { any_owned_province = { port = yes } }
-			}
-		}
-		OR = {
-			any_owned_province = {
-				NOT = {
-					any_core = {
-						exists = yes
-						alliance_with = THIS
-					}
+				THIS = { ai = no NOT = { capital_scope = { continent = asia } } machine_guns = 1 }
+				OR = {
+					THIS = { naval_logistics = 1 any_owned_province = { port = yes } }
+					THIS = { tag = RUS }
+					THIS = { tag = PER }	# as any_owned_province = { is_overseas = no } condition only checks the target
 				}
 			}
-			THIS = { ai = no }
-		}
-		OR = {
-			any_owned_province = { NOT = { is_core = KOR } }
-			THIS = { ai = no }
-			THIS = { is_culture_group = east_asian }
+			
+			#Japan limits
+			THIS = { ai = no capital_scope = { continent = asia } naval_statistics = 1 breech_loaded_rifles = 1 any_owned_province = { port = yes } }
 		}
 	}
 	
@@ -5277,6 +5258,8 @@ demand_concession_casus_belli = {
 		
 		#Restrictions to Chinese State conquering
 		NOT = { any_owned_province = { is_core = CHI } }
+		
+		
 		#NOT = { any_owned_province = { is_capital = yes } }
 		OR = {
 			any_owned_province = { any_neighbor_province = { owned_by = THIS } }
@@ -6241,16 +6224,25 @@ establish_protectorate_casus_belli = {
 				}
 			}
 		}
-		#Restrictions to Chinese State conquering
+		
+		#Restrictions to East Asia State conquering
 		OR = {
 			NOT = { is_culture_group = east_asian }
 		
 			#Non-Japan limits
-			THIS = { ai = no NOT = { capital_scope = { continent = asia } } naval_logistics = 1 machine_guns = 1  any_owned_province = { port = yes } }
+			AND = {
+				THIS = { ai = no NOT = { capital_scope = { continent = asia } } machine_guns = 1 }
+				OR = {
+					THIS = { naval_logistics = 1 any_owned_province = { port = yes } }
+					THIS = { tag = RUS }
+					THIS = { tag = PER }	# as any_owned_province = { is_overseas = no } condition only checks the target
+				}
+			}
 			
 			#Japan limits
 			THIS = { ai = no capital_scope = { continent = asia } naval_statistics = 1 breech_loaded_rifles = 1 any_owned_province = { port = yes } }
 		}
+		
 		NOT = { THIS = { has_country_modifier = our_home } }
 		NOT = { THIS = { has_country_modifier = come_all } }
 	}
@@ -6352,7 +6344,8 @@ establish_protectorate_NI_casus_belli = {
 				}
 			}
 		}
-		#Restrictions to Chinese State conquering
+		
+		#Restrictions to East Asia State conquering
 		NOT = { is_culture_group = east_asian }
 		
 		NOT = { THIS = { has_country_modifier = our_home } }
@@ -6452,7 +6445,8 @@ establish_protectorate_BC_casus_belli = {
 				}
 			}
 		}
-		#Restrictions to Chinese State conquering
+		
+		#Restrictions to East Asia State conquering
 		NOT = { is_culture_group = east_asian }
 		
 		NOT = { THIS = { has_country_modifier = our_home } }
