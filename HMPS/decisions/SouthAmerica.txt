@@ -47,8 +47,7 @@ political_decisions = {
 			OR = {
 				slavery = no_slavery
 				AND = {
-					invention = national_fraternity
-					realism = 1
+					nationalism_n_imperialism = 1
 					NOT = { slavery = no_slavery }
 					OR = {
 						upper_house = { ideology = liberal value = 0.2 }
