@@ -36,6 +36,7 @@ Everything else is our own (as far as I remember).
 #### National Values
 - Can change via decision if republic or anarchist
 #### Reforms
+- No militancy gain for unenforced war goals
 - Executive: Can allow executive power, options restricted via government form
 - Militarization: Raises or lowers the max soldier pops per state
 - UBI option for socialists & vanguardists (very high pension level)
@@ -46,6 +47,7 @@ Everything else is our own (as far as I remember).
 - Require 2% bureaucrats to state colonies
 #### Parties
 - Anarchists: Rare, similar to socialists, successful rebels will enforce Anarchism
+- No party loyalty loss on war loss
 #### National Focuses
 - Party support increased to 0.010 daily
 - Assimilation NF
