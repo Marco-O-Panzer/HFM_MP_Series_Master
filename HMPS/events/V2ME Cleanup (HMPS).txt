@@ -668,24 +668,16 @@ country_event = {
 						### Bosphorus Strait
 						province_id = 859
 						province_id = 860
-						province_id = 861
-						province_id = 865
 						
 						### Aden Strait
-						province_id = 1412
 						province_id = 1875
 						
 						### Indonesian Straits
 						province_id = 1384
-						province_id = 1402
-						province_id = 1403
 						province_id = 1413
-						province_id = 1420
 						province_id = 1438
 						province_id = 1442
-						province_id = 1440
 						province_id = 1439
-						province_id = 1444
 						province_id = 1446
 					}
 				}

@@ -82,6 +82,7 @@ political_decisions = {
 			NOT = { has_country_modifier = academic_confusion }
 			OR = {
 				ruling_party_ideology = liberal
+				ruling_party_ideology = socialist
 				ruling_party_ideology = fascist
 				ruling_party_ideology = communist
 			}

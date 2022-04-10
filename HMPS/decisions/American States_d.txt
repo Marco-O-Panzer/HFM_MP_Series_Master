@@ -130,6 +130,7 @@ political_decisions = {
 	}
 	
 	NEN_maritimes_conquest = {
+		picture = new_england_town
 		potential = {
 			is_vassal = no
 			tag = NEN
@@ -176,6 +177,7 @@ political_decisions = {
 		}
 	}
 	NEN_maritimes_purchase = {
+		picture = new_england_town
 		potential = {
 			tag = NEN
 			NOT = { has_country_flag = NEN_maritimes_purchase }
@@ -213,6 +215,7 @@ political_decisions = {
 	}
 	
 	NEN_lawrence_purchase = {
+		picture = new_england_town
 		potential = {
 			tag = NEN
 			OR = {
@@ -274,6 +277,7 @@ political_decisions = {
 		}
 	}
 	NEN_lawrence_conquest = {
+		picture = new_england_town
 		potential = {
 			is_vassal = no
 			tag = NEN

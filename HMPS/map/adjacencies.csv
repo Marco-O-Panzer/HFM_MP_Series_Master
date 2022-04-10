@@ -518,30 +518,21 @@ From;To;Type;Through;Data;Comment
 2781;2769;canal;1755;2;Suez Canal
 2968;3001;canal;1723;3;Panama Canal
 2773;2774;canal;860;4;Bosphorus Strait
-2773;2774;canal;861;5;Bosphorus Strait
-2772;2773;canal;859;6;Dardanelles Strait
-2772;2773;canal;865;7;Dardanelles Strait
-2711;2710;canal;372;8;Copenhagen Strait
-2711;2712;canal;372;9;Copenhagen Strait
-2746;2745;canal;517;10;Gibraltar Strait
-2746;2747;canal;517;11;Gibraltar Strait
-2746;2925;canal;517;12;Gibraltar Strait
-2746;2745;canal;2590;13;Gibraltar Strait
-2746;2747;canal;2590;14;Gibraltar Strait
-2746;2925;canal;2590;15;Gibraltar Strait
-2782;2783;canal;1412;16;Aden Strait
-2782;2783;canal;1875;17;Aden Strait
-2801;2814;canal;1384;18;Malacca Strait
-2801;2814;canal;1402;19;Malacca Strait
-2805;2813;canal;1403;20;Batavia Strait
-2805;2813;canal;1413;21;Batavia Strait
-2807;2811;canal;1420;22;Javan Strait
-2807;2811;canal;1438;23;Javan Strait
-2808;2811;canal;1442;24;Lombok Strait
-2808;2811;canal;1440;25;Lombok Strait
-2809;2810;canal;1439;26;Flores Strait
-2809;2854;canal;1444;27;Alor Strait
-2809;2854;canal;1446;28;Alor Strait
+2772;2773;canal;859;5;Dardanelles Strait
+2711;2710;canal;372;6;Copenhagen Strait
+2711;2712;canal;372;7;Copenhagen Strait
+2746;2745;canal;517;8;North Gibraltar Strait
+2746;2747;canal;517;9;North Gibraltar Strait
+3305;2925;canal;2590;10;South Gibraltar Strait
+3305;2747;canal;2590;11;South Gibraltar Strait
+3305;2745;canal;2590;12;Cadiz - South Gibraltar Strait
+2782;2783;canal;1875;13;Aden Strait
+2801;2814;canal;1384;14;Malacca Strait
+2805;2813;canal;1413;15;Batavia Strait
+2807;2811;canal;1438;16;Javan Strait
+2808;2811;canal;1442;17;Lombok Strait
+2809;2810;canal;1439;18;Flores Strait
+2809;2854;canal;1446;19;Alor Strait
 
 #World Bank Neighbouring Provinces
 
@@ -3299,7 +3290,7 @@ From;To;Type;Through;Data;Comment
 3302;3234;impassable;0;0;
 3303;3234;impassable;0;0;
 3304;3234;impassable;0;0;
-#### Sea Adjacencies ####
+#### Sea Adjacencies ####  Need to be redone
 2881;2513;sea;0;0;
 2881;2515;sea;0;0;
 2881;2516;sea;0;0;
