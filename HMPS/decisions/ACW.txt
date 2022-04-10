@@ -400,7 +400,6 @@ political_decisions = {
 	manifest_destiny = {
 		potential = {
 			tag = USA
-			is_greater_power = yes
 			NOT = { has_country_flag = hasmanifestdestiny }
 		}
 		allow = {

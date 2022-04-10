@@ -471,7 +471,7 @@ political_decisions = {
 			NOT = { has_country_flag = refused_kalmar_union }
 			NOT = { has_country_flag = post_colonial_country }
 			capital_scope = { continent = europe }
-			any_neighbor_country = kalmar_union
+			any_neighbor_country = { has_country_modifier = kalmar_union }
 			NOT = { exists = SCA }
 		}
 		
