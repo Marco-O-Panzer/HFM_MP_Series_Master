@@ -242,13 +242,9 @@ TKM		= "countries/Turkmenistan.txt"
 TKS		= "countries/Turkestan.txt"
 UYG		= "countries/Uyghurstan.txt"
 UZB		= "countries/Uzbekistan.txt"
+
 #Atlas' Additions
 DZD		= "countries/Dozdab.txt"
-BSR		= "countries/Bushehr.txt"
-KGN		= "countries/Kagan.txt"
-ZFN		= "countries/Zafaranlu.txt"
-SHD		= "countries/Shadlu.txt"
-ARB		= "countries/Arabistan.txt"
 KUN		= "countries/Kunduz.txt"
 
 #India

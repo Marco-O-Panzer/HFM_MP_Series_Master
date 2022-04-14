@@ -1,6 +1,5 @@
-owner = KGN
-controller = KGN
-add_core = KGN
+owner = PER
+controller = PER
 add_core = PER
 trade_goods = fish
 life_rating = 35

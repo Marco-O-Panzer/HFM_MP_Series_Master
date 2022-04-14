@@ -172,8 +172,6 @@ revoke_kurdish_autonomy = {
 			OR = {
 				is_our_vassal = RDL
 				is_our_vassal = MKN
-				is_our_vassal = SHD
-				is_our_vassal = ZFN
 			}
 		}
 		
@@ -340,94 +338,6 @@ bring_tea_to_iran = {
 		ai_will_do = { factor = 1 }
 	}
 
-#Annexes Bushehr, Kangan and Arabistan
-revoke_coastal_emirate_autonomy = {
-		picture = persia_map
-		potential = {
-			tag = PER
-			OR = {
-				AND = { 1136 = { owner = { civilized = no } NOT = { owned_by = PER } }  NOT = { has_country_flag = bushehr_annexed } }
-				AND = { 1138 = { owner = { civilized = no } NOT = { owned_by = PER } }  NOT = { has_country_flag = kangan_annexed } }
-				AND = { 1132 = { owner = { civilized = no } NOT = { owned_by = PER } }  civilized = yes NOT = { has_country_flag = arabistan_annexed } }
-			}
-		}
-		
-		allow = {
-			OR = {
-				AND = {
-					1136 = { owner = { vassal_of = THIS } NOT = { owned_by = PER } } #Bushehr
-					OR = {
-					civilized = yes 
-					civilization_progress = 0.3
-					}
-				}
-				AND = {
-					1138 = { owner = { vassal_of = THIS } NOT = { owned_by = PER } } #Kangan
-					OR = {
-					civilized = yes 
-					civilization_progress = 0.8
-					}
-				}
-				AND = {
-					1132 = { owner = { vassal_of = THIS } NOT = { owned_by = PER } } #Arabistan
-					civilized = yes 
-				}
-			}
-		}
-		
-		effect = {
-			random_owned = {
-				limit = {
-					KGN = { vassal_of = PER }
-					PER = {
-					    OR = {
-					       civilization_progress = 0.3
-						   civilized = yes
-						}
-						NOT = { has_country_flag = bushehr_annexed }
-						NOT = { owns = 1136 }
-					}	
-				}
-				owner = {
-					set_country_flag = bushehr_annexed 
-					inherit = BSR
-				}
-			}
-			random_owned = {
-				limit = {
-					KGN = { vassal_of = PER }
-					PER = {
-					    OR = {
-					       civilization_progress = 0.8
-						   civilized = yes
-						}
-						NOT = { has_country_flag = kangan_annexed }
-						NOT = { owns = 1138 }
-					}	
-				}
-				owner = {
-					set_country_flag = kangan_annexed 
-					inherit = KGN
-				}
-			}
-			random_owned = {
-				limit = {
-					ARB = { vassal_of = PER }
-					PER = {
-						civilized = yes
-						NOT = { has_country_flag = arabistan_annexed }
-						NOT = { owns = 1132 }
-					}	
-				}
-				owner = {
-					set_country_flag = arabistan_annexed 
-					inherit = ARB
-				}
-			}
-		}
-		
-		ai_will_do = { factor = 1 }
-	}
 
 #Annexes Qaleh Ganj, Bandar-e 'Abbas
 regain_omani_coast = {

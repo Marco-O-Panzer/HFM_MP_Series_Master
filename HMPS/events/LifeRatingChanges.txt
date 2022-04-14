@@ -274,7 +274,7 @@ country_event = {
 	option = {
 		name = "EVT33040OPTA"
 		set_country_flag = lr_normalized_usa
-		any_owned = {
+		any_core = {
 			limit = {
 				life_rating = 45
 				OR = {
@@ -284,7 +284,7 @@ country_event = {
 			}
 			life_rating = -1
 		}
-		any_owned = {
+		any_core = {
 			limit = {
 				life_rating = 44
 				OR = {
@@ -294,7 +294,7 @@ country_event = {
 			}
 			life_rating = -1
 		}
-		any_owned = {
+		any_core = {
 			limit = {
 				life_rating = 43
 				OR = {
@@ -304,7 +304,7 @@ country_event = {
 			}
 			life_rating = -1
 		}
-		any_owned = {
+		any_core = {
 			limit = {
 				life_rating = 42
 				OR = {
@@ -314,7 +314,7 @@ country_event = {
 			}
 			life_rating = -1
 		}
-		any_owned = {
+		any_core = {
 			limit = {
 				life_rating = 41
 				OR = {
@@ -324,7 +324,7 @@ country_event = {
 			}
 			life_rating = -1
 		}
-		any_owned = {
+		any_core = {
 			limit = {
 				life_rating = 40
 				OR = {
@@ -334,7 +334,7 @@ country_event = {
 			}
 			life_rating = -1
 		}
-		any_owned = {
+		any_core = {
 			limit = {
 				life_rating = 39
 				OR = {
@@ -344,7 +344,7 @@ country_event = {
 			}
 			life_rating = -1
 		}
-		any_owned = {
+		any_core = {
 			limit = {
 				life_rating = 38
 				OR = {
@@ -354,7 +354,7 @@ country_event = {
 			}
 			life_rating = -1
 		}
-		any_owned = {
+		any_core = {
 			limit = {
 				life_rating = 37
 				OR = {
@@ -364,7 +364,7 @@ country_event = {
 			}
 			life_rating = -1
 		}
-		any_owned = {
+		any_core = {
 			limit = {
 				life_rating = 36
 				OR = {
@@ -374,7 +374,7 @@ country_event = {
 			}
 			life_rating = -1
 		}
-		any_owned = {
+		any_core = {
 			limit = {
 				life_rating = 36
 				OR = {
@@ -384,7 +384,7 @@ country_event = {
 			}
 			life_rating = -1
 		}
-		any_owned = {
+		any_core = {
 			limit = {
 				life_rating = 36
 				OR = {
@@ -394,7 +394,7 @@ country_event = {
 			}
 			life_rating = -1
 		}
-		any_owned = {
+		any_core = {
 			limit = {
 				life_rating = 36
 				OR = {
@@ -404,7 +404,7 @@ country_event = {
 			}
 			life_rating = -1
 		}
-		any_owned = {
+		any_core = {
 			limit = {
 				life_rating = 36
 				OR = {
@@ -443,7 +443,7 @@ country_event = {
 	option = {
 		name = "EVT33040OPTA"
 		set_country_flag = lr_normalized_usa_2
-		any_owned = {
+		any_core = {
 			limit = {
 				life_rating = 41
 				OR = {
@@ -453,7 +453,7 @@ country_event = {
 			}
 			life_rating = -1
 		}
-		any_owned = {
+		any_core = {
 			limit = {
 				life_rating = 40
 				OR = {
@@ -463,7 +463,7 @@ country_event = {
 			}
 			life_rating = -1
 		}
-		any_owned = {
+		any_core = {
 			limit = {
 				life_rating = 39
 				OR = {
@@ -473,7 +473,7 @@ country_event = {
 			}
 			life_rating = -1
 		}
-		any_owned = {
+		any_core = {
 			limit = {
 				life_rating = 38
 				OR = {
@@ -483,7 +483,7 @@ country_event = {
 			}
 			life_rating = -1
 		}
-		any_owned = {
+		any_core = {
 			limit = {
 				life_rating = 37
 				OR = {
@@ -493,7 +493,7 @@ country_event = {
 			}
 			life_rating = -1
 		}
-		any_owned = {
+		any_core = {
 			limit = {
 				life_rating = 36
 				OR = {
@@ -503,7 +503,7 @@ country_event = {
 			}
 			life_rating = -1
 		}
-		any_owned = {
+		any_core = {
 			limit = {
 				life_rating = 35
 				OR = {
@@ -513,7 +513,7 @@ country_event = {
 			}
 			life_rating = -1
 		}
-		any_owned = {
+		any_core = {
 			limit = {
 				life_rating = 34
 				OR = {
@@ -523,7 +523,7 @@ country_event = {
 			}
 			life_rating = -1
 		}
-		any_owned = {
+		any_core = {
 			limit = {
 				life_rating = 33
 				OR = {

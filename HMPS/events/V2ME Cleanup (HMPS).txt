@@ -559,6 +559,10 @@ country_event = {
 						province_id = 872
 						province_id = 844
 						
+						### Egypt
+						province_id = 1757
+						province_id = 1772
+						
 						### Russia
 						province_id = 966
 						province_id = 1049
