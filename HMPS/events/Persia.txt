@@ -740,17 +740,15 @@ country_event = {
 			tag = PER
 			tag = TUR
 		}
-		OR ={
-			PER = { ai = yes }
-			TUR = { ai = yes }
-		}
 		NOT = {
-			exists = RDL
-			exists = MKN
-			exists = BNB
-			exists = BTL
-			exists = BHT
-			exists = BDN
+			OR = {
+				exists = RDL
+				exists = MKN
+				exists = BNB
+				exists = BTL
+				exists = BHT
+				exists = BDN
+			}
 		}
 	}
 		
@@ -829,15 +827,20 @@ country_event = {
 		TUR = {
 			add_casus_belli = {
 				target = PER
-				type = acquire_all_cores
-				months = 12
+				type = acquire_state
+				months = 24
 			}
 		}
 		PER = {
 			add_casus_belli = {
 				target = TUR
-				type = acquire_all_cores
-				months = 12
+				type = acquire_state
+				months = 24
+			}
+			add_casus_belli = {
+				target = TUR
+				type = demand_concession_casus_belli
+				months = 24
 			}
 		}
 		

@@ -522,9 +522,8 @@ political_reforms = {
 			rules = { all_voting = yes }
 			non_accepted_pop_militancy_modifier = -0.01
 			global_assimilation_rate = 0.2
-			global_immigrant_attract = 0.40
+			global_immigrant_attract = 0.50
 			allow = {
-				#NOT = { has_country_flag = residency_party }
 				has_country_flag = revolution_n_counter_researched
 				NOT = { any_state = { is_colonial = yes } }
 				vote_franschise = universal_voting
